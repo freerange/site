@@ -5,42 +5,120 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-	<title>Free Range. Hatching soon.</title>
+	<title>Free Range</title>
 	
-	<style>
-	  body {
-	    background: url(/images/paper.png);
-	  }
-	  
-	  h1 {
-	    width: 513px;
-	    height: 115px;
-	    margin: 6em auto;
-	    background: url(/images/freerange.png) top left;
-	  }
-	  
-	  p a {
-	    display: block;
-	    position: absolute;
-	    bottom: 1em;
-	    right: 1em;
-	    width: 303px;
-	    height: 35px;
-	    background: url(/images/email.png) top left;
-	  }
-	  
-	  h1 span, h2, a span {
-	    display: none;
-	  }
-	</style>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-size: 18px;
+      font-family: "Garamond";
+      background-color: #fff;
+    }
+    
+    #container {
+      margin: auto auto;
+      width: 800px;
+    }
+    
+    #header {
+      margin: 3em 0;
+    }
+    
+    #header,
+    #navigation {
+      width: 250px;
+    }
+    
+    #navigation {
+      float: left;
+    }
+    
+    #content {
+      float: left;
+      width: 450px;
+    }
+    
+    #header h1 {
+      font-size: 600%;
+      line-height: 0.9em;
+      font-family: "Rockwell";
+      font-weight: normal;
+      color: #fff;
+      text-shadow: #ddd 2px 4px 5px;
+      
+    }
+    
+    ul#navigation {
+      font-size: 200%;
+      list-style: none;
+      margin-right: 1em;
+      text-align: right;
+      color: #999;
+    }
+    
+    ul#navigation li.current:after {
+      content: " »";
+    }
+    
+    ul#navigation a {
+      color: #999;
+      text-decoration: none;
+    }
+    
+    ul#navigation a:hover {
+      text-shadow: #DDD 2px 1px 2px;
+    }
+    
+    ul#navigation li.current a {
+      color: #444;
+    }
+    
+    #content h2 {
+      margin-bottom: 0.5em;
+    }
+    
+    #content p {
+      margin-bottom: 1em;
+    }
+    
+    #content p:first-child {
+      font-size: 200%;
+      margin-bottom: 0.5em;
+      text-shadow: #DDD 3px 2px 2px;
+      
+    }
+  </style>
 
 </head>
 
 <body>
 
-<h1><span>Free Range</span></h1>
-<h2>Hatching soon.</h2>
-<p><a href="mailto:lets@gofreerange.com?subject=I'd like to go Free Range"><span>lets@gofreerange.com</span></a></p>
+  <div id="container">
+    <div id="header">
+      <h1>Free Range</h1>
+    </div>
+
+    <ul id="navigation">
+      <li class="current"><a href="/about-us">About us</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/portfolio">Portfolio</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+
+    <div id="content">
+      <p>We are a boutique software development co-operative, based in London, in the UK.</p>
+      <p>Small by design, we are building a new kind of business with a focus on quality, reputation, sustainability and happiness.</p>
+    
+      <h2>Lorem Ipsum</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
