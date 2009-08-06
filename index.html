@@ -7,73 +7,18 @@
 
 	<title>Free Range</title>
 	
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    
-    body {
-      font-size: 18px;
-      font-family: "Garamond";
-      background-color: #fff;
-    }
-    
-    #container {
-      margin: 2em auto;
-      width: 800px;
-    }
-    
-    #header {
-      margin: 1em auto;
-      padding: 3em 0;
-      border-bottom: 1px solid #f5f5f5;
-    }
-    
-    #header h1 {
-      font-size:600%;
-      line-height: 0.7em;
-      font-family: "Rockwell";
-      font-weight: normal;
-      color: #fff;
-      text-shadow: #ddd 2px 4px 4px;
-      text-align: center;
-    }
-    
-    #content {
-      padding-top: 1.2em;
-    }
-    
-    #content h2 {
-      margin-bottom: 0.5em;
-    }
-    
-    #content p {
-      margin: 0 1em 1em 0;
-      float: left;
-      width: 370px;
-    }
-    
-    #content p:first-child {
-      font-size: 200%;
-      margin-bottom: 0.5em;
-      text-shadow: #eee 3px 2px 2px;
-    }
-    
-    /* colours */
-    
-    #content h2 {
-      color: #372;
-    }
-    
-    #content p:first-child {
-      color: #594;
-    }
-  </style>
-
+  <link rel="stylesheet" type="text/css" title="plain" href="stylesheets/plain.css">
+	<link rel="alternate stylesheet" type="text/css" title="classy" href="stylesheets/classy.css">
 </head>
 
 <body>
+
+  <div class="controls" style="position: absolute; top: 10px; left: 10px;">
+    <form>
+    <input type="submit" onclick="switch_style('plain');return false;" value="Plain">
+    <input type="submit" onclick="switch_style('classy');return false;" value="Classy">
+    </form>
+  </div>
 
   <div id="container">
     <div id="header">
@@ -96,5 +41,21 @@ try {
 var pageTracker = _gat._getTracker("UA-8045787-1");
 pageTracker._trackPageview();
 } catch(err) {}</script>
+
+<script type="text/javascript">
+function switch_style(css_title) {
+  var i, link_tag ;
+  for (i = 0, link_tag = document.getElementsByTagName("link") ;
+    i < link_tag.length ; i++ ) {
+    if ((link_tag[i].rel.indexOf( "stylesheet" ) != -1) &&
+      link_tag[i].title) {
+      link_tag[i].disabled = true ;
+      if (link_tag[i].title == css_title) {
+        link_tag[i].disabled = false ;
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>
