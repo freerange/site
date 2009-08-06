@@ -1,36 +1,87 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
 	<title>Free Range</title>
-	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/switcher.css">
   <link rel="stylesheet" type="text/css" title="plain" href="stylesheets/plain.css">
 	<link rel="alternate stylesheet" type="text/css" title="classy" href="stylesheets/classy.css">
 </head>
-
 <body>
-
-  <div class="controls" style="position: absolute; top: 10px; left: 10px;">
+  <div id="controls">
     <form>
-    <input type="submit" onclick="switch_style('plain');return false;" value="Plain">
-    <input type="submit" onclick="switch_style('classy');return false;" value="Classy">
+      <a href="#" onclick="switch_style('plain');return false;">plain</a>
+      <a href="#" onclick="switch_style('classy');return false;">classy</a>
     </form>
   </div>
 
   <div id="container">
     <div id="header">
       <h1>Free Range</h1>
-    </div>
+    </div
+    
 
-    <div id="content">
-      <p>We are a small software development co-operative, based in London.</p>
-      <p>Small by design, we are developing software with a focus on reputation, sustainability, quality and happiness.</p>
-      <p>Rather than cover our site with posturing bullshit, <a href="mailto:lets@gofreerange.com">get in touch</a> and we'll </p>
+    <div id="content">      
+      <div id="intro">
+        <p>We are a software development co-operative, based in London.</p>
+        <p>Small by design, we are <a href="#portfolio">developing software</a> with a focus on <a href="#values">reputation, sustainability, quality and happiness.</a></p>
+      </div>
+      
+      <div id="values">
+        <h2>Values</h2>
+        <p>Lots of companies talk about their values</p>
+        <dl>
+          <dt>Reputation</dt><dd>is the only currency that really matters. Advertising is bullshit. We want our clients to be so happy with us that their recommendations are all we need to keep working.</dd>
+          <dt>Sustainability</dt><dd>means ... . Free Range has no ambitions to balloon into a large company, with all the risks that brings. We're here to stay, and the best way to survive is to be lean and agile, in every sense. As a cooperative, we're perfectly poised to stay this way.</dd>
+          <dt>Quality</dt><dd>is the fuel for our reputation. Free Range pools some of the most respected developers together; individually we were already focussed on building great, innovative software using best practices, but together, there's nothing we can't do.</dd>
+          <dt>Happiness</dt><dd>is all that really matters. For your perspective, happy developers build better software.</dd>
+        </dl>
+      </div>
+      
+      <div id="portfolio">
+        <h2>Portfolio</h2>
+        <ul>
+          <li id="theauteurs">
+            <h3>TheAuteurs.com</h3>
+            <img src="images/portfolio/theauteurs-thumb.png" width="256" height="192">
+            <p><a href="http://www.theauteurs.com">TheAuteurs.com</a> is an 'ongoing, online film festival', where you can watch choice films from around the world, and interact with other cineophiles to get great recommendations about what you should be watching. It's a great site which we use daily.</p>
+            <p>Free Range is collaborating with The Auteurs to bring new features to their community. As a significant and established application, we're also working to ensure that they can continue to rapidly develop their site without compromising on code quality.</p>
+          </li>
+          <li id="newleaders">
+            <h3>New Leaders</h3>
+            <img src="images/portfolio/newleaders-thumb.png" width="256" height="192">
+            <img src="images/portfolio/newleaders2-thumb.png" width="256" height="192">
+            <p>We've worked together with New Leaders in California to build a number of web applications for their clients, from event management to weight loss tools.</p>
+            <p>We've also helped them improve their development process by sharing our architecture and testing expertise.</p>
+          </li>
+          <li>
+            <h3>Open source projects</h3>
+            <p>Members of Free Range are also typically the authors of many open source projects. Here's a sample of a few of them.</p>
+            <ul>
+              <li>The engines plugin</li>
+              <li>Vanilla.rb</li>
+              <li>Gitnode</li>
+              <li>FreeAgent Widget</li>
+              <li>Stikkit Widget</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      
+      <div id="contact">
+        <h2>Contact Us</h2>
+        <div id="details">
+          <p><a href="mailto:lets@gofreerange.com?subject=Lets+build+something+great+together">Email Us</a></p>
+          <p>Call us on +447973428644</p>
+          <p class="contact">First Floor, 163 Seymour Place, London W1H 4PL</p>
+          <p>Company Number 06789592</p>
+        </div>
+      </div>
     </div>
   </div>
+  
+  
   
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -47,8 +98,7 @@ function switch_style(css_title) {
   var i, link_tag ;
   for (i = 0, link_tag = document.getElementsByTagName("link") ;
     i < link_tag.length ; i++ ) {
-    if ((link_tag[i].rel.indexOf( "stylesheet" ) != -1) &&
-      link_tag[i].title) {
+    if ((link_tag[i].rel.indexOf("stylesheet") != -1) && link_tag[i].title) {
       link_tag[i].disabled = true ;
       if (link_tag[i].title == css_title) {
         link_tag[i].disabled = false ;
