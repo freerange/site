@@ -4,54 +4,91 @@
 <head>
 	<title>Free Range</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <link rel="stylesheet" type="text/css" href="stylesheets/switcher.css">
-  <link rel="stylesheet" type="text/css" title="plain" href="stylesheets/plain.css">
-	<link rel="alternate stylesheet" type="text/css" title="classy" href="stylesheets/classy.css">
+  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/switcher.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" title="plain" href="stylesheets/plain.css"> -->
+  <link rel="stylesheet" type="text/css" title="classy" href="stylesheets/classy.css">
+  <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.ui.min.js"></script>
 </head>
 <body>
-  <div id="controls"><!-- for development only -->
-    <form>
-      <a href="#" onclick="switch_style('plain');return false;">plain</a>
-      <a href="#" onclick="switch_style('classy');return false;">classy</a>
-    </form>
-  </div>
-
   <div id="container">
-    <div id="header">
-      <h1>Free Range</h1>
-    </div
-    
 
-    <div id="content">      
-      <div id="intro">
-        <p>We are a software development co-operative, based in London.</p>
-        <p>Small by design, we are <a href="#portfolio">developing software</a> with a focus on <a href="#values">reputation, sustainability, quality and happiness.</a></p>
+    <div id="header">
+      <h1>#freerange</h1>
+    
+      <div id="nav">
+        <ul id="nav_links">
+
+        </ul>
       </div>
+    
+    </div>
+  
+    <div id="feature">
+      <h1 id="feature_heading"></h1>
+    </div>
+  
+    <div id="content">
       
-      <div id="values">
+      <div id="why">
+        <h1>Why use a freeranger?</h1>
+        
+        <h2>We are a software development co-operative, based in London.</h2>
+        
+        <p>Small by design, we are <a href="#portfolio">developing software</a> with a focus on <a href="#values">reputation, sustainability, quality and happiness.</a></p>
+        
         <h2>What sets us apart</h2>
         <p>Free Range isn't a typical company, because we have no CEO or top-down structure. We work as colleagues and peers, which means that we're all directly involved in the development of our software.</p>
         <p>We've chosen this structure because it allows us to collaborate with some of the best developers in the world. Unlike more typical companies we have almost no overhead costs, which means we can focus entirely on delivering </p>
       </div>
       
-      <div id="portfolio">
-        <h2>Portfolio</h2>
-        <ul>
-          <li id="theauteurs">
-            <h3>TheAuteurs.com</h3>
+      <div id="what">
+        <h1>What can we do for you?</h1>
+        
+        <h2>Innovate</h2>
+        <P>Whether to improve your current business or create something completely new, we innovate with you to be more than just developers</P>
+        
+        <h2>Improve Scalability</h2>
+        <P></P>
+        
+        <h2>Just Build Things</h2>
+        <P></P>
+      </div>
+      
+      <div id="how">
+        <h1>How we do it?</h1>
+        
+        <h2>More than just one</h2>
+        <P>As a co-operative we bring together the best brains in the industry to work with our clients</P>
+        
+        <h2>User Centric</h2>
+        <P>We take user centric design a step further, not only do we listen to your needs and translate them into development user stories but advise on the best things you can do with (web?) technology for your business. If with our experience we know that something can be done better we will tell you and make sure we do it.</P>
+        
+        <h2>Latest Tech</h2>
+        <P>Using latest technologies, we are ruby lovers which means our team have a large amount of experience in Rails, Sinatra, Camping and other Ruby frameworks. On top of the language we understand the latest developments in web technology, xmpp, amqp, pubsubhubbub (insert latest tech) that if needed can improve your business.</P>
+        
+        <h2>Only Agile</h2>
+        <P>We work no other way, if you hand us a big design up front spec we won't be able to help you.</P>
+        
+        <h2>Always a product</h2>
+        <P>By using agile we make sure your product can always be released and improved. This also means that you can use our services in flexible ways that fits your budget</P>
+      </div>
+      
+      <div id="where">
+        <h1>Where have we been?</h1>
+        
+            <h2>TheAuteurs.com</h2>
             <img src="images/portfolio/theauteurs-thumb.png" width="256" height="192">
             <p><a href="http://www.theauteurs.com">TheAuteurs.com</a> is an 'ongoing, online film festival', where you can watch choice films from around the world, and interact with other cineophiles to get great recommendations about what you should be watching. It's a great site which we use daily.</p>
             <p>Free Range is collaborating with The Auteurs to bring new features to their community. As a significant and established application, we're also working to ensure that they can continue to rapidly develop their site without compromising on code quality.</p>
-          </li>
-          <li id="newleaders">
-            <h3>New Leaders</h3>
+          
+            <h2>New Leaders</h2>
             <img src="images/portfolio/newleaders-thumb.png" width="256" height="192">
             <img src="images/portfolio/newleaders2-thumb.png" width="256" height="192">
             <p>We've worked together with New Leaders in California to build a number of web applications for their clients, from event management to weight loss tools.</p>
             <p>We've also helped them improve their development process by sharing our architecture and testing expertise.</p>
-          </li>
-          <li>
-            <h3>Open source projects</h3>
+
+            <h2>Open source projects</h2>
             <p>Members of Free Range are also typically the authors of many open source projects. Here's a sample of a few of them.</p>
             <ul>
               <li>The engines plugin</li>
@@ -61,11 +98,13 @@
               <li>Stikkit Widget</li>
               <li>ActivePlaces Reloaded</li>
             </ul>
-          </li>
-        </ul>
+            
       </div>
       
-      <div id="contact">
+      <div id="who">
+        <h1>Who are we?</h1>
+        
+        <h2>Team</h2>
         <h2>Contact Us</h2>
         <div id="details">
           <p><a href="mailto:lets@gofreerange.com?subject=Lets+build+something+great+together">Email Us</a></p>
@@ -77,7 +116,7 @@
     </div>
   </div>
   
-  
+<script type="text/javascript" src="javascripts/application.js"></script>
   
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
