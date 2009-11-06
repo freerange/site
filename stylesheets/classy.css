@@ -127,6 +127,10 @@ body {
    height:300px;*/
 }
 
+#content #team .pending {
+  font-style: italic;
+}
+
 #content #details {
   margin:1em 0em;
 }
