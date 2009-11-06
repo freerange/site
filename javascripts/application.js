@@ -3,7 +3,8 @@ function updateFeature() {
   if ($("#content > div:visible > h1").html() != $("#feature_heading").html()) {  
     $("#content > div:visible").each(function(){
       //alert($(" > h1",this).text());
-      $("#feature > h1").hide("slide",{direction:"left"},300).show("slide",{direction:"right"},300);
+      //$("#feature > h1").hide("slide",{direction:"left"},300).show("slide",{direction:"right"},300);
+      $("#feature > h1").show();
       $(" > h1",this).hide();
       $("#feature_heading").html( $(" > h1",this).html() );
       $("#feature > h1").show();
