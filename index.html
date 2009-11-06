@@ -30,6 +30,23 @@
   
     <div id="content">
       
+      <div id="wave">
+        <h1>The wave of the way we work</h1>
+        <div id="wave_content" style="height: 420px"></div>
+        <script
+          type="text/javascript"
+          src="http://wave-api.appspot.com/public/embed.js">
+        </script>
+        <script type="text/javascript">
+          var wave =
+            new WavePanel('https://wave.google.com/wave/');
+          wave.setUIConfig('white', 'black', 'Arial', '13px');
+          wave.loadWave('googlewave.com!w+flz9nr78B');
+          wave.init(document.getElementById('wave_content'));
+        </script>
+        
+      </div>
+      
       <div id="why">
         <h1>Why use a freeranger?</h1>
         
@@ -56,22 +73,20 @@
       </div>
       
       <div id="how">
-        <h1>How we do it?</h1>
+        <h1>How we work?</h1>
         
-        <h2>More than just one</h2>
-        <P>As a co-operative we bring together the best brains in the industry to work with our clients</P>
+        <h2>Come to us early with your idea</h2>
+        <P>or; "we prefer great ideas over detailed spec document"</P>
         
-        <h2>User Centric</h2>
-        <P>We take user centric design a step further, not only do we listen to your needs and translate them into development user stories but advise on the best things you can do with (web?) technology for your business. If with our experience we know that something can be done better we will tell you and make sure we do it.</P>
+        <h2>We are a team of great developers</h2>
+        <ul><li>fairly well known individuals, often with existing reputations and/or open-source kudos</li>
+          <li>the first UK development supergroup?</li>
+          <li>also, we work together well; complementary skills?</li>
+        </ul>
         
-        <h2>Latest Tech</h2>
-        <P>Using latest technologies, we are ruby lovers which means our team have a large amount of experience in Rails, Sinatra, Camping and other Ruby frameworks. On top of the language we understand the latest developments in web technology, xmpp, amqp, pubsubhubbub (insert latest tech) that if needed can improve your business.</P>
-        
-        <h2>Only Agile</h2>
-        <P>We work no other way, if you hand us a big design up front spec we won't be able to help you.</P>
-        
-        <h2>Always a product</h2>
-        <P>By using agile we make sure your product can always be released and improved. This also means that you can use our services in flexible ways that fits your budget</P>
+        <h2>We only develop using agile</h2>
+        <P></P>
+        <P><a href="http://agilemanifesto.org">Read more</a> at the agile manifesto website</P>
       </div>
       
       <div id="where">
