@@ -1,8 +1,0 @@
-Notes--- # Soup attributes
-:updated_at: 2009-11-10 15:15:44.655043 +00:00
-:render_as: Ruby
-:next_note_id: 1
-:name: notes
-:note_template: <dt>[link]</dt><dd>[note]</dd>
-:main_template: <dl>[notes]</dl>
-:created_at: 2009-11-10 15:15:44.655041 +00:00

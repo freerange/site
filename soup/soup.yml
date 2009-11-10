@@ -1,7 +1,0 @@
-Soup is a data store supporting the {link_to snip}-space that {link_to vanilla-rb} expects.
-
-It's hosted on github <a href="http://github.com/lazyatom/soup">here</a>.
---- # Soup attributes
-:updated_at: 2009-11-10 15:15:44.693102 +00:00
-:name: soup
-:created_at: 2009-11-10 15:15:44.693101 +00:00
