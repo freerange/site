@@ -16,5 +16,11 @@
   </ul>
 </div>
 
+<div id="contact">
+  <h1>Contact Us</h1>
+  {contact_details}
+</div>
+
+
 --- # Soup attributes
 :name: start
