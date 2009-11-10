@@ -1,13 +1,15 @@
-<h2>Open source projects</h2>
-<p>Members of Free Range are also typically the authors of many open source projects. Here's a sample of a few of them.</p>
-<ul>
-  <li>The engines plugin</li>
-  <li>Vanilla.rb</li>
-  <li>Gitnode</li>
-  <li>FreeAgent Widget</li>
-  <li>Stikkit Widget</li>
-  <li>ActivePlaces Reloaded</li>
-</ul>
+Open source projects
+-----
+Members of Free Range are also typically the authors of many open source projects. Here's a sample of a few of them.
+
+* [Rails Engines](http://rails-engines.org)
+* [Vanilla.rb](http://interblah.net/vanilla-rb)
+* [Mocha](http://mocha.rubyforge.org)
+* [Gitnode](http://github.com/lazyatom/gitnode)
+* [FreeAgent Widget](http://interblah.net/freeagent-widget)
+* [ActivePlaces Reloaded](?)
+
 
 --- # Soup attributes
 :name: open-source
+:render_as: Markdown
