@@ -134,3 +134,13 @@ body {
 #content #details {
   margin:1em 0em;
 }
+
+
+/** vanilla **/
+textarea {
+  width: 100%;
+}
+
+textarea.content {
+  min-height: 10em;
+}
