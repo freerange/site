@@ -1,3 +1,9 @@
+<div id="how">
+  <h1>How we work?</h1>
+  {come-to-us-early}
+  {software-is-alive}
+</div>
+
 <div id="work">
   <h1>Our Work</h1>
   {our-work}
