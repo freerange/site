@@ -1,12 +1,16 @@
-<h2>Always a product</h2>
-<P>We always develop a product that can be released at every iteration. So you can always keep improving your product - well something along this lines</P>
-<P>Delivering working software gives visibility of our progress</P>
-<P>By starting with something simple and iterating towards the best solution is very powerful as you gain many advantages:
-  <ul><li>This means that you'll be getting working software at least every week</li>
-    <li>You'll be able to work with us flexibly, deciding when to start, stop and pause on work you want us to do</li>
-    <li>You keep your options open and don't have to spend your money before you have to</li>
-    <li>Further development based on feedback from someone actually using working software is so much more valuable than someone pontificating in abstract terms</li>
-  </ul>
+Always a product
+-----
+We always develop a product that can be released at every iteration. So you can always keep improving your product - well something along this lines
+
+Delivering working software gives visibility of our progress
+
+By starting with something simple and iterating towards the best solution is very powerful as you gain many advantages:
+
+* This means that you'll be getting working software at least every week
+* You'll be able to work with us flexibly, deciding when to start, stop and pause on work you want us to do
+* You keep your options open and don't have to spend your money before you have to
+* Further development based on feedback from someone actually using working software is so much more valuable than someone pontificating in abstract terms
 
 --- # Soup attributes
 :name: always-a-product
+:render_as: Markdown
