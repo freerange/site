@@ -1,0 +1,11 @@
+RandomNumber--- # Soup attributes
+:updated_at: 2009-11-10 15:15:44.653487 +00:00
+:render_as: Ruby
+:usage: |-
+  Returns a random number, normally between 1 and 100. 
+      The range can be limited:
+      
+      &#123;rand 50&#125; renders a random number between 1 and 50
+      &#123;rand 2,19&#125; renders a random number between 2 and 19
+:name: rand
+:created_at: 2009-11-10 15:15:44.653486 +00:00

@@ -1,0 +1,8 @@
+Kind--- # Soup attributes
+:updated_at: 2009-11-10 15:15:44.661709 +00:00
+:render_as: Ruby
+:snip_template: "\n    <div class=\"snip SNIP_KIND\">\n      <div class=\"details\">\n        {link_to_current_snip}\n        <p class=\"created_at\">CREATED_AT</p>\n      </div>\n      <div class=\"content\">\n        SNIP_CONTENT\n      </div>\n    </div>\n  "
+:domain: yourdomain.com
+:feed_title: Your Blog
+:name: kind
+:created_at: 2009-11-10 15:15:44.661693 +00:00

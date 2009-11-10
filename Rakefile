@@ -1,3 +1,6 @@
+require 'vanilla'
+load 'tasks/vanilla.rake'
+
 require 'rake/contrib/sshpublisher'
 
 task :default => :publish

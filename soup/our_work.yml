@@ -1,0 +1,7 @@
+{portfolio the_auteurs}
+{portfolio new_leaders}
+{open_source}
+
+--- # Soup attributes
+:name: our_work
+:render_as: Markdown

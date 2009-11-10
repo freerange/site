@@ -1,0 +1,97 @@
+You're in the system snip now. You probably want to {edit_link system,edit} it though.--- # Soup attributes
+:updated_at: 2009-11-10 15:15:44.678153 +00:00
+:login_template: |
+  <html>
+    <head><link rel="stylesheet" type="text/css" media="screen" href="/system/css.css" /></head>
+    <body id="login">
+      <form action='' method='post'>
+        <h1>Login</h1><p class="message">MESSAGE</p>
+        <label>Name: <input type="text" name="name"></input></label>
+        <label>Password: <input type="password" name="password"></input></label>
+        <button>login</button>
+      </form>
+    </body>
+  </html>
+
+:name: system
+:css: |
+  body {
+    font-family: Helvetica;
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div#content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1em;
+  }
+  
+  div#controls {
+  font-size: 80%;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #999;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  textarea.content {
+    min-height: 10em;
+  }
+  
+  pre {
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    padding: 1em;
+  }
+  
+  a.new {
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #999;
+    padding: 0.2em;
+  }
+  
+  a.new:hover {
+    text-decoration: underline;
+  }
+
+:main_template: |
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+  <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>{current_snip name}</title>
+    <script language="javascript" src="/public/javascripts/jquery.js"></script>
+    <script language="javascript" src="/public/javascripts/jquery.autogrow-textarea.js"></script>
+    <script language="javascript" src="/public/javascripts/vanilla.js"></script>
+    <script type="text/javascript" src="/public/javascripts/jquery.ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" title="classy" href="/public/stylesheets/classy.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen"  href="<%= url_to("system", "css.css") %>" /> -->
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="header">
+        {header}
+      </div>
+
+      <div id="feature">
+        <h1 id="feature_heading"></h1>
+      </div>
+
+      <div id="content">
+      {current_snip}
+      </div>
+
+    </div>
+    {javascripts}
+  </body>
+  </html>
+
+:created_at: 2009-11-10 15:15:44.678152 +00:00

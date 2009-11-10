@@ -1,0 +1,11 @@
+class BadDynasnip
+  def get(*args)
+    raise "Oh no"
+  end
+end
+BadDynasnip
+--- # Soup attributes
+:updated_at: 2009-11-10 15:15:44.709481 +00:00
+:render_as: Ruby
+:name: bad_dynasnip
+:created_at: 2009-11-10 15:15:44.709480 +00:00

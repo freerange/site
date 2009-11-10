@@ -1,0 +1,15 @@
+EditLink--- # Soup attributes
+:updated_at: 2009-11-10 15:15:44.667770 +00:00
+:render_as: Ruby
+:usage: |-
+  You can use the edit_link snip to insert links for editing other snips. For example: 
+  
+    &#123;edit_link blah&#125; 
+    
+  would insert a link to an editor for the blah snip.
+  
+  You can also give a custom piece of text for the link, like this:
+  
+    &#123;edit_link blah,link-name&#125;
+:name: edit_link
+:created_at: 2009-11-10 15:15:44.667769 +00:00
