@@ -1,24 +1,24 @@
 <div id="work">
   <h1>Our Work</h1>
-  {our_work}
+  {our-work}
 </div>
 
 <div id="team">
   <h1>The Team</h1>
   <ul>
     <!-- can we mark these up as hcard? -->
-    <li>{member james_adam}</li>
-    <li>{member james_andrews}</li>
-    <li>{member james_mead}</li>
-    <li>{member luke_redpath}</li>
-    <li>{member kalvir_sandhu}</li>
-    <li>{member tom_ward}</li>
+    <li>{member james-adam}</li>
+    <li>{member james-andrews}</li>
+    <li>{member james-mead}</li>
+    <li>{member luke-redpath}</li>
+    <li>{member kalvir-sandhu}</li>
+    <li>{member tom-ward}</li>
   </ul>
 </div>
 
 <div id="contact">
   <h1>Contact Us</h1>
-  {contact_details}
+  {contact-details}
 </div>
 
 

@@ -2,7 +2,7 @@
 <p>Free Range is collaborating with The Auteurs to bring new features to their community. As a significant and established application, we're also working to ensure that they can continue to rapidly develop their site without compromising on code quality.</p>
 
 --- # Soup attributes
-:name: the_auteurs
+:name: the-auteurs
 :display_name: TheAuteurs.com
 :url: http://www.theauteurs.com
 :images:
