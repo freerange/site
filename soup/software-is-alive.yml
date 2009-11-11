@@ -1,9 +1,11 @@
-<h2>Software is alive</h2>
-<ul>
-  <li>it's not a static artefact, so it can't be described by a static spec or plan</li>
-  <li>it needs to grow and evolve according to its environment, to best suit the needs of its users. These needs change over time, even as the software is being built.</li>
-  <li>the best way to do this is to get feedback as soon as possible, and at every stage thereafter</li>
-</ul>
+Software is alive
+-----
+* We know that software is not a static artefact and so cannot be described by a static spec or plan.
+* It needs to grow and evolve according to its environment, to best suit the needs of its users.
+* These needs change over time, even as the software is being built.
+* By getting early and regular feedback from users in real scenarios, we can identify and fulfill these needs.
+* By not compromising on quality and by avoiding unnecessary complexity, we can keep the system flexible and adaptable.
 
 --- # Soup attributes
 :name: software-is-alive
+:render_as: Markdown
