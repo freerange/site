@@ -34,6 +34,8 @@ function addLinks() {
     
     window.location.hash = $(this).text() + "_section";
     
+    document.title = $("#feature > h1").text() + " :: Free Range";
+    
     highlightLink();
     
     return false;
@@ -46,6 +48,8 @@ function highlightLink(){
 }
 
 $(document).ready(function(){
+  
+  document.title = "Free Range";
   
   // Hide all content divs
   hideAll();
