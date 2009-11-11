@@ -1,5 +1,9 @@
-James is a long-time Rubyist and one of the instigators of <a href="http://lrug.org">LRUG</a> and <a href="http://rubymanor.org">Ruby Manor</a>. Since finishing his PhD, he&#8217;s been building applications using Ruby and Rails, including work on <a href="http://www.theauteurs.com">theauteurs.com</a> and <a href="http://www.reevoo.com">Reevoo</a>. James wrote the book on <a href="http://lazyatom.com">Rails plugins</a>, and maintains a whole bunch of <a href="http://github.com/lazyatom">open source libraries</a>, including <a href="http://interblah.net/vanilla-rb">Vanilla.rb</a>, <a href="http://github.com/lazyatom/soup">soup</a> and the <a href="http://rails-engines.org">engines plugin</a> for Rails.
+James is a long-time Rubyist and one of the instigators of [LRUG](http://lrug.org) and [Ruby Manor](http://rubymanor.org). Since finishing his PhD, he's been building applications using Ruby and Rails, including work on [theauteurs.com](http://www.theauteurs.com) and [Reevoo](http://www.reevoo.com). 
+
+James wrote the book on [Rails plugins](http://lazyatom.com/plugins), and maintains a whole bunch of [open source libraries](http://github.com/lazyatom), including [Vanilla.rb](http://interblah.net/vanilla-rb), [soup](http://github.com/lazyatom/soup) and the [engines plugin](http://rails-engines.org) for Rails.
+
 --- # Soup attributes
 :name: james-adam
 :site: lazyatom.com
 :image: http://www.gravatar.com/avatar/acd62030df551952268e84c8fff26a5b?s=80
+:render_as: Markdown
