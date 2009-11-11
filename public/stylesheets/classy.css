@@ -11,7 +11,8 @@ body {
 }
 
 #container {
-  min-width:1000px;
+  width: 900px;
+  margin: 0 auto;
 }
 
 #header {
@@ -23,7 +24,6 @@ body {
   font-family: "Monaco";
   font-weight: normal;
   float:left;
-  padding-left:50px;
   line-height: 95px;
 }
 
@@ -37,7 +37,6 @@ body {
 
 #header #nav {
   float:right;
-  padding-right:30px;
   padding-top:55px;
 }
 
@@ -52,7 +51,7 @@ body {
 #header #nav li {
   float:left;
   font-size:1.3em;
-  width:100px;
+  width:70px;
   font-family: "Arial";
   color: #888;
   height:50px;
@@ -67,9 +66,8 @@ body {
 
 #feature h1 {
   font-size:2em;
-  font-weight:normal;
+  font-weight:bold;
   padding:10px 0px;
-  padding-left:50px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
