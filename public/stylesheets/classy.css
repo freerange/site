@@ -24,6 +24,15 @@ body {
   font-weight: normal;
   float:left;
   padding-left:50px;
+  line-height: 95px;
+}
+
+#header h1 .hash {
+  color: #666;
+}
+
+#header h1 .free {
+  color: #888;
 }
 
 #header #nav {
