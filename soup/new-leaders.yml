@@ -1,0 +1,10 @@
+<p>We've worked together with New Leaders in California to build a number of web applications for their clients, from event management to weight loss tools.</p>
+<p>We've also helped them improve their development process by sharing our architecture and testing expertise.</p>
+
+--- # Soup attributes
+:name: new-leaders
+:display_name: New Leaders
+:images:
+  - newleaders-thumb.png
+  - newleaders2-thumb.png
+:url: http://www.newleaders.com

@@ -1,0 +1,16 @@
+class Portfolio < Dynasnip
+  def handle(name)
+    snip = app.soup[name]
+    "<h2>#{snip.display_name}</h2>" + 
+    snip.images.map do |image_url|
+      %{<img src="/public/images/portfolio/#{image_url}" width="256" height="192">}
+    end.join +
+    app.render(snip)
+  end
+  
+  self
+end
+
+--- # Soup attributes
+:name: portfolio
+:render_as: Ruby

@@ -1,0 +1,44 @@
+<div id="about">
+  <h1>About</h1>
+
+  {about}
+
+</div>
+
+<div id="how">
+  <h1>How we work?</h1>
+
+  {software-is-alive}
+  {always-a-product}
+  {collaboration}
+
+</div>
+
+<div id="work">
+  <h1>Our Work</h1>
+
+  {our-work}
+
+</div>
+
+<div id="team">
+  <h1>The Team</h1>
+
+  <ul>
+    <!-- can we mark these up as hcard? -->
+    <li>{member james-adam}</li>
+    <li>{member james-andrews}</li>
+    <li>{member james-mead}</li>
+    <li>{member luke-redpath}</li>
+    <li>{member kalvir-sandhu}</li>
+    <li>{member tom-ward}</li>
+  </ul>
+
+</div>
+
+<div id="contact">
+  <h1>Contact Us</h1>
+
+  {contact-details}
+
+</div>

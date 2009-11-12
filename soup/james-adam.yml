@@ -1,0 +1,9 @@
+James is a long-time Rubyist and one of the instigators of [LRUG](http://lrug.org) and [Ruby Manor](http://rubymanor.org). Since finishing his PhD, he's been building applications using Ruby and Rails, including work on [theauteurs.com](http://www.theauteurs.com) and [Reevoo](http://www.reevoo.com). 
+
+James wrote the book on [Rails plugins](http://lazyatom.com/plugins), and maintains a whole bunch of [open source libraries](http://github.com/lazyatom), including [Vanilla.rb](http://interblah.net/vanilla-rb), [soup](http://github.com/lazyatom/soup) and the [engines plugin](http://rails-engines.org) for Rails.
+
+--- # Soup attributes
+:name: james-adam
+:site: lazyatom.com
+:image: http://www.gravatar.com/avatar/acd62030df551952268e84c8fff26a5b?s=80
+:render_as: Markdown

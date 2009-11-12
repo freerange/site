@@ -1,0 +1,31 @@
+<h2>The Company</h2>
+<ul>
+  <!-- should we even mention we are small? and/or based in London? -->
+  <li>A small software development company based in London, UK.</li>
+  <!-- do we need some adjectives/superlatives here? -->
+  <!-- brightest, focussed, motivated, passionate, brilliant, driven -->
+  <!-- is there a better way of saying this? -->
+  <!-- we could be more arrogant and say 'best in the world' or something -->
+  <!-- how about 'the best developers in the world, probably' ;-) -->
+  <li>A group of exceptionally talented and experienced developers.</li>
+  <!-- i think it is worth saying something about the cooperative aspect -->
+  <!-- but it's difficult not to sound clichéd without getting into detail -->
+  <!-- aligns the interests of clients and staff? -->
+  <li>We are a co-operative, and everyone in Free Range works directly with our clients.
+      This means that when we accept a project, we are directly invested in your success; our reptuation depends on it.</li>
+</ul>
+
+<h2>What we do</h2>
+<ul>
+  <!-- is this broad enough? or too broad? -->
+  <!-- do we need some adjectives/superlatives here? -->
+  <!-- simple, innovative, usable, solves a business problem -->
+  <!-- high quality, rapid, attention to detail -->
+  <li>Build software for the web.</li>
+  <!-- is this too broad? or not broad enough? -->
+  <li>Anything from B2C, to B2B and internal systems.</li>
+  <!-- is this too broad? or not broad enough? -->
+  <li>Work for startups and established companies, large or small.</li>
+  <!-- why? is this even relevant? -->
+  <li>Current tool of choice is Ruby on Rails.</li>
+</ul>

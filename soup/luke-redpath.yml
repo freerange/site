@@ -1,0 +1,6 @@
+<p>Luke has been writing web apps for almost ten years and in late 2008, he released his first iPhone application, <a href="http://lukeredpath.co.uk/squeemote">Squeemote</a>. Before this, he worked at <a href="http://www.reevoo.com">Reevoo</a> as part of one of the best Rails development teams in the country.</p>
+<p>He's a big fan of both <a href="http://github.com/lukeredpath">writing and contributing to open-source software</a>, including <a href="http://www.rubyonrails.com">Rails</a>, <a href="http://rspec.info">RSpec</a> and more recently, <a href="http://gemcutter.org">Gemcutter</a>. His own open-source libraries include <a href="http://clickatell.rubyforge.org">Clickatell</a>, a library for interfacing with the <a href="http://clickatell.com">Clickatell <span class="caps">SMS</span> gateway</a> and <a href="http://github.com/lukeredpath/simpleconfig">SimpleConfig</a>, a declarative application configuration Rails plugin which was developed whilst working at Reevoo.</p>
+--- # Soup attributes
+:name: luke-redpath
+:site: lukeredpath.co.uk
+:image: http://www.gravatar.com/avatar/bdd4d23d1a822b2d68b53e7c51d69a39?s=80

@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Arial";
+  background-color: #fff;
+  color: #222;
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#header {
+  height:95px;
+}
+
+#header h1 {
+  font-size: 3.3em;
+  font-family: "Monaco";
+  font-weight: normal;
+  float:left;
+  line-height: 95px;
+}
+
+#header h1 .hash {
+  color: #666;
+}
+
+#header h1 .free {
+  color: #888;
+}
+
+#header #nav {
+  float:right;
+  padding-top:55px;
+}
+
+#header #nav #nav_links .toggle_content {
+  cursor: pointer;
+}
+
+#header #nav ul {
+  white-space:nowrap;
+  list-style-type:none;
+}
+#header #nav li {
+  float:left;
+  font-size:1.3em;
+  width:80px;
+  font-family: "Arial";
+  color: #888;
+  height:50px;
+  text-align:center;
+}
+
+#header #nav li.active {
+  color: #111;
+/*  background: url("/images/triangle.png") no-repeat;*/
+/*  background-position: 40px 30px;*/
+}
+
+#feature h1 {
+  font-size:2em;
+  font-weight:bold;
+  padding:10px 0px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/*#feature {
+  height:51px;
+  color:#fff;
+  font-family: "Arial";
+  font-size:1.2em;
+  background: #99ac39 url("/images/grad.png");
+  background-repeat: repeat-x;
+  background-position:bottom left;
+  padding:20px 0px;
+  padding-left:50px;
+}*/
+
+#content {
+  margin-top: 0;
+  margin: 0 auto;
+  width: 900px;
+  background-color:#fff;
+  padding-bottom: 1em;
+}
+
+.slidey {
+  position:absolute;
+  width: 900px;
+  padding-bottom: 1em;
+}
+
+#content h2 {
+  font-size: 1.6em;
+  font-weight:normal;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
+  color: #000;
+}
+
+#content h3 {
+  font-size: 1.2em;
+/*  margin-bottom: 0.5em;*/
+  font-weight:normal;
+  color: #000;
+}
+
+#content ul {
+  padding-left:40px;
+}
+
+#content p, ul {
+  margin-bottom: 0.5em;
+}
+
+#content #team ul {
+  list-style:none;
+  padding-left:0px;
+}
+#content #team li {
+  padding:0;
+ /* width:440px;
+   margin-right:10px;
+   float:left;
+   height:300px;*/
+}
+
+#content #team .pending {
+  font-style: italic;
+}
+
+#content #details {
+  margin:1em 0em;
+}
+
+
+/** vanilla **/
+textarea {
+  width: 100%;
+}
+
+textarea.content {
+  min-height: 10em;
+}

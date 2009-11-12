@@ -1,0 +1,20 @@
+class Member < Dynasnip
+  def handle(name)
+    member = app.soup[name]
+    template = app.soup["member"].template
+    template.gsub("NAME", member.name.split("-").map { |s| s.capitalize }.join(" ")).
+             gsub("SITE", member.site).
+             gsub("IMAGE", member.image).
+             gsub("CONTENT", app.render(member))
+  end
+  self
+end
+--- # Soup attributes
+:render_as: Ruby
+:name: member
+:template: |
+  <h2>NAME</h2>
+  <p class="site"><a href="http://SITE">SITE</a></p>
+  <img src="IMAGE">
+  CONTENT
+  
