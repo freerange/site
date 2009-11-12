@@ -25,7 +25,6 @@
   <h1>The Team</h1>
 
   <ul>
-    <!-- can we mark these up as hcard? -->
     <li>{member james-adam}</li>
     <li>{member james-andrews}</li>
     <!--<li>{member jason-cale}</li>-->
