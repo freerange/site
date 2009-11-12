@@ -7,7 +7,7 @@ task :default => :publish
 
 task :publish do
   server = "gofreerange.com"
-  remote_dir = "/var/www/gofreerange.com/"
+  remote_dir = "/var/www/gofreerange.com"
   local_dir = File.dirname(__FILE__)
   Rake::SshDirPublisher.new(server, remote_dir, local_dir).upload
   sh %{ssh #{server} "chgrp -R deploy #{remote_dir}; chmod -R 775 #{remote_dir}; touch #{remote_dir}/tmp/restart.txt"}
