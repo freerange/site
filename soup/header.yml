@@ -1,8 +1,14 @@
-<h1><span class="hash">#</span><span class="free">free</span>range</h1>
 <div id="nav">
-  <ul id="nav_links">
+  <ul>
+    <li><a href="#about">about</a></li>
+    <li><a href="#how">how</a></li>
+    <li><a href="#work">work</a></li>
+    <li><a href="#team">team</a></li>
+    <li><a href="#contact">contact</a></li>
   </ul>
 </div>
+<h1><span class="hash">#</span><span class="free">free</span>range</h1>
+
 
 --- # Soup attributes
 :name: header

@@ -1,5 +1,4 @@
-Software is alive
------
+### Software is alive
 * We know that software is not a static artefact and so cannot be described by a static spec or plan.
 * It needs to grow and evolve according to its environment, to best suit the needs of its users.
 * These needs change over time, even as the software is being built.

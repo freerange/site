@@ -1,12 +1,12 @@
-<div id="about">
-  <h1>About</h1>
+<div class="section" id="about">
+  <h2>About</h2>
 
   {about}
 
 </div>
 
-<div id="how">
-  <h1>How we work?</h1>
+<div class="section" id="how">
+  <h2>How we work?</h2>
 
   {software-is-alive}
   {always-a-product}
@@ -14,15 +14,15 @@
 
 </div>
 
-<div id="work">
-  <h1>Our Work</h1>
+<div class="section" id="work">
+  <h2>Our Work</h2>
 
   {our-work}
 
 </div>
 
-<div id="team">
-  <h1>The Team</h1>
+<div class="section" id="team">
+  <h2>The Team</h2>
 
   <ul>
     <li>{member james-adam}</li>
@@ -36,9 +36,10 @@
 
 </div>
 
-<div id="contact">
-  <h1>Contact Us</h1>
+<div class="footer">
+  <div id="contact" class="section">
+    <h2>Contact Us</h2>
 
-  {contact-details}
-
+    {contact-details}
+  </div>
 </div>

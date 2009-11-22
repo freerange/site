@@ -1,16 +1,26 @@
+
 class Portfolio < Dynasnip
   def handle(name)
-    snip = app.soup[name]
-    "<h2>#{snip.display_name}</h2>" + 
-    snip.images.map do |image_url|
-      %{<img src="/public/images/portfolio/#{image_url}" width="256" height="192">}
-    end.join +
-    app.render(snip)
+    piece = app.soup[name]
+    template = app.soup["portfolio"].template
+
+    images_html = piece.images.map do |image_url| 
+      %{<li><img src="/public/images/portfolio/#{image_url}" width="256" height="192" /></li>} 
+    end.join
+    
+    template.gsub("NAME", piece.display_name).
+             gsub("IMAGES", images_html).
+             gsub("CONTENT", app.render(piece))
+    
   end
-  
   self
 end
-
 --- # Soup attributes
-:name: portfolio
 :render_as: Ruby
+:name: portfolio
+:template: |
+  <div class="portfolio_piece">
+    <h3>NAME</h3>
+    <ul>IMAGES</ul>
+    CONTENT
+  </div>

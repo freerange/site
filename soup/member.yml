@@ -14,8 +14,8 @@ end
 :render_as: Ruby
 :name: member
 :template: |
-  <h2>NAME</h2>
+  <h3>NAME</h3>
   <p class="site"><a href="http://SITE">SITE</a></p>
-  <img src="IMAGE">
+  <img src="IMAGE" />
   CONTENT
   
