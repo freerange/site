@@ -1,10 +1,12 @@
 $(document).ready(function(){
-  document.title = "Free Range";
+    
+  document.title = main_title = "Free Range";
 
-  $('#nav a').click(function () {
-    $.scrollTo( $(this).attr("href"), 1000, {offset:-40} );
+  $('#nav a, a.top').click(function () {
+    $.scrollTo( $(this).attr("href"), 1000, {offset:-50} );
     window.location.hash = $(this).text() + "_section";
-    document.title = $($(this).attr("href")).children("h2").text() + " :: Free Range";
+    document.title = $($(this).attr("href")).children("h2").text() + " :: " + main_title;
     return false;
-  })
+  });  
+  
 });

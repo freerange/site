@@ -3,6 +3,8 @@
 
   {about}
 
+  <a href="#top" class="top">back to top</a>
+
 </div>
 
 <div class="section" id="how">
@@ -11,14 +13,18 @@
   {software-is-alive}
   {always-a-product}
   {collaboration}
-
+  
+  <a href="#top" class="top">back to top</a>
+  
 </div>
 
 <div class="section" id="work">
   <h2>Our Work</h2>
 
   {our-work}
-
+  
+  <a href="#top" class="top">back to top</a>
+  
 </div>
 
 <div class="section" id="team">
@@ -33,6 +39,8 @@
     <li>{member kalvir-sandhu}</li>
     <li>{member tom-ward}</li>
   </ul>
+
+  <a href="#top" class="top">back to top</a>
 
 </div>
 

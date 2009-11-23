@@ -165,6 +165,11 @@ a:hover {
   color: #111;
 }
 
+a.top {
+  float: right;
+  padding: 1em 2em 1em 1em;
+}
+
 .footer {
   padding-bottom: 10em;
   background: #fefefe;
