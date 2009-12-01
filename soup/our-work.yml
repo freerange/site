@@ -1,7 +1,8 @@
 {portfolio the-auteurs}
 {portfolio new-leaders}
 {open-source}
-
+{presentations}
+{hack-days}
 --- # Soup attributes
 :name: our-work
 :render_as: Markdown
