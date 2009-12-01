@@ -5,6 +5,7 @@ require 'rake/contrib/sshpublisher'
 
 task :default => :publish
 
+desc 'Publish to gofreerange.com'
 task :publish do
   server = "gofreerange.com"
   remote_dir = "/var/www/gofreerange.com"
