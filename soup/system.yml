@@ -77,10 +77,9 @@ You're in the system snip now. You probably want to {edit_link system,edit} it t
     <!-- <link rel="stylesheet" type="text/css" media="screen"  href="<%= url_to("system", "css.css") %>" /> -->
   </head>
   <body>
-    <div id="top"></div>
     <div id="container">
 
-      <div id="header">
+      <div id="about" class="header">
         {header}
       </div>
 
