@@ -12,11 +12,11 @@ body {
 }
 
 
-#header {
+.header {
   margin-top: 8em;
 }
 
-#header h1 {
+.header h1 {
   width: 850px;
   height: 79px;
   margin: 0 auto;
