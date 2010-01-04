@@ -1,5 +1,6 @@
 $:.unshift File.join(File.dirname(__FILE__), *%w[lib])
 require 'vanilla'
+require 'vanilla/static'
 
 app = Vanilla::App.new(ENV['VANILLA_CONFIG'])
 
@@ -15,6 +16,6 @@ use Warden::Manager do |manager|
   manager.failure_app = Vanilla::Authentication::Warden::FailApp.new
 end
 
-use Rack::Static, :urls => ["/public"], :root => File.join(File.dirname(__FILE__))
+use Vanilla::Static, File.join(File.dirname(__FILE__), 'public')
 
 run app
