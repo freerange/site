@@ -75,6 +75,7 @@ You're in the system snip now. You probably want to {edit_link system,edit} it t
     
     <link rel="stylesheet" type="text/css" title="classy" href="/public/stylesheets/classy.css">
     <!-- <link rel="stylesheet" type="text/css" media="screen"  href="<%= url_to("system", "css.css") %>" /> -->
+    <meta name="google-site-verification" content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" />
   </head>
   <body>
     <div id="container">
