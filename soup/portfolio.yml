@@ -5,7 +5,7 @@ class Portfolio < Dynasnip
     template = app.soup["portfolio"].template
 
     images_html = piece.images.map do |image_url| 
-      %{<li><img src="/public/images/portfolio/#{image_url}" width="256" height="192" /></li>} 
+      %{<li><img src="/images/portfolio/#{image_url}" width="256" height="192" /></li>} 
     end.join
     
     template.gsub("NAME", piece.display_name).

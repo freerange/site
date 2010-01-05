@@ -67,13 +67,13 @@ You're in the system snip now. You probably want to {edit_link system,edit} it t
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title>{current_snip name}</title>
-    <script language="javascript" src="/public/javascripts/jquery.js"></script>
-    <script language="javascript" src="/public/javascripts/jquery.autogrow-textarea.js"></script>
-    <script language="javascript" src="/public/javascripts/vanilla.js"></script>
-    <script type="text/javascript" src="/public/javascripts/jquery.ui.min.js"></script>
-    <script type="text/javascript" src="/public/javascripts/jquery.scrollTo.js"></script>
+    <script language="javascript" src="/javascripts/jquery.js"></script>
+    <script language="javascript" src="/javascripts/jquery.autogrow-textarea.js"></script>
+    <script language="javascript" src="/javascripts/vanilla.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.scrollTo.js"></script>
     
-    <link rel="stylesheet" type="text/css" title="classy" href="/public/stylesheets/classy.css">
+    <link rel="stylesheet" type="text/css" title="classy" href="/stylesheets/classy.css">
     <!-- <link rel="stylesheet" type="text/css" media="screen"  href="<%= url_to("system", "css.css") %>" /> -->
     <meta description="A small software development company based in London, UK." />
     <meta name="google-site-verification" content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" />

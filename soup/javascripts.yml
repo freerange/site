@@ -1,4 +1,4 @@
-<script type="text/javascript" src="/public/javascripts/application.js"></script>
+<script type="text/javascript" src="/javascripts/application.js"></script>
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

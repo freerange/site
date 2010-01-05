@@ -21,7 +21,7 @@ body {
   height: 79px;
   margin: 0 auto;
   
-  background: url(/public/images/logo.png) no-repeat;
+  background: url(/images/logo.png) no-repeat;
   text-indent: -3000px;
 }
 
