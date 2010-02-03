@@ -1,3 +1,4 @@
+require "vendor/gems/environment"
 $:.unshift File.join(File.dirname(__FILE__), *%w[lib])
 require 'vanilla'
 require 'vanilla/static'
