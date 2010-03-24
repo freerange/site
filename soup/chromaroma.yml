@@ -1,0 +1,15 @@
+FreeRange is working with [Mudlark][] to build [Chromaroma][], a game you can play by travelling around London.
+
+The game is currently in a closed alpha, but will be open to the public soon.
+
+[Mudlark]: http://wearemudlark.com
+[Chromaroma]: http://www.chromaroma.com
+
+--- # Soup attributes
+:render_as: Markdown
+:name: chromaroma
+:display_name: Chromaroma
+:images:
+  - chromaroma.png
+  - chromaroma2.png
+:url: http://www.chromaroma.com
