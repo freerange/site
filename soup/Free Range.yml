@@ -1,56 +1,14 @@
-<div class="section">
-  <h2>About</h2>
 
-  {about}
+<div class="section group">
+  <h3>Hello</h3>
+  <p>
+    We are a co-operative of exceptionally talented and experienced developers based in London, England.
 
-  <a href="#about" class="top">back to top</a>
-
+    In our company every member works directly with our clients meaning when we accept a project, we are directly 
+    invested in your success.
+  </p>
 </div>
 
-<div class="section" id="how">
-  <h2>How we work?</h2>
-
-  {software-is-alive}
-  {always-a-product}
-  {collaboration}
-  
-  <a href="#about" class="top">back to top</a>
-  
-</div>
-
-<div class="section" id="work">
-  <h2>Our Work</h2>
-
-  {our-work}
-  
-  <a href="#about" class="top">back to top</a>
-  
-</div>
-
-<div class="section" id="team">
-  <h2>The Team</h2>
-
-  <ul>
-    <li>{member james-adam}</li>
-    <li>{member james-andrews}</li>
-    <li>{member jason-cale}</li>
-    <li>{member james-mead}</li>
-    <li>{member luke-redpath}</li>
-    <li>{member kalvir-sandhu}</li>
-    <li>{member tom-ward}</li>
-  </ul>
-
-  <a href="#about" class="top">back to top</a>
-
-</div>
-
-<div class="footer">
-  <div id="contact" class="section">
-    <h2>Contact Us</h2>
-
-    {contact-details}
-  </div>
-</div>
 --- # Soup attributes
 :is_page: true
 :name: ""
