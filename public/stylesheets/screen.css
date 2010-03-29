@@ -63,8 +63,8 @@ a:hover { color: #333333; }
   margin: 0 auto;
 }
 #header {
-  width: 100%;
-  margin-bottom: 0.6em;
+  width: 78em;
+  height: 31.5em;
 }
 #header h1 {
   font-size: 8.1966666em;
@@ -103,6 +103,7 @@ a:hover { color: #333333; }
 }
 #content .section {
   background: #f5f5eb;
+  background: rgba(245, 245, 245, 0.8);
   padding: 1.2em;
   width: 36em;
 }
