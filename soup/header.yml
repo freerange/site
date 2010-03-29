@@ -1,14 +1,4 @@
-<div id="nav">
-  <ul>
-    <li><a href="#about">about</a></li>
-    <li><a href="#how">how</a></li>
-    <li><a href="#work">work</a></li>
-    <li><a href="#team">team</a></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>
-</div>
-<h1><span class="hash">#</span><span class="free">free</span>range</h1>
-
-
+<h1 id="logo"><a href="/" title="Go to homepage">{ freerange }</a></h1>
+<h2>building software for the web</h2>
 --- # Soup attributes
 :name: header

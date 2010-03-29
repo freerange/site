@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+:focus { outline: 0; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#grid {
+  background: url(/images/grid/bg-grid-980.gif) repeat-y 0 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 980px;
+  margin-left: -490px;
+  z-index: 1;
+}
+#grid div.horiz {
+  height: 20px;
+  border-bottom: 1px dotted #ff0000;
+  margin: 0;
+  padding: 0;
+}
+#grid.grid-1 { background: url(/images/grid/bg-grid-980.gif) repeat-y 0 0; }
+#grid.grid-2 {
+  background: url(/images/grid/bg-grid-660.gif) repeat-y 160px 0;
+  padding: 0 160px;
+  width: 660px;
+}
+body {
+  color: #444444;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  background: #ec0606 url(/images/new/ny.jpg);
+}
+a { color: #555555; }
+a {
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: #ffffff 0px 1px 0;
+}
+a:link {
+  outline: none;
+  color: #555555;
+}
+a:visited {
+  outline: none;
+  color: #555555;
+}
+a:hover { color: #333333; }
+#page {
+  font-size: 1.2em;
+  line-height: 1.833333em;
+  max-width: 78.3em;
+  margin: 0 auto;
+}
+#header {
+  width: 100%;
+  margin-bottom: 0.6em;
+}
+#header h1 {
+  font-size: 8.1966666em;
+  height: 4em;
+  width: 4.1em;
+  padding: 0;
+  background: url(/images/new/logo.png) no-repeat center center;
+  float: left;
+  position: relative;
+  margin-left: 0.36em;
+}
+#header h1 a {
+  color: white;
+  font-family: "League Gothic", sans-serif;
+  position: relative;
+  top: 48.8%;
+  left: 0;
+  text-align: center;
+  display: block;
+  font-size: 1.1em;
+  font-weight: normal;
+  text-shadow: #aaaaaa 1px 1px 1px;
+}
+#header h2 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 7.25em;
+  line-height: 1em;
+  float: left;
+  width: 5.5em;
+  color: white;
+  position: relative;
+  top: 1.7em;
+  left: 0.2em;
+  font-weight: normal;
+  text-shadow: #aaaaaa 1px 1px 1px;
+}
+#content .section {
+  background: #f5f5eb;
+  padding: 1.2em;
+  width: 36em;
+}
+#content .section h3 {
+  font-size: 2em;
+  float: left;
+  width: 6.1em;
+  line-height: 1.2em;
+}
+#content .section p {
+  font-size: 1.2em;
+  line-height: 1.52em;
+  font-color: #444444;
+  float: left;
+  width: 19.6em;
+}
+h2 { font-size: 1.8em; }
+span.amp {
+  font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.2em;
+  color: #766557;
+}
+hr, .hide { display: none; }
+a img { border: none; }
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
