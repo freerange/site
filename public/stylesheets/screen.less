@@ -12,13 +12,15 @@
 @base_link_hover_colour: #333;
 @font_family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-@bg_colour: #ec0606;
+@bg_colour: #333;
 
 body {
 	color: @base_colour;
 	font-family: @font_family;
 	font-size: 62.5%;
-	background: @bg_colour url(/images/new/ny.jpg);
+	background-color: @bg_colour;
+  background-image: url(/images/new/bg.png), url(/images/new/ny.jpg);
+  background-position: -50% 0;
 }
 	
 /* links */
@@ -59,7 +61,7 @@ a:hover {
 
 #header {
   width: 78em;
-  height: 31.5em;
+  height: 29.6em + @base_lineheight;
   
   /* logo */
   
@@ -114,16 +116,20 @@ ul#nav {
 --------------------------------------------- */
 
 #content {
+  
   .section {
+    margin-top: @base_lineheight;
+    
     background: #f5f5eb;
-    background: rgba(245,245,245,0.8);
-    padding: 1.2em;
+    background: rgba(245,245,245,0.95);
+    padding: 1.35em 1.35em 2.1em 1.35em;
     width: 36em;
     
     h3 {
       font-size: 2em;
       float: left;
-      width: 6.1em;
+      padding-right: 1em;
+      width: 5.1em;
       line-height: 1.2em;
     }
     

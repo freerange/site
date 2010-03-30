@@ -39,7 +39,9 @@ body {
   color: #444444;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 62.5%;
-  background: #ec0606 url(/images/new/ny.jpg);
+  background-color: #333333;
+  background-image: url(/images/new/bg.png), url(/images/new/ny.jpg);
+  background-position: -50% 0;
 }
 a { color: #555555; }
 a {
@@ -64,7 +66,7 @@ a:hover { color: #333333; }
 }
 #header {
   width: 78em;
-  height: 31.5em;
+  height: 31.433333em;
 }
 #header h1 {
   font-size: 8.1966666em;
@@ -102,15 +104,17 @@ a:hover { color: #333333; }
   text-shadow: #aaaaaa 1px 1px 1px;
 }
 #content .section {
+  margin-top: 1.833333em;
   background: #f5f5eb;
-  background: rgba(245, 245, 245, 0.8);
-  padding: 1.2em;
+  background: rgba(245, 245, 245, 0.95);
+  padding: 1.35em 1.35em 2.1em 1.35em;
   width: 36em;
 }
 #content .section h3 {
   font-size: 2em;
   float: left;
-  width: 6.1em;
+  padding-right: 1em;
+  width: 5.1em;
   line-height: 1.2em;
 }
 #content .section p {
