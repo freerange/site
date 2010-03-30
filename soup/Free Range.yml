@@ -1,12 +1,23 @@
 
 <div class="section group">
-  <h3>Hello</h3>
+  <h3>About us</h3>
   <p>
     We are a co-operative of exceptionally talented and experienced developers based in London, England.
 
-    In our company every member works directly with our clients meaning when we accept a project, we are directly 
-    invested in your success.
+    In our company everyone would work directly with you as a client which means if we accept a project, we are personally invested in your success.
   </p>
+</div>
+
+<div class="section group">
+  <h3>Software is alive</h3>
+  
+  <ul>
+    <li>We know that software is not a static artefact and so cannot be described by a static spec or plan.</li>
+    <li>It needs to grow and evolve according to its environment, to best suit the needs of its users.</li>
+    <li>These needs change over time, even as the software is being built.</li>
+    <li>By getting early and regular feedback from users in real scenarios, we can identify and fulfill these needs.</li>
+    <li>By not compromising on quality and by avoiding unnecessary complexity, we can keep the system flexible and adaptable.</li>
+  </ul>
 </div>
 
 --- # Soup attributes
