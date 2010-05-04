@@ -1,4 +1,5 @@
-require "vendor/gems/environment"
+require 'bundler'
+Bundler.setup
 $:.unshift File.join(File.dirname(__FILE__), *%w[lib])
 require 'vanilla'
 require 'vanilla/static'
