@@ -31,41 +31,65 @@ table {
 }
 body {
   color: #444444;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   background-color: #ffffff;
-  background-image: url(/images/bg.png);
+  background-image: url(/images/bg.jpg);
 }
-a { color: #555555; }
 a {
+  color: #333333;
   font-weight: bold;
   text-decoration: none;
-  text-shadow: #ffffff 0px 1px 0;
+  text-shadow: #eeeeee 0px 1px 0;
 }
 a:link {
   outline: none;
-  color: #555555;
+  color: #333333;
 }
 a:visited {
   outline: none;
-  color: #555555;
+  color: #333333;
 }
-a:hover { color: red; }
+a:hover { color: #db4a1d; }
 #page {
   font-size: 1.2em;
   line-height: 1.833333em;
-  max-width: 81em;
-  margin: 0 auto;
   padding: 0;
   position: relative;
 }
-#content {
-  position: relative;
-  top: 10.5em;
+#header {
+  width: 85em;
+  margin: 0 auto;
+  padding-top: 2.75em;
+  padding-left: 4em;
 }
-#content .section {
-  padding: 2em 1em 1em 1em;
-  margin-bottom: 2.4em;
+#header h1 {
+  float: left;
+  font-size: 5em;
+  width: 279px;
+  height: 68px;
+}
+#header h1 a {
+  display: block;
+  background: url(/images/logo.png) no-repeat 9px 0;
+  text-indent: -9999px;
+  width: 288px;
+  height: 68px;
+}
+#header h2 {
+  float: left;
+  margin-left: 0.4em;
+  font-size: 4em;
+  background: url(/images/build_outstanding_software.png) no-repeat;
+  text-indent: -9999px;
+  width: 719px;
+  height: 68px;
+}
+#content { position: relative; }
+#content .section .container {
+  position: relative;
+  max-width: 81em;
+  margin: 0 auto;
 }
 #content .section h2 {
   font-size: 4em;
@@ -86,9 +110,98 @@ a:hover { color: red; }
 #content .section h2 + ul { padding-top: 1.2em; }
 #content .section h3 + ul { padding-top: 1.2em; }
 #content .section h4 + ul { padding-top: 1.2em; }
-#content .section p { font-size: 1.2em; }
-#content #about { background: rgba(246, 31, 31, 0.2); }
-#content #about p { width: 25em; }
+#content .section p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+#content .eins { width: 96px; }
+#content .zwei { width: 180px; }
+#content .drei { width: 276px; }
+#content .vier { width: 372px; }
+#content .funf { width: 468px; }
+#content .sechs { width: 564px; }
+#content .sieben { width: 660px; }
+#content .acht { width: 756px; }
+#content .neun { width: 852px; }
+#content .zehn { width: 948px; }
+#content #about { background: url(/images/bg_1.jpg) 50% 5px no-repeat; }
+#content #about #intro {
+  position: relative;
+  top: 0;
+  left: 288px;
+  padding: 5.95em 0 0 12px;
+}
+#content #about #intro p:first-child {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+#content #about #intro p {
+  color: #676767;
+  padding-bottom: 1.3em;
+}
+#content #about #co-op {
+  margin-top: -1.7em;
+  float: left;
+  padding: 0 12px 0 12px;
+}
+#content #about #co-op h2 {
+  text-transform: uppercase;
+  line-height: 0.9em;
+}
+#content #about #co-op h2 strong {
+  display: block;
+  color: #4ca75a;
+}
+#content #about #co-op p {
+  padding: 0 0 1.45em 0;
+  width: 336px;
+}
+#content #about #co-op h2 + p {
+  padding-top: 0.1em;
+  line-height: 1.4em;
+}
+#content #about #people {
+  float: left;
+  padding: 7px 0 0 0;
+}
+#content #about #people h2 {
+  background: url(/images/made_of_people.jpg) no-repeat;
+  width: 440px;
+  height: 70px;
+  text-indent: -9999px;
+  padding: 0;
+}
+#content #about #people ul { padding: 0.4em 0 0 0; }
+#content #about #people ul li {
+  float: left;
+  width: 84px;
+  margin-right: 12px;
+}
+#content #about #people ul li a {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  padding-top: 0.4em;
+  padding-bottom: 0.25em;
+}
+#content #about #people ul li a.chosen {
+  background: #eeeeee;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#content #about #people ul li:last-child { margin-right: 0; }
+#content #about #people .person { width: 576px; }
+#content #about #people .person img {
+  width: 540px;
+  background: #eeeeee;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  display: block;
+  margin-bottom: 2.55em;
+}
+#content #about #people ol.scrollist { position: relative; }
+#content #about #people ol.scrollist li { float: left; }
 #content .project_toggle { position: relative; }
 #content .project_toggle a {
   display: block;
@@ -107,11 +220,6 @@ a:hover { color: red; }
   position: absolute;
   top: 3em;
   right: -10em;
-}
-#content #work {
-  background: #fcd0a5;
-  background-color: rgba(44, 43, 121, 0.1);
-  padding-bottom: 0;
 }
 #content #work ol { position: relative; }
 #content #work ol li.project {
@@ -142,35 +250,6 @@ a:hover { color: red; }
   float: left;
   width: 39.3%;
   padding: 1em 0 0 1em;
-}
-#content #ethos { background: rgba(31, 223, 246, 0.2); }
-#content #process { background: rgba(246, 244, 31, 0.2); }
-#content #people {
-  width: 38em;
-  float: left;
-}
-#content #contact {
-  width: 38em;
-  float: left;
-}
-#content #people { background: rgba(246, 31, 158, 0.2); }
-#content #people ul { padding: 0; }
-#content #people ul li {
-  padding: 0 0 0 8.1em;
-  float: left;
-  width: 10.8em;
-  position: relative;
-  min-height: 6em;
-}
-#content #people ul li img {
-  border: 0.45em solid #ffffff;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-#content #contact {
-  margin-left: 1em;
-  background: rgba(76, 246, 31, 0.2);
 }
 #content #contact textarea {
   width: 98.5%;

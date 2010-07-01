@@ -1,5 +1,6 @@
 $(document).ready(function(){
    $('#work').theWork();
+   $('#people').theTeam();
 });
 
 
@@ -9,30 +10,40 @@ $(document).ready(function(){
     $(this).css({overflow: "hidden"});
     
     $(this).before("<div class='project_toggle'><a href='' class='prev'>PREV</a><a href='' class='next'>NEXT</a></div>");
-    _projectList($(this).find('ol')[0]);
+    _scrollList($(this).find('ol')[0], "project");
   }
   
-  var _projectList = function (list_el) {
-    var list = $(list_el);
-    var currentProject = 0;
-    // spacing needed to get the
-    // list to float...
-    // I'll fix it with maths later.
-    var spacer = 1000;
-    // calc total width of li's + spacer
-    // and make the ol that wide so they float
-    // ready for animation
+  var _team = function () {
+    $(this).css({overflow: "hidden"});
     
-    list.width(listWidth(list) + spacer + 'px');
-        
-    list.bind("project.go", function(e, target) {
-      if (anchor = (String(target)).match(/#(\w+)/)) {          
-        var next_el = document.getElementById(list.children(':first').attr('id'));
-        var target_el = document.getElementById(anchor[1]);          
+    var team = _scrollList($(this).find('ol')[0], "team");
+    var links = $('#team-links li a');
+    
+    links.click(function () {      
+      team.trigger("team.go", $(this).attr("href")); 
+      links.removeClass('chosen');
+      $(this).addClass('chosen');
+      return false; 
+    });
+  }
+  
+  var _scrollList = function (list_el, callback_namespace) {
+    var list = $(list_el);
+    var currentItem = 0;
+    var callback = callback_namespace + ".go";
+    
+    list.addClass('scrollist');
+    list.width(listWidth(list) + 'px');
+    list.bind(callback, function(e, target) {
+      if (anchor = (String(target)).match(/#(\w+[_-]\w+)/)) {
+        var next_el = document.getElementById(list.children(':first').attr('id'));        
+        var target_el = document.getElementById(anchor[1]);
         var id = 0;
         while (!!next_el && (next_el.id != anchor[1])) {
-          id += 1;
           next_el = next_el.nextSibling;
+          if (next_el && next_el.id) {
+            id += 1;
+          };
         }  
         target = id;
       };
@@ -46,26 +57,27 @@ $(document).ready(function(){
         target = 0;
         list.animate({ left: target }, 'slow', 'easeInOutQuad', $.noop);
       } else {
-        if (target > currentProject) {  
-          list.animate({ left: "-=" + (liDistance(list, currentProject, target-1) + "px") }, 'slow', 'easeInOutQuad', $.noop);      
-        } else if (target < currentProject) {
-          list.animate({ left: "+=" + (liDistance(list, target, currentProject-1) + "px") }, 'slow', 'easeInOutQuad', $.noop);      
+        if (target > currentItem) {  
+          list.animate({ left: "-=" + (liDistance(list, currentItem, target-1) + "px") }, 'slow', 'easeInOutQuad', $.noop);      
+        } else if (target < currentItem) {
+          list.animate({ left: "+=" + (liDistance(list, target, currentItem-1) + "px") }, 'slow', 'easeInOutQuad', $.noop);      
         };
       };
       
-      currentProject = target;
+      currentItem = target;
     });
     
     $('a.prev').click(function () {         
-      list.trigger('project.go', currentProject-1); 
+      list.trigger(callback, currentItem-1); 
       return false; 
     });
     
     $('a.next').click(function () {
-      list.trigger('project.go', (currentProject+1)); 
+      list.trigger(callback, (currentItem+1)); 
       return false; 
     });
     
+    return list;
   };
     
   function css(el, prop) {
@@ -85,21 +97,17 @@ $(document).ready(function(){
   }
   
   function liDistance(list, from, to) {
-    var h = 0;
-    for (var i = to; i >= from; i--){
+    var h = 0;    
+    for (var i = to; i >= from; i--){      
       h += liWidthAt(list, (i+1));
     };
-    
     return h;
   }
-  
-  // function liHeight(list, n) {
-  //     return height(list.children('li:nth-child('+n+')'));
-  // }
-     
+       
   // expose those bad boys to jQuery NS.
   $.fn.extend({
-    theWork : _work
+    theWork : _work,
+    theTeam : _team
   });
   
 })(jQuery);
