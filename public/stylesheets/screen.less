@@ -9,12 +9,16 @@
 
 @font_family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+@gutter: 12px;
+@col: 84px;
+@col_size: @gutter + @col;
+
 body {
 	color: #444;
 	font-family: @font_family;
 	font-size: 62.5%;
 	background-color: #fff;
-	background-image: url(/images/bg.jpg);
+/*  background-image: url(/images/bg.jpg);*/
 }
 	
 /* links */
@@ -49,10 +53,9 @@ a:hover {
 --------------------------------------------- */
 
 #header {
-  width: 85em;
+  max-width: 81em; // 960px
   margin: 0 auto;
   padding-top: 2.75em;
-  padding-left: 4em;
   
   /* logo */  
   h1 {
@@ -71,13 +74,11 @@ a:hover {
   }
   
   h2 {
-    float: left;
-    margin-left: 0.4em;
+    float: right;
+    margin-right: @gutter;
+    margin-top: 0.46em;
     font-size: 4em;
-    background: url(/images/build_outstanding_software.png) no-repeat;
-    text-indent: -9999px;
-    width: 719px;
-    height: 68px;
+    color: #eee;    
   }
   
 }
@@ -88,22 +89,27 @@ ul#nav {
   
 }
 
-
 /* main styles 
 --------------------------------------------- */
+
+h2 {
+  font-family: "museo-sans-1","museo-sans-2",sans-serif;
+}
 
 #content {
   position: relative;
     
   .section {
     
+    padding: 0;
+    
     .container {
       position: relative;
       max-width: 81em; // 960px
-      margin: 0 auto;
+      margin: 1em auto;
+    
     }
 
-    
     h2 {
       font-size: 4em;
       padding-bottom: 0.45em;
@@ -133,10 +139,6 @@ ul#nav {
     }
   }
   
-  @gutter: 12px;
-  @col: 84px;
-  @col_size: @gutter + @col;
-  
   .eins   { width: @col_size; }
   .zwei   { width: @col_size * 2 - @gutter; }
   .drei   { width: @col_size * 3 - @gutter; }
@@ -147,40 +149,39 @@ ul#nav {
   .acht   { width: @col_size * 8 - @gutter; }
   .neun   { width: @col_size * 9 - @gutter; }
   .zehn   { width: @col_size * 10 - @gutter; }
-    
+  
   #about {
-    background: url(/images/bg_1.jpg) 50% 5px no-repeat;
-    
+/*    background: url(/images/bg_1.jpg) 50% 5px no-repeat;*/
+        
     #intro {
-      position: relative;
-      top: 0;
-      left: @col_size * 3;
       
-      padding: 5.95em 0 0 @gutter;
+      padding: 1.9em 0 2.9em @gutter;
+      margin: 0 auto;
     
-      p:first-child {
-        font-size: 1.4em;
+      p {
+        font-size: 2.5em;
         font-weight: bold;
-        line-height: 1.3em;
+        line-height: 1.25em;
+        color: #676767;
       }
       
-      p { 
-        color: #676767;
-        padding-bottom: 1.3em;
-      }
     }
     
-    #co-op {
-      
-      margin-top: -1.7em;
+    #co-op-and-preamble {
       
       float: left;
-      padding: 0 @gutter 0 @gutter;
+      padding: 0.35em @gutter 0 @gutter;
+      
+      p:first-child {
+        font-size: 1.4em;
+        line-height: 1.25em;
+        padding-bottom: 1.1em;
+      }
       
       h2 {
         text-transform: uppercase;
         line-height: 0.9em;
-                
+        font-family: @font_family;
         strong { 
           display: block; 
           color: #4ca75a; 
@@ -189,8 +190,8 @@ ul#nav {
       }
       
       p {        
-        padding: 0 0 1.45em 0;
         width: @col_size * 3.5;
+        padding-bottom: 1.45em;
       }
       
       h2 + p {
@@ -205,11 +206,8 @@ ul#nav {
       padding: 7px 0 0 0;
       
       h2 {
-        background: url(/images/made_of_people.jpg) no-repeat;
-        width: 440px;
-        height: 70px;
-        text-indent: -9999px;
-        padding: 0;
+        font-weight: 100;
+        padding: 0.2em 0 0.32em 0;
       }
       
       ul {
@@ -245,68 +243,49 @@ ul#nav {
         width: @col_size * 6;
       
         img {
-          width: (@col_size * 6) - (@gutter * 3);
           background: #eee;
           background-color: rgba(255,255,255,0.2);
-          padding: @gutter;
           display: block;
           margin-bottom: 2.55em;
         }
       }
       
-      ol.scrollist {
-        position: relative;
-                
-        li {
-          float: left;
-        }
-        
-      }
     }
-    
   }
   
   .project_toggle {
-    position: relative;
+    margin-bottom: 1em;
     
     a {
       display: block;
-      width: 100px;
-      height: 60px;
       background: #ddd;
       text-align: center;
-      padding-top: 35px;
+      padding: 1em;
+      width: 100px;
     }
     
     .prev {
-      position: absolute;
-      top: 3em;
-      left: -10em;
+      float: left;
     }
 
     .next {
-      position: absolute;
-      top: 3em;
-      right: -10em;
+      float: right;
     } 
   }
   
   #work {
-          
+        
     ol {
-      position: relative;
       
       li.project {
         padding-bottom: 1em;
         float: left;
-        width: 79em;
-        margin-right: 1em;
+        width: 81em;
       
         .project-images {
           height: 30em;
           padding: 1em;
           background: #fffdf3;
-          border: 1px solid #eee;
       
           .holder {
             background: #000;
@@ -321,55 +300,38 @@ ul#nav {
         }
       
         .project-desc {
-          width: 59.5%;
+          width: @col_size * 6 - @gutter;
           float: left;
-          padding: 1em 0 0 0;
+          padding: 1em 0 0 @gutter;
         }
       
         .project-insight {
           float: left;
-          width: 39.3%;
-          padding: 1em 0 0 1em;
+          width: @col_size * 4 - @gutter;
+          padding: 1em 0 0 @gutter;
         }
       }
     }
   }
     
-  #contact {
+/*  #contact {
   
     textarea {
       width: 98.5%;
       height: 10em;
       font-size: 1.2em;
     }
+  }*/
+}
+
+ol.scrollist {
+  position: relative;       
+  li {
+    float: left;
   }
 }
 
-/* headings */
-
-h1 {
-  
-}
-
-h2 {
-  font-size: 1.8em;
-}
-
-h3 {
-  
-}
-
-h4 {
-  
-}
-	
-span.amp {
-	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
-	font-weight: normal;
-	font-style: italic;
-	font-size: 1.2em;
-	color: #766557;
-}
+/* forms */
 
 form {
   
@@ -483,6 +445,14 @@ hr, .hide {
 	
 a img {
 	border: none;
+}
+
+span.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.2em;
+	color: #766557;
 }
 
 /* self-clear floats */
