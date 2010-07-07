@@ -34,7 +34,6 @@ body {
   font-family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   background-color: #ffffff;
-  background-image: url(/images/bg.jpg);
 }
 a {
   color: #333333;
@@ -58,10 +57,9 @@ a:hover { color: #db4a1d; }
   position: relative;
 }
 #header {
-  width: 85em;
+  max-width: 81em;
   margin: 0 auto;
   padding-top: 2.75em;
-  padding-left: 4em;
 }
 #header h1 {
   float: left;
@@ -77,19 +75,19 @@ a:hover { color: #db4a1d; }
   height: 68px;
 }
 #header h2 {
-  float: left;
-  margin-left: 0.4em;
+  float: right;
+  margin-right: 12px;
+  margin-top: 0.46em;
   font-size: 4em;
-  background: url(/images/build_outstanding_software.png) no-repeat;
-  text-indent: -9999px;
-  width: 719px;
-  height: 68px;
+  color: #eeeeee;
 }
+h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
 #content { position: relative; }
+#content .section { padding: 0; }
 #content .section .container {
   position: relative;
   max-width: 81em;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 #content .section h2 {
   font-size: 4em;
@@ -124,40 +122,39 @@ a:hover { color: #db4a1d; }
 #content .acht { width: 756px; }
 #content .neun { width: 852px; }
 #content .zehn { width: 948px; }
-#content #about { background: url(/images/bg_1.jpg) 50% 5px no-repeat; }
 #content #about #intro {
-  position: relative;
-  top: 0;
-  left: 288px;
-  padding: 5.95em 0 0 12px;
-}
-#content #about #intro p:first-child {
-  font-size: 1.4em;
-  font-weight: bold;
-  line-height: 1.3em;
+  padding: 1.9em 0 2.9em 12px;
+  margin: 0 auto;
 }
 #content #about #intro p {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.25em;
   color: #676767;
-  padding-bottom: 1.3em;
 }
-#content #about #co-op {
-  margin-top: -1.7em;
+#content #about #co-op-and-preamble {
   float: left;
-  padding: 0 12px 0 12px;
+  padding: 0.35em 12px 0 12px;
 }
-#content #about #co-op h2 {
+#content #about #co-op-and-preamble p:first-child {
+  font-size: 1.4em;
+  line-height: 1.25em;
+  padding-bottom: 1.1em;
+}
+#content #about #co-op-and-preamble h2 {
   text-transform: uppercase;
   line-height: 0.9em;
+  font-family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#content #about #co-op h2 strong {
+#content #about #co-op-and-preamble h2 strong {
   display: block;
   color: #4ca75a;
 }
-#content #about #co-op p {
-  padding: 0 0 1.45em 0;
+#content #about #co-op-and-preamble p {
   width: 336px;
+  padding-bottom: 1.45em;
 }
-#content #about #co-op h2 + p {
+#content #about #co-op-and-preamble h2 + p {
   padding-top: 0.1em;
   line-height: 1.4em;
 }
@@ -166,11 +163,8 @@ a:hover { color: #db4a1d; }
   padding: 7px 0 0 0;
 }
 #content #about #people h2 {
-  background: url(/images/made_of_people.jpg) no-repeat;
-  width: 440px;
-  height: 70px;
-  text-indent: -9999px;
-  padding: 0;
+  font-weight: 100;
+  padding: 0.2em 0 0.32em 0;
 }
 #content #about #people ul { padding: 0.4em 0 0 0; }
 #content #about #people ul li {
@@ -193,46 +187,30 @@ a:hover { color: #db4a1d; }
 #content #about #people ul li:last-child { margin-right: 0; }
 #content #about #people .person { width: 576px; }
 #content #about #people .person img {
-  width: 540px;
   background: #eeeeee;
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 12px;
   display: block;
   margin-bottom: 2.55em;
 }
-#content #about #people ol.scrollist { position: relative; }
-#content #about #people ol.scrollist li { float: left; }
-#content .project_toggle { position: relative; }
+#content .project_toggle { margin-bottom: 1em; }
 #content .project_toggle a {
   display: block;
-  width: 100px;
-  height: 60px;
   background: #dddddd;
   text-align: center;
-  padding-top: 35px;
+  padding: 1em;
+  width: 100px;
 }
-#content .project_toggle .prev {
-  position: absolute;
-  top: 3em;
-  left: -10em;
-}
-#content .project_toggle .next {
-  position: absolute;
-  top: 3em;
-  right: -10em;
-}
-#content #work ol { position: relative; }
+#content .project_toggle .prev { float: left; }
+#content .project_toggle .next { float: right; }
 #content #work ol li.project {
   padding-bottom: 1em;
   float: left;
-  width: 79em;
-  margin-right: 1em;
+  width: 81em;
 }
 #content #work ol li.project .project-images {
   height: 30em;
   padding: 1em;
   background: #fffdf3;
-  border: 1px solid #eeeeee;
 }
 #content #work ol li.project .project-images .holder {
   background: #000000;
@@ -242,28 +220,17 @@ a:hover { color: #db4a1d; }
 }
 #content #work ol li.project .project-images .holder img { width: 100%; }
 #content #work ol li.project .project-desc {
-  width: 59.5%;
+  width: 564px;
   float: left;
-  padding: 1em 0 0 0;
+  padding: 1em 0 0 12px;
 }
 #content #work ol li.project .project-insight {
   float: left;
-  width: 39.3%;
-  padding: 1em 0 0 1em;
+  width: 372px;
+  padding: 1em 0 0 12px;
 }
-#content #contact textarea {
-  width: 98.5%;
-  height: 10em;
-  font-size: 1.2em;
-}
-h2 { font-size: 1.8em; }
-span.amp {
-  font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
-  font-weight: normal;
-  font-style: italic;
-  font-size: 1.2em;
-  color: #766557;
-}
+ol.scrollist { position: relative; }
+ol.scrollist li { float: left; }
 form p {
   font-size: 0.8em;
   padding: 0.5em 0em;
@@ -359,6 +326,13 @@ form label span {
 }
 hr, .hide { display: none; }
 a img { border: none; }
+span.amp {
+  font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.2em;
+  color: #766557;
+}
 .group:after {
   content: ".";
   display: block;

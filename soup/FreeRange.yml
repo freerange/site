@@ -1,20 +1,20 @@
 <div id="about" class="section group">
   
   <div class="container">
-    <div id="intro" class="sechs">
-      <p>Based in London, we are a <a href="#people" title="see our shining faces">small co-operative company</a> of exceptionally talented and experienced developers.</p>
-      <p>We are passionate about crafting beautiful software. We work with startups and established companies, large or small our refreshing approach and unrelenting attitude to software design and development means no-matter who you are we can help you make your software better, bolder and beautiful.</p>
+    <div id="intro" class="acht">
+      <p>We are a small group of exceptionally talented and experienced software developers based in London.</p>
     </div>
-
-
-    <div id="co-op" class="vier">
+    <div id="co-op-and-preamble" class="vier">
+      <p>We care about making fantastic software for companies big or small. Our refreshing approach and uncompromising attitude to software can help you build something that is blooming marvellous.</p>
       <h2>We are a <strong>co-operative</strong></h2>
-      <p>Which means we are all equally invested in our reputation and success. Because our success depends on your success it means we are all equally invested in your success too. Cool huh?</p>
-      <p>Projects that we deem ethical & interesting make us happy. If a project doesn’t satisfy either we won’t get involved. Our company was created to allow us to value quality of work over taking money for the personal yacht fund.</p>
-    </div>
+      <p>Our company was created to allow us to work together in a way that makes us happy. 
+            
+      <p>Placing emphasis on happiness as people means we have the freedom to define how our business operates. Working in the way we know will deliver excellent results.</p>
 
+    </div>
+    
     <div id="people" class="section group sechs">
-      <h2>made of <strong>people</strong></h2>
+      <h2>made of people</h2>
       <ul id="team-links" class="group">
         <li>
           <a href="#james-adam">Adam</a>
@@ -38,8 +38,7 @@
         <li id="james-adam" class="person group">
           <img src="/images/people/james-adam.jpg" alt="James Adam">
       
-          <h3>James Adam</h3>
-          <p>James is a long-time Rubyist and one of the instigators of LRUG and Ruby Manor. Since finishing his PhD, he's been building applications using Ruby and Rails, including work on theauteurs.com and Reevoo.</p>
+          <p>James Adam is a long-time Rubyist and one of the instigators of LRUG and Ruby Manor. Since finishing his PhD, he's been building applications using Ruby and Rails, including work on theauteurs.com and Reevoo.</p>
           <p>James wrote the book on Rails plugins, and maintains a whole bunch of open source libraries, including Vanilla.rb, soup and the engines plugin for Rails.</p>
         </li>
       
@@ -78,100 +77,109 @@
       </ol>
 
     </div>
+    
   </div>
 
 </div>
 
-<h3>HERE IS THE NEXT SECTION</h3>
-
-<!-- 
 <div id="work" class="section group">
-  <h2>Work</h2>
+  <div class="container">
+    <h2>Our work</h2>
   
-  <ol id="project-list">
-    <li id="o2-hashblue" class="project group">
-      <div class="project-images">
-        <div class="holder">
-          <img src="/images/folio/hashblue_1.jpg" />
+    <ol id="project-list">
+      <li id="o2-hashblue" class="project group">
+        <div class="project-images">
+          <div class="holder">
+            <img src="/images/folio/hashblue_1.jpg" />
+          </div>
         </div>
-      </div>
-      <div class="project-desc">
-        <h3>O2 Hashblue</h3>
-        <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
-        <p>I thought I was just the guy for you and it would never end.
-        I thought we were supposed to be like glue,
-        I thought you were my boyfriend.
-        I thought you were my boyfriend.
-        Love or not, I've always got ten guys on whom I can depend.
-        And if you're not mine, one less is nine, get wise,
-        I thought you were my boyfriend.
-        I thought you were my boyfriend.</p>
-      </div>
-      <div class="project-insight">
-        <h4>The money shot</h4>
-        <ul>
-          <li><p>Blah blah blah</p></li>
-          <li><p>Blah blah blah</p></li>
-        </ul>
-      </div>
-    </li>
-    
-    <li id="chromaroma" class="project group">
-      <div class="project-images">
-        <div class="holder">
-          <img src="/images/folio/hashblue_1.jpg" />
+        <div class="project-desc">
+          <h3>O2 Hashblue</h3>
+          <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
+          <p>I thought I was just the guy for you and it would never end.
+          I thought we were supposed to be like glue,
+          I thought you were my boyfriend.
+          I thought you were my boyfriend.
+          Love or not, I've always got ten guys on whom I can depend.
+          And if you're not mine, one less is nine, get wise,
+          I thought you were my boyfriend.
+          I thought you were my boyfriend.</p>
         </div>
-      </div>
-      <div class="project-desc">
-        <h3>Chromaroma</h3>
-        <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
-        <p>I thought I was just the guy for you and it would never end.
-        I thought we were supposed to be like glue,
-        I thought you were my boyfriend.
-        I thought you were my boyfriend.
-        Love or not, I've always got ten guys on whom I can depend.
-        And if you're not mine, one less is nine, get wise,
-        I thought you were my boyfriend.
-        I thought you were my boyfriend.</p>
-      </div>
-      <div class="project-insight">
-        <h4>The money shot</h4>
-        <ul>
-          <li><p>Blah blah blah</p></li>
-          <li><p>Blah blah blah</p></li>
-        </ul>
-      </div>
-    </li>
-    
-    <li id="auteurs" class="project group">
-      <div class="project-images">
-        <div class="holder">
-          <img src="/images/folio/hashblue_1.jpg" />
+        <div class="project-insight">
+          <h4>The money shot</h4>
+          <ul>
+            <li><p>I thought I was just the guy for you and it would never end.
+            I thought we were supposed to be like glue,
+            I thought you were my boyfriend.
+            I thought you were my boyfriend.
+            Love or not, I've always got ten guys on whom I can depend.
+            And if you're not mine, one less is nine, get wise,
+            I thought you were my boyfriend.
+            I thought you were my boyfriend.</p></li>
+            <li><p>Blah blah blah</p></li>
+          </ul>
         </div>
-      </div>
-      <div class="project-desc">
-        <h3>The Auteurs</h3>
-        <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
-        <p>I thought I was just the guy for you and it would never end.
-        I thought we were supposed to be like glue,
-        I thought you were my boyfriend.
-        I thought you were my boyfriend.
-        Love or not, I've always got ten guys on whom I can depend.
-        And if you're not mine, one less is nine, get wise,
-        I thought you were my boyfriend.
-        I thought you were my boyfriend.</p>
-      </div>
-      <div class="project-insight">
-        <h4>The money shot</h4>
-        <ul>
-          <li><p>Blah blah blah</p></li>
-          <li><p>Blah blah blah</p></li>
-        </ul>
-      </div>
-    </li>
+      </li>
     
-  </ol>
+      <li id="chromaroma" class="project group">
+        <div class="project-images">
+          <div class="holder">
+            <img src="/images/folio/hashblue_1.jpg" />
+          </div>
+        </div>
+        <div class="project-desc">
+          <h3>Chromaroma</h3>
+          <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
+          <p>I thought I was just the guy for you and it would never end.
+          I thought we were supposed to be like glue,
+          I thought you were my boyfriend.
+          I thought you were my boyfriend.
+          Love or not, I've always got ten guys on whom I can depend.
+          And if you're not mine, one less is nine, get wise,
+          I thought you were my boyfriend.
+          I thought you were my boyfriend.</p>
+        </div>
+        <div class="project-insight">
+          <h4>The money shot</h4>
+          <ul>
+            <li><p>Blah blah blah</p></li>
+            <li><p>Blah blah blah</p></li>
+          </ul>
+        </div>
+      </li>
+    
+      <li id="auteurs" class="project group">
+        <div class="project-images">
+          <div class="holder">
+            <img src="/images/folio/hashblue_1.jpg" />
+          </div>
+        </div>
+        <div class="project-desc">
+          <h3>The Auteurs</h3>
+          <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
+          <p>I thought I was just the guy for you and it would never end.
+          I thought we were supposed to be like glue,
+          I thought you were my boyfriend.
+          I thought you were my boyfriend.
+          Love or not, I've always got ten guys on whom I can depend.
+          And if you're not mine, one less is nine, get wise,
+          I thought you were my boyfriend.
+          I thought you were my boyfriend.</p>
+        </div>
+        <div class="project-insight">
+          <h4>The money shot</h4>
+          <ul>
+            <li><p>Blah blah blah</p></li>
+            <li><p>Blah blah blah</p></li>
+          </ul>
+        </div>
+      </li>
+    
+    </ol>
+  </div>
 </div>
+
+<!--
 
 <div id="ethos" class="section group">
   <h2>Ethos</h2>

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $('#work').theWork();
+   $('#work .container').theWork();
    $('#people').theTeam();
 });
 
@@ -7,18 +7,23 @@ $(document).ready(function(){
 (function ($) {
   
   var _work = function () {
-    $(this).css({overflow: "hidden"});
-    
-    $(this).before("<div class='project_toggle'><a href='' class='prev'>PREV</a><a href='' class='next'>NEXT</a></div>");
-    _scrollList($(this).find('ol')[0], "project");
+    $(this).css({overflow: "hidden"});    
+    var links = _scrollList($(this).find('ol')[0], "project");
+    $(this).find('ol').before("<div class='project_toggle group'><a href='' class='prev'>PREV</a><a href='' class='next'>NEXT</a></div>");
+    $(this).find('a.prev').click(function () {         
+      links.trigger("project.previous"); 
+      return false; 
+    });
+    $(this).find('a.next').click(function () {
+      links.trigger("project.next"); 
+      return false;
+    });
   }
   
   var _team = function () {
     $(this).css({overflow: "hidden"});
-    
     var team = _scrollList($(this).find('ol')[0], "team");
     var links = $('#team-links li a');
-    
     links.click(function () {      
       team.trigger("team.go", $(this).attr("href")); 
       links.removeClass('chosen');
@@ -30,11 +35,14 @@ $(document).ready(function(){
   var _scrollList = function (list_el, callback_namespace) {
     var list = $(list_el);
     var currentItem = 0;
-    var callback = callback_namespace + ".go";
+    
+    function name_callback(action) {
+      return callback_namespace + "." + action;
+    }
     
     list.addClass('scrollist');
     list.width(listWidth(list) + 'px');
-    list.bind(callback, function(e, target) {
+    list.bind(name_callback("go"), function(e, target) {
       if (anchor = (String(target)).match(/#(\w+[_-]\w+)/)) {
         var next_el = document.getElementById(list.children(':first').attr('id'));        
         var target_el = document.getElementById(anchor[1]);
@@ -53,6 +61,9 @@ $(document).ready(function(){
         target = children-1;
       };
       
+      console.log("list is ");
+      console.log(list);
+      
       if (target < 0) {
         target = 0;
         list.animate({ left: target }, 'slow', 'easeInOutQuad', $.noop);
@@ -67,14 +78,12 @@ $(document).ready(function(){
       currentItem = target;
     });
     
-    $('a.prev').click(function () {         
-      list.trigger(callback, currentItem-1); 
-      return false; 
+    list.bind(name_callback("previous"), function(e, target) {       
+      list.trigger(name_callback("go"), currentItem-1);
     });
     
-    $('a.next').click(function () {
-      list.trigger(callback, (currentItem+1)); 
-      return false; 
+    list.bind(name_callback("next"), function(e, target) { 
+      list.trigger(name_callback("go"), currentItem+1);
     });
     
     return list;
