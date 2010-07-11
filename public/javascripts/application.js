@@ -1,6 +1,6 @@
 $(document).ready(function(){
    $('#work .container').theWork();
-   $('#people').theTeam();
+   // $('#people').theTeam();
 });
 
 

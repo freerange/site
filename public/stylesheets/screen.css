@@ -59,27 +59,26 @@ a:hover { color: #db4a1d; }
 #header {
   max-width: 81em;
   margin: 0 auto;
-  padding-top: 2.75em;
 }
 #header h1 {
   float: left;
-  font-size: 5em;
-  width: 279px;
-  height: 68px;
+  width: 300px;
+  height: 157px;
+  margin-top: 2.6em;
 }
 #header h1 a {
   display: block;
-  background: url(/images/logo.png) no-repeat 9px 0;
+  background: url(/images/logo.png) no-repeat 0 0;
   text-indent: -9999px;
-  width: 288px;
-  height: 68px;
+  width: 199px;
+  height: 157px;
+  margin: 0 auto;
 }
 #header h2 {
-  float: right;
-  margin-right: 12px;
-  margin-top: 0.46em;
+  float: left;
+  margin-top: 2.47em;
   font-size: 4em;
-  color: #eeeeee;
+  color: #bbbbbb;
 }
 h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
 #content { position: relative; }
@@ -87,7 +86,7 @@ h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
 #content .section .container {
   position: relative;
   max-width: 81em;
-  margin: 1em auto;
+  margin: 0 auto;
 }
 #content .section h2 {
   font-size: 4em;
@@ -123,25 +122,24 @@ h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
 #content .neun { width: 852px; }
 #content .zehn { width: 948px; }
 #content #about #intro {
-  padding: 1.9em 0 2.9em 12px;
+  padding: 1.1em 0 1em 0;
   margin: 0 auto;
-}
-#content #about #intro p {
   font-size: 2.5em;
   font-weight: bold;
-  line-height: 1.25em;
+  line-height: 1.4em;
   color: #676767;
 }
 #content #about #co-op-and-preamble {
   float: left;
-  padding: 0.35em 12px 0 12px;
+  padding: 0.45em 12px 0 12px;
 }
 #content #about #co-op-and-preamble p:first-child {
   font-size: 1.4em;
   line-height: 1.25em;
-  padding-bottom: 1.1em;
+  padding-bottom: 1.35em;
 }
 #content #about #co-op-and-preamble h2 {
+  padding-top: 0.45em;
   text-transform: uppercase;
   line-height: 0.9em;
   font-family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -154,81 +152,32 @@ h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
   width: 336px;
   padding-bottom: 1.45em;
 }
-#content #about #co-op-and-preamble h2 + p {
-  padding-top: 0.1em;
-  line-height: 1.4em;
-}
-#content #about #people {
+#content #about #work {
   float: left;
-  padding: 7px 0 0 0;
+  padding: 0 0 0 0;
 }
-#content #about #people h2 {
-  font-weight: 100;
-  padding: 0.2em 0 0.32em 0;
-}
-#content #about #people ul { padding: 0.4em 0 0 0; }
-#content #about #people ul li {
+#content #about #work .project-info { display: none; }
+#content #approach .container { padding-top: 1.7em; }
+#content #approach .idea {
+  padding: 0 0 0 12px;
   float: left;
-  width: 84px;
-  margin-right: 12px;
 }
-#content #about #people ul li a {
-  text-align: center;
-  display: block;
-  text-transform: uppercase;
-  font-size: 1.4em;
-  padding-top: 0.4em;
-  padding-bottom: 0.25em;
+#content #approach .idea ul { padding-top: 2.05em; }
+#content #approach .idea ul li { padding: 0 1em 1.75em 0; }
+#content #approach .idea ul li p {
+  font-size: 1.1em;
+  line-height: 1.6em;
 }
-#content #about #people ul li a.chosen {
-  background: #eeeeee;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-#content #about #people ul li:last-child { margin-right: 0; }
-#content #about #people .person { width: 576px; }
-#content #about #people .person img {
-  background: #eeeeee;
-  background-color: rgba(255, 255, 255, 0.2);
-  display: block;
-  margin-bottom: 2.55em;
-}
-#content .project_toggle { margin-bottom: 1em; }
-#content .project_toggle a {
+#content .project-toggle { margin-bottom: 1em; }
+#content .project-toggle a {
   display: block;
   background: #dddddd;
   text-align: center;
   padding: 1em;
   width: 100px;
 }
-#content .project_toggle .prev { float: left; }
-#content .project_toggle .next { float: right; }
-#content #work ol li.project {
-  padding-bottom: 1em;
-  float: left;
-  width: 81em;
-}
-#content #work ol li.project .project-images {
-  height: 30em;
-  padding: 1em;
-  background: #fffdf3;
-}
-#content #work ol li.project .project-images .holder {
-  background: #000000;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-#content #work ol li.project .project-images .holder img { width: 100%; }
-#content #work ol li.project .project-desc {
-  width: 564px;
-  float: left;
-  padding: 1em 0 0 12px;
-}
-#content #work ol li.project .project-insight {
-  float: left;
-  width: 372px;
-  padding: 1em 0 0 12px;
-}
+#content .project-toggle .prev { float: left; }
+#content .project-toggle .next { float: right; }
 ol.scrollist { position: relative; }
 ol.scrollist li { float: left; }
 form p {
