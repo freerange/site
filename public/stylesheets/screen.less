@@ -6,19 +6,18 @@
 */
 
 /* Global Variables */
-
 @font_family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 @gutter: 12px;
 @col: 84px;
 @col_size: @gutter + @col;
+
+/* body style */
 
 body {
 	color: #444;
 	font-family: @font_family;
 	font-size: 62.5%;
 	background-color: #fff;
-/*  background-image: url(/images/bg.jpg);*/
 }
 	
 /* links */
@@ -38,6 +37,19 @@ a:link, a:visited {
 a:hover {
   color: #db4a1d;
 }
+
+/* column widths */
+
+.eins   { width: @col_size; }
+.zwei   { width: @col_size * 2 - @gutter; }
+.drei   { width: @col_size * 3 - @gutter; }
+.vier   { width: @col_size * 4 - @gutter; }
+.funf   { width: @col_size * 5 - @gutter; }
+.sechs  { width: @col_size * 6 - @gutter; }
+.sieben { width: @col_size * 7 - @gutter; }
+.acht   { width: @col_size * 8 - @gutter; }
+.neun   { width: @col_size * 9 - @gutter; }
+.zehn   { width: @col_size * 10 - @gutter; }
 
 /* page structure 
 --------------------------------------------- */
@@ -76,8 +88,10 @@ a:hover {
   h2 {
     float: left;
     margin-top: 2.47em;
-    font-size: 4em;
-    color: #bbb;    
+    font-size: 3em;
+    color: #bbb;
+    border: 1px solid red;
+    width:;
   }
   
 }
@@ -90,10 +104,6 @@ ul#nav {
 
 /* main styles 
 --------------------------------------------- */
-
-h2 {
-  font-family: "museo-sans-1","museo-sans-2",sans-serif;
-}
 
 #content {
   position: relative;
@@ -110,15 +120,19 @@ h2 {
 
     h2 {
       font-size: 4em;
+      line-height: 1em;
       padding-bottom: 0.45em;
     }
     
     h3 {
       font-size: 2em;
+      line-height: 1em;
+      
     }
     
     h4 {
       font-size: 1.8em;
+      line-height: 1em;
     }
     
     h2 + p, h3 + p {
@@ -136,169 +150,50 @@ h2 {
       line-height: 1.5em;
     }
   }
-  
-  .eins   { width: @col_size; }
-  .zwei   { width: @col_size * 2 - @gutter; }
-  .drei   { width: @col_size * 3 - @gutter; }
-  .vier   { width: @col_size * 4 - @gutter; }
-  .funf   { width: @col_size * 5 - @gutter; }
-  .sechs  { width: @col_size * 6 - @gutter; }
-  .sieben { width: @col_size * 7 - @gutter; }
-  .acht   { width: @col_size * 8 - @gutter; }
-  .neun   { width: @col_size * 9 - @gutter; }
-  .zehn   { width: @col_size * 10 - @gutter; }
-  
+    
   #about {
-    
-    #intro {
+
+    .container {
+      padding-top: 0.3em;
       
-      padding: 1.1em 0 1em 0;
-      margin: 0 auto;
-      font-size: 2.5em;
-      font-weight: bold;
-      line-height: 1.4em;
-      color: #676767;
-      
-    }
-    
-    #co-op-and-preamble {
-      
-      float: left;
-      padding: 0.45em @gutter 0 @gutter;
+      p {
+        width: @col_size * 6;
+        padding-left: @col_size * 3 + @gutter;
+      }
       
       p:first-child {
-        font-size: 1.4em;
-        line-height: 1.25em;
-        padding-bottom: 1.35em;
-      }
+        font-size: 1.6em;
+        line-height: 1.15em;
+        padding-bottom: 1.15em;
+      } 
       
-      h2 {
-        padding-top: 0.45em;
-        text-transform: uppercase;
-        line-height: 0.9em;
-        font-family: @font_family;
-        strong { 
-          display: block; 
-          color: #4ca75a; 
-        }
-        
-      }
-      
-      p {        
-        width: @col_size * 3.5;
-        padding-bottom: 1.45em;
-      }
-
     }
     
-    #work {
-      float: left;
-      padding: 0 0 0 0;
-      
-      .project-info {
-        display: none;
-      }
-    }
-  
   }
   
-  
-  
-  #approach {
-    
-    .container {
-      padding-top: 1.7em;
-    }
-    
-    .idea {
-      padding: 0 0 0 @gutter;
-      float: left;
-      ul {
-        padding-top: 2.05em;
-        
-        li {
-          
-          padding: 0 1em 1.75em 0;
-          
-          p {
-            font-size: 1.1em;
-            line-height: 1.6em;
-          }
-        }
-      }
-    }
-  
-  }
-  
-  .project-toggle {
-    margin-bottom: 1em;
-    
-    a {
-      display: block;
-      background: #ddd;
-      text-align: center;
-      padding: 1em;
-      width: 100px;
-    }
-    
-    .prev {
-      float: left;
-    }
-
-    .next {
-      float: right;
-    } 
-  }
-/*  
   #work {
-        
+    
+    h2 {}
+    
     ol {
       
-      li.project {
-        padding-bottom: 1em;
-        float: left;
-        width: 81em;
+      padding-left: @gutter;
       
-        .project-images {
-          height: 30em;
-          padding: 1em;
-          background: #fffdf3;
-      
-          .holder {
-            background: #000;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-      
-            img {
-              width: 100%;
-            }
-          }
-        }
-      
+      li {
         .project-desc {
-          width: @col_size * 6 - @gutter;
+          width: @col_size * 3;
           float: left;
-          padding: 1em 0 0 @gutter;
         }
-      
-        .project-insight {
-          float: left;
-          width: @col_size * 4 - @gutter;
-          padding: 1em 0 0 @gutter;
+        
+        img {
+          display: block;
+          float: left
         }
       }
     }
-  }
     
-*//*  #contact {
+  }
   
-    textarea {
-      width: 98.5%;
-      height: 10em;
-      font-size: 1.2em;
-    }
-  }*/
 }
 
 ol.scrollist {
