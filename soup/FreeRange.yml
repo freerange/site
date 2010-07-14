@@ -1,36 +1,41 @@
 <div id="about" class="section group">
-  
-  <div class="container">
-    <p id="intro" class="acht">We are a small group of exceptionally talented and experienced software developers based in London.</p>
-    
-    <div id="co-op-and-preamble" class="vier group">
-      <p>Hello. We are a co-operative company run by some of the most experienced web application developers in the UK.</p>
-      <p>Our company is run entirely by the hands whom design, build and deploy your products.</p>
-      <p>You don't need anything else.</p>
-      <p>We ask you to approach us with projects that are inspiring, and we absolutely require a challenge.</p>
-    </div>
-    
-    <div id="work" class="group sechs">
-      <ul class="group">
-        <li>
-          <img src="http://placehold.it/564x148" />
-          <div class="project-info">
-            <h3><a href="http://hashblue.com" title="Text message backup done right">http://hashblue.com</a></h3>
-            <p class="client">Client: <a href="http://o2.co.uk">Telefónica O2 UK Limited</a></p>
-            <p>UK mobile provider O2 approached Go Free Range in early 2010 looking for explore new approaches to software development, database technologies and open collaboration with their customers. In order to demonstrate these factors we built a working prototype / beta of one of O2's existing products (O2 Bluebook) which offeres customers the ability to backup text messages and synchronise address book contacts. Working iteratively we designed and built 2 applications, one which provides an API to a customers text message history, and another which consumes this data forming the front end application #blue.</p>
-            <p>Work has now begun on Phase 2 of the project, which will see us scaling and integrating the service directly into O2's data network enabling us to support hundreds of thousands of customers. Part of this phase will include the continued development of the #blue application, working with the O2 customer community to deliver functionality they really need.</p>
-          </div>
-        </li>
-      </ul>      
-    </div>
-     
+  <div class="container">    
+    <p>Hello. We are a co-operative company run by some of the most experienced web application developers in the UK.</p>
+    <p>Our company is run entirely by the hands whom design, build and deploy your products.</p>
+    <p>We ask you to approach us with projects that are inspiring, and we absolutely require a challenge.</p>
   </div>
 </div>
 
-<div id="approach" class="section group">
+<div id="work" class="section group">
+  <div class="container">
+    <h2>Recent Work</h2>
+    
+    <ol>
+      <li class="group">
+      
+        <div class="project-desc"><h3>O2 Hashblue</h3>
+          <p>Working iteratively we designed and built 2 applications, one which provides an API to a customers text message history, and another which consumes this data forming the front end application #blue.</p>
+          <p>Key project infomation:</p>
+          <ul>
+            <li>Blah blah blah</li>
+            <li>Database design</li>
+            <li>Fluffy branding</li>
+          </ul>
+          <p>Visit: <a href="lala">http://hashblue.com</a></p>
+        </div>
+        
+        <a href="project-url"><img src="http://placehold.it/565x335" /></a>
+      </li>
+    </ol>
+    
+  </div>
+</div>
 
-  <div class="container group">
-  
+<div id="ethos" class="section group">
+  <div class="container">
+    <h2>Our thoughts, ethos and process.</h2>
+    <p>Introductory text to the ethos process stuff.</p>
+    
     <div class="idea vier">      
       <h3>Software is alive</h3>
       <ul>
@@ -60,146 +65,45 @@
   </div>
 </div>
 
-<!--
-
-<div id="work" class="section group">
+<div id="contact" class="section group">
   <div class="container">
-    <h2>Our work</h2>
-  
-    <ol id="project-list">
-      <li id="o2-hashblue" class="project group">
-        <div class="project-images">
-          <div class="holder">
-            <img src="/images/folio/hashblue_1.jpg" />
-          </div>
-        </div>
-        <div class="project-desc">
-          <h3>O2 Hashblue</h3>
-          <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
-          <p>I thought I was just the guy for you and it would never end.
-          I thought we were supposed to be like glue,
-          I thought you were my boyfriend.
-          I thought you were my boyfriend.
-          Love or not, I've always got ten guys on whom I can depend.
-          And if you're not mine, one less is nine, get wise,
-          I thought you were my boyfriend.
-          I thought you were my boyfriend.</p>
-        </div>
-        <div class="project-insight">
-          <h4>The money shot</h4>
-          <ul>
-            <li><p>I thought I was just the guy for you and it would never end.
-            I thought we were supposed to be like glue,
-            I thought you were my boyfriend.
-            I thought you were my boyfriend.
-            Love or not, I've always got ten guys on whom I can depend.
-            And if you're not mine, one less is nine, get wise,
-            I thought you were my boyfriend.
-            I thought you were my boyfriend.</p></li>
-            <li><p>Blah blah blah</p></li>
-          </ul>
-        </div>
-      </li>
+    <h2>Our members</h2>
     
-      <li id="chromaroma" class="project group">
-        <div class="project-images">
-          <div class="holder">
-            <img src="/images/folio/hashblue_1.jpg" />
-          </div>
-        </div>
-        <div class="project-desc">
-          <h3>Chromaroma</h3>
-          <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
-          <p>I thought I was just the guy for you and it would never end.
-          I thought we were supposed to be like glue,
-          I thought you were my boyfriend.
-          I thought you were my boyfriend.
-          Love or not, I've always got ten guys on whom I can depend.
-          And if you're not mine, one less is nine, get wise,
-          I thought you were my boyfriend.
-          I thought you were my boyfriend.</p>
-        </div>
-        <div class="project-insight">
-          <h4>The money shot</h4>
-          <ul>
-            <li><p>Blah blah blah</p></li>
-            <li><p>Blah blah blah</p></li>
-          </ul>
-        </div>
-      </li>
+    <p>Founded in 2009 through mutual respect of work and character. Our team is made up of complentary skills and a single vision in the way software should be built. Respected by our clients and the wider online community; we are experts at building software for the web.</p>
     
-      <li id="auteurs" class="project group">
-        <div class="project-images">
-          <div class="holder">
-            <img src="/images/folio/hashblue_1.jpg" />
-          </div>
-        </div>
-        <div class="project-desc">
-          <h3>The Auteurs</h3>
-          <p>You told me you loved me I know where and when Come sunrise, surprise surprise, the joke's on me again. I know you don't love me, You know i don't care. Keep it hidden better. Did I say the world is fair.</p>
-          <p>I thought I was just the guy for you and it would never end.
-          I thought we were supposed to be like glue,
-          I thought you were my boyfriend.
-          I thought you were my boyfriend.
-          Love or not, I've always got ten guys on whom I can depend.
-          And if you're not mine, one less is nine, get wise,
-          I thought you were my boyfriend.
-          I thought you were my boyfriend.</p>
-        </div>
-        <div class="project-insight">
-          <h4>The money shot</h4>
-          <ul>
-            <li><p>Blah blah blah</p></li>
-            <li><p>Blah blah blah</p></li>
-          </ul>
-        </div>
+    <ol id="team" class="group">
+      <li class="member">
+        <img src="http://placehold.it/148x148" />
+        <h3>Jason Cale</h3>
+        <p class="links"><a href="">Website</a> / <a href="">Twitter</a></p>
+        <p class="bio">James is a long-time Rubyist and one of the instigators of LRUG and Ruby Manor. Since finishing his PhD, he's been building applications using Ruby and Rails, including work on theauteurs.com and Reevoo.</p>
+
       </li>
-    
     </ol>
+    
   </div>
 </div>
 
--->
-
-<!--
-
-<div id="ethos" class="section group">
-  <h2>Ethos</h2>
-  <p>Blah blah blah</p>
-  <p>Blah blah blah</p>
-  <p>Blah blah blah</p>
-  <p>Blah blah blah</p>
-  <p>Blah blah blah</p>
-  <p>Blah blah blah</p>
-  <p>Blah blah blah</p>
-  <p>Blah blah blah</p>
-</div>
-
-<div id="process" class="section group">
-  <h2>Process</h2>
-  
-</div>
-
 <div id="contact" class="section group">
-  <h2>Contact</h2>
-  <form>
-    <p>
-      <label>Name</label>
-      <input type="text" name="name" />
-    </p>
-    <p>
-      <label>Email</label>
-      <input type="text" name="email" />
-    </p>
-    <p>
-      <label>Why should we consider your project?</label>
-      <textarea></textarea>
-    </p>
-    <p class="submit group"><input type="submit" value="send" /></p>
-  </form>
+  <div class="container">
+    <h2>Get in touch</h2>
+    <form>
+      <p>
+        <label>Name</label>
+        <input type="text" name="name" />
+      </p>
+      <p>
+        <label>Email</label>
+        <input type="text" name="email" />
+      </p>
+      <p>
+        <label>Why should we consider your project?</label>
+        <textarea></textarea>
+      </p>
+      <p class="submit group"><input type="submit" value="send" /></p>
+    </form>
+  </div>
 </div>
-
---!>
 
 
 --- # Soup attributes

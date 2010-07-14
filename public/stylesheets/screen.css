@@ -50,6 +50,16 @@ a:visited {
   color: #333333;
 }
 a:hover { color: #db4a1d; }
+.eins { width: 96px; }
+.zwei { width: 180px; }
+.drei { width: 276px; }
+.vier { width: 372px; }
+.funf { width: 468px; }
+.sechs { width: 564px; }
+.sieben { width: 660px; }
+.acht { width: 756px; }
+.neun { width: 852px; }
+.zehn { width: 948px; }
 #page {
   font-size: 1.2em;
   line-height: 1.833333em;
@@ -77,10 +87,10 @@ a:hover { color: #db4a1d; }
 #header h2 {
   float: left;
   margin-top: 2.47em;
-  font-size: 4em;
+  font-size: 3em;
   color: #bbbbbb;
+  border: 1px solid red;
 }
-h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
 #content { position: relative; }
 #content .section { padding: 0; }
 #content .section .container {
@@ -90,10 +100,17 @@ h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
 }
 #content .section h2 {
   font-size: 4em;
+  line-height: 1em;
   padding-bottom: 0.45em;
 }
-#content .section h3 { font-size: 2em; }
-#content .section h4 { font-size: 1.8em; }
+#content .section h3 {
+  font-size: 2em;
+  line-height: 1em;
+}
+#content .section h4 {
+  font-size: 1.8em;
+  line-height: 1em;
+}
 #content .section h2 + p {
   padding-top: 1.45em;
   font-size: 1.3em;
@@ -111,73 +128,25 @@ h2 { font-family: "museo-sans-1", "museo-sans-2", sans-serif; }
   font-size: 1.2em;
   line-height: 1.5em;
 }
-#content .eins { width: 96px; }
-#content .zwei { width: 180px; }
-#content .drei { width: 276px; }
-#content .vier { width: 372px; }
-#content .funf { width: 468px; }
-#content .sechs { width: 564px; }
-#content .sieben { width: 660px; }
-#content .acht { width: 756px; }
-#content .neun { width: 852px; }
-#content .zehn { width: 948px; }
-#content #about #intro {
-  padding: 1.1em 0 1em 0;
-  margin: 0 auto;
-  font-size: 2.5em;
-  font-weight: bold;
-  line-height: 1.4em;
-  color: #676767;
+#content #about .container { padding-top: 0.3em; }
+#content #about .container p {
+  width: 576px;
+  padding-left: 300px;
 }
-#content #about #co-op-and-preamble {
+#content #about .container p:first-child {
+  font-size: 1.6em;
+  line-height: 1.15em;
+  padding-bottom: 1.15em;
+}
+#content #work ol { padding-left: 12px; }
+#content #work ol li .project-desc {
+  width: 288px;
   float: left;
-  padding: 0.45em 12px 0 12px;
 }
-#content #about #co-op-and-preamble p:first-child {
-  font-size: 1.4em;
-  line-height: 1.25em;
-  padding-bottom: 1.35em;
-}
-#content #about #co-op-and-preamble h2 {
-  padding-top: 0.45em;
-  text-transform: uppercase;
-  line-height: 0.9em;
-  font-family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-#content #about #co-op-and-preamble h2 strong {
+#content #work ol li img {
   display: block;
-  color: #4ca75a;
-}
-#content #about #co-op-and-preamble p {
-  width: 336px;
-  padding-bottom: 1.45em;
-}
-#content #about #work {
-  float: left;
-  padding: 0 0 0 0;
-}
-#content #about #work .project-info { display: none; }
-#content #approach .container { padding-top: 1.7em; }
-#content #approach .idea {
-  padding: 0 0 0 12px;
   float: left;
 }
-#content #approach .idea ul { padding-top: 2.05em; }
-#content #approach .idea ul li { padding: 0 1em 1.75em 0; }
-#content #approach .idea ul li p {
-  font-size: 1.1em;
-  line-height: 1.6em;
-}
-#content .project-toggle { margin-bottom: 1em; }
-#content .project-toggle a {
-  display: block;
-  background: #dddddd;
-  text-align: center;
-  padding: 1em;
-  width: 100px;
-}
-#content .project-toggle .prev { float: left; }
-#content .project-toggle .next { float: right; }
 ol.scrollist { position: relative; }
 ol.scrollist li { float: left; }
 form p {
