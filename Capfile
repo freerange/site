@@ -1,4 +1,4 @@
-require 'freerange/deploy'
+require 'bundler/setup'
 
-server "gofreerange.com", :app, :web, :db, :primary => true
-set :application, "gofreerange.com" # defaults to the name of the repo at origin
+load 'deploy' if respond_to?(:namespace) # cap2 differentiator
+load 'config/deploy' # remove this line to skip loading any of the default tasks
