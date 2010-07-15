@@ -293,12 +293,11 @@ ul#nav {
   }
 
   #people {
+    
+    padding-bottom: 3.6em;
+    
     .container {
-      
-      h2 {
-        text-align: left;
-      }
-            
+
       p {
         padding-left: @gutter;
       }
@@ -364,7 +363,60 @@ ul#nav {
       
     }
   }
+  
+  #contact {
 
+    .container {
+
+      h2 { 
+        text-align: left;
+      }
+      
+      h3, p {
+        padding-left: @gutter;
+      }
+      
+      p {
+        width: @col_size * 4;
+        float: left;
+      }
+
+      form {
+        float: left;
+
+        margin: 1.8em 0 0 @col_size;
+        width: @col_size * 4;
+
+        input[type=text] {
+          width: @col_size * 3;
+          padding: 0;
+        }
+
+        p.submit { 
+          padding-top: 1.3em;
+          input {
+            float: none;
+          }
+        }
+
+        p {
+          padding: 0 0 0.3em 0;
+
+          textarea {
+            margin-top: 0.3em;
+          }
+        }
+
+        p.budget {
+          padding-top: 1.5em;
+          padding-bottom: 1.4em;
+        }
+
+      }
+    }
+
+  }
+  
 }
 
 ol.scrollist {
@@ -380,8 +432,8 @@ form {
   
   p {
     font-size: 0.8em;
-    padding: 0.5em 0em;
-    line-height: 1.8em;
+    padding: 0 0 0 0;
+    line-height: 1.5em;
   }
   
   p.submit {
@@ -391,7 +443,6 @@ form {
   }
   
   input {
-    margin-bottom: 1em;
     max-width: 20em;
     width: 100%;
   }
@@ -405,7 +456,7 @@ form {
     color: #333;
     display: block;
     font-size: 1.4em;
-    line-height: 1.4em;
+    line-height: 1.5em;
   }
   
   input:focus, textarea:focus {
@@ -430,11 +481,6 @@ form {
   }
   
   input[type=submit] {
-    -moz-border-radius: 0.5em; /* FF1+ */
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    -webkit-border-radius: 0.5em; /* Saf3+, Chrome */    
-    -webkit-transition: all 0.3s linear;
     background: #ccc;
     border-radius: 0.3em; /* Opera 10.5, IE 9 */
     border: 1px solid #c5c5c5;
@@ -464,7 +510,6 @@ form {
   
   label {
     color: #666;
-    font-size: 1.2em;
     line-height: 1.6em;
     
     span {

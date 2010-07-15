@@ -212,7 +212,7 @@ a:hover { color: #db4a1d; }
   padding-left: 0;
   padding-right: 0;
 }
-#content #people .container h2 { text-align: left; }
+#content #people { padding-bottom: 3.6em; }
 #content #people .container p { padding-left: 12px; }
 #content #people .container ol#team { padding-top: 1.8em; }
 #content #people .container ol#team li {
@@ -254,16 +254,39 @@ a:hover { color: #db4a1d; }
   font-style: italic;
   font-weight: normal;
 }
+#content #contact .container h2 { text-align: left; }
+#content #contact .container h3 { padding-left: 12px; }
+#content #contact .container p { padding-left: 12px; }
+#content #contact .container p {
+  width: 384px;
+  float: left;
+}
+#content #contact .container form {
+  float: left;
+  margin: 1.8em 0 0 96px;
+  width: 384px;
+}
+#content #contact .container form input[type=text] {
+  width: 288px;
+  padding: 0;
+}
+#content #contact .container form p.submit { padding-top: 1.3em; }
+#content #contact .container form p.submit input { float: none; }
+#content #contact .container form p { padding: 0 0 0.3em 0; }
+#content #contact .container form p textarea { margin-top: 0.3em; }
+#content #contact .container form p.budget {
+  padding-top: 1.5em;
+  padding-bottom: 1.4em;
+}
 ol.scrollist { position: relative; }
 ol.scrollist li { float: left; }
 form p {
   font-size: 0.8em;
-  padding: 0.5em 0em;
-  line-height: 1.8em;
+  padding: 0 0 0 0;
+  line-height: 1.5em;
 }
 form p.submit input { float: right; }
 form input {
-  margin-bottom: 1em;
   max-width: 20em;
   width: 100%;
 }
@@ -276,7 +299,7 @@ form input {
   color: #333333;
   display: block;
   font-size: 1.4em;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 form textarea {
   background: #eeeeee;
@@ -287,7 +310,7 @@ form textarea {
   color: #333333;
   display: block;
   font-size: 1.4em;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 form input:focus {
   background: #f9f9f9;
@@ -310,11 +333,6 @@ form input[type=checkbox] + label:hover {
   cursor: pointer;
 }
 form input[type=submit] {
-  -moz-border-radius: 0.5em;
-  -moz-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  -webkit-border-radius: 0.5em;
-  -webkit-transition: all 0.3s linear;
   background: #cccccc;
   border-radius: 0.3em;
   border: 1px solid #c5c5c5;
@@ -341,7 +359,6 @@ form input[type=submit]:disabled {
 }
 form label {
   color: #666666;
-  font-size: 1.2em;
   line-height: 1.6em;
 }
 form label span {
