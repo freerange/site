@@ -74,34 +74,49 @@ a:hover { color: #db4a1d; }
   float: left;
   width: 300px;
   height: 157px;
-  margin-top: 2.6em;
+  margin-top: 4.4em;
 }
 #header h1 a {
   display: block;
   background: url(/images/logo.png) no-repeat 0 0;
   text-indent: -9999px;
-  width: 199px;
-  height: 157px;
-  margin: 0 auto;
+  width: 291px;
+  height: 229px;
+  margin: 0;
+  padding: 0;
+  margin-left: -10%;
 }
 #header h2 {
   float: left;
-  margin-top: 2.47em;
+  margin-top: 2.55em;
   font-size: 3em;
-  color: #bbbbbb;
-  border: 1px solid red;
+  line-height: 1.22em;
+  color: #222222;
+  font-weight: normal;
 }
 #content { position: relative; }
-#content .section { padding: 0; }
+#content .section {
+  border-top: 1px solid #fcfcfc;
+  padding: 1.9em 0 5.6em 0;
+}
 #content .section .container {
   position: relative;
   max-width: 81em;
   margin: 0 auto;
 }
+#content .section .container h2 + p { padding-top: 0.4em; }
 #content .section h2 {
-  font-size: 4em;
+  font-size: 2.6em;
   line-height: 1em;
   padding-bottom: 0.45em;
+  font-style: italic;
+  color: #e1e1e1;
+}
+#content .section .container > h2 {
+  position: relative;
+  top: -1.25em;
+  padding: 0 0.4em;
+  text-align: center;
 }
 #content .section h3 {
   font-size: 2em;
@@ -112,14 +127,16 @@ a:hover { color: #db4a1d; }
   line-height: 1em;
 }
 #content .section h2 + p {
-  padding-top: 1.45em;
-  font-size: 1.3em;
-  padding-bottom: 1.45em;
+  padding-top: 1.6em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
 }
 #content .section h3 + p {
-  padding-top: 1.45em;
-  font-size: 1.3em;
-  padding-bottom: 1.45em;
+  padding-top: 1.6em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
 }
 #content .section h2 + ul { padding-top: 1.2em; }
 #content .section h3 + ul { padding-top: 1.2em; }
@@ -127,6 +144,10 @@ a:hover { color: #db4a1d; }
 #content .section p {
   font-size: 1.2em;
   line-height: 1.5em;
+}
+#content #about {
+  border: none;
+  padding-top: 0;
 }
 #content #about .container { padding-top: 0.3em; }
 #content #about .container p {
@@ -138,14 +159,100 @@ a:hover { color: #db4a1d; }
   line-height: 1.15em;
   padding-bottom: 1.15em;
 }
+#content #work { padding-bottom: 5.9em; }
+#content #work h2 { text-align: left; }
 #content #work ol { padding-left: 12px; }
 #content #work ol li .project-desc {
-  width: 288px;
+  width: 276px;
   float: left;
+  padding-right: 12px;
+}
+#content #work ol li .project-desc h3 + p { padding-top: 2em; }
+#content #work ol li .project-desc p {
+  font-size: 1em;
+  line-height: 1.8em;
+  padding-bottom: 1.8em;
+}
+#content #work ol li .project-desc ul {
+  padding: 0 0 1.8em 1.3em;
+  list-style: circle;
+}
+#content #work ol li .project-desc ul li {
+  padding: 0;
+  line-height: 1.75em;
 }
 #content #work ol li img {
   display: block;
+  float: right;
+  padding: 12px;
+  background: #a8d8a0;
+  background-color: rgba(168, 216, 160, 0.5);
+  max-width: 100%;
+}
+#content #ethos { padding-bottom: 3.6em; }
+#content #ethos .container p {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#content #ethos .container .idea {
+  margin-top: 1.4em;
+  margin-left: 12px;
   float: left;
+}
+#content #ethos .container .idea ul { padding: 2em 0; }
+#content #ethos .container .idea ul li p {
+  font-size: 1em;
+  line-height: 1.8em;
+  padding-bottom: 1.8em;
+  padding-right: 12px;
+  font-family: "droid-serif-1", "droid-serif-2", serif;
+  font-style: italic;
+}
+#content #ethos .container .idea p {
+  padding-left: 0;
+  padding-right: 0;
+}
+#content #people .container h2 { text-align: left; }
+#content #people .container p { padding-left: 12px; }
+#content #people .container ol#team { padding-top: 1.8em; }
+#content #people .container ol#team li {
+  float: left;
+  width: 468px;
+  padding-left: 12px;
+}
+#content #people .container ol#team li p { padding-left: 0; }
+#content #people .container ol#team li img {
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 1.8em;
+  margin-left: 12px;
+}
+#content #people .container ol#team li h3 {
+  font-size: 1.2em;
+  padding: 0;
+  float: left;
+  line-height: 1.3em;
+  padding-bottom: 0.3em;
+}
+#content #people .container ol#team li p.links {
+  font-size: 1em;
+  float: left;
+  padding: 0;
+  margin-left: 1em;
+  color: #dddddd;
+}
+#content #people .container ol#team li p.links a { color: #cccccc; }
+#content #people .container ol#team li p.links a:hover { color: #db4a1d; }
+#content #people .container ol#team li .info {
+  float: right;
+  width: 276px;
+}
+#content #people .container ol#team li p.bio {
+  clear: both;
+  font-size: 1em;
+  line-height: 1.8em;
+  font-style: italic;
+  font-weight: normal;
 }
 ol.scrollist { position: relative; }
 ol.scrollist li { float: left; }

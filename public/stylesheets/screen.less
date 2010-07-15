@@ -10,7 +10,7 @@
 @gutter: 12px;
 @col: 84px;
 @col_size: @gutter + @col;
-
+@link_hover: #db4a1d;
 /* body style */
 
 body {
@@ -35,7 +35,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #db4a1d;
+  color: @link_hover;
 }
 
 /* column widths */
@@ -73,25 +73,27 @@ a:hover {
     float: left;
     width: @col_size * 3 + @gutter;
     height: 157px;
-    margin-top: 2.6em;
-    
+    margin-top: 4.4em;
+      
     a {
       display: block;
       background: url(/images/logo.png) no-repeat 0 0;
       text-indent: -9999px;
-      width: 199px;
-      height: 157px;
-      margin: 0 auto;
+      width: 291px;
+      height: 229px;
+      margin: 0;
+      padding: 0;
+      margin-left: -10%;
     }
   }
   
   h2 {
     float: left;
-    margin-top: 2.47em;
+    margin-top: 2.55em;
     font-size: 3em;
-    color: #bbb;
-    border: 1px solid red;
-    width:;
+    line-height: 1.22em;
+    color: #222;
+    font-weight: normal;
   }
   
 }
@@ -110,18 +112,32 @@ ul#nav {
     
   .section {
     
-    padding: 0;
+    border-top: 1px solid #fcfcfc;    
+    padding: 1.9em 0 5.6em 0;
     
     .container {
       position: relative;
       max-width: 81em; // 960px
       margin: 0 auto;
+      
+      h2 + p {
+        padding-top: 0.4em;
+      }
     }
-
+    
     h2 {
-      font-size: 4em;
+      font-size: 2.6em;
       line-height: 1em;
       padding-bottom: 0.45em;
+      font-style: italic;
+      color: #e1e1e1;
+    }
+    
+    .container > h2 {
+      position: relative;
+      top: -1.25em;
+      padding: 0 0.4em;
+      text-align: center;
     }
     
     h3 {
@@ -136,9 +152,10 @@ ul#nav {
     }
     
     h2 + p, h3 + p {
-      padding-top: 1.45em;
-      font-size: 1.3em;
-      padding-bottom: 1.45em;
+      padding-top: 1.6em;
+      font-size: 1.2em;
+      line-height: 1.5em;
+      padding-bottom: 1.5em;
     }
     
     h2 + ul, h3 + ul, h4 + ul {
@@ -149,10 +166,14 @@ ul#nav {
       font-size: 1.2em;
       line-height: 1.5em;
     }
+    
   }
     
   #about {
-
+    
+    border: none;
+    padding-top: 0;
+    
     .container {
       padding-top: 0.3em;
       
@@ -173,7 +194,11 @@ ul#nav {
   
   #work {
     
-    h2 {}
+    padding-bottom: 5.9em;
+    
+    h2 {
+      text-align: left;
+    }
     
     ol {
       
@@ -181,19 +206,165 @@ ul#nav {
       
       li {
         .project-desc {
-          width: @col_size * 3;
+          width: @col_size * 3 - @gutter;
           float: left;
+          padding-right: @gutter;
+          
+          h3 + p {
+            padding-top: 2em;
+          }
+          
+          p { 
+            font-size: 1em;
+            line-height: 1.8em;
+            padding-bottom: 1.8em;
+          }
+          
+          ul {
+            padding: 0 0 1.8em 1.3em;
+            list-style: circle;
+            
+            li {              
+              padding: 0;
+              line-height: 1.75em;
+              
+              p {
+                
+              }
+              
+            }
+            
+          }
         }
         
         img {
           display: block;
-          float: left
+          float: right;
+          padding: @gutter;
+          background: #a8d8a0;
+          background-color: rgba(168,216,160,0.5);
+          max-width: 100%;
         }
       }
+      
     }
     
   }
   
+  #ethos {
+    
+    padding-bottom: 3.6em;
+    
+    .container {
+      
+      p {
+        padding-left: @gutter;
+        padding-right: @gutter;
+      }
+      
+      .idea {
+        margin-top: 1.4em;
+        margin-left: @gutter;
+        float: left;
+        
+        ul {
+          padding: 2em 0;
+          
+          li {
+            p {
+              font-size: 1em;
+              line-height: 1.8em;
+              padding-bottom: 1.8em;
+              padding-right: @gutter;
+              font-family: "droid-serif-1","droid-serif-2", serif;
+              font-style: italic;
+            }
+          }
+          
+        }
+        
+        p {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }      
+    }
+    
+  }
+
+  #people {
+    .container {
+      
+      h2 {
+        text-align: left;
+      }
+            
+      p {
+        padding-left: @gutter;
+      }
+      
+      ol#team {
+        
+        padding-top: 1.8em;
+        
+        li {
+          float: left;
+          width: @col_size * 5 - @gutter;
+          padding-left: @gutter;
+          
+          p {
+            padding-left: 0;
+          }
+          
+          img {
+            float: left;
+            margin-right: @gutter;
+            margin-bottom: 1.8em;
+            margin-left: @gutter;
+          }
+          
+          h3 { 
+            font-size: 1.2em;
+            padding: 0;
+            float: left;
+            line-height: 1.3em;
+            padding-bottom: 0.3em;
+          }
+          
+          p.links {
+            font-size: 1em;
+            float: left;
+            padding: 0;
+            margin-left: 1em;
+            color: #ddd;
+            a {
+              color: #ccc;
+            }
+            
+            a:hover {
+              color: @link_hover;
+            }
+          }
+          
+          .info {
+            float: right; 
+            width: @col_size * 3 - @gutter;
+          }
+             
+          p.bio { 
+            clear: both;
+            font-size: 1em; 
+            line-height: 1.8em;
+            font-style: italic;
+            font-weight: normal;
+          }
+          
+        }
+      }
+      
+    }
+  }
+
 }
 
 ol.scrollist {
