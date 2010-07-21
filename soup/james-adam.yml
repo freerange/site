@@ -5,5 +5,6 @@ James wrote the book on [Rails plugins](http://lazyatom.com/plugins), and mainta
 --- # Soup attributes
 :name: james-adam
 :site: lazyatom.com
-:image: http://www.gravatar.com/avatar/acd62030df551952268e84c8fff26a5b?s=80
+:image: images/people/james-adam.jpg
+:twitter: lazyatom
 :render_as: Markdown

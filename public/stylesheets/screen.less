@@ -180,6 +180,7 @@ ul#nav {
       p {
         width: @col_size * 6;
         padding-left: @col_size * 3 + @gutter;
+        padding-bottom: 1.5em;
       }
       
       p:first-child {
@@ -194,17 +195,16 @@ ul#nav {
   
   #work {
     
-    padding-bottom: 5.9em;
-    
     h2 {
       text-align: left;
     }
     
     ol {
-      
+      overflow: hidden;
       padding-left: @gutter;
       
       li {
+        
         .project-desc {
           width: @col_size * 3 - @gutter;
           float: left;
@@ -218,6 +218,7 @@ ul#nav {
             font-size: 1em;
             line-height: 1.8em;
             padding-bottom: 1.8em;
+            padding-right: @gutter;
           }
           
           ul {
@@ -226,25 +227,36 @@ ul#nav {
             
             li {              
               padding: 0;
-              line-height: 1.75em;
-              
-              p {
-                
-              }
-              
+              line-height: 1.75em;              
             }
             
           }
         }
         
-        img {
-          display: block;
-          float: right;
-          padding: @gutter;
-          background: #a8d8a0;
-          background-color: rgba(168,216,160,0.5);
-          max-width: 100%;
+        ul.project-images {
+          width: @col_size * 7;
+          float: left;
+          
+          li {
+            width: @col_size * 6 - @gutter;
+            
+            img {
+              
+            }
+          }
         }
+        
+        div.pimg-wrap {
+          overflow: hidden;
+          height: 335px;
+          width: @col_size * 7;
+          float: left;
+          
+          ul.project-images {
+            float: none;
+          }
+        }
+        
       }
       
     }
@@ -252,8 +264,7 @@ ul#nav {
   }
   
   #ethos {
-    
-    padding-bottom: 3.6em;
+    padding-top: 5.9em;
     
     .container {
       
@@ -263,12 +274,12 @@ ul#nav {
       }
       
       .idea {
-        margin-top: 1.4em;
+        margin-top: 3.1em;
         margin-left: @gutter;
         float: left;
         
         ul {
-          padding: 2em 0;
+          padding: 2em 0 1.8em 0;
           
           li {
             p {
@@ -293,6 +304,7 @@ ul#nav {
   }
 
   #people {
+    padding-top: 3.3em;
     
     padding-bottom: 3.6em;
     
@@ -310,6 +322,10 @@ ul#nav {
           float: left;
           width: @col_size * 5 - @gutter;
           padding-left: @gutter;
+          border-bottom: 1px solid #eee;
+          margin-bottom: 4.3em;
+          padding-bottom: 4.4em;
+          min-height: 20em;
           
           p {
             padding-left: 0;
@@ -318,7 +334,6 @@ ul#nav {
           img {
             float: left;
             margin-right: @gutter;
-            margin-bottom: 1.8em;
             margin-left: @gutter;
           }
           
@@ -350,12 +365,19 @@ ul#nav {
             width: @col_size * 3 - @gutter;
           }
              
-          p.bio { 
+          div.bio { 
             clear: both;
-            font-size: 1em; 
-            line-height: 1.8em;
-            font-style: italic;
-            font-weight: normal;
+            
+            p {
+              font-size: 1em; 
+              line-height: 1.8em;
+              font-style: italic;
+              font-weight: normal;
+            }
+            
+            p + p {
+              padding-top: 1.8em;
+            }
           }
           
         }
@@ -543,6 +565,11 @@ span.amp {
 	color: #766557;
 }
 
+em {
+  font-family: "droid-serif-1","droid-serif-2", serif;
+  font-style: italic;
+}
+
 /* self-clear floats */
 
 .group:after {
@@ -551,4 +578,8 @@ span.amp {
   height: 0; 
   clear: both; 
   visibility: hidden;
+}
+
+.clear {
+  clear: both;
 }

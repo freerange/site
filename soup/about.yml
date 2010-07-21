@@ -1,14 +1,7 @@
-<h3>The Company</h3>
-<ul>
-  <li>A small software development company based in London, UK.</li>
-  <li>A group of exceptionally talented and experienced developers.</li>
-  <li>We are a co-operative, and everyone in Free Range works directly with our clients. <br />This means that when we accept a project, we are directly invested in your success; our reputation depends on it.</li>
-</ul>
-
-<h3>What we do</h3>
-<ul>
-  <li>Build software for the web.</li>
-  <li>Anything from B2C, to B2B and internal systems.</li>
-  <li>Work for startups and established companies, large or small.</li>
-  <li>Current tool of choice is Ruby on Rails.</li>
-</ul>
+<div id="about" class="section group">
+  <div class="container">    
+    <p>We are a co-operative founded by some of the most experienced web-application developers in the UK.</p>
+    <p>As a team we offer software development and design services. We are wholly owned and run by the hands that build your software. We are self-organising: we don't have account managers or any such nonsense; we believe that you should work with each of us directly.</p>
+    <p>Please approach us with projects that are <em>inspiring</em> as we absolutely <em>require a challenge</em>.</p>
+  </div>
+</div>

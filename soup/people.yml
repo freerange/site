@@ -1,0 +1,26 @@
+<div id="people" class="section group">
+  <div class="container">
+    <h2>Made of people, a little background on our team</h2>
+    
+    <p>Founded in 2009 on the basis of mutual respect of work and character. Our team is made up of complementary skills and a shared vision of how software should be built. Respected by clients and the online development community; we are experts at building software for the web.</p>
+    
+    <ol id="team" class="group">
+      <li class="member group">
+        {member james-adam}
+      </li>
+      <li class="member group">
+        {member jason-cale}
+      </li>
+      <li class="member group">
+        {member james-mead}
+      </li>
+      <li class="member group">
+        {member kalvir-sandhu}
+      </li>
+      <li class="member group">
+        {member tom-ward}
+      </li> 
+    </ol>
+    
+  </div>
+</div>

@@ -5,6 +5,7 @@ class Member < Dynasnip
     # TODO: produce hCard?
     template.gsub("NAME", member.name.split("-").map { |s| s.capitalize }.join(" ")).
              gsub("SITE", member.site).
+             gsub("TWITTER", member.twitter).
              gsub("IMAGE", member.image).
              gsub("CONTENT", app.render(member))
   end
@@ -14,8 +15,9 @@ end
 :render_as: Ruby
 :name: member
 :template: |
-  <h3>NAME</h3>
-  <p class="site"><a href="http://SITE">SITE</a></p>
   <img src="IMAGE" />
-  CONTENT
-  
+  <div class="info">
+    <h3>NAME</h3>
+    <p class="links"><a href="http://SITE">Website</a> / <a href="http://twitter.com/TWITTER">Twitter</a></p>
+    <div class="bio tk-droid-serif">CONTENT</div>
+  </div>

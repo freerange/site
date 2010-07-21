@@ -1,0 +1,19 @@
+UK mobile provider O2 approached Go Free Range in early 2010 looking for explore new approaches to software development, database technologies and open collaboration with their customers. In order to demonstrate these factors we built a working prototype / beta of one of O2's existing products (O2 Bluebook) which offeres customers the ability to backup text messages and synchronise address book contacts. Working iteratively we designed and built 2 applications, one which provides an API to a customers text message history, and another which consumes this data forming the front end application #blue.
+
+Work has now begun on Phase 2 of the project, which will see us scaling and integrating the service directly into O2's data network enabling us to support hundreds of thousands of customers. Part of this phase will include the continued development of the #blue application, working with the O2 customer community to deliver functionality they really need.
+
+[Mudlark]: http://wearemudlark.com
+[Chromaroma]: http://www.chromaroma.com
+[Oyster card]: http://www.tfl.gov.uk/tickets/14836.aspx
+
+--- # Soup attributes
+:render_as: Markdown
+:name: hashblue
+:display_name: "O2 #blue"
+:images:
+  - hashblue_1.jpg
+  - hashblue_2.jpg
+  - hashblue_3.jpg
+  - hashblue_4.jpg
+  - hashblue_5.jpg
+:url: http://www.hashblue.com

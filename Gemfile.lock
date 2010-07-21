@@ -1,77 +1,71 @@
---- 
-dependencies: 
-  haml: 
-    group: 
-    - :default
-    version: ">= 0"
-  freerange-deploy: 
-    group: 
-    - :default
-    version: ">= 0"
-  vanilla: 
-    group: 
-    - :default
-    version: ">= 0"
-specs: 
-- BlueCloth: 
-    version: 1.0.1
-- RedCloth: 
-    version: 4.2.3
-- activesupport: 
-    version: 2.3.8
-- highline: 
-    version: 1.5.2
-- net-ssh: 
-    version: 2.0.23
-- net-scp: 
-    version: 1.0.2
-- net-sftp: 
-    version: 2.0.4
-- net-ssh-gateway: 
-    version: 1.0.1
-- capistrano: 
-    version: 2.5.19
-- capistrano-ext: 
-    version: 1.2.1
-- crack: 
-    version: 0.1.7
-- json: 
-    version: 1.4.3
-- thor: 
-    version: 0.13.7
-- httparty: 
-    version: 0.6.0
-- mime-types: 
-    version: "1.16"
-- tinder: 
-    version: 1.3.1
-- freerange-deploy: 
-    version: 0.1.13
-    source: 0
-- haml: 
-    version: 3.0.13
-- libxml-ruby: 
-    version: 1.1.4
-- polyglot: 
-    version: 0.3.1
-- rack: 
-    version: 1.2.1
-- ratom: 
-    version: 0.6.7
-- soup: 
-    version: 0.9.11
-- treetop: 
-    version: 1.4.8
-- warden: 
-    version: 0.10.7
-- vanilla: 
-    version: 1.11.0
-hash: ef14309b1941b936839003ddae39a6247c32df81
-sources: 
-- Git: 
-    uri: git://github.com/freerange/deploy.git
-    tag: v0.1.13
-    git: git://github.com/freerange/deploy.git
-    ref: 26eb084e82cbb3a190975315659b53cb98d21e0e
-- Rubygems: 
-    uri: http://gemcutter.org
+GIT
+  remote: git://github.com/freerange/deploy.git
+  revision: 26eb084
+  tag: v0.1.13
+  specs:
+    freerange-deploy (0.1.13)
+      capistrano
+      capistrano-ext
+      json
+      thor
+      tinder (= 1.3.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    BlueCloth (1.0.1)
+    RedCloth (4.2.3)
+    activesupport (2.3.8)
+    capistrano (2.5.19)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.0.0)
+    capistrano-ext (1.2.1)
+      capistrano (>= 1.0.0)
+    crack (0.1.8)
+    haml (3.0.13)
+    highline (1.6.1)
+    httparty (0.6.1)
+      crack (= 0.1.8)
+    json (1.4.3)
+    libxml-ruby (1.1.4)
+    mime-types (1.16)
+    net-scp (1.0.2)
+      net-ssh (>= 1.99.1)
+    net-sftp (2.0.4)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.0.23)
+    net-ssh-gateway (1.0.1)
+      net-ssh (>= 1.99.1)
+    polyglot (0.3.1)
+    rack (1.2.1)
+    ratom (0.6.7)
+      libxml-ruby (>= 1.1.2)
+    soup (0.9.13)
+    thor (0.13.8)
+    tinder (1.3.1)
+      activesupport
+      httparty
+      mime-types
+    treetop (1.4.8)
+      polyglot (>= 0.3.1)
+    vanilla (1.11.3)
+      BlueCloth (>= 1.0.0)
+      RedCloth (>= 4.1.1)
+      rack (>= 0.9.1)
+      ratom (>= 0.3.5)
+      soup (>= 0.9.13)
+      treetop (>= 1.4.1)
+      warden (>= 0.5.2)
+    warden (0.10.7)
+      rack (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  freerange-deploy!
+  haml
+  vanilla

@@ -1,0 +1,33 @@
+<div id="contact" class="section group">
+  <div class="container group">
+    <h2>Get in touch</h2>
+    
+    <h3>Accepting projects from January 2011</h3>
+    
+    <p>Founded in 2009 through mutual respect of work and character. Our team is made up of complentary skills and a single vision in the way software should be built. Respected by our clients and the wider online community; we are experts at building software for the web.</p>
+    
+    <form>
+      <p>
+        <label>Name</label>
+        <input type="text" name="name" />
+      </p>
+      <p>
+        <label>Email</label>
+        <input type="text" name="email" />
+      </p>
+      <p class="budget">
+        <label>Budget</label>
+        <select name="budget" id="budget">
+          <option value="10">10-20k+</option>
+          <option value="50">50k+</option>
+          <option value="100">100k+</option>
+        </select>
+      </p>
+      <p>
+        <label>Why should we consider your project?</label>
+        <textarea></textarea>
+      </p>
+      <p class="submit group"><input type="submit" value="send" /></p>
+    </form>
+  </div>
+</div>

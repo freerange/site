@@ -153,15 +153,18 @@ a:hover { color: #db4a1d; }
 #content #about .container p {
   width: 576px;
   padding-left: 300px;
+  padding-bottom: 1.5em;
 }
 #content #about .container p:first-child {
   font-size: 1.6em;
   line-height: 1.15em;
   padding-bottom: 1.15em;
 }
-#content #work { padding-bottom: 5.9em; }
 #content #work h2 { text-align: left; }
-#content #work ol { padding-left: 12px; }
+#content #work ol {
+  overflow: hidden;
+  padding-left: 12px;
+}
 #content #work ol li .project-desc {
   width: 276px;
   float: left;
@@ -172,6 +175,7 @@ a:hover { color: #db4a1d; }
   font-size: 1em;
   line-height: 1.8em;
   padding-bottom: 1.8em;
+  padding-right: 12px;
 }
 #content #work ol li .project-desc ul {
   padding: 0 0 1.8em 1.3em;
@@ -181,25 +185,29 @@ a:hover { color: #db4a1d; }
   padding: 0;
   line-height: 1.75em;
 }
-#content #work ol li img {
-  display: block;
-  float: right;
-  padding: 12px;
-  background: #a8d8a0;
-  background-color: rgba(168, 216, 160, 0.5);
-  max-width: 100%;
+#content #work ol li ul.project-images {
+  width: 672px;
+  float: left;
 }
-#content #ethos { padding-bottom: 3.6em; }
+#content #work ol li ul.project-images li { width: 564px; }
+#content #work ol li div.pimg-wrap {
+  overflow: hidden;
+  height: 335px;
+  width: 672px;
+  float: left;
+}
+#content #work ol li div.pimg-wrap ul.project-images { float: none; }
+#content #ethos { padding-top: 5.9em; }
 #content #ethos .container p {
   padding-left: 12px;
   padding-right: 12px;
 }
 #content #ethos .container .idea {
-  margin-top: 1.4em;
+  margin-top: 3.1em;
   margin-left: 12px;
   float: left;
 }
-#content #ethos .container .idea ul { padding: 2em 0; }
+#content #ethos .container .idea ul { padding: 2em 0 1.8em 0; }
 #content #ethos .container .idea ul li p {
   font-size: 1em;
   line-height: 1.8em;
@@ -212,19 +220,25 @@ a:hover { color: #db4a1d; }
   padding-left: 0;
   padding-right: 0;
 }
-#content #people { padding-bottom: 3.6em; }
+#content #people {
+  padding-top: 3.3em;
+  padding-bottom: 3.6em;
+}
 #content #people .container p { padding-left: 12px; }
 #content #people .container ol#team { padding-top: 1.8em; }
 #content #people .container ol#team li {
   float: left;
   width: 468px;
   padding-left: 12px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 4.3em;
+  padding-bottom: 4.4em;
+  min-height: 20em;
 }
 #content #people .container ol#team li p { padding-left: 0; }
 #content #people .container ol#team li img {
   float: left;
   margin-right: 12px;
-  margin-bottom: 1.8em;
   margin-left: 12px;
 }
 #content #people .container ol#team li h3 {
@@ -247,13 +261,14 @@ a:hover { color: #db4a1d; }
   float: right;
   width: 276px;
 }
-#content #people .container ol#team li p.bio {
-  clear: both;
+#content #people .container ol#team li div.bio { clear: both; }
+#content #people .container ol#team li div.bio p {
   font-size: 1em;
   line-height: 1.8em;
   font-style: italic;
   font-weight: normal;
 }
+#content #people .container ol#team li div.bio p + p { padding-top: 1.8em; }
 #content #contact .container h2 { text-align: left; }
 #content #contact .container h3 { padding-left: 12px; }
 #content #contact .container p { padding-left: 12px; }
@@ -375,6 +390,10 @@ span.amp {
   font-size: 1.2em;
   color: #766557;
 }
+em {
+  font-family: "droid-serif-1", "droid-serif-2", serif;
+  font-style: italic;
+}
 .group:after {
   content: ".";
   display: block;
@@ -382,3 +401,4 @@ span.amp {
   clear: both;
   visibility: hidden;
 }
+.clear { clear: both; }

@@ -5,7 +5,7 @@ class Portfolio < Dynasnip
     template = app.soup["portfolio"].template
 
     images_html = piece.images.map do |image_url| 
-      %{<li><img src="/images/portfolio/#{image_url}" width="256" height="192" /></li>} 
+      %{<li><img src="/images/folio/#{image_url}" /></li>} 
     end.join
     
     template.gsub("NAME", piece.display_name).
@@ -18,9 +18,10 @@ end
 --- # Soup attributes
 :render_as: Ruby
 :name: portfolio
-:template: |
-  <div class="portfolio_piece">
+:template: |  
+  <div class="project-desc">
     <h3>NAME</h3>
-    <ul>IMAGES</ul>
     CONTENT
   </div>
+    
+  <ul class="project-images">IMAGES</ul>
