@@ -14,7 +14,7 @@ $(document).ready(function() {
       }
     });
     projects.find('ul.project-images').imageCycler();
-    $(this).find('ol').before("<div class='project_toggle group'><a href='' class='prev'>PREV</a><a href='' class='next'>NEXT</a></div>");
+    $(this).find('ol').after("<div class='project_toggle group'><a href='' class='prev'>PREV</a><a href='' class='next'>NEXT</a></div>");
     $(this).find('a.prev').click(function() {
       projects.trigger("project.previous");
       return false;

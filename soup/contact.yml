@@ -2,32 +2,37 @@
   <div class="container group">
     <h2>Get in touch</h2>
     
-    <h3>Accepting projects from January 2011</h3>
+    <div id="working-together">    
+      <h3>Want to work with us?</h3>
+      <p>Before we get acquainted here is the low-down:</p>
+      <ul>
+        <li><em>Timing:</em> We are accepting projects from <em>January 2011</em> onwards.</li>
+        <li><em>Organisation:</em> We prefer to work as a whole team (we don't offer individual contractors), and we demand <em>direct communication</em> with the actual project decision makers.</li>
+        <li><em>Scope:</em> We aren't looking for a detailed specification, just provide us with a flavour and some enthusiasm for what you want to do and we can discover the rest together.</li>
+        <li><em>Budget:</em> You pay a fixed cost <em>per iteration</em> (usually 7 days), you are free to disengage after any iteration as we deliver working software with each iteration.</li>
+      </ul>
+      <p>Still with us? Great! <a href="mailto:lets@gofreerange.com">Send us an email</a> and we'll keep the kettle on.</p>
+    </div>
     
-    <p>Founded in 2009 through mutual respect of work and character. Our team is made up of complentary skills and a single vision in the way software should be built. Respected by our clients and the wider online community; we are experts at building software for the web.</p>
+    <div id="address-etc">
     
-    <form>
-      <p>
-        <label>Name</label>
-        <input type="text" name="name" />
-      </p>
-      <p>
-        <label>Email</label>
-        <input type="text" name="email" />
-      </p>
-      <p class="budget">
-        <label>Budget</label>
-        <select name="budget" id="budget">
-          <option value="10">10-20k+</option>
-          <option value="50">50k+</option>
-          <option value="100">100k+</option>
-        </select>
-      </p>
-      <p>
-        <label>Why should we consider your project?</label>
-        <textarea></textarea>
-      </p>
-      <p class="submit group"><input type="submit" value="send" /></p>
-    </form>
+      <h4>Send us a postcard</h4>
+      
+      <div class="vcard">
+       <p class="org">Go Free Range Ltd</p>
+       <div class="adr">
+        <p class="extended-address">Moo Studios</p>       
+        <p class="street-address">Transworld House</p>
+        <p class="street-address">100 City Rd</p>
+        <p class="locality">London</p> 
+        <p class="postal-code">EC1Y 2BP</p>
+       </div>
+      </div>
+      
+      <p><a type="text/directory" href="http://h2vx.com/vcf/gofreerange.com">Download vCard</a></p>
+    
+      <p>Follow <a href="http://twitter.com/freerange">@freerange</a> on twitter</p>
+    </div>    
+    
   </div>
 </div>

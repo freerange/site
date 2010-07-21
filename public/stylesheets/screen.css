@@ -39,7 +39,6 @@ a {
   color: #333333;
   font-weight: bold;
   text-decoration: none;
-  text-shadow: #eeeeee 0px 1px 0;
 }
 a:link {
   outline: none;
@@ -161,6 +160,26 @@ a:hover { color: #db4a1d; }
   padding-bottom: 1.15em;
 }
 #content #work h2 { text-align: left; }
+#content #work .project_toggle {
+  position: relative;
+  padding: 1.4em 12px 1.5em 12px;
+  width: 372px;
+  margin: 0 auto;
+}
+#content #work .project_toggle a {
+  background: #cccccc;
+  color: #eeeeee;
+  text-shadow: 0;
+  padding: 2em 1.8em;
+  border-bottom-left-radius: 150px 150px;
+  border-bottom-right-radius: 150px 150px;
+  border-top-left-radius: 150px 150px;
+  border-top-right-radius: 150px 150px;
+  text-align: center;
+}
+#content #work .project_toggle a:hover { background: #555555; }
+#content #work .project_toggle .prev { float: left; }
+#content #work .project_toggle .next { float: right; }
 #content #work ol {
   overflow: hidden;
   padding-left: 12px;
@@ -197,7 +216,6 @@ a:hover { color: #db4a1d; }
   float: left;
 }
 #content #work ol li div.pimg-wrap ul.project-images { float: none; }
-#content #ethos { padding-top: 5.9em; }
 #content #ethos .container p {
   padding-left: 12px;
   padding-right: 12px;
@@ -222,7 +240,7 @@ a:hover { color: #db4a1d; }
 }
 #content #people {
   padding-top: 3.3em;
-  padding-bottom: 3.6em;
+  padding-bottom: 0.4em;
 }
 #content #people .container p { padding-left: 12px; }
 #content #people .container ol#team { padding-top: 1.8em; }
@@ -270,29 +288,32 @@ a:hover { color: #db4a1d; }
 }
 #content #people .container ol#team li div.bio p + p { padding-top: 1.8em; }
 #content #contact .container h2 { text-align: left; }
-#content #contact .container h3 { padding-left: 12px; }
-#content #contact .container p { padding-left: 12px; }
-#content #contact .container p {
+#content #contact .container ul {
+  padding-top: 0.2em;
+  padding-bottom: 1.5em;
+}
+#content #contact .container ul li {
   width: 384px;
+  line-height: 1.8em;
+  padding-bottom: 1.8em;
+}
+#content #contact .container ul li em { font-weight: bold; }
+#content #contact #working-together {
+  width: 468px;
   float: left;
+  padding-left: 12px;
 }
-#content #contact .container form {
+#content #contact #address-etc {
+  width: 372px;
   float: left;
-  margin: 1.8em 0 0 96px;
-  width: 384px;
+  padding-left: 12px;
 }
-#content #contact .container form input[type=text] {
-  width: 288px;
-  padding: 0;
-}
-#content #contact .container form p.submit { padding-top: 1.3em; }
-#content #contact .container form p.submit input { float: none; }
-#content #contact .container form p { padding: 0 0 0.3em 0; }
-#content #contact .container form p textarea { margin-top: 0.3em; }
-#content #contact .container form p.budget {
-  padding-top: 1.5em;
+#content #contact #address-etc h4 {
+  padding-top: 0.3em;
+  font-size: 1.5em;
   padding-bottom: 1.4em;
 }
+#content #contact #address-etc .vcard { padding-bottom: 1.7em; }
 ol.scrollist { position: relative; }
 ol.scrollist li { float: left; }
 form p {

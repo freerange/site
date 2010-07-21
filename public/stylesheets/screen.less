@@ -26,7 +26,6 @@ a {
   color: #333;
   font-weight: bold;
   text-decoration: none;
-  text-shadow: #eee 0px 1px 0;
 }
 
 a:link, a:visited {
@@ -143,7 +142,6 @@ ul#nav {
     h3 {
       font-size: 2em;
       line-height: 1em;
-      
     }
     
     h4 {
@@ -197,6 +195,41 @@ ul#nav {
     
     h2 {
       text-align: left;
+    }
+    
+    .project_toggle {
+      position: relative;
+      padding: 1.4em @gutter 1.5em @gutter;
+      width: @col_size * 4 - @gutter;
+      margin: 0 auto;
+            
+      a {
+        background: #ccc;
+        color: #eee;
+        text-shadow: 0;
+        padding: 2em 1.8em;
+        
+        border-bottom-left-radius: 150px 150px;
+        border-bottom-right-radius: 150px 150px;
+        border-top-left-radius: 150px 150px;
+        border-top-right-radius: 150px 150px;
+                
+        text-align: center;
+        
+        
+        :hover {
+         background: #555
+        }
+      }
+      
+      .prev {
+        float: left;
+      }
+      
+      .next {
+        float: right;
+      }
+            
     }
     
     ol {
@@ -264,7 +297,6 @@ ul#nav {
   }
   
   #ethos {
-    padding-top: 5.9em;
     
     .container {
       
@@ -306,7 +338,7 @@ ul#nav {
   #people {
     padding-top: 3.3em;
     
-    padding-bottom: 3.6em;
+    padding-bottom: 0.4em;
     
     .container {
 
@@ -389,52 +421,48 @@ ul#nav {
   #contact {
 
     .container {
-
+      
       h2 { 
         text-align: left;
       }
-      
-      h3, p {
-        padding-left: @gutter;
-      }
-      
-      p {
-        width: @col_size * 4;
-        float: left;
-      }
+            
+      ul {
+        padding-top: 0.2em;
+        padding-bottom: 1.5em;
 
-      form {
-        float: left;
-
-        margin: 1.8em 0 0 @col_size;
-        width: @col_size * 4;
-
-        input[type=text] {
-          width: @col_size * 3;
-          padding: 0;
-        }
-
-        p.submit { 
-          padding-top: 1.3em;
-          input {
-            float: none;
+        li {
+          width: @col_size * 4;
+          line-height: 1.8em;
+          padding-bottom: 1.8em;
+          em { 
+            font-weight: bold;
           }
         }
-
-        p {
-          padding: 0 0 0.3em 0;
-
-          textarea {
-            margin-top: 0.3em;
-          }
-        }
-
-        p.budget {
-          padding-top: 1.5em;
-          padding-bottom: 1.4em;
-        }
-
       }
+
+    }
+    
+    #working-together {
+      width: @col_size * 5 - @gutter;
+      float: left;
+      padding-left: @gutter;
+    }
+    
+    #address-etc {
+      width: @col_size * 4 - @gutter;
+      float: left;
+      padding-left: @gutter;
+      
+      h4 {
+        padding-top: 0.3em;
+        font-size: 1.5em;
+        padding-bottom: 1.4em;
+      }
+      
+      .vcard {
+        padding-bottom: 1.7em;
+      }
+      
     }
 
   }
