@@ -17,7 +17,6 @@ body {
 	color: #444;
 	font-family: @font_family;
 	font-size: 62.5%;
-	background-color: #fff;
 }
 	
 /* links */
@@ -57,7 +56,9 @@ a:hover {
   font-size: 1.2em; // 12pt
   line-height: 1.833333em; // 22px
   padding: 0;
-  position: relative;
+  position: relative;  
+  background: #c7fee4 url(/images/bg_a.jpg) no-repeat top center;
+  
 }
 
 /* header 
@@ -73,6 +74,8 @@ a:hover {
     width: @col_size * 3 + @gutter;
     height: 157px;
     margin-top: 4.4em;
+    position: relative;
+    z-index: 100;
       
     a {
       display: block;
@@ -109,9 +112,7 @@ ul#nav {
 #content {
   position: relative;
     
-  .section {
-    
-    border-top: 1px solid #fcfcfc;    
+  .section {    
     padding: 1.9em 0 5.6em 0;
     
     .container {
@@ -133,9 +134,7 @@ ul#nav {
     }
     
     .container > h2 {
-      position: relative;
-      top: -1.25em;
-      padding: 0 0.4em;
+      padding: 0 0.4em 2em 0.4em;
       text-align: center;
     }
     
@@ -168,7 +167,6 @@ ul#nav {
   }
     
   #about {
-    
     border: none;
     padding-top: 0;
     
@@ -192,9 +190,13 @@ ul#nav {
   }
   
   #work {
+    background: #fdfffb url(/images/bg_w.jpg) no-repeat 50% 0;
     
+    border-top: 1px solid #ddd;
+
     h2 {
       text-align: left;
+      color: #777;
     }
     
     .project_toggle {
@@ -204,8 +206,9 @@ ul#nav {
       margin: 0 auto;
             
       a {
-        background: #ccc;
-        color: #eee;
+        background: #444;
+        background: rgba(10,10,10,0.8);
+        color: #ddd;
         text-shadow: 0;
         padding: 2em 1.8em;
         
@@ -218,7 +221,8 @@ ul#nav {
         
         
         :hover {
-         background: #555
+          color: #fff;
+          background: #222;
         }
       }
       
@@ -272,10 +276,6 @@ ul#nav {
           
           li {
             width: @col_size * 6 - @gutter;
-            
-            img {
-              
-            }
           }
         }
         
@@ -297,8 +297,14 @@ ul#nav {
   }
   
   #ethos {
+    background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
+    border-top: 1px solid #fff;
     
     .container {
+      
+      h2 {
+        color: #333;
+      }
       
       p {
         padding-left: @gutter;
@@ -336,12 +342,20 @@ ul#nav {
   }
 
   #people {
+    
     padding-top: 3.3em;
     
-    padding-bottom: 0.4em;
+    padding-bottom: 3.3em;
+    background: #fdfffb url(/images/bg_p.jpg) no-repeat 50% 0;
+    border-bottom: 1px solid #d8cb32;
+    border-top: 1px solid #ddd;
     
     .container {
-
+      
+      h2 {
+        color: #8b8323;
+      }
+      
       p {
         padding-left: @gutter;
       }
@@ -349,15 +363,18 @@ ul#nav {
       ol#team {
         
         padding-top: 1.8em;
+        padding-left: @gutter;
         
         li {
+          background: #fff;
+          background-color: rgba(255,255,255,0.8);
           float: left;
-          width: @col_size * 5 - @gutter;
-          padding-left: @gutter;
-          border-bottom: 1px solid #eee;
-          margin-bottom: 4.3em;
-          padding-bottom: 4.4em;
-          min-height: 20em;
+          width: @col_size * 5 - (@gutter * 2 + 2px);
+          margin-right: @gutter;
+          margin-bottom: @gutter;
+          
+          border: 1px solid #f1f1f1;
+          padding: 1em @gutter 1em 0;
           
           p {
             padding-left: 0;
@@ -419,11 +436,18 @@ ul#nav {
   }
   
   #contact {
+    
+    
+    background: #fdfffb url(/images/bg_c.jpg) no-repeat center bottom;
 
     .container {
       
       h2 { 
         text-align: left;
+      }
+      
+      p {
+        padding-bottom: 1.5em;
       }
             
       ul {
@@ -449,18 +473,20 @@ ul#nav {
     }
     
     #address-etc {
+      padding-top: 0.35em;
       width: @col_size * 4 - @gutter;
       float: left;
       padding-left: @gutter;
       
       h4 {
-        padding-top: 0.3em;
         font-size: 1.5em;
         padding-bottom: 1.4em;
       }
       
       .vcard {
-        padding-bottom: 1.7em;
+        p {
+          padding: 0;
+        }
       }
       
     }

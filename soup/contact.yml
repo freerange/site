@@ -15,17 +15,20 @@
     </div>
     
     <div id="address-etc">
-    
+      
+      <h4>Come see us</h4>
+      
+      <p>We are currently based in <a href="http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=100+City+Road,+Hackney&sll=51.506392,-0.11364&sspn=0.205146,0.462799&ie=UTF8&hq=&hnear=100+City+Rd,+Islington,+Greater+London+EC1Y+2,+United+Kingdom&z=17">Old Street</a>, sharing with the wonderful folks at <a href="http://www.moo.com/" title="Printing sweet stuff">Moo</a> - why not pop in for a cuppa?</p>      
+      
       <h4>Send us a postcard</h4>
       
       <div class="vcard">
        <p class="org">Go Free Range Ltd</p>
        <div class="adr">
-        <p class="extended-address">Moo Studios</p>       
-        <p class="street-address">Transworld House</p>
-        <p class="street-address">100 City Rd</p>
+        <p class="extended-address">First Floor</p>       
+        <p class="street-address">163 Seymour Place</p>
         <p class="locality">London</p> 
-        <p class="postal-code">EC1Y 2BP</p>
+        <p class="postal-code">W1H 4PL</p>
        </div>
       </div>
       

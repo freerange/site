@@ -33,7 +33,6 @@ body {
   color: #444444;
   font-family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 62.5%;
-  background-color: #ffffff;
 }
 a {
   color: #333333;
@@ -64,6 +63,7 @@ a:hover { color: #db4a1d; }
   line-height: 1.833333em;
   padding: 0;
   position: relative;
+  background: #c7fee4 url(/images/bg_a.jpg) no-repeat top center;
 }
 #header {
   max-width: 81em;
@@ -74,6 +74,8 @@ a:hover { color: #db4a1d; }
   width: 300px;
   height: 157px;
   margin-top: 4.4em;
+  position: relative;
+  z-index: 100;
 }
 #header h1 a {
   display: block;
@@ -94,10 +96,7 @@ a:hover { color: #db4a1d; }
   font-weight: normal;
 }
 #content { position: relative; }
-#content .section {
-  border-top: 1px solid #fcfcfc;
-  padding: 1.9em 0 5.6em 0;
-}
+#content .section { padding: 1.9em 0 5.6em 0; }
 #content .section .container {
   position: relative;
   max-width: 81em;
@@ -112,9 +111,7 @@ a:hover { color: #db4a1d; }
   color: #e1e1e1;
 }
 #content .section .container > h2 {
-  position: relative;
-  top: -1.25em;
-  padding: 0 0.4em;
+  padding: 0 0.4em 2em 0.4em;
   text-align: center;
 }
 #content .section h3 {
@@ -159,7 +156,14 @@ a:hover { color: #db4a1d; }
   line-height: 1.15em;
   padding-bottom: 1.15em;
 }
-#content #work h2 { text-align: left; }
+#content #work {
+  background: #fdfffb url(/images/bg_w.jpg) no-repeat 50% 0;
+  border-top: 1px solid #dddddd;
+}
+#content #work h2 {
+  text-align: left;
+  color: #777777;
+}
 #content #work .project_toggle {
   position: relative;
   padding: 1.4em 12px 1.5em 12px;
@@ -167,8 +171,9 @@ a:hover { color: #db4a1d; }
   margin: 0 auto;
 }
 #content #work .project_toggle a {
-  background: #cccccc;
-  color: #eeeeee;
+  background: #444444;
+  background: rgba(10, 10, 10, 0.8);
+  color: #dddddd;
   text-shadow: 0;
   padding: 2em 1.8em;
   border-bottom-left-radius: 150px 150px;
@@ -177,7 +182,10 @@ a:hover { color: #db4a1d; }
   border-top-right-radius: 150px 150px;
   text-align: center;
 }
-#content #work .project_toggle a:hover { background: #555555; }
+#content #work .project_toggle a:hover {
+  color: #ffffff;
+  background: #222222;
+}
 #content #work .project_toggle .prev { float: left; }
 #content #work .project_toggle .next { float: right; }
 #content #work ol {
@@ -216,6 +224,11 @@ a:hover { color: #db4a1d; }
   float: left;
 }
 #content #work ol li div.pimg-wrap ul.project-images { float: none; }
+#content #ethos {
+  background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
+  border-top: 1px solid #ffffff;
+}
+#content #ethos .container h2 { color: #333333; }
 #content #ethos .container p {
   padding-left: 12px;
   padding-right: 12px;
@@ -240,18 +253,26 @@ a:hover { color: #db4a1d; }
 }
 #content #people {
   padding-top: 3.3em;
-  padding-bottom: 0.4em;
+  padding-bottom: 3.3em;
+  background: #fdfffb url(/images/bg_p.jpg) no-repeat 50% 0;
+  border-bottom: 1px solid #d8cb32;
+  border-top: 1px solid #dddddd;
 }
+#content #people .container h2 { color: #8b8323; }
 #content #people .container p { padding-left: 12px; }
-#content #people .container ol#team { padding-top: 1.8em; }
-#content #people .container ol#team li {
-  float: left;
-  width: 468px;
+#content #people .container ol#team {
+  padding-top: 1.8em;
   padding-left: 12px;
-  border-bottom: 1px solid #eeeeee;
-  margin-bottom: 4.3em;
-  padding-bottom: 4.4em;
-  min-height: 20em;
+}
+#content #people .container ol#team li {
+  background: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
+  float: left;
+  width: 454px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #f1f1f1;
+  padding: 1em 12px 1em 0;
 }
 #content #people .container ol#team li p { padding-left: 0; }
 #content #people .container ol#team li img {
@@ -287,7 +308,9 @@ a:hover { color: #db4a1d; }
   font-weight: normal;
 }
 #content #people .container ol#team li div.bio p + p { padding-top: 1.8em; }
+#content #contact { background: #fdfffb url(/images/bg_c.jpg) no-repeat center bottom; }
 #content #contact .container h2 { text-align: left; }
+#content #contact .container p { padding-bottom: 1.5em; }
 #content #contact .container ul {
   padding-top: 0.2em;
   padding-bottom: 1.5em;
@@ -304,16 +327,16 @@ a:hover { color: #db4a1d; }
   padding-left: 12px;
 }
 #content #contact #address-etc {
+  padding-top: 0.35em;
   width: 372px;
   float: left;
   padding-left: 12px;
 }
 #content #contact #address-etc h4 {
-  padding-top: 0.3em;
   font-size: 1.5em;
   padding-bottom: 1.4em;
 }
-#content #contact #address-etc .vcard { padding-bottom: 1.7em; }
+#content #contact #address-etc .vcard p { padding: 0; }
 ol.scrollist { position: relative; }
 ol.scrollist li { float: left; }
 form p {
