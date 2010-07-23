@@ -156,19 +156,15 @@ a:hover { color: #db4a1d; }
   line-height: 1.15em;
   padding-bottom: 1.15em;
 }
-#content #work {
-  background: #fdfffb url(/images/bg_w.jpg) no-repeat 50% 0;
-  border-top: 1px solid #dddddd;
-}
-#content #work h2 {
-  text-align: left;
-  color: #777777;
-}
+#content #work { background: transparent url(/images/bg_w.jpg) no-repeat 50% 250px; }
+#content #work h2 { color: #777777; }
 #content #work .project_toggle {
-  position: relative;
-  padding: 1.4em 12px 1.5em 12px;
-  width: 372px;
+  position: absolute;
+  padding: 0 12px 0 12px;
+  width: 852px;
   margin: 0 auto;
+  top: 0;
+  left: 0;
 }
 #content #work .project_toggle a {
   background: #444444;
@@ -226,7 +222,7 @@ a:hover { color: #db4a1d; }
 #content #work ol li div.pimg-wrap ul.project-images { float: none; }
 #content #ethos {
   background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #222222;
 }
 #content #ethos .container h2 { color: #333333; }
 #content #ethos .container p {
@@ -254,7 +250,7 @@ a:hover { color: #db4a1d; }
 #content #people {
   padding-top: 3.3em;
   padding-bottom: 3.3em;
-  background: #fdfffb url(/images/bg_p.jpg) no-repeat 50% 0;
+  background: #fff141 url(/images/bg_p.jpg) no-repeat 50% 0;
   border-bottom: 1px solid #d8cb32;
   border-top: 1px solid #dddddd;
 }
