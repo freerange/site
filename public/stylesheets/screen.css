@@ -100,7 +100,7 @@ a:hover { color: #db4a1d; }
 #content .section h2 {
   font-size: 2.6em;
   font-style: italic;
-  color: #e1e1e1;
+  color: #999999;
 }
 #content .section h3 {
   font-size: 2em;
@@ -162,7 +162,6 @@ a:hover { color: #db4a1d; }
   padding-top: 0.6em;
 }
 #content #work h2 {
-  color: #444444;
   padding-bottom: 1.8em;
   padding-top: 0.7em;
   text-align: left;
@@ -234,6 +233,7 @@ a:hover { color: #db4a1d; }
   background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
   border-top: 1px solid #999999;
   border-bottom: 1px solid #dddddd;
+  padding-top: 3.6em;
 }
 #content #ethos .container h2 { color: #333333; }
 #content #ethos .container p {
