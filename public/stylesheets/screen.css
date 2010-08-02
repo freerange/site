@@ -233,6 +233,7 @@ a:hover { color: #db4a1d; }
 #content #ethos {
   background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
   border-top: 1px solid #999999;
+  border-bottom: 1px solid #dddddd;
 }
 #content #ethos .container h2 { color: #333333; }
 #content #ethos .container p {
@@ -261,6 +262,7 @@ a:hover { color: #db4a1d; }
   padding-top: 3.7em;
   padding-bottom: 3.5em;
   background: #fefbc5 url(/images/bg_p.jpg) no-repeat 50% 0;
+  border-bottom: 1px solid #eeeeee;
 }
 #content #people .container h2 { color: #8b8323; }
 #content #people .container p { padding-left: 12px; }
