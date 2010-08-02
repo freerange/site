@@ -259,7 +259,7 @@ a:hover { color: #db4a1d; }
   padding-right: 0;
 }
 #content #people {
-  padding-top: 3.7em;
+  padding-top: 3.6em;
   padding-bottom: 3.5em;
   background: #fefbc5 url(/images/bg_p.jpg) no-repeat 50% 0;
   border-bottom: 1px solid #eeeeee;
@@ -296,12 +296,10 @@ a:hover { color: #db4a1d; }
 #content #people .container ol#team li p.links {
   font-size: 1em;
   float: left;
-  padding: 0;
+  padding: 0.1em 0 0 0;
   margin-left: 1em;
   color: #dddddd;
 }
-#content #people .container ol#team li p.links a { color: #cccccc; }
-#content #people .container ol#team li p.links a:hover { color: #db4a1d; }
 #content #people .container ol#team li .info {
   float: right;
   width: 276px;
@@ -315,7 +313,7 @@ a:hover { color: #db4a1d; }
 }
 #content #people .container ol#team li div.bio p + p { padding-top: 1.8em; }
 #content #contact {
-  padding-top: 3.4em;
+  padding-top: 3.3em;
   background: #fdfffb url(/images/bg_c.jpg) no-repeat center bottom;
 }
 #content #contact .container h2 { text-align: left; }
