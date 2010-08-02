@@ -57,8 +57,7 @@ a:hover {
   line-height: 1.833333em; // 22px
   padding: 0;
   position: relative;  
-  background: #c7fee4 url(/images/bg_a.jpg) no-repeat top center;
-  
+  background: #fff url(/images/bg_a.jpg) no-repeat top center;
 }
 
 /* header 
@@ -91,9 +90,9 @@ a:hover {
   
   h2 {
     float: left;
-    margin-top: 2.55em;
-    font-size: 3em;
-    line-height: 1.22em;
+    margin-top: 2.7em;
+    font-size: 2.9em;
+    line-height: 1.21em;
     color: #222;
     font-weight: normal;
   }
@@ -101,10 +100,6 @@ a:hover {
 }
 
 /* navigation */
-
-ul#nav {
-  
-}
 
 /* main styles 
 --------------------------------------------- */
@@ -115,29 +110,12 @@ ul#nav {
   .section {    
     padding: 1.9em 0 5.6em 0;
     
-    .container {
-      position: relative;
-      max-width: 81em; // 960px
-      margin: 0 auto;
-      
-      h2 + p {
-        padding-top: 0.4em;
-      }
-    }
-    
     h2 {
       font-size: 2.6em;
-      line-height: 1em;
-      padding-bottom: 0.45em;
       font-style: italic;
       color: #e1e1e1;
     }
-    
-    .container > h2 {
-      padding: 0 0.4em 2em 0.4em;
-      text-align: center;
-    }
-    
+        
     h3 {
       font-size: 2em;
       line-height: 1em;
@@ -164,11 +142,29 @@ ul#nav {
       line-height: 1.5em;
     }
     
+    .container {
+      position: relative;
+      max-width: 81em; // 960px
+      margin: 0 auto;
+      
+      h2 + p {
+        padding-top: 0.4em;
+      }
+      
+      h2 {
+        padding: 0 @gutter 0 @gutter;
+        text-align: center;
+        line-height: 1.2em;
+        padding-bottom: 0.45em;
+      }
+    }
+    
   }
     
   #about {
     border: none;
     padding-top: 0;
+    padding-bottom: 1.8em;
     
     .container {
       padding-top: 0.3em;
@@ -191,9 +187,14 @@ ul#nav {
   
   #work {
     background: transparent url(/images/bg_w.jpg) no-repeat 50% 250px;
+    padding-top: 0.6em;
 
     h2 {
-      color: #777;
+      color: #444;
+      padding-bottom: 1.8em;
+      padding-top: 0.7em;
+      text-align: left;
+      padding-left: @col_size * 3 + @gutter;
     }
     
     .project_toggle {
@@ -202,7 +203,7 @@ ul#nav {
       width: @col_size * 9 - @gutter;
       margin: 0 auto;
       
-      top: 0;
+      top: 1em;
       left: 0;
             
       a {
@@ -297,7 +298,7 @@ ul#nav {
   
   #ethos {
     background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
-    border-top: 1px solid #222;
+    border-top: 1px solid #999;
     
     .container {
       
@@ -341,13 +342,9 @@ ul#nav {
   }
 
   #people {
-    
-    padding-top: 3.3em;
-    
-    padding-bottom: 3.3em;
-    background: #fff141 url(/images/bg_p.jpg) no-repeat 50% 0;
-    border-bottom: 1px solid #d8cb32;
-    border-top: 1px solid #ddd;
+    padding-top: 3.7em;
+    padding-bottom: 3.5em;
+    background: #fefbc5 url(/images/bg_p.jpg) no-repeat 50% 0;
     
     .container {
       
@@ -361,7 +358,7 @@ ul#nav {
       
       ol#team {
         
-        padding-top: 1.8em;
+        padding-top: 2.5em;
         padding-left: @gutter;
         
         li {
@@ -370,7 +367,7 @@ ul#nav {
           float: left;
           width: @col_size * 5 - (@gutter * 2 + 2px);
           margin-right: @gutter;
-          margin-bottom: @gutter;
+          margin-bottom: 1.3em;
           
           border: 1px solid #f1f1f1;
           padding: 1em @gutter 1em 0;
@@ -435,7 +432,7 @@ ul#nav {
   }
   
   #contact {
-    
+    padding-top: 3.4em;
     
     background: #fdfffb url(/images/bg_c.jpg) no-repeat center bottom;
 
