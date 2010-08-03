@@ -35,18 +35,12 @@ body {
   font-size: 62.5%;
 }
 a {
-  color: #333333;
+  color: #990057;
   font-weight: bold;
   text-decoration: none;
 }
-a:link {
-  outline: none;
-  color: #333333;
-}
-a:visited {
-  outline: none;
-  color: #333333;
-}
+a:link { outline: none; }
+a:visited { outline: none; }
 a:hover { color: #db4a1d; }
 .eins { width: 96px; }
 .zwei { width: 180px; }
@@ -67,6 +61,7 @@ a:hover { color: #db4a1d; }
 }
 #header {
   max-width: 81em;
+  min-width: 81em;
   margin: 0 auto;
 }
 #header h1 {
@@ -95,7 +90,10 @@ a:hover { color: #db4a1d; }
   color: #222222;
   font-weight: normal;
 }
-#content { position: relative; }
+#content {
+  position: relative;
+  min-width: 81em;
+}
 #content .section { padding: 1.9em 0 5.6em 0; }
 #content .section h2 {
   font-size: 2.6em;
@@ -346,92 +344,6 @@ a:hover { color: #db4a1d; }
 #content #contact #address-etc .vcard p { padding: 0; }
 ol.scrollist { position: relative; }
 ol.scrollist li { float: left; }
-form p {
-  font-size: 0.8em;
-  padding: 0 0 0 0;
-  line-height: 1.5em;
-}
-form p.submit input { float: right; }
-form input {
-  max-width: 20em;
-  width: 100%;
-}
-form input {
-  background: #eeeeee;
-  border-bottom: 1px solid #ffffff;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #e5e5e5;
-  border-top: 1px solid #cccccc;
-  color: #333333;
-  display: block;
-  font-size: 1.4em;
-  line-height: 1.5em;
-}
-form textarea {
-  background: #eeeeee;
-  border-bottom: 1px solid #ffffff;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #e5e5e5;
-  border-top: 1px solid #cccccc;
-  color: #333333;
-  display: block;
-  font-size: 1.4em;
-  line-height: 1.5em;
-}
-form input:focus {
-  background: #f9f9f9;
-  border-bottom: 1px solid #eeeeee;
-  color: #222222;
-}
-form textarea:focus {
-  background: #f9f9f9;
-  border-bottom: 1px solid #eeeeee;
-  color: #222222;
-}
-form input[type=checkbox] {
-  width: 1em;
-  float: left;
-  height: 1em;
-}
-form input[type=checkbox] + label { float: left; }
-form input[type=checkbox] + label:hover {
-  color: #333333;
-  cursor: pointer;
-}
-form input[type=submit] {
-  background: #cccccc;
-  border-radius: 0.3em;
-  border: 1px solid #c5c5c5;
-  color: #666666;
-  cursor: pointer;
-  font-size: 1.2em;
-  padding: 0.2em 1em 0.3em 1em;
-  text-shadow: #eeeeee 0px 1px 0;
-  width: auto;
-}
-form input[type=submit]:hover {
-  background-color: #bbbbbb;
-  border: 1px solid #b5b5b5;
-  color: #444444;
-  text-shadow: #cccccc 0px 1px 0;
-}
-form input[type=submit]:disabled {
-  background-color: #cccccc;
-  border: 1px solid #c5c5c5;
-  color: #666666;
-  cursor: default;
-  opacity: 0.5;
-  text-shadow: #eeeeee 0px 1px 0;
-}
-form label {
-  color: #666666;
-  line-height: 1.6em;
-}
-form label span {
-  font-size: 0.6em;
-  font-weight: normal;
-  color: #999999;
-}
 hr, .hide { display: none; }
 a img { border: none; }
 span.amp {
