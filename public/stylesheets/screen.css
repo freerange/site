@@ -82,6 +82,7 @@ a:hover { color: #db4a1d; }
   padding: 0;
   margin-left: -10%;
 }
+#header h1 a:hover { opacity: 0.8; }
 #header h2 {
   float: left;
   margin-top: 2.7em;
