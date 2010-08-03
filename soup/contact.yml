@@ -23,8 +23,9 @@
       <h4>Send us a postcard</h4>
       
       <div class="vcard">
-       <p class="org">Go Free Range Ltd</p>
+       
        <div class="adr">
+        <p class="organization-name fn n org">Go Free Range Ltd</p>
         <p class="extended-address">First Floor</p>       
         <p class="street-address">163 Seymour Place</p>
         <p class="locality">London</p> 
