@@ -95,7 +95,11 @@ a:hover { color: #db4a1d; }
   position: relative;
   min-width: 81em;
 }
-#content .section { padding: 1.9em 0 5.6em 0; }
+#content .section {
+  padding: 1.9em 0 5.6em 0;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #cccccc;
+}
 #content .section h2 {
   font-size: 2.6em;
   font-style: italic;
@@ -141,9 +145,9 @@ a:hover { color: #db4a1d; }
   padding-bottom: 0.45em;
 }
 #content #about {
-  border: none;
   padding-top: 0;
-  padding-bottom: 1.8em;
+  padding-bottom: 1.3em;
+  border-top: none;
 }
 #content #about .container { padding-top: 0.3em; }
 #content #about .container p {
@@ -157,8 +161,9 @@ a:hover { color: #db4a1d; }
   padding-bottom: 1.15em;
 }
 #content #work {
-  background: transparent url(/images/bg_w.jpg) no-repeat 50% 250px;
-  padding-top: 0.6em;
+  background: #ffffff url(/images/bg_w.jpg) no-repeat 50% 250px;
+  padding-top: 1em;
+  padding-bottom: 4.6em;
 }
 #content #work h2 {
   padding-bottom: 1.8em;
@@ -230,9 +235,8 @@ a:hover { color: #db4a1d; }
 #content #work ol li div.pimg-wrap ul.project-images { float: none; }
 #content #ethos {
   background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #dddddd;
-  padding-top: 3.6em;
+  padding-top: 2.7em;
+  padding-bottom: 4.6em;
 }
 #content #ethos .container h2 { color: #333333; }
 #content #ethos .container p {
@@ -258,10 +262,9 @@ a:hover { color: #db4a1d; }
   padding-right: 0;
 }
 #content #people {
-  padding-top: 3.6em;
-  padding-bottom: 3.5em;
+  padding-top: 2.8em;
+  padding-bottom: 4em;
   background: #fefbc5 url(/images/bg_p.jpg) no-repeat 50% 0;
-  border-bottom: 1px solid #eeeeee;
 }
 #content #people .container h2 { color: #8b8323; }
 #content #people .container p { padding-left: 12px; }
@@ -312,7 +315,8 @@ a:hover { color: #db4a1d; }
 }
 #content #people .container ol#team li div.bio p + p { padding-top: 1.8em; }
 #content #contact {
-  padding-top: 3.3em;
+  padding-top: 2.7em;
+  padding-bottom: 4em;
   background: #fdfffb url(/images/bg_c.jpg) no-repeat center bottom;
 }
 #content #contact .container h2 { text-align: left; }
