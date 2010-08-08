@@ -1,0 +1,104 @@
+You're in the system snip now. You probably want to {edit_link system,edit} it though.
+
+:updated_at: 2009-11-10 15:15:44.678153 +00:00
+:login_template: |
+  <html>
+    <head><link rel="stylesheet" type="text/css" media="screen" href="/system/css.css" /></head>
+    <body id="login">
+      <form action='' method='post'>
+        <h1>Login</h1><p class="message">MESSAGE</p>
+        <label>Name: <input type="text" name="name"></input></label>
+        <label>Password: <input type="password" name="password"></input></label>
+        <button>login</button>
+      </form>
+    </body>
+  </html>
+
+:name: system
+:css: |
+  body {
+    font-family: Helvetica;
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div#content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1em;
+  }
+  
+  div#controls {
+  font-size: 80%;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #999;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  textarea.content {
+    min-height: 10em;
+  }
+  
+  pre {
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    padding: 1em;
+  }
+  
+  a.new {
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #999;
+    padding: 0.2em;
+  }
+  
+  a.new:hover {
+    text-decoration: underline;
+  }
+
+:main_template: |
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+  <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>{current_snip name} || Building outstanding software for the web.</title>
+    <script language="javascript" src="/javascripts/jquery.js"></script>
+    <script language="javascript" src="/javascripts/jquery-ui-1.8.2.custom.min.js"></script>
+    <script language="javascript" src="/javascripts/jquery.enumerable.js"></script>
+    <script language="javascript" src="/javascripts/jquery.autogrow-textarea.js"></script>
+    <script language="javascript" src="/javascripts/vanilla.js"></script>
+    <script type="text/javascript" src="/javascripts/hashgrid.js"></script>
+    
+    <script type="text/javascript" src="http://use.typekit.com/wpu3xfu.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <link rel="stylesheet" type="text/css" title="screen" href="/stylesheets/screen.css">
+
+    <meta description="A small software development company based in London, UK." />
+    <meta name="google-site-verification" content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" />
+    <meta name="y_key" content="055df92354b4f4b4" />
+    <meta name="msvalidate.01" content="42BC155FC64030F39B1208A634946A82" />
+  </head>
+  <body>
+    <div id="page">
+
+      <div id="header" class="group">
+        {header}
+      </div>
+
+      <div id="content">
+        {current_snip}
+      </div>
+
+    </div>
+    {javascripts}
+  </body>
+  </html>
+
+:created_at: 2009-11-10 15:15:44.678152 +00:00

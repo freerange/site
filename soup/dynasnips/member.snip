@@ -1,0 +1,23 @@
+class Member < Dynasnip
+  def handle(name)
+    member = app.soup[name]
+    template = app.soup["member"].template
+    # TODO: produce hCard?
+    template.gsub("NAME", member.name.split("-").map { |s| s.capitalize }.join(" ")).
+             gsub("SITE", member.site).
+             gsub("TWITTER", member.twitter).
+             gsub("IMAGE", member.image).
+             gsub("CONTENT", app.render(member))
+  end
+  self
+end
+
+:render_as: Ruby
+:name: member
+:template: |
+  <img src="IMAGE" />
+  <div class="info">
+    <h3>NAME</h3>
+    <p class="links"><a href="http://SITE">Website</a> / <a href="http://twitter.com/TWITTER">Twitter</a></p>
+    <div class="bio tk-droid-serif">CONTENT</div>
+  </div>
