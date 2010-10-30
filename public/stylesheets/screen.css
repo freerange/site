@@ -223,6 +223,24 @@ a:hover {
 #content .vcard p {
   padding-bottom: 0;
 }
+#content #contact em {
+  font-weight: bold;
+}
+#content #contact #working-together {
+  width: 55%;
+  float: left;
+  margin-right: 1.5em;
+}
+#content #contact #working-together p {
+  font-size: 1.4em;
+}
+#content #contact #address-etc {
+  width: 40%;
+  float: right;
+}
+#content #contact #address-etc p {
+  font-size: 1.4em;
+}
 /* misc. 
 --------------------------------------------- */
 hr, .hide {
