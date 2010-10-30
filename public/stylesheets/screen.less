@@ -6,10 +6,7 @@
 */
 
 /* Global Variables */
-@font_family: "droid-sans-1", "droid-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@gutter: 12px;
-@col: 84px;
-@col_size: @gutter + @col;
+@font_family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
 @link_hover: #db4a1d;
 /* body style */
 
@@ -35,46 +32,31 @@ a:hover {
   color: @link_hover;
 }
 
-/* column widths */
-
-.eins   { width: @col_size; }
-.zwei   { width: @col_size * 2 - @gutter; }
-.drei   { width: @col_size * 3 - @gutter; }
-.vier   { width: @col_size * 4 - @gutter; }
-.funf   { width: @col_size * 5 - @gutter; }
-.sechs  { width: @col_size * 6 - @gutter; }
-.sieben { width: @col_size * 7 - @gutter; }
-.acht   { width: @col_size * 8 - @gutter; }
-.neun   { width: @col_size * 9 - @gutter; }
-.zehn   { width: @col_size * 10 - @gutter; }
 
 /* page structure 
 --------------------------------------------- */
 
 #page {
-  font-size: 1.2em; // 12pt
-  line-height: 1.833333em; // 22px
-  padding: 0;
+  padding: 2em;
+  margin: 0;
   position: relative;  
-  background: #fff url(/images/bg_a.jpg) no-repeat top center;
+  background: #fdfffb url(/images/bg_w.jpg) center fixed;
 }
 
 /* header 
 --------------------------------------------- */
 
 #header {
-  max-width: 81em; // 960px
-  min-width: 81em;
-  margin: 0 auto;
+  
   /* logo */  
   h1 {
-    float: left;
-    width: @col_size * 3 + @gutter;
-    height: 157px;
-    margin-top: 4.4em;
+    height: 229px;
     position: relative;
-    z-index: 100;
-      
+    width: 370px;
+    padding-top: 3.2em;
+    padding-bottom: 0;
+    margin: 0 auto;
+
     a {
       display: block;
       background: url(/images/logo.png) no-repeat 0 0;
@@ -83,7 +65,6 @@ a:hover {
       height: 229px;
       margin: 0;
       padding: 0;
-      margin-left: -10%;
     }
     
     a:hover {
@@ -92,12 +73,14 @@ a:hover {
   }
   
   h2 {
-    float: left;
-    margin-top: 2.7em;
-    font-size: 2.9em;
-    line-height: 1.21em;
+    font-size: 3em;
+    line-height: 1.68em;
     color: #222;
     font-weight: normal;
+    width: 600px;
+    padding-top: 0.9em;
+    margin: 0 auto;
+    text-align: center;
   }
   
 }
@@ -109,393 +92,78 @@ a:hover {
 
 #content {
   position: relative;
-  min-width: 81em;
-    
+  width: 60em;
+  margin: 0 auto;
+  padding-top: 1.2em;
+
   .section {    
-    padding: 1.9em 0 5.6em 0;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ccc;
-    
+    padding-top: 3em;
+
     h2 {
-      font-size: 2.6em;
-      font-style: italic;
-      color: #999;
+      font-size: 3.5em;
+      line-height: 1.45em;
+      text-align: center;
+      font-family: "museo-slab-1","museo-slab-2";
+      font-weight: 100;
+      padding-bottom: 0.4em;
     }
-        
+         
     h3 {
       font-size: 2em;
-      line-height: 1em;
+      line-height: 1.6em;
     }
-    
+     
     h4 {
       font-size: 1.8em;
-      line-height: 1em;
+      line-height: 1.6em;
     }
-    
-    h2 + p, h3 + p {
-      padding-top: 1.6em;
-      font-size: 1.2em;
-      line-height: 1.5em;
-      padding-bottom: 1.5em;
-    }
-    
+
     h2 + ul, h3 + ul, h4 + ul {
-      padding-top: 1.2em;
+      list-style: disc;
+      padding: 1.6em;
     }
-    
+
     p {
-      font-size: 1.2em;
-      line-height: 1.5em;
+      font-size: 1.6em;
+      line-height: 1.6em;
+      padding-bottom: 1.6em;
     }
-    
-    .container {
-      position: relative;
-      max-width: 81em; // 960px
-      margin: 0 auto;
-      
-      h2 + p {
-        padding-top: 0.4em;
-      }
-      
-      h2 {
-        padding: 0 @gutter 0 @gutter;
-        text-align: center;
-        line-height: 1.2em;
-        padding-bottom: 0.45em;
-      }
-    }
-    
-  }
-    
-  #about {
-    padding-top: 0;
-    padding-bottom: 1.3em;
-    border-top: none;
-    
-    .container {
-      padding-top: 0.3em;
-      
-      p {
-        width: @col_size * 6;
-        padding-left: @col_size * 3 + @gutter;
-        padding-bottom: 1.5em;
-      }
-      
-      p:first-child {
-        font-size: 1.6em;
-        line-height: 1.15em;
-        padding-bottom: 1.15em;
-      } 
-      
-    }
-    
+
   }
   
-  #work {
-    background: #fff url(/images/bg_w.jpg) no-repeat 50% 250px;
-    padding-top: 1em;
-    padding-bottom: 4.6em;
-        
-    h2 {
-      padding-bottom: 1.8em;
-      padding-top: 0.7em;
-      text-align: left;
-      padding-left: @col_size * 3 + @gutter;
-    }
-    
-    .project_toggle {
-      position: absolute;
-      padding: 0 @gutter 0 @gutter;
-      width: @col_size * 9 - @gutter;
-      margin: 0 auto;
+  ol#team {
+    li.member {
+      margin-bottom: 2.5em;
       
-      top: 1em;
-      left: 0;
-            
-      a {
-        background: #444;
-        background: rgba(10,10,10,0.8);
-        color: #ddd;
-        text-shadow: 0;
-        padding: 2em 1.8em;
-        
-        border-bottom-left-radius: 150px 150px;
-        border-bottom-right-radius: 150px 150px;
-        border-top-left-radius: 150px 150px;
-        border-top-right-radius: 150px 150px;
-                
-        text-align: center;
-        
-        :hover {
-          color: #fff;
-          background: #222;
-        }
-      }
-      
-      .prev {
+      img {
         float: left;
+        width: 148px;
+        display: block;
+        padding: 10px;
+        background: #fff;
+        border: 1px solid #999;
+        margin-top: 0.8em;
       }
       
-      .next {
+      .info {
         float: right;
-      }
-            
-    }
-    
-    ol {
-      overflow: hidden;
-      padding-left: @gutter;
-      
-      li {
+        width: 65%;
         
-        .project-desc {
-          width: @col_size * 3 - @gutter;
-          float: left;
-          padding-right: @gutter;
-          
-          h3 + p {
-            padding-top: 2em;
-          }
-          
-          p { 
-            font-size: 1em;
-            line-height: 1.8em;
-            padding-bottom: 1.8em;
-            padding-right: @gutter;
-          }
-          
-          ul {
-            padding: 0 0 1.8em 1.3em;
-            list-style: circle;
-            
-            li {              
-              padding: 0;
-              line-height: 1.75em;              
-            }
-            
-          }
-        }
-        
-        ul.project-images {
-          width: @col_size * 7;
-          float: left;
-          
-          li {
-            width: @col_size * 6 - @gutter;
-          }
-        }
-        
-        div.pimg-wrap {
-          overflow: hidden;
-          height: 335px;
-          width: @col_size * 7;
-          float: left;
-          
-          ul.project-images {
-            float: none;
-          }
-        }
-        
-      }
-      
-    }
-    
-  }
-  
-  #ethos {
-    background: #fdfffb url(/images/bg_e.jpg) no-repeat 50% 0;
-    padding-top: 2.7em;
-    padding-bottom: 4.6em;
-        
-    .container {
-      
-      h2 {
-        color: #333;
-      }
-      
-      p {
-        padding-left: @gutter;
-        padding-right: @gutter;
-      }
-      
-      .idea {
-        margin-top: 3.1em;
-        margin-left: @gutter;
-        float: left;
-        
-        ul {
-          padding: 2em 0 1.8em 0;
-          
-          li {
-            p {
-              font-size: 1em;
-              line-height: 1.8em;
-              padding-bottom: 1.8em;
-              padding-right: @gutter;
-              font-family: "droid-serif-1","droid-serif-2", serif;
-              font-style: italic;
-            }
-          }
-          
-        }
         
         p {
-          padding-left: 0;
-          padding-right: 0;
+          font-size: 1.4em;
         }
-      }      
+      }
     }
-    
   }
 
-  #people {
-    padding-top: 2.8em;
-    padding-bottom: 4em;
-    background: #fefbc5 url(/images/bg_p.jpg) no-repeat 50% 0;
-    
-    .container {
-      
-      h2 {
-        color: #8b8323;
-      }
-      
-      p {
-        padding-left: @gutter;
-      }
-      
-      ol#team {
-        
-        padding-top: 2.5em;
-        padding-left: @gutter;
-        
-        li {
-          background: #fff;
-          background-color: rgba(255,255,255,0.8);
-          float: left;
-          width: @col_size * 5 - (@gutter * 2 + 2px);
-          margin-right: @gutter;
-          margin-bottom: 1.3em;
-          
-          border: 1px solid #f1f1f1;
-          padding: 1em @gutter 1em 0;
-          
-          p {
-            padding-left: 0;
-          }
-          
-          img {
-            float: left;
-            margin-right: @gutter;
-            margin-left: @gutter;
-          }
-          
-          h3 { 
-            font-size: 1.2em;
-            padding: 0;
-            float: left;
-            line-height: 1.3em;
-            padding-bottom: 0.3em;
-          }
-          
-          p.links {
-            font-size: 1em;
-            float: left;
-            padding: 0.1em 0 0 0;
-            margin-left: 1em;
-            color: #ddd;
-          }
-          
-          .info {
-            float: right; 
-            width: @col_size * 3 - @gutter;
-          }
-             
-          div.bio { 
-            clear: both;
-            
-            p {
-              font-size: 1em; 
-              line-height: 1.8em;
-              font-style: italic;
-              font-weight: normal;
-            }
-            
-            p + p {
-              padding-top: 1.8em;
-            }
-          }
-          
-        }
-      }
-      
+  .vcard {
+    p {
+      padding-bottom: 0;
     }
-  }
-  
-  #contact {
-    padding-top: 2.7em;
-    padding-bottom: 4em;    
-    background: #fdfffb url(/images/bg_c.jpg) no-repeat center bottom;
-
-    .container {
-      
-      h2 { 
-        text-align: left;
-      }
-      
-      p {
-        padding-bottom: 1.5em;
-      }
-            
-      ul {
-        padding-top: 0.2em;
-        padding-bottom: 1.5em;
-
-        li {
-          width: @col_size * 4;
-          line-height: 1.8em;
-          padding-bottom: 1.8em;
-          em { 
-            font-weight: bold;
-          }
-        }
-      }
-
-    }
-    
-    #working-together {
-      width: @col_size * 5 - @gutter;
-      float: left;
-      padding-left: @gutter;
-    }
-    
-    #address-etc {
-      padding-top: 0.35em;
-      width: @col_size * 4 - @gutter;
-      float: left;
-      padding-left: @gutter;
-      
-      h4 {
-        font-size: 1.5em;
-        padding-bottom: 1.4em;
-      }
-      
-      .vcard {
-        p {
-          padding: 0;
-        }
-      }
-      
-    }
-
   }
   
 }
-
-ol.scrollist {
-  position: relative;       
-  li {
-    float: left;
-  }
-}
-
+     
+ 
 @import "_misc";

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#work .container').theWork();
+  // $('#work .container').theWork();
 });
 
 (function($) {
