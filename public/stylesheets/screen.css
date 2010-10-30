@@ -120,11 +120,15 @@ a:hover {
 }
 /* page structure 
 --------------------------------------------- */
+body {
+  background: #fdfffb url(/images/bg_w.jpg) center fixed;
+}
 #page {
   padding: 2em;
   margin: 0;
   position: relative;
-  background: #fdfffb url(/images/bg_w.jpg) center fixed;
+  margin: 0 auto;
+  width: 60em;
 }
 /* header 
 --------------------------------------------- */
@@ -165,9 +169,6 @@ a:hover {
 /* main styles 
 --------------------------------------------- */
 #content {
-  position: relative;
-  width: 60em;
-  margin: 0 auto;
   padding-top: 1.2em;
 }
 #content .section {
