@@ -198,6 +198,9 @@ a:hover {
   line-height: 1.6em;
   padding-bottom: 1.6em;
 }
+#content ol#project-list li {
+  margin-bottom: 2.5em;
+}
 #content ol#team li.member {
   margin-bottom: 2.5em;
 }
