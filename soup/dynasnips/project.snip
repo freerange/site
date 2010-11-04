@@ -1,8 +1,7 @@
-
-class Portfolio < Dynasnip
+class Project < Dynasnip
   def handle(name)
     piece = app.soup[name]
-    template = app.soup["portfolio"].template
+    template = app.soup["project"].template
 
     images_html = piece.images.map do |image_url| 
       %{<li><img src="/images/folio/#{image_url}" /></li>} 
@@ -17,7 +16,7 @@ class Portfolio < Dynasnip
 end
 
 :render_as: Ruby
-:name: portfolio
+:name: project
 :template: |  
   <div class="project-desc">
     <h3>NAME</h3>
