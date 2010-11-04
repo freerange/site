@@ -121,7 +121,7 @@ a:hover {
 /* page structure 
 --------------------------------------------- */
 body {
-  background: #fdfffb url(/images/bg_w.jpg) center fixed;
+  background: #fdfffb url(/images/bg_w.jpg) top fixed no-repeat;
 }
 #page {
   padding: 2em;
@@ -155,26 +155,13 @@ body {
 #header h1 a:hover {
   opacity: 0.8;
 }
-#header h2 {
-  font-size: 3em;
-  line-height: 1.68em;
-  color: #222;
-  font-weight: normal;
-  width: 600px;
-  padding-top: 0.9em;
-  margin: 0 auto;
-  text-align: center;
-}
 /* navigation */
 /* main styles 
 --------------------------------------------- */
 #content {
   padding-top: 1.2em;
 }
-#content .section {
-  padding-top: 3em;
-}
-#content .section h2 {
+#content h2 {
   font-size: 3.5em;
   line-height: 1.45em;
   text-align: center;
@@ -182,22 +169,36 @@ body {
   font-weight: 100;
   padding-bottom: 0.4em;
 }
-#content .section h3 {
+#content h2#tag {
+  font-size: 3em;
+  line-height: 1.68em;
+  color: #222;
+  font-weight: normal;
+  width: 600px;
+  padding-top: 0.5em;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", serif;
+}
+#content h3 {
   font-size: 2em;
   line-height: 1.6em;
 }
-#content .section h4 {
+#content h4 {
   font-size: 1.8em;
   line-height: 1.6em;
 }
-#content .section h2 + ul, #content .section h3 + ul, #content .section h4 + ul {
+#content h2 + ul, #content h3 + ul, #content h4 + ul {
   list-style: disc;
   padding: 1.6em;
 }
-#content .section p {
+#content p {
   font-size: 1.6em;
   line-height: 1.6em;
   padding-bottom: 1.6em;
+}
+#content .section {
+  padding-top: 3em;
 }
 #content ol#project-list li {
   margin-bottom: 2.5em;
@@ -241,6 +242,54 @@ body {
 }
 #content #contact #address-etc p {
   font-size: 14px;
+}
+body.blog {
+  background: #fdfffb url(/images/bg_blog.jpg) top right fixed no-repeat;
+  padding: 0;
+}
+body.blog #page {
+  padding: 0;
+  width: 100%;
+}
+body.blog #page #header {
+  width: 370px;
+  float: left;
+  /* logo */
+}
+body.blog #page #header h1 {
+  height: 229px;
+  position: relative;
+  width: 370px;
+  padding: 0;
+  margin: 0;
+}
+body.blog #page #header h1 a {
+  display: block;
+  background: url(/images/logo_blog.png) no-repeat 0 0;
+  text-indent: -9999px;
+  width: 316px;
+  height: 217px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.7;
+  -moz-transition: opacity .25s 0 linear;
+  -o-transition: opacity .25s 0 linear;
+  -webkit-transition: opacity .25s 0 linear;
+  transition: opacity .25s 0 linear;
+}
+body.blog #page #header h1 a:hover {
+  opacity: 1;
+}
+body.blog #page #content {
+  float: left;
+  width: 75%;
+  max-width: 60em;
+  padding-left: 10%;
+}
+body.blog #page #content h1 {
+  font-size: 5.6em;
+  line-height: 1em;
+  padding-bottom: 1em;
 }
 /* misc. 
 --------------------------------------------- */

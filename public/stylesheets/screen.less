@@ -37,7 +37,7 @@ a:hover {
 --------------------------------------------- */
 
 body {
-  background: #fdfffb url(/images/bg_w.jpg) center fixed;
+  background: #fdfffb url(/images/bg_w.jpg) top fixed no-repeat;
 }
 
 
@@ -78,17 +78,6 @@ body {
     }
   }
   
-  h2 {
-    font-size: 3em;
-    line-height: 1.68em;
-    color: #222;
-    font-weight: normal;
-    width: 600px;
-    padding-top: 0.9em;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
 }
 
 /* navigation */
@@ -98,40 +87,52 @@ body {
 
 #content {
   padding-top: 1.2em;
+  
+  h2 {
+    font-size: 3.5em;
+    line-height: 1.45em;
+    text-align: center;
+    font-family: "museo-slab-1","museo-slab-2";
+    font-weight: 100;
+    padding-bottom: 0.4em;
+  }
+  
+  h2#tag {
+    font-size: 3em;
+    line-height: 1.68em;
+    color: #222;
+    font-weight: normal;
+    width: 600px;
+    padding-top: 0.5em;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+  }
+  
+       
+  h3 {
+    font-size: 2em;
+    line-height: 1.6em;
+  }
+   
+  h4 {
+    font-size: 1.8em;
+    line-height: 1.6em;
+  }
+
+  h2 + ul, h3 + ul, h4 + ul {
+    list-style: disc;
+    padding: 1.6em;
+  }
+
+  p {
+    font-size: 1.6em;
+    line-height: 1.6em;
+    padding-bottom: 1.6em;
+  }
 
   .section {    
     padding-top: 3em;
-
-    h2 {
-      font-size: 3.5em;
-      line-height: 1.45em;
-      text-align: center;
-      font-family: "museo-slab-1","museo-slab-2";
-      font-weight: 100;
-      padding-bottom: 0.4em;
-    }
-         
-    h3 {
-      font-size: 2em;
-      line-height: 1.6em;
-    }
-     
-    h4 {
-      font-size: 1.8em;
-      line-height: 1.6em;
-    }
-
-    h2 + ul, h3 + ul, h4 + ul {
-      list-style: disc;
-      padding: 1.6em;
-    }
-
-    p {
-      font-size: 1.6em;
-      line-height: 1.6em;
-      padding-bottom: 1.6em;
-    }
-
   }
   
   ol#project-list {
@@ -202,6 +203,63 @@ body {
   
   
 }
-     
+
+body.blog {
+  background: #fdfffb url(/images/bg_blog.jpg) top right fixed no-repeat;
+  padding: 0;
+  
+  #page {
+    padding: 0;
+    width: 100%;
+    
+    #header {
+      width: 370px;
+      float: left;
+      
+      /* logo */  
+      h1 {
+        height: 229px;
+        position: relative;
+        width: 370px;
+        padding: 0;
+        margin: 0;
+
+        a {
+          display: block;
+          background: url(/images/logo_blog.png) no-repeat 0 0;
+          text-indent: -9999px;
+          width: 316px;
+          height: 217px;
+          margin: 0;
+          padding: 0;
+          opacity: 0.7;
+          
+          -moz-transition : opacity .25s 0 linear; 
+          -o-transition : opacity .25s 0 linear; 
+          -webkit-transition : opacity .25s 0 linear; 
+          transition : opacity .25s 0 linear;
+        }
+
+        a:hover {
+          opacity: 1;
+        }
+      }
+    }
+    
+    #content {
+      float: left;
+      width: 75%;
+      max-width: 60em;
+      padding-left: 10%;
+    
+      h1 {
+        font-size: 5.6em;
+        line-height: 1em;
+        padding-bottom: 1em;
+      }
+    }
+    
+  }
+}
  
 @import "_misc";
