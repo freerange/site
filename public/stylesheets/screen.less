@@ -86,7 +86,7 @@ body {
 --------------------------------------------- */
 
 #content {
-  padding-top: 1.2em;
+  padding-top: 3.1em;
   
   h2 {
     font-size: 3.5em;
@@ -94,6 +94,7 @@ body {
     text-align: center;
     font-family: "museo-slab-1","museo-slab-2";
     font-weight: 100;
+    padding-top: 0.95em;
     padding-bottom: 0.4em;
   }
   
@@ -103,16 +104,16 @@ body {
     color: #222;
     font-weight: normal;
     width: 600px;
-    padding-top: 0.5em;
+    padding-bottom: 1.45em;
+    padding-top: 0;
     margin: 0 auto;
     text-align: center;
     font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
   }
   
-       
   h3 {
     font-size: 2em;
-    line-height: 1.6em;
+    line-height: 1.4em;
   }
    
   h4 {
@@ -120,30 +121,47 @@ body {
     line-height: 1.6em;
   }
 
-  h2 + ul, h3 + ul, h4 + ul {
+  ul {
     list-style: disc;
-    padding: 1.6em;
   }
-
+  
   p {
     font-size: 1.6em;
     line-height: 1.6em;
     padding-bottom: 1.6em;
   }
 
-  .section {    
-    padding-top: 3em;
+  h2 + p {
+    padding-top: 0.3em;
   }
+
+  #ethos {
+    .idea {
+      h3 {
+        padding-top: 1.15em;
+      }
+      ul {
+        padding-top: 2.4em;
+      }
+    }
+  }
+
+  .section {    
+/*    padding-top: 3em;
+*/  }
   
   ol#project-list {
+    padding-bottom: 0.2em;
     li {
-      margin-bottom: 2.5em;
+      margin-bottom: 2.2em;
     }
   }
   
   ol#team {
+    padding-top: 2.1em;
+    padding-bottom: 0.2em;
     li.member {
-      margin-bottom: 2.5em;
+      padding-bottom: 2.1em;
       
       img {
         float: left;
@@ -159,9 +177,18 @@ body {
         float: right;
         width: 65%;
         
+        h3 {
+          padding-bottom: 0em;
+        }
+        
+        p.links {
+          padding-bottom: 1.9em;
+        }
         
         p {
           font-size: 1.4em;
+          line-height: 1.8em;
+          padding-bottom: 1.8em;
         }
       }
     }
@@ -173,8 +200,6 @@ body {
     }
   }
   
-  
-  
   #contact {
     em {
       font-weight: bold;
@@ -184,7 +209,7 @@ body {
       width: 55%;
       float: left;
       margin-right: 1.5em;
-          
+      padding-top: 0.1em;    
       p {
         font-size: 14px;
       }
@@ -194,6 +219,7 @@ body {
     #address-etc {
       width: 40%;
       float: right;
+      padding-top: 0.2em;    
             
       p {
         font-size: 14px;

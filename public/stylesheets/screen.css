@@ -159,7 +159,7 @@ body {
 /* main styles 
 --------------------------------------------- */
 #content {
-  padding-top: 1.2em;
+  padding-top: 3.1em;
 }
 #content h2 {
   font-size: 3.5em;
@@ -167,6 +167,7 @@ body {
   text-align: center;
   font-family: "museo-slab-1", "museo-slab-2";
   font-weight: 100;
+  padding-top: 0.95em;
   padding-bottom: 0.4em;
 }
 #content h2#tag {
@@ -175,36 +176,53 @@ body {
   color: #222;
   font-weight: normal;
   width: 600px;
-  padding-top: 0.5em;
+  padding-bottom: 1.45em;
+  padding-top: 0;
   margin: 0 auto;
   text-align: center;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", serif;
 }
 #content h3 {
   font-size: 2em;
-  line-height: 1.6em;
+  line-height: 1.4em;
 }
 #content h4 {
   font-size: 1.8em;
   line-height: 1.6em;
 }
-#content h2 + ul, #content h3 + ul, #content h4 + ul {
+#content ul {
   list-style: disc;
-  padding: 1.6em;
 }
 #content p {
   font-size: 1.6em;
   line-height: 1.6em;
   padding-bottom: 1.6em;
 }
+#content h2 + p {
+  padding-top: 0.3em;
+}
+#content #ethos .idea h3 {
+  padding-top: 1.15em;
+}
+#content #ethos .idea ul {
+  padding-top: 2.4em;
+}
 #content .section {
-  padding-top: 3em;
+  /*    padding-top: 3em;
+*/
+}
+#content ol#project-list {
+  padding-bottom: 0.2em;
 }
 #content ol#project-list li {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.2em;
+}
+#content ol#team {
+  padding-top: 2.1em;
+  padding-bottom: 0.2em;
 }
 #content ol#team li.member {
-  margin-bottom: 2.5em;
+  padding-bottom: 2.1em;
 }
 #content ol#team li.member img {
   float: left;
@@ -219,8 +237,16 @@ body {
   float: right;
   width: 65%;
 }
+#content ol#team li.member .info h3 {
+  padding-bottom: 0em;
+}
+#content ol#team li.member .info p.links {
+  padding-bottom: 1.9em;
+}
 #content ol#team li.member .info p {
   font-size: 1.4em;
+  line-height: 1.8em;
+  padding-bottom: 1.8em;
 }
 #content .vcard p {
   padding-bottom: 0;
@@ -232,6 +258,7 @@ body {
   width: 55%;
   float: left;
   margin-right: 1.5em;
+  padding-top: 0.1em;
 }
 #content #contact #working-together p {
   font-size: 14px;
@@ -239,6 +266,7 @@ body {
 #content #contact #address-etc {
   width: 40%;
   float: right;
+  padding-top: 0.2em;
 }
 #content #contact #address-etc p {
   font-size: 14px;
