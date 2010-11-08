@@ -254,14 +254,27 @@ body {
 #content #contact em {
   font-weight: bold;
 }
+#content #contact h3 {
+  padding-bottom: 0.05em;
+}
 #content #contact #working-together {
-  width: 55%;
+  width: 50%;
   float: left;
   margin-right: 1.5em;
   padding-top: 0.1em;
 }
 #content #contact #working-together p {
   font-size: 14px;
+  line-height: 1.8em;
+}
+#content #contact #working-together ul {
+  padding-top: 0.3em;
+}
+#content #contact #working-together ul li {
+  padding-bottom: 0;
+}
+#content #contact #working-together ul li p {
+  padding-bottom: 1.8em;
 }
 #content #contact #address-etc {
   width: 40%;
@@ -270,6 +283,10 @@ body {
 }
 #content #contact #address-etc p {
   font-size: 14px;
+  line-height: 1.8em;
+}
+#content #contact #address-etc p.twitter {
+  padding-top: 0.25em;
 }
 body.blog {
   background: #fdfffb url(/images/bg_blog.jpg) top right fixed no-repeat;
