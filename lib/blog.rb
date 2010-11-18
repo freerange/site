@@ -1,7 +1,7 @@
 require 'vanilla/renderers/base'
 
 module Vanilla::Renderers
-  class BlogRenderer < Base
+  class Blog < Base
     def prepare(snip, part=:content, args=[], enclosing_snip=snip)
       @snip = snip
     end
