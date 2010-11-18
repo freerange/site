@@ -1,4 +1,16 @@
-#article_links{:style => "display: none;"}
+.blog_entry.group
+  %p.article_date
+    ENTRY_DATE      
+  
+  .author
+    %img{:src => "ENTRY_AUTHOR_IMAGE", :alt => "ENTRY_AUTHOR"}
+    %span 
+      by ENTRY_AUTHOR
+
+  .content
+    ENTRY_CONTENT
+  
+#article_links
   %h3 Recent
   %ul#recent_articles
     %li
@@ -11,7 +23,7 @@
       %a{:href=>"/"}Hooray for ray and jane
     %li
       %a{:href=>"/"}Pineapple cheesecake sandpaper mess
-  
+
   %h3 Monthly    
   %ul#article_months
     %li
@@ -24,15 +36,5 @@
       %a{:href=>"/"}November 2010
     %li
       %a{:href=>"/"}October 2010
-    
-.blog_entry
-  .content
-    %p.article_date
-      ENTRY_DATE      
-    ENTRY_CONTENT
-  .author
-    %img{:src => "ENTRY_AUTHOR_IMAGE", :alt => "ENTRY_AUTHOR"}
-    %span 
-      by ENTRY_AUTHOR
 
 :render_as: Haml

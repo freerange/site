@@ -266,6 +266,7 @@ body.blog {
     padding: 0;
     margin: 0 auto;
     max-width: @max_page_width;
+    min-width: 0;
     width: 100%;
     position: relative;
  
@@ -304,7 +305,6 @@ body.blog {
         li#link_rss {
           float: right;
           padding-right: 2.5em;
-          width: 12.5em;
         }
       }
       
@@ -312,9 +312,8 @@ body.blog {
       h1 {
         height: 229px;
         width: 316px;
-        padding: 0;
-        margin: 4em 0 0 -30px;  
-        float: left;
+        padding: 4em 0 0 0;
+        margin: 0;  
         
         a {
           display: block;
@@ -339,80 +338,29 @@ body.blog {
     }
     
     #content {    
-      padding: 0.5em 0 0 0;
-                    
-      #article_links {
-        width: 19.5%;
-        padding: 2em 2.5em;
-        background: #fff;
-        border: 1px solid #dcdcdc;
-        float: left;
-        
-        h3 {
+      padding: 1.4em 2.5em 0 2.5em;
+
+      .blog_entry {
+              
+        p.article_date {
           text-transform: uppercase;
           font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-          color: #ddd;
+          border-bottom: 1px solid #e3e1e2;
+          font-size: 1em;
+          font-weight: bold;
           letter-spacing: 1px;
-          font-size: 2.9em;
-          line-height: 1.3em;
-          padding-bottom: 0;
+          line-height: 2.5em;
+          margin-bottom: 5em;
         }
-        
-        ul {
-          list-style: none;
-          padding: 0;
-          padding-bottom: 3.8em;
-          li {
-            padding: 0;
-            line-height: 1.5em;
-          }
-          a {
-            font-size: 0.8em;
-            font-family: "Times New Roman", Times, serif;
-            font-style: italic;
-            color: #333;
-            font-weight: normal;
-          }
-          
-          a:hover, a:active {
-            color: @link_hover;
-          }
-        }
-        
-        #article_months {
-          padding-bottom: 2.2em;
-        }
-        
-      }
-        
-      .blog_entry {
-        float: right;
-        width: 70.8%;
-        margin-top: -20em;
         
         .content {
-          width: 75.9%;
-          float: left;
-          padding-top: 0.9em;
-          
-          p.article_date {
-            text-transform: uppercase;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            border-bottom: 1px solid #e3e1e2;
-            font-size: 1em;
-            font-weight: bold;
-            letter-spacing: 1px;
-            line-height: 2.5em;
-            margin-bottom: 5.6em;
-          }
-          
+          padding-top: 0.7em;
         }
         
         .author {
-          float: left;
+          float: right;
           min-width: 75px;
           margin-left: 2.5em;
-          
           span {
             font-size: 1em;
             text-transform: uppercase;
@@ -558,5 +506,99 @@ body.blog {
     
   }
 }
+
+@media only screen and (min-width: 850px) {
+  
+  body.blog {
+    #page {
+      #header {
+        ul#blog_nav {
+          li#link_rss {
+            width: 12.5em;
+          }
+        }
+        
+        h1 {
+          height: 229px;
+          width: 316px;
+          padding: 0;
+          margin: 4em 0 0 -30px;  
+          float: left;
+        }
+      }
+      
+      #content {    
+        padding: 0.8em 0 0 0;
+        
+        .blog_entry {
+          float: right;
+          margin-top: -19.4em;
+          width: 70.8%;
+
+          p.article_date {
+            margin-bottom: 5em;  
+          }
+
+          .author {
+            width: 20.8%;
+            margin-left: 2.5em;
+          }
+
+          .content {
+            width: 75.9%;        
+            padding-top: 0.6em;
+          }
+        }
+
+        #article_links {
+          width: 19.5%;
+          padding: 2em 2.5em;
+          background: #fff;
+          border: 1px solid #dcdcdc;
+          float: left;
+
+          h3 {
+            text-transform: uppercase;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #ddd;
+            letter-spacing: 1px;
+            font-size: 2.9em;
+            line-height: 1.3em;
+            padding-bottom: 0;
+          }
+
+          ul {
+            list-style: none;
+            padding: 0;
+            padding-bottom: 3.8em;
+            li {
+              padding: 0;
+              line-height: 1.5em;
+            }
+            a {
+              font-size: 0.8em;
+              font-family: "Times New Roman", Times, serif;
+              font-style: italic;
+              color: #333;
+              font-weight: normal;
+            }
+
+            a:hover, a:active {
+              color: @link_hover;
+            }
+          }
+
+          #article_months {
+            padding-bottom: 2.2em;
+          }
+
+        }
+      }
+    }
+  }    
+}
+
+
+
  
 @import "_misc";
