@@ -1,65 +1,4 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -68,15 +7,9 @@ td {
   outline: 0;
   background: transparent;
 }
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-:focus {
-  outline: 0;
-}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+:focus { outline: 0; }
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -91,48 +24,31 @@ table {
 }
 #grid div.horiz {
   height: 24px;
-  border-bottom: 1px dotted #f00;
+  border-bottom: 1px dotted #ff0000;
   margin: 0;
   padding: 0;
 }
-/* 
-  Master styles for application.
-*/
-/* Global Variables */
-/* body style */
 body {
-  color: #444;
+  color: #444444;
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", serif;
   font-size: 62.5%;
 }
-/* links */
 a {
   color: #990057;
   font-weight: bold;
   text-decoration: none;
 }
-a:link, a:visited {
-  outline: none;
-}
-a:hover, a:active {
-  color: #db4a1d;
-}
-/* page structure 
---------------------------------------------- */
-body {
-  background: #fdfffb url(/images/bg_w.jpg) top fixed no-repeat;
-}
+a:link { outline: none; }
+a:visited { outline: none; }
+a:hover { color: #db4a1d; }
+a:active { color: #db4a1d; }
+body { background: #fdfffb url(/images/bg_w.jpg) top fixed no-repeat; }
 #page {
   padding: 2em;
   margin: 0;
   position: relative;
   margin: 0 auto;
   width: 60em;
-}
-/* header 
---------------------------------------------- */
-#header {
-  /* logo */
 }
 #header h1 {
   height: 229px;
@@ -151,15 +67,10 @@ body {
   margin: 0;
   padding: 0;
 }
-#header h1 a:hover {
-  opacity: 0.8;
-}
-/* navigation */
-/* main styles 
---------------------------------------------- */
-#content {
-  padding-top: 3.1em;
-}
+#header h1 a:hover { opacity: 0.8; }
+body #blog_nav { display: none; }
+body.blog #blog_nav { display: block; }
+#content { padding-top: 3.1em; }
 #content h2 {
   font-size: 3.5em;
   line-height: 1.45em;
@@ -172,7 +83,7 @@ body {
 #content h2#tag {
   font-size: 3em;
   line-height: 1.68em;
-  color: #222;
+  color: #222222;
   font-weight: normal;
   width: 600px;
   padding-bottom: 1.45em;
@@ -189,69 +100,45 @@ body {
   font-size: 1.8em;
   line-height: 1.6em;
 }
-#content ul {
-  list-style: disc;
-}
+#content ul { list-style: disc; }
 #content p {
   font-size: 1.6em;
   line-height: 1.6em;
   padding-bottom: 1.6em;
 }
-#content h2 + p {
-  padding-top: 0.3em;
-}
-#content #ethos .idea h3 {
-  padding-top: 1.15em;
-}
-#content #ethos .idea ul {
-  padding-top: 2.4em;
-}
-#content ol#project-list {
-  padding-bottom: 0.2em;
-}
-#content ol#project-list li {
-  margin-bottom: 2.2em;
-}
+#content h2 + p { padding-top: 0.3em; }
+#content #ethos .idea h3 { padding-top: 1.15em; }
+#content #ethos .idea ul { padding-top: 2.4em; }
+#content ol#project-list { padding-bottom: 0.2em; }
+#content ol#project-list li { margin-bottom: 2.2em; }
 #content ol#team {
   padding-top: 2.1em;
   padding-bottom: 0.2em;
 }
-#content ol#team li.member {
-  padding-bottom: 2.1em;
-}
+#content ol#team li.member { padding-bottom: 2.1em; }
 #content ol#team li.member img {
   float: left;
   width: 148px;
   display: block;
   padding: 10px;
-  background: #fff;
-  border: 1px solid #999;
+  background: #ffffff;
+  border: 1px solid #999999;
   margin-top: 0.8em;
 }
 #content ol#team li.member .info {
   float: right;
   width: 65%;
 }
-#content ol#team li.member .info h3 {
-  padding-bottom: 0em;
-}
-#content ol#team li.member .info p.links {
-  padding-bottom: 1.9em;
-}
+#content ol#team li.member .info h3 { padding-bottom: 0em; }
+#content ol#team li.member .info p.links { padding-bottom: 1.9em; }
 #content ol#team li.member .info p {
   font-size: 1.4em;
   line-height: 1.8em;
   padding-bottom: 1.8em;
 }
-#content .vcard p {
-  padding-bottom: 0;
-}
-#content #contact em {
-  font-weight: bold;
-}
-#content #contact h3 {
-  padding-bottom: 0.05em;
-}
+#content .vcard p { padding-bottom: 0; }
+#content #contact em { font-weight: bold; }
+#content #contact h3 { padding-bottom: 0.05em; }
 #content #contact #working-together {
   width: 50%;
   float: left;
@@ -262,15 +149,9 @@ body {
   font-size: 14px;
   line-height: 1.8em;
 }
-#content #contact #working-together ul {
-  padding-top: 0.3em;
-}
-#content #contact #working-together ul li {
-  padding-bottom: 0;
-}
-#content #contact #working-together ul li p {
-  padding-bottom: 1.8em;
-}
+#content #contact #working-together ul { padding-top: 0.3em; }
+#content #contact #working-together ul li { padding-bottom: 0; }
+#content #contact #working-together ul li p { padding-bottom: 1.8em; }
 #content #contact #address-etc {
   width: 40%;
   float: right;
@@ -280,12 +161,8 @@ body {
   font-size: 14px;
   line-height: 1.8em;
 }
-#content #contact #address-etc .vcard {
-  padding-top: .3em;
-}
-#content #contact #address-etc p.twitter {
-  padding-top: 1.8em;
-}
+#content #contact #address-etc .vcard { padding-top: 0.3em; }
+#content #contact #address-etc p.twitter { padding-top: 1.8em; }
 body.blog {
   background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat;
   padding: 0;
@@ -297,14 +174,11 @@ body.blog #page {
   width: 100%;
   position: relative;
 }
-body.blog #page #header {
-  /* logo */
-}
 body.blog #page #header ul#blog_nav {
-  background: #222;
+  background: #222222;
   background-color: rgba(34, 34, 34, 0.9);
   padding: 0;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #ffffff;
   position: fixed;
   z-index: 100;
   max-width: 102.5em;
@@ -347,28 +221,24 @@ body.blog #page #header h1 a {
   margin: 0;
   padding: 0;
   opacity: 0.7;
-  -moz-transition: opacity .25s 0 linear;
-  -o-transition: opacity .25s 0 linear;
-  -webkit-transition: opacity .25s 0 linear;
-  transition: opacity .25s 0 linear;
+  -moz-transition: opacity 0.25s 0 linear;
+  -o-transition: opacity 0.25s 0 linear;
+  -webkit-transition: opacity 0.25s 0 linear;
+  transition: opacity 0.25s 0 linear;
 }
-body.blog #page #header h1 a:hover {
-  opacity: 1;
-}
-body.blog #page #content {
-  padding: 0.5em 0 0 0;
-}
+body.blog #page #header h1 a:hover { opacity: 1; }
+body.blog #page #content { padding: 0.5em 0 0 0; }
 body.blog #page #content #article_links {
   width: 19.5%;
   padding: 2em 2.5em;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #dcdcdc;
   float: left;
 }
 body.blog #page #content #article_links h3 {
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #ddd;
+  color: #dddddd;
   letter-spacing: 1px;
   font-size: 2.9em;
   line-height: 1.3em;
@@ -387,15 +257,12 @@ body.blog #page #content #article_links ul a {
   font-size: 0.8em;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
-  color: #333;
+  color: #333333;
   font-weight: normal;
 }
-body.blog #page #content #article_links ul a:hover, body.blog #page #content #article_links ul a:active {
-  color: #db4a1d;
-}
-body.blog #page #content #article_links #article_months {
-  padding-bottom: 2.2em;
-}
+body.blog #page #content #article_links ul a:hover { color: #db4a1d; }
+body.blog #page #content #article_links ul a:active { color: #db4a1d; }
+body.blog #page #content #article_links #article_months { padding-bottom: 2.2em; }
 body.blog #page #content .blog_entry {
   float: right;
   width: 70.8%;
@@ -425,7 +292,7 @@ body.blog #page #content .blog_entry .author span {
   font-size: 1em;
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #333333;
   font-weight: bold;
   display: block;
   line-height: 4.3em;
@@ -447,9 +314,7 @@ body.blog #page #content h2 {
   padding-top: 0.85em;
   line-height: 1.55em;
 }
-body.blog #page #content h3 {
-  padding: 0;
-}
+body.blog #page #content h3 { padding: 0; }
 body.blog #page #content p + h3 {
   line-height: 1em;
   padding-bottom: 0.2em;
@@ -463,72 +328,112 @@ body.blog #page #content h5 {
   line-height: 1.5em;
   padding-bottom: 0.1em;
 }
-body.blog #page #content p {
-  padding-bottom: 1.6em;
-}
-body.blog #page #content ol {
-  list-style: decimal;
-}
-body.blog #page #content ul, body.blog #page #content ol {
+body.blog #page #content p { padding-bottom: 1.6em; }
+body.blog #page #content ol { list-style: decimal; }
+body.blog #page #content ul {
   padding-top: 0em;
   padding-bottom: 2.7em;
   padding-left: 2.2em;
 }
-body.blog #page #content ul li, body.blog #page #content ol li {
+body.blog #page #content ul li {
   font-size: 1.5em;
   line-height: 1.7em;
 }
-body.blog #page #content ul li h1, body.blog #page #content ol li h1 {
+body.blog #page #content ul li h1 {
   font-size: 2.2em;
   padding: 0 0 0.45em 0;
   margin: 0;
   line-height: 1.9em;
 }
-body.blog #page #content ul li h2, body.blog #page #content ol li h2 {
+body.blog #page #content ul li h2 {
   font-size: 2em;
   padding: 0 0 0.2em 0;
   line-height: 2.2em;
 }
-body.blog #page #content ul li h3, body.blog #page #content ol li h3 {
+body.blog #page #content ul li h3 {
   font-size: 1.5em;
   padding: 0 0 0em 0;
   line-height: 1em;
 }
-body.blog #page #content ul li h4, body.blog #page #content ol li h4 {
+body.blog #page #content ul li h4 {
   font-size: 1.2em;
   line-height: 1em;
   padding: 0;
 }
-body.blog #page #content ul li h5, body.blog #page #content ol li h5 {
+body.blog #page #content ul li h5 {
   font-size: 1em;
   line-height: 1.7em;
   padding-bottom: 0;
 }
-body.blog #page #content ul li p, body.blog #page #content ol li p {
+body.blog #page #content ul li p {
+  font-size: 1em;
+  line-height: 1.7em;
+}
+body.blog #page #content ol {
+  padding-top: 0em;
+  padding-bottom: 2.7em;
+  padding-left: 2.2em;
+}
+body.blog #page #content ol li {
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+body.blog #page #content ol li h1 {
+  font-size: 2.2em;
+  padding: 0 0 0.45em 0;
+  margin: 0;
+  line-height: 1.9em;
+}
+body.blog #page #content ol li h2 {
+  font-size: 2em;
+  padding: 0 0 0.2em 0;
+  line-height: 2.2em;
+}
+body.blog #page #content ol li h3 {
+  font-size: 1.5em;
+  padding: 0 0 0em 0;
+  line-height: 1em;
+}
+body.blog #page #content ol li h4 {
+  font-size: 1.2em;
+  line-height: 1em;
+  padding: 0;
+}
+body.blog #page #content ol li h5 {
+  font-size: 1em;
+  line-height: 1.7em;
+  padding-bottom: 0;
+}
+body.blog #page #content ol li p {
   font-size: 1em;
   line-height: 1.7em;
 }
 body.blog #page #content blockquote {
-  color: #444;
+  color: #444444;
   font-size: 2em;
   line-height: 1.25em;
   padding: 1.15em 0 2.6em 4.8em;
 }
+body.blog #page #content pre { overflow-x: scroll; }
 body.blog #page #content pre {
-  overflow-x: scroll;
-}
-body.blog #page #content pre, body.blog #page #content code {
   padding: 2.4em 1em;
-  background: #fff;
-  border: 1px solid #eee;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   margin-bottom: 2.6em;
   font-size: 1.4em;
   line-height: 2em;
   display: block;
 }
 body.blog #page #content code {
-  margin-bottom: 1.4em;
+  padding: 2.4em 1em;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  margin-bottom: 2.6em;
+  font-size: 1.4em;
+  line-height: 2em;
+  display: block;
 }
+body.blog #page #content code { margin-bottom: 1.4em; }
 body.blog #page #content pre code {
   font-size: 1em;
   line-height: 2.2em;
@@ -537,14 +442,8 @@ body.blog #page #content pre code {
   padding: 0;
   display: inline;
 }
-/* misc. 
---------------------------------------------- */
-hr, .hide {
-  display: none;
-}
-a img {
-  border: none;
-}
+hr, .hide { display: none; }
+a img { border: none; }
 span.amp {
   font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
   font-weight: normal;
@@ -552,7 +451,6 @@ span.amp {
   font-size: 1.2em;
   color: #766557;
 }
-/* self-clear floats */
 .group:after {
   content: ".";
   display: block;
@@ -560,6 +458,4 @@ span.amp {
   clear: both;
   visibility: hidden;
 }
-.clear {
-  clear: both;
-}
+.clear { clear: both; }
