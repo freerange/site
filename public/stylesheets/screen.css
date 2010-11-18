@@ -280,8 +280,11 @@ body {
   font-size: 14px;
   line-height: 1.8em;
 }
+#content #contact #address-etc .vcard {
+  padding-top: .3em;
+}
 #content #contact #address-etc p.twitter {
-  padding-top: 0.25em;
+  padding-top: 1.8em;
 }
 body.blog {
   background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat;
