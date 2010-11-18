@@ -4,6 +4,7 @@ $:.unshift File.join(File.dirname(__FILE__), *%w[lib])
 require 'vanilla'
 require 'vanilla/static'
 require 'blog'
+require 'kramdown'
 
 app = Vanilla::App.new(ENV['VANILLA_CONFIG'])
 
