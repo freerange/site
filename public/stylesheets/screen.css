@@ -474,6 +474,9 @@ body.blog #page #content blockquote {
   line-height: 1.25em;
   padding: 1.15em 0 2.6em 4.8em;
 }
+body.blog #page #content blockquote p {
+  font-size: 1em;
+}
 body.blog #page #content pre {
   overflow-x: scroll;
 }
