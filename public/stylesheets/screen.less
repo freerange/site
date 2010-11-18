@@ -28,7 +28,7 @@ a:link, a:visited {
 	outline: none;
 }
 
-a:hover {
+a:hover, a:active {
   color: @link_hover;
 }
 
@@ -226,8 +226,7 @@ body {
         }
       }
     }
-  
-    
+   
     #address-etc {
       width: 40%;
       float: right;
@@ -243,30 +242,68 @@ body {
       }
     }
   }
-  
-  
 }
 
 body.blog {
-  background: #fdfffb url(/images/bg_blog.jpg) top right fixed no-repeat;
+  background: #fff url(/images/bg/thurs.jpg) top center fixed no-repeat;
   padding: 0;
+  
+  @max_page_width: 102.5em;
   
   #page {
     padding: 0;
+    margin: 0 auto;
+    max-width: @max_page_width;
     width: 100%;
-    
+    position: relative;
+ 
     #header {
-      width: 370px;
-      float: left;
+      
+      ul#blog_nav {
+        background: #222;
+        background-color: rgba(34,34,34,0.9);
+        padding: 0;
+        border-bottom: 1px solid #fff;
+        position: fixed;
+        z-index: 100;
+        max-width: @max_page_width;
+        width: 100%;
+        
+        li {
+          p {
+            color: #e6e6e6;
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+            font-size: 1.2em;
+            line-height: 3.4em;
+            a {
+              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+              color: #e6e6e6;
+              font-style: normal;
+            }
+          }
+        }
+          
+        li#link_home {
+          float: left;
+          padding-left: 2.5em;
+        }
+        
+        li#link_rss {
+          float: right;
+          padding-right: 2.5em;
+          width: 12.5em;
+        }
+      }
       
       /* logo */  
       h1 {
         height: 229px;
-        position: relative;
-        width: 370px;
+        width: 316px;
         padding: 0;
-        margin: 0;
-
+        margin: 4em 0 0 -30px;  
+        float: left;
+        
         a {
           display: block;
           background: url(/images/logo_blog.png) no-repeat 0 0;
@@ -289,12 +326,98 @@ body.blog {
       }
     }
     
-    #content {
-      float: left;
-      width: 75%;
-      max-width: 56.5em;
-      padding-left: 95px;
-      padding-right: 95px;
+    #content {    
+      padding: 0.5em 0 0 0;
+                    
+      #article_links {
+        width: 19.5%;
+        padding: 2em 2.5em;
+        background: #fff;
+        border: 1px solid #dcdcdc;
+        float: left;
+        
+        h3 {
+          text-transform: uppercase;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          color: #ddd;
+          letter-spacing: 1px;
+          font-size: 2.9em;
+          line-height: 1.3em;
+          padding-bottom: 0;
+        }
+        
+        ul {
+          list-style: none;
+          padding: 0;
+          padding-bottom: 3.8em;
+          li {
+            padding: 0;
+            line-height: 1.5em;
+          }
+          a {
+            font-size: 0.8em;
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+            color: #333;
+            font-weight: normal;
+          }
+          
+          a:hover, a:active {
+            color: @link_hover;
+          }
+        }
+        
+        #article_months {
+          padding-bottom: 2.2em;
+        }
+        
+      }
+        
+      .blog_entry {
+        float: right;
+        width: 70.8%;
+        margin-top: -20em;
+        
+        .content {
+          width: 75.9%;
+          float: left;
+          padding-top: 0.9em;
+          
+          p.article_date {
+            text-transform: uppercase;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            border-bottom: 1px solid #e3e1e2;
+            font-size: 1em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 2.5em;
+            margin-bottom: 5.6em;
+          }
+          
+        }
+        
+        .author {
+          float: left;
+          min-width: 75px;
+          margin-left: 2.5em;
+          
+          span {
+            font-size: 1em;
+            text-transform: uppercase;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #333;
+            font-weight: bold;
+            display: block;
+            line-height: 4.3em;
+          }
+          
+          img {
+            width: 75px;
+            height: 75px;
+            display: block;
+          }
+        }
+      }
       
       h1 {
         font-size: 4em;
@@ -341,6 +464,7 @@ body.blog {
       ul, ol {
         padding-top: 0em;
         padding-bottom: 2.7em;
+        padding-left: 2.2em;
                 
         li {
           font-size: 1.5em;

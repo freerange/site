@@ -1,7 +1,38 @@
+#article_links
+  %h3 Recent
+  %ul#recent_articles
+    %li
+      %a{:href=>"/"}Fishing off the windowsil
+    %li
+      %a{:href=>"/"}Kicking Johnny in the windpipe
+    %li
+      %a{:href=>"/"}Ship suicide on the 4th of July
+    %li
+      %a{:href=>"/"}Hooray for ray and jane
+    %li
+      %a{:href=>"/"}Pineapple cheesecake sandpaper mess
+  
+  %h3 Monthly    
+  %ul#article_months
+    %li
+      %a{:href=>"/"}February 2011
+    %li
+      %a{:href=>"/"}January 2011
+    %li
+      %a{:href=>"/"}December 2010
+    %li
+      %a{:href=>"/"}November 2010
+    %li
+      %a{:href=>"/"}October 2010
+    
 .blog_entry
   .content
+    %p.article_date
+      ENTRY_DATE      
     ENTRY_CONTENT
   .author
-    ENTRY_AUTHOR
+    %img{:src => "/images/people/jason-cale.jpg", :alt => "Jase"}
+    %span 
+      by ENTRY_AUTHOR
 
 :render_as: Haml

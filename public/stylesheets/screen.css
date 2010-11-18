@@ -82,13 +82,12 @@ table {
   border-spacing: 0;
 }
 #grid {
-  background: url(/images/grid/grid.png) repeat-y 0 0;
+  background: url(/images/grid/grid.png) -372px 0 repeat-y;
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 980px;
-  margin-left: -486px;
-  z-index: 1;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 #grid div.horiz {
   height: 24px;
@@ -115,7 +114,7 @@ a {
 a:link, a:visited {
   outline: none;
 }
-a:hover {
+a:hover, a:active {
   color: #db4a1d;
 }
 /* page structure 
@@ -285,24 +284,56 @@ body {
   padding-top: 0.25em;
 }
 body.blog {
-  background: #fdfffb url(/images/bg_blog.jpg) top right fixed no-repeat;
+  background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat;
   padding: 0;
 }
 body.blog #page {
   padding: 0;
+  margin: 0 auto;
+  max-width: 102.5em;
   width: 100%;
+  position: relative;
 }
 body.blog #page #header {
-  width: 370px;
-  float: left;
   /* logo */
+}
+body.blog #page #header ul#blog_nav {
+  background: #222;
+  background-color: rgba(34, 34, 34, 0.9);
+  padding: 0;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  z-index: 100;
+  max-width: 102.5em;
+  width: 100%;
+}
+body.blog #page #header ul#blog_nav li p {
+  color: #e6e6e6;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 3.4em;
+}
+body.blog #page #header ul#blog_nav li p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #e6e6e6;
+  font-style: normal;
+}
+body.blog #page #header ul#blog_nav li#link_home {
+  float: left;
+  padding-left: 2.5em;
+}
+body.blog #page #header ul#blog_nav li#link_rss {
+  float: right;
+  padding-right: 2.5em;
+  width: 12.5em;
 }
 body.blog #page #header h1 {
   height: 229px;
-  position: relative;
-  width: 370px;
+  width: 316px;
   padding: 0;
-  margin: 0;
+  margin: 4em 0 0 -30px;
+  float: left;
 }
 body.blog #page #header h1 a {
   display: block;
@@ -322,11 +353,84 @@ body.blog #page #header h1 a:hover {
   opacity: 1;
 }
 body.blog #page #content {
+  padding: 0.5em 0 0 0;
+}
+body.blog #page #content #article_links {
+  width: 19.5%;
+  padding: 2em 2.5em;
+  background: #fff;
+  border: 1px solid #dcdcdc;
   float: left;
-  width: 75%;
-  max-width: 56.5em;
-  padding-left: 95px;
-  padding-right: 95px;
+}
+body.blog #page #content #article_links h3 {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ddd;
+  letter-spacing: 1px;
+  font-size: 2.9em;
+  line-height: 1.3em;
+  padding-bottom: 0;
+}
+body.blog #page #content #article_links ul {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 3.8em;
+}
+body.blog #page #content #article_links ul li {
+  padding: 0;
+  line-height: 1.5em;
+}
+body.blog #page #content #article_links ul a {
+  font-size: 0.8em;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #333;
+  font-weight: normal;
+}
+body.blog #page #content #article_links ul a:hover, body.blog #page #content #article_links ul a:active {
+  color: #db4a1d;
+}
+body.blog #page #content #article_links #article_months {
+  padding-bottom: 2.2em;
+}
+body.blog #page #content .blog_entry {
+  float: right;
+  width: 70.8%;
+  margin-top: -20em;
+}
+body.blog #page #content .blog_entry .content {
+  width: 75.9%;
+  float: left;
+  padding-top: 0.9em;
+}
+body.blog #page #content .blog_entry .content p.article_date {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #e3e1e2;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 2.5em;
+  margin-bottom: 5.6em;
+}
+body.blog #page #content .blog_entry .author {
+  float: left;
+  min-width: 75px;
+  margin-left: 2.5em;
+}
+body.blog #page #content .blog_entry .author span {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  line-height: 4.3em;
+}
+body.blog #page #content .blog_entry .author img {
+  width: 75px;
+  height: 75px;
+  display: block;
 }
 body.blog #page #content h1 {
   font-size: 4em;
@@ -365,6 +469,7 @@ body.blog #page #content ol {
 body.blog #page #content ul, body.blog #page #content ol {
   padding-top: 0em;
   padding-bottom: 2.7em;
+  padding-left: 2.2em;
 }
 body.blog #page #content ul li, body.blog #page #content ol li {
   font-size: 1.5em;

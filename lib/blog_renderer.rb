@@ -11,7 +11,22 @@ module Vanilla::Renderers
       entry_content = renderer.render(@snip)
       author = @snip.author
       template = @app.soup['blog-template']
-      @app.render(template).gsub("ENTRY_CONTENT", entry_content).gsub("ENTRY_AUTHOR", author)
+      @app.render(template).gsub("ENTRY_CONTENT", entry_content).gsub("ENTRY_AUTHOR", author).gsub("ENTRY_DATE", article_date(@snip.created_at))
+    end
+    
+    def article_date(time)
+      suffix = case time.day.to_s.match(/(\d$)/)[0]
+      when "1"
+        "st"
+      when "2"
+        "nd"
+      when "3"
+        "rd"
+      else
+        "th"
+      end
+        
+      time.strftime("%A %d#{suffix} %B")
     end
   end
 end
