@@ -1,0 +1,13 @@
+class RecentBlogEntries < Dynasnip
+  def handle(number_of_entries=5, *args)
+    entries = soup[:kind => 'blog'].sort_by { |e| e.updated_at }[0..number_of_entries]
+    "<ul>" + entries.map do |entry|
+      title = entry.content.split("\n").first
+      url = url_to(entry)
+      %{<li><a href="#{url}">#{title}</a></li>}
+    end.join + "</ul>"
+  end
+  self
+end
+
+:render_as: Ruby
