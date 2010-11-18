@@ -55,9 +55,9 @@ GEM
       activesupport
       httparty
       mime-types
-    treetop (1.4.8)
+    treetop (1.4.9)
       polyglot (>= 0.3.1)
-    vanilla (1.11.4)
+    vanilla (1.12.1)
       BlueCloth (>= 1.0.0)
       RedCloth (>= 4.1.1)
       rack (>= 0.9.1)
@@ -65,7 +65,7 @@ GEM
       soup (>= 1.0.0)
       treetop (>= 1.4.1)
       warden (>= 0.5.2)
-    warden (0.10.7)
+    warden (1.0.2)
       rack (>= 1.0.0)
 
 PLATFORMS
@@ -74,4 +74,4 @@ PLATFORMS
 DEPENDENCIES
   freerange-deploy!
   haml
-  vanilla (= 1.11.4)
+  vanilla (= 1.12.1)
