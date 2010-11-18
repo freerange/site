@@ -3,7 +3,7 @@ require 'bundler/setup'
 $:.unshift File.join(File.dirname(__FILE__), *%w[lib])
 require 'vanilla'
 require 'vanilla/static'
-require 'blog_renderer'
+require 'blog'
 
 app = Vanilla::App.new(ENV['VANILLA_CONFIG'])
 
