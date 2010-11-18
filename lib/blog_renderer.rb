@@ -9,9 +9,11 @@ module Vanilla::Renderers
     def process_text(content)
       renderer = Vanilla::Renderers.const_get(@snip.written_with).new(@app)
       entry_content = renderer.render(@snip)
-      author = @snip.author
+      author = @app.soup[@snip.author]
+      author_name = author.name.split("-").map { |s| s.capitalize }.join(" ")
+      author_image = author.image
       template = @app.soup['blog-template']
-      @app.render(template).gsub("ENTRY_CONTENT", entry_content).gsub("ENTRY_AUTHOR", author).gsub("ENTRY_DATE", article_date(@snip.created_at))
+      @app.render(template).gsub("ENTRY_CONTENT", entry_content).gsub("ENTRY_AUTHOR_IMAGE", author_image).gsub("ENTRY_AUTHOR", author_name).gsub("ENTRY_DATE", article_date(@snip.updated_at))
     end
     
     def article_date(time)
