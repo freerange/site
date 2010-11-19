@@ -1,1 +1,17 @@
-{kind blog,10,xml}
+class Feed < Kind
+  attribute :domain, 'gofreerange.com'
+  attribute :feed_title, 'Go Free Range Blog'
+
+  def handle()
+    super('blog', 10, 'xml')
+  end
+
+  def prepare_snip_contents(snip)
+    # temporarily dodge the blog renderer
+    snip.render_as = snip.written_with
+    super(snip)
+  end
+  self
+end
+
+:render_as: Ruby
