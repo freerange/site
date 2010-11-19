@@ -1,7 +1,13 @@
-class ListOfKind < Dynasnip
-  def handle(kind, number_of_entries=nil, el='ul', *args)
+class ListOf < Dynasnip
+  def handle(options)
+    options = {:element => 'ul'}.merge(options)
+
+    kind = options[:kind]
+    limit = options[:limit]
+    el = options[:element]
+
     entries = soup[:kind => kind].sort_by { |e| e.created_at }.reverse
-    entries = entries[0..number_of_entries.to_i] unless number_of_entries == nil
+    entries = entries[0..limit.to_i] unless limit == nil
     "<#{el} class='" + kind + "_list'>" + entries.map do |entry|
       title = entry.content.split("\n").first
       url = url_to(entry.name)
