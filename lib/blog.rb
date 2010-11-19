@@ -3,7 +3,7 @@ require 'vanilla/renderers/base'
 module Vanilla::Renderers
   class Blog < Base
     def default_layout_snip
-      soup['blog-entry-layout']
+      soup['blog-layout']
     end
 
     def prepare(snip, part=:content, args=[], enclosing_snip=snip)

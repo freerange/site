@@ -2,7 +2,7 @@ class ListOfKind < Dynasnip
   def handle(kind, number_of_entries=nil, *args)
     entries = soup[:kind => kind].sort_by { |e| e.updated_at }
     entries = entries[0..number_of_entries.to_i] if number_of_entries == nil
-    "<ul>" + entries.map do |entry|
+    "<ul class='" + kind + "_list'>" + entries.map do |entry|
       title = entry.content.split("\n").first
       url = url_to(entry.name)
       %{<li><a href="#{url}">#{title}</a></li>}
