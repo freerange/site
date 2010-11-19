@@ -507,6 +507,24 @@ body.blog #page #content sup {
   font-size: x-small;
   vertical-align: super;
 }
+body.blog #page #content #blog_articles h2 {
+  margin: 0 0 1.15em 0;
+  padding: 0 0 0.35em 0;
+  border-bottom: 1px solid #333;
+}
+body.blog #page #content #blog_articles ol.blog_list {
+  padding: 1.5em 0 0 2.5em;
+  margin: 0;
+}
+body.blog #page #content #blog_articles ol.blog_list li {
+  padding: 0 0 1.7em 0;
+}
+body.blog #page #content #blog_articles ol.blog_list li a {
+  display: block;
+  padding: 0 0;
+  font-size: 1.2em;
+  line-height: 1em;
+}
 @media only screen and (min-width: 850px) {
   body.blog #page #header ul#blog_nav li#link_rss {
     width: 12.5em;
@@ -519,11 +537,11 @@ body.blog #page #content sup {
     float: left;
   }
   body.blog #page #content {
-    padding: 0.8em 0 0 0;
+    padding: 0;
   }
   body.blog #page #content .blog_entry {
     float: right;
-    margin-top: -19.4em;
+    margin-top: -18.6em;
     width: 70.8%;
   }
   body.blog #page #content .blog_entry p.article_date {
@@ -537,12 +555,20 @@ body.blog #page #content sup {
     width: 75.9%;
     padding-top: 0.6em;
   }
+  body.blog #page #content #blog_articles {
+    float: right;
+    margin-top: -18.6em;
+    width: 70.8%;
+  }
   body.blog #page #content #article_links {
+    margin-top: 0.5em;
     width: 19.5%;
-    padding: 2em 2.5em;
+    padding: 2em 2.5em 0 2.5em;
     background: #fff;
     border: 1px solid #dcdcdc;
     float: left;
+    /* Make the 'R' of recent sit on the grid line */
+  
   }
   body.blog #page #content #article_links h3 {
     text-transform: uppercase;
@@ -553,10 +579,14 @@ body.blog #page #content sup {
     line-height: 1.3em;
     padding-bottom: 0;
   }
+  body.blog #page #content #article_links h3:first-child {
+    margin-left: -3px;
+  }
   body.blog #page #content #article_links ul {
-    list-style: none;
-    padding: 0;
-    padding-bottom: 3.8em;
+    list-style-image: url(/images/list-bullet.png);
+    list-style: image;
+    padding: 0 0 0 0.65em;
+    padding-bottom: 2.1em;
   }
   body.blog #page #content #article_links ul li {
     padding: 0;
@@ -571,9 +601,6 @@ body.blog #page #content sup {
   }
   body.blog #page #content #article_links ul a:hover, body.blog #page #content #article_links ul a:active {
     color: #db4a1d;
-  }
-  body.blog #page #content #article_links #article_months {
-    padding-bottom: 2.2em;
   }
 }
 /* misc. 

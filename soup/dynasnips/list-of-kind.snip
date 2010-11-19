@@ -1,12 +1,12 @@
 class ListOfKind < Dynasnip
-  def handle(kind, number_of_entries=nil, *args)
+  def handle(kind, number_of_entries=nil, el='ul', *args)
     entries = soup[:kind => kind].sort_by { |e| e.updated_at }
-    entries = entries[0..number_of_entries.to_i] if number_of_entries == nil
-    "<ul class='" + kind + "_list'>" + entries.map do |entry|
+    entries = entries[0..number_of_entries.to_i] unless number_of_entries == nil
+    "<#{el} class='" + kind + "_list'>" + entries.map do |entry|
       title = entry.content.split("\n").first
       url = url_to(entry.name)
       %{<li><a href="#{url}">#{title}</a></li>}
-    end.join + "</ul>"
+    end.join + "</#{el}>"
   end
   self
 end

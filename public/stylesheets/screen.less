@@ -516,9 +516,47 @@ body.blog {
         font-size: x-small;
         vertical-align: super;
       }
-    }
-    
+      
+      #blog_articles {
+        h2 {
+          margin: 0 0 1.15em 0;
+          padding: 0 0 0.35em 0;
+          border-bottom: 1px solid #333;
+        }
+        
+        ol.blog_list {
+          padding: 1.5em 0 0 2.5em;
+          margin: 0;
+
+          li {
+            padding: 0 0 1.7em 0;
+            
+            a {
+              display: block;
+              padding: 0 0;
+              font-size: 1.2em;
+              line-height: 1em;      
+            }
+
+            a:hover, a:active {
+
+            }
+          }
+
+          li:hover {
+          
+          }
+
+          li:last-child {
+          }
+
+        }
+
+      }
+    } // #content
+  
   }
+  
 }
 
 @media only screen and (min-width: 850px) {
@@ -542,11 +580,11 @@ body.blog {
       }
       
       #content {    
-        padding: 0.8em 0 0 0;
+        padding: 0;
         
         .blog_entry {
           float: right;
-          margin-top: -19.4em;
+          margin-top: -18.6em;
           width: 70.8%;
 
           p.article_date {
@@ -563,10 +601,17 @@ body.blog {
             padding-top: 0.6em;
           }
         }
+        
+        #blog_articles {
+          float: right;
+          margin-top: -18.6em;
+          width: 70.8%;
+        }
 
         #article_links {
+          margin-top: 0.5em;
           width: 19.5%;
-          padding: 2em 2.5em;
+          padding: 2em 2.5em 0 2.5em;
           background: #fff;
           border: 1px solid #dcdcdc;
           float: left;
@@ -580,11 +625,17 @@ body.blog {
             line-height: 1.3em;
             padding-bottom: 0;
           }
+          
+          /* Make the 'R' of recent sit on the grid line */
+          h3:first-child {
+            margin-left: -3px;
+          }
 
           ul {
-            list-style: none;
-            padding: 0;
-            padding-bottom: 3.8em;
+            list-style-image: url(/images/list-bullet.png);
+            list-style: image;
+            padding: 0 0 0 0.65em;
+            padding-bottom: 2.1em;
             li {
               padding: 0;
               line-height: 1.5em;
@@ -602,17 +653,10 @@ body.blog {
             }
           }
 
-          #article_months {
-            padding-bottom: 2.2em;
-          }
-
         }
       }
     }
   }    
 }
 
-
-
- 
 @import "_misc";
