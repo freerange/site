@@ -477,6 +477,9 @@ body.blog #page #content blockquote {
 body.blog #page #content blockquote p {
   font-size: 1em;
 }
+body.blog #page #content p blockquote {
+  font-size: 1em;
+}
 body.blog #page #content pre {
   overflow-x: scroll;
 }
@@ -499,6 +502,10 @@ body.blog #page #content pre code {
   border: none;
   padding: 0;
   display: inline;
+}
+body.blog #page #content sup {
+  font-size: x-small;
+  vertical-align: super;
 }
 @media only screen and (min-width: 850px) {
   body.blog #page #header ul#blog_nav li#link_rss {
