@@ -1,38 +1,39 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <title>Go Free Range build outstanding software for the web.</title>
-  
-  <script type="text/javascript" src="http://use.typekit.com/rny4upv.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  
-  <link rel="stylesheet" type="text/css" title="screen" href="/stylesheets/screen.css">
-  <link href="http://feeds.feedburner.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml" />
-  
-  <meta description="A small software development company based in London, UK." />
-  <meta name="google-site-verification" content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" />
-  <meta name="y_key" content="055df92354b4f4b4" />
-  <meta name="msvalidate.01" content="42BC155FC64030F39B1208A634946A82" />
-  <meta content='width=device-width' name='viewport'> 
-  <meta content='chrome=1' http-equiv='X-UA-Compatible'>
-</head>
-<body class="blog">
-  <div id="page">
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{"http-equiv" => "Content-Type", :content => "text/html;charset=utf-8" }
+    %title Go Free Range build outstanding software for the web.
+    %script{:type => "text/javascript", :src => "http://use.typekit.com/rny4upv.js"}
+    :javascript
+      try{Typekit.load();}catch(e){}
+    %link{:rel => "stylesheet", :type => "text/css", :title => "screen", :href => "/stylesheets/screen.css"}
+    %link{:href => "http://feeds.feedburner.com/GoFreeRangeBlog", :rel => "alternate", :title => "Go Free Range Blog", :type => "application/atom+xml"}
 
-    <div id="header" class="group">
-      <ul id="blog_nav" class="nav group">
-        <li id="link_home"><p>Visit our <a href="/">company website</a></p></li>
-        <li id="link_rss"><p>Grab the <a href="http://feeds.feedburner.com/GoFreeRangeBlog">RSS</a> feed</p></li>
-      </ul>
-      <h1 id="logo"><a href="/blog" title="Go to homepage">Go Free Range</a></h1>
-    </div>
-
-    <div id="content" class="group">
-      {current_snip}
-    </div>
-
-  </div>
-  {javascripts}
-</body>
-</html>
+    %meta{:description => "A small software development company based in London, UK."}
+    %meta{:name => "google-site-verification", :content => "GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo"}
+    %meta{:name => "y_key", :content => "055df92354b4f4b4"}
+    %meta{:name => "msvalidate.01", :content => "42BC155FC64030F39B1208A634946A82"}
+    %meta{:content => 'width=device-width', :name => 'viewport'}
+    %meta{:content => 'chrome=1', "http-equiv" => 'X-UA-Compatible'}
+          
+  %body.blog
+    #page
+      #header.group
+        %ul#blog_nav.nav.group
+          %li#link_home
+            %p 
+              Visit our 
+              %a{:href => "/"}company website
+          %li#link_rss
+            %p 
+              Grab the
+              %a{:href => "http://feeds.feedburner.com/GoFreeRangeBlog", :title => "RSS Feed from Feedburner"}RSS
+              feed
+        %h1#logo
+          %a{:href => "/blog", :title => "Go to homepage"}Go Free Range
+          
+      #content.group
+        {current_snip}
+    {javascripts}
+    
+:render_as: Haml
