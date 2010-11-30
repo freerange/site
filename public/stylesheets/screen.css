@@ -317,7 +317,7 @@ ul.nav li#link_blog {
   padding-top: 1.8em;
 }
 body.blog {
-  background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat;
+  background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat, #ffffee url([object Object]);
   padding: 0;
 }
 body.blog #page {
@@ -551,6 +551,9 @@ body.blog #page #content #blog_articles ol.blog_list li a {
   padding: 0 0;
   font-size: 1.2em;
   line-height: 1em;
+}
+body.blog #page #content p.colophon {
+  clear: both;
 }
 @media only screen and (min-width: 850px) {
   body.blog #page #header ul#blog_nav li#link_rss {
