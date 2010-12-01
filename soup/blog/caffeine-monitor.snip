@@ -1,50 +1,123 @@
-# Hey man &mdash; I'm wired: Caffeine Monitor
+# Building Caffeine Monitor
 
-Just over two weeks ago the second instalment of [Build Conference][] was coming to an end. I had the pleasure of attending this hand made web design conference set in stormy Belfast, tales of which I regaled on my own [website](http://jasoncale.com/articles/9-build-conference-2010). However there was an addendum alluded to in that article which I'd like to share here. [Andy McMillan](http://twitter.com/#!/goodonpaper) who runs Build approached [Free Range][] back in September about a little project he wanted to include in the conference.
+Just over two weeks ago the second instalment of [Build Conference][] was coming to an end. I had the pleasure of attending this hand made web design conference set in stormy Belfast, tales of which I regaled on my own [website](http://jasoncale.com/articles/9-build-conference-2010) 
 
-Dubbed [Caffeine Monitor][] the concept was to create a realtime visualisation of conference attendee caffeine consumption. Sponsored by Campaign Monitor and paired with data-vis stalwart Nicholas Felton who would design and create the HTML & CSS template which we could populate with data.
+[Caffeine Monitor][] is an application we produced for the conference. [Andy McMillan](http://twitter.com/#!/goodonpaper) who runs Build approached [Free Range][] back in September with the idea to create a realtime visualisation of attendee caffeine consumption. 
 
-We've had a busy few months but decided we could dedicate our friday afternoons to building the app as a fun way to punctuate our week; of course the various technical challenges which surfaced are what I'm here to divulge.
+Sponsored by [Campaign Monitor][], we collaborated with [Nicholas Felton][] who designed the infographic to display the consumption figures.
 
-## Iteration one.
+<a href="http://farm5.static.flickr.com/4104/5176210585_536ac39a26_o.png" title="View full size">
+  <img style="width: 100%" src="http://farm5.static.flickr.com/4104/5176210585_536ac39a26_o.png" alt="Caffeine monitor dashboard: Displaying the volume of caffeine consumed over time." />
+</a>
 
-Once we'd written some stories with Andy &amp; Nicholas to describe some of the functionality [Kalv][] and I kicked off the development by pairing on the data collection and exposing the raw data as statistics to an un-styled front end.
 
-The data capture side of the app itself is pretty simple; a form with two buttons &mdash; one for coffee, one for tea &mdash; to record drink "purchases" from which we can derive some interesting statistics. 
+## Application biology.
 
-Fairly standard stuff; We bashed out the stories and with all the tests passing, we deployed the working code and went to the pub.
+The application consists of two main parts: 
+  
+1. Secure form to capture drinks consumed. 
+2. HTML/CSS based infographic displaying consumption data.
 
-## Iteration two.
+To do this we implemented or made use of the following:
 
-With the basic skeleton of the app up and running &amp; the infographic template sitting in our inbox from Nicholas, Kalv &amp; I set to work stitching it all together. 
+* Simple [Rails](http://rubyonrails.org) application hosted on [Heroku](http://heroku.com).
+* HTML5 offline support using [Rack-offline][] for manifest generation.
+* HTML5 local storage to record drinks when offline.
+* Javascript to sync with server using JSON.
+* iPhone / iPad optimised screen for data collection.
+* CSS3 Media queries to target display resolutions.
+  
+### Data collection
 
-We added a bit of stats caching while we were at it, and tidied up our stats class, added some integration testing around the CSS to check all the bar charts were displaying as they should. It was easy sailing along the upstream; we pushed, deployed and checked our browsers &mdash; smile. 
+The way we collected data had to be really really simple. Andy had lined up some volunteers to help out on the day, who would record all the drinks people picked up from the refreshment stands and in the market at lunch. They would likely be using iphone's or ipod touch's to collect the data, so we made the following assessments about the UI:
 
-Knowing the next bit would be a little more taxing we climbed into the soft embrace of the weekend.
+* It should be really simple.
+* It should to be really responsive.
+* It should collect data with or without internet connection.
+* It should recover from losing focus (such as getting a call).
+* It should be free of distracting or unnecessary interaction. 
 
-## Iteration three.
+__NOTE__: In the next section I refer to _unsynced_ items which means drinks recorded in the local storage but not on the server, I'll discuss that whole business shortly, so please bare with me until then.
 
-[Chris][] hijacked me to work on his blog, I submitted; In my absence [James][] started work on the offline capability for the data capture screen. One of our concerns from the get go was that this app had to "just work" &mdash; it was going to be used on flaky wifi, outside the venue, and by helpers Andy had rounded up &mdash; there was no breathing space on the day, we need to capture and display the caffeine intake in short bursts throughout the day, any down time would be disastrous to the effectiveness of the product.
 
-That afternoon James wrote the javascript needed for the app to work offline, which would be basis we'd build on over the next two iterations. Just as the pub was calling out to our week worn bones, we huddled around James and discussed some issues with the offline manifest which was being generated by Rails to tell the browser what to cache for offline use.
+<div style="float: right; width: 50%; margin-left: 1.5em">
+  <a href="http://farm6.static.flickr.com/5041/5223501591_32b5475f8b_o.png" title="View full size">
+    <img width="100%" src="http://farm6.static.flickr.com/5041/5223501591_ee793ba1c0.jpg" alt="Caffeine Monitor Iphone interface">
+  </a>
+  <p style="font-size: 1.2em; padding-top: 0.5em; color: #aaa; text-align: center">Drink capture screen on an iPhone</p>
+</div>
 
-But before we get into that, lets take a quick taste of the exciting javascript feast James had cooked up that afternoon.
+#### A simple interface.
+We created a big button for each drink type. They click the button with each drink, but they also need some visual feedback so we added counters to increment with each click. Instantly they see that drinks are being recorded which is enough information to remove anxiety but not get in the way of the (next) primary action.
 
-The first thing the javascript does when it loads the page is initialise a database on the client (browser). We knew we would be using devices with webkit to record the drinks so we knew we'd have a tasty HTML5 offline database.
+The counter has the total for each drink type, with any unsynced items in parenthesis; as drinks are synced on the server this number transfers to the main count.  
 
-We then hijacked the form containing the two submit buttons (one for tea, one for coffee) replacing their default click behaviour with a javascript implementation which recorded a drink "purchase" in the local database without submitting the form. When we record a drink in the database we note what type of drink was purchased, assign a UUID and set its state as unsynced. The click action also calls a function which tries to sync with the server.
+Periodically the totals are updated from the central server, to reflect drinks recorded by the other volunteers.
 
-Syncing with the server was a pretty simple idea, we pull all the drinks from the database that are currently unsynced and post each one to the server to be recorded centrally. If the server creates it's own record successfully it posts back the UUID as a successful payload (http status 200).
+#### Make it responsive.
 
-## Offline data entry
+By upgrading the form to post via ajax we prevented a page reload. Firing off an asynchronous request we delegate handling the response to a callback (some time in the future) and return control back to the user ready for the next submit which could be a mere fraction of a second later.
 
-  * Flaky wifi / No web access
+In fact we went a step further. Because we were using local storage to store the drinks before sending them off to the server, all we needed to do was record the drink the database and the posting of the drink data could happen completely independently which came in handy.
+
+##### Testing in the wild.
+
+Riding home on the tube one evening I sat and recorded a few hundred drinks offline. Once I surfaced the data started syncing as expected, but subsequent button presses started to lag, the app ground to a halt. Each unsynced drink generated an ajax post which was overwhelming the app &mdash; _oh dear_.
+
+The next step was to modify our approach to post a single payload of all unsynced drinks. As soon as this was deployed all those pending drinks immediately synced and the app sprung back to life &mdash; _Result_.
+
+#### Recording drinks whilst offline.
+To achieve this we used HTML5 local storage, a simple SQLite database which we controlled via javascript.
+
+We extended the submit form to record a drink in the local database instead of submitting to the server. We note the type and time of each drink purchased assigning it with a UUID and marking it as unsynced. 
+
+We periodically post all the drinks to the server which responds with the drinks it has recorded successfully, they are then marked locally as synced. We use the UUID to ensure that drinks aren't registered more than once.
+
+#### Remove unnecessary interaction.
+
+  
+### Infographic
+
+Nicholas supplied us with a HTML/CSS template which became the basis for the infographic. The raw drink records were recorded in a database, which we exposed as the relevant statistics to be placed into the template.
+      
+#### Should it scale?
+The template was designed to run fullscreen on a projector, so it was designed to be fixed in size. However we decided it should scale so if the URL was shared publicly it would display in regular browsers etc. I re-wrote the HTML/CSS to make this a little simpler and added a few media queries to compensate for the shift in display size. 
+
+#### Browser rounding inaccuracy.
+The bar chart to display consumption over time was initially implemented with column widths set as a percentage of the entire page; however the percentages were fractions (width: 10.60%). 
+
+The large layout and browsers' tendency to round numbers caused cumulative inaccuracy the viewed at full size. Resizing the browser just made it worse &mdash; so we had to fix it.
+
+We re-wrote the markup to group everything into a hourly blocks (which were further divided into 15 minutes and 5 minutes sub-elements), this meant we could position everything that happened with that hour and any inaccuracy would only be constrained to that hour at most instead of over the total time frame (as before). 
+
+This also meant the whole bar graph scaled rather more elegantly; we took the chance to combine the schedule information and time axis into each hour block as well they scaled in line as well as being grouped semantically.
+
+
+#### Caching content.
+  
+We assumed the following things incorrectly:
+  
+  * A static .html page must be used to get the iphone to work offline.
+  * [Rack-offline][] will generate a manifest regardless of environment (development, production, etc)
+
+The first part is possibly still valid, and is certainly the collective wisdom one is led to via google. But this assumption coupled with the second mistake led us down a few rabbit holes which could have been avoided.
+
+Rack-offline intentionally doesn't work in development mode, it essentially a caching mechanism which is a domain usually reserved for production environments &mdash; you don't want to have to deal with caches when writing the actual code.
+
+However we were writing code which was reliant on this behaviour, we forgot about this quite a few times and it added an extra burden to the work. Just keep it in mind and you should be fine.
+
+#### You don't need a static .html page.
+
+Using Rails' [cache_page](http://api.rubyonrails.org/classes/ActionController/Caching/Pages.html#method-i-cache_page) will suffice and the iphone will be fine.
+
+At first, we thought we'd have create a static .html page in order to get the iphone to cache the data input page successfully to work offline. This was partly due to information we'd read on the web and the fact that Rack-offline will only properly cache content when run in an production environment.
+
   * Tried static page in public but realised that we could cache_page in the controller.  I think we turned this off in the end though.
   * Rack-offline intentionally doesn't work in development - this was confusing.  The chrome error for this is also confusing - it makes it sound as though some elements were cached when, in fact, nothing was.
   * We only specified the app-cache manifest on the data entry page (we created a separate layout) as we didn't want the stats page cached.
   * Problems with clearing app cache - there doesn't appear to be a way to do it through the browser.
 
-## Security through obscurity for admin
+### Security
 
   * We wanted it to be a 'desktop' app
   * It was hard to get it 'secure' as a 'desktop' app.
@@ -52,26 +125,32 @@ Syncing with the server was a pretty simple idea, we pull all the drinks from th
   * Cookies weren't shared across the browser and 'desktop' app.
   * Redirects aren't followed in 'desktop' apps which means we couldn't use the standard login form.
   
-## Data entry
+### Data entry
 
   * Bulk upload of data for performance reasons
   * Optimised for ios devices - ipad, iphone, ipod touch
   
-## Performance
+### Performance
 
   * We increased the number of heroku dynos and they easily coped with the traffic
   * We cached the data for the bargraph at 5 minute intervals
   
-## Stats page
+### Stats page
 
   * CSS/Scaling of the stats page
   * Media queries
   * Bar graphs
   
+## On the day.
+
+There is something to be said for the process in which it removes a lot of the stress around insane deadlines, but every go-live event with software is stressful, so it helps to have a development process which can cope with change and work to reassure you that last minute changes are going to work.
+
+  
 [Build Conference]: http://buildconf.com
 [Campaign Monitor]: http://campaignmonitor.com
 [Caffeine Monitor]: http://cm.buildconf.com
-
+[Nicholas Felton]: http://feltron.com
+[Rack-offline]: https://github.com/wycats/rack-offline
 [Free Range]: http://gofreerange.com
 [Kalv]: http://gofreerange.com/#kalvir-sandhu
 [James]: http://gofreerange.com/#james-adam
