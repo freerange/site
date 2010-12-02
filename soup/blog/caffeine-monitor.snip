@@ -2,7 +2,7 @@
 
 Just over two weeks ago the second instalment of [Build Conference][] was coming to an end. I had the pleasure of attending this hand made web design conference set in stormy Belfast, tales of which I regaled on my own [website](http://jasoncale.com/articles/9-build-conference-2010).
 
-[Caffeine Monitor][] is an application we produced for the conference. [Andy McMillan](http://twitter.com/#!/goodonpaper) who runs Build approached [Free Range][] back in September with the idea to create a realtime visualisation of attendee caffeine consumption. 
+[Caffeine Monitor][] is an application we produced for the conference. [Andy McMillan](http://twitter.com/#!/goodonpaper) who runs Build approached [Free Range][] back in September with the idea to create a realtime visualisation of attendee caffeine consumption.
 
 Sponsored by [Campaign Monitor][], we collaborated with [Nicholas Felton][] who designed the infographic to display the consumption figures.
 
@@ -13,9 +13,9 @@ Sponsored by [Campaign Monitor][], we collaborated with [Nicholas Felton][] who 
 
 ## Application biology
 
-The application consists of two main parts: 
-  
-1. Secure form to capture drinks consumed. 
+The application consists of two main parts:
+
+1. Secure form to capture drinks consumed.
 2. HTML/CSS based infographic displaying consumption data.
 
 To do this we implemented or made use of the following:
@@ -26,7 +26,7 @@ To do this we implemented or made use of the following:
 * Javascript to sync with server using JSON.
 * iPhone / iPad optimised screen for data collection.
 * CSS3 Media queries to target display resolutions.
-  
+
 ## Collecting the data
 
 The way we collected data had to be really really simple. Andy had lined up some volunteers to help out on the day, who would record all the drinks people picked up from the refreshment stands and in the market at lunch. They would likely be using iPhones or iPod touches to collect the data, so we made the following assessments about the UI:
@@ -35,14 +35,14 @@ The way we collected data had to be really really simple. Andy had lined up some
 * It should to be really responsive.
 * It should collect data with or without internet connection.
 * It should recover from losing focus (such as getting a call).
-* It should be free of distracting or unnecessary interaction. 
+* It should be free of distracting or unnecessary interaction.
 
 __NOTE__: In the next section I refer to _unsynced_ items which means drinks recorded in the local storage but not on the server, I'll discuss that whole business shortly, so please bear with me until then.
 
 
 <div style="float: right; width: 50%; margin-left: 1.5em">
   <a href="http://farm6.static.flickr.com/5041/5223501591_32b5475f8b_o.png" title="View full size">
-    <img width="100%" src="http://farm6.static.flickr.com/5041/5223501591_ee793ba1c0.jpg" alt="Caffeine Monitor Iphone interface">
+    <img width="100%" src="http://farm6.static.flickr.com/5041/5223501591_ee793ba1c0.jpg" alt="Caffeine Monitor iPhone interface">
   </a>
   <p style="font-size: 1.2em; padding-top: 0.5em; color: #aaa; text-align: center">Drink capture screen on an iPhone</p>
 </div>
@@ -50,7 +50,7 @@ __NOTE__: In the next section I refer to _unsynced_ items which means drinks rec
 #### A simple interface.
 A big button for each drink type, clicked to record a drink transaction. Additional visual information in the form of counters which increment with each click, give instant feedback that drinks are being recorded &mdash; enough information to remove anxiety &mdash; without distracting from the (next) primary action.
 
-The counter has the total for each drink type, with the number of locally recorded drinks in parenthesis; drinks that are successfully recorded on the remote server will then transfer into the main count.  
+The counter has the total for each drink type, with the number of locally recorded drinks in parenthesis; drinks that are successfully recorded on the remote server will then transfer into the main count.
 
 Periodically these counters are updated with data from the central server to reflect any drinks recorded by the other users.
 
@@ -61,56 +61,56 @@ By upgrading the form to post via ajax we prevented a page reload. Firing off an
 In fact we went a step further using local storage to store the drinks. Recording the drink locally meant the posting of the drink data to a server could happen completely independently making the form responsive whilst simultaneously achieving our goal to support offline transactions.
 
 #### Recording drinks whilst offline.
-To achieve this we used HTML5 local storage, extending the function called when the form is submitted to record a drink in the local database instead of posting to the server. We note the type and time (so it can be posted to the server at leisure) of each drink purchased assigning a UUID and mark it in as unsynced. 
+To achieve this we used HTML5 local storage, extending the function called when the form is submitted to record a drink in the local database instead of posting to the server. We note the type and time (so it can be posted to the server at leisure) of each drink purchased assigning a UUID and mark it in as unsynced.
 
 We periodically post all the drinks to the server which responds with the drinks it has recorded successfully, marking the record as synced. The UUID ensures that drinks aren't registered more than once.
 
 #### Remove unnecessary interaction.
 
-Firstly we ran the app as a fullscreen application on the iphone. 
+Firstly we ran the app as a fullscreen application on the iPhone.
 
 `<meta content='yes' name='apple-mobile-web-app-capable'></code>`
 
-Then we disabled the ability to zoom (by double tap or pinch) 
+Then we disabled the ability to zoom (by double tap or pinch)
 
 `<meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;' name='viewport'>`
 
 Combined with our super simple interface we hoped our users could tap away in the most efficient manner possible.
- 
+
 
 #### Testing in the wild.
 
 Riding home on the tube one evening I sat and recorded a few hundred drinks offline. Once I surfaced the data started syncing as expected, but subsequent button presses started to lag, the app ground to a halt. We had written javascript which generated an ajax post for each unsynced drink, which was overwhelming the app &mdash; _oh dear_.
 
 The next step was to modify our approach to post a single payload. As soon as this was deployed all those pending drinks immediately synced and the app sprung back to life &mdash; _Result_.
-  
+
 ## Building the Infographic
 
 Nicholas supplied us with a HTML/CSS template which became the basis for the infographic. The raw drink records were recorded in a database, and exposed as the relevant statistics to be placed into the template.
-      
+
 #### Should it scale?
-The template was designed to run fullscreen on a projector, so it was designed to be fixed in size. However we decided it should scale so if the URL was shared publicly it could do with displaying in regular browsers a little better. So I re-wrote the HTML/CSS to make this a little simpler and added a few media queries to compensate for the shift in display size. 
+The template was designed to run fullscreen on a projector, so it was designed to be fixed in size. However we decided it should scale so if the URL was shared publicly it could do with displaying in regular browsers a little better. So I re-wrote the HTML/CSS to make this a little simpler and added a few media queries to compensate for the shift in display size.
 
 #### Browser rounding inaccuracy.
-The bar chart to display consumption over time was initially implemented with column widths set as a percentage of the entire page; however the percentages were fractions (width: 10.60%). 
+The bar chart to display consumption over time was initially implemented with column widths set as a percentage of the entire page; however the percentages were fractions (width: 10.60%).
 
 The large layout and browsers' tendency to round numbers caused cumulative inaccuracy the viewed at full size. Resizing the browser just made it worse &mdash; so we had to fix it.
 
-We re-wrote the markup to group everything into a hourly blocks (which were further divided into 15 minutes and 5 minutes sub-elements), this meant we could position everything that happened with that hour and any inaccuracy would only be constrained to that hour at most instead of over the total time frame (as before). 
+We re-wrote the markup to group everything into a hourly blocks (which were further divided into 15 minutes and 5 minutes sub-elements), this meant we could position everything that happened with that hour and any inaccuracy would only be constrained to that hour at most instead of over the total time frame (as before).
 
 This also meant the whole bar graph scaled rather more elegantly; we took the chance to combine the schedule information and time axis into each hour block as well they scaled in line as well as being grouped semantically.
 
 [Steffan Williams](https://twitter.com/steffanwilliams) recently [wrote an article](http://steff.me/journal/fluid-inconsistencies) which highlights some of these problems across most modern browsers, however as we discussed &mdash; with a little thinking most of the issues can be overcome to some extent.
 
 ## Notes on working offline
-  
+
 Rack-offline _intentionally_ doesn't work in development environment.
 
 This makes sense as caching is usually only enabled in production (so you don't have to deal with cache when writing code). However we were caught out by this a few times, and it made working cumbersome whilst we set everything up.
 
-Using Rails' [cache_page](http://api.rubyonrails.org/classes/ActionController/Caching/Pages.html#method-i-cache_page) without .html works fine on the iphone.
+Using Rails' [cache_page](http://api.rubyonrails.org/classes/ActionController/Caching/Pages.html#method-i-cache_page) without .html works fine on the iPhone.
 
-At first, we thought we'd have to create a static .html page in order to get the iphone to cache the data input page successfully to work offline. However we found that we could get Rails to cache the page and even call it without the .html and the iphone would honour the offline content.
+At first, we thought we'd have to create a static .html page in order to get the iPhone to cache the data input page successfully to work offline. However we found that we could get Rails to cache the page and even call it without the .html and the iPhone would honour the offline content.
 
 We only specified the app-cache manifest on the data entry page (we created a separate layout) as we didn't want the stats (infographic) page cached.
 
@@ -118,26 +118,26 @@ There doesn't appear to be a way to clear application cache through the browser,
 
 ## A few words on security
 
-Because we wanted a 'desktop' iphone app, ie fullscreen mode we ran into a few problems when securing the application:
+Because we wanted a 'desktop' iPhone app, ie fullscreen mode we ran into a few problems when securing the application:
 
   * HTTP Basic authentication prompted for username/password on every request.
   * Putting username &amp; password in the URL prevented offline support.
   * Cookies aren't shared across browser and fullscreen applications.
   * Redirects aren't followed in fullscreen so we couldn't use a form to auto login.
 
-Our solution was to use security through obscurity, by having a special URL we could load and save to the users iphone homescreen it would authenticate with each load with minimal fuss. 
+Our solution was to use security through obscurity, by having a special URL we could load and save to the users iPhone homescreen it would authenticate with each load with minimal fuss.
 
 If anyone guessed what our standard controller routes they still wouldn't be able to access the pages, and we ran the application over SSL to prevent snooping the obscured URL.
-  
+
 ## On the day
 
 There is something to be said for the process in which it removes a lot of the stress around insane deadlines, but every go-live event with software is stressful, so it helps to have a development process which can cope with change and work to reassure you that last minute changes are going to work.
 
-As we were using Heroku we ramped up the Dyno's to max to ensure we had enough concurrency, and I even pushed a few CSS tweaks once I'd seen the colours on the projector and plasma screens. 
+As we were using Heroku we ramped up the Dyno's to max to ensure we had enough concurrency, and I even pushed a few CSS tweaks once I'd seen the colours on the projector and plasma screens.
 
 WRAP UP HERE ...
 
-  
+
 [Build Conference]: http://buildconf.com
 [Campaign Monitor]: http://campaignmonitor.com
 [Caffeine Monitor]: http://cm.buildconf.com
@@ -147,7 +147,7 @@ WRAP UP HERE ...
 [Kalv]: http://gofreerange.com/#kalvir-sandhu
 [James]: http://gofreerange.com/#james-adam
 [Chris]: http://gofreerange.com/#chris-roos
-  
+
 :render_as: Blog
 :kind: draft
 :written_with: Kramdown
