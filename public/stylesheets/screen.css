@@ -316,8 +316,11 @@ ul.nav li#link_blog {
 #content #contact #address-etc p.twitter {
   padding-top: 1.8em;
 }
+body.thu {
+  background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat;
+}
 body.blog {
-  background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat, #ffffee url([object Object]);
+  background: #fff;
   padding: 0;
 }
 body.blog #page {
@@ -529,6 +532,9 @@ body.blog #page #content pre code {
   border: none;
   padding: 0;
   display: inline;
+}
+body.blog #page #content p code {
+  font-size: 1em;
 }
 body.blog #page #content sup {
   font-size: x-small;
