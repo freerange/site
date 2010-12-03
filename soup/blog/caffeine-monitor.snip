@@ -125,34 +125,9 @@ This also meant the whole bar graph scaled rather elegantly by comparison; we to
 
 4.  There doesn't appear to be a way to clear application cache through the browser, so testing offline content once it has been cached is tricky.
 
-This is the what the manifest looked like:
-
-    CACHE MANIFEST
-    # f181d5ec54ebf5d61b25a3149c12fe821ffe32987ebde926c3aaae07e9a53e36
-    404.html
-    422.html
-    500.html
-    stylesheets/all.css
-    javascripts/all.js
-    images/build_bolt.png
-    images/campaign_monitor.png
-    images/feltron.png
-    images/go_free_range.png
-    assets/leaguegothic-webfont.eot
-    assets/leaguegothic-webfont.svg
-    assets/leaguegothic-webfont.ttf
-    assets/leaguegothic-webfont.woff
-
-    NETWORK:
-    /
-
-You might notice that we don't actually specify the application paths in the manifest. This is because the data collection view had a layout which specified the manifest in the HTML. 
-
-`<html manifest="/application.manifest"></html>`
-
-When a browser encounters a page with the manifest, it will not only cache the resources defined in the manifest but also the page which declared the manifest too.
-
-With this in mind we created a separate layout for our data collection views which added the manifest attribute to their root HTML element. 
+5.  When a browser encounters a page with the manifest, it will not only cache the resources defined in the manifest but also the page which declared the manifest too.
+    
+    We created a separate layout for our data collection view adding the manifest attribute onto the root <html> element. 
 
 ## A few words on security
 
