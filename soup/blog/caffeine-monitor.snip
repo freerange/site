@@ -12,7 +12,7 @@ Whilst I was there soaking in collective wisdom, friends old &amp; new, we also 
 
 Sponsored by [Campaign Monitor][], we collaborated with [Nicholas Felton][] who designed an infographic for the application (shown above).
 
-[Andy McMillan](http://twitter.com/#!/goodonpaper) the man whose Herculean efforts make Build possible, conceived the idea and approached us to help make it a reality. 
+[Andy McMillan][] the man whose Herculean efforts make Build possible, conceived the idea and approached us to help make it a reality. 
 
 ## Application biology
 
@@ -95,7 +95,7 @@ Nicholas supplied us with a HTML/CSS template which became the basis for the inf
 ### Scaling for devices
 The template intended to run on a projector so was designed at a fixed size. A couple of days prior to the event we decided to share the application URL publicly on the day so resizing to fit regular browsers would be an ideal. 
 
-Sitting in the [Belfast Malmaison](https://www.malmaison.com/hotels/belfast/belfast-mal.aspx) pairing with [Chris][] back in London, I re-wrote the HTML/CSS to make this a little simpler and added a few media queries to help compensate for the shift in display size.
+Sitting in the [Belfast Malmaison](https://www.malmaison.com/hotels/belfast/belfast-mal.aspx) pairing with [Chris][] back in London, we re-wrote the HTML/CSS to make this a little simpler and added a few media queries to help compensate for the shift in display size.
 
 ### Browser rounding inaccuracy.
 The bar chart to display consumption over time was initially implemented with column widths set as a percentage of the entire page. These percentages turned out as fractions (width: 10.60%).
@@ -113,40 +113,67 @@ This also meant the whole bar graph scaled rather elegantly by comparison; we to
 #### On which note ..
 [Steffan Williams](https://twitter.com/steffanwilliams) recently [wrote an article](http://steff.me/journal/fluid-inconsistencies) which highlights some of these rounding inconsistencies; however I think with a little thinking they can be overcome sufficiently.
 
-## Notes on working offline
+## Working offline
 
 1.  Rack-offline _intentionally_ doesn't work in development environment.
   
-    Whilst it makes sense to only work in production (so you don't have to deal with cache when writing code) we were caught out by this a few times, and it made working cumbersome whilst implementing your offline strategy.
+    Whilst it makes sense to only work in production (so you don't have to deal with cache when writing code) we were caught out by this a few times.
 
-2.  Using Rails' [cache_page](http://api.rubyonrails.org/classes/ActionController/Caching/Pages.html#method-i-cache_page) without .html works fine on the iPhone.
+2.  There isn't a clear way to remove offline-cached application content. 
 
-    At first, we thought we'd have to create a static .html page in order to get the iPhone to cache the data input page successfully to work offline. However we found that we could get Rails to cache the page and even call it without the .html and the iPhone would honour the offline content.
+    This makes testing a little cumbersome especially when you have to restart your Rails application with each change running in production (see previous point).
 
-4.  There doesn't appear to be a way to clear application cache through the browser, so testing offline content once it has been cached is tricky.
 
-5.  When a browser encounters a page with the manifest, it will not only cache the resources defined in the manifest but also the page which declared the manifest too.
+3.  Serving offline pages without .html works fine on iOS devices.
+
+    At first, we thought we'd have to create a static page in order to get mobile safari to work offline, and most google results suggest explicitly using .html when calling the page. 
     
-    We created a separate layout for our data collection view adding the manifest attribute onto the root <html> element. 
+    We found that using Rails [cache_page](http://api.rubyonrails.org/classes/ActionController/Caching/Pages.html#method-i-cache_page) to serve our requests (even when called without the .html) the iOS devices would still honour the offline content.
 
-## A few words on security
+## Securing the application
 
-Because we wanted a 'desktop' iPhone app, i.e. fullscreen mode we ran into a few problems when securing the application:
+Because we wanted a 'desktop' iPhone app (i.e. fullscreen mode) we ran into a few problems in regards to security:
 
   * HTTP Basic authentication prompted for username/password on every request.
   * Putting username &amp; password in the URL prevented offline support.
   * Cookies aren't shared across browser and fullscreen applications.
   * Redirects aren't followed in fullscreen so we couldn't use a form to auto login.
 
-Our solution was to use security through obscurity, by having a special URL we could load and save to the users iPhone home-screen it would authenticate with each load with minimal fuss.
+Our solution was to use security through obscurity, having a special URL that we could load and save onto the users iOS home-screen. This URL would pass a secret token to the Rails controller which would authenticate transparently to the user.
 
-If anyone guessed what our standard controller routes they still wouldn't be able to access the pages, and we ran the application over SSL to prevent snooping the obscured URL.
+Visiting this URL would place a token into the page markup which Ajax requests would use to authenticate without needing user interaction.
+
+We ran the application over SSL to prevent snooping of the secret URL.
 
 ## On the day
 
-## Further reading
+Arriving at the [Waterfront](http://www.waterfront.co.uk/) to setup on the day, we got the application displaying on two 52-inch flat screens with a further feed running to the main stage projector to display during the breaks.
+
+The volunteers' were setup with the application on their iPhones and iPods and they quickly dispersed to track the first drinks of the day.
 
 
+### Live changes
+Viewing the application on the flat screens I realised the contrast between the type and background colour was a little low. Tweaking the CSS, I deployed the change with the knowledge that all the drinks would be recorded locally. Once deployed the screens refreshed with the information looking much sharper.
+
+Just before lunch, using the data collected so far I calculated the average rate at which attendees we're consuming coffee so I could adjust the bar-graph inline with the distribution of data. This enabled me to make the spikes in caffeine consumption appear more dramatically on the infographic.
+
+### Just as planned
+It was great to see everything working so well. The hard work to ensure stability paid dividends, and the reaction the application received from attendees and online was universally positive.
+
+The application is frozen to reflect the conference day so you can [check it out](http://cm.buildconf.com).
+
+## Thank you
+
+Our thanks go out to [Campaign Monitor][] for making the application possible, [Nicholas Felton][] for the design, [Andy McMillan][] for conceiving and organising the whole project, as well as getting us on board. Thanks to all the volunteers on the day. [Caffeine Monitor][] was great fun to make, to see it come alive on the day.
+
+Special thanks to all the caffeine addicts at [Build Conference][] whom without their endless need for a pick-me-up the project would have been a disaster.
+
+Cheers!
+
+### Suggested reading
+
+1. [Campaign Monitor](http://www.campaignmonitor.com/blog/post/3324/caffeine-monitor-at-build-2010/) cover Caffeine monitor on their blog.
+2. [Web Standardistas](http://www.webstandardistas.com/2010/11/caffeine-monitor.php) give their account as attendees of Build.
 
 [Build Conference]: http://buildconf.com
 [Campaign Monitor]: http://campaignmonitor.com
@@ -157,6 +184,7 @@ If anyone guessed what our standard controller routes they still wouldn't be abl
 [Kalv]: http://gofreerange.com/#kalvir-sandhu
 [James]: http://gofreerange.com/#james-adam
 [Chris]: http://gofreerange.com/#chris-roos
+[Andy McMillan]: http://twitter.com/#!/goodonpaper
 
 :render_as: Blog
 :kind: draft
