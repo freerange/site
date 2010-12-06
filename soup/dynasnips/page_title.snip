@@ -1,0 +1,10 @@
+class PageTitle < Dynasnip
+  
+  def handle(default = nil)
+    app.request.snip.page_title || default
+  end
+  
+  self
+end
+
+:render_as: Ruby

@@ -1,6 +1,7 @@
-# Building Caffeine Monitor
+Building Caffeine Monitor
+=============================
 
-__Wednesday 11th November__ saw the second instalment of [Build Conference][] come forth in bloom. I attended this hand-made web design conference set in stormy Belfast, as I recalled on my own [website](http://jasoncale.com/articles/9-build-conference-2010).
+__Wednesday 11th November__ saw the second instalment of [Build Conference][] come forth in bloom. I attended this hand-made web design conference set in stormy Belfast, as I recalled on [my own website][].
 
 Whilst I was there soaking in collective wisdom, friends old &amp; new, we also had an offering of our own to launch that fine day. 
 
@@ -23,7 +24,7 @@ The application consists of two main parts:
 
 To do this we implemented or made use of the following:
 
-* Simple [Rails](http://rubyonrails.org) application hosted on [Heroku](http://heroku.com).
+* Simple [Rails](http://rubyonrails.org) application hosted on the [Heroku](http://heroku.com) platform.
 * HTML5 offline support using [Rack-offline][] for manifest generation.
 * HTML5 local storage to record drinks when offline.
 * Javascript to sync with server using JSON.
@@ -128,7 +129,7 @@ This also meant the whole bar graph scaled rather elegantly by comparison; we to
 
     At first, we thought we'd have to create a static page in order to get mobile safari to work offline, and most google results suggest explicitly using .html when calling the page. 
     
-    We found that using Rails [cache_page](http://api.rubyonrails.org/classes/ActionController/Caching/Pages.html#method-i-cache_page) to serve our requests (even when called without the .html) the iOS devices would still honour the offline content.
+    We found simply using standard Rails routes (without the .html) the iOS devices would still honour the offline content.
 
 ## Securing the application
 
@@ -181,12 +182,12 @@ Cheers!
 [Nicholas Felton]: http://feltron.com
 [Rack-offline]: https://github.com/wycats/rack-offline
 [Free Range]: http://gofreerange.com
-[Kalv]: http://gofreerange.com/#kalvir-sandhu
-[James]: http://gofreerange.com/#james-adam
 [Chris]: http://gofreerange.com/#chris-roos
 [Andy McMillan]: http://twitter.com/#!/goodonpaper
+[my own website]: http://jasoncale.com/articles/9-build-conference-2010
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :written_with: Kramdown
 :author: jason-cale
+:page_title: Building Caffeine Monitor
