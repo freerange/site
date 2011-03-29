@@ -316,6 +316,11 @@ ul.nav li#link_blog {
 #content #contact #address-etc p.twitter {
   padding-top: 1.8em;
 }
+#content p#company-info {
+  font-size: 0.9em;
+  color: #999;
+  line-height: 2em;
+}
 body.thu {
   background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat;
 }
