@@ -25,7 +25,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     BlueCloth (1.0.1)
-    RedCloth (4.2.3)
+    RedCloth (4.2.7)
     activesupport (3.0.3)
     capistrano (2.5.19)
       highline
@@ -53,7 +53,7 @@ GEM
     net-ssh-gateway (1.0.1)
       net-ssh (>= 1.99.1)
     polyglot (0.3.1)
-    rack (1.2.1)
+    rack (1.2.2)
     rake (0.8.7)
     ratom (0.6.7)
       libxml-ruby (>= 1.1.2)
@@ -62,7 +62,7 @@ GEM
       right_http_connection (>= 1.2.1)
     right_http_connection (1.2.4)
     roauth (0.0.3)
-    soup (1.0.1)
+    soup (1.0.6)
     thor (0.14.6)
     tinder (1.4.1)
       activesupport
@@ -75,16 +75,14 @@ GEM
     twitter-stream (0.1.10)
       eventmachine (>= 0.12.8)
       roauth (>= 0.0.2)
-    vanilla (1.12.5)
+    vanilla (1.13.2)
       BlueCloth (>= 1.0.0)
       RedCloth (>= 4.1.1)
+      haml
       rack (>= 0.9.1)
       ratom (>= 0.3.5)
-      soup (>= 1.0.1)
+      soup (>= 1.0.6)
       treetop (>= 1.4.1)
-      warden (>= 0.5.2)
-    warden (1.0.2)
-      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
@@ -96,4 +94,4 @@ DEPENDENCIES
   haml
   kramdown
   rake
-  vanilla (= 1.12.5)
+  vanilla (>= 1.13.2)
