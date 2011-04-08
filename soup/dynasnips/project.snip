@@ -3,14 +3,18 @@ class Project < Dynasnip
     piece = app.soup[name]
     template = app.soup["project"].template
 
-    images_html = piece.images.map do |image_url| 
-      %{<li><img src="/images/folio/#{image_url}" /></li>} 
-    end.join
-    
+    if piece.images
+      images_html = piece.images.map do |image_url| 
+        %{<li><img src="/images/folio/#{image_url}" /></li>} 
+      end.join
+    else
+      images_html = ""
+    end
+
     template.gsub("NAME", piece.display_name).
              gsub("IMAGES", images_html).
              gsub("CONTENT", app.render(piece))
-    
+
   end
   self
 end
