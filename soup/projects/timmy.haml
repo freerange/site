@@ -1,5 +1,5 @@
 %h2#tag
-  Welcome to Project Codename: Timmy&nbsp;Printface.
+  Welcome to Project&nbsp;Codename:&nbsp;Timmy&nbsp;Printface.
 
 .section.group
   %img#snapshot{:src => "http://public.lazyatom.com/timmy/snapshot.jpg"}
@@ -34,6 +34,16 @@
     = succeed "." do
       %a{:href => "https://hashblue.com/"}
         sign up today
+
+  %p
+    If you'd like to learn more about Timmy and
+    = succeed "," do
+      %a{:href => "https://hashblue.com"}
+        \#blue
+    have a gander at our
+    = succeed "." do
+      %a{:href => "/say-hello-to-timmy-printface"}
+        blog post
 
   %p
     %em NOTE: while we're getting these messages directly from the API and internet, they do need to be received by the handset first, and that handset seems to be a bit flaky. If it takes a while for your SMS to appear, blame the Palm Pre!
