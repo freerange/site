@@ -20,5 +20,3 @@ class ListOf < Dynasnip
   end
   self
 end
-
-:render_as: Ruby

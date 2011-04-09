@@ -5,4 +5,3 @@ He wrote the book on [Rails plugins](http://lazyatom.com/plugins), has spoken at
 :site: lazyatom.com
 :image: images/people/james-adam.jpg
 :twitter: lazyatom
-:render_as: Markdown

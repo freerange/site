@@ -10,7 +10,6 @@ Check it out: [http://hashblue.com][]
 [http://hashblue.com]: http://hashblue.com
 
 :kind: project
-:render_as: Markdown
 :display_name: "O2 #blue"
 :images:
   - hashblue_1.jpg

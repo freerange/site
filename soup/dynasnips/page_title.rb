@@ -6,5 +6,3 @@ class PageTitle < Dynasnip
   
   self
 end
-
-:render_as: Ruby

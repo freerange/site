@@ -12,7 +12,6 @@ Check it out: [http://chromaroma.com][]
 [Oyster card]: http://www.tfl.gov.uk/tickets/14836.aspx
 [http://chromaroma.com]: http://www.chromaroma.com
 
-:render_as: Markdown
 :display_name: Chromaroma
 :images:
   - chroma_1.jpg

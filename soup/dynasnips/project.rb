@@ -19,8 +19,6 @@ class Project < Dynasnip
   self
 end
 
-:render_as: Ruby
-:name: project
 :template: |  
   <div class="project-desc">
     <h3>NAME</h3>

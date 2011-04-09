@@ -12,7 +12,6 @@ class Member < Dynasnip
   self
 end
 
-:render_as: Ruby
 :name: member
 :template: |
   <img src="IMAGE" />

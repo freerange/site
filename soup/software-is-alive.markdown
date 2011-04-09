@@ -4,5 +4,3 @@
 * These needs change over time, even as the software is being built.
 * By getting early and regular feedback from users in real scenarios, we can identify and fulfill these needs.
 * By not compromising on quality and by avoiding unnecessary complexity, we can keep the system flexible and adaptable.
-
-:render_as: Markdown

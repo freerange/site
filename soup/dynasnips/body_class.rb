@@ -11,5 +11,3 @@ class ::BodyClass < Dynasnip
   end
   self
 end
-
-:render_as: Ruby

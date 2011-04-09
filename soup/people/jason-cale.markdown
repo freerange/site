@@ -5,4 +5,3 @@ Previous working buddies include The Walt Disney Company, Twentieth Century Fox,
 :site: jasoncale.com
 :image: images/people/jason-cale.jpg
 :twitter: jasoncale
-:render_as: Markdown

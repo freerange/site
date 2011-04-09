@@ -3,4 +3,3 @@ Chris joined us in late 2010 and with him brought two outstanding contributions 
 :site: chrisroos.co.uk
 :image: images/people/chris-roos.jpg
 :twitter: chrisroos
-:render_as: Markdown

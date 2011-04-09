@@ -1,7 +1,7 @@
 class Sitemap < Dynasnip
   attribute :domain, "gofreerange.com"
   def handle
-    urls = app.soup.sieve(:is_page => true).map { |snip| 
+    urls = app.soup[:is_page => true].map { |snip| 
       %{
         <url>
           <loc>http://#{domain}#{url_to snip.name}</loc>
@@ -19,8 +19,6 @@ class Sitemap < Dynasnip
   self # for the renderer
 end
 
-:render_as: Ruby
 :domain: gofreerange.com
-:name: sitemap
 :updated_at: 2010-01-04 11:30:00 +00:00
 :created_at: 2010-01-04 11:30:00 +00:00

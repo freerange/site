@@ -1,6 +1,5 @@
 Kind
 
-:render_as: Ruby
 :domain: gofreerange.com
 :name: kind
 :feed_title: Go Free Range Blog

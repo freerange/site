@@ -3,6 +3,5 @@ Having worked with them in their {l the-auteurs, 'previous incarnation'}, we pic
 [MUBI]: http://mubi.com
 
 :kind: project
-:render_as: Markdown
 :display_name: "MUBI"
 :url: http://mubi.com
