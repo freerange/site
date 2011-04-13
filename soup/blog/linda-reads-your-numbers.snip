@@ -1,0 +1,31 @@
+Linda reads your numbers
+==========
+
+As mentioned in our [previous post][previous] last week we took a step back from client delivery so that we could play with ideas and new technologies. Whilst [Timmy][timmy] was being built in one corner of the office, [Chris][chris] and I worked on a different idea involving calling a phone number to read out our important contacts.
+
+Some of us in the office have been in situations where our phone has ran out of battery and we've been unable to obtain an important number that we've needed. Yeah sure some of us sync contacts out to the web but when you're stuck somewhere without internet cafe's or out late where everything is closed, you're stuck.
+
+So with this problem in mind we built a thing - [Linda reads your numbers][linda]. This is a really basic service allowing you to define contacts and allow you to hear them when calling a number.
+
+You can sign up to the [app][linda] for free and enter up to 10 important contacts. When you call the 0844 704 1542  number, enter your phone number and pin number you can get linda to read out your numbers!
+
+There is a lot more we could've done with it but we've decided to push it as is to hear what you think of it.
+
+Calls to the number we've set up are charged at 5p a min on landlines and whatever your mobile company charge for 0844 numbers.
+
+We had fun building this by learning how to hook up VOIP services to Ruby. For this app we used [Asterisk](http://www.asterisk.org/) as the open source PBX and hooked it up to [Adhearsion](http://adhearsion.com/) and [Rails](http://rubyonrails.org/) to manage the dialpan and contacts. We will write up in another post a bit more on how this was set up and what we learned.
+
+Go forth and [set up your contacts][linda] so that you too can get Linda to read your numbers.
+
+[fr]: /
+[linda]: http://linda.gofreerange.com
+[timmy]: /timmy
+[chris]: http://chrisroos.co.uk/
+[previous]: /say-hello-to-timmy-printface
+[SIP]: http://en.wikipedia.org/wiki/Session_Initiation_Protocol
+
+:render_as: Blog
+:written_with: Markdown
+:author: kalvir-sandhu
+:created_at: 2011-04-12 17:10:00 +01:00
+:page_title: Linda reads your numbers
