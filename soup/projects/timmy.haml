@@ -2,7 +2,7 @@
   Welcome to Project&nbsp;Codename:&nbsp;Timmy&nbsp;Printface.
 
 .section.group
-  %img#snapshot{:src => "http://public.lazyatom.com/timmy/snapshot.jpg"}
+  <iframe src="http://player.vimeo.com/video/22439313?color=ffffff" width="640" height="480" frameborder="0"></iframe>
 
 .section.group
   %h2 Play along
@@ -15,10 +15,14 @@
       %em Timmy
     one of our test handsets.
   %p 
-    Try it yourself! 
-    = succeed "." do
-      %strong
-        Text us a message at +447716354419
+    %strike
+      Try it yourself!
+      = succeed "." do
+        %strong
+          Text us a message at +447716354419
+    &nbsp;
+    %em
+      Lines are now closed; enjoy the video above :)
 
   %p 
     %a{:href => "https://hashblue.com"}
@@ -44,9 +48,5 @@
     = succeed "." do
       %a{:href => "/say-hello-to-timmy-printface"}
         blog post
-
-  %p
-    %em NOTE: while we're getting these messages directly from the API and internet, they do need to be received by the handset first, and that handset seems to be a bit flaky. If it takes a while for your SMS to appear, blame the Palm Pre!
-
 
 :layout: timmy-layout
