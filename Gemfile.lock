@@ -94,4 +94,4 @@ DEPENDENCIES
   haml
   kramdown
   rake
-  vanilla (>= 1.13.2)
+  vanilla (= 1.13.2)

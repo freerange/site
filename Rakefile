@@ -1,9 +1,9 @@
-require 'vanilla'
-load 'tasks/vanilla.rake'
+task :default => :test
 
-task :default => :publish
-
-desc 'Publish to gofreerange.com'
-task :publish do
-  raise "'rake publish' has been deprecated.  Please use 'cap deploy' instead"
+require "rake/testtask"
+Rake::TestTask.new do |t|
+  t.libs << "test"
+  t.ruby_opts << "-rubygems"
+  t.test_files = FileList["test/**/*_test.rb"]
+  t.verbose = true
 end
