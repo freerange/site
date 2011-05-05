@@ -1,7 +1,6 @@
-source 'http://rubygems.org'
+source :rubygems
 
-gem "haml"
-gem "vanilla", "1.13.2"
+gem "vanilla", ">= 1.17"
 gem "kramdown"
 
 gem "capistrano"

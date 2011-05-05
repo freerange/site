@@ -1,0 +1,7 @@
+Having worked with them in their {link_to the-auteurs, 'previous incarnation'}, we picked up development with [MUBI][] again in February 2011. We've been helping them with various projects, from front-end implementation of commenting and *likes*, to helping them upgrade their substantial application to Rails 3.
+
+[MUBI]: http://mubi.com
+
+:kind: project
+:display_name: "MUBI"
+:url: http://mubi.com

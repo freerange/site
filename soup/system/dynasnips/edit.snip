@@ -1,7 +1,0 @@
-EditSnip
-
-:updated_at: 2009-11-10 15:15:44.668612 +00:00
-:render_as: Ruby
-:template: "\n    <form action=\"<%= url_to 'edit' %>\" method=\"post\">\n    <dl class=\"attributes\">\n      <% @snip_to_edit.attributes.each do |name, value| %>\n      <dt><%= name %></dt>\n      <dd><textarea name=\"<%= name %>\" class=\"<%= name %>\"><%=h value %></textarea></dd>\n      <% end %>\n      <dt><input class=\"attribute_name\" type=\"text\"></dt>\n      <dd><textarea></textarea></dd>\n    </dl>\n    <a href=\"#\" id=\"add\">Add</a>\n    <button name='save_button'>Save</button>\n    </form>\n  "
-:name: edit
-:created_at: 2009-11-10 15:15:44.668611 +00:00
