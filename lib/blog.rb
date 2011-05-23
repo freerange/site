@@ -11,7 +11,7 @@ module Vanilla::Renderers
     end
 
     def process_text(content)
-      renderer = Vanilla::Renderers.const_get(@snip.written_with).new(@app)
+      renderer = app.send(:find_renderer, @snip.written_with).new(@app)
       entry_content = renderer.render(@snip)
       author = @app.soup[@snip.author]
       author_name = author.name.split("-").map { |s| s.capitalize }.join(" ")

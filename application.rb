@@ -4,7 +4,7 @@ require 'bundler/setup'
 require 'vanilla'
 
 require 'blog'
-require 'kramdown'
+require 'kramdown_renderer'
 
 class Application < Vanilla::App
 end
@@ -20,8 +20,8 @@ Application.configure do |config|
   # You can register additional renderer classes, to be used with snips
   # with the given extensions or 'render_as' attributes
   config.renderers = {
-    :blog => "Vanilla::Renderers::Blog",
-    :kramdown => "Vanilla::Renderers::Kramdown"
+    :blog => Vanilla::Renderers::Blog,
+    :kramdown => KramdownRenderer
   }
 
   # You can partition your snips into subdirectories to keep things tidy.
