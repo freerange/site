@@ -1,4 +1,4 @@
-class ::BodyClass < Dynasnip
+class BodyClass < Dynasnip
   def handle(*args)
     case app.request.snip.kind
     when "blog", "draft"
