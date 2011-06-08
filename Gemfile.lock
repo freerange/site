@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/freerange/freerange-puppet.git
-  revision: 36e3d431511ded756d88916bf97c53625ec16cd1
-  tag: v1.1.17
+  revision: a98f5e6863d5e1a3ad142d21bbb9e702b2b30a18
+  tag: v1.1.21
   specs:
-    freerange-puppet (1.1.17)
+    freerange-puppet (1.1.21)
       capistrano
       capistrano-ext
 
