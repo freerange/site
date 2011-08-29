@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "vanilla", ">= 1.17"
+gem "vanilla", ">= 1.17.1"
 gem "kramdown"
 
 gem "capistrano"
