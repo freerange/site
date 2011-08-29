@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/lazyatom/vanilla-rb.git
-  revision: 405b42b6c260b02841269bdab6cdf08d45cee02d
+  revision: 38c454a3507b3d1e27e37a22c69711941f3680c7
   specs:
     vanilla (1.17.1)
       BlueCloth (>= 1.0.0)
