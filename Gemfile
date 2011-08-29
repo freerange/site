@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "vanilla", ">= 1.17.1"
+gem "vanilla", :git => "git://github.com/lazyatom/vanilla-rb.git"
 gem "kramdown"
 
 gem "capistrano"

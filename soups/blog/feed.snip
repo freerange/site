@@ -1,15 +1,12 @@
-class Feed < Kind
-  attribute :domain, 'gofreerange.com'
-  attribute :feed_title, 'Go Free Range Blog'
+require "vanilla/dynasnip"
 
-  def handle()
-    super('blog', 10, 'xml')
-  end
-
-  def prepare_snip_contents(snip)
-    # temporarily dodge the blog renderer
-    snip.render_as = snip.written_with
-    super(snip)
+class Feed < Dynasnip
+  def handle(*args)
+    app.atom_feed({
+      :domain => "gofreerange.com", # change this
+      :title => "Go Free Range Blog", # and this,
+      :matching => {:kind => "blog"}, # but probably not this, although you can if you like.
+    })
   end
   self
 end

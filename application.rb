@@ -38,4 +38,6 @@ Application.configure do |config|
     "soups/blog", 
     "soups/system"
   ]
+
+  $LOAD_PATH.unshift File.expand_path(File.join(config.root, "soups/dynasnips"))
 end

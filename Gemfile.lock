@@ -8,6 +8,20 @@ GIT
       capistrano-ext
 
 GIT
+  remote: git://github.com/lazyatom/vanilla-rb.git
+  revision: 8fda7fe1d3b87b20d7467699d01d142c80a449ad
+  specs:
+    vanilla (1.17.1)
+      BlueCloth (>= 1.0.0)
+      RedCloth (>= 4.1.1)
+      haml (>= 3.1)
+      parslet (>= 1.2.0)
+      rack (>= 0.9.1)
+      rack-test (>= 0.5.7)
+      ratom (>= 0.3.5)
+      soup (>= 1.0.9)
+
+GIT
   remote: http://github.com/freerange/deploy.git
   revision: 6b2bb03cf4fa9897dfd31634fcd43d02670c2d0c
   tag: v1.0.11
@@ -77,15 +91,6 @@ GEM
     twitter-stream (0.1.12)
       eventmachine (>= 0.12.8)
       roauth (>= 0.0.2)
-    vanilla (1.17.1)
-      BlueCloth (>= 1.0.0)
-      RedCloth (>= 4.1.1)
-      haml (>= 3.1)
-      parslet (>= 1.2.0)
-      rack (>= 0.9.1)
-      rack-test (>= 0.5.7)
-      ratom (>= 0.3.5)
-      soup (>= 1.0.8)
 
 PLATFORMS
   ruby
@@ -96,4 +101,4 @@ DEPENDENCIES
   freerange-puppet!
   kramdown
   rake
-  vanilla (>= 1.17.1)
+  vanilla!
