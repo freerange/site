@@ -10,7 +10,7 @@ class Application < Vanilla::App
 end
 
 Application.configure do |config|
-  # The root directory of the application; normally the directory this 
+  # The root directory of the application; normally the directory this
   # file is in.
   config.root = File.dirname(__FILE__)
 
@@ -25,17 +25,18 @@ Application.configure do |config|
   })
 
   # You can partition your snips into subdirectories to keep things tidy.
-  # This doesn't affect their URL structure on the site (everything is 
+  # This doesn't affect their URL structure on the site (everything is
   # flat).
   #
   # You should ensure that the system soup is at the bottom of this list
   # unless you really know what you are doing.
   config.soups = [
-    "soups", 
-    "soups/dynasnips", 
-    "soups/people", 
-    "soups/projects", 
-    "soups/blog", 
+    "soups",
+    "soups/dynasnips",
+    "soups/people",
+    "soups/projects",
+    "soups/blog",
+    "soups/weeknotes",
     "soups/system"
   ]
 
