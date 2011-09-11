@@ -15,7 +15,7 @@ I wish we could say more, but sometimes clients are a bit sheepish. Fair enough.
 
 ### The Office
 
-For the past few weeks we've taken break from that work to make progress with our new office.
+For the past few weeks we've taken a break from that work to make progress with our new office.
 
 After walking across most of London - twice - we found a good space just around the corner on [Worship Street][]. Chris and I met with our solicitors to go over the lease and generally learn more about what we're getting ourselves into. We're hoping to move in within the next few weeks.
 
