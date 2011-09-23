@@ -34,7 +34,7 @@ Pete (our PM) discovered that all of our surnames at GFR are four letters long. 
 Alongside certain [smaller discoverers](http://www.bbc.co.uk/news/science-environment-15017484) reported this week, I'm sure you will agree it is indeed a baffling time for human understanding.
 
 ### Getting closer to Clojure.
-James M spent Monday and Tuesday kicking the tires of [Clojure](http://clojure.org/) and attending [Top Down TDD in Clojure](http://www.exampler.com/blog/2011/06/08/announcing-top-down-tdd-in-clojure-tour/) with [Brian Marick](https://twitter.com/marick).
+{link_to james-mead, James Mead} spent Monday and Tuesday kicking the tires of [Clojure](http://clojure.org/) and attending [Top Down TDD in Clojure](http://www.exampler.com/blog/2011/06/08/announcing-top-down-tdd-in-clojure-tour/) with [Brian Marick](https://twitter.com/marick).
 
 Maybe James might be up for writing about his experiences in the future, but in the meantime he has sent me a link to [Robert Chatley's thoughts](http://chatley.com/posts/09-21-2011/marick-clojure-tdd/) for your digestion. If you look closely you can see our main man down on the bottom of the page, with his trademark grin &mdash; Hi James!
 
