@@ -31,7 +31,7 @@ We'll revisit it later on to extract any common good and reuse useful components
 #### Surnames of the apocalypse
 Pete (our PM) discovered that all of our surnames at GFR are four letters long. Chris is now adamant that there is some divine message encased within this discovery, and has entered into a personal dark night of the soul in which he will uncover the true meaning of our union.
 
-Alongside certain [smaller discoverers](http://www.bbc.co.uk/news/science-environment-15017484) reported this week, I'm sure you will agree it is indeed a baffling time for human understanding.
+Alongside certain [smaller discoveries](http://www.bbc.co.uk/news/science-environment-15017484) reported this week, I'm sure you will agree it is indeed a baffling time for human understanding.
 
 ### Getting closer to Clojure.
 {link_to james-mead, James Mead} spent Monday and Tuesday kicking the tires of [Clojure](http://clojure.org/) and attending [Top Down TDD in Clojure](http://www.exampler.com/blog/2011/06/08/announcing-top-down-tdd-in-clojure-tour/) with [Brian Marick](https://twitter.com/marick).
@@ -44,7 +44,7 @@ Maybe James might be up for writing about his experiences in the future, but in 
 Seems like most of the ingredients for what the conference name suggests, but other than that I'm not had chance to delve into his experience more. So perhaps I'll persuade Tom to write his thoughts somewhere for us to share.
 
 ### Office nonsense
-Our impending office move madness is still under way, to be honest it is a deluge of lawyers, estate agents and too many emails for me to really comphrend what is going on. But I'm told by my ever patient colleagues that we should be completing on Thursday next week, so that will be nice, and I can fulfil my job as "the designer" to buy flock wallpaper and look for suitably weathered chesterfields on ebay.
+Our impending office move madness is still under way, to be honest it is a deluge of lawyers, estate agents and too many emails for me to really comprehend what is going on. But I'm told by my ever patient colleagues that we should be completing on Thursday next week, so that will be nice, and I can fulfil my job as "the designer" to buy flock wallpaper and look for suitably weathered chesterfields on Ebay.
 
 ### Speaking in Bulgaria
 Finally the time has come for me to fly over to Bulgaria next week to give my talk *Emergent design:
