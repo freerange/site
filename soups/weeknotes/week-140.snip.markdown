@@ -9,7 +9,7 @@ Our intrepid voyage into the heart of our fair nation's government began this we
 With lots of familiar faces to greet our arrival on the 6th floor, and many more revered hands to shake, we were itching to get started.
 
 #### What we are building
-Our task is to build the &lsquo;corporate&rsquo; publishing platform, which will replace the menagerie of existing solutions and hopefully enrich the working experience of those fine folks who will use it to put all that glorious information out onto the web.
+Our task is to build the [&lsquo;corporate&rsquo; publishing platform](http://digital.cabinetoffice.gov.uk/2011/08/24/government-corporate-websites-in-eye-popping-3d/), which will replace the menagerie of existing solutions and hopefully enrich the working experience of those fine folks who will use it to put all that glorious information out onto the web.
 
 We have decided to work in 2-week sprints/iterations (instead of our usual single week) to co-inside with the main team's momentum, and have generated enough user stories to have a decent first offering for real users to play with after the first sprint.
 
