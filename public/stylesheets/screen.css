@@ -430,6 +430,12 @@ body.blog #page #content .blog_entry .author img {
   height: 75px;
   display: block;
 }
+body.blog #page #content .blog_entry .footnotes {
+  padding-top: 3em;
+  margin-top: 2em;
+  border-top: 1px solid #e3e1e2;
+  font-size: 90%;
+}
 body.blog #page #content h1 {
   font-size: 4em;
   line-height: 1.27em;
