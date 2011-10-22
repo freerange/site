@@ -1,11 +1,13 @@
+require 'vanilla/dynasnip'
+
 class Project < Dynasnip
   def handle(name)
     piece = app.soup[name]
     template = app.soup["project"].template
 
     if piece.images
-      images_html = piece.images.map do |image_url| 
-        %{<li><img src="/images/folio/#{image_url}" /></li>} 
+      images_html = piece.images.map do |image_url|
+        %{<li><img src="/images/folio/#{image_url}" /></li>}
       end.join
     else
       images_html = ""
@@ -19,7 +21,7 @@ class Project < Dynasnip
   self
 end
 
-:template: |  
+:template: |
   <div class="project-desc">
     <h3>NAME</h3>
     CONTENT

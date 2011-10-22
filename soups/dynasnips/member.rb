@@ -1,3 +1,5 @@
+require 'vanilla/dynasnip'
+
 class Member < Dynasnip
   def handle(name)
     member = app.soup[name]

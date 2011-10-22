@@ -1,3 +1,5 @@
+require 'vanilla/dynasnip'
+
 class BodyClass < Dynasnip
   def handle(*args)
     case app.request.snip.kind

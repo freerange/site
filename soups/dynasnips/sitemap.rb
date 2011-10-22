@@ -1,7 +1,9 @@
+require 'vanilla/dynasnip'
+
 class Sitemap < Dynasnip
   attribute :domain, "gofreerange.com"
   def handle
-    urls = app.soup[:is_page => true].map { |snip| 
+    urls = app.soup[:is_page => true].map { |snip|
       %{
         <url>
           <loc>http://#{domain}#{url_to snip.name}</loc>

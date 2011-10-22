@@ -1,3 +1,5 @@
+require 'vanilla/dynasnip'
+
 class Tagline < Dynasnip
 
   def handle(*args)
