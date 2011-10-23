@@ -5,7 +5,7 @@ Before I get started, I want to congratulate [Pete](http://twitter.com/#!/yahoo_
 
 For the rest of us it's been a busy week yet again for us all.  Well, all of us except Chris, who's been sunning himself in Fuerteventura.  It's the one week in the year where his standard uniform of t-shirt, beach shorts and flip-flops will fit right in.  No doubt he'll be wearing a suit instead.
 
-On Tuesday we were interviewed by Ana from the Brazilian [Globo TV](http://www.globo.com/) about our work on [Chromaroma](http://chromaroma.com).  Jase, James Adam and I went down to our new office, both to work and be filmed.  We got James to answer all the questions, while Jase and I pretended to look busy in the background.  After our my last experience being videoed, I wanted to stay as far from the camera as I could manage.
+On Tuesday we were interviewed by Ana from the Brazilian [Globo TV](http://www.globo.com/) about our work on [Chromaroma](http://chromaroma.com).  Jase, James Adam and I went down to our new office, both to work and be filmed.  We got James to answer all the questions, while Jase and I pretended to look busy in the background.  After my last experience being videoed, I wanted to stay as far from the camera as I could manage.
 
 Thursday saw Jason give a talk at the [UKUPA](http://ukupa.org.uk/events/october-event-team-leadership/), about how we run a team without leadership.  It was very well received, and I'd like to think he's inspired a few more people to run their companies like ours.
 
