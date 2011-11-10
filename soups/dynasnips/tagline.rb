@@ -12,7 +12,8 @@ class Tagline < Dynasnip
      "We build the crystal cities of the future.",
      "We invented the Internet.<br>OK, not really, but we're pretty good at it.",
      "We deliver software, hewn from <em>pure thought</em>, using a pickaxe made of <em>inspiration</em>.",
-     "We are the unicorn-riding horsemen of the <em>awesome</em>pocalypse."
+     "We are the unicorn-riding horsemen of the <em>awesome</em>pocalypse.",
+     "We are the Rockstar ninja coders that moonlight doing HR accreditation work for the Queen."
     ]
     options[rand(options.length)]
   end
