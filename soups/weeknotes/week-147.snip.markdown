@@ -1,6 +1,7 @@
 Week 147
 ========
 
+Pivotal tracker whitehall project going public
 
 Some ideas...
 
