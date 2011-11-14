@@ -1,25 +1,22 @@
 Week 147
 ========
 
-Pivotal tracker whitehall project going public
+Good afternoon on this very fine late Summer day.  The notes are a little late coming (again) so apologies for that (again).
 
-Some ideas...
+We kicked off last week in our own office, in order to give time for the dust to settle in Aviation House (the new home of GDS).  It sounded like the dust had settled by around Wednesday and so we started sharing our time between Worship Street and Aviation House.  The new building's pretty good; a little bouncy due to the suspended floors and occasionally a little noisy, but generally a big, light, open area of hotdesking goodness (you can find us on the first desks as you walk in).
 
-- Jase conversation with O2 guy
-- Cleared out the office thanks to Hackney Council, maybe put this pic inline? http://instagr.am/p/TStvP/
-- (we should really pick a date for an office warming soon.)
-- James A went to RubyBiz, talked a bit about company insurance (boring), cucumber (we've independently come to some similar conclusions as Chris Parsons did), met a fan of #blue, was surprised to discover that people still don't 100% get that we're all co-ownered and all share the business stuff as well as development
-- Dealing with the scrum in GovUK's new office
+When we took on the Worship Street property we agreed to take on everything that was left within it, which amounted to a few desks, chairs and other officey things you might expect.  [James A](http://interblah.net/) had already spent quite some time removing the drawers from underneath the good desks and had moved everything that we weren't going to use into one corner of the office.  Although it was tucked out the way (at just under 1000 square feet, the office is plenty big enough for *five* of us) it was great to have it picked up by Hackney Council on Wednesday.  It's doubly great because they take it away for recycling rather than it just going in a landfill.  As always [Jase was willing to get stuck right in with the furniture dismantling](http://instagr.am/p/TStvP/).
 
+James A spent Wednesday morning at the [Ruby Business meetup](http://www.meetup.com/Ruby-Business-UK/) where he chatted about company insurance and cucumber (it sounds as though we've independently come to some similar conclusions as [Chris Parsons](http://twitter.com/#!/chrismdp)), met a fan of [#blue](https://hashblue.com/) and was surprised to discover that people still don't 100% get that we're all GFR co-owners and all share the business stuff as well as development.
 
-Stuff from last week that we could try to expand on:
+The end of GFR week 147 brought with it the end of sprint 4 of our Govuk (I like to think this is pronounced like Southwark) work.  The end of the week also saw our free Pivotal Tracker plan come to an end.  In the spirit of openness, rather than pay to keep it closed, it's now been converted to a [public project](https://www.pivotaltracker.com/projects/367813).  I think this is a great thing to do and applaud [Pete](http://twitter.com/#!/yahoo_pete) for making it happen.
 
-- Chris & James' meeting with Expl. Is there anything useful to be generalised from that? Perhaps that it's not enough to have the idea for a mechanic and then trying to find something to apply it to? I dunno. Maybe.
-- Discussion about if/when/how to bring another person on board. I think there's definitely interesting stuff in this
-  - bringing on an equal partner
-  - training up juniors
-    (those perhaps not being mutually exclusive)
-  - how to figure out if people are a good fit
-  - working for GFR being an "investment in the company" rather than a bill-as-much-as-you-can freelancer gig
-  - other stuff?
-- Realising we need a bit more structure in the prioritisation stuff with GovUK
+That'll have to do for now.  Have a good week and hopefully someone other than [Tom](http://tomafro.net/) or I will be covering week 148.
+
+:render_as: Blog
+:kind: blog
+:written_with: Kramdown
+:author: chris-roos
+:created_at: 2011-11-14 13:27:00 +00:00
+:updated_at: 2011-11-14 13:27:00 +00:00
+:page_title: Week 147
