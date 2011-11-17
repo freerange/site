@@ -230,6 +230,15 @@ ul.nav li#link_blog {
 #content h2 + p {
   padding-top: 0.3em;
 }
+#content sup {
+  font-size: 0.6em;
+  vertial-align: super;
+}
+#content .footnotes {
+  font-size: 0.8em;
+  padding-top: 0.6em;
+  border-top: 1px solid #F8FAF6;
+}
 #content #ethos .idea h3 {
   padding-top: 1.15em;
 }
