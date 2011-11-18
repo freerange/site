@@ -23,7 +23,7 @@ It turned out that we'd like something similar for Gov.uk, so we have made a Gem
 ### Talkin' 'bout The Smiling Geohash Blues
 Longtime readers (for at least a couple of weeks) may know about Tom's [Geohash Toy Thing](http://tomafro.net/2011/09/a-small-toy-to-explore-geohashes) with which you can get all crazy with the Geohashes. If you don't know why you would want to go all crazy with the Geohashes, then you need to go listen to Tom talk about why you want to go all crazy with the Geohashes at the [GeoMob November Shindig](http://lanyrd.com/2011/geomob-november/) happening next week.
 
-### Chris Want's To Bag It Up
+### Chris Wants To Bag It Up
 On tuesday our friends at Hackney Council came round and sorted out our recycling for us; for a little fee (bout a-quid-fiddy per bag) they will take away our paper mache monsters and turn them into fancy loo roll and organic hamster cardigans.
 
 We are very happy about this because we like to keep our relationship with Mother Nature the [same colour as our test suite](http://0to255.com/16901e).
@@ -35,14 +35,18 @@ Yes! Our massive space needs to be filled with toxic substances and human bodies
 
 You, Dear Reader are forever invited to come and make history at the biennial Go Free Range office ceremony where we will all join hands and witness the consummation.
 
-All the details are [laid out for your eyes](gofreerange.com/officewarming), and it would be royally splendid if you would grace our humble abode with your beautiful instance of human.
+All the details are [laid out for your eyes](gofreerange.com/officewarming) and it would be royally splendid if you would grace our humble abode with your beautiful instance of human.
 
 ### Roos is a lightweight
-Not sure what happened but our intrepid [hairy-code deleting-surf hippy-stalwart of good times-Chris-MotherFlippin-Roos](http://instagr.am/p/Uq5kd/) came in at like 2pm today. Rumour is going round that now that Chris has entered deep into Old Age (30) that he can no longer handle his drinks.
+
+Not sure what happened but our intrepid [hairy-code deleting-surf hippy-stalwart of good times-Chris-MotherFlippin-Roos](http://chrisroos.co.uk) came in at like 2pm today. Rumour is going round that now that Chris has entered deep into Old Age (30) that he can no longer handle his drinks.
+
+<img src="http://distilleryimage1.instagram.com/bf27976a11fa11e1a87612313804ec91_7.jpg" style="width:100%;" alt="Chris: HairFACE" />
 
 Better make it a shandy tonight then, Chris.
 
 ### Dramatic Farewell
+
 I hope you mind is free and your hearts pumping fast for the weekend ahead.
 
 May all your Oscar Wildest dreams come true.
@@ -53,6 +57,6 @@ JASE.
 :kind: blog
 :written_with: Kramdown
 :author: jason-cale
-:created_at: 2011-09-23 18:30:00 +01:00
-:updated_at: 2011-09-23 18:30:00 +01:00
+:created_at: 2011-11-18 15:43:00 +01:00
+:updated_at: 2011-11-18 18:30:00 +01:00
 :page_title: Week 148
