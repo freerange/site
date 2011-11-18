@@ -4,14 +4,16 @@ Week 148
 Hello lovelies.
 
 ### Friendly Introduction
-The chaos goddess has shined her luminous bosom in my direction this week. Thanks are partly due to the beautiful unfolding of the cosmos and partly due to [this commit](https://github.com/freerange/harmonia/commit/d4f0925026456e3da07cd3ca7107cf411516c9a3) in which [James A](http://interblah.net/) managed to locate and unravel a kinky-kink in the space time continuum. Imagine a giant pearl necklace, no, even bigger than that, massive, each pearl the size of a million enchanted forests, but this is just a scale, it is much bigger, more real AND this is the tip of the iceberg of beauty in which we are swimming.
+The chaos goddess has shined her luminous bosom in my direction this week. Thanks are partly due to the beautiful unfolding of the cosmos and partly due to [this commit](https://github.com/freerange/harmonia/commit/d4f0925026456e3da07cd3ca7107cf411516c9a3) in which [James A](http://interblah.net/) managed to locate and unravel a kinky-kink in the space time continuum. Imagine a giant pearl necklace, no, even bigger than that, massive, each pearl the size of a million enchanted forests, but this is just a scale, it is much bigger, more real AND this is the tip of the iceberg of beauty in which we are swimming, imagine it.
+
+Now come back.
 
 So with our friendly introductory discourse dealt with, lets get straight to the hard facts.
 
 ### Hard facts
 We've been continuing with our work on Gov.uk, rolling out some bad ass features as standard. We switched to one week iterations from two week ones we started out with (this was initially to line up team working on the Citizen focused offering). I much prefer this as it feels like you can bury your nose in and focus, for a nice maintainable pace over the week, with a planning game before the weekend break, and we can come back fresh to it.
 
-I guess tighter feedback loops with our users is also argument for doing it, but as we were deploying in shorter intervals than once per sprint anyway, we've managed to keep tight feedback loops in place from the start.
+I guess tighter feedback loops with our users is also argument for doing it, but as we were deploying in shorter intervals than once per sprint anyway, we've been pretty tight with our users from the start.
 
 ### Drawing perfect circles for infinity
 When we were working on [#blue](http://hashblue.com) I was bothering [Tom](http://tomafro.net/) about some link-to-and-back-from pages in the app dependent on the context of where the user has come from or was intending to do.
