@@ -47,7 +47,7 @@ Better make it a shandy tonight then, Chris.
 
 ### Dramatic Farewell
 
-I hope you mind is free and your hearts pumping fast for the weekend ahead.
+I hope your mind is free and your hearts pumping fast for the weekend ahead.
 
 May all your Oscar Wildest dreams come true.
 
