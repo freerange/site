@@ -7,6 +7,7 @@ Week 149
 * JGA been thinking about resurrecting Timmy Printface
 * (JGA) another prod about the office warming
 * (JGA) we're wondering whether or not we'd be able to keep plants alive
+* We've been paid!
 
 ## Monday
 * Chris off on Monday afternoon
@@ -17,3 +18,9 @@ Week 149
 ## Wednesday
 * JGA, Chris worked on Harmonia
 * JGA, JM, Chris met potential clients
+
+## Thursday
+* Anything good?
+
+## Friday
+* Jase/Chris fire marshalls
