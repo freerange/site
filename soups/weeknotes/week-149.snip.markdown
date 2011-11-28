@@ -22,3 +22,11 @@ We finished off the week with a GovUK show and tell and then a lovely team trip 
 I'm going to end with another plug for our [office warming](http://gofreerange.com/officewarming) this Thursday (1st December).  Come along: You never know, it might be alright.
 
 Have good weeks everybody peeps.  Over and out.
+
+:render_as: Blog
+:kind: blog
+:written_with: Kramdown
+:author: chris-roos
+:created_at: 2011-11-27 15:43:00 +01:00
+:updated_at: 2011-11-27 18:30:00 +01:00
+:page_title: Week 149
