@@ -1,6 +1,10 @@
 Week 150
 ========
 
+## General
+
+* Ruby manor videos
+
 ## Monday
 
 * Poorly Tom
@@ -13,3 +17,14 @@ Week 150
 * JM/Chris paired on some subtle behaviour around carrier wave and _cache
 * JA started work integrating our app into the router of the single domain
 * Jase at http://forwardtechnology.co.uk/events/mr-mobbles-magical-emporium
+
+## Wednesday
+
+* JA fought with the asset pipeline in Rails
+* Supplies for the office warming
+* Jase painting our logo
+* Timmy working again
+
+## Thursday
+
+* Jase painting our logo
