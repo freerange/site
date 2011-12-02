@@ -28,3 +28,8 @@ Week 150
 ## Thursday
 
 * Jase painting our logo
+* Office warming / mulled wine / lots of beer
+
+## Friday
+
+* All in AH
