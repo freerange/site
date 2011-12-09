@@ -19,7 +19,7 @@ Discussion turned to giving further transparency of how we are doing as a busine
 
 This would allow people to see exactly how we are making money, what we are charging, what our outgoings are, and the personal remuneration for our time on the roster at GFR.
 
-We have concerns that whilst we are very comfortable with opening up our guts to the world, our consideration for the welfare of our clients is a factoring in how we go about exposing the rates we set for certain projects; specifically any differences that there may have been on financial level.
+We have concerns that whilst we are very comfortable with opening up our guts to the world, our consideration for the welfare of our clients is a factor in how we go about exposing the rates we set for certain projects; specifically any differences that there may have been on a financial level.
 
 This is partly because we often derive value from something other than just the monetary exchange between agency and client. When we agree to engage in some work we evaluate other things such as interestingness, challenges presented and how worthwhile we feel the project is on human terms (etc) and this will effect how we price our iterations.
 
