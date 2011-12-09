@@ -19,7 +19,7 @@ Discussion turned to giving further transparency of how we are doing as a busine
 
 This would allow people to see exactly how we are making money, what we are charging, what our outgoings are, and the personal remuneration for our time on the roster at GFR.
 
-We have concerns that whilst we are very comfortable with opening up our guts to the world, we are concerned for the welfare of our clients and whether exposing how we have charged for certain projects. Specifically any differences that there may have been on financial level.
+We have concerns that whilst we are very comfortable with opening up our guts to the world, our consideration for the welfare of our clients is a factoring in how we go about exposing the rates we set for certain projects; specifically any differences that there may have been on financial level.
 
 This is partly because we often derive value from something other than just the monetary exchange between agency and client. When we agree to engage in some work we evaluate other things such as interestingness, challenges presented and how worthwhile we feel the project is on human terms (etc) and this will effect how we price our iterations.
 
@@ -35,7 +35,7 @@ We know that it is really easy to carry on delivering client work, hitting sixes
 
 Doing this is hard, and therefore requires some momentum to make it happen, and of course some idea or direction in which to take that momentum.
 
-Another interesting thing happened for [Cosmic Spiral](http://jasoncale.com) (and maybe the benefits will ripple out to the wider league) that manifests one the of the multitude reasons of why I love being part of this company. For a while I've been wanting to go on a longer (insight) meditation retreat and I have been graciously allowed to take a month out this coming March to deepen my meditation practice and hang out at my spiritual home [Gaia House](http://www.gaiahouse.co.uk/retreats/personal-retreats/) in near Newton Abbot, so I booked it up toot-sweeeet.
+[Cosmic Spiral](http://jasoncale.com) had a fortunate incident (which may ripple out benefits to the wider league) on this day. For a while he has been wanting to go on a longer (insight) meditation retreat and has been graciously allowed to take a month out during March 2012 to deepen his meditation practice and hang out at his spiritual home [Gaia House](http://www.gaiahouse.co.uk/retreats/personal-retreats/) in near Newton Abbot, so he booked it up toot-sweeeet and laughed into the abyss.
 
 The day closed out even score, with [Wandering T.A. Ward](http://tomafro.net/) hitting a smooth saddle blast out to the offside field to tie the score at 17-17.
 
