@@ -81,7 +81,7 @@ Spiral and Catcher started out the day at Shoreditch, with Ven. Dokktor Adam cla
 
 One of the discussions is said to be with O2, rumour has it that it was concerning GFR's re-entry into the fabled [O2 HashBlue](http://hashblue.com) league in which GFR exited as reining champions only the season before.
 
-Pundits are excited to understand how this could effect this most important league, which is ripe for expansion into the super leagues. Critics have long commented that they should look into increasing the numbers of players and spectators.
+Pundits are excited to understand how this could affect this most important league, which is ripe for expansion into the super leagues. Critics have long commented that they should look into increasing the numbers of players and spectators.
 
 Meanwhile Wandering T.A. Ward and Blazing Sails fought a late game battle alongside Double Hitter and Goodfellow in arranging the coming attractions and story cards for next-weeks tournament.
 
