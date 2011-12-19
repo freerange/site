@@ -41,7 +41,7 @@ Have a great festive period, love all the people, give generously, receive graci
 
 PEACE.
 
-* I LIED, sorry baby saints.
+\* I LIED, sorry baby saints.
 
 :render_as: Blog
 :kind: blog
