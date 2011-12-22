@@ -93,6 +93,6 @@ Until next time, blog friends.
 :kind: blog
 :written_with: Kramdown
 :author: james-adam
-:created_at: 2011-12-19 15:00:00 +01:00
-:updated_at: 2011-12-19 15:00:00 +01:00
+:created_at: 2011-12-23 11:15:00 +00:00
+:updated_at: 2011-12-23 11:15:00 +00:00
 :page_title: Week 153
