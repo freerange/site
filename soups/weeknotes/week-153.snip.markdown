@@ -60,7 +60,9 @@ Some of those projects may be for clients, while others might be either our own 
 
 ### One possible goal
 
-One goal that I have proposed is this: _try to get better at working together on projects in the absence of a client_.
+One goal that I have proposed is this:
+
+_Try to get better at working together on projects in the absence of a client_.
 
 It's easy to stay focussed when someone has engaged us to build software for them, but in those times between projects when there's no external motivator it's very easy to drift into individual projects.
 
