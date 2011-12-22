@@ -38,9 +38,11 @@ One of the perks of having [our own space][office] is being able to have friends
 
 [<img width="100%" src="/images/blog/tom-stuarts-desk.jpg" title="This one is actually a bit nicer than the real desk." />](/images/blog/tom-stuarts-desk.jpg)
 
-I suspect he's been spending most of his time responding to fan mail and signed headshot requests off the back of his extremely-well-received [Programming With Nothing][] presentation at [Ru3y Manor][], but regardless it's been nice to a new face around. He even offered to help me with a particularly annoying bug I was seeing one afternoon. What a nice chap. Not to mention that he plied us with gifts of yule log and mulled wine, which has become the de facto beverage of choice at [GFR HQ][office]; you can still drink mulled wine after Christmas, right?
+I suspect he's been spending most of his time responding to fan mail and signed headshot requests off the back of his extremely-well-received [Programming With Nothing][] presentation at [Ru3y Manor][], but regardless it's been nice to have a new face around. He even offered to help me with a particularly annoying bug I was seeing one afternoon. What a nice chap.
 
-All of that, and we've also got a couple of weeks in January where we'll be engaging Tom's services professionally, which we are all looking forward to. Grand. [OBLIGATORY JAM](http://thisismyjam.com/tomstuart).
+Not to mention that he plied us with gifts of yule log and mulled wine, which has become the de facto beverage of choice at [GFR HQ][office]; you can still drink mulled wine after Christmas, right?
+
+All of that, and we've also got a couple of weeks in January where we'll be engaging Tom's services professionally, which we are all looking forward to. And then, who knows! Grand. [OBLIGATORY JAM](http://thisismyjam.com/tomstuart).
 
 What's next?
 -----------
@@ -59,7 +61,7 @@ Some of those projects may be for clients, while others might be either our own 
 
 One goal that I have proposed is this: _try to get better at working together on projects in the absence of a client_.
 
-It's easy to stay focussed when someone has engaged us to build software for them, but when there's no external motivator it's very easy to drift into individual projects.
+It's easy to stay focussed when someone has engaged us to build software for them, but in those times between projects when there's no external motivator it's very easy to drift into individual projects.
 
 It's not always a bad thing to spend time idly investigating things in isolation, and we have worked on some internal projects already and learned a great deal. However, I have a hunch that there's still a lot we could improve on, and I'm looking forward to trying out lots of different approaches to find out what works (and what doesn't) for us.
 
