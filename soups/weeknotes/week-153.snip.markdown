@@ -38,11 +38,12 @@ One of the perks of having [our own space][office] is being able to have friends
 
 [<img width="100%" src="/images/blog/tom-stuarts-desk.jpg" title="This one is actually a bit nicer than the real desk." />](/images/blog/tom-stuarts-desk.jpg)
 
-I suspect he's been spending most of his time responding to fan mail and signed headshot requests off the back of his extremely-well-received [Programming With Nothing][] presentation at [Ru3y Manor][], but regardless it's been nice to have a new face around. He even offered to help me with a particularly annoying bug I was seeing one afternoon. What a nice chap.
+I suspect he's been spending most of his time responding to fan mail and signed headshot requests off the back of his extremely-well-received [Programming With Nothing][] presentation[^lambda] at [Ru3y Manor][], but regardless it's been nice to have a new face around. He even offered to help me with a particularly annoying bug I was seeing one afternoon. What a nice chap.
 
-Not to mention that he plied us with gifts of yule log and mulled wine, which has become the de facto beverage of choice at [GFR HQ][office]; you can still drink mulled wine after Christmas, right?
+We've also got a couple of weeks in January where we'll be engaging Tom's services professionally, which we are all looking forward to. And then, who knows! Grand. [OBLIGATORY JAM](http://thisismyjam.com/tomstuart).
 
-All of that, and we've also got a couple of weeks in January where we'll be engaging Tom's services professionally, which we are all looking forward to. And then, who knows! Grand. [OBLIGATORY JAM](http://thisismyjam.com/tomstuart).
+All that and I haven't even mentioned that he plied us with gifts of yule log and [mulled wine](http://instagr.am/p/aekep/ "See, he bleedin' loves the stuff"), which has become the de facto [beverage of choice](http://instagr.am/p/WyxQV/) at [GFR HQ][office]; you can still drink mulled wine after Christmas, right? To be frank, I'd like to see you try and stop us.
+
 
 What's next?
 -----------
@@ -74,6 +75,8 @@ Until next time, blog friends.
 &mdash; James A
 
 [^availabot]: [BERG](http://berglondon.com) have already done some poking around this area with [availabot](http://berglondon.com/projects/availabot/), but I think to work well for us, it needs to require almost no effort from the local team. Even changing your IM status might be too much.
+
+[^lambda]: Here is me on the train up to Scotland [trying to work through one of the simpler parts of his presentation](http://instagr.am/p/ayLd7/). It took me about an hour, but it felt great to be mentally stretching again. So much of our day-to-day work is ultimately just plumbing libraries together, or thinking about how to write a good test; I forgot how much I enjoyed the abstract.
 
 [Jason]: /jason-cale
 [Chris]: /chris-roos
