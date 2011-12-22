@@ -3,10 +3,14 @@ Week 153
 
 It's our last week before the Christmas break, and I think everyone is looking forward to a little time away from the grindstone.
 
-I'm writing these notes from Aberdeen, having been summoned to my place for birth for <strike><a href="http://en.wikipedia.org/wiki/Census_of_Quirinius">census</a></strike> festive celebrations. But enough about me.
+I'm writing these notes from Aberdeen, having been summoned to my place for birth for <strike><a href="http://en.wikipedia.org/wiki/Census_of_Quirinius">census</a></strike> festive celebrations. Working remotely has its share of challenges: distractions abound, and it can be hard to feel engaged when your only conduit to the work environment is a Campfire room. Not to mention when you're waiting 5 minutes for someone to notice that you've asked a question.
+
+It feels like there's room for improvement there, probably via some mix of team conventions, and a smidge of technology. I'm thinking about some way of poking remotely back into the physical world. Maybe that's something for 2012, but let's talk more about that later. Enough about me. What have the rest of the [Mighty Go Free Range](/) been doing?
 
 Rundown!
 -------
+
+[<img width="100%" src="/images/blog/aviation-house.jpg" title="The view from GDS at Aviation House" />](/images/blog/aviation-house.jpg)
 
 [Jason][] has spent the week pulling together all the content and associations in [Whitehall][], and trying to bring some design sense to bear. He's also been blazing to yoga every day this week, to make us all feel worse about the upcoming festival of food and slothfulness! He begins his personal pilgrimage up to Norfolk today. Oh, [this is his jam](http://thisismyjam.com/jasoncale).
 
@@ -24,7 +28,9 @@ Office Guest!
 
 One of the perks of having [our own space][office] is being able to have friends share it with us, and for the past few weeks we've had the very pleasant company of [Tom Stuart][] in the office.
 
-I suspect he's been using most of the time responding to fan mail and signed headshot requests off the back of his well-received [Programming With Nothing][] presentation at [Ru3y Manor][], but regardless it's been nice to a new face around. He even offered to help me with a particularly annoying bug I was seeing one afternoon. What a nice chap. Not to mention that he plied us with gifts of yule log and mulled wine, which has become the de facto beverage of choice at [GFR HQ][office]; you can still drink mulled wine after Christmas, right?
+[<img width="100%" src="/images/blog/tom-stuarts-desk.jpg" title="This one is actually a bit nicer than the real desk." />](/images/blog/tom-stuarts-desk.jpg)
+
+I suspect he's been spending most of his time responding to fan mail and signed headshot requests off the back of his extremely-well-received [Programming With Nothing][] presentation at [Ru3y Manor][], but regardless it's been nice to a new face around. He even offered to help me with a particularly annoying bug I was seeing one afternoon. What a nice chap. Not to mention that he plied us with gifts of yule log and mulled wine, which has become the de facto beverage of choice at [GFR HQ][office]; you can still drink mulled wine after Christmas, right?
 
 All of that, and we've also got a couple of weeks in January where we'll be engaging Tom's services professionally, which we are all looking forward to. Grand. [OBLIGATORY JAM](http://thisismyjam.com/tomstuart).
 
@@ -34,6 +40,8 @@ What's next?
 So now you know all about our week, but as well as continuing our work with [GDS][], we've also been starting to think about what next year might hold for our little band of rebels (presuming we avoid [the apocalypse](http://en.wikipedia.org/wiki/2012_phenomenon)).
 
 In 2011 we've worked on some pretty big projects ([#blue][], [gov.uk][]), and it's easy to let those soak up all of our attention. While we love working with great clients, we also have other interests and it's important to make space to explore and develop those.  One of the main reasons [our company](/) exists is to do that.
+
+[<img width="100%" src="/images/blog/gfr-christmas-2011-lunch.jpg" title="GFR Christmas 2011 Lunch / Future Summit" />](/images/blog/gfr-christmas-2011-lunch.jpg)
 
 So, starting next Spring, we will be spending more time mapping out some possible goals for 2012 and beyond, and then developing projects that will start moving us in the right direction.
 
