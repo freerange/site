@@ -57,7 +57,7 @@ GEM
     httparty (0.7.4)
       crack (= 0.1.8)
     json (1.5.1)
-    kramdown (0.12.0)
+    kramdown (0.13.4)
     libxml-ruby (2.2.1)
     mime-types (1.16)
     net-scp (1.0.4)

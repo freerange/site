@@ -85,7 +85,7 @@ Until next time, blog friends.
 
 :render_as: Blog
 :kind: blog
-:written_with: Markdown
+:written_with: Kramdown
 :author: james-adam
 :created_at: 2011-12-19 15:00:00 +01:00
 :updated_at: 2011-12-19 15:00:00 +01:00
