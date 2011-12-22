@@ -24,7 +24,7 @@ What have the rest of the [Mighty Go Free Range](/) been doing?
 
 [Tom][] has been working on presenting responses to consultations, and otherwise remains opaque to my remote probes. He's an enigma, and [this is his jam](http://thisismyjam.com/tomafro).
 
-[James Mead][] and I have been working on the beginnings of the search implementation for [Whitehall][], which has brought us into greater contact with the distributed approach that the citizen team is using. I won't lie: it's not exactly been easy integration, but it's often hard to spot assumptions in code until another team tries to use it in anger. And it's always improving. James has now absconded to his remote lair on the Isle of Wight. And [this is my jam](http://thisismyjam.com/lazyatom).
+[James Mead][] and I have been working on the beginnings of the search implementation for [Whitehall][], which has brought us into greater contact with the distributed approach that the citizen team is using. I won't lie: it's not exactly been easy integration, but it's often hard to spot assumptions in code until another team tries to use it in anger. And it's always improving. James has now absconded to his remote lair on the Isle of Wight and, well, you already know where I am. And [this is my jam](http://thisismyjam.com/lazyatom).
 
 Hirsute [Chris][] has been investigating performance improvements to [Whitehall][], and has also been going to yoga with Jase. There's a chance when I get back to London that he and Jason will have converted the East Wing of the office into a [Bikram][] studio...
 
