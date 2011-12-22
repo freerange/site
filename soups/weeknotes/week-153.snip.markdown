@@ -39,11 +39,11 @@ What's next?
 
 So now you know all about our week, but as well as continuing our work with [GDS][], we've also been starting to think about what next year might hold for our little band of rebels (presuming we avoid [the apocalypse](http://en.wikipedia.org/wiki/2012_phenomenon)).
 
-In 2011 we've worked on some pretty big projects ([#blue][], [gov.uk][]), and it's easy to let those soak up all of our attention. While we love working with great clients, we also have other interests and it's important to make space to explore and develop those.  One of the main reasons [our company](/) exists is to do that.
-
 [<img width="100%" src="/images/blog/gfr-christmas-2011-lunch.jpg" title="GFR Christmas 2011 Lunch / Future Summit" />](/images/blog/gfr-christmas-2011-lunch.jpg)
 
-So, starting next Spring, we will be spending more time mapping out some possible goals for 2012 and beyond, and then developing projects that will start moving us in the right direction.
+In 2011 we've have the amazing opportunity to work on some pretty big projects ([#blue][], [gov.uk][]). One challenge that these big projects present is how consuming they can be; it's easy to let them soak up all of our attention. While we _love_ working with great clients on interesting projects, we also have other interests and it's important that we create space to explore and develop them. It's one of the main reasons [our company](/) exists and works the way it does.
+
+So, starting next Spring, we will be spending more time mapping out some potential goals for 2012 and beyond, and then developing projects that will start moving us in the right direction.
 
 Some of those projects may be for clients, while others might be either our own software, or even software that's never destined to see the light of day. The key is to always be *learning*.
 
