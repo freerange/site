@@ -7,9 +7,11 @@ It's our last week before the Christmas break, and I think everyone is looking f
 
 I'm writing these notes from the remote hinterlands of Aberdeen, having been summoned to my place for birth for <strike><a href="http://en.wikipedia.org/wiki/Census_of_Quirinius">census</a></strike> festive celebrations. Working remotely has its share of challenges: distractions abound, and it can be hard to feel engaged when your only conduit to the work environment is a Campfire room. Not to mention when you're waiting 5 minutes for someone to notice that you've asked a question.
 
-I'm going to be in Austin for a couple of weeks after New Year, and so these challenges are only going to increase. Some of it comes down to my own discipline, and clarity of the work that needs to be done. But even with that aside, it feels like there's room for improvement, possibly via some mix of team conventions, and a smidge of technology.
+I'm going to be in Austin for a couple of weeks after New Year, and so these challenges are only going to increase. Some of it comes down to my own discipline, and clarity of the work that needs to be done. But even with that aside, it feels like there's room for improvement, possibly via some mix of team conventions and a smidge of technology[^availabot].
 
-I'm thinking about some way of poking remotely back into the physical world. Maybe that's something for 2012, but let's talk more about that later. Enough about me.
+I'm thinking about some way of poking remotely back into the physical world. Maybe that's something for 2012, but let's talk more about that later.
+
+Enough about me.
 
 Rundown!
 -------
@@ -18,7 +20,7 @@ What have the rest of the [Mighty Go Free Range](/) been doing?
 
 [<img width="100%" src="/images/blog/aviation-house.jpg" title="The view from GDS at Aviation House" />](/images/blog/aviation-house.jpg)
 
-[Jason][] has spent the week pulling together all the content and associations in [Whitehall][], and trying to bring some design sense to bear. He's also been blazing to yoga every day this week, to make us all feel worse about the upcoming festival of food and slothfulness! He begins his personal pilgrimage up to Norfolk today. Oh, [this is his jam](http://thisismyjam.com/jasoncale).
+[Jason][] has spent the week pulling together all the content and associations in [Whitehall][], and trying to bring some design sense to bear. He's also been blazing to yoga every day this week, and begins his personal pilgrimage up to Norfolk today. Oh, [this is his jam](http://thisismyjam.com/jasoncale).
 
 [Tom][] has been working on presenting responses to consultations, and otherwise remains opaque to my remote probes. He's an enigma, and [this is his jam](http://thisismyjam.com/tomafro).
 
@@ -68,6 +70,8 @@ Perhaps next week we'll have some GFR New Year resolutions. And [more jam](http:
 Until next time, blog friends.
 
 &mdash; James A
+
+[^availabot]: [BERG](http://berglondon.com) have already done some poking around this area with [availabot](http://berglondon.com/projects/availabot/), but I think to work well for us, it needs to require almost no effort from the local team. Even changing your IM status might be too much.
 
 [Jason]: /jason-cale
 [Chris]: /chris-roos
