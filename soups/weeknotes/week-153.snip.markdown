@@ -3,12 +3,18 @@ Week 153
 
 It's our last week before the Christmas break, and I think everyone is looking forward to a little time away from the grindstone.
 
-I'm writing these notes from Aberdeen, having been summoned to my place for birth for <strike><a href="http://en.wikipedia.org/wiki/Census_of_Quirinius">census</a></strike> festive celebrations. Working remotely has its share of challenges: distractions abound, and it can be hard to feel engaged when your only conduit to the work environment is a Campfire room. Not to mention when you're waiting 5 minutes for someone to notice that you've asked a question.
+### Remote Working
 
-It feels like there's room for improvement there, probably via some mix of team conventions, and a smidge of technology. I'm thinking about some way of poking remotely back into the physical world. Maybe that's something for 2012, but let's talk more about that later. Enough about me. What have the rest of the [Mighty Go Free Range](/) been doing?
+I'm writing these notes from the remote hinterlands of Aberdeen, having been summoned to my place for birth for <strike><a href="http://en.wikipedia.org/wiki/Census_of_Quirinius">census</a></strike> festive celebrations. Working remotely has its share of challenges: distractions abound, and it can be hard to feel engaged when your only conduit to the work environment is a Campfire room. Not to mention when you're waiting 5 minutes for someone to notice that you've asked a question.
+
+I'm going to be in Austin for a couple of weeks after New Year, and so these challenges are only going to increase. Some of it comes down to my own discipline, and clarity of the work that needs to be done. But even with that aside, it feels like there's room for improvement, possibly via some mix of team conventions, and a smidge of technology.
+
+I'm thinking about some way of poking remotely back into the physical world. Maybe that's something for 2012, but let's talk more about that later. Enough about me.
 
 Rundown!
 -------
+
+What have the rest of the [Mighty Go Free Range](/) been doing?
 
 [<img width="100%" src="/images/blog/aviation-house.jpg" title="The view from GDS at Aviation House" />](/images/blog/aviation-house.jpg)
 
@@ -63,19 +69,19 @@ Until next time, blog friends.
 
 &mdash; James A
 
+[Jason]: /jason-cale
+[Chris]: /chris-roos
+[Tom]: /tom-ward
+[James Mead]: /james-mead
 [office]: http://gofreerange.com/contact
-[#blue]: /hashblue
 [gov.uk]: http://digital.cabinetoffice.gov.uk/2011/08/11/gov-uk-from-alpha-to-beta/
 [GDS]: http://digital.cabinetoffice.gov.uk/
 [Tom Stuart]: http://www.experthuman.com
 [Programming With Nothing]: http://rubymanor.org/3/videos/programming_with_nothing
 [Ru3y Manor]: http://rubymanor.org/3
-[Jason]: /jason-cale
-[Chris]: /chris-roos
-[Tom]: /tom-ward
-[James Mead]: /james-mead
 [Bikram]: http://en.wikipedia.org/wiki/Bikram_Yoga
 [Whitehall]: http://github.com/alphagov/whitehall
+[#blue]: /hashblue
 
 :render_as: Blog
 :kind: blog
