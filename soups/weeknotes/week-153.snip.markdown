@@ -85,7 +85,7 @@ Until next time, blog friends.
 [Tom]: /tom-ward
 [James Mead]: /james-mead
 [office]: http://gofreerange.com/contact
-[gov.uk]: http://digital.cabinetoffice.gov.uk/2011/08/11/gov-uk-from-alpha-to-beta/
+[gov.uk]: /government-single-domain
 [GDS]: http://digital.cabinetoffice.gov.uk/
 [Tom Stuart]: http://www.experthuman.com
 [Programming With Nothing]: http://rubymanor.org/3/videos/programming_with_nothing
