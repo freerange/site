@@ -60,7 +60,7 @@ Some of those projects may be for clients, while others might be either our own 
 
 ### One possible goal
 
-One goal that I have proposed is this:
+To start the conversation, I have proposed this:
 
 _Try to get better at working together on projects in the absence of a client_.
 
