@@ -1,7 +1,7 @@
-Week 155
+Week 154
 ========
 
-If you were impressed that {l week-153, Week 153} came all the way from Scotland, then you better make sure you are seated, because week 154 comes to you from around 38000 feet in the air above Kentucky. Whoever [Harmonia][] assigns next week is probably going to have to get friendly with [Richard Branson](http://www.virgingalactic.com/) or [Paul Allen](http://www.bbc.co.uk/news/world-us-canada-16171482) to top that.
+If you were impressed that {l week-153, Week 153} came all the way from Scotland, then you better make sure you are seated, because week 154 comes to you from around 11 kilometres in the air above Kentucky. Whoever [Harmonia][] assigns next week is probably going to have to get friendly with [Richard Branson](http://www.virgingalactic.com/) or [Paul Allen](http://www.bbc.co.uk/news/world-us-canada-16171482) to top that.
 
 Anyway, it's been a quiet week for [Go Free Range](/). I've been in Scotland (although obviously I'm not there now); Jason's been in Norfolk; James M has been on the Isle of Wight, and you'll have to ask Tom and Chris yourself where they hole up for the festive season. Hopefully somewhere warm with access to mulled wine.
 
@@ -12,7 +12,9 @@ Who
 
 We started this year as _six_: [myself][me], [James M][], [Jason][], [Tom][], [Kalv][] and the still-wet-behind-the-ears-but-getting-hairier-by-the-day [Chris Roos][Chris]. In 2010 we'd fluctuated from _seven_ to _five_ to _six_, but at the start of 2011 we'd hit our stride.
 
-However, in the Autumn, we said goodbye to Kalv, who is now "living the dream" in Vancouver. Presumably the "dream" is riding Ek bareback through snowy mountain forests, which does sound pretty great. It's a shame that Kalv didn't get to work with us on the [Single Domain project][] as he was always very interested in affecting change in government through technology, but we are doing our bt to make him proud from this side of the Atlantic.
+However, in the Autumn, [we said goodbye to Kalv](/kalv-goes-west), who is now "living the dream" in Vancouver. Presumably the "dream" is riding elk bareback through snowy mountain forests, quaffing maple syrup, which does sound pretty great.
+
+It's a shame that Kalv didn't get to work with us on the [Single Domain project][] as he was always very interested in affecting change in government through technology, but we are doing our bt to make him proud from this side of the Atlantic.
 
 It's never been the plan for GFR to _expand_, principally because that would force more organisational structure and hierarchy, which is precisely the thing we want to avoid.
 
@@ -26,9 +28,9 @@ We've worked on a range of projects in 2011. The first half of the year was most
 
 We also worked on a few prototype projects for [O2][], which contained valuable lessons both about how larger companies approach building software, and about how we define our relationship with a client.
 
-We also worked with [Voicenet][] to help them start exploring how API might be used to create better, more flexible and more resilient services for their customers.
+We worked with [Voicenet][] to help them start exploring how API might be used to create better, more flexible and more resilient services for their customers.
 
-We ended the year working with [GDS][] to help with the [Single Domain project][], and we are very excited to launch the beta early this year, and also to fold development of our project into the full time team.
+The year ended with us working with [GDS][] to help with the [Single Domain project][], and we are very excited to launch the beta early this year, and also to fold development of our project into the full time team.
 
 Its not all been client work though. We built [Timmy Printface](/timmy) to demonstrate the liberation of SMSes from phone handsets via the [#blue API][]. We built [Linda][] to explore a simple telephony service that might help when your mobile phone runs out of power.
 
