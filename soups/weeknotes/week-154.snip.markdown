@@ -14,7 +14,7 @@ We started this year as _six_: [myself][me], [James M][], [Jason][], [Tom][], [K
 
 However, in the Autumn, [we said goodbye to Kalv](/kalv-goes-west), who is now "living the dream" in Vancouver. Presumably the "dream" is riding elk bareback through snowy mountain forests, quaffing maple syrup, which does sound pretty great.
 
-It's a shame that Kalv didn't get to work with us on the [Single Domain project][] as he was always very interested in affecting change in government through technology, but we are doing our bit to make him proud from this side of the Atlantic.
+It's a shame that Kalv didn't get to work with us on the [Single Domain project][] as he was always very interested in effecting change in government through technology, but we are doing our bit to make him proud from this side of the Atlantic.
 
 It's never been the plan for GFR to _expand_, principally because that would force more organisational structure and hierarchy, which is precisely the thing we want to avoid.
 
