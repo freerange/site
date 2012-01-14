@@ -13,7 +13,7 @@ That said, Neil has been excellent in keeping things running whilst holding down
 
 Following good news with good news, our man from upstairs [Ross Ferguson](https://twitter.com/rossferg) is [joining us a few more days a week](http://twitter.com/rossferg/status/157522909932429312) from the [Foreign Office](https://twitter.com/foreignoffice) before becoming full time in May.
 
-Ross is helping us out with developing the international elements our the website, he knows his onions from his coconuts.
+Ross is helping us out with developing the international elements the website, he knows his onions from his coconuts.
 
 A guilty pleasure of mine is the joy of having Ross' robust Scottish accent in the office and as [James'][James] isn't very convincing these days, I'm hoping that it re-flower with Ross around the office to offer encouragement.
 
