@@ -47,7 +47,7 @@ Getting involved with O2 for a few iterations will mean our team is a bit squeez
 
 Tom has already worked on the Citizen side, and we know that he is really really good. So we are looking forward to seeing how we can work with and learn new things together.
 
-Collaborating with people outside of our little bubble tends to have a mirror holding affect, which is really useful when you care about refining how a group can work together to achieve something better than the day before.
+Collaborating with people outside of our little bubble tends to have a mirror holding effect, which is really useful when you care about refining how a group can work together to achieve something better than the day before.
 
 My mind is empty, so with big love I will bid thee adieu,
 &mdash; Jase.
