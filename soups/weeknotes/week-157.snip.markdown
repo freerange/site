@@ -37,7 +37,7 @@ This is a great way of accumulating knowledge. If we bake it into our code it no
 
 ### Remote working
 
-James A's good lady, Roz moved to Austin, Texas mid-last year to undertake a postdoctoral position after finishing her PhD (high-fives) here in London. I'd have to let James fill in the details of what Roz is actually doing because I'm just an idiot with a paintbrush in black yoga hotpants.
+James A's good lady Roz moved to [Austin][] mid-last year to undertake a postdoctoral position after finishing her PhD (high-fives) here in London. I'd have to let James fill in the details of what Roz is actually doing because I'm just an idiot with a paintbrush in black yoga hotpants.
 
 Consequently James has periodically been working under the sunny Texan skies whilst we shiver and age within the cruel grey London discontent (I'm perpetually cold, hence my penchant for yoga in a 40&deg; room).
 
@@ -67,6 +67,7 @@ Until I'm randomly picked to write you a story once more...
 
 [Neil]: https://twitter.com/neillyneil
 [DirectGov]: http://www.direct.gov.uk/en/index.htm
+[Austin]: http://g.co/maps/k5er8
 
 :render_as: Blog
 :kind: blog
