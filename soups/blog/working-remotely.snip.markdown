@@ -39,7 +39,7 @@ You also miss out on any of the spontaneous conversations that might happen in t
 
 <img width="100%" src="http://gofreerange.com/images/blog/skype.png" title="Keep talking" />
 
-I'm sure that pair programming (among other things) helps the remote worker feel a bit more connected to the rest of the company, but not a rich conduit for all the other communication that might be going on, from ambient glances[^glancing] to actual in-depth discussions.
+I'm sure that pair programming (among other things) helps the remote worker feel a bit more connected to the rest of the company, but it's not a rich conduit for all the other communication that might be going on, from ambient glances[^glancing] to actual in-depth discussions.
 
 We've experimented with a few tools to ameliorate this issue, including having a constant Skype connection open, but nothing has really stuck. At the moment, we have a camera in the office[^camera] which allows the remote _Free Ranger_[^nickname] to at least see if there's anyone in the office to get hold off, and limited ability to overhear what they might be talking about, but it's still very much one-way. If you want get someone's attention, you're relying on their periodic attention to the group chat. It's not great and I'm really interested in what we can do to improve this.
 
