@@ -35,7 +35,7 @@ You also miss out on any of the spontaneous conversations that might happen in t
 
 ### Not even a new problem
 
-[James M][] already knows all about this; not living in London, he's worked remotely for years now.
+[James M][] already knows all about this; not living in London, he's worked remotely on a reasonably regular basis for years now.
 
 <img width="100%" src="http://gofreerange.com/images/blog/skype.png" title="Keep talking" />
 
