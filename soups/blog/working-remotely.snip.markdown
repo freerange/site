@@ -89,7 +89,7 @@ I believe there are two assumed principles in operation here:
 
 These form a subtle feedback loop of sorts, which conspire against doing anything that isn't a part of the flow of building software. This includes the obviously uninteresting chores like invoicing, VAT returns, and so on, but also impacts dealing with clients and leads, and making decisions about the company in general. I find this interesting enough to want to leave exploring it for another occasion[^maybe-only-me], but I bring it up now because I suspect something similar operates when people are working remotely.
 
-I believe that there is an implicit assumption that _if I'm OK, You're OK_, and that if _I_ and working away without any worries in the office, then _you_ are probably happily working away wherever you are too.
+I believe that there is an implicit assumption that _if I'm OK, You're OK_, and that if _I_ am working away without any worries in the office, then _you_ are probably happily working away wherever you are too.
 
 There's no way text-based chat allows us to pick on the concerned expression which would otherwise prompt stepping away from the coalface. It's just not a very rich communication channel.
 
