@@ -16,7 +16,7 @@ Working from Aberdeen is only marginally different from working from home; it's 
 In case you've never had the pleasure of doing so, allow me to outline the principle benefits of working out of the office:
 
 - If you're not being productive, you can take a break and do something different.
-- If you *are* being productive, there are (probably) less people around to disrupt your flow.
+- If you *are* being productive, there are (probably) fewer people around to disrupt your flow.
 - If you get hungry you can fetch a snack with your entire kitchen at your disposal.
 - You can work in your underwear. Lying to you about this is not doing you any favours anymore.
 
