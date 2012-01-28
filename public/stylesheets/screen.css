@@ -581,6 +581,14 @@ body.blog #page #content #blog_articles ol.blog_list li a {
 body.blog #page #content p.colophon {
   clear: both;
 }
+body.blog #page #content img.left {
+  float: left;
+  padding-top: 0.5em;
+  padding-right: 1em;
+}
+body.blog #page #content .twitter-tweet-rendered {
+  margin-bottom: 1.6em !important;
+}
 @media only screen and (min-width: 850px) {
   body.blog #page #header ul#blog_nav li#link_rss {
     width: 12.5em;
