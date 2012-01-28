@@ -1,7 +1,7 @@
 Week 158
 ========
 
-I've already written this week about my experiences {l remote-working, "remote working"}, but it's weeknotes time and I know you won't be happy without them, so, well, here they are.
+I've already written this week about my experiences {l working-remotely, "remote working"}, but it's weeknotes time and I know you won't be happy without them, so, well, here they are.
 
 Happy now?
 
