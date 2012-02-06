@@ -1,25 +1,13 @@
-set :stages, %w(production)
-set :default_stage, "production"
+require 'recap/deploy'
 
-require 'freerange/deploy'
-require "freerange/puppet"
+server "gofreerange.com", :app
 
+set :application_user, "freerange"
 set :repository, 'git@github.com:freerange/site.git'
-set :application, 'gofreerange.com' # defaults to the name of the repo at origin
-
-set :user, 'freerange'
-set :group, 'application'
-set :puppet_user, "root"
-set :puppet_os, "ubuntu"
+set :application, 'gofreerange.com'
 
 namespace :deploy do
-  task :migrate do ; end
+  task :restart do
+    run "cd #{deploy_to} && mkdir -p tmp && touch tmp/restart.txt"
+  end
 end
-
-manifest :web, %{
-  gofreerange::web {"<%= domain %>":
-    domain => "<%= domain %>",
-    deploy_to => "<%= deploy_to %>",
-    environment => "<%= rails_env %>"
-  }
-}
