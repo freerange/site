@@ -1,4 +1,4 @@
-Week 152
+Week 159
 ========
 
 Somewhere in Brazil a [butterfly flapped its wings](http://en.wikipedia.org/wiki/Butterfly_effect) and the great goddess, [Harmonia](http://github.com/freerange/harmonia), chose [me](/james-mead) to write the week-notes this week. Although she's nominated me plenty of times for other company tasks, in an almost petulant demonstration of the [unpredictability of randomness](http://rubymanor.org/3/videos/a_random_walk/), this is the first time she's picked me to do the week-noting.
