@@ -18,3 +18,11 @@ The week was nicely rounded off by our first [Github pull request](https://githu
 ### In other news
 
 It looks like [James A](/james-adam) has [renewed his interest](https://twitter.com/#!/lazyatom/status/163355745734246400) in persuading his computer to talk to [very small printers](https://github.com/lazyatom/ThermalSD) - I only hope [Timmy](/timmy) isn't too jealous. [Jase](/jason-cale) has somehow found time amidst his copious ceramic throwing to [put together](http://twitter.com/#!/jasoncale/status/164354174547525635) an [EP](http://instagr.am/p/mjofO/). [I've](/james-mead) been trying, but failing, to keep up with a recent surge of interest in [mocha](http://github.com/floehopper/mocha). I'm curious whether this burst of activity has anything to do with the renewed interest in using a more [object-oriented approach with Rails apps](http://avdi.org/devblog/2011/11/15/early-access-beta-of-objects-on-rails-now-available-2/). [Tom W](/tom-ward) managed to wrestle [Go Free Range's](/) Annual Return into [submission](http://data.companieshouse.gov.uk/doc/company/06789592) to Companies House and [Chris](/chris-roos) continued to astound me with his incredible [attention to detail](https://github.com/alphagov/whitehall/commit/7b4a62a85802a4e9a6da0bf2f75861aabbcbdd1d).
+
+:render_as: Blog
+:kind: blog
+:written_with: Kramdown
+:author: james-mead
+:created_at: 2012-02-05 23:37:00 +00:00
+:updated_at: 2012-02-05 23:37:00 +00:00
+:page_title: Week 159
