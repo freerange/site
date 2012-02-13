@@ -1,9 +1,5 @@
-require 'rubygems'
-require 'bundler/setup'
-require 'test/unit'
-
-require "vanilla"
 require "application"
+require 'test/unit'
 
 class Test::Unit::TestCase
   include Vanilla::TestHelper
