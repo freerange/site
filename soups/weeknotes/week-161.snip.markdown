@@ -7,7 +7,7 @@ This is my tardiest report, late to the table, the editor at my throat.
 
 ###Whitehall handover
 
-This week was our second week of the [Whitehall app][whitehall app] handover. We've been radically stripping back the user interface and beginning to build it back up with a look and feel that is closer to the [Citizen][GovUK] site. In doing this, we were exposed with sharpened focus to the difficulties present in creating an intuitive map of government structure and activities.
+Week 161 was our second week of the [Whitehall app][whitehall app] handover. We've been radically stripping back the user interface and beginning to build it back up with a look and feel that is closer to the [Citizen][GovUK] site. In doing this, we were exposed with sharpened focus to the difficulties present in creating an intuitive map of government structure and activities.
 
 It became clear that it was not just a matter of changing a few colours, we had not yet addressed some of the more subtle aspects of our challenge, and this left me a little concerned, after all I'd been partly responsible for trying to lay the foundation that this design activity would be using.
 
@@ -51,7 +51,7 @@ Blimey.
 The next step which James is now working on, is to allow data to be pushing to it over a network, which will mean that once the little bugger is connected, you could print with it using HTTP, exciting stuff, I'm sure your mind can wander over the possibilities.
 
 ### Until next time
-Check back next week, actually this week, for the next instalment.
+Check back next week (actually, later this week) for the next instalment.
 
 JC.
 
