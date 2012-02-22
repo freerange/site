@@ -44,7 +44,7 @@ Blimey.
 
 ###The little printer
 
-[James A][James A] has been spending some of his free time iterating on his open source thermal printer project. He has managed to get graphics printing working to a sweet standard, and is, I believe, at present printing the graphics with data transferred from an SD card.
+[James A][James A] has been spending some of his free time iterating on his [open source thermal printer][thermal] project. He has managed to get graphics printing working to a sweet standard, and is, I believe, at present [printing the graphics with data transferred from an SD card][thermalsd].
 
 ![Graphics Test](http://distilleryimage7.s3.amazonaws.com/c49fae18574011e1a87612313804ec91_7.jpg)
 
@@ -60,6 +60,8 @@ JC.
 [James M]: /james-mead
 [FreeAgent]: http://fre.ag/3276i4uh
 [James A]: /james-adam
+[thermal]: http://github.com/lazyatom/Thermal-Printer-Library
+[thermalsd]: http://github.com/lazyatom/ThermalSD
 
 :render_as: Blog
 :kind: blog
