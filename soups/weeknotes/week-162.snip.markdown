@@ -1,17 +1,13 @@
 Week 162
 ========
 
-This week has been a heads down kind of week, our handover of the [Whitehall app][whitehall app] is progressing well, and we are all working on refining the product for an upcoming release.
+This week has been a heads down kind of week, our handover of the [Whitehall app][whitehall app] is progressing well, and we are all working on refining the product for an upcoming release. It is feeling nice and collaborative, and it is really interesting to be working in an inflated team size; lots of commits, banter and cross pollination.
 
-It is feeling nice and collaborative, and it is really interesting to be working in an inflated team size; lots of commits, banter and cross pollination.
+Most of the time you cannot rebase against the master branch (of our source code repository) [on Github](http://github.com/alphagov/whitehall), run the test suite, and then push without needing to pull in new changes from the repository. This always makes me wonder if I should run the tests again, ad-infinitum.
 
-Most of the time you cannot rebase against the master branch (of our source code repository) [on Github](http://github.com/alphagov/whitehall), run the test suite, and then push without needing to pull in new changes from the repository &mdash; making you wonder if you should run the tests again, ad-infinitum &mdash; it really is buzzing right now.
+I'll admit I'm running out of juice since I posted my tardy [week-notes on Tuesday](/week-161).
 
-I'll admit I'm running out of juice since I posted my tardy [week-notes on Tuesday](/week-161), I've not much to say other than we've been cracking on.
-
-Instead I would like to give a roll call for the (development team) who is currently involved in coaxing the project down the road of delivery.
-
-I'd like to do this as a document of our new size, and the support we have as we dive into our last week of handover to the rest of the core [GovUK][GovUK] team.
+So instead I would like to give a roll call for the (development team) who is currently involved in coaxing the project down the road of delivery. I'd like to do this as a document of our new size, and the support we have as we dive into our last week of handover to the rest of the core [GovUK][GovUK] team.
 
 * [Neil Williams](http://twitter.com/neillyneil)
 * [Peter Herlihy](http://twitter.com/yahoo_pete)
