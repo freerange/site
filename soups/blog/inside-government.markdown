@@ -17,7 +17,7 @@ One nice touch is the short links to government departments -- try [www.gov.uk/f
 
 [<img src="/images/blog/consultations.thumb.png" style="width: 100%"/>][government-consultations]
 
-While the site looks great (spades of kudos to [Jason](/jason-cale), [James Weiner][james-weiner], [Ben Terrett][ben-terrett] and everyone else who worked on it), there's also a wealth of software *behind-the-scenes*, modelling the structure of government and the workflow that departments and organisations will use to publish and administer the site.
+While the site looks great (spades of kudos to [Jason](/jason-cale), [Ben Terrett][ben-terrett], [Mark Hurrell][mark-hurrell], [James Weiner][james-weiner], [Frances Berriman][frances-berriman] and everyone else who worked on it), there's also a wealth of software *behind-the-scenes*, modelling the structure of government and the workflow that departments and organisations will use to publish and administer the site.
 
 Rather than trying to teach how government works to an existing CMS, we have focussed on directly modelling ministers, organisations, policies and all of the other entities that are involved in government, and have build the content layer on top of that model. We are confident that this approach is going to pay dividends when it comes to getting the data out into the public via APIs.
 
@@ -56,8 +56,10 @@ There's a lot more work to do, but we're confident that [GDS][gds] will [listen 
 [tackling-homelessness-thumbnail]: /images/blog/tackling-homelessness-and-rough-sleeping.thumb.png
 [whitehall-contributors]: https://github.com/alphagov/whitehall/contributors
 [pete-herlihy]: https://twitter.com/yahoo_pete
-[james-weiner]: http://twitter.com/jamesweiner
-[ben-terrett]: http://twitter.com/benterrett
+[james-weiner]: https://twitter.com/jamesweiner
+[ben-terrett]: https://twitter.com/benterrett
+[mark-hurrell]: https://twitter.com/markhurrell
+[frances-berriman]: https://twitter.com/phae
 
 :render_as: Blog
 :kind: blog
