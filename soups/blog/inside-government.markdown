@@ -3,11 +3,11 @@ Inside Government
 
 Yesterday [Paul took the wraps off][paul-password-removal] the new [Inside Government section][govuk-inside-government] of [gov.uk][govuk]. This is the project we've been working on with the [Government Digital Service][gds] since back in [Week 140][week-140]. While we've been [continously delivering][continuous-deployment] the application to a restricted set of users since the early days of the project, we're really pleased it's now accessible to the public.
 
-[<img src="/images/blog/bis.thumb.png" style="width: 100%"/>][government-bis]
+[<img src="/images/blog/cabinet.thumb.png" style="width: 100%"/>][government-bis]
 
 [Neil][neil-williams] has eloquently explained [what we've built][neil-blog-post-2] and [why it matters][neil-blog-post-1]. While the [citizen-facing part of gov.uk][govuk-beta-first-release] was focussed on "serving the needs of the mainstream majority", [Inside Government][govuk-inside-government] is about "meeting the needs of the engaged minority" i.e. those that need to know what government is doing - perhaps because it's part of their job or just a personal interest.
 
-[<img src="/images/blog/tackling-homelessness-and-rough-sleeping.thumb.png" style="width: 100%"/>][government-tackling-homelessness]
+[<img src="/images/blog/policy.thumb.png" style="width: 100%"/>][government-tackling-homelessness]
 
 The idea is that it should become the best place to find out how government works, see what it's doing and get involved. It should keep you up-to-date with the UK government's [news][government-news], [policies][government-policies], [publications][government-publications], etc. Hopefully it'll make it easier to [read about][government-consultations] and contribute to government thinking before it becomes policy. You can also find information about [government ministers][government-ministers], [departments and organisations][government-departments] and the UK's interests and policies in the [rest of the world][government-world].
 
