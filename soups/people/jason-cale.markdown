@@ -1,6 +1,6 @@
-Jason has spent his career to date intertwining design and programming. He looks after creative direction, user interface design and front-end development for us. 
+Jase worked with FreeRange from February 2009 until February 2012. While at Go Free Range, he looked after our creative direction, user interface design and front-end development as well as being a great developer in his own right.
 
-Previous working buddies include The Walt Disney Company, Twentieth Century Fox, [Margaret Howell](http://www.margarethowell.co.uk), startups such as [Tipped](http://tipped.co.uk), [Threadme](http://threadme.co.uk) and [Ideapi](http://ideapi.com). 
+Jase has decided to take some time out of software development so he can devote more time to meditation and other creative avenues, but he's still [available](http://jasoncale.com) for occasional software projects.
 
 :site: jasoncale.com
 :image: images/people/jason-cale.jpg
