@@ -3,6 +3,9 @@ Week 164
 
 This week [the team](/people) has been winding down after our work at GovUK came to an end [last week](/week-163) after the release of [INSIDE GOVERNMENT](/inside-government). However, we did pop into Aviation House on Tuesday to meet up with [Neil][neil-williams], [Pete][pete-herlihy] & the rest of the gang for a [retrospective] run by [Jamie][jamie-arnold]. I think we all (both [GFR] & [GDS] folk) found this exercise pretty useful and it's really encouraging to see a *government* team being so open and genuinely trying to learn from their experiences.
 
+Good Stories
+----------
+
 For me one of the more interesting discussions in this retrospective was about [story-writing]. The general consensus was that it would have been beneficial for the whole team (product owners, developers, designers, etc) to have a better shared understanding of what makes a good user story and why. It was gratifying to hear that some of the [GDS] folk felt that [GFR] already have a pretty good shared understanding, but we're keen to improve on this and, in particular, improve how well we communicate this understanding to our clients.
 
 After the retrospective we retired to [The Duke] for lunch and a final "de-brief". I think we all felt reassured that we're leaving the project in good hands.
@@ -11,7 +14,15 @@ We also had some great feedback from James Stewart, Technical Architect at GDS, 
 
 > It's also been a delight to have [Go] Free Range in leading the development of the 'whitehall' app that drives "INSIDE GOVERNMENT".
 
+
+More printer fun
+----------------
+
 The Arduino receipt printer saga continued this week with [James A](/james-adam) struggling to track down an [infuriating intermittent bug][arduino-printer-bug]. However, when he took the system home, he found that the bug disappeared. This [narrowed the problem down][arduino-bug-narrowed-down] to our office network and after some more testing yesterday, he discovered that the particular ethernet cable he had been using had been quietly leaking ACK packets all over the floor under his desk.
+
+
+Free Range Future
+-----------------
 
 Yesterday morning we also had a bit of a [pow-wow][pow-wow] in the office about what we're going to work on over the next few weeks. It wasn't hard to come up with a long list of ideas, but what was harder was to come up with sufficiently de-scoped tasks that stand a chance of being completed in a reasonable time. Our ideas cover a wide range - some more reflective and some more practical - but I think we've made a decent start. This meeting was followed by a pleasant lunch down the road in the [Blueberry Bar & Kitchen][blueberry] with [Murray][murray-steele] who had Boris-biked it over from [Made by Many] HQ.
 
