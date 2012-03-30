@@ -13,7 +13,7 @@ We've pretty much decided not to continue with the LLP investigation.  We're now
 
 As for people leaving and joining, James mentioned [last week] that one of the problems is the relatively large sum of money we've got in the bank.  It's very tempting to think of a quarter of the distributable cash (i.e. the money left after covering all our liabilities) as mine, a line of thinking we've encouraged with the amount we paid [Kalv] and [Jase] on their departure (a 6th and 5th of the distributable cash respectively).  However, that line of thinking makes it difficult to bring new people on because all of a sudden the share I'm eligable to has decreased.  [Tom]'s come up with what sounds like a pretty good way to get around this, although it's still to be decided whether we go ahead with it or not.  In Tom's world we'd continue to pay ourselves monthly (we all agree that this is important, especially when we're not working on a client project, to keep a sense of identity to GFR) but we'd also take additional larger payments when there was money in the bank to do so.  The aim is to leave enough cash in the bank to sustain ourselves for a given length of time (3 months, say) but to extract everything else.  As mentioned, we need to discuss it further but it does feel as though it'd make it easier to see what new joiners would be entitled to, and how much one might receive when they leave.
 
-Oh, and in discussing how public we make these sort of details earlier today, Tom suggested that I want to run the company in the vein of an exhibitionist: dangling those things that're normally hidden away right there in your face.  A nice image, I think you'll agree.
+Oh, and in discussing how public we make these sort of details earlier today, Tom suggested that I want to run the company in the vein of a <del>exhibitionist</del> naturist[^naturist]: dangling those things that're normally hidden away right there in your face.  A nice image, I think you'll agree.
 
 ## Ikeakakakakakakaka
 
@@ -76,6 +76,7 @@ And with that, I am very definitely spent.  Have good weekends y'all.  Chris.
 [ticket 122]: https://bitbucket.org/ged/ruby-pg/issue/122/warning-nokogiri-was-built-against-libxml
 [yard]: http://yardoc.org/
 
+[^naturist]: My bad. Tom actually said naturist but I managed to think 'exhibitionist' when recalling the conversation. Read into that what you will.
 [^seasonal-turkey]: See "Seasonal gifts" of [EIM21863](http://www.hmrc.gov.uk/manuals/eimanual/eim21863.htm).
 
 :render_as: Blog
