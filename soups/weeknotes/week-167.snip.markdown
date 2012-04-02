@@ -35,7 +35,7 @@ As well as this development effort, we spent some time discussing how we felt th
 
 ## Converting Mocha's documentation
 
-[James M] has spent the latter part of the week wishing he'd never started converting [Mocha]'s documentation from [rdoc] to [yard].  All while trying to juggle GFR duties, house viewings and dealing with mortgage advisers.  A splendid effort, James :-)
+[James M] has spent the latter part of the week wishing he'd never started converting [Mocha's documentation][mocha-documentation] from [rdoc] to [yard].  All while trying to juggle GFR duties, house viewings and dealing with mortgage advisers.  A splendid effort, James :-)
 
 ## Timmy printface's protégé
 
@@ -69,7 +69,7 @@ And with that, I am very definitely spent.  Have good weekends y'all.  Chris.
 [Tom]: /tom-ward
 [explicit requires]: https://github.com/freerange/sauron/commits/avoid-autoload
 [last week]: /week-166
-[mocha]: http://mocha.rubyforge.org/
+[mocha-documentation]: http://floehopper.github.com/mocha/
 [pull request 14]: https://github.com/freerange/sauron/pull/14
 [rdoc]: http://rdoc.sourceforge.net/
 [sauron]: https://github.com/freerange/sauron/
