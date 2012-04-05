@@ -159,9 +159,9 @@ Even better, it's *far* simpler to design content in HTML, CSS and Javascript th
 
 ### Teaching the computer to surf the web
 
-When we doing client work that involves javascript, we often test it using a "headless browser", which is roughly speaking a web browser than doesn't actually display its windows on your computer. We've had a lot of success with [PhantomJS](http://phantomjs.org), and as it happens it is quite easy for it to load a webpage and save what would be displayed as an image.
+When doing client work that involves javascript, we often test it using a "headless browser", which is roughly speaking a web browser that doesn't actually display its windows on your computer. We've had a lot of success with [PhantomJS](http://phantomjs.org), and as it happens it is quite easy for it to load a webpage and save what would be displayed as an image.
 
-With a little bit of tweaking to fix the browser width at 384 pixels, and some [helpful stylesheets to make prototyping content for printing at that size easier](http://printer.gofreerange.com/sample.html), it all worked. All that was required to print something was an HTTP page which could be dispatched through the existing and finally be printed.
+With a little bit of tweaking to fix the browser width at 384 pixels, and some [helpful stylesheets to make prototyping content for printing at that size easier](http://printer.gofreerange.com/sample.html), it all worked. All that was required to print something was an HTTP page which could be dispatched through the existing software and finally be printed.
 
 (At each step, the boundary of the system moved closer to something that I felt I could pick up later without having to hack it all together again. This was progress.)
 
@@ -248,7 +248,7 @@ Some of you will definitely be wondering about how this relates to [Little Print
 
 That said, for what it's worth: **I believe the two projects complement each other perfectly.**
 
-Little Printer is going to be a _beautiful_ object, and I certainly want one in my home. The attention to detail apparent in both the artefact and the content in delivers is _amazing_. The electronics and software have been rigorously tested, and is commercially supported. The software running and surrounding [BERG Cloud](http://bergcloud.com) will make it trivial to subscribe to new, high-quality content with almost no effort.
+Little Printer is going to be a _beautiful_ object, and I certainly want one in my home. The attention to detail apparent in both the artefact and the content it delivers is _amazing_. The electronics and software have been rigorously tested, and is commercially supported. The software running and surrounding [BERG Cloud](http://bergcloud.com) will make it trivial to subscribe to new, high-quality content with almost no effort.
 
 What I have presented here shares none of those qualities.
 
