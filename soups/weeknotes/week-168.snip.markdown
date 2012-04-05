@@ -8,12 +8,16 @@ Joining & leaving
 
 We had a bit more discussion about how we might [manage people joining or leaving GFR][people-joining-and-leaving-gfr] and how that would work with the cash the company keeps under the mattress for a rainy day. We all looked through a spreadsheet Tom had made to help demonstrate how his cunning scheme might work. It's good to have something more concrete to look at and I think most of us a sympathetic to the approach Tom has taken.
 
+<a href="http://www.flickr.com/photos/59937401@N07/5929622407/" title="Money by Images_of_Money, on Flickr"><img src="/images/blog/wad-of-bank-notes.png" style="width: 100%" alt="Wad of bank notes"></a>
+
 At [Chris](chris-roos)'s suggestion, he and I had a go at seeing what bonus Tom's scheme would pay out now versus the calculation we did when [Jase](jason-cale) left. This was actually really useful, but not so much for the intended reason - it turned out we'd made a couple of errors in the calculation we did for Jase. One of the errors was that we'd used the corporation tax figure from our [FreeAgent] account. However, we should have used the figure in our annual accounts which [our accountant][3CA] had corrected. Anyway, it was good to catch this before we actually handed over the spondoolies to Jase. In the meantime I've [suggested][freeagent-corp-tax-suggestion] to FreeAgent that their user interface should somehow distinguish between accurate figures and rough estimates.
 
 Sauron
 ------
 
 As is evidenced by the stories marked as completed in [Pivotal Tracker][sauron-pivotal], we've spent quite a bit more time working on project [Sauron][sauron-repository]. Given that we're not all always in the office, we decided that we would allow individuals to work on the project and submit Github [pull requests][sauron-pull-requests] from a branch for review by the others. This means we can continue to use the development of the app as a learning exercise, but still make progress when we're not all in the same room. Tom wrote a [handy script][merge-pull-request] that allows you to merge a pull request programatically.
+
+<img src="/images/blog/mock-object-diagram.gif" style="width: 100%" />
 
 Now that we have an ActiveRecord-derived class in the project, it's been interesting to discuss how best to test the logic in this class as well as code that makes use of the ActiveRecord API. Chris, James A & I spent a while chatting about whether we should [mock code we don't own][dont-mock-third-party-libraries] and whether the [mock commands, stub queries][mock-commands-stub-queries] heuristic is useful. I found focussing on a concrete bit of code rather than talking in the abstract very helpful. More recently there's been some discussion about things like the [Single Responsibility Principle] and whether its better to return an Enumerator rather than expose a collection. All good stuff.
 
@@ -46,6 +50,8 @@ Chocolate
 ---------
 
 The short week was nicely rounded off by the appearance of Easter eggs on all our desks courtesy of our very kind visiting [prospective author][computation-book], Tom Stuart.
+
+<img src="/images/blog/easter-eggs.png" style="width: 100%"/>
 
 That's all, folks.
 
