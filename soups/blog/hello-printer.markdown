@@ -57,7 +57,7 @@ I didn't want to spend too much money (not having that much of an idea of why I 
 
 The first didn't come with a power supply, or paper, or the extremely proprietary cables required to communicate with it. I managed to hack a connection for a power supply on it, but my soldering skills were no match for the surface-mounted custom serial interface.
 
-The second had a much more amenable communication port, but also came without a power supply, and asked for 20 volts at 2 amps to be delivered to it via yet another impossible-to-source DIN plug. I made less progress with it than I did with the first printer; I came close to splicing an old laptop power supply directly onto its PCB, but I am at best an electronics amateur and I know that 20 vols and 2 amps is not a trivial amount of electricity.
+The second had a much more amenable communication port, but also came without a power supply, and asked for 20 volts at 2 amps to be delivered to it via yet another impossible-to-source DIN plug. I made less progress with it than I did with the first printer; I came close to splicing an old laptop power supply directly onto its PCB, but I am at best an electronics amateur and I know that 20 volts and 2 amps is not a trivial amount of electricity.
 
 This wasn't doing much to support my desire to "finish it", and so I put it all in a cupboard for a few months.
 
