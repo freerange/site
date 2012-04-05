@@ -194,7 +194,7 @@ I also realised some of the implications of the architectural choices I'd made:
 
 * It would be possible to support _multiple printers_ in the same backend server, by sending URLs for printing to a printer-specific endpoint (i.e. posting the URL to /printer/123)
 * Responsibility for content was completely delegated to service software that simply had to provide URLs
-* Data for printing could therefore come from multiple, completely independent services that didn't need to know anything about each other, only the URLs they should post content to
+* Data for printing could therefore come from multiple, completely independent services that didn't need to know anything about each other, only the URLs to which they should post content.
 
 And then, most interestingly to me:
 
