@@ -103,7 +103,7 @@ With this in place, I could now print any image that I generated on my computer,
 
 ![Full-width graphics. I drew this in Fireworks to get a feel for different line weights and font sizes](/images/printer/8-graphics-test.jpg)
 
-### Moving data more easily
+## Moving data more easily
 
 But that's not really ideal for a simple, reusable tool -- having to handle an SD card every time you want to print something is cumbersome at best. The fact that I'm already using the *Ethernet* shield clearly pointed towards the obvious thing to do: send the data over the network to the SD card, before printing the data from it as before.
 
@@ -123,7 +123,7 @@ Slowly but surely I was translating my goal towards the domain I knew best. From
 
 Now I just needed a nicer way to generate bitmaps for printing than my clumsy Fireworks efforts.
 
-### Generating images
+## Generating images
 
 I was already using [ImageMagick](http://www.imagemagick.org/) to translate images into the bitmap format for the printer, so I started to investigate using [RVG](http://www.imagemagick.org/RMagick/doc/rvgtut.html) (which [RMagick](http://rmagick.rubyforge.org/) provides) to generate graphics for printing.
 
@@ -145,7 +145,7 @@ This was great, but RVG isn't exactly easy to generate, or fun to write. Complex
 
 But more importantly, it wasn't very useful for printing text.
 
-### Dynamic content
+## Dynamic content
 
 If I ever wanted to print something dynamic like, say, the day of the week, then there was no way to know if the changing length of that string would be too long for the printout. RVG didn't know anything about 'flowing text', which is what causes long sentences to wrap to the next line when you're typing a sentence in any text editor.
 
@@ -244,9 +244,7 @@ But if you _are_ interested in collaboratively exploring what might be possible 
 
 ## (Little Printer)
 
-Some of you will definitely be wondering about how this relates to [Little Printer](http://bergcloud.com/littleprinter). While it's clear that I've been interested in "whimsical thermal printing" for some time ([Timmy][] was built a year ago, long before Little Printer was announced), it's obvious that the open source project I am presenting here shares some common aspects with [BERG](http://berglondon.com)'s own approach.
-
-At BERG's request I've avoided making references to Little Printer to avoid confusing anyone, and naturally all of the content they are producing is proprietary.
+Some of you will definitely be wondering about how this relates to [Little Printer](http://bergcloud.com/littleprinter). While it's clear that I've been interested in "whimsical thermal printing" for some time ([Timmy][] was built a year ago, long before Little Printer was announced), it's obvious that the open source project I am presenting here shares some common aspects with [BERG](http://berglondon.com)'s own approach. At their request I've avoided making references to Little Printer to avoid confusing anyone.
 
 That said, for what it's worth: **I believe the two projects complement each other perfectly.**
 
@@ -256,7 +254,7 @@ What I have presented here shares none of those qualities.
 
 The Arduino is not the most sturdy or fool-proof device; nor is the software I have written to run on it. It's functionality is limited by memory constraints, and I make no guarantees about its reliability either. _Caveat emptor!_ The services provided by the backend server software I have written are similarly provided without guarantee of continuity or functionality.
 
-### Lets finish with a questionable analogy
+## Let's explore
 
 If internet printing is an island, then Little Printer is like a lighthouse, bright and strong and with a clear and definite purpose.
 
