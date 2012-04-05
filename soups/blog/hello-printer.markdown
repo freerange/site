@@ -244,9 +244,11 @@ But if you _are_ interested in collaboratively exploring what might be possible 
 
 ## (Little Printer)
 
-The elephant in the room is, of course, [Little Printer](http://bergcloud.com/littleprinter). While it's clear that I've been interested in "whimsical thermal printing" for some time ([Timmy][] was built a year ago, long before Little Printer was announced), it's obvious that the open source project I am presenting here shares some common aspects with [BERG](http://berglondon.com)'s own approach.
+Some of you will definitely be wondering about how this relates to [Little Printer](http://bergcloud.com/littleprinter). While it's clear that I've been interested in "whimsical thermal printing" for some time ([Timmy][] was built a year ago, long before Little Printer was announced), it's obvious that the open source project I am presenting here shares some common aspects with [BERG](http://berglondon.com)'s own approach.
 
-For what it's worth: **I believe the two projects complement each other perfectly.**
+At BERG's request I've avoided making references to Little Printer to avoid confusing anyone, and naturally all of the content they are producing is proprietary.
+
+That said, for what it's worth: **I believe the two projects complement each other perfectly.**
 
 Little Printer is going to be a _beautiful_ object, and I certainly want one in my home. The attention to detail apparent in both the artefact and the content in delivers is _amazing_. The electronics and software have been rigorously tested, and is commercially supported. The software running and surrounding [BERG Cloud](http://bergcloud.com) will make it trivial to subscribe to new, high-quality content with almost no effort.
 
