@@ -47,7 +47,7 @@ There's only one thing I wanted to *achieve*, and that was to "finish it", whate
 
 ## Beyond Timmy
 
-Since Timmy, I decided it would be good to have my own printer to play with, rather than relying too much on the original (which was on loan from [RIG](http://www.riglondon.com)-and-[Newspaper-Club](http://www.newspaperclub.com/)'s [Tom Taylor](http://tomtaylor.co.uk/)).
+Since Timmy, I decided it would be good to have my own printer to play with, rather than relying too much on the original (which was on loan from [RIG](http://www.riglondon.com)-and-[Newspaper Club](http://www.newspaperclub.com/)'s [Tom Taylor](http://tomtaylor.co.uk/)).
 
 So I bought a couple on eBay.
 
@@ -93,7 +93,7 @@ The specific printer would only print up to 255 rows of dots, and so I needed to
 
 ### Out of memory
 
-However, the Arduino only has a limited amount of flash memory (normally around 32k), which meant that the largest full-width image that could be compiled into the program was around 450 rows high.
+However, the Arduino only has a limited amount of flash memory (normally around 32k), which meant that the largest full-width image that could be compiled into the program was around 450 rows high. (That's why the above image looks like it's missing one half - I cropped it to fit in the Arduino's memory.)
 
 That was a limitation that I wasn't happy with. Obviously some external storage for the data would be required, and thankfully the [Ardunio Ethernet shield](http://arduino.cc/en/Main/ArduinoEthernetShield) comes with a MicroSD reader built in. I added the ability to convert images into files containing the right bits for the printer, and wrote an Arduino library to print bitmaps using those files (and subsequently [from any Stream object](https://github.com/lazyatom/Thermal-Printer-Library/commit/82dacbdd6c3ea6a32fe123cb1ff17b6810a4c330)).
 
@@ -113,7 +113,7 @@ I became familiar with [Wireshark](http://www.wireshark.org), watching the low-l
 
 Eventually, after a lot of amateur effort and stubbornness, I managed to put a simple HTTP client on the Ardunio that would reliably download the data from my computer, save it onto the SD card, and then start printing.
 
-If the size of the data downloaded didn't match the size indicated by the HTTP headers, then I would be alerted by a red LED that there was still something unreliable in the stack. I haven't seen the red LED for some time now.
+If the size of the data downloaded didn't match the size indicated by the HTTP headers, then I would be alerted by a red LED that there was still something unreliable in the stack. Thankfully, I haven't seen the red LED for some time now.
 
 ### Translating the problem
 
@@ -159,7 +159,7 @@ Even better, it's *far* simpler to design content in HTML, CSS and Javascript th
 
 ### Teaching the computer to surf the web
 
-When doing client work that involves javascript, we often test it using a "headless browser", which is roughly speaking a web browser that doesn't actually display its windows on your computer. We've had a lot of success with [PhantomJS](http://phantomjs.org), and as it happens it is quite easy for it to load a webpage and save what would be displayed as an image.
+When doing client work that involves javascript, we often test it using a "headless browser", which is roughly speaking a web browser that doesn't actually display its windows on your computer. We've had a lot of success with [PhantomJS](http://phantomjs.org), and as it happens it is quite easy for it to load a webpage and [save what would be displayed as an image](http://code.google.com/p/phantomjs/wiki/QuickStart#Rendering).
 
 With a little bit of tweaking to fix the browser width at 384 pixels, and some [helpful stylesheets to make prototyping content for printing at that size easier](http://printer.gofreerange.com/sample.html), it all worked. All that was required to print something was an HTTP page which could be dispatched through the existing software and finally be printed.
 
@@ -177,7 +177,7 @@ I started to make the weather data "live" using the [Wunderground API](http://ww
 
 I realised that I could remove all of the "content" logic from the code, because the HTML I was turning into an image didn't necessarily have to be served by the same software that was doing the printer processing.
 
-So... if there was another HTTP server that made a printer-suitable HTML page of weather data available at URL "_http://some-service_", then I could post the URL of that page to the backend server, and as long as PhantomJS could load the content at "_http://some-service_" then it would happily process the page into an image and the data would end up at the printer exactly as before.
+But this made me pause for thought. So... if there was another HTTP server that made a printer-suitable HTML page of weather data available at URL "_http://some-service_", then I could post the URL of that page to the backend server, and as long as PhantomJS could load the content at "_http://some-service_" then it would happily process the page into an image and the data would end up at the printer exactly as before.
 
 _Oh my_.
 
@@ -216,7 +216,7 @@ We am running [a backend server](http://printer.gofreerange.com), which our offi
 
 ![Simple messages send using a distributed architecure](/images/printer/21-simple-messages.jpg)
 
-I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://wee-mail.herokuapp.com) ([source code](http://github.com/freerange/wee-mail)) and [sending drawings](http://wee-paint.herokuapp.com) ([source code](http://github.com/freerange/wee-paint)). If you take a quick look at their source, and the [Printer API](http://printer.gofreerange.com/api), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them.
+I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail)) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint)). If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them.
 
 ![Simple pictures send using a distributed architecure](/images/printer/24-simple-drawings.jpg)
 
