@@ -3,7 +3,7 @@ Hello, Printer
 
 For over a year, I have been playing around with printing things out on a receipt printer. Recently, a few accidents of implementation gave more life to my tinkerings than I had originally intended.
 
-![Printer](/images/printer/14-breadboard.jpg)
+![Printer](/images/printer/14-breadboard.JPG)
 
 I'm ready to share, and I'd like you to get involved, and I will explain how [at the bottom of this post](#getting-a-printer). But before that -- if you can stand to wait -- indulge me in some introspection.
 
@@ -33,13 +33,13 @@ But in terms of software, it was a [hack][hack].
 
 Later, [I was asked to enhance Timmy][hackcircus] to do more -- to print instagrams, and conduct a pseudo-dialogue via tweets. I dusted off the hack, bodged some more bits on, and nursed Timmy's laptop brain for a day as it crashed and misbehaved and generally ran with all the reliability and ease that you might expect from a hacky, flaky piece of software.
 
-![Timmy printing instagrams](/images/printer/2-timmy-instagram.jpg)
+![Timmy printing instagrams](/images/printer/2-timmy-instagram.JPG)
 
 As someone in [the business of producing software](/), I don't get a lot of satisfaction out of long-lived hacks. Our clients tend to prefer software that runs reliably, and so it's not surprising that we tend to enjoy creating software that is robust and well-designed.
 
 Timmy was not robust. Or well designed.
 
-![Timmy breaking](/images/printer/1-timmy-error.jpg)
+![Timmy breaking](/images/printer/1-timmy-error.JPG)
 
 Rather than letting the hack fester in the back of my mind, I decided to try and polish it into a simple, reliable tool that I could pick up and use later, should the occasion arise.
 
@@ -67,7 +67,7 @@ But then I stumbled onto this little device, which seemed easy to power (5V) and
 
 Within a few minutes of plugging everything together, I could get the printer to spit out characters with ease, and without a tangle of wires ultimately leading to a kludge-filled script on a computer.
 
-![The simple Adafruit printer demo](/images/printer/3-adafruit-sample-printout.jpg)
+![The simple Adafruit printer demo](/images/printer/3-adafruit-sample-printout.JPG)
 
 ### An aside on thermal printing
 
@@ -85,7 +85,7 @@ I had already explored text-based printing with [Timmy][], but to produce someth
 
 The printer expected the dots for printing to be encoded directly as an array of bits in memory, and so I wrote some tools to generate the corresponding C arrays [from ASCII files](https://github.com/lazyatom/Thermal-Printer-Library/commit/d5fdbf276cd1d67973231364a9d7704120bd36c9), and then [from images directly](https://github.com/lazyatom/Thermal-Printer-Library/commit/346206de3d1c86a833a59462146090976f4b2a05).
 
-![Some slightly more advanced graphics](/images/printer/5-slightly-more-advanced-graphics.jpg)
+![Some slightly more advanced graphics](/images/printer/5-slightly-more-advanced-graphics.JPG)
 
 The specific printer would only print up to 255 rows of dots, and so I needed to figure out how to [split larger graphics up into chunks which could be sent to the printer sequentially](https://github.com/lazyatom/Thermal-Printer-Library/commit/6010b56a01015d1674b8b12969a08f0b4706ee0c). Eventually, I was able to print graphics that were longer than 255 rows:
 
@@ -97,7 +97,7 @@ However, the Arduino only has a limited amount of flash memory (normally around 
 
 That was a limitation that I wasn't happy with. Obviously some external storage for the data would be required, and thankfully the [Ardunio Ethernet shield](http://arduino.cc/en/Main/ArduinoEthernetShield) comes with a MicroSD reader built in. I added the ability to convert images into files containing the right bits for the printer, and wrote an Arduino library to print bitmaps using those files (and subsequently [from any Stream object](https://github.com/lazyatom/Thermal-Printer-Library/commit/82dacbdd6c3ea6a32fe123cb1ff17b6810a4c330)).
 
-![Full-width graphics of more than 255 pixel rows](/images/printer/7-full-graphics.jpg)
+![Full-width graphics of more than 255 pixel rows](/images/printer/7-full-graphics.JPG)
 
 With this in place, I could now print any image that I generated on my computer, saved onto the SD card and put into the Arduino. Here's the long test image I cobbled together in Fireworks to explore different font sizes and line weights:
 
@@ -131,7 +131,7 @@ I was already using [ImageMagick](http://www.imagemagick.org/) to translate imag
 
 After a bit of trial and error, I had produced our company logo as a generated image; this could then be fed through the existing routines to convert it into bits, which the printer would then download as it was polling the server.
 
-![Go Free Range](/images/printer/10-rvg-logo.jpg)
+![Go Free Range](/images/printer/10-rvg-logo.JPG)
 
 Next, I "drew" a sudoku grid and printed that:
 
@@ -153,7 +153,7 @@ What I needed was some way of producing an image that I knew could be constraine
 
 After a bit of pondering, the solution to both problems became obvious. I use some software every day that expects to take content and reformat it at whatever width I specify: [the web browser](http://www.webkit.org/). When you adjust the width of your browser window, unless the document has specifically directed otherwise the text will reflow and wrap so that it fits perfectly within the visible window.
 
-![The first web-based printout](/images/printer/13-web-based-design.jpg)
+![The first web-based printout](/images/printer/13-web-based-design.JPG)
 
 Even better, it's *far* simpler to design content in HTML, CSS and Javascript than it is in RVG, and these were tools I was already familiar with. All I needed was a way to turn a webpage into an image, which I could then pop into the existing stack.
 
@@ -165,7 +165,7 @@ With a little bit of tweaking to fix the browser width at 384 pixels, and some [
 
 (At each step, the boundary of the system moved closer to something that I felt I could pick up later without having to hack it all together again. This was progress.)
 
-![Weather icons via Javascript and Canvas](/images/printer/15-canvas-icons.jpg)
+![Weather icons via Javascript and Canvas](/images/printer/15-canvas-icons.JPG)
 
 I added a simple HTML page to the backend server with some fake weather output using HTML5 canvas icons, and some twitter mentions marked up with HTML and CSS, and printed that about thirty times.
 
@@ -185,7 +185,7 @@ _Oh my_.
 
 I drew this on the whiteboard:
 
-![Distributed, federated architecture for printers](/images/printer/20-architecture.jpg)
+![Distributed, federated architecture for printers](/images/printer/20-architecture.JPG)
 
 In the last couple of weeks, it was reasonably easy to implement all of this:
 
@@ -218,7 +218,7 @@ We am running [a backend server](http://printer.gofreerange.com), which our offi
 
 I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail)) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint)). If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them.
 
-![Simple pictures send using a distributed architecure](/images/printer/24-simple-drawings.jpg)
+![Simple pictures send using a distributed architecure](/images/printer/24-simple-drawings.JPG)
 
 The software is still evolving; I have [some pretty clear ideas about what I'd like to do next](https://github.com/freerange/printer/issues), but I think it's ready for other people to play with too.
 
@@ -232,7 +232,7 @@ If you're interested in buying [all the bits you need, pre-configured and ready 
 
 Either way, the design is all open source so you are always free to build your own.
 
-![Maps](/images/printer/18-maps.jpg)
+![Maps](/images/printer/18-maps.JPG)
 
 ## Why?
 
