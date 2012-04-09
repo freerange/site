@@ -281,7 +281,6 @@ I am _sure_ you have better ideas for how to use an internet-enabled small print
 
 
 :render_as: Blog
-:kind: blog
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-04-06 13:55:00 +01:00
