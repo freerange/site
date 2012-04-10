@@ -216,7 +216,7 @@ In a nutshell, it's a software system that makes it:
 * **very easy to produce customised content for them**, and
 * **very *very* easy to share that content** with other people who also have small internet-connected printers.
 
-The [main project is here](/printer).
+The [main project page is here](/printer).
 
 You can run your own copies of [the software](http://github.com/freerange/printer) if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as your backend server and your content service have publicly-accessible URLs, there's nothing (other than your explicit choice) using your service to generate content for their own printers.
 
