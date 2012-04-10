@@ -231,13 +231,15 @@ We are running [a backend server](http://printer.gofreerange.com), which our off
 
 I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail), see picture above) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint), see picture below).
 
-If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them.
+If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them. If it isn't, [please let me know!](https://github.com/freerange/printer/issues/new?title=I+am+confused+about+building+services)
 
 I've also written a very simple example of an automated content publisher, which "delivers" [a weather forecast](http://printer-weather.herokuapp.com) to a printer at a fixed time.
 
 (None of these applications are really more than demonstrations to clarify how I imagine things could fit together.)
 
 ![Simple pictures send using a distributed architecure](/images/printer/24-simple-drawings.JPG)
+
+### Next steps
 
 The backend software is still evolving; I have [some pretty clear ideas about what I'd like to do next](https://github.com/freerange/printer/issues), but I think it's ready for other people to play with too.
 
