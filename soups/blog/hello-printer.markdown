@@ -5,13 +5,13 @@ For over a year, I have been playing around with printing things out on a receip
 
 ![Printer](/images/printer/14-breadboard.JPG)
 
-I'm ready to share, and I'd like you to get involved, and I will explain how [at the bottom of this post](#getting-a-printer). But before that -- if you can stand to wait -- indulge me in some introspection.
+I'm ready to share, and I'd like you to get involved, and I will explain how [at the bottom of this post](#skip-to-the-end). But before that -- if you can stand to wait -- indulge me in some introspection.
 
 I am often asked *"why are you doing this printing stuff?"* or *"what is this all for?"*. These are good questions. I struggle to answer them. The truth is: **I don't really know why**. I wish I could tell you. I can't even really justify it. There may be no practical purpose for this.
 
 But: I have a hunch that there's something interesting to be explored.
 
-If you're really impatient, you can [skip to the end](#getting-a-printer) to find out what I've done, but first I wanted to explain how I got here from essentially _no-clue-what-I-was-trying-to-do_.
+If you're really impatient, you can [skip to the end](#skip-to-the-end) to find out what I've done, but first I wanted to explain how I got here from essentially _no-clue-what-I-was-trying-to-do_.
 
 It's important to me that you understand that **there was no grand plan**. I didn't have any sort of vision. The solution to each problem pointed in a fairly straightforward way to the solution of the next problem, and so the evolution of my original goal into the idea I'll describe at the end is just one simple step after another.
 
@@ -208,15 +208,28 @@ If you and I both want weather forecasts to appear on our printers, but my print
 
 And so that's where we are now.
 
-## The software
+## What it is ## {#skip-to-the-end}
 
-[Here's the code](http://github.com/freerange/printer); it's open source and you can do what you like with it. You can also [build your own printer](https://github.com/freerange/printer/wiki/Making-your-own-printer) - see below.
+In a nutshell, it's a software system that makes it:
 
-We are running [a backend server](http://printer.gofreerange.com), which our office printer is connected to.
+* **easy to build your own small internet-connected printers**,
+* **very easy to produce customised content for them**, and
+* **very *very* easy to share that content** with other people who also have small internet-connected printers.
+
+You can run your own copies of the software if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as your backend server and your content service have publicly-accessible URLs, there's nothing (other than your explicit choice) preventing other people from making use of whatever content you develop.
+
+We are running [a backend server](http://printer.gofreerange.com), which our office printer is connected to. If you do make a printer ([see below](#getting-a-printer)), you're more than welcome to use it rather than running your own.
 
 ![Simple messages send using a distributed architecure](/images/printer/21-simple-messages.jpg)
 
-I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail)) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint)). If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them.
+
+### The software
+
+[Here's the code](http://github.com/freerange/printer); it's open source and you can do what you like with it.
+
+I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail), see picture above) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint), see picture below).
+
+If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them.
 
 I've also written a very simple example of an automated content publisher, which "delivers" [a weather forecast](http://printer-weather.herokuapp.com) to a printer at a fixed time.
 
