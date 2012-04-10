@@ -218,8 +218,6 @@ In a nutshell, it's a software system that makes it:
 
 The [main project page is here](/printer).
 
-You can run your own copies of [the software](http://github.com/freerange/printer) if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as your backend server and your content service have publicly-accessible URLs, there's nothing (other than your explicit choice) using your service to generate content for their own printers.
-
 We are running [a backend server](http://printer.gofreerange.com), which our office printer is connected to. If you do make a printer ([see below](#getting-a-printer)), you're more than welcome to use it rather than running your own.
 
 ![Simple messages send using a distributed architecure](/images/printer/21-simple-messages.jpg)
@@ -228,6 +226,8 @@ We are running [a backend server](http://printer.gofreerange.com), which our off
 ### The software
 
 [Here's the code](http://github.com/freerange/printer); it's open source and you can do what you like with it.
+
+You can run your own copies of [the software](http://github.com/freerange/printer) if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as your backend server and your content service have publicly-accessible URLs, there's nothing (other than your explicit choice) using your service to generate content for their own printers.
 
 I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail), see picture above) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint), see picture below).
 
