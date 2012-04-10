@@ -228,7 +228,7 @@ We are running [a backend server](http://printer.gofreerange.com), which our off
 
 [Here's the code](http://github.com/freerange/printer); it's open source and you can do what you like with it.
 
-You can run your own copies of [the software](http://github.com/freerange/printer) if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as your backend server and your content service have publicly-accessible URLs, there's nothing (other than your explicit choice) using your service to generate content for their own printers.
+You can run your own copies of [the software](http://github.com/freerange/printer) if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as backend servers and content services have publicly-accessible URLs, there's nothing preventing other people using any available service to generate content for their own printers.
 
 I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail), see picture above) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint), see picture below).
 
@@ -285,7 +285,9 @@ Rather than being limited to text-based output, far richer designs can be easily
 
 And, of course, there is the upcoming [Little Printer](http://bergcloud.com/littleprinter) from [BERG](http://berglondon.com), available some time this year.
 
-For what it's worth, *I believe the two projects complement each other perfectly*. Little Printer is a commercial, polished and supported product, with a huge amount of attention to detail going in to both the hardware and the content that it produces. This project is open source, and well suited to collaboratively explore what might be interesting to print in a more undirected and open-ended way.
+For what it's worth, *I believe the two projects complement each other perfectly*. Little Printer is a commercial, polished and supported product, with a huge amount of attention to detail going in to both the hardware and the content that it produces.
+
+[This project](/printer) is open source, and well suited to collaboratively explore what might be interesting to print in a more undirected and open-ended way.
 
 ## Let's explore
 
