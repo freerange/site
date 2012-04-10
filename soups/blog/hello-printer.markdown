@@ -231,7 +231,7 @@ You can run your own copies of [the software](http://github.com/freerange/printe
 
 I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail), see picture above) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint), see picture below).
 
-If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them. If it isn't, [please let me know!](https://github.com/freerange/printer/issues/new?title=I+am+confused+about+building+services)
+If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them, and -- **most importantly** -- write your own content services for the stuff *you* would like to print. If it isn't clear, [please let me know!](https://github.com/freerange/printer/issues/new?title=I+am+confused+about+building+services)
 
 I've also written a very simple example of an automated content publisher, which "delivers" [a weather forecast](http://printer-weather.herokuapp.com) to a printer at a fixed time.
 
