@@ -212,7 +212,7 @@ And so that's where we are now.
 
 In a nutshell, it's a software system that makes it:
 
-* **easy to build your own small internet-connected printers**,
+* **easy to [build your own small internet-connected printers](https://github.com/freerange/printer/wiki/Making-your-own-printer)**,
 * **very easy to produce customised content for them**, and
 * **very *very* easy to share that content** with other people who also have small internet-connected printers.
 
