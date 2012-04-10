@@ -193,6 +193,7 @@ In the last couple of weeks, it was reasonably easy to implement all of this:
 * Allow posting of HTML content itself to the 'backend server', which would be rendered directly
 * Separating each of the parts of the rendering into its their own queues - turning the page into an image, turning the image into bits
 * Allowing some way to *preview* how some content might appear on the printer, by generating the page image and serving that from the 'backend server'.
+* Extract the printer logic out of the Arduino, and back into the server, making it easier to support other printers (maybe you have one of [those CBM 231s](http://microprinter.pbworks.com/)?)
 
 I also realised some of the implications of the architectural choices I'd made:
 
