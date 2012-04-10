@@ -141,7 +141,7 @@ To make it all dynamic, I generated the RVG from within the 'backend server' tha
 
 ![Endless sudoku](/images/printer/12-sudoku.jpg)
 
-This was great, but RVG isn't exactly easy to generate, or fun to write. Complex shapes and lots of text had to be laid out in a painstakingly-precise way.
+This was great, but RVG isn't exactly easy to generate, or fun to write. Complex shapes had to be laid out in a painstakingly-precise way.
 
 But more importantly, it wasn't very useful for printing text.
 
