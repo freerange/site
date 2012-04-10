@@ -212,7 +212,7 @@ And so that's where we are now.
 
 [Here's the code](http://github.com/freerange/printer); it's open source and you can do what you like with it. You can also [build your own printer](https://github.com/freerange/printer/wiki/Making-your-own-printer) - see below.
 
-We am running [a backend server](http://printer.gofreerange.com), which our office printer is connected to.
+We are running [a backend server](http://printer.gofreerange.com), which our office printer is connected to.
 
 ![Simple messages send using a distributed architecure](/images/printer/21-simple-messages.jpg)
 
