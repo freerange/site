@@ -284,7 +284,7 @@ Rather than being limited to text-based output, far richer designs can be easily
 
 And, of course, there is the upcoming [Little Printer](http://bergcloud.com/littleprinter) from [BERG](http://berglondon.com), available some time this year.
 
-For what it's worth, *I believe the two projects complement each other perfectly*. Little Printer is a commercial, polished and supported product, with a huge amount of attention to detail going in to both the hardware and the content that it produces. This project is open source, and well suited to collaboratively explore what might be interesting to print.
+For what it's worth, *I believe the two projects complement each other perfectly*. Little Printer is a commercial, polished and supported product, with a huge amount of attention to detail going in to both the hardware and the content that it produces. This project is open source, and well suited to collaboratively explore what might be interesting to print in a more undirected and open-ended way.
 
 ## Let's explore
 
