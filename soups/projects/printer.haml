@@ -36,8 +36,12 @@
 
   %p
     Read more about it in
-    %a{:href => "/hello-printer"}
-      the introductory blog post
+    = succeed "," do
+      %a{:href => "/hello-printer"}
+        the introductory blog post
+    in
+      %a{:href => "https://github.com/freerange/printer/wiki"}
+        the wiki
     or go
     = succeed "." do
       %a{:href => "https://github.com/freerange/printer"}
