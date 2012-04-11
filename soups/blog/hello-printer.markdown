@@ -5,11 +5,11 @@ For over a year, I have been playing around with printing things out on a receip
 
 ![Printer](/images/printer/14-breadboard.JPG)
 
-**TL;DR**: In a nutshell, I've stumbled upon a software system that makes it:
+**TL;DR**: In a nutshell, I've accidentally built a software system that makes it easy for **YOU** to:
 
-* **easy to [build your own small internet-connected printers](https://github.com/freerange/printer/wiki/Making-your-own-printer)**,
-* **very easy to produce customised content for them**, and
-* **very *very* easy to share that content** with other people who also have small internet-connected printers.
+* [build your own small internet-connected printers](https://github.com/freerange/printer/wiki/Making-your-own-printer),
+* [produce customised content](https://github.com/freerange/printer/wiki/Building-content-services) for them, and
+* [share that content](https://github.com/freerange/printer/wiki/Architecture) with other people who also have small internet-connected printers.
 
 I'm ready to share, and I'd like you to get involved, and I will explain how [at the bottom of this post](#skip-to-the-end). But before that -- if you can stand to wait -- indulge me in some introspection.
 
@@ -221,11 +221,11 @@ And so that's where we are now.
 
 ## What it is ## {#skip-to-the-end}
 
-In a nutshell, it's a software system that makes it:
+As I mentioned at the top of this meandering prose, it's a software system that makes it easy for **YOU** to:
 
-* **easy to [build your own small internet-connected printers](https://github.com/freerange/printer/wiki/Making-your-own-printer)**,
-* **very easy to produce customised content for them**, and
-* **very *very* easy to share that content** with other people who also have small internet-connected printers.
+* [build your own small internet-connected printers](https://github.com/freerange/printer/wiki/Making-your-own-printer),
+* [produce customised content](https://github.com/freerange/printer/wiki/Building-content-services) for them, and
+* [share that content](https://github.com/freerange/printer/wiki/Architecture) with other people who also have small internet-connected printers.
 
 The [main project page is here](/printer).
 
