@@ -287,7 +287,7 @@ It's also worth mentioning some "historical" printers of note. The printer that 
 
 There's even a [wiki](http://microprinter.pbworks.com/) that has sprung up around the CBM 231 printers that people commonly used.
 
-What most clearly distinguishes this project from all of the printers above -- [Timmy][] included -- is the ease with which independent people can create *great-looking content* for these printers.
+What most clearly distinguishes this project from all of the printers above -- [Timmy][] included -- is the ease with which independent people can create *great-looking content* for these printers, and *share* that content with other interested people.
 
 Rather than being limited to text-based output, far richer designs can be easily constructed using standard web tools like HTML, CSS and Javascript. *And* you don't need to care about the printing infrastructure -- you can just focus on making the content as useful and interesting as possible.
 
