@@ -215,7 +215,7 @@ And then, most interestingly to me:
 
 If you and I both want weather forecasts to appear on our printers, but my printer was polling the backend at _http://server1_, and your printer was polling _http://server2_, then we just need the weather service to know that it should post the weather data for me to my server, and the weather data for you to your server. **There's no need for a central backend server if everything is dealing with URLs.**
 
-If you'd like to learn more about the architecture, [take a look at the wiki](https://github.com/freerange/printer/wiki/Architecture)
+If you'd like to learn more about the architecture, [take a look at the wiki](https://github.com/freerange/printer/wiki/Architecture).
 
 And so that's where we are now.
 
