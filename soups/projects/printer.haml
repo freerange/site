@@ -13,29 +13,25 @@
     = succeed "." do
       %a{:href => "/hello-printer"}
         the introductory blog post
-    In a nutshell, it's a software system that makes it:
+    In a nutshell, it's a software system that makes it easy for <b>YOU</b> to:
 
   %p
     &mdash;
     = succeed "," do
-      %b
-        easy to
-        %a{:href => "https://github.com/freerange/printer/wiki/Making-your-own-printer"}
-          build your own small internet-connected printers
+      %a{:href => "https://github.com/freerange/printer/wiki/Making-your-own-printer"}
+        build your own small internet-connected printers
 
   %p
     &mdash;
-    = succeed "," do
-      %b
-        very easy to produce customised content for them
-    and
+    produce
+    %a{:href => "https://github.com/freerange/printer/wiki/Building-content-services"}
+      customised content
+    for them, and
 
   %p
     &mdash;
-    %b
-      very
-      %i very
-      easy to share that content
+    %a{:href => "https://github.com/freerange/printer/wiki/Architecture"}
+      share that content
     with other people who also have small internet-connected printers.
 
   %p
