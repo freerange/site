@@ -5,6 +5,12 @@ For over a year, I have been playing around with printing things out on a receip
 
 ![Printer](/images/printer/14-breadboard.JPG)
 
+**TL;DR**: In a nutshell, I've stumbled upon a software system that makes it:
+
+* **easy to [build your own small internet-connected printers](https://github.com/freerange/printer/wiki/Making-your-own-printer)**,
+* **very easy to produce customised content for them**, and
+* **very *very* easy to share that content** with other people who also have small internet-connected printers.
+
 I'm ready to share, and I'd like you to get involved, and I will explain how [at the bottom of this post](#skip-to-the-end). But before that -- if you can stand to wait -- indulge me in some introspection.
 
 I am often asked *"why are you doing this printing stuff?"* or *"what is this all for?"*. These are good questions. I struggle to answer them. The truth is: **I don't really know why**. I wish I could tell you. I can't even really justify it. There may be no practical purpose for this.
