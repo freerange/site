@@ -187,11 +187,13 @@ But this made me pause for thought. So... if there was another HTTP server that 
 
 _Oh my_.
 
-## Printers and content: distributed and federated
+## Printers and content: [distributed and federated](https://github.com/freerange/printer/wiki/Architecture)
 
 I drew this on the whiteboard:
 
 ![Distributed, federated architecture for printers](/images/printer/20-architecture.JPG)
+
+(You can see a [much tidier and hopefully clearer architecture explanation on the wiki](https://github.com/freerange/printer/wiki/Architecture))
 
 In the last couple of weeks, it was reasonably easy to implement all of this:
 
@@ -212,6 +214,8 @@ And then, most interestingly to me:
 * Because the content service might be responsible for posting their URLs to the backend print server, there's no reason why there needs to be a single print server either. _You could all run your own_.
 
 If you and I both want weather forecasts to appear on our printers, but my printer was polling the backend at _http://server1_, and your printer was polling _http://server2_, then we just need the weather service to know that it should post the weather data for me to my server, and the weather data for you to your server. **There's no need for a central backend server if everything is dealing with URLs.**
+
+If you'd like to learn more about the architecture, [take a look at the wiki](https://github.com/freerange/printer/wiki/Architecture)
 
 And so that's where we are now.
 
@@ -234,7 +238,7 @@ We are running [a backend server](http://printer.gofreerange.com), which our off
 
 [Here's the code](http://github.com/freerange/printer); it's open source and you can do what you like with it.
 
-You can run your own copies of [the software](http://github.com/freerange/printer) if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as backend servers and content services have publicly-accessible URLs, there's nothing preventing other people using any available service to generate content for their own printers.
+You can run your own copies of [the software](http://github.com/freerange/printer) if you wish; doing so will not isolate you from the "cloud" of software build by other people. As long as [backend servers and content services have publicly-accessible URLs](https://github.com/freerange/printer/wiki/Architecture), there's nothing preventing other people using any available service to generate content for their own printers.
 
 I've written some extremely trivial (both in scope and implementation) content services for [sending messages](http://printer-mail.herokuapp.com) ([source code](http://github.com/freerange/printer-mail), see picture above) and [sending drawings](http://printer-paint.herokuapp.com) ([source code](http://github.com/freerange/printer-paint), see picture below).
 
