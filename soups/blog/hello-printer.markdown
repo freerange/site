@@ -314,7 +314,7 @@ I am _sure_ you have better ideas for how to use an internet-enabled small print
 * [More details](/printer)
 * [The wiki](http://github.com/freerange/printer/wiki)
 * [Our backend server](http://printer.gofreerange.com)
-* [Send a message to our printer](http://wee-printer.herokuapp.com/send/freerange)
+* [Send a message to our printer](http://printer-mail.herokuapp.com/send/freerange)
 * [Source code](http://github.com/freerange/printer)
 
 
