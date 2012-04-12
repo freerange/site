@@ -324,8 +324,9 @@ I am _sure_ you have better ideas for how to use an internet-enabled small print
 
 
 :render_as: Blog
+:kind: blog
 :written_with: Kramdown
 :author: james-adam
-:created_at: 2012-04-09 13:55:00 +01:00
-:updated_at: 2012-04-09 13:55:00 +01:00
+:created_at: 2012-04-12 10:24:00 +01:00
+:updated_at: 2012-04-12 10:24:00 +01:00
 :page_title: Hello, Printer
