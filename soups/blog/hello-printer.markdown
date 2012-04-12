@@ -157,6 +157,8 @@ If I ever wanted to print something dynamic like, say, the day of the week, then
 
 What I needed was some way of producing an image that I knew could be constrained at the maximum width of the printer (384 dots or pixels), and would intelligently format the content within those constraints.
 
+### Designing in the browser
+
 After a bit of pondering, the solution to both problems became obvious. I use some software every day that expects to take content and reformat it at whatever width I specify: [the web browser](http://www.webkit.org/). When you adjust the width of your browser window, unless the document has specifically directed otherwise the text will reflow and wrap so that it fits perfectly within the visible window.
 
 ![The first web-based printout](/images/printer/13-web-based-design.JPG)
