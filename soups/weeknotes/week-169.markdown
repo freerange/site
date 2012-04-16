@@ -21,6 +21,8 @@ That left just [Chris][] and [I][James A] holding the fort in the office. We lik
 
 Chris has been exploring a slightly different take on URL bookmarking with the hopes that it will help him return more efficiently to things he is "researching". He's also been honing his woodwork, and has impressed everyone with some excellent planter tables that he built from scratch over the weekend. It's great to have a fall-back career, and it looks like Chris has found his.
 
+![The table that Chris built](http://farm8.staticflickr.com/7240/6937484790_1b1a425110_z.jpg)
+
 We didn't do much work on [Sauron](http://github.com/freerange/sauron), for reasons which will become largely apparent below, but I did wonder during week 168 if we've become slightly bogged down in examining the minutiae of how we work, and lost track of some of the larger goals I was hoping we'd have made some progress on. That's something for us to talk about when I get back to the big smoke, probably.
 
 My week was dominated by work on [Printer][], which I'll mention below, but beyond that I made excellent use of the [new sofa](/week-167).
