@@ -1,7 +1,7 @@
 Week 169
 ========
 
-I've been back up in Scotland visiting family, and while I meant to write these notes on the train up to Scotland, the dire state of the wifi distracted me so much that I basically did nothing.
+I've been back up in Scotland visiting family, and while I meant to write these notes on the train, the dire state of the wifi distracted me so much that I basically did nothing.
 
 Apparently the fact that I can [commit to the site offline](http://github.com/freerange/site) is unimportant: no internet == no possibility of doing anything productive. Crazy.
 
