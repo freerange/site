@@ -8,11 +8,11 @@ Apparently the fact that I can [commit to the site offline](http://github.com/fr
 It was the quietest of weeks...
 -----------
 
-Half of the team were out of the office this week. [Tom][] spent a well-deserved week off relaxing in Cornwall. He's yet to resurface so I can only assume that he's either died of a clotted-cream induced heart attack, or decided rally around the [cause for independence](http://en.wikipedia.org/wiki/Cornish_nationalism). I'm sure we'll find out which soon.
+Half of the team were out of the office this week. [Tom][] spent a well-deserved week off relaxing in Cornwall. He's yet to resurface so I can only assume that he's either died of a clotted-cream induced heart attack, or decided to rally around the [cause for independence](http://en.wikipedia.org/wiki/Cornish_nationalism). I'm sure we'll find out which soon.
 
 ### Mocha
 
-[James M][] managed to [make a change to mocha](https://github.com/floehopper/mocha/pull/75) that he's been trying to make for a long time, which fixes a number of issues and means the build passes on ruby 1.9. Having achieved that, he promptly hopped over [La Manche](http://en.wikipedia.org/wiki/English_Channel) to Normandy for the rest of the week to induldge in cheese, wine, garlic, and narrowly avoid an accidental horse bourguignon.
+[James M][] managed to [make a change to mocha](https://github.com/floehopper/mocha/pull/75) that he's been trying to make for a long time, which fixes a number of issues and means the build passes on Ruby 1.9. Having achieved that, he promptly hopped over [La Manche](http://en.wikipedia.org/wiki/English_Channel) to Normandy for the rest of the week to induldge in cheese, wine, garlic, and narrowly avoid an accidental horse bourguignon.
 
 That left just [Chris][] and [I][James A] holding the fort in the office. We like to call ourselves _The A-Team_, but don't tell Tom or James M.
 
@@ -50,7 +50,7 @@ The response has been amazing. I was really concerned that people might not unde
 
 I'm really encouraged by the feedback to our [Printer Loan](/printer#borrow) and [Printer Kit](/printer#kit) surveys, and I hope that we'll be able to help get some people up and running with their own printers soon. I'm hoping that some of those people will have some great ideas for [content services](https://github.com/freerange/printer/wiki/wiki/Building-content-services) too.
 
-[Chris][] has already taken the initiative to build [a service that prints actual physical bookmarks from Amazon URLs](http://chrisroos.co.uk/blog/2012-04-12-bookmark-printing-service-for-the-go-free-range-printer-platform), with space to write notes.
+[Chris][] has already taken the initiative to build [a service that prints actual physical bookmarks from Amazon URLs](http://chrisroos.co.uk/blog/2012-04-12-bookmark-printing-service-for-the-go-free-range-printer-platform), with space to write notes. You can [see an example in the app itself](http://printer-bookmarks.heroku.com/).
 
 At the other side of the platform, our office friend [Ben Griffiths](http://www.techbelly.com) wrote a simple [iOS printer simulator](https://github.com/techbelly/ios-printer) which you can use while you wait for your printer to be delivered:
 
