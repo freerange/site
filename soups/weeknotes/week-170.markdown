@@ -57,6 +57,7 @@ James A might not be around but pointed out that the [bootstrapd][] conference m
 [bootstrapd]: http://bootstrapd.com/
 
 :render_as: Blog
+:kind: blog
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2012-04-20 11:49:00 +01:00
