@@ -9,7 +9,7 @@ This week, our chosen project has been [Sauron](https://github.com/freerange/sau
 
 ## Henry Ford
 
-Allthough we've been concentrating on Sauron, it's not the only thing we've worked on.  In particular we've had a lot of interest about [printer](/printer), with several people requesting one.  To meet this demand, a small production line was set up in our office.  For most of the week, the smell of solder wafted through the air.
+Although we've been concentrating on Sauron, it's not the only thing we've worked on.  In particular we've had a lot of interest about [printer](/printer), with several people requesting one.  To meet this demand, a small production line was set up in our office.  For most of the week, the smell of solder wafted through the air.
 
 <img src="/images/blog/henry-ford.jpg" width="550px" />
 
