@@ -1,0 +1,34 @@
+%h2#tag
+  Recap
+
+.section.group
+  %p 
+    %a{:href => "http://github.com/freerange/recap"} Recap
+    is an opinionated set of
+    %a{:href => "https://github.com/capistrano/capistrano"} Capistrano
+    deployment recipes, designed to use git's strengths to deploy applications and websites in a fast and simple manner.
+
+  %h2 Features & Aims
+  %ul
+    %li 
+      %p Releases are managed using git.  All code is deployed to a single directory, and git tags are used to manage different released versions.  No `releases`, `current` or `shared` directories are created, avoiding unnecessary sym-linking.
+    %li
+      %p Deployments do the minimum work possible, using git to determine whether tasks need to run.  e.g. the `bundle:install` task only runs if the app contains a `Gemfile.lock` file and it has changed since the last deployment.
+    %li
+      %p Applications have their own user account and group, owning all of that application's associated files and processes.  This gives them a dedicated environment, allowing environment variables to be used for application specific configuration.  Tasks such as `env`, `env:set` and `env:edit` make setting and changing these variables easy.
+    %li
+      %p Personal accounts are used to deploy to the server, distinct from the application user.  The right to deploy an application is granted simply by adding a user to the application group.
+
+  %h2 Documentation
+  %p
+    For more information, the main documentation can be found at
+    = succeed "." do
+      %a{:href => "http://code.gofreerange.com/recap"} http://code.gofreerange.com/recap
+
+  %h2 Source
+  %p
+    The source code is available
+    = succeed "." do
+      %a{:href => "https://github.com/freerange/recap"} on Github
+
+:layout: timmy-layout
