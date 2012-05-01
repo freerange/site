@@ -248,7 +248,7 @@ I've also written a very simple example of an automated content publisher, which
 
 (None of these applications are really more than demonstrations to clarify how I imagine things could fit together.)
 
-If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them, and -- **most importantly** -- write your [own content services for the stuff *you* would like to print](https://github.com/freerange/printer/wiki/Building-content-services). If it isn't clear, [please let me know](mailto:printer@gofreerange.com)!
+If you take a quick look at their source, and the [Printer API](https://github.com/freerange/printer/wiki/API), then it should be quite clear how you can add your own printer (see below) to those services, or run your own copies of them, and -- **most importantly** -- write your [own content services for the stuff *you* would like to print](https://github.com/freerange/printer/wiki/Building-content-services). If it isn't clear, [please let me know](http://groups.google.com/group/gfr-printer)!
 
 ![Simple pictures send using a distributed architecure](/images/printer/24-simple-drawings.JPG)
 

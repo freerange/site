@@ -59,7 +59,7 @@ At the other side of the platform, our office friend [Ben Griffiths](http://www.
 <blockquote class="twitter-tweet tw-align-center"><p>If you don't have a Printer to connect to <a href="http://t.co/mxSuiB3f" title="http://gofreerange.com/printer">gofreerange.com/printer</a> - @<a href="https://twitter.com/beng">beng</a> has made an iOS version! <a href="https://t.co/UkgMEDOp" title="https://github.com/techbelly/ios-printer.git">github.com/techbelly/ios-…</a> <a href="http://t.co/2ekO3AmS" title="http://yfrog.com/odrydbp">yfrog.com/odrydbp</a></p>&mdash; Go Free Range (@freerange) <a href="https://twitter.com/freerange/status/190730380515606528" data-datetime="2012-04-13T09:17:20+00:00">April 13, 2012</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If you're building a printer, please do [get in touch](mailto:printer@gofreerange.com) -- I'd love to hear how you're getting on, and help out if you encounter any of the innumerable rough edges that the project currently has.
+If you're building a printer, please do [get in touch](http://groups.google.com/group/gfr-printer) -- I'd love to hear how you're getting on, and help out if you encounter any of the innumerable rough edges that the project currently has.
 
 Anyway, that was the week that was. Onwards to Week 170!
 
