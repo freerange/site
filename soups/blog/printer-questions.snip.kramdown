@@ -56,7 +56,7 @@ If you want to use a different kind of printer, you'll need to do two things:
 1. Define a new 'type' and change your Arduino to send that in the _Accept_ header (e.g. <tt>Accept: application/vnd.freerange.printer.TMT-88IV</tt>)
 2. Add a class that maps the image data into the specific commands for that printer (see [A2Raw](https://github.com/freerange/printer/blob/master/lib/print_processor/a2_raw.rb) for an example)
 
-I'm hoping to get a change to make the documentation around this more comprehensive, but there are already [quite a few things][issues] to investigate. If you're interesting in tackling this yourself, [get in touch on the mailing list][mailing list] and we'll do our best to help you out.
+I'm hoping to get a chance to make the documentation around this more comprehensive, but there are already [quite a few things][issues] to investigate. If you're interesting in tackling this yourself, [get in touch on the mailing list][mailing list] and we'll do our best to help you out.
 
 ## Q: ![I wonder how I make it a bit darker?](/images/blog/printer-questions/darker.jpg)
 
