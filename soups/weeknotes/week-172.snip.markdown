@@ -53,7 +53,7 @@ When a client engages our services, they aren't buying the guarantee of some fin
 Jupiter mission
 ---------------
 
-Now that the European Space Agency has committed to [sending probes to the moons of Jupiter](http://www.guardian.co.uk/science/2012/may/02/esa-mission-jupiters-moons-europa), we've ramped up our Space research division to get ready for our pitch to build the probes themselves.
+Now that the European Space Agency has committed to [sending probes to the moons of Jupiter](http://www.guardian.co.uk/science/2012/may/02/esa-mission-jupiters-moons-europa), we've ramped up our Space Research Division to get ready for our pitch to build the probes themselves.
 
 Obviously our software {l ethos} would guide our approach to building the probes; we're going to recommend that rather than spending millions of Euros upfront on planning and design, we start launching probes as soon as possible, and then use feedback from each one to iterate towards the ideal probe. It takes about six years to get to Jupiter, so once we can retrieve the probe, and obviously building in time for a [retrospective](http://en.wikipedia.org/wiki/Retrospective), we're looking at a 12-year iteration length. Seems fine to us.
 
