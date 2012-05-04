@@ -7,7 +7,7 @@ Our new-found focus on, well, _focusing_, continued in Week 172, but we have ver
 Mocha
 -----
 
-During moments of respite from chasing the chaotic agencies required to arrange a mortgage, {l james-mead, James M} has been doing more sterling work on [Mocha], solving the issues that people encounter when they try to do crazy stuff with stubs and mocks.
+During moments of respite from chasing the chaotic agencies required to arrange a mortgage, {l james-mead, James M} has been doing more sterling work on [Mocha][], solving the issues that people encounter when they try to do crazy stuff with stubs and mocks.
 
 This we someone has been attempting to serialise a stub within an ActiveRecord object. James has a [quick fix](https://github.com/floehopper/mocha/commit/d0569869da15fa9d3d86b18047630452a21906df), but there's more thinking to be done about whether or not Mocha should actually prevent you from trying to serialise stubs in the first place.
 
