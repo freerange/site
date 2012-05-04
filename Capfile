@@ -8,6 +8,6 @@ server 'gofreerange.com', :app
 
 namespace :deploy do
   task :restart do
-    run "cd #{deploy_to} && mkdir -p tmp && touch tmp/restart.txt"
+    as_app "mkdir -p tmp && touch tmp/restart.txt"
   end
 end
