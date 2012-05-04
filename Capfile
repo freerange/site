@@ -1,3 +1,13 @@
-require 'bundler/setup'
+require 'recap/recipes/ruby'
 
-load 'config/deploy' # remove this line to skip loading any of the default tasks
+set :application_user, 'freerange'
+set :application, 'gofreerange.com'
+set :repository, 'git@github.com:freerange/site.git'
+
+server 'gofreerange.com', :app
+
+namespace :deploy do
+  task :restart do
+    run "cd #{deploy_to} && mkdir -p tmp && touch tmp/restart.txt"
+  end
+end
