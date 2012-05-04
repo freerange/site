@@ -36,6 +36,20 @@ I also dropped of another couple of printers for [James Weiner](https://twitter.
 [![James Weiner's printer](http://distilleryimage10.instagram.com/c3d47690953311e1abb01231381b65e3_7.jpg)](http://instagr.am/p/KK1qQNDo6y/)
 
 
+Businessing & RFPs
+-----------
+
+We're lucky enough to have a reasonably steady stream of interest from potential clients, and we make a conscious effort to try and speak to everyone at least once. Even if it's unlikely that we'll actually develop software for someone, we hope that at the very least we can help them think through the problem they are trying to solve.
+
+One potential client approached us this week to ask if we'd be interested in participating in an _RFP_ (that's 'request for proposals') process.
+
+**We are suspicious of RFPs, because they tend to involve a lot of up-front design and decision-making**.
+
+We are really uncomfortable with the idea of selling clients on any vision of a 'finished' solution. We know that it's more effective to explore problems by building working software, since doing so will often lead us in a  direction different to the one we imagined at the outset.
+
+When a client engages our services, they aren't buying the guarantee of some finished product at some point in the future; they are buying our skills and expertise to get to the root of the problems the are trying to solve, and explore how we can use software to address to those problems.
+
+
 Jupiter mission
 ---------------
 
