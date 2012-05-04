@@ -29,7 +29,7 @@ At the weekend {l james-adam,I} went up to Sheffield to visit [Leila](http://fin
 
 [![Leila's printer](http://distilleryimage2.s3.amazonaws.com/d8cf1be8908011e1abb01231381b65e3_7.jpg)](http://instagr.am/p/J7cOtEGjKO/)
 
-It sounds like they've taken on some identities from Wuthering Heights - you can follow them on twitter at [@HeathcliffPrint](https://twitter.com/HeathcliffPrint) and [@CathyPrint](https://twitter.com/CathyPrint) on Twitter. I'm looking forward to [seeing what they print](http://www.flickr.com/photos/lovemaus/6995417290/in/photostream)!
+It sounds like they've taken on some identities from Wuthering Heights - you can follow them on Twitter at [@HeathcliffPrint](https://twitter.com/HeathcliffPrint) and [@CathyPrint](https://twitter.com/CathyPrint). I'm looking forward to [seeing what they print](http://www.flickr.com/photos/lovemaus/6995417290/in/photostream)!
 
 I also dropped of another couple of printers for [James Weiner](https://twitter.com/jamesweiner) and [Russell Davies](http://twitter.com/undermanager) on Friday. Exciting times in Printerland; I'm hoping we will learn a lot from them about what aspects of the overall system are confusing or unintuitive.
 
