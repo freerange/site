@@ -254,7 +254,7 @@ b],f.body["scroll"+b],f.documentElement["scroll"+b],f.body["offset"+b],f.documen
 })(jQuery);
 
 jQuery(document).ready(function($) {
-  $('.blog_entry').find('p, blockquote, li').widowFix();
+  $('.blog_entry').find('p, blockquote, li').widowFix(linkFix: false);
   $('a[href*=fnref]').footNoteLink($('#blog_nav').height() || 0);
   $('body').chronoClass();
 });
