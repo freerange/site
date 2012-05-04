@@ -1,7 +1,7 @@
 Recap 1.0
 =========
 
-It was way back in [week 138](/week-138) that we first mentioned tomafro-deploy.  Almost year later, and with a name change along the way, I'm pleased to announce the 1.0 release of [recap](https://github.com/freerange/recap).
+It was way back in [week 138](/week-138) that we first mentioned tomafro-deploy.  Almost a year later, and with a name change along the way, I'm pleased to announce the 1.0 release of [recap](https://github.com/freerange/recap).
 
 In case you don't know, recap is an opinionated set of Capistrano recipes, designed to replace the default capistrano deployment.  Its main features are:
 
