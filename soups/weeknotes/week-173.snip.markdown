@@ -92,7 +92,7 @@ Right, this is already way too long. I'm off to chill out by [gob-slamming a vio
 
 [Facetime]: http://www.apple.com/mac/facetime/
 [Ben Griffiths]: http://techbelly.com
-[Weathermob]: http://weathermob.com
+[Weathermob]: http://weathermob.me
 [Chromebook]: http://www.google.co.uk/intl/en_uk/chrome/devices/
 [pete-post]: http://digital.cabinetoffice.gov.uk/2012/04/30/delivering-inside-government/
 [pivotal-post]: http://pivotallabs.com/users/rdunlop/blog/articles/2103-how-gov-uk-keeps-calm-and-carries-on-with-tracker
