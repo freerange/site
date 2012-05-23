@@ -23,7 +23,7 @@ I wasn't sure if we'd continue to work on [Sauron][] this week, but after a chat
 Miscellany
 ------
 
-{l chris-roos,Chris} and {l james-mead,James M} performed a bit of server cleanup this week, including moving the last of our projects from our own [Jenkins][]-based CI to [Travis CI][], to which [we also donated][travis-donate] in the hope that it gets them closest to a commercial, supported product that we can use with our clients as well as our open source work. Jenkins is a fine bit of software, and definitely one of the more stable CI tools we've tried; it's just more convenient to have someone else responsible for it.
+{l chris-roos,Chris} and {l james-mead,James M} performed a bit of server cleanup this week, including moving the last of our projects from our own [Jenkins][]-based CI to [Travis CI][], to which [we also donated][travis-donate] in the hope that it gets them closer to a commercial, supported product that we can use with our clients as well as our open source work. Jenkins is a fine bit of software, and definitely one of the more stable CI tools we've tried; it's just more convenient to have someone else responsible for it.
 
 Chris also took the opportunity to rewrite [a little helper tool][freeagent-vat] which checks our FreeAgent accounts for any transactions which might have accidentally been explained with VAT.
 
