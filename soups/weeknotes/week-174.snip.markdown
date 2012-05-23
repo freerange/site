@@ -42,7 +42,7 @@ Sincerely,
 [Inside Government]: /inside-government
 [GDS]: http://digital.cabinetoffice.gov.uk
 [Jenkins]: http://jenkins-ci.org
-[Travis]: http://travis-ci.org
+[Travis CI]: http://travis-ci.org
 [travis-donate]: http://love.travis-ci.org 
 [freeagent-vat]: https://github.com/freerange/free_agent_sanity_check
 [Clojure]: http://clojure.org/
