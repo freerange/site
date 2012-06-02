@@ -5,7 +5,7 @@ Week 176
 
 I know you are doing your best to do [what we asked you to][harmonia-blog]. I know you're trying really hard. But seriously? Five in a row?
 
-At the moment there are four of us in the company, and there are (roughly) four tasks that Harmonia assigns each week. The number of different assignment permutations is 4!, or 4 * 3 * 2 * 1 == 24. So any particular combination has a 1/4! chance of being selected, and the same choice five times has a 1/(5*4!) chance, or 0.008333333333[^probability].
+At the moment there are four of us in the company, and there are (roughly) four tasks that Harmonia assigns each week. The number of different assignment permutations is 4!, or 4 * 3 * 2 * 1 == 24. So any particular combination has a 1/4! chance of being selected, and the same choice five times has a (1/4!)<sup>5</sup> chance, or 0.000000125586741[^probability].
 
 So either I am very lucky, or Harmonia's randomness is flawed, or something else. My intuition is that it's something else, probably in the region of how tasks are deallocated at the start of the week.
 
@@ -42,7 +42,7 @@ Right: [Harmonia][], let's have that chat...
 
 
 
-[^probability]: Strictly speaking this isn't true, since all I'm concerned with for the moment is the number of times *I* have been chosen, whereas the probability above describes the chance that *everyone* was picked for the same task. If we imagine that a four-sided die with our names on its faces was rolled on five independent occasions, the probability that one name would appear all five times is (1/4) * (1/4) * (1/4) * (1/4) * (1/4) == 1/1024 == 0.0009765625. The fact that this probability is lower than the one for all four assignments being identical over five weeks makes me think I've screwed up my maths :-/
+[^probability]: Strictly speaking this isn't true, since all I'm concerned with for the moment is the number of times *I* have been chosen, whereas the probability above describes the chance that *everyone* was picked for the same task. If we imagine that a four-sided die with our names on its faces was rolled on five independent occasions, the probability that one name would appear all five times is (1/4)<sup>5</sup> == 1/1024 == 0.0009765625.
 
 [^worse]: The phrase I've been using is "this should mean we make things worse _much_ more slowly".
 [Harmonia]: http://github.com/freerange/harmonia
