@@ -1,8 +1,7 @@
 A Twitter list of Scottish Ruby Conf's speakers and attendees. Also, a little help required.
 ====
 
-_TL,DR_: If you're going to [Scottish Ruby Conf][SRC2012] (or even if you're not) we'd love you to subscribe to our Twitter lists of [attendees][] and/or [speakers][] and let us know whether they're a useful way of observing the conference (by [email][] or on [twitter][]).
-
+_TL,DR_: If you're going to [Scottish Ruby Conf][SRC2012] (or even if you're not) we'd love you to subscribe to our Twitter lists of [attendees][] and/or [speakers][] and let us know (by [email][] or [twitter][]) whether they're a useful way of observing the conference.
 
 The Backchannel
 -------
@@ -19,7 +18,7 @@ Where are the locals going for dinner? What other peripheral gatherings might be
 Heylist?
 -------
 
-Tom mentioned the [Lanyrd][] + Twitter list idea we've been playing with in his [notes for week 179][].
+[Tom][] mentioned the [Lanyrd][] + Twitter list idea we've been playing with in his [notes for week 179][].
 
 It's named [Heylist][] and it is tasked with generating [Twitter lists][] of conference speakers and attendees. If you look at [Heylist's lists][Heylist] then you'll see that we've generated them for a couple of previous conferences and one upcoming conference; namely [Scottish Ruby Conf 2012][SRC2012].
 
@@ -31,8 +30,9 @@ At the moment, Heylist itself is simply [a script][code] that downloads the Scot
 How you can help
 --------
 
-So, if you're attending Scottish Ruby Conf, or just want to watch from the sidelines, it'd be great if you could subscribe to our list of [attendees][] and/or [speakers][] and let us know if you found them useful, interesting -- or neither! -- (by [email][] or on [twitter][]).
+So, if you're attending Scottish Ruby Conf, or just want to watch from the sidelines, it'd be great if you could subscribe to our list of [attendees][] and/or [speakers][] and let us know if you found them useful, interesting -- or neither!  Oh, and if there are other conferences coming up that might benefit from these lists, please let us know.  You can get in touch by [email][] or on [twitter][].
 
+[tom]: /tom-ward
 [email]: mailto:everyone@gofreerange.com
 [twitter]: http://twitter.com/freerange
 [Lanyrd]: http://lanyrd.com/
@@ -48,8 +48,9 @@ So, if you're attending Scottish Ruby Conf, or just want to watch from the sidel
 [bobross]: https://twitter.com/#!/search/bobross%20euruko
 
 :render_as: Blog
+:kind: blog
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2012-06-26 21:00:00 +01:00
-:updated_at: 2012-06-26 21:00:00 +01:00
+:updated_at: 2012-06-27 10:09:00 +01:00
 :page_title: A Twitter list of Scottish Ruby Conf's speakers and attendees. Also, a little help required.
