@@ -5,3 +5,5 @@ gem "kramdown"
 gem "rake"
 
 gem 'recap', :git => "git://github.com/freerange/recap.git"
+
+gem "ruby-prof"

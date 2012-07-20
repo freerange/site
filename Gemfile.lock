@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/lazyatom/vanilla-rb.git
-  revision: e7273eb3f321057f0266f502cf8c9e77cd6548a6
+  revision: eeb5403615c1718e85a1a3be257cf6e7769555e6
   specs:
     vanilla (1.17.2)
       BlueCloth (>= 1.0.0)
@@ -53,6 +53,7 @@ GEM
     rake (0.9.2.2)
     ratom (0.6.10)
       libxml-ruby (>= 1.1.2)
+    ruby-prof (0.11.2)
     soup (1.0.9)
     thor (0.15.0)
 
@@ -63,4 +64,5 @@ DEPENDENCIES
   kramdown
   rake
   recap!
+  ruby-prof
   vanilla!

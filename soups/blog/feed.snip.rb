@@ -6,6 +6,7 @@ class Feed < Dynasnip
       :domain => "gofreerange.com", # change this
       :title => "Go Free Range Blog", # and this,
       :matching => {:kind => "blog"}, # but probably not this, although you can if you like.
+      :count => 10
     })
   end
   self
