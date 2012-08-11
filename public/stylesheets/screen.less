@@ -1,7 +1,7 @@
 @import "_reset";
 @import "_grid";
 
-/* 
+/*
   Master styles for application.
 */
 
@@ -15,7 +15,7 @@ body {
 	font-family: @font_family;
 	font-size: 62.5%;
 }
-	
+
 /* links */
 
 a {
@@ -33,7 +33,7 @@ a:hover, a:active {
 }
 
 
-/* page structure 
+/* page structure
 --------------------------------------------- */
 
 body {
@@ -46,17 +46,17 @@ body {
 #page {
   padding: 2em;
   margin: 0;
-  position: relative;  
+  position: relative;
   margin: 0 auto;
   width: @page_width;
 }
 
-/* header 
+/* header
 --------------------------------------------- */
 
 #header {
-  
-  /* logo */  
+
+  /* logo */
   h1 {
     height: 229px;
     position: relative;
@@ -74,12 +74,12 @@ body {
       margin: 0;
       padding: 0;
     }
-    
+
     a:hover {
       opacity: 0.8;
     }
   }
-  
+
 }
 
 /* navigation */
@@ -89,10 +89,10 @@ ul.nav {
   padding: 0;
   position: fixed;
   z-index: 100;
-  width: 100%; 
+  width: 100%;
   top: 0;
   max-width: @page_width + 15em;
-  
+
   li {
     p {
       color: #777;
@@ -105,13 +105,13 @@ ul.nav {
         color: #555;
         font-style: normal;
       }
-      
+
       a:hover {
         color: @link_hover;
       }
     }
   }
-    
+
   li#link_blog {
     background: #f8faf6;
     background-color: rgba(248,250,246,0.9);
@@ -119,15 +119,15 @@ ul.nav {
     padding: 0 2.5em;
     border-bottom: 1px solid #fff;
   }
-  
+
 }
 
-/* main styles 
+/* main styles
 --------------------------------------------- */
 
 #content {
   padding-top: 3.1em;
-  
+
   h2 {
     font-size: 3em;
     line-height: 1.45em;
@@ -137,7 +137,7 @@ ul.nav {
     padding-top: 0.95em;
     padding-bottom: 0.4em;
   }
-  
+
   h2#tag {
     font-size: 3em;
     line-height: 1.68em;
@@ -150,12 +150,12 @@ ul.nav {
     text-align: center;
     font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
   }
-  
+
   h3 {
     font-size: 2em;
     line-height: 1.4em;
   }
-   
+
   h4 {
     font-size: 1.8em;
     line-height: 1.6em;
@@ -164,7 +164,7 @@ ul.nav {
   ul {
     list-style: disc;
   }
-  
+
   p {
     font-size: 1.6em;
     line-height: 1.6em;
@@ -203,13 +203,13 @@ ul.nav {
       margin-bottom: 2.2em;
     }
   }
-  
+
   ol#team {
     padding-top: 2.1em;
     padding-bottom: 0.2em;
     li.member {
       padding-bottom: 2.1em;
-      
+
       img {
         float: left;
         width: 148px;
@@ -219,19 +219,19 @@ ul.nav {
         border: 1px solid #999;
         margin-top: 0.8em;
       }
-      
+
       .info {
         float: right;
         width: 65%;
-        
+
         h3 {
           padding-bottom: 0em;
         }
-        
+
         p.links {
           padding-bottom: 1.9em;
         }
-        
+
         p {
           font-size: 1.4em;
           line-height: 1.8em;
@@ -246,52 +246,52 @@ ul.nav {
       padding-bottom: 0;
     }
   }
-  
+
   #contact {
     em {
       font-weight: bold;
     }
-    
+
     h3 {
       padding-bottom: 0.05em;
     }
-    
+
     #working-together {
       width: 50%;
       float: left;
       margin-right: 1.5em;
-      padding-top: 0.1em;    
+      padding-top: 0.1em;
       p {
         font-size: 14px;
         line-height: 1.8em;
       }
-      
+
       ul {
         padding-top: 0.3em;
         li {
           padding-bottom: 0;
-          
+
           p {
             padding-bottom: 1.8em;
           }
         }
       }
     }
-   
+
     #address-etc {
       width: 40%;
       float: right;
-      padding-top: 0.2em;    
-            
+      padding-top: 0.2em;
+
       p {
         font-size: 14px;
         line-height: 1.8em;
       }
-      
+
       .vcard {
         padding-top: .3em;
       }
-      
+
       p.twitter {
         padding-top: 1.8em;
       }
@@ -306,15 +306,15 @@ ul.nav {
 }
 
 body.mon {
-  
+
 }
 
 body.tue {
-  
+
 }
 
 body.wed {
-  
+
 }
 
 body.thu {
@@ -322,23 +322,23 @@ body.thu {
 }
 
 body.fri {
-  
+
 }
 
 body.sat {
-  
+
 }
 
 body.sun {
-  
+
 }
 
 body.blog {
   background: #fff;
   padding: 0;
-  
+
   @max_page_width: 102.5em;
-  
+
   #page {
     padding: 0;
     margin: 0 auto;
@@ -346,9 +346,9 @@ body.blog {
     min-width: 0;
     width: 100%;
     position: relative;
- 
+
     #header {
-      
+
       ul#blog_nav {
         background: #222;
         background-color: rgba(34,34,34,0.9);
@@ -358,7 +358,7 @@ body.blog {
         z-index: 100;
         max-width: @max_page_width;
         width: 100%;
-        
+
         li {
           p {
             color: #e6e6e6;
@@ -371,31 +371,31 @@ body.blog {
               color: #e6e6e6;
               font-style: normal;
             }
-            
+
             a:hover {
               color: @link_hover;
             }
           }
         }
-          
+
         li#link_home {
           float: left;
           padding-left: 2.5em;
         }
-        
+
         li#link_rss {
           float: right;
           padding-right: 2.5em;
         }
       }
-      
-      /* logo */  
+
+      /* logo */
       h1 {
         height: 229px;
         width: 316px;
         padding: 4em 0 0 0;
-        margin: 0;  
-        
+        margin: 0;
+
         a {
           display: block;
           background: url(/images/logo_blog.png) no-repeat 0 0;
@@ -405,10 +405,10 @@ body.blog {
           margin: 0;
           padding: 0;
           opacity: 0.7;
-          
-          -moz-transition : opacity .25s 0 linear; 
-          -o-transition : opacity .25s 0 linear; 
-          -webkit-transition : opacity .25s 0 linear; 
+
+          -moz-transition : opacity .25s 0 linear;
+          -o-transition : opacity .25s 0 linear;
+          -webkit-transition : opacity .25s 0 linear;
           transition : opacity .25s 0 linear;
         }
 
@@ -417,12 +417,12 @@ body.blog {
         }
       }
     }
-    
-    #content {    
+
+    #content {
       padding: 1.4em 2.5em 0 2.5em;
 
       .blog_entry {
-              
+
         p.article_date {
           text-transform: uppercase;
           font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -433,11 +433,11 @@ body.blog {
           line-height: 2.5em;
           margin-bottom: 5em;
         }
-        
+
         .content {
           padding-top: 0.7em;
         }
-        
+
         .author {
           float: right;
           min-width: 75px;
@@ -451,7 +451,7 @@ body.blog {
             display: block;
             line-height: 4.3em;
           }
-          
+
           img {
             width: 75px;
             height: 75px;
@@ -466,13 +466,13 @@ body.blog {
           font-size: 90%;
         }
       }
-      
+
       h1 {
         font-size: 4em;
         line-height: 1.27em;
         padding: 1px 0 1.2em 0;
       }
-      
+
       h2 {
         font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
         text-align: left;
@@ -480,40 +480,40 @@ body.blog {
         padding-top: 0.85em;
         line-height: 1.55em;
       }
-      
+
       h3 {
         padding: 0;
       }
-      
+
       p + h3 {
         line-height: 1em;
         padding-bottom: 0.2em;
       }
-      
+
       p + h4 {
         line-height: 1.3em;
         padding-bottom: 0.15em;
       }
-      
+
       h5 {
         font-size: 1.6em;
         line-height: 1.5em;
         padding-bottom: 0.1em;
       }
-      
+
       p {
         padding-bottom: 1.6em;
       }
-      
+
       ol {
         list-style: decimal;
       }
-      
+
       ul, ol {
         padding-top: 0em;
         padding-bottom: 2.7em;
         padding-left: 2.2em;
-                
+
         li {
           font-size: 1.5em;
           line-height: 1.7em;
@@ -534,7 +534,7 @@ body.blog {
           h3 {
             font-size: 1.5em;
             padding: 0 0 0em 0;
-            line-height: 1em; 
+            line-height: 1em;
           }
 
           h4 {
@@ -555,13 +555,13 @@ body.blog {
           }
         }
       }
-      
+
       blockquote {
         color: #444;
         font-size: 2em;
         line-height: 1.25em;
         padding: 1.15em 0 2.6em 4.8em;
-      
+
         p {
           font-size: 1em;
         }
@@ -569,65 +569,69 @@ body.blog {
 
       p {
         blockquote {
-          font-size: 1em; 
+          font-size: 1em;
         }
       }
-            
+
       pre {
         overflow-x: scroll;
       }
-      
+
       pre, code {
-        padding: 2.4em 1em;
         background: #fff;
         border: 1px solid #eee;
+      }
+
+      pre {
+        padding: 1.4em;
         margin-bottom: 2.6em;
         font-size: 1.4em;
         line-height: 2em;
         display: block;
       }
-            
+
       code {
         margin-bottom: 1.4em;
       }
-      
+
       pre code {
-        font-size: 1em;
-        line-height: 2.2em;
+        font-size: 1.4em;
+        line-height: 1.4em;
         background: transparent;
         border: none;
         padding: 0;
         display: inline;
       }
-      
+
       p code {
-        font-size: 1em; 
+        font-size: 1em;
+        padding: 0.3em;
       }
-      
+
       sup {
         font-size: x-small;
         vertical-align: super;
       }
-      
+
       #blog_articles {
         h2 {
           margin: 0 0 1.15em 0;
           padding: 0 0 0.35em 0;
           border-bottom: 1px solid #333;
         }
-        
+
         ol.blog_list {
           padding: 1.5em 0 0 2.5em;
           margin: 0;
 
           li {
             padding: 0 0 1.7em 0;
-            
+
             a {
               display: block;
               padding: 0 0;
               font-size: 1.2em;
-              line-height: 1em;      
+              line-height: 1em;
             }
 
             a:hover, a:active {
@@ -636,7 +640,7 @@ body.blog {
           }
 
           li:hover {
-          
+
           }
 
           li:last-child {
@@ -645,7 +649,7 @@ body.blog {
         }
 
       }
-      
+
       p.colophon {
         clear:both;
       }
@@ -661,13 +665,17 @@ body.blog {
       }
 
     } // #content
-  
+
+    .comments {
+      margin-top: 4em;
+    }
+
   }
-  
+
 }
 
 @media only screen and (min-width: 850px) {
-  
+
   body.blog {
     #page {
       #header {
@@ -676,26 +684,26 @@ body.blog {
             width: 12.5em;
           }
         }
-        
+
         h1 {
           height: 229px;
           width: 316px;
           padding: 0;
-          margin: 4em 0 0 -30px;  
+          margin: 4em 0 0 -30px;
           float: left;
         }
       }
-      
-      #content {    
+
+      #content {
         padding: 0;
-        
+
         .blog_entry {
           float: right;
           margin-top: -18.6em;
           width: 70.8%;
 
           p.article_date {
-            margin-bottom: 5em;  
+            margin-bottom: 5em;
           }
 
           .author {
@@ -704,11 +712,11 @@ body.blog {
           }
 
           .content {
-            width: 75.9%;        
+            width: 75.9%;
             padding-top: 0.6em;
           }
         }
-        
+
         #blog_articles {
           float: right;
           margin-top: -18.6em;
@@ -732,7 +740,7 @@ body.blog {
             line-height: 1.3em;
             padding-bottom: 0;
           }
-          
+
           /* Make the 'R' of recent sit on the grid line */
           h3:first-child {
             margin-left: -3px;
@@ -763,7 +771,7 @@ body.blog {
         }
       }
     }
-  }    
+  }
 }
 
 @import "_misc";

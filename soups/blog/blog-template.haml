@@ -1,15 +1,18 @@
 .blog_entry.group
   %p.article_date
-    ENTRY_DATE      
-  
+    ENTRY_DATE
+
   .author
     %img{:src => "ENTRY_AUTHOR_IMAGE", :alt => "ENTRY_AUTHOR"}
-    %span 
+    %span
       by ENTRY_AUTHOR
 
   .content
     ENTRY_CONTENT
-  
+
+  #comments.comments
+    {disqus-commenting}
+
 #article_links
   %h3 Recent
   %ul#recent_articles

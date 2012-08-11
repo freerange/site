@@ -68,10 +68,12 @@ td {
   outline: 0;
   background: transparent;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 :focus {
@@ -95,7 +97,7 @@ table {
   margin: 0;
   padding: 0;
 }
-/* 
+/*
   Master styles for application.
 */
 /* Global Variables */
@@ -111,13 +113,15 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
-a:link, a:visited {
+a:link,
+a:visited {
   outline: none;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   color: #db4a1d;
 }
-/* page structure 
+/* page structure
 --------------------------------------------- */
 body {
   background: #fdfffb url(/images/bg_w.jpg) top fixed no-repeat;
@@ -129,10 +133,11 @@ body {
   margin: 0 auto;
   width: 60em;
 }
-/* header 
+/* header
 --------------------------------------------- */
 #header {
   /* logo */
+
 }
 #header h1 {
   height: 229px;
@@ -185,7 +190,7 @@ ul.nav li#link_blog {
   padding: 0 2.5em;
   border-bottom: 1px solid #fff;
 }
-/* main styles 
+/* main styles
 --------------------------------------------- */
 #content {
   padding-top: 3.1em;
@@ -347,6 +352,7 @@ body.blog #page {
 }
 body.blog #page #header {
   /* logo */
+
 }
 body.blog #page #header ul#blog_nav {
   background: #222;
@@ -479,42 +485,50 @@ body.blog #page #content p {
 body.blog #page #content ol {
   list-style: decimal;
 }
-body.blog #page #content ul, body.blog #page #content ol {
+body.blog #page #content ul,
+body.blog #page #content ol {
   padding-top: 0em;
   padding-bottom: 2.7em;
   padding-left: 2.2em;
 }
-body.blog #page #content ul li, body.blog #page #content ol li {
+body.blog #page #content ul li,
+body.blog #page #content ol li {
   font-size: 1.5em;
   line-height: 1.7em;
 }
-body.blog #page #content ul li h1, body.blog #page #content ol li h1 {
+body.blog #page #content ul li h1,
+body.blog #page #content ol li h1 {
   font-size: 2.2em;
   padding: 0 0 0.45em 0;
   margin: 0;
   line-height: 1.9em;
 }
-body.blog #page #content ul li h2, body.blog #page #content ol li h2 {
+body.blog #page #content ul li h2,
+body.blog #page #content ol li h2 {
   font-size: 2em;
   padding: 0 0 0.2em 0;
   line-height: 2.2em;
 }
-body.blog #page #content ul li h3, body.blog #page #content ol li h3 {
+body.blog #page #content ul li h3,
+body.blog #page #content ol li h3 {
   font-size: 1.5em;
   padding: 0 0 0em 0;
   line-height: 1em;
 }
-body.blog #page #content ul li h4, body.blog #page #content ol li h4 {
+body.blog #page #content ul li h4,
+body.blog #page #content ol li h4 {
   font-size: 1.2em;
   line-height: 1em;
   padding: 0;
 }
-body.blog #page #content ul li h5, body.blog #page #content ol li h5 {
+body.blog #page #content ul li h5,
+body.blog #page #content ol li h5 {
   font-size: 1em;
   line-height: 1.7em;
   padding-bottom: 0;
 }
-body.blog #page #content ul li p, body.blog #page #content ol li p {
+body.blog #page #content ul li p,
+body.blog #page #content ol li p {
   font-size: 1em;
   line-height: 1.7em;
 }
@@ -533,10 +547,13 @@ body.blog #page #content p blockquote {
 body.blog #page #content pre {
   overflow-x: scroll;
 }
-body.blog #page #content pre, body.blog #page #content code {
-  padding: 2.4em 1em;
+body.blog #page #content pre,
+body.blog #page #content code {
   background: #fff;
   border: 1px solid #eee;
+}
+body.blog #page #content pre {
+  padding: 1.4em;
   margin-bottom: 2.6em;
   font-size: 1.4em;
   line-height: 2em;
@@ -546,8 +563,8 @@ body.blog #page #content code {
   margin-bottom: 1.4em;
 }
 body.blog #page #content pre code {
-  font-size: 1em;
-  line-height: 2.2em;
+  font-size: 1.4em;
+  line-height: 1.4em;
   background: transparent;
   border: none;
   padding: 0;
@@ -555,6 +572,7 @@ body.blog #page #content pre code {
 }
 body.blog #page #content p code {
   font-size: 1em;
+  padding: 0.3em;
 }
 body.blog #page #content sup {
   font-size: x-small;
@@ -587,7 +605,10 @@ body.blog #page #content img.left {
   padding-right: 1em;
 }
 body.blog #page #content .twitter-tweet-rendered {
-  margin-bottom: 1.6em !important;
+  margin-bottom: 1.6em;
+}
+body.blog #page .comments {
+  margin-top: 4em;
 }
 @media only screen and (min-width: 850px) {
   body.blog #page #header ul#blog_nav li#link_rss {
@@ -663,13 +684,15 @@ body.blog #page #content .twitter-tweet-rendered {
     color: #333;
     font-weight: normal;
   }
-  body.blog #page #content #article_links ul a:hover, body.blog #page #content #article_links ul a:active {
+  body.blog #page #content #article_links ul a:hover,
+  body.blog #page #content #article_links ul a:active {
     color: #db4a1d;
   }
 }
 /* misc. 
 --------------------------------------------- */
-hr, .hide {
+hr,
+.hide {
   display: none;
 }
 a img {
