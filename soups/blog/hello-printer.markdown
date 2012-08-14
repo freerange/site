@@ -1,6 +1,14 @@
 Hello, Printer
 ==============
 
+### _Update!_
+
+* [Get started making your own printer](https://github.com/freerange/printer/wiki/Making-your-own-printer)
+* [Explore more information about printer](https://github.com/freerange/printer/wiki) and [get the source code](https://github.com/freerange/printer)
+* Follow [@gfrprinter](http://twitter.com/gfrprinter) and [join the community](http://groups.google.com/group/gfr-printer)
+
+
+
 For over a year, I have been playing around with printing things out on a receipt printer. Recently, a few accidents of implementation gave more life to my tinkerings than I had originally intended.
 
 ![Printer](/images/printer/14-breadboard.JPG)
@@ -78,7 +86,7 @@ Within a few minutes of plugging everything together, I could get the printer to
 ### An aside on thermal printing
 
 Receipt printers tend to have one very simple mode of printing, which is just text-based. That's what you'll see on most shop receipts, and that's what [Timmy][] used. You can make the characters more bold, or inverse, or larger, but basically you're telling the printer "print an 'a' on the paper" and it will do just that.
-  
+
 Some printers will also let you print barcodes, which is obviously useful if you're printing an actual receipt.
 
 Finally, printers often need to produce a logo of some kind, and so they offer a bitmap mode, where you can specify the exact image to be reproduced in glorious low-fidelity monochrome.
