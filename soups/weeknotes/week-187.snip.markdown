@@ -56,7 +56,7 @@ If [the components to our own far-simpler printer](https://github.com/freerange/
 
 [^berg-plan]: BERG's strategy is almost certainly involves getting their "[Cloud Bridge](http://bergcloud.com/littleprinter/#the-bridge)" into our houses. It's not hard to deduce that they are in this for the long game.
 
-There's a [Kickstarter project called mPrinter](www.kickstarter.com/projects/1953425088/mprinter-an-analog-printer-for-a-digital-world) which claims to be able to build a wifi device for $100, and without investing tens of thousands of dollars into tooling. Based on my own experience and observations of Little Printer's journey along with [others trying to make physical things](http://rodcorp.typepad.com/rodcorp/2012/08/small-hello-to-little-printer.html), I'll be very surprised if they can. But, of course, I could be wrong. If there is a way to make these devices at that sort of price, I hope they'll explain how.
+There's a [Kickstarter project called mPrinter](http://www.kickstarter.com/projects/1953425088/mprinter-an-analog-printer-for-a-digital-world) which claims to be able to build a wifi device for $100, and without investing tens of thousands of dollars into tooling. Based on my own experience and observations of Little Printer's journey along with [others trying to make physical things](http://rodcorp.typepad.com/rodcorp/2012/08/small-hello-to-little-printer.html), I'll be very surprised if they can. But, of course, I could be wrong. If there is a way to make these devices at that sort of price, I hope they'll explain how.
 
 Next, a common misunderstanding about what these things actually are.
 
