@@ -3,7 +3,7 @@ Week 186
 
 We're trying to establish a rhythm after "_The Meeting_" (as mentioned by {l week-184,Tom} and {l week-185,Chris} in previous weeks), and at the moment we are splitting our time evenly between client work and our own (nefarious) agenda.
 
-Welcome to Week 168! [Now with commenting](#comments) for your thought-expressing pleasure.
+Welcome to Week 186! [Now with commenting](#comments) for your thought-expressing pleasure.
 
 
 The client work
