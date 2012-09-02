@@ -13,12 +13,11 @@ class Sitemap < Dynasnip
     }
     docs = ["recap", "mocha"].map { |project|
       root = "/#{project}/docs"
-      # files = Dir["/home/freerange/docs/#{project}/**/*"]
-      files = Dir["/Users/jamesmead/freerange/#{project}/**/*"]
+      files = Dir["/home/freerange/docs/#{project}/**/*"]
       last_updated = files.map { |f| File.mtime(f) }.sort.last || Time.at(0)
       %{
         <url>
-          <loc>http://#{domain}#{docs}</loc>
+          <loc>http://#{domain}#{root}</loc>
           <lastmod>#{last_updated.xmlschema}</lastmod>
         </url>
       }
