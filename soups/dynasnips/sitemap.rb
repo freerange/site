@@ -11,10 +11,23 @@ class Sitemap < Dynasnip
         </url>
       }
     }
+    docs = ["recap", "mocha"].map { |project|
+      root = "/#{project}/docs"
+      # files = Dir["/home/freerange/docs/#{project}/**/*"]
+      files = Dir["/Users/jamesmead/freerange/#{project}/**/*"]
+      last_updated = files.map { |f| File.mtime(f) }.sort.last || Time.at(0)
+      %{
+        <url>
+          <loc>http://#{domain}#{docs}</loc>
+          <lastmod>#{last_updated.xmlschema}</lastmod>
+        </url>
+      }
+    }
     xml =<<-EOX
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       #{urls}
+      #{docs}
 </urlset>
     EOX
   end
