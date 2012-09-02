@@ -35,6 +35,7 @@ Anyway, that's it for another week.  These weeknotes were brought to you by the 
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Markdown
 :author: tom-ward
 :created_at: 2012-04-30 10:49:00 +01:00

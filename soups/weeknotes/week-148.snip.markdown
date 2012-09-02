@@ -57,6 +57,7 @@ JASE.
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: jason-cale
 :created_at: 2011-11-18 15:43:00 +01:00

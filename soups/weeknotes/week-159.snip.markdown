@@ -27,6 +27,7 @@ Adieu.
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2012-02-05 23:37:00 +00:00

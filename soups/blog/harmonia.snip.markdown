@@ -65,6 +65,7 @@ If you have any thoughts about this, we'd love to hear from you, either via [ema
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2011-09-25 13:55:00 +01:00

@@ -333,6 +333,7 @@ I am _sure_ you have better ideas for how to use an internet-enabled small print
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-04-12 10:24:00 +01:00

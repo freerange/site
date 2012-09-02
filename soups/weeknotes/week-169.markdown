@@ -73,6 +73,7 @@ Anyway, that was the week that was. Onwards to Week 170!
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-04-16 11:49:00 +01:00

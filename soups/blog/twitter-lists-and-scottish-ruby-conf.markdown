@@ -49,6 +49,7 @@ So, if you're attending Scottish Ruby Conf, or just want to watch from the sidel
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2012-06-26 21:00:00 +01:00

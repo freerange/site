@@ -57,6 +57,7 @@ Sincerely,
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-05-21 11:49:00 +01:00

@@ -101,6 +101,7 @@ Until next time,
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-08-18 02:01:00 +01:00

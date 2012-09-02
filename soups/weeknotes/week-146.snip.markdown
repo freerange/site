@@ -21,6 +21,7 @@ P.S. Assignment of the weeknotes is supposed to be random.  Our [Harmonia](https
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: tom-ward
 :created_at: 2011-11-07 09:00:00 +00:00

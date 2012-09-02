@@ -13,6 +13,7 @@ Saturday saw our very own [James](http://interblah.net/), along with [Murray](ht
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2011-10-31 13:00:00 +00:00

@@ -54,6 +54,7 @@ Right: [Harmonia][], let's have that chat...
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-06-01 12:49:00 +01:00

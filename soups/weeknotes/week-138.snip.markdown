@@ -44,6 +44,7 @@ We've been using [Highrise][] to give everyone visibility of what's going on in 
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Markdown
 :author: james-adam
 :created_at: 2011-09-11 13:55:00 +01:00

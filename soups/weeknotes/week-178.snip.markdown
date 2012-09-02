@@ -28,6 +28,7 @@ Have good weeks everybody peeps.
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2012-06-18 12:30:00 +01:00

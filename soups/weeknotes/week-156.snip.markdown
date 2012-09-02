@@ -64,6 +64,7 @@ My mind is empty, so with big love I will bid thee adieu,
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: jason-cale
 :created_at: 2012-01-14 09:45:00 +00:00

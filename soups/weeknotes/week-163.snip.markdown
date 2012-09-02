@@ -43,6 +43,7 @@ Auf wiedersehen.
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2012-03-02 11:22:00 +01:00

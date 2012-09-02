@@ -15,6 +15,7 @@ Anyway, enough about us. How was your week?
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-09-02 12:43:00 +01:00

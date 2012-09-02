@@ -78,6 +78,7 @@ Adios compadre,
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Markdown
 :author: james-adam
 :created_at: 2012-05-03 10:49:00 +01:00

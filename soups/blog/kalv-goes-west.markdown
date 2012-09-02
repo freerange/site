@@ -14,6 +14,7 @@ We're sad to see him go, but it's going to be the start of a great adventure for
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Markdown
 :author: james-adam
 :created_at: 2011-08-26 13:55:00 +01:00

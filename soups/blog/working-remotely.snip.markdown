@@ -123,6 +123,7 @@ Adieu, blogfolk!
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-01-25 00:05:00 +00:00

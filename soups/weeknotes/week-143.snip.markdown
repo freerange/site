@@ -25,6 +25,7 @@ And I reckon that'll just about do for this week.  I'm off to get some last minu
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2011-10-15 09:42:00 +01:00

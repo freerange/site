@@ -90,6 +90,7 @@ That's all, folks.
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2012-04-05 13:32:00 +01:00

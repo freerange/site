@@ -22,6 +22,7 @@ Finally, I and other members of the team are busy working on our [LRUG](http://l
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: tom-ward
 :created_at: 2011-10-03 18:30:00 +01:00

@@ -39,6 +39,7 @@ Jase.
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: jason-cale
 :created_at: 2012-02-26 21:25:00 +01:00

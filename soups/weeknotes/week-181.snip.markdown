@@ -14,6 +14,7 @@ Tom
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: tom-ward
 :created_at: 2012-07-09 12:30:00 +01:00

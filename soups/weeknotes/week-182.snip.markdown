@@ -20,6 +20,7 @@ This week's notes were driven down the M4 Olympic Games Lane by the words Olympi
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: tom-ward
 :created_at: 2012-07-17 12:30:00 +01:00

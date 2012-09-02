@@ -63,6 +63,7 @@ As an experiment, we've decided to add commenting to our blog, to hopefully faci
 
 :render_as: Blog
 :kind: blog
+:is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2012-08-11 17:15:00 +01:00
