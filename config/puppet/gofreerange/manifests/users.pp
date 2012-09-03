@@ -14,7 +14,7 @@ class gofreerange {
 
     freerange::user {"james@lazyatom.com":
       user => "james",
-      key => "AAAAB3NzaC1yc2EAAAABIwAAAQEA2hsOv1phLQ6OsNMSLWMoXmV2q4qcaOZy6EDsX7+89WX1BQ/iCRckdvwhCc+KTYbIcCZA91JFhXtVwQ3tKDrJbdSYwTg3Y2a4dakbK87H63s7z5oIuM1KWXHGRV4RQGwqIgxNqkEwRUdbYkZ+Ct8X2W7bLTBkLA3zhOT7etxyg8WXRjGUdP6rpnAoJzVbnrn36SDKkWs+6yp5aNDhU4929En/8logAgBD3ByMAg9f/ndbVNA34ZuLWp6LYo2lZDrNxuAE4caseht+ovBWGiq84MmIMpVMuF0HuNNSh24CA8cF2DB7r+vYcmjHBz4VY7u4wkXBsPIbOjVwXVls5F7Hnw=="
+      key => "AAAAB3NzaC1yc2EAAAADAQABAAABAQDEKAO4Jw2N4OtwkPVlBbblf9nsIk7wLYLGFtEzDIcAlqwTMA87a6aYChXLMscwcP1mRduvoYhPP+QyTdbHlorlZ/AczuxEbjXbSroqaYA+b18T+dksQ05DXD8cVAytr8uKUBoT4Z31/zF9eF4mDYrecJpvgSkAySba0f6Gv9A5LQRItKVTY8pytzLZYYVtvRdsmq0OSTALweN7X5dp+oEjRlyyhCs6WhIqmUeSA90tVTwMVbZ4XFhq7zRqDvRjWA5nwFOaFVx/II/G51ik3E5n1bLMPxpiwgnHzmaZcPEhZKylyKYuLi061SoNb2+Fwiz19Ifp1MVDfKpf/AROGx1V lazyatom"
     }
 
     freerange::user {"james@floehopper.org":
