@@ -4,9 +4,11 @@ class Sitemap < Dynasnip
   attribute :domain, "gofreerange.com"
   def handle
     urls = app.soup[:is_page => true].map { |snip|
+      is_root = snip == app.soup[:name => app.config.root_snip]
+      path = is_root ? "/" : url_to(snip.name)
       %{
         <url>
-          <loc>http://#{domain}#{url_to snip.name}</loc>
+          <loc>http://#{domain}#{path}</loc>
           <lastmod>#{snip.updated_at.xmlschema}</lastmod>
         </url>
       }
