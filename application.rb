@@ -15,7 +15,7 @@ Application.configure do |config|
   config.root = File.dirname(__FILE__)
 
   # The snip to render on requests to "/". This defaults to "start"
-  config.root_snip = "FreeRange"
+  config.root_snip = "start"
 
   # You can register additional renderer classes, to be used with snips
   # with the given extensions or 'render_as' attributes
