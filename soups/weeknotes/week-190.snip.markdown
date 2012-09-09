@@ -1,7 +1,7 @@
 Week 190
 ========
 
-This week's notes may not be as comprehensive as usual, because I was caught up with moving house and then away in Sardinia [^sardinia] -- I'm still knee-deep in boxes.
+This week's notes may not be as comprehensive as usual, because I was caught up with moving house and then away in Sardinia[^sardinia] -- I'm still knee-deep in boxes. Apologies to those concerned if I've missed something important.
 
 The week started with the annoying incident of the burglar(s) in the night-time - there was a break-in at our office and some of our stuff was stolen. Needless to say, sorting this out took up a lot of [Chris][], [Tom][] & [James A][]'s time. Anyway the police are on the case and we await developments...
 
