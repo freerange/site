@@ -39,7 +39,6 @@ GEM
     rake (0.9.2.2)
     ratom (0.7.2)
       libxml-ruby (~> 2.3.2)
-    ruby-prof (0.11.2)
     soup (1.0.9)
     thor (0.15.0)
     vanilla (1.17.3)
@@ -59,5 +58,4 @@ DEPENDENCIES
   kramdown
   rake
   recap!
-  ruby-prof
   vanilla (~> 1.17.3)
