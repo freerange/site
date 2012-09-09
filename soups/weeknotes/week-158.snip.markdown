@@ -25,7 +25,7 @@ It's been particularly interesting to get the perspective of another developer o
 
 ### Hashblue
 
-Meanwhile at [GFR HQ](/contact), {l tom-ward, Tom} and {l chris-roos, Chris} finished the second of two weeks working with {l o2,O2} to improve the performance of some of the {l hashblue,Hashblue} infrastructure to support more concurrent users. It's been an intense two weeks for them, although it's still a project that is close to our hearts. One of the project goals was to build iteratively using real customer feedback, and so it's always good to do whatever gets it into the hands of as many real customers as possible.
+Meanwhile at [GFR HQ](/contact), {l tom-ward, Tom} and {l chris-roos, Chris} finished the second of two weeks working with [O2][] to improve the performance of some of the {l hashblue,Hashblue} infrastructure to support more concurrent users. It's been an intense two weeks for them, although it's still a project that is close to our hearts. One of the project goals was to build iteratively using real customer feedback, and so it's always good to do whatever gets it into the hands of as many real customers as possible.
 
 
 The Queen Bee Is Dead
@@ -75,7 +75,7 @@ That's all, folks.
 [BUG]: http://bristolusability.ning.com
 [motivation]: http://www.ted.com/talks/lang/en/dan_pink_on_motivation.html
 [Gabe]: http://darwinweb.net/
-[o2]: http://www.o2.co.uk
+[O2]: http://www.o2.co.uk
 
 :render_as: Blog
 :kind: blog
