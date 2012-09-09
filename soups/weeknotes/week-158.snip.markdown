@@ -75,6 +75,7 @@ That's all, folks.
 [BUG]: http://bristolusability.ning.com
 [motivation]: http://www.ted.com/talks/lang/en/dan_pink_on_motivation.html
 [Gabe]: http://darwinweb.net/
+[o2]: http://www.o2.co.uk
 
 :render_as: Blog
 :kind: blog
