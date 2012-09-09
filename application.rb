@@ -40,5 +40,7 @@ Application.configure do |config|
     "soups/system"
   ]
 
+  config.raise_errors = true
+
   $LOAD_PATH.unshift File.expand_path(File.join(config.root, "soups/dynasnips"))
 end

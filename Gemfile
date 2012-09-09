@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "vanilla", '~> 1.17.3'
+gem "vanilla", git: "git@github.com:freerange/vanilla-rb.git", branch: "raise-errors"
 gem "kramdown"
 
 group :development do

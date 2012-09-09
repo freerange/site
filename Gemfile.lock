@@ -7,6 +7,21 @@ GIT
       open4
       thor
 
+GIT
+  remote: git@github.com:freerange/vanilla-rb.git
+  revision: fff25081cd331b25b0c21449fee135aa5ded608e
+  branch: raise-errors
+  specs:
+    vanilla (1.17.2)
+      BlueCloth (>= 1.0.0)
+      RedCloth (>= 4.1.1)
+      haml (>= 3.1)
+      parslet (>= 1.2.0)
+      rack (>= 0.9.1)
+      rack-test (>= 0.5.7)
+      ratom (>= 0.3.5)
+      soup (>= 1.0.9)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -41,15 +56,6 @@ GEM
       libxml-ruby (~> 2.3.2)
     soup (1.0.9)
     thor (0.15.0)
-    vanilla (1.17.3)
-      BlueCloth (>= 1.0.0)
-      RedCloth (>= 4.1.1)
-      haml (>= 3.1)
-      parslet (>= 1.2.0)
-      rack (>= 0.9.1)
-      rack-test (>= 0.5.7)
-      ratom (>= 0.3.5)
-      soup (>= 1.0.9)
 
 PLATFORMS
   ruby
@@ -58,4 +64,4 @@ DEPENDENCIES
   kramdown
   rake
   recap!
-  vanilla (~> 1.17.3)
+  vanilla!
