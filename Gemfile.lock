@@ -8,14 +8,7 @@ GIT
       thor
 
 GIT
-  remote: git://github.com/rack/rack-contrib.git
-  revision: b7e7c38fd02c3b5da91aa57af78b3f571c6ebcd0
-  specs:
-    rack-contrib (1.1.0)
-      rack (>= 0.9.1)
-
-GIT
-  remote: git@github.com:freerange/vanilla-rb.git
+  remote: git://github.com/freerange/vanilla-rb.git
   revision: fff25081cd331b25b0c21449fee135aa5ded608e
   branch: raise-errors
   specs:
@@ -29,13 +22,20 @@ GIT
       ratom (>= 0.3.5)
       soup (>= 1.0.9)
 
+GIT
+  remote: git://github.com/rack/rack-contrib.git
+  revision: b7e7c38fd02c3b5da91aa57af78b3f571c6ebcd0
+  specs:
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
     BlueCloth (1.0.1)
     RedCloth (4.2.9)
     blankslate (2.1.2.4)
-    capistrano (2.13.3)
+    capistrano (2.9.0)
       highline
       net-scp (>= 1.0.0)
       net-sftp (>= 2.0.0)
