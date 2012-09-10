@@ -5,6 +5,8 @@ require "vanilla/static"
 require "rack/contrib/mailexceptions"
 
 use Vanilla::Static, File.join(File.dirname(__FILE__), "public")
+use Rack::Static, :urls => ["/recap/docs"], :root => "/home/freerange/docs/recap"
+use Rack::Static, :urls => ["/mocha/docs"], :root => "/home/freerange/docs/mocha"
 
 use Rack::MailExceptions do |mail|
   mail.to         "everyone@gofreerange.com"
