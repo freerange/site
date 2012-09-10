@@ -6,8 +6,6 @@ require "rack/contrib/mailexceptions"
 
 use Vanilla::Static, File.join(File.dirname(__FILE__), "public")
 
-use Rack::ShowExceptions
-
 use Rack::MailExceptions do |mail|
   mail.to         "everyone@gofreerange.com"
   mail.from       "Exception Notifier <exceptions@gofreerange>"
