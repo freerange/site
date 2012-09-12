@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: git://github.com/freerange/vanilla-rb.git
-  revision: fff25081cd331b25b0c21449fee135aa5ded608e
-  branch: raise-errors
+  revision: b68b44717af43cfd0884db3a77919def4f442eb1
+  branch: not-found
   specs:
     vanilla (1.17.2)
       BlueCloth (>= 1.0.0)
