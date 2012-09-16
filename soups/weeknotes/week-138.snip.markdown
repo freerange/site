@@ -3,7 +3,7 @@ Week 138
 
 It's so easy to get completely caught up in work that you lose sight of *why* you're working.
 
-With that in mind, we've decided to make an effort to take that step back and talk about what's going on inside {l FreeRange,Castle GFR}. We believe in transparency, so it's an obvious way to demonstrate that.
+With that in mind, we've decided to make an effort to take that step back and talk about what's going on inside {l start,Castle GFR}. We believe in transparency, so it's an obvious way to demonstrate that.
 
 This week it's my turn. I'm already two days late, and we've got a lot to catch up on.
 
