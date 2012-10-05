@@ -534,9 +534,10 @@ body.blog #page #content ol li p {
 }
 body.blog #page #content blockquote {
   color: #444;
-  font-size: 2em;
+  font-size: 1.8em;
+  font-style: italic;
   line-height: 1.25em;
-  padding: 1.15em 0 2.6em 4.8em;
+  padding-left: 1.8em;
 }
 body.blog #page #content blockquote p {
   font-size: 1em;
