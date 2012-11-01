@@ -1,5 +1,5 @@
 Week 195 - In which harmonia almost rises
------------------------------------------
+==========================================
 
 It's Tuesday morning.  It's 12 o'clock.  It's time for... Tom publish his weeknotes, very late again.
 
