@@ -48,7 +48,7 @@ Beyond Harmonia
 
 While Harmonia's functionality serves a very definite purpose for our company, it is also playing a more subtle (and in my opinion, *much* more important) role. We've been building Harmonia with the larger goal of learning how to develop our own products.
 
-(_If you're read us writing about 'the company goal', that's a part of this. If you've read most of these weeknotes, you'll recognise that this is pretty much always on my mind._)
+(_If you've read us writing about 'the company goal', that's a part of this. If you've read most of these weeknotes, you'll recognise that this is pretty much always on my mind._)
 
 For me, this is a vital step for the success of GFR. I'm confident that client work will be a significant part of our company's portfolio for quite a while yet, but we need to get better at *being our own client* if we're going to fulfil some of our longer-term goals.
 
