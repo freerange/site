@@ -21,7 +21,7 @@ After walking across most of London - twice - we found a good space just around 
 
 ### Harmonia, the Chaos Administrator
 
-One of the fundamental ideas behind our company is that everyone involved should be a *maker*, but that doesn't mean that administrative chores can be ignored. We've tried a few different approaches for handling this, but have settled on a simple system that adds a sprinking of entropy into our operation. 
+One of the fundamental ideas behind our company is that everyone involved should be a *maker*, but that doesn't mean that administrative chores can be ignored. We've tried a few different approaches for handling this, but have settled on a simple system that adds a sprinkling of entropy into our operation.
 
 It started as a simple script called chaos.rb, but we're pushing more and more into it as we find tasks that fit. For the curious, [it's called harmonia][harmonia].
 
