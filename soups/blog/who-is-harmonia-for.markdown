@@ -48,7 +48,7 @@ Even if you're just working with a business partner in a team of two, you'll sha
 
 Harmonia is not just about running a company, paying VAT and filing annual returns.
 
-Even if your whole company doesn't work quite like [Free Range][], we think you could still find it self. Here's an example team that's working inside a larger company, and using Harmonia to take care of some of shared office chores:
+Even if your whole company doesn't work quite like [Free Range][], we think you could still find it useful. Here's an example team that's working inside a larger company, and using Harmonia to take care of some of shared office chores:
 
 ![Example Harmonia tasks for a project team within a company](/images/blog/harmonia-project-team.png "Project Team Alpha working within OmniCorp to make the babyfood that Robocop eats.")
 
