@@ -25,7 +25,7 @@ Wherever you work, whatever you do, almost every team or group of people has som
 
 Quite often those tasks are peripheral to the purpose of the group (building software and helping clients in our case, or playing sports in the case of a local footbal team, for example).
 
-In most cases, for any of those tasks or chores: **it doesn't really matter *who* does it, but it is important that it *does get done***. Most of the time, if a chore in a team doesn't get done, it's because nobody decided to take on the responsibility of doing it. "Oh, Dave normally"
+In most cases, for any of those tasks or chores: **it doesn't really matter *who* does it, but it is important that it *does get done***. Most of the time, if a chore in a team doesn't get done, it's because nobody decided to take on the responsibility of doing it.
 
 This is what [Harmonia][] does -- it helps ensure that those things actually get done. It achieves this by **automatically managing who is responsible** for achieving those things, and sharing who is assigned with everyone in the team.
 
