@@ -36,7 +36,7 @@ James A has knocked up a useful admin dashboard to give us a rough idea how "act
 
 > [...] saying "no" or "later" is important. It keeps the team productive and focused on the next thing that’s most important for delivering great value to end users.
 
-One of the biggest challenges facing us as we try do develop products of our own, like [Harmonia](https://harmonia.io), is learning how to be good product owners as well as good developers. It's particularly challenging, because we're attempting to do it in the relatively democratic fashion with which we tend to approach everything. Perhaps we need to put Harmonia in charge of her own development...?
+Working out what the next most important thing to work on for Harmonia is always tricky. And I think this is one of the biggest challenges facing us as we try do develop products of our own, like [Harmonia](https://harmonia.io) -- learning how to be good product owners as well as good developers. It's particularly challenging, because we're attempting to do it in the relatively democratic fashion with which we tend to approach everything. Perhaps we need to put Harmonia in charge of her own development...?
 
 And finally, if you haven't yet registered your interest in Harmonia, please do [sign up](https://harmonia.io). We'd love to know what you think.
 
