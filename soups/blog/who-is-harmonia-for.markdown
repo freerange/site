@@ -17,13 +17,13 @@ If you're a regular reader of this blog, you've probably heard quite a bit about
 
 However, not everyone works in exactly the same company as we do, and so it might not be immediately obvious how Harmonia might work for them. I think it's true to say that our tool won't necessarily work in *every* organisation, but we believe that it can work in more places than you might first think.
 
-We might not realise it, but more often that not we find ourselves in teams or groups. The group could be your whole company, or just the colleagues within your part of a company, or less obvious groups like families, flatmates, or even sports teams.
+We might not realise it, but more often than not we find ourselves in teams or groups. The group could be your whole company, or just the colleagues within your part of a company, or less obvious groups like families, flatmates, or even sports teams.
 
 Wherever you work, whatever you do, almost every team or group of people has something in common: **a collection of tasks or chores that all need to happen on various regular schedules**.
 
 ### Success comes from clarity of responsibility
 
-Quite often those tasks are peripheral to the purpose of the group (building software and helping clients, in our case, or playing sports in the case of a local footbal team, for example).
+Quite often those tasks are peripheral to the purpose of the group (building software and helping clients, in our case, or playing sports in the case of a local football team, for example).
 
 In most cases, for any of those tasks or chores: **it doesn't really matter *who* does it, but it is important that it *does get done***. Most of the time, if a chore in a team doesn't get done, it's because nobody decided to take on the responsibility of doing it. "Oh, Dave normally"
 
