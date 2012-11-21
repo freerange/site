@@ -15,7 +15,7 @@ However, that said, there are a bunch of tasks where we believe it's *exactly ri
 
 ## The Necessary-But-Boring
 
-Every team has a bunch of them, from filing things to preparing reports to cleaning, and everything in between. These kinds of tasks actually *benefit* from have clear, prescriptive instructions, because then they can be performed by anyone with consistent results.
+Every team has a bunch of them, from filing things to preparing reports to cleaning, and everything in between. These kinds of tasks actually *benefit* from having clear, prescriptive instructions, because then they can be performed by anyone with consistent results.
 
 With the *necessary-but-boring* tasks, the whole team benefits from following the same set of steps, because it allows us to perform them without a large amount of effort, and then quickly return to our creative work without an expensive mental 'context switch'.
 
