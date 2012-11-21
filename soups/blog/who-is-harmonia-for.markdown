@@ -91,6 +91,7 @@ If you've got any questions, let us know via [email](mailto:feedback@harmonia.io
 
 
 :render_as: Blog
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
