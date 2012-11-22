@@ -36,6 +36,7 @@ If your team has a bunch of necessary-but-boring tasks, you might be able to use
 [Harmonia]: https://harmonia.io
 
 :render_as: Blog
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
