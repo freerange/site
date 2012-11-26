@@ -42,7 +42,7 @@ And finally, if you haven't yet registered your interest in Harmonia, please do 
 
 Hagoonea'
 
---James M
+-- James M
 
 :render_as: Blog
 :kind: blog
