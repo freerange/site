@@ -3,7 +3,7 @@ Week 187
 
 Ask I mentioned {l week-186,last week}, this week it's just {l chris-roos,Chris} and {l james-adam,I} keeping the good ship [GFR](/) on an even keel.
 
-Week 187[^187] pretty evenly between our client work and our internal projects. I'll try to pick out some interested moments from each.
+Week 187[^187] was split pretty evenly between our client work and our internal projects. I'll try to pick out some interested moments from each.
 
 [^187]: [Fo' real, yo.](http://en.wikipedia.org/wiki/187_(slang) "We is killaz!")
 
