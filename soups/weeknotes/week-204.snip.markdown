@@ -66,6 +66,7 @@ We've also been ordering in [supplies][ocado] for the [office Xmas party next We
 [Tom Stuart]: https://twitter.com/tomstuart
 
 :render_as: Blog
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
