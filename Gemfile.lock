@@ -9,9 +9,9 @@ GIT
 
 GIT
   remote: git://github.com/lazyatom/vanilla-rb.git
-  revision: 093e7223d0281632c766706488472a66af6ff637
+  revision: 586acf13dd8f693e30876f46062a28b35bbc65b4
   specs:
-    vanilla (1.17.8)
+    vanilla (1.17.9)
       BlueCloth (>= 1.0.0)
       RedCloth (>= 4.1.1)
       haml (>= 3.1)
@@ -19,7 +19,7 @@ GIT
       rack (>= 0.9.1)
       rack-test (>= 0.5.7)
       ratom (>= 0.3.5)
-      soup (>= 1.0.10)
+      soup (>= 1.0.11)
 
 GIT
   remote: git://github.com/rack/rack-contrib.git
@@ -67,7 +67,7 @@ GEM
     rake (10.0.3)
     ratom (0.7.2)
       libxml-ruby (~> 2.3.2)
-    soup (1.0.10)
+    soup (1.0.11)
     thor (0.16.0)
     treetop (1.4.12)
       polyglot
