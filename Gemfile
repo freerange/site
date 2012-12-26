@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "vanilla", :git => "git://github.com/freerange/vanilla-rb.git", :branch => "not-found"
+gem "vanilla", :git => "git://github.com/lazyatom/vanilla-rb.git"
 gem "kramdown"
 gem "rack-contrib", :git => "git://github.com/rack/rack-contrib.git"
 gem "mail"
