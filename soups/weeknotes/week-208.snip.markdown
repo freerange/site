@@ -11,7 +11,7 @@ Writing about it has me pining for more delicious pastry goods, and mulled wine.
 
 ...it really was good though.
 
-If you haven't already, you should also read {l tom-ward,"Tom's"} post about [infinite sequences in Ruby](http://tomafro.net/2012/12/infinite-sequences-in-ruby), which contains some technical insights into how [Harmonia](https://harmonia.io) handles recurring events behind the scenes.
+If you haven't already, you should also read [Tom's](/tom-ward) post about [infinite sequences in Ruby](http://tomafro.net/2012/12/infinite-sequences-in-ruby), which contains some technical insights into how [Harmonia](https://harmonia.io) handles recurring events behind the scenes.
 
 So, enough with 2012. *Onwards to 2013*!
 
