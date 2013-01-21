@@ -34,6 +34,6 @@ And with that, I wish you all a good week.
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2013-01-21 17:45:00 00:00
-:updated_at: 2013-01-21 17:45:00 00:00
+:created_at: 2013-01-21 17:45:00 +00:00
+:updated_at: 2013-01-21 17:45:00 +00:00
 :page_title: Week 209
