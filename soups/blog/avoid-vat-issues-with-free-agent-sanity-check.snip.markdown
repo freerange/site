@@ -20,11 +20,11 @@ Unfortunately there's one little wrinkle that's very likely to cause a problem, 
 
 If you're reading this blog it's quite likely that you're paying for some subscription services from US companies like [Github][], or [37 Signals][]. Because these companies are based in the USA, they don't charge VAT. However, when importing transactions, the default setting in FreeAgent is to automatically determine the amount of VAT present:
 
-![FreeAgent automatically determining the VAT for a transaction](/images/blog/free-agent-explaining-vat-transaction.png)
+<img src="/images/blog/free-agent-explaining-vat-transaction.png" width="100%" alt="FreeAgent automatically determining the VAT for a transaction">
 
 This will mean that our accounts include some VAT -- 20% of £7.69 in this case -- that we never actually paid:
 
-![VAT for a transaction that shouldn't exist](/images/blog/free-agent-us-transaction-with-vat.png)
+<img src="/images/blog/free-agent-us-transaction-with-vat.png" width="100%" alt="VAT for a transaction that shouldn't exist">
 
 If we leave this unremedied, we'll attempt to reclaim £1.54 that we're not due in our next VAT return filing, and this is, alas, illegal. We're too pretty to last any amount of time in the [Big House][]!
 
