@@ -1,7 +1,7 @@
 Avoiding VAT issues with FreeAgent Sanity Check
 ===============
 
-While our main focus at {fr} is building software, we're also running a company and that comes with its own set of chores and obligations. Whereever possible, we like to build simple tools to make sure that managing those obligations is as painless as possible. I'd like to outline one simple tool here -- the [FreeAgent Sanity Check][].
+While our main focus at {fr} is building software, we're also running a company and that comes with its own set of chores and obligations. Wherever possible, we like to build simple tools to make sure that managing those obligations is as painless as possible. I'd like to outline one simple tool here -- the [FreeAgent Sanity Check][].
 
 
 *Vat*'s[^pun] "VAT"?
