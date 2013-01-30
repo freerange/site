@@ -68,7 +68,7 @@ At the moment, the *FreeAgent Sanity Check* is fairly customised to our company 
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
