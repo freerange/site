@@ -12,9 +12,9 @@ Week 211 was quietly dominated by a day in Oxford on Wednesday, where we decided
 
 We spent the morning drinking flat whites and teas in the [Turl Street Kitchen](http://turlstreetkitchen.co.uk/), before decamping to [the top of the Ashmolean](http://www.ashmolean.org/eating/) for lunch in their dining room. WE stayed there well beyond lunch talking about some of {l week-210,the goals outlined last week}, and I spent quite a lot of time -- maybe too much time -- talking about how my philosophy for how {fr} could/should work informs the product ideas that I put forward.
 
-To help digest a delicious lunch, {l james-mead,James M} led {l chris-roos,Chris}, {l tom-ward,Tom} and {l james-adam,I} on a pleasant walk by the river, where Chris and I spoke quite a bit further about the relationship between longer-term goals and the now-classic question "*What should I do today?*", and the potential (or lack of) for {l harmonia, Harmonia}.
+To help digest a delicious lunch, {l james-mead,James M} led {l chris-roos,Chris}, {l tom-ward,Tom} and {l james-adam,I} on a pleasant walk by the river, where Chris and I spoke quite a bit further about the relationship between longer-term goals and the now-classic question "*What should I do today?*", and the potential (or lack of) for {l harmonia, Harmonia} as a tool for teams that don't share the same freedoms or philosophy as we do.
 
-In retrospect I'm not sure we concluded anything beyond me again talking about my own philosophy and approach, which I now suspect might have been counter-productive because one of my own personal goals for {fr} in 2013 is an increased, shared enthusiasm, and while I appreciate the cautious curiosity with which everyone listened to my fumbling explanations during the day, I don't envisage a huge increase in momentum as a result.
+In retrospect I'm not sure we concluded anything beyond me wittering on about my own philosophy and approach, which I now suspect might have been counter-productive because one of my own personal goals for {fr} in 2013 is an increased, shared enthusiasm, and while I appreciate the cautious curiosity with which everyone listened to my fumbling explanations during the day, I don't envisage a huge increase in momentum as a result.
 
 
 Inside Government
