@@ -10,7 +10,7 @@ Oxford
 
 Week 211 was quietly dominated by a day in Oxford on Wednesday, where we decided to invert {l james-mead, James M}'s commute and take a train out to him. It was really nice to have a change of scenery, even if that scenery was at points nearly flooded.
 
-We spent the morning drinking flat whites and teas in the [Turl Street Kitchen](http://turlstreetkitchen.co.uk/), before decamping to [the top of the Ashmolean](http://www.ashmolean.org/eating/) for lunch in their dining room. WE stayed there well beyond lunch talking about some of {l week-210,the goals outlined last week}, and I spent quite a lot of time -- maybe too much time -- talking about how my philosophy for how {fr} could/should work informs the product ideas that I put forward.
+We spent the morning drinking flat whites and teas in the [Turl Street Kitchen](http://turlstreetkitchen.co.uk/), before decamping to [the top of the Ashmolean](http://www.ashmolean.org/eating/) for lunch in their dining room. We stayed there well beyond lunch talking about some of {l week-210,the goals outlined last week}, and I spent quite a lot of time -- maybe too much time -- talking about how my philosophy for how {fr} could/should work informs the product ideas that I put forward.
 
 To help digest a delicious lunch, {l james-mead,James M} led {l chris-roos,Chris}, {l tom-ward,Tom} and {l james-adam,I} on a pleasant walk by the river, where Chris and I spoke quite a bit further about the relationship between longer-term goals and the now-classic question "*What should I do today?*", and the potential (or lack of) for {l harmonia, Harmonia} as a tool for teams that don't share the same freedoms or philosophy as we do.
 
@@ -22,7 +22,7 @@ Inside Government
 
 Back in the office on Thursday, we met with a few old friends from GDS to plan out a short, relatively self-contained bit of work on [Inside Government](http://gov.uk/government). We're going to be helping build out the parts of the site which deal with the UK's foreign concerns.
 
-The significant task ahead of us is figuring out how to modify the existing software to support translated versions of content, so that (for example) the FCO office in Span can share its news in Español as well as English.
+The significant task ahead of us is figuring out how to modify the existing software to support translated versions of content, so that (for example) the FCO office in Spain can share its news in Español as well as English.
 
 Until next week,
 
