@@ -4,7 +4,7 @@ Week 215
 It's the end of February, and I don't know about you, but I've had about enough *Winter* for one year.
 
 
-In the real world...
+C'est fin.
 ------
 
 On the [Inside Inside Government blog][], Neil Williams has [started talking about the work we've been doing][iig-blog] to add translation and localisation to [Inside Government]. We've spoken a bit about it over the past few weeks, but it's really nice to see the work summarised in such a comprehensive way. It's not until we look back that we realise how much we've actually done.
@@ -14,7 +14,7 @@ I'm hoping that it's been a positive experience for GDS; with this mini-project 
 In the spirit of looking back, Neil also wrote another piece on the main GDS blog highlighting that [it's been a year since the beta][gds-blog]. GFR were there for the very start of this project, and it's quite amazing to see how far we got, and how far it's come since even then. I'm very proud that we've been able to be a part of this work.
 
 
-Meanwhile, near the top of my ivory tower...
+Meanwhile, at GFR HQ...
 ------
 
 Back on the home front, {l james-adam,I}'ve been doing a bit of thinking about the dynamics of self-organisation, and the interplay between autonomy and responsibility. With four hands on the rudder of our ship it can be a challenge to keep a steady tack, let alone plot the best course, and my mind is particularly pre-occupied at the moment with questions about how to build more momentum for our non-client projects. (*Yes, yes, OK, I know; this is always on my mind.*)
@@ -40,7 +40,7 @@ Today we hit the end of client work, for a few weeks at least, so I'm hoping tha
 [teabags]: https://twitter.com/lazyatom/status/295895415813988353
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
