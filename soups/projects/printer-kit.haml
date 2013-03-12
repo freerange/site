@@ -1,0 +1,152 @@
+%p
+  %a{:href => "/printer"} Back to main project page
+
+%h2#tag
+  Printer &mdash; Buy a kit.
+
+.section.group
+  %p
+    You can always buy the components to <a href="https://github.com/freerange/printer/wiki/Making-your-own-printer">build a printer yourself</a>, but we thought some people might be interested in purchasing a kit, pre-configured and ready to run.
+
+  %p
+    This is a bit of an experiment for us, but if you're an enterprising hobbyist who is willing to take a leap, we've got a few options that you might be interested in.
+
+
+  .important-notes
+    %p
+      Please note, we're currently only able to ship these kits within the UK. If you're not in the UK,
+      %a{:href => "#register"} please let us know
+      and we'll see what we can do.
+    %p
+      It's also very important that you read our
+      %a{:href => "#important-notes"}
+        IMPORTANT NOTES
+      about using these kits.
+
+  %h2 The kits!
+
+  .printer-kit-option
+    %h3 GFR Printer kit with Shield
+
+    %p
+      This is the easiest kit to assemble, and includes our prototype shield holding all the connections for the printer, and some status LEDs. Just plug it together, plug it in, and it's ready to go.
+
+    %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
+      %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
+      %input{:type => "hidden", :name => "hosted_button_id", :value => "N55XL6KTQLP9J"}
+
+      %p
+        %span.price £110
+        including VAT & postage
+
+        %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
+        %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}
+
+    %p.terms
+      Please read
+      %a{:href => "#important-notes"}
+        these important notes
+      before making your purchase.
+
+
+  .printer-kit-option
+    %h3 GFR Printer kit with Shield, without Arduino
+
+    %p
+      This is exactly the same as the kit above, except you can supply your own Arduino Ethernet, or Arduino and Ethernet shield. As such, it's a bit cheaper, but you will have to ensure that your Arduino is compatible, and program it with the sketch yourself. We've been prototyping the printers using an Arduino Uno R3, and the shield follows the typical Arduino pin layout.
+
+    %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
+      %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
+      %input{:type => "hidden", :name => "hosted_button_id", :value => "MUTVNBHHSA6A2"}
+
+    %p
+      %span.price £75
+      including VAT & postage
+
+      %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
+      %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}
+
+    %p.terms
+      Please read
+      %a{:href => "#important-notes"}
+        these important notes
+      before making your purchase.
+
+
+  .printer-kit-option
+    %h3 GFR Printer component kit
+
+    %p
+      This kit contains the printer, Arduino Ethernet, and all components unassembled, so you can build it on a breadboard following
+      = succeed "." do
+        %a{:href => "https://github.com/freerange/printer/wiki/Making-your-own-printer"}
+          our instructions
+
+    %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
+      %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
+      %input{:type => "hidden", :name => "hosted_button_id", :value => "SWFS9D2DRRFTC"}
+
+      %p
+        %span.price £100
+        including VAT & postage
+
+        %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
+        %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}
+
+    %p.terms
+      Please read
+      %a{:href => "#important-notes"}
+        these important notes
+      before making your purchase.
+
+  .printer-kit-option
+    %h3 GFR Printer component kit, without Arduino
+
+    %p
+      As above, but again you supply your own Arduino Ethernet, or Arduino and Ethernet shield. Like the Shield version of this kit, it's a bit cheaper but you'll need to program the Arduino yourself.
+
+    %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
+      %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
+      %input{:type => "hidden", :name => "hosted_button_id", :value => "5JWX863ZBUFGY"}
+
+      %p
+        %span.price £65
+        including VAT & postage
+
+        %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
+        %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}
+
+    %p.terms
+      Please read
+      %a{:href => "#important-notes"}
+        these important notes
+      before making your purchase.
+
+
+.section.group
+  %a{:name => "kit"}
+  %h2#register Register interest in a Printer kit
+  %p
+    At the moment, we're only able to supply these kits in the UK. However, if you're not in the UK and still interested, please let us know and we'll see what we can do.
+  <iframe src="https://docs.google.com/a/gofreerange.com/spreadsheet/embeddedform?formkey=dHFMOFdIWVo4Ym9ITDhhbHhibktOUHc6MQ" width="606" height="594" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+%h2#important-notes
+  Important notes
+
+%p What you're buying here is a kit for hobbyists who are interested in <em>exploring</em> and <em>hacking</em> around with small, connected printers. Arduino is a prototyping platform, and as such there <em>can</em> be some rough edges. It's possible that your particular networking configuration may not play nicely with Arduino's networking chip, for example.
+
+%p
+  If you are having problems with your kit, please
+  %a{:href => "mailto:printer@gofreerange.com"}
+    get in touch
+  and we'll do our very best to help you out, but we think it's important you know up-front that we can't make any guarantees that the kit will work perfectly for you. As they say in longer T&Cs, the kits are supplied "as-is and without warranty". We honestly really will try our best to get you set up though.
+
+%p
+  Where the kits include an Arduino, it will be preconfigured to connect to
+  = succeed "." do
+    %a{:href => "http://printer.gofreerange.com"}
+      our Printer server
+  While we're making our best efforts to keep that server running, it's unfortunately impossible for us to guarantee that it will always be available. The good news is that all of the code behind it is open source, so anyone can run their own server if Go Free Range all get abducted by aliens.
+
+
+:layout: project-layout
