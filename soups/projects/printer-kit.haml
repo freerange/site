@@ -31,13 +31,23 @@
     %p
       This is the easiest kit to assemble, and includes our prototype shield holding all the connections for the printer, and some status LEDs. Just plug it together, plug it in, and it's ready to go.
 
+    %p
+      You can order this kit with an Arduino, or use your own Arduino Ethernet or Arduino Uno + Ethernet Shield. We'll supply the Arduino pre-programmed and ready to go; if you use your own, you will have to ensure that your Arduino is compatible, and program it with the sketch yourself. We've been prototyping the printers using an Arduino Ethernet, and the shield follows the typical Arduino pin layout.
+
     %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
       %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
       %input{:type => "hidden", :name => "hosted_button_id", :value => "N55XL6KTQLP9J"}
+      %input{:type => "hidden", :name => "on0", :value => "Options"}
 
       %p
-        %span.price £110
-        including VAT & postage
+        Buy
+        %select{:name => "os0"}
+          %option{:value => "with Arduino Ethernet"}
+            with Arduino Ethernet £110.00 GBP
+          %option{:value => "without Arduino"}
+            without Arduino £75.00 GBP
+
+        incl. VAT & postage
 
         %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
         %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}
@@ -48,70 +58,31 @@
         these important notes
       before making your purchase.
 
-
   .printer-kit-option
-    %h3 GFR Printer kit with Shield, without Arduino
+    %h3 GFR Printer breadboard component kit
 
     %p
-      This is exactly the same as the kit above, except you can supply your own Arduino Ethernet, or Arduino and Ethernet shield. As such, it's a bit cheaper, but you will have to ensure that your Arduino is compatible, and program it with the sketch yourself. We've been prototyping the printers using an Arduino Uno R3, and the shield follows the typical Arduino pin layout.
-
-    %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
-      %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
-      %input{:type => "hidden", :name => "hosted_button_id", :value => "MUTVNBHHSA6A2"}
-
-    %p
-      %span.price £75
-      including VAT & postage
-
-      %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
-      %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}
-
-    %p.terms
-      Please read
-      %a{:href => "#important-notes"}
-        these important notes
-      before making your purchase.
-
-
-  .printer-kit-option
-    %h3 GFR Printer component kit
-
-    %p
-      This kit contains the printer, Arduino Ethernet, and all components unassembled, so you can build it on a breadboard following
+      This kit is as above, but the components aren't soldered onto a shield; instead, you'll need to assemble the circuit yourself on a breadboard using
       = succeed "." do
         %a{:href => "https://github.com/freerange/printer/wiki/Making-your-own-printer"}
           our instructions
 
+    %p Depending on your perspective, this might be more hassle, or it might allow you to experiment with different circuits &mdash; the choice is yours!
+
     %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
       %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
       %input{:type => "hidden", :name => "hosted_button_id", :value => "SWFS9D2DRRFTC"}
+      %input{:type => "hidden", :name => "on0", :value => "Options"}
 
       %p
-        %span.price £100
-        including VAT & postage
+        Buy
+        %select{:name => "os0"}
+          %option{:value => "with Arduino Ethernet"}
+            with Arduino Ethernet £100.00 GBP
+          %option{:value => "without Arduino"}
+            without Arduino £65.00 GBP
 
-        %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
-        %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}
-
-    %p.terms
-      Please read
-      %a{:href => "#important-notes"}
-        these important notes
-      before making your purchase.
-
-  .printer-kit-option
-    %h3 GFR Printer component kit, without Arduino
-
-    %p
-      As above, but again you supply your own Arduino Ethernet, or Arduino and Ethernet shield. Like the Shield version of this kit, it's a bit cheaper but you'll need to program the Arduino yourself.
-
-    %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
-      %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
-      %input{:type => "hidden", :name => "hosted_button_id", :value => "5JWX863ZBUFGY"}
-
-      %p
-        %span.price £65
-        including VAT & postage
+        incl. VAT & postage
 
         %input{:type => "image", :src => "https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif", :border => "0", :name => "submit", :alt => "PayPal — The safer, easier way to pay online."}
         %img{:alt => "", :border => "0", :src => "https://www.paypalobjects.com/en_GB/i/scr/pixel.gif", :width => "1", :height => "1"}

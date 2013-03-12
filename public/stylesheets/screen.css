@@ -694,9 +694,9 @@ body.blog #page .comments {
   margin-bottom: 3em;
   border-bottom: 1px solid #999;
 }
-#content .printer-kit-option .price {
+#content .printer-kit-option select {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 #content .printer-kit-option input[type=image] {
   display: inline;
