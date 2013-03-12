@@ -704,6 +704,12 @@ body.blog #page .comments {
   vertical-align: bottom;
   padding-left: 1em;
 }
+#content .printer-kit-option ul {
+  padding-left: 3em;
+  font-size: 1.6em;
+  line-height: 1.6em;
+  padding-bottom: 1.6em;
+}
 #content .buy {
   margin: 0em -1.5em 1.5em -1.5em;
   padding: 1.5em;
