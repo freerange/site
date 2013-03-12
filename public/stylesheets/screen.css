@@ -696,7 +696,7 @@ body.blog #page .comments {
 }
 #content .printer-kit-option select {
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.0em;
 }
 #content .printer-kit-option input[type=image] {
   display: inline;

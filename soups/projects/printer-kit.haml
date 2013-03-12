@@ -32,7 +32,16 @@
       This is the easiest kit to assemble, and includes our prototype shield holding all the connections for the printer, and some status LEDs. Just plug it together, plug it in, and it's ready to go.
 
     %p
-      You can order this kit with an Arduino, or use your own Arduino Ethernet or Arduino Uno + Ethernet Shield. We'll supply the Arduino pre-programmed and ready to go; if you use your own, you will have to ensure that your Arduino is compatible, and program it with the sketch yourself. We've been prototyping the printers using an Arduino Ethernet, and the shield follows the typical Arduino pin layout.
+      You can order this kit with an Arduino, or use your own
+      %a{:href => "http://arduino.cc/en/Main/ArduinoBoardEthernet"} Arduino Ethernet
+      or
+      %a{:href => "http://arduino.cc/en/Main/arduinoBoardUno"} Arduino Uno
+      +
+      = succeed "." do
+        %a{:href => "http://arduino.cc/en/Main/ArduinoEthernetShield"} Ethernet Shield
+      We'll supply the Arduino pre-programmed and ready to go; if you use your own, you will have to ensure that your Arduino is compatible, and program it with
+      %a{:href => "https://github.com/freerange/printer/blob/master/printer.ino"} the sketch
+      yourself. We've been prototyping the printers using an Arduino Ethernet, and the shield follows the typical Arduino pin layout.
 
     %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
       %input{:type => "hidden", :name => "cmd", :value => "_s-xclick"}
