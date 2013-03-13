@@ -3,6 +3,7 @@ Hello, Printer
 
 ### _Update!_
 
+* [Buy a kit](/printer-kit)! [![Buy a kit](https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif)](/printer-kit)
 * [Get started making your own printer](https://github.com/freerange/printer/wiki/Making-your-own-printer)
 * [Explore more information about printer](https://github.com/freerange/printer/wiki) and [get the source code](https://github.com/freerange/printer)
 * Follow [@gfrprinter](http://twitter.com/gfrprinter) and [join the community](http://groups.google.com/group/gfr-printer)
@@ -237,7 +238,7 @@ As I mentioned at the top of this meandering prose, it's a software system that 
 * [produce customised content](https://github.com/freerange/printer/wiki/Building-content-services) for them, and
 * [share that content](https://github.com/freerange/printer/wiki/Architecture) with other people who also have small internet-connected printers.
 
-The [main project page is here](/printer).
+The [main project page is here](/printer). If you're interested in [a kit of all the bits you need, pre-configured and ready to go](/printer-kit), you can [![Buy a kit](https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif)](/printer-kit).
 
 We are running [a backend server](http://printer.gofreerange.com), which our office printer is connected to. If you do make a printer ([see below](#getting-a-printer)), you're more than welcome to use it rather than running your own.
 
@@ -268,11 +269,11 @@ The backend software is still evolving; I have some pretty clear ideas about [wh
 
 If you want to make a printer, I've written a reasonably detailed and picture-ful [step by step guide to building one and setting it up](https://github.com/freerange/printer/wiki/Making-your-own-printer).
 
+We've decided to put together [a kit of all the bits you need, pre-configured and ready to go](/printer-kit), which you can [![Buy a kit](https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif)](/printer-kit).
+
+Of course, the design is all open source so you are always free to build your own.
+
 We are going to make a [small number of printers available to loan](/printer#borrow) to people who have an idea they'd like to explore. We'd love to help, and everyone will benefit from the services and content you make.
-
-If you're interested in buying [all the bits you need, pre-configured and ready to go](/printer#kit), you can [let us know here](/printer#kit) (we don't know if we will do that, but if there's enough interest then we'll investigate how).
-
-Either way, the design is all open source so you are always free to build your own.
 
 ![Maps](/images/printer/18-maps.JPG)
 
