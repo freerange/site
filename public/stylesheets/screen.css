@@ -725,6 +725,7 @@ body.blog #page .comments {
   border: 1px solid #666;
   background-color: white;
   padding: 1.5em 1.5em 0 1.5em;
+  margin-bottom: 1.6em;
 }
 #content #important-notes {
   margin-top: 3em;
