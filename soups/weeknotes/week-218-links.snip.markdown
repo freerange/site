@@ -1,4 +1,4 @@
-Monday Links
+Monday Links - 218
 ============
 
 Here are a few links and ideas we've been thinking about over the last week. Hopefully this is something we can get going regularly.
@@ -53,10 +53,10 @@ I'm quite intrigued by Huginn which claims to be a self-hosted mixture of Yahoo!
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
 :created_at: 2013-03-18 10:32:00 +00:00
 :updated_at: 2013-03-18 10:32:00 +00:00
-:page_title: Monday Links (Week 218)
+:page_title: Monday Links - Week 218
