@@ -43,7 +43,7 @@ Since I live a long way from our office in Shoreditch, I'm always interested in 
 
 ### [Design Museum Designs of the Year 2013](http://designmuseum.org/exhibitions/2013/designs-of-the-year-2013)
 
-On Wednesday 20th the 'Designs of the Year 2013' opens at the design museum.  One of the nominees is gov.uk, for which we developed a large part of the Inside Government section.  Our friend and occasional office mate [Tom Stuart](http://codon.com) has developed a demo which shows the responsive design, letting you browse simultaneously on three several devices. {by tom-ward}
+On Wednesday 20th the 'Designs of the Year 2013' exhibition opens at the design museum.  One of the nominees is gov.uk, for which we developed a large part of the Inside Government section.  Our friend and occasional office mate [Tom Stuart](http://codon.com) has developed a demo which shows the responsive design, letting you browse simultaneously on three several devices. {by tom-ward}
 
 
 ### [Huginn](https://github.com/cantino/huginn)
