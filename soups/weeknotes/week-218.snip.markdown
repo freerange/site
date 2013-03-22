@@ -20,7 +20,7 @@ This is all well and good, I hear you say, but what’s the deal with the specia
 And with that, I bid you all adieu and wish you all the very best of weekends.
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
