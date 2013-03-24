@@ -23,6 +23,10 @@ As developers, we've all had to write implementations of [FizzBuzz](https://gith
 
 Here's a quick tip to get a backtrace in ruby.  So simple, it's almost worth the cost of reopening Kernel. {by tom-ward}
 
+### [Infographic as menu](http://instagram.com/p/XNmkKjDOLk/)
+
+This menu can be found in [an old furniture shop in Stoke Newington](http://www.meanwhilespace.com/projects/current/stoke-newington-furniture-shop/) that's now being used as a café, to build furniture, and for displaying local artists.  I spotted the menu on Saturday, but credit goes to my friend Steve Guy for having the presence of mind to take a picture.  {by tomw-ward}
+
 :render_as: Blog
 :kind: draft
 :is_page: true
