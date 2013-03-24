@@ -19,6 +19,10 @@ Given the announcement about Google Reader shutting down, this post from Decembe
 
 As developers, we've all had to write implementations of [FizzBuzz](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition) at one time or another.  These versions might be good enough to get a job, but where can one find a version that's fit for the enterprise market?  Lucikly Mikael Kragbæk has [the answer to the question nobody asked](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition). {by tom-ward}
 
+### [Kernel#backtrace](http://nathaniel.talbott.ws/blog/2013/03/11/backtrace/)
+
+Here's a quick tip to get a backtrace in ruby.  So simple, it's almost worth the cost of reopening Kernel. {by tom-ward}
+
 :render_as: Blog
 :kind: draft
 :is_page: true
