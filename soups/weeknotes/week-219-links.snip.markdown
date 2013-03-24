@@ -15,6 +15,9 @@ Ostensibly a replacement for [ack](http://betterthangrep.com/), it claims to be 
 
 Given the announcement about Google Reader shutting down, this post from December 2011 is surprisingly relevant. We run quite a lot of our business on free web-based software from Google, but even if we paid Google I'm not convinced that they wouldn't consider shutting Google Apps For Your Domain. It all comes down to whether or not the interests of the customer align with those of the service provider, and most of us are only useful to Google gun we are providing them with data or clicking on ads. Hmm. {by james-adam}
 
+### [A FizzBuzz fit for the enterprise](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition)
+
+As developers, we've all had to write implementations of [FizzBuzz](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition) at one time or another.  These versions might be good enough to get a job, but where can one find a version that's fit for the enterprise market?  Lucikly Mikael Kragbæk has [the answer to the question nobody asked](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition). {by tom-ward}
 
 :render_as: Blog
 :kind: draft
