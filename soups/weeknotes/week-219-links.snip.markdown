@@ -11,6 +11,10 @@ Ostensibly a replacement for [ack](http://betterthangrep.com/), it claims to be 
 
 {l james-mead,James M} mentioned our sneak peek of this in the [Week 217 notes](/week-217#designs-of-the-year). Tom Stuart has an excellent write-up about how he sychronised browsing across a suite of devices to demonstrate the responsive nature of the [GOV.UK](http://www.gov.uk) design. It's being shown at the [Design Museum](http://designmuseum.org/) as part of the [2013 Designs of the Year awards](http://designmuseum.org/exhibitions/2013/designs-of-the-year-2013). {by james-adam}
 
+### [Don't be a free user](http://blog.pinboard.in/2011/12/don_t_be_a_free_user/)
+
+Given the announcement about Google Reader shutting down, this post from December 2011 is surprisingly relevant. We run quite a lot of our business on free web-based software from Google, but even if we paid Google I'm not convinced that they wouldn't consider shutting Google Apps For Your Domain. It all comes down to whether or not the interests of the customer align with those of the service provider, and most of us are only useful to Google gun we are providing them with data or clicking on ads. Hmm. {by james-adam}
+
 
 :render_as: Blog
 :kind: draft
