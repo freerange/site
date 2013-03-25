@@ -27,6 +27,30 @@ Here's a quick tip to get a backtrace in ruby.  So simple, it's almost worth the
 
 This menu can be found in [an old furniture shop in Stoke Newington](http://www.meanwhilespace.com/projects/current/stoke-newington-furniture-shop/) that's now being used as a café, to build furniture, and for displaying local artists.  I spotted the menu on Saturday, but credit goes to my friend Steve Guy for having the presence of mind to take a picture.  {by tom-ward}
 
+### [Today's Email Incident](https://github.com/blog/1440-today-s-email-incident)
+
+Github explain, in detail, an unexpected side effect of keeping up with the most recent Rails patches. As a slight aside, I tried this code on an empty 3.2.13 app, using sqlite3 and I don’t see the problem they’re experiencing. {by chris-roos}
+
+### [The Myth of Focus & Why Many Great Entrepreneurs Pursued Multiple Projects at Once](http://www.mindvalleyinsights.com/the-myth-of-focus/)
+
+I’m still trying to work out the level of focus that this guy’s talking about, but I’m sure there’s *something* in this. {by chris-roos}
+
+### [Self-Organizing Organizations (For Real)](http://www.infoq.com/articles/self-organizing-organizations)
+
+This is probably the first example I’ve come across of another company operating similarly to GFR. It’s interesting to read about the challenges they’ve faced and compare them to our own experiences. {by chris-roos}
+
+### [Autonomous Teams: What They Are and Why You Should Care](http://blog.newrelic.com/2013/02/26/autonomous-teams-what-they-are-and-why-you-should-care/)
+
+"Autonomous teams have the greater potential for success than either of the two alone. You have the freedom to do your best work while working as a cohesive unit to produce reliable and quality output." {by chris-roos}
+
+### [The brutal truth about marketing your software product](http://successfulsoftware.net/2013/03/19/the-brutal-truth-about-marketing-your-software-product/)
+
+As much as it currently pains me, I believe this is something that GFR are going to need to get better at to be successful in the product business. {by chris-roos}
+
+### [How do you fight the UKBA when they’re wrong?](http://turbotasticaltales.com/2013/03/23/how-do-you-fight-the-ukba-when-theyre-wrong/)
+
+This is a personal one: My friend’s being asked to leave the UK due to what appears to be an error on UKBA’s side. If anyone can help in any way, please do get in touch. {by chris-roos}
+
 :render_as: Blog
 :kind: draft
 :is_page: true
