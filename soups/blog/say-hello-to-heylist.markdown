@@ -54,6 +54,6 @@ Anyone can [sign up to HeyList!](http://heyli.st), and we'd be really intersted 
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
-:created_at: 2013-03-24 12:00:00 +00:00
-:updated_at: 2013-03-24 12:00:00 +00:00
+:created_at: 2013-03-25 13:00:00 +00:00
+:updated_at: 2013-03-25 13:00:00 +00:00
 :page_title: Say hello to HeyList!
