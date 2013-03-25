@@ -3,6 +3,12 @@ Monday Links - 219
 
 Here are a few links and ideas we've been thinking about over the last week.
 
+
+### [How do you fight the UKBA when they’re wrong?](http://turbotasticaltales.com/2013/03/23/how-do-you-fight-the-ukba-when-theyre-wrong/)
+
+This is a personal one: My friend’s being asked to leave the UK due to what appears to be an error on UKBA’s side. If anyone can help in any way, please do get in touch. {by chris-roos}
+
+
 ### [A FizzBuzz fit for the enterprise](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition)
 
 As developers, we've all had to write implementations of [FizzBuzz](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition) at one time or another.  These versions might be good enough to get a job, but where can one find a version that's fit for the enterprise market?  Lucikly Mikael Kragbæk has [the answer to the question nobody asked](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition). {by tom-ward}
@@ -48,22 +54,19 @@ This is probably the first example I’ve come across of another company operati
 "Autonomous teams have the greater potential for success than either of the two alone. You have the freedom to do your best work while working as a cohesive unit to produce reliable and quality output." {by chris-roos}
 
 
-### [The brutal truth about marketing your software product](http://successfulsoftware.net/2013/03/19/the-brutal-truth-about-marketing-your-software-product/)
-
-As much as it currently pains me, I believe this is something that GFR are going to need to get better at to be successful in the product business. {by chris-roos}
-
-
 ### [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
 
 Ostensibly a replacement for [ack](http://betterthangrep.com/), it claims to be 3-5x faster again, and respects any ignore settings in your project (like `.gitignore`). I use Sublime Text 2 these days, and I'm not sure what it uses for searching underneath the hood ([this post](http://sublimetext.userecho.com/topic/90214-add-ack-search-in-project/) suggests it's an ack variant); ultimately integration with your workflow is going to be determine whether or not this is useful, but even so it could be handy just in the Terminal. {by james-adam}
 
 
-### [How do you fight the UKBA when they’re wrong?](http://turbotasticaltales.com/2013/03/23/how-do-you-fight-the-ukba-when-theyre-wrong/)
 
-This is a personal one: My friend’s being asked to leave the UK due to what appears to be an error on UKBA’s side. If anyone can help in any way, please do get in touch. {by chris-roos}
+### [The brutal truth about marketing your software product](http://successfulsoftware.net/2013/03/19/the-brutal-truth-about-marketing-your-software-product/)
+
+As much as it currently pains me, I believe this is something that GFR are going to need to get better at to be successful in the product business. {by chris-roos}
+
 
 :render_as: Blog
-:kind: blog
+:kind: draft
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
