@@ -46,7 +46,7 @@ Here are some example lists that have already been made:
 Try it out
 --------
 
-Anyone can [sign up to HeyList!](http://heyli.st), and we'd be really intersted in your feedback about it. [Try it now!](http://heyli.st)
+Anyone can [sign up to HeyList!](http://heyli.st), and we'd be really intersted in your feedback about it. [Try it now](http://heyli.st) and follow the [@heylist](http://twitter.com/heylist) account for updates and news.
 
 
 :render_as: Blog
