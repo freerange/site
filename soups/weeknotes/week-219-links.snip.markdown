@@ -36,7 +36,7 @@ I’m still trying to work out the level of focus that this guy’s talking abou
 
 ### [Don't be a free user](http://blog.pinboard.in/2011/12/don_t_be_a_free_user/)
 
-Given the announcement about Google Reader shutting down, this post from December 2011 is surprisingly relevant. We run quite a lot of our business on free web-based software from Google, but even if we paid Google I'm not convinced that they wouldn't consider shutting Google Apps For Your Domain. It all comes down to whether or not the interests of the customer align with those of the service provider, and most of us are only useful to Google gun we are providing them with data or clicking on ads. Hmm. {by james-adam}
+Given [the announcement about Google Reader shutting down](http://googlereader.blogspot.co.uk/2013/03/powering-down-google-reader.html), this post from December 2011 is surprisingly relevant. We run quite a lot of our business on free web-based software from Google, but even if we paid Google I'm not convinced that they wouldn't consider shutting Google Apps For Your Domain. It all comes down to whether or not the interests of the customer align with those of the service provider, and most of us are only useful to Google when we are providing them with data or clicking on ads. Hmm. {by james-adam}
 
 
 ### [Infographic as menu](http://instagram.com/p/XNmkKjDOLk/)
