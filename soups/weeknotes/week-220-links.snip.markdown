@@ -9,6 +9,12 @@ You've probably already seen this [via John Gruber](http://daringfireball.net/li
 
 However, I'm curious about point 3 in Scott Adams's decision process ("*The smartest choice becomes obvious to all*"). In my experience, this isn't as trivial as Scott makes it sound. The smartest choice often *isn't* obvious, and it's quite easy for subjective influences and personal interests to weigh heavily in any decision-making process. {by james-adam}
 
+### [Hashtags considered harmful](http://www.niemanlab.org/2013/03/hashtags-considered-harmful/)
+
+> I believe hashtags are aesthetically damaging. I believe a tweet free of hashtags is more pleasing to the eye, more easily consumed, and thus more likely to be retweeted (which is a proven way of growing your audience). I believe for every person who stumbles upon your tweet via hashtag, you’re likely turning off many more who are put off by hashtag overuse. We need not banish the hashtag, but let’s start putting more thought into when we’re using it.
+
+Perhaps this lends weight to the motivation behind [HeyList!](http://heyli.st)... {by james-adam}
+
 
 :render_as: Blog
 :kind: draft
