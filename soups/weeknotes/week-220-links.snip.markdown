@@ -17,11 +17,11 @@ Perhaps this lends weight to the motivation behind [HeyList!](http://heyli.st)..
 
 ### [Helper Testing in Rails 3](http://blog.costan.us/2010/08/helper-testing-in-rails-3.html)
 
-I hadn't realised that you could call `render` and subsequently use `assert_select` in `ActionView::TestCase` tests. I think in the past, we've wrapped assert_select so that we can pass it a string. {by chris-roos}
+I hadn't realised that you could call `render` and subsequently use `assert_select` in `ActionView::TestCase` tests. In the past, we've used a custom [`assert_select_in_html`](https://github.com/alphagov/whitehall/commit/050377e2#L16R57) to do this. {by chris-roos}
 
 ### [The UK Backlogs Agency?](http://fullfact.org/factchecks/ukba_backlog_24_years-28852)
 
-Some background to the claims that it'll take 24 years to clear UKBA's backlog. {by chris-roos}
+[Full Fact](http://fullfact.org/) investigate the claims that it'll take 24 years to clear UKBA's backlog. {by chris-roos}
 
 ### [How the Maker of TurboTax Fought Free, Simple Tax Filing](http://www.propublica.org/article/how-the-maker-of-turbotax-fought-free-simple-tax-filing)
 
