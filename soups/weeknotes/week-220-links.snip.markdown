@@ -40,8 +40,7 @@ $99 a month initially sounded really high but I wouldn't be surprised if it's co
 
 A couple of our friends, Amy and Emily, have started writing a book about agile practices.  What's interesting isn't the topic (though they have a wealth of experience so I'm sure will have plenty to say) but the fact they're writing it in an open and agile way.  We can learn not just from the book, but from the process of writing it. {by tom-ward}
 
-### [Copy as curl](https://twitter.com/ChromiumDev/status/317183238026186752
-) ###
+### [Copy as curl](https://twitter.com/ChromiumDev/status/317183238026186752) ###
 
 It's been available in the canary builds for a while, but now the developer builds of Chrome have an incredibly useful feature, copying requests as a curl command.  This makes it super easy to reproduce any request made by the browser, including all the headers, cookies and more. {by tom-ward}
 
