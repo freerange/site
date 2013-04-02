@@ -55,7 +55,7 @@ There are obviously two sides to this story and I have no idea whether it'd be b
 
 ### [JS1k Spring 2013](http://js1k.com/2013-spring/) ###
 
-The entries for this year's [JS1k](http://js1k.com) competition are really outstanding.  [This](http://js1k.com/2013-spring/demo/1451) from [@romancortes](https://twitter.com/romancortes) and [this one] from [@ehouais](https://twitter.com/ehouais) caught my eye, but it's worth watching as many as you can.  It's amazing what people can do with less code than characters in this blog post. {by tom-ward}
+The entries for this year's [JS1k](http://js1k.com) competition are really outstanding.  [This](http://js1k.com/2013-spring/demo/1451) from [@romancortes](https://twitter.com/romancortes) and [this one](http://js1k.com/2013-spring/demo/1555) from [@ehouais](https://twitter.com/ehouais) caught my eye, but it's worth watching as many as you can.  It's amazing what people can do with less code than characters in this blog post. {by tom-ward}
 
 
 :render_as: Blog
