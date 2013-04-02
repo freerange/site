@@ -35,6 +35,20 @@ GDS have launched the worldwide section of Inside Government that we, at GFR wer
 
 $99 a month initially sounded really high but I wouldn't be surprised if it's comparable to what larger companies might pay for employee training. {by chris-roos}
 
+
+### [Minimum Viable Book](http://minimumviablebook.com/about/) ###
+
+A couple of our friends, Amy and Emily, have started writing a book about agile practices.  What's interesting isn't the topic (though they have a wealth of experience so I'm sure will have plenty to say) but the fact they're writing it in an open and agile way.  We can learn not just from the book, but from the process of writing it. {by tom-ward}
+
+### [Copy as curl](https://twitter.com/ChromiumDev/status/317183238026186752
+) ###
+
+It's been available in the canary builds for a while, but now the developer builds of Chrome have an incredibly useful feature, copying requests as a curl command.  This makes it super easy to reproduce any request made by the browser, including all the headers, cookies and more. {by tom-ward}
+
+### [JS1k Spring 2013](http://js1k.com/2013-spring/) ###
+
+The entries for this year's [JS1k](http://js1k.com) competition are really outstanding.  [This](http://js1k.com/2013-spring/demo/1451) from [@romancortes](https://twitter.com/romancortes) and [this one] from [@ehouais](https://twitter.com/ehouais) caught my eye, but it's worth watching as many as you can.  It's amazing what people can do with less code than characters in this blog post. {by tom-ward}
+
 :render_as: Blog
 :kind: draft
 :is_page: true
