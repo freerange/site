@@ -29,7 +29,7 @@ There are obviously two sides to this story and I have no idea whether it'd be b
 
 ### [GOV.UK is going Worldwide](http://digital.cabinetoffice.gov.uk/2013/03/25/gov-uk-is-going-worldwide/)
 
-GDS have launched the worldwide section of Inside Government that we, at GFR were involved with earlier this year. It's always good to be reminded about the scale of the project we've been involved in, as well as see [our work](https://www.gov.uk/government/world/france.fr) go live. Also, congratulations to the team on reaching 18 of 24 departments.  We know they've been wroking really hard.  {by chris-roos}
+GDS have launched the worldwide section of Inside Government that we, at GFR were involved with earlier this year. It's always good to be reminded about the scale of the project we've been involved in, as well as see [our work](https://www.gov.uk/government/world/france.fr) go live. Also, congratulations to the team on reaching 18 of 24 departments.  We know they've been working really hard.  {by chris-roos}
 
 ### [Introducing Learn Prime: Subscription access to everything we teach.](http://robots.thoughtbot.com/post/46249965247/introducing-learn-prime-subscription-access-to)
 
