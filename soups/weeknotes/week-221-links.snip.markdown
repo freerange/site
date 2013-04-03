@@ -10,6 +10,11 @@ Pry open your eyes with matchsticks and let the *interesting* flow straight into
 The important point here, which is all too easy to miss, is the definition of __concrete boundaries__ (in the authors case, some number of hours of work per week that's under 35). Picking a specific goal and then sticking to it -- or, in otherwords, __wholeheartedly adopting a constraint__ -- can be liberating. {by james-adam}
 
 
+### [Teehan+Lax Site](http://www.teehanlax.com/)
+
+There's so much to love about the way this site is designed, it's hard to know where to start. [Great, bold, image-rich pages](http://www.teehanlax.com/story/readability/), thoughtfully-presented and often interactive information about their projects (and a focus on [the challenges and approaches](http://www.teehanlax.com/story/stackup/), rather than a by-the-numbers "this is what we did"), and lots of great little touches too, like hiding the site navigation unless you scroll up a little bit, at which point it slides back in from the top. (And, unsurprisingly, I also found reading about [the history of how they built their company](http://www.teehanlax.com/story/teehan-lax/) very interesting.) {by james-adam}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
