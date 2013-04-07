@@ -15,6 +15,43 @@ The important point here, which is all too easy to miss, is the definition of __
 There's so much to love about the way this site is designed, it's hard to know where to start. [Great, bold, image-rich pages](http://www.teehanlax.com/story/readability/), thoughtfully-presented and often interactive information about their projects (and a focus on [the challenges and approaches](http://www.teehanlax.com/story/stackup/), rather than a by-the-numbers "this is what we did"), and lots of great little touches too, like hiding the site navigation unless you scroll up a little bit, at which point it slides back in from the top. (And, unsurprisingly, I also found reading about [the history of how they built their company](http://www.teehanlax.com/story/teehan-lax/) very interesting.) {by james-adam}
 
 
+### [Making a physical product](http://b.jonw.com/post/46853309918/making-a-physical-product)
+
+I've never heard of the game but I appreciate the level of transparency that the creator is displaying in detailing the breakdown of costs per game. {by chris-roos}
+
+
+### [Are Customers Addicted to Handset Subsidies?](https://thelab.o2.com/2013/03/are-customers-addicted-to-handset-subsidies/)
+
+I was pleasantly surprised to read this piece questioning phone subsidies on the O2 labs blog. While it may "only" be on the Labs blog, I can't imagine this sort of public questioning by O2 employees just a few years ago. {by chris-roos}
+
+
+### [Being Google](https://www.tbray.org/ongoing/When/201x/2013/03/26/Googleversary)
+
+Interesting article by Tim Bray, someone I respect from afar, about his experiences at Google.
+
+I really like this quote, "Code reviews are way fiercer. The world doesn’t see this process but is in its debt". {by chris-roos}
+
+
+### [Stop externalising your life](http://jshakespeare.com/stop-externalising-your-life/)
+
+This pretty much sums up how I imagine most people are using services to share their experiences.
+
+I love this quote, "You’re just a prism that takes bits of light and sound and channels them into The Cloud, to be stored with all the other bits of light and sound from everyone else. You become nothing more than the thumb operating your smartphone." {by chris-roos}
+
+
+### [Q&A: James Finn, Director of Communications Product Design, Telefonica Digital](http://www.telco-ott.com/news/2013/03/qa-james-finn-director-of-communications-product-design-telefonica-digital/)
+
+I've been intrigued by TU Go since the proof of concept, O2 Connect, was being worked on while we were working on [#blue](/hashblue). It's the sort of service that would entice me to switch providers and something that I've wanted for a long while. {by chris-roos}
+
+
+### [A response to replies I received on my post "An Open Challenge to App.net"](http://aaronparecki.com/articles/2013/03/31/1/a-response-to-replies-i-received-on-my-post-an-open-challenge-to-app-net)
+
+This is a good follow-up post to [An Open Challenge to App.net](http://aaronparecki.com/articles/2013/03/28/1/an-open-challenge-to-app-net). This paragraph, in particular, struck a chord with me:
+
+> It's analogous to email. Can you imagine if you needed to create a Gmail account in order to send an email to someone else's Gmail address? Conversations across the web should work like conversations across email. I use my existing email address to join any email conversation. I want to use my existing website to join any web conversation.
+
+{by chris-roos}
+
 :render_as: Blog
 :kind: draft
 :is_page: true
