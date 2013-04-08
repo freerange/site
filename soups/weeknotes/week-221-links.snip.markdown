@@ -46,11 +46,11 @@ I've been intrigued by TU Go since the proof of concept, O2 Connect, was being w
 
 ### [A response to replies I received on my post "An Open Challenge to App.net"](http://aaronparecki.com/articles/2013/03/31/1/a-response-to-replies-i-received-on-my-post-an-open-challenge-to-app-net)
 
-This is a good follow-up post to [An Open Challenge to App.net](http://aaronparecki.com/articles/2013/03/28/1/an-open-challenge-to-app-net). This paragraph, in particular, struck a chord with me:
+This is a good follow-up post to [An Open Challenge to App.net](http://aaronparecki.com/articles/2013/03/28/1/an-open-challenge-to-app-net).
 
 > It's analogous to email. Can you imagine if you needed to create a Gmail account in order to send an email to someone else's Gmail address? Conversations across the web should work like conversations across email. I use my existing email address to join any email conversation. I want to use my existing website to join any web conversation.
 
-{by chris-roos}
+That paragraph, in particular, struck a chord with me. {by chris-roos}
 
 
 ### [Game of Life in APL](http://www.youtube.com/watch?v=a9xAKttWgP4)
