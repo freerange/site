@@ -52,6 +52,16 @@ This is a good follow-up post to [An Open Challenge to App.net](http://aaronpare
 
 {by chris-roos}
 
+
+### [Game of Life in APL](http://www.youtube.com/watch?v=a9xAKttWgP4)
+
+You're probably familiar with [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) (and if not, [here's a video of some examples](http://www.youtube.com/watch?v=C2vgICfQawE&feature=fvwp)). I am often amazed at the complexity and sophistication of the systems it's possible to create using such a simple set of rules (see [towards the end of that video](http://youtu.be/C2vgICfQawE?t=5m4s) for what I mean), but in the case of the video below, I'm amazed by the implementation of thos rules.
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/a9xAKttWgP4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+I don't know anything about [APL](http://en.wikipedia.org/wiki/APL_(programming_language)), so to me pretty much everything the narrator is saying sounds like one layer of incantations layered upon the previous one. It still feels incredible though. {by james-adam}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
