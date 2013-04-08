@@ -60,7 +60,7 @@ I love this quote, "You’re just a prism that takes bits of light and sound and
 
 ### [Game of Life in APL](http://www.youtube.com/watch?v=a9xAKttWgP4)
 
-You're probably familiar with [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) (and if not, [here's a video of some examples](http://www.youtube.com/watch?v=C2vgICfQawE&feature=fvwp)). I am often amazed at the complexity and sophistication of the systems it's possible to create using such a simple set of rules (see [towards the end of that video](http://youtu.be/C2vgICfQawE?t=5m4s) for what I mean), but in the case of the video below, I'm amazed by the implementation of thos rules.
+You're probably familiar with [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) (and if not, [here's a video of some examples](http://www.youtube.com/watch?v=C2vgICfQawE&feature=fvwp)). I am often amazed at the complexity and sophistication of the systems it's possible to create using such a simple set of rules (see [towards the end of that video](http://youtu.be/C2vgICfQawE?t=5m4s) for what I mean), but in the case of the video below, I'm amazed by the implementation of those rules.
 
 <iframe width="480" height="360" src="http://www.youtube.com/embed/a9xAKttWgP4?rel=0" frameborder="0" allowfullscreen></iframe>
 
