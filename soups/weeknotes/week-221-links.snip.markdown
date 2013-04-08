@@ -62,6 +62,11 @@ You're probably familiar with [Conway's Game of Life](http://en.wikipedia.org/wi
 I don't know anything about [APL](http://en.wikipedia.org/wiki/APL_(programming_language)), so to me pretty much everything the narrator is saying sounds like one layer of incantations layered upon the previous one. It still feels incredible though. {by james-adam}
 
 
+### [subvim - Vim customized to be like SublimeText](https://github.com/fatih/subvim/)
+
+I'm making a concerted effort to use [vim](http://www.vim.org/) as my text & code editor at the moment - mainly to make it easier to do remote pairing - but [Tom](/tom-ward) & [James A](/james-adam) use [SublimeText](http://www.sublimetext.com/), so I'm interested in seeing whether this vim configuration might give me the best of both worlds. {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
