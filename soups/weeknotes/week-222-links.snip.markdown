@@ -9,6 +9,7 @@ It's interesting to read and hear about how many large organisations are moving 
 ### [Ruby Manor Highlights](http://engineering.bergcloud.com/2013/04/ruby-manor-4-0-highlights/)
 I couldn't attend Ruby Manor (for reasons beyond my control), but from monitoring twitter it was clearly a success.  I've watched James Adam getting the talk videos ready last week, and this post from Nick (I assume) at Berg certainly whets my appetite for when they do get released. {by tom-ward}
 
+
 ### [ThoughtWorks announces new CEO and collective leadership structure](http://www.thoughtworks.com/news/thoughtworks-announces-new-ceo-and-collective-leadership-structure)
 
 In a similar vein, I was interested to note that Thoughtworks has replaced its outgoing CEO with a four-person collective. Their Chief Scientist, Martin Fowler, [says](https://twitter.com/martinfowler/status/322066103482339328): "I, for one, welcome our new four-headed CEO overlords". {by james-mead}
@@ -18,8 +19,10 @@ In a similar vein, I was interested to note that Thoughtworks has replaced its o
 
 I had the notion of making some ambient video thing a few years back, but lacked the tenacity to actually follow through. Thankfully, someone a bit more determined than I has pretty much made the exact thing I had in mind. It'll be interesting to see whether or not the growing availability of [WebRTC](http://www.webrtc.org/) makes this sort of stuff commonplace; it's already allowing [phone calls](http://phono.com/) from [your browser](https://att.io/)... {by james-adam}
 
+
 ### [Lanyrd launches paid services for businesses](http://www.guardian.co.uk/technology/2013/apr/11/lanyrd-simon-willison-facebook)
 I've found [lanyrd](http://lanyrd.com) very useful for discovering new conferences and events, but I've never been quite sure how they'd make money.  So it's interesting to see them take the first steps towards profitability by offering paid services to businesses.  I really hope it works out for them, as it's an excellent tool.  (Full disclosure, we spent a fortnight sharing an office with lanyrd whilst we were between homes). {by tom-ward}
+
 
 ### [Ginger -- convenient group conversations](https://gingerhq.com/)
 
