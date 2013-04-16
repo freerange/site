@@ -44,6 +44,6 @@ I've tried a similar approach, sort-of, with encouraging more communication with
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2013-04-15 10:21:00 +00:00
-:updated_at: 2013-04-15 10:21:00 +00:00
+:created_at: 2013-04-15 10:21:00 +01:00
+:updated_at: 2013-04-16 09:59:00 +01:00
 :page_title: Monday Links - Week 221
