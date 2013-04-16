@@ -40,7 +40,7 @@ I've tried a similar approach, sort-of, with encouraging more communication with
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
