@@ -6,7 +6,7 @@ I couldn't attend Ruby Manor (for reasons beyond my control), but from monitorin
 
 
 ### [Lanyrd launches paid services for businesses](http://www.guardian.co.uk/technology/2013/apr/11/lanyrd-simon-willison-facebook)
-I've found [lanyrd](http://lanyrd.com) very useful for discovering new conferences and events, but I've never been quite sure how they'd make money.  So it's interesting to see them take the first steps towards profitability by offering paid services to businesses.  I really hope it works out for them, as it's an excellent tool.  (Full disclosure, we spent a fortnight sharing an office with lanyrd whilst we were between homes). {by tom-ward}
+I've found [Lanyrd](http://lanyrd.com) very useful for discovering new conferences and events, but I've never been quite sure how they'd make money.  So it's interesting to see them take the first steps towards profitability by offering paid services to businesses.  I really hope it works out for them, as it's an excellent tool.  (Full disclosure, we spent a fortnight sharing an office with Lanyrd whilst we were between homes). {by tom-ward}
 
 
 ### [Workplace 2.0 - your office is about to undergo a revolution](http://blogs.metro.co.uk/lifestyle/workplace-2-0-office-undergo-revolution/)
