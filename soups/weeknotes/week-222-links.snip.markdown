@@ -7,7 +7,7 @@ It's interesting to read and hear about how many large organisations are moving 
 
 
 ### [Ruby Manor Highlights](http://engineering.bergcloud.com/2013/04/ruby-manor-4-0-highlights/)
-I couldn't attend Ruby Manor (for reasons beyond my control), but from monitoring twitter it was clearly a success.  I've watched James Adam getting the talk videos ready last week, and this post from Nick (I assume) at Berg certainly whets my appetite for when they are released.
+I couldn't attend Ruby Manor (for reasons beyond my control), but from monitoring twitter it was clearly a success.  I've watched James Adam getting the talk videos ready last week, and this post from Nick (I assume) at Berg certainly whets my appetite for when they do get released.
 
 ### [ThoughtWorks announces new CEO and collective leadership structure](http://www.thoughtworks.com/news/thoughtworks-announces-new-ceo-and-collective-leadership-structure)
 
