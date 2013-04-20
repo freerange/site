@@ -13,7 +13,7 @@ It raises questions for me personally about the future of my Printer project,
 since a) part of the motivation for me to release it was because it wasn't clear
 to what extent BERG would be opening up access to their service for 'hacking',
 and b) the [architectures]() of BERG Cloud and Printer seem very similar. I guess
-we'll see.
+we'll see. {by james-adam}
 
 
 ### [whytheluckystiff.net is back up...](http://whytheluckystiff.net)
@@ -25,7 +25,7 @@ but more significantly you can get a PDF of all of the PCL SPOOL files
 in [a collection aptly-titled 'CLOSURE'](https://github.com/steveklabnik/CLOSURE).
 _Why was in the middle of writing his [Poignant Guide](http://mislav.uniqpath.com/poignant-guide/)
 when I discovered Ruby, and I suspect I will always be nostaglic for the time
-when he was still writing.
+when he was still writing. {by james-adam}
 
 
 
