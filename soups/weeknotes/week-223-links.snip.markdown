@@ -45,7 +45,7 @@ I read [Working with Unix Processes](http://www.workingwithunixprocesses.com/) b
 In my continuing quest to perfect my vim development environment, I'm really impressed with Tim Pope's latest offering. I can now run a test and see the full output appear temporarily in a tmux pane, but then have any failures appear in a vim quickfix window which take me to the relevant lines in the file. {by james-mead}
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
