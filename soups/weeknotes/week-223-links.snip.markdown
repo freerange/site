@@ -12,7 +12,7 @@ printing, to any kind of interaction driven by a backend server.
 It raises questions for me personally about the future of my Printer project,
 since a) part of the motivation for me to release it was because it wasn't clear
 to what extent BERG would be opening up access to their service for 'hacking',
-and b) the [architectures]() of BERG Cloud and Printer seem very similar. I guess
+and b) the [architectures](https://github.com/freerange/printer/wiki/Architecture) of BERG Cloud and Printer seem very similar. I guess
 we'll see. {by james-adam}
 
 
