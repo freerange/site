@@ -22,11 +22,11 @@ Until next Summer.
 Chris
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2013-04-26 16:00:00 +00:00
-:updated_at: 2013-04-26 16:00:00 +00:00
-:page_title: Week 223
+:created_at: 2013-04-26 17:30:00 +01:00
+:updated_at: 2013-04-26 17:30:00 +01:00
+:page_title: Week 223 - Hello Autumn
 
