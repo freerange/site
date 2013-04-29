@@ -32,7 +32,7 @@ I only recently became aware of [the role of Excel](http://baselinescenario.com/
 You have been warned! {by james-mead}
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
