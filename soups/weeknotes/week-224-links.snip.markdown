@@ -19,7 +19,7 @@ Instead he adds [pry](https://github.com/pry/pry) commands to make it possible t
 
 ### [Damn Excel! How the 'most important software application of all time' is ruining the world](http://finance.fortune.cnn.com/2013/04/17/rogoff-reinhart-excel-errors/)
 
-I'm constantly amazed by how many business processes are entirely dependent on Microsoft Excel. Clearly it's a very accessible piece of software, but it's simplicity is deceptive and it's incredibly easy to get in a real mess.
+I'm constantly amazed by how many business processes are entirely dependent on Microsoft Excel. Clearly it's a very accessible piece of software, but its simplicity is deceptive and it's incredibly easy to get in a real mess.
 
 I only recently became aware of [the role of Excel](http://baselinescenario.com/2013/02/09/the-importance-of-excel/) (and copying & pasting!) in JPMorgan's "London Whale" fiasco. Given the pervasiveness of Excel, I also found it sobering to read about the [lack of accuracy of statistical procedures in Excel](http://www.pages.drexel.edu/~bdm25/excel2007.pdf):
 
