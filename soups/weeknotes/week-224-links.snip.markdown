@@ -17,6 +17,10 @@ I'm still looking to improve my [vim](http://www.vim.org/) setup, particularly w
 
 Instead he adds [pry](https://github.com/pry/pry) commands to make it possible to run tests (amongst other things) from within an interactive ruby session. The video in his blog post is definitely a bit of an eye-opener in terms of developer productivity. I'm not yet convinced I want to go down exactly the same road, but it's definitely given me some food for thought. {by james-mead}
 
+### [Iconic design through user needs](http://prospects.mhurrell.co.uk/post/user-needs)
+
+I liked this quote Mark Hurrell pulled out of [an interview with Scott McGuire](http://bldgblog.blogspot.co.uk/2013/04/mountain-lab-interview-with-scott.html).  It's not that long, go and read it.  If it sparks your interest the whole article is worth reading too. {by tom-ward}
+
 ### [Damn Excel! How the 'most important software application of all time' is ruining the world](http://finance.fortune.cnn.com/2013/04/17/rogoff-reinhart-excel-errors/)
 
 I'm constantly amazed by how many business processes are entirely dependent on Microsoft Excel. Clearly it's a very accessible piece of software, but its simplicity is deceptive and it's incredibly easy to get in a real mess.
