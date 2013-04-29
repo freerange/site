@@ -5,6 +5,12 @@ Monday Links - 224
 
 Posting content on my own site (or using my preferred service) and having that content notify/appear on the site I'm mentioning is something I've been thinking about for years. Way back when, I even spent some time [modifying the delicious firefox plugin to send trackbacks to the sites I was bookmarking](http://chrisroos.co.uk/blog/2008-02-04-sending-trackbacks-to-the-sites-that-you-bookmark-in-del-icio-us). Hopefully I'll find some time to add similar functionality to [Roosmarks](https://github.com/chrisroos/roosmarks) in the near future. {by chris-roos}
 
+### [BERG - Week 408](http://berglondon.com/blog/2013/04/04/week-408/)
+
+> In this week’s All Hands, we discussed Weeknotes. What are Weeknotes? Why do we do them,? Who reads them? Should they continue? Well, apparently Neil’s Mum reads them and this is as good a reason to continue as any, so here’s what’s happening this week...
+
+Given some of our own internal discussions about the purpose of our weeknotes, it was interesting to read that others share some of our concerns, even if they don't seem to have come to any real conclusions. {by james-mead}
+
 ### [Improve Your Ruby Workflow by Integrating vim/tmux/pry](http://velvetpulse.com/2012/11/19/improve-your-ruby-workflow-by-integrating-vim-tmux-pry/)
 
 I'm still looking to improve my [vim](http://www.vim.org/) setup, particularly with regard to the efficient running of tests. And so I was intrigued to read about [Nicolas Viennot](https://github.com/nviennot)'s approach which neatly side-steps the pre-loading problem solved by the likes of [spork](https://github.com/sporkrb/spork), [zeus](https://github.com/burke/zeus) & [spring](https://github.com/jonleighton/spring).
