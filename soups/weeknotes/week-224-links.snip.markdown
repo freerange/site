@@ -1,9 +1,9 @@
 Monday Links - 224
 ============
 
-### [link](http://example.com/)
+### [The First Federated #Indieweb Comment Thread](http://tantek.com/2013/113/b1/first-federated-indieweb-comment-thread)
 
-Nunc porttitor nunc in nunc mattis elementum. Vestibulum elit magna, dapibus in posuere semper, tincidunt ut lectus. In hac habitasse platea dictumst. Sed non malesuada nulla. Integer volutpat, sapien eget blandit egestas, sem lectus vehicula ipsum, scelerisque ornare orci libero vehicula sem. Suspendisse ut ipsum eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mattis diam. {by james-adam}
+Posting content on my own site (or using my preferred service) and having that content notify/appear on the site I'm mentioning is something I've been thinking about for years. Way back when, I even spent some time [modifying the delicious firefox plugin to send trackbacks to the sites I was bookmarking](http://chrisroos.co.uk/blog/2008-02-04-sending-trackbacks-to-the-sites-that-you-bookmark-in-del-icio-us). Hopefully I'll find some time to add similar functionality to [Roosmarks](https://github.com/chrisroos/roosmarks) in the near future. {by chris-roos}
 
 :render_as: Blog
 :kind: draft
