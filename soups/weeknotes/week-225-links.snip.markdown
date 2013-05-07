@@ -1,6 +1,11 @@
 Monday Links - 225
 ============
 
+### [Fargo](http://fargo.io/)
+
+I've been after a good [outliner](http://en.wikipedia.org/wiki/Outliner) for a while, after continuously switching between [Google Tasks](http://mail.google.com/tasks) (the keyboard shortcuts make it really easy to re-organise things, even if they're not necessarily tasks), [Workflowy](https://workflowy.com/) and [Markdown](http://daringfireball.net/projects/markdown/) in plain old text files. I've only just started using it but Fargo (co-created by [Dave Winer](http://scripting.com/)) seems to have the right mix of openness (it stores [OPML](http://en.wikipedia.org/wiki/OPML) files in [Dropbox](https://www.dropbox.com/)) and an outline-specific mode of operation. {by chris-roos}
+
+
 ### [Rubocop](https://github.com/bbatsov/rubocop)
 
 We've agreed to abide by the [Ruby style guide](https://github.com/bbatsov/ruby-style-guide) on our current project. While it's great to have a set of agreed upon guidelines, it's not always easy to remember what they are while you're in the middle of coding; particularly if you have a slightly different individual style. Personally, I'd rather have a computer tell me that I've violated any given guideline than have to keep on top of it myself, and it looks like we might be able to use Rubocop to do just that. {by chris-roos}
