@@ -11,6 +11,17 @@ We've agreed to abide by the [Ruby style guide](https://github.com/bbatsov/ruby-
 I've been looking for a Chrome extension to do this (toggle Javascript on/off) on and off *forever*, so was really very pleased to come across this last week. It sits in your toolbar and allows you to toggle Javascript on and off without having to go through the pain of finding the setting in Chrome preferences and then reloading the page. {by chris-roos}
 
 
+### [Zero Waste Home](http://www.sfgate.com/homeandgarden/article/Zero-Waste-How-green-can-you-go-4453596.php)
+
+At [GFR](/) we've tried to minimise the amount of paper we use, and I like to think that we're quite conscious about waste and other environmental issues like this, but an extreme (in a good way) example is producing literally a couple of handfuls of waste over an entire year. {by james-adam}
+
+
+### [Hooting Printer](https://vimeo.com/63080261)
+
+[Andrew Nicolaou](http://andrewnicolaou.co.uk/) of [BBC R&D](http://www.bbc.co.uk/rd) has been making Raspberry Pi play nicely with the [Printer backend](http://printer.gofreerange.com) for a while, but it was fun to see his latest code making a "hooting noise" when a print is ready. {by james-adam}
+
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
