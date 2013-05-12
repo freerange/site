@@ -10,6 +10,10 @@ Initially we used an email address as the support mechanism for [Harmonia](https
 
 I enjoyed reading this story about a company, "F International", which in the 1960s recognized the potential of mothers with young children to be remote freelance programmers. It's rather sad that the company gradually lost it's original very healthy culture as it grew, but as far as I can see this tends to be the almost inevitable outcome of rapid growth. And as the [author](https://medium.com/@Jn_Norris) notes, "it seems remarkable that the same industry is still fumbling with the issue of gender equality". {by james-mead}
 
+### [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)
+
+With our current work on [FutureLearn](http://futurelearn.com/), I've been keeping an eye out for interesting [MOOCs](http://en.wikipedia.org/wiki/Massive_open_online_course). A former colleague, [Ivan Moore](https://twitter.com/ivanrmoore), and a recent acquaintance, [Rob Chatley](https://twitter.com/rchatley), have both been working their way through Martin Odersky's [Coursera](https://www.coursera.org/) MOOC. Given their positive comments and the fact that Martin designed the [Scala](http://www.scala-lang.org/) programming language, it sounds like a very worthwhile challenge.
+
 :render_as: Blog
 :kind: draft
 :is_page: true
