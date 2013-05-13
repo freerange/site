@@ -13,7 +13,7 @@ I enjoyed reading this story about a company, "F International", which in the 19
 
 ### [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)
 
-With our current work on [FutureLearn](http://futurelearn.com/), I've been keeping an eye out for interesting [MOOCs](http://en.wikipedia.org/wiki/Massive_open_online_course). A former colleague, [Ivan Moore](https://twitter.com/ivanrmoore), and a recent acquaintance, [Rob Chatley](https://twitter.com/rchatley), have both been working their way through Martin Odersky's [Coursera](https://www.coursera.org/) MOOC. Given their positive comments and the fact that Martin designed the [Scala](http://www.scala-lang.org/) programming language, it sounds like a very worthwhile challenge.
+With our current work on [FutureLearn](http://futurelearn.com/), I've been keeping an eye out for interesting [MOOCs](http://en.wikipedia.org/wiki/Massive_open_online_course). A former colleague, [Ivan Moore](https://twitter.com/ivanrmoore), and a recent acquaintance, [Rob Chatley](https://twitter.com/rchatley), have both been working their way through Martin Odersky's [Coursera](https://www.coursera.org/) MOOC. Given their positive comments and the fact that Martin designed the [Scala](http://www.scala-lang.org/) programming language, it sounds like a very worthwhile challenge. {by james-mead}
 
 
 ### [Contextinator -- dividing your browsing into projects](http://contextinator.cs.vt.edu/)
