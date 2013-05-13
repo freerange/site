@@ -26,6 +26,11 @@ This might be useful for anyone who has a million tabs open, but my main reason 
 Built and maintained by {l heylist,Heylist}, a service we wrote and I recently "relaunched". I felt it really shone on Saturday night, as people were arriving in Edinburgh or Crieff and trying to coordinate meeting for drinks using twitter, but without any hashtag. It's just a shame that Twitter Lists are so unloved by twitter clients. {by james-adam}
 
 
+### [CSS Architecture](http://engineering.appfolio.com/2012/11/16/css-architecture/)
+
+This is long but I found it an interesting insight into the motivation behind some of the CSS approaches we're seeing these days, particularly with things like [bootstrap](http://twitter.github.io/bootstrap/) gaining popularity. I definitely have some reservations to this approach, but don't have enough experience to suggest any alternatives. One particular thing that I'm uncomfortable with in this post is the assertion that you should use "classes for styling and styling only". I tend to use classes to add meaning to the page to make it more easily machine readable (trying to scrape websites that don't do this can be a real pain), irrespective of whether those classes are then used for styling. {by chris-roos}
+
+
 [^chris-loves-google]: Chris, let us know if our characterisation of your love for all things Google ever becomes annoying...
 
 
