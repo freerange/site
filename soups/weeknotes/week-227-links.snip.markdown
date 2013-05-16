@@ -3,7 +3,11 @@ Monday Links - 227
 
 ### [Meetings at Medium](https://medium.com/about-holacracy/93446941a52a)
 
-"Holocracy" describes, among other things, a technique for running meetings and managing "tensions" within teams. There's a lot more at [holocracy.org](holocracy.org), if you can penetrate the slick presentation. Perhaps [this interview](http://youtu.be/hRleiXJH9_I?t=7m10s) with Ev Williams (who runs Medium) is a simpler introduction. One aspect that seems to be emphasised is the idea of an [organisation's purpose](http://www.youtube.com/watch?v=knPl11JIuT0&feature=youtu.be), which is something I think that [we](/) struggle with -- "what is the *purpose* of GFR?". As I said, there's a lot of slick presentation to penetrate here, but I'm hoping to find a kernel of insight that might help our company. {by james-adam}
+"Holocracy" describes, among other things, a technique for running meetings and managing "tensions" within teams. There's a lot more at [holocracy.org](holocracy.org), if you can penetrate the slick presentation. Perhaps [this interview](http://youtu.be/hRleiXJH9_I?t=7m10s) with Ev Williams (who runs Medium) is a simpler introduction. [This quote](http://holacracy.org/blog/evan-williams-on-building-a-mindful-company) also jumped out at me:
+
+> People think "freedom, no job description, everybody does everything, it's totally flat, and that's cool because we're all down with those rules". But actually that creates tons of anxiety and inefficiency, and various modes of dysfunction, whether we have to build consensus around every decision, or I'm gonna do a land grab for power... People romanticize startup cultures, but I know it's fairly rare that people in startups say "this is it, it is amazing and everybody is super-productive and going along"
+
+One aspect that seems to be emphasised is the idea of an [organisation's purpose](http://www.youtube.com/watch?v=knPl11JIuT0&feature=youtu.be), which is something I think that [we](/) struggle with -- "what is the *purpose* of GFR?". As I said, there's a lot of slick presentation to penetrate here, but I'm hoping to find a kernel of insight that might help our company. {by james-adam}
 
 ### [Simon Sinek: How great leaders inspire action](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action.html)
 
