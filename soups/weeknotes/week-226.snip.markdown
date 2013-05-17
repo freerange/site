@@ -9,11 +9,11 @@ We've had another busy week with FutureLearn and are continuing to make good pro
 
 ## Project Los Roques
 
-Tom's been off all week looking after [mini me](https://twitter.com/danie_mason/status/334393710752190464) so it was just [James A](/james-adam) and I that met our friends from [Project Los Roques](http://gofreerange.dev/week-218#project-los-roques) for a coffee. They  recently applied for [Techstars London](http://www.techstars.com/program/locations/london/) and were lucky enough to get shortlisted. That's great news and we wish them the best of luck with the rest of the process.
+Tom's been off all week looking after [mini me](https://twitter.com/danie_mason/status/334393710752190464) so it was just [James A](/james-adam) and I that met our friends from [Project Los Roques](/week-218#project-los-roques) for a coffee. They  recently applied for [Techstars London](http://www.techstars.com/program/locations/london/) and were lucky enough to get shortlisted. That's great news and we wish them the best of luck with the rest of the process.
 
 ## Printers and bidness
 
-James A met with a couple of people who have a business idea that could utilise the [GFR Printer](/printer). We've lent them one of our printer kits (remember that you too can [buy or borrow a printer kit](http://gofreerange.com/printer-kit) if you're interested) and will have to wait to see what they come up with. The Printer infrastructure is really just a set of prototypes, so some investment to make it more robust would be required before we could recommend anybody builds a business on it. That said, it would be interesting work, and we'd be very happy to collaborate with partners to work on that.
+James A met with a couple of people who have a business idea that could utilise the [GFR Printer](/printer). We've lent them one of our printer kits (remember that you too can [buy or borrow a printer kit](/printer-kit) if you're interested) and will have to wait to see what they come up with. The Printer infrastructure is really just a set of prototypes, so some investment to make it more robust would be required before we could recommend anybody builds a business on it. That said, it would be interesting work, and we'd be very happy to collaborate with partners to work on that.
 
 ## Training and workshops
 
