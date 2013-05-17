@@ -13,7 +13,7 @@ Tom's been off all week looking after [mini me](https://twitter.com/danie_mason/
 
 ## Printers and bidness
 
-James A met with a couple of people who have a business idea that could utilise the [GFR Printer](/printer). We've lent them one of our printer kits (remember that you too can [buy or borrow a printer kit](http://gofreerange.com/printer-kit) if you're interested) and will have to wait to see what they come up with. I wonder if it'll prove as cost-effective as they hope once they factor in making the system more robust to deal with their production requirements.
+James A met with a couple of people who have a business idea that could utilise the [GFR Printer](/printer). We've lent them one of our printer kits (remember that you too can [buy or borrow a printer kit](http://gofreerange.com/printer-kit) if you're interested) and will have to wait to see what they come up with. The Printer infrastructure is really just a set of prototypes, so some investment to make it more robust would be required before we could recommend anybody builds a business on it. That said, it would be interesting work, and we'd be very happy to collaborate with partners to work on that.
 
 ## Training and workshops
 
