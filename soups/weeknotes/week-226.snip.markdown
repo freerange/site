@@ -21,7 +21,9 @@ James A met with a couple of people who have a business idea that could utilise 
 
 And that just about wraps things up this week. I hope you all have great weekends.
 
-Until next time, Chris.
+Until next time.
+
+-- Chris
 
 :render_as: Blog
 :kind: blog
