@@ -15,7 +15,13 @@ See also [this summary of his talk about the purpose-driven organisation](http:/
 
 ### [Introducing CoVim – Collaborative Editing for Vim](http://www.fredkschott.com/post/50510962864/introducing-covim-collaborative-editing-for-vim)
 
-In my continuing quest for a code editor that works well in a remote pair-programming context, this [vim](http://www.vim.org/) plugin which makes use of [Python](http://www.python.org/) & [Twisted](http://twistedmatrix.com/trac/) looks as if it might offer a useful low-bandwidth collaborative development environment.
+In my continuing quest for a code editor that works well in a remote pair-programming context, this [vim](http://www.vim.org/) plugin which makes use of [Python](http://www.python.org/) & [Twisted](http://twistedmatrix.com/trac/) looks as if it might offer a useful low-bandwidth collaborative development environment. {by james-mead}
+
+### [Docker](http://www.docker.io/)
+
+> An open-source engine which automates the deployment of applications as highly portable, self-sufficient containers which are independent of hardware, language, framework, packaging system and hosting provider.
+
+I hadn't heard of [Linux Containers](http://lxc.sourceforge.net/) before, but they sound pretty useful. This could be interesting for creating project-specific developer sandboxes and for packaging up an application's dependencies so it can be easily deployed to a production server. {by james-mead}
 
 :render_as: Blog
 :kind: draft
