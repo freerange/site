@@ -13,6 +13,10 @@ One aspect that seems to be emphasised is the idea of an [organisation's purpose
 
 See also [this summary of his talk about the purpose-driven organisation](http://www.youtube.com/watch?v=MXNvfEm5ezI); again, there's a level of... *presentation* that you might need to look beyond here, but fundamental message here is that it's the organisation's *purpose*, and communicating what we *believe*, that drives not only the way people work within it, but also why people buy it's products or services. I'm reminded of my time at [Reevoo](http://www.reevoo.com), where I bored my colleagues and superiors by decrying that "*we needed a Manifesto!*" to explain what we did and why we anyone should care. It's only now that I fully realise that the "anyone" included we developers as much as the public. Anyway, this and the link above are undigested raw material for some further thinking about how we run [GFR](/). I hope I get the chance to digest them. {by james-adam}
 
+### [Introducing CoVim – Collaborative Editing for Vim](http://www.fredkschott.com/post/50510962864/introducing-covim-collaborative-editing-for-vim)
+
+In my continuing quest for a code editor that works well in a remote pair-programming context, this [vim](http://www.vim.org/) plugin which makes use of [Python](http://www.python.org/) & [Twisted](http://twistedmatrix.com/trac/) looks as if it might offer a useful low-bandwidth collaborative development environment.
+
 :render_as: Blog
 :kind: draft
 :is_page: true
