@@ -21,6 +21,10 @@ In my continuing quest for a code editor that works well in a remote pair-progra
 
 I hadn't heard of [Linux Containers](http://lxc.sourceforge.net/) before, but they sound [pretty useful](https://github.com/dotcloud/docker/#better-than-vms). This could be interesting for creating project-specific developer sandboxes and for packaging up an application's dependencies so it can be easily deployed to a production server. {by james-mead}
 
+### [INVESTing In User Stories Is Hard](http://www.thesubversiveba.com/2013/05/investing-in-user-stories-is-hard.html)
+
+I think this is a great description of what makes a good user story and how some of the "properties" of a good user story are in tension with each other. Via [Neil Williams](https://twitter.com/neillyneil). {by james-mead}
+
 :render_as: Blog
 :kind: draft
 :is_page: true
