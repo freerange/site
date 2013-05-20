@@ -26,7 +26,7 @@ I hadn't heard of [Linux Containers](http://lxc.sourceforge.net/) before, but th
 I think this is a great description of what makes a good user story and how some of the "properties" of a good user story are in tension with each other. Via [Neil Williams](https://twitter.com/neillyneil). {by james-mead}
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
