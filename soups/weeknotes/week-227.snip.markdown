@@ -32,7 +32,7 @@ Given that I did my degree in Electronic-(ish) Engineering and not Computer Scie
 
 ## Harmonia
 
-[James](/james-adam) found time this week to chat to the good folks at [Poetica](https://poetica.com/) about their experiences with [Harmonia](https://harmonia.io/). I've not yet had a chance to catch up with their feedback, but I think we're incredibly fortunate to have some people using the product just around the corner. So I'd like to say a big thank you on behalf of [Go Free Range](/) to [James](https://twitter.com/jamesweiner) & [Blaine](https://twitter.com/blaine) for sparing some of their valuable time.
+[James](/james-adam) found time this week to chat to the good folks at [Poetica](https://poetica.com/) about their experiences with [Harmonia](https://harmonia.io/). I've not yet had a chance to catch up with their feedback, but I think we're incredibly fortunate to have some people using the product just around the corner. So I'd like to say a big thank you on behalf of [Go Free Range](/) to [James Weiner](https://twitter.com/jamesweiner) for sparing some of his valuable time.
 
 
 And with that, I bid you adieu.
