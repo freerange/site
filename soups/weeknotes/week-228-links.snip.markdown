@@ -1,9 +1,11 @@
 Monday Links - 228
 ============
 
-### [Title](http://example.com)
+### [Collaborative editing with different editors](https://floobits.com/)
 
-blah blah {by james-mead}
+I know {l james-mead,James M} has already been looking into collaborative editor environments (see {l week-227-links,CoVIM from last week}), but wouldn't it be better if you could each use your own preferred editor? Floobits would seem to promise exactly that. They've written plugins for VIM and Sublime Text already, which could be enough for us to try it out in earnest soon.
+
+Unfortunately, I couldn't actually get it to work. {by james-adam}
 
 :render_as: Blog
 :kind: draft
