@@ -28,11 +28,31 @@ Tom Stuart's book is finally available, in electronic and dead-tree forms. If yo
 The [Kickstarter campaign](http://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform) for this open-source blogging platform is already pretty much finished and very well funded, but what caught my eye in the teaser video was the side-by-side editing and preview feature. We're pretty much in the business of making "admin" interfaces, and it got me thinking about how we might make Markdown more user-friendly. {by james-adam}
 
 
+### [Leaving Google’s silo: Alternatives to Gmail, Talk, Calendar, and more](https://kkinder.com/2013/05/21/leaving-googles-silo-alternatives-to-gmail-talk-calendar-and-more/)
+
+Ken Kinder claims that "Google is the new AOL", has given up on open standards and is gradually removing its properties from the open web. While I think his claims have _some_ justification, the existence of [The Data Liberation Front](http://www.dataliberation.org/) means that I don't feel as paranoid as he does. However, it was interesting to read about alternatives to Google products. I've had a [Fastmail](https://www.fastmail.fm/) account since 2002 and have always found it to be an excellent service, so it wasn't a surprise to see it in the list. However, [Fruux](https://fruux.com/) and [Radicale](http://radicale.org/) were new to me and worth some investigation. The article has also prompted me to have another look at [Soocial](http://www.soocial.com/), a service that I experimented with a while back. {by james-mead}
+
+
+### [minitest-line](https://github.com/judofyr/minitest-line)
+
+This is a [Minitest](https://github.com/seattlerb/minitest) v5 plugin for running focused tests which is based on a [pull request](https://github.com/seattlerb/minitest/pull/267) I submitted a couple of months back. I'm grateful to [Magnus Holm](http://judofyr.net/) for taking the time to translate the idea into a plugin. {by james-mead}
+
+
+### [Does Europe need its own MOOC](http://www.guardian.co.uk/higher-education-network/blog/2013/mar/28/european-mooc-opportunities-challenges)
+
+This Guardian article suggests that [MOOCs](http://en.wikipedia.org/wiki/Massive_open_online_course) might be the only means of survival for smaller universities. It's going to be interesting to see whether the new wave of online courses turns out to be as influential as this in practice. {by james-mead}
+
+
+### [Designing an API in hell](http://pivotallabs.com/designing-an-api-in-hell/)
+
+This describes how a developer started using [test parallelization](http://blog.zenspider.com/blog/2012/12/minitest-parallelization-and-you.html) early in a project and how it influenced his design decisions. I'm not really persuaded that this is a Good Idea™ in the general case, but it reminded me that generating unique IDs (using GUIDs) on the client side can be a useful tactic to adopt. {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
 :written_with: Kramdown
-:author: james-mead
+:author: chris-roos
 :created_at: 2013-05-28 10:00:00 +01:00
 :updated_at: 2013-05-28 10:00:00 +01:00
 :page_title: Monday Links - Week 228
