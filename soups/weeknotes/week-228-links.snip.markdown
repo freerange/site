@@ -79,7 +79,7 @@ It's a couple of years old but I've only just come across this video and enjoyed
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
