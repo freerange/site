@@ -27,6 +27,23 @@ Off the back of Youtube's recent "Comedy Week", I've been spending a lot of my n
 <iframe width="640" height="360" src="http://www.youtube.com/embed/YtO-6Xg3g2M?list=PLQ-7WiWmOuK-55mfcd_tdcvy-57VMCkOW" frameborder="0" allowfullscreen></iframe>
 
 
+### [Flight, an event-driven framework from Twitter](http://twitter.github.io/flight/)
+
+> While some web frameworks encourage developers to arrange their code around a prescribed model layer, Flight is organized around the existing DOM model with functionality mapped directly to DOM nodes.
+
+I haven't quite got my head round the pros and cons of this approach, but given that [Dan Webb](https://twitter.com/danwrong) was involved in writing it, I'm sure it's worth some serious attention. {by james-mead}
+
+
+### [Ruby Object Mapper](https://github.com/rom-rb/rom)
+
+There seems to be a surge in interest in Ruby object-relational mapping libraries. This one uses [axiom](https://github.com/dkubb/axiom) a relational algebra library which I'd not come across before. I've also recently read a bit about [datamappify](https://github.com/fredwu/datamappify) which is built on top of existing ORMs like [ActiveRecord](http://rubydoc.info/gems/activerecord) and is based on the [Repository Pattern](http://martinfowler.com/eaaCatalog/repository.html) and [Entity Aggregation](http://msdn.microsoft.com/en-au/library/ff649505.aspx). {by james-mead}
+
+
+### [Raildar](http://raildar.co.uk/)
+
+It's great to see another website making use of [Network Rail](http://www.networkrail.co.uk/)'s operational data feeds which were opened up last year. {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
