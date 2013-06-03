@@ -1,6 +1,10 @@
 Monday Links - 229
 ============
 
+### [Making WebGL Dance](http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html)
+
+I know hardly anything about computer graphics, have no real interest in WebGL, yet still found these slides from a presentation by Steven Wittens captivating.  It's amazing what can be accomplished in the browser these days, but more than just a demo they are informative too.  I can't wait for the talk video to become available. {by tom-ward}
+
 ### [storytlr open source | your life online](http://storytlr.org/)
 
 I've just had a quick play with this [indieweb](http://indiewebcamp.com/) life streaming application. The app itself is OK although I did have problems trying to import data from flickr and github.
@@ -12,7 +16,7 @@ The most interesting aspect was the "Direct Install" option that uses [ComodIT](
 
 > It turns out that Google Analytics will wait for a visitor to trigger a second event, such as visiting another page on the same site. If that second event is never triggered, the visit is counted as a bounce (regardless of the duration of the visit).
 
-I found this really interesting as I suspect it's a problem lots of people run into with a standard "install" of Google Analytics.
+I found this really interesting as I suspect it's a problem lots of people run into with a standard "install" of Google Analytics. {by chris-roos}
 
 
 ### [Understanding Computation Book Club - Chapter 2](http://lanyrd.com/2013/compbookclub/)
@@ -22,9 +26,9 @@ A few folk are gathering to read and discuss [Tom's book](http://codon.com/compu
 
 ### [Epic Rap Battles of History](http://www.youtube.com/user/ERB)
 
-Off the back of Youtube's recent "Comedy Week", I've been spending a lot of my non-work vegetative time gawping at videos on the internet. This is one series that I've really enjoyed; particular favourites include [Mozart vs. Skrillex](http://www.youtube.com/watch?v=_6Au0xCg3PI), [Tesla vs. Edison](http://www.youtube.com/watch?v=gJ1Mz7kGVf0) and [Einstein vs Hawking](http://www.youtube.com/watch?v=zn7-fVtT16k), but really, they're all good. {by james-adam}
-
 <iframe width="640" height="360" src="http://www.youtube.com/embed/YtO-6Xg3g2M?list=PLQ-7WiWmOuK-55mfcd_tdcvy-57VMCkOW" frameborder="0" allowfullscreen></iframe>
+
+Off the back of Youtube's recent "Comedy Week", I've been spending a lot of my non-work vegetative time gawping at videos on the internet. This is one series that I've really enjoyed; particular favourites include [Mozart vs. Skrillex](http://www.youtube.com/watch?v=_6Au0xCg3PI), [Tesla vs. Edison](http://www.youtube.com/watch?v=gJ1Mz7kGVf0) and [Einstein vs Hawking](http://www.youtube.com/watch?v=zn7-fVtT16k), but really, they're all good. {by james-adam}
 
 
 ### [Flight, an event-driven framework from Twitter](http://twitter.github.io/flight/)
@@ -33,6 +37,10 @@ Off the back of Youtube's recent "Comedy Week", I've been spending a lot of my n
 
 I haven't quite got my head round the pros and cons of this approach, but given that [Dan Webb](https://twitter.com/danwrong) was involved in writing it, I'm sure it's worth some serious attention. {by james-mead}
 
+
+### [OAuth2 as a Hotel Token](https://www.tbray.org/ongoing/When/201x/2013/05/24/Access-Token-Hotel-Key)
+
+I've played a lot with OAuth2 in the last few years, and while over recent months it feels like it has become mired in controversy and disagreement, there's still much to like about the standard.  This analogy from Tim Bray is the simplest I've seen to describe what an access token is.  {by tom-ward}
 
 ### [Ruby Object Mapper](https://github.com/rom-rb/rom)
 
@@ -45,7 +53,7 @@ It's great to see another website making use of [Network Rail](http://www.networ
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: tom-ward
