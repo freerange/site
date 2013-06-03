@@ -15,6 +15,18 @@ The most interesting aspect was the "Direct Install" option that uses [ComodIT](
 I found this really interesting as I suspect it's a problem lots of people run into with a standard "install" of Google Analytics.
 
 
+### [Understanding Computation Book Club - Chapter 2](http://lanyrd.com/2013/compbookclub/)
+
+A few folk are gathering to read and discuss [Tom's book](http://codon.com/computation-book) at GFRHQ. We're going to be discussing Chapter Two, which is all about _semantics_: determining what a program actually means. You can [read it for free here](http://computationbook.com/sample). You're more than welcome to join us, although I'm starting to get worried that we'll have enough chairs... {by james-adam}
+
+
+### [Epic Rap Battles of History](http://www.youtube.com/user/ERB)
+
+Off the back of Youtube's recent "Comedy Week", I've been spending a lot of my non-work vegetative time gawping at videos on the internet. This is one series that I've really enjoyed; particular favourites include [Mozart vs. Skrillex](http://www.youtube.com/watch?v=_6Au0xCg3PI), [Tesla vs. Edison](http://www.youtube.com/watch?v=gJ1Mz7kGVf0) and [Einstein vs Hawking](http://www.youtube.com/watch?v=zn7-fVtT16k), but really, they're all good. {by james-adam}
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/YtO-6Xg3g2M?list=PLQ-7WiWmOuK-55mfcd_tdcvy-57VMCkOW" frameborder="0" allowfullscreen></iframe>
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
