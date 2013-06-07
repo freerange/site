@@ -15,7 +15,7 @@ However, I often found myself wanting to write something "in-between"[^1]. A typ
 
 ### New school
 
-On our current project, we're using [RSpec](http://rspec.info/) and there's no real equivalent of Rails functional tests -- RSpec controller specs and view specs are unit tests; not integration-y at all. So we've decided to have a layer of RSpec feature tests loosely characterised like this:
+On our current project, we're using [RSpec](http://rspec.info/) and there's no real equivalent of Rails functional tests -- RSpec controller specs and view specs are unit tests; not integration-y at all. So to fill the gap we've decided to have a layer of RSpec feature tests loosely characterised like this:
 
 * Only a few user interactions e.g. view a form, fill it in, submit it, and view the result
 * Feel free to navigate directly to page via URL path i.e. no need to follow navigation links
