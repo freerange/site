@@ -29,7 +29,7 @@ I have the basics of it working, but I've been struggling to come up with the be
 
 ## Heylist!
 
-James A has also been keeping an eye on [HeyList!](http://heyli.st/). If you want to tap into the [real pulse](http://gofreerange.dev/say-hello-to-heylist) of the conference, you might want to consider following the [Ruby Manor 4 list](https://twitter.com/rubymanor/ruby-manor-4) which currently has 107 members. It'll be interesting to see how many people use the list on Saturday and how useful they found it.
+James A has also been keeping an eye on [HeyList!](http://heyli.st/). If you want to tap into the [real pulse](http://gofreerange.com/say-hello-to-heylist) of the conference, you might want to consider following the [Ruby Manor 4 list](https://twitter.com/rubymanor/ruby-manor-4) which currently has 107 members. It'll be interesting to see how many people use the list on Saturday and how useful they found it.
 
 ## Printer kits
 
