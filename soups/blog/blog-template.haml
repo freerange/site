@@ -11,7 +11,10 @@
     ENTRY_CONTENT
 
   #comments.comments
-    {disqus-commenting}
+    - if ENV['RACK_ENV'] == 'production'
+      {disqus-commenting}
+    - else
+      Disqus commenting is only enabled in production.
 
 #article_links
   %h3 Recent
