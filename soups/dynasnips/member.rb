@@ -1,15 +1,20 @@
 require 'vanilla/dynasnip'
 
 class Member < Dynasnip
-  def handle(name)
-    member = app.soup[name]
-    template = app.soup["member"].template
-    # TODO: produce hCard?
-    template.gsub("NAME", member.name.split("-").map { |s| s.capitalize }.join(" ")).
-             gsub("SITE", member.site).
-             gsub("TWITTER", member.twitter).
-             gsub("IMAGE", member.image).
-             gsub("CONTENT", app.render(member))
+  def handle(name=nil)
+    if name
+      member = app.soup[name]
+      template = app.soup["member"].template
+      # TODO: produce hCard?
+      template.gsub("NAME", member.name.split("-").map { |s| s.capitalize }.join(" ")).
+               gsub("SITE", member.site).
+               gsub("TWITTER", member.twitter).
+               gsub("IMAGE", member.image).
+               gsub("CONTENT", app.render(member))
+    else
+      app.response.status = 404
+      %{Not found}
+    end
   end
   self
 end
