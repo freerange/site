@@ -1,9 +1,9 @@
 Monday Links - 230
 ============
 
-### [Title](http://example.com)
+### [Code Guide - Interactive Explanations of Example Code](http://www.natpryce.com/articles/000798.html)
 
-blah blah blah {by tom-ward}
+This library allows you to embed tutorial documentation within source code using specially formatted comments. The source code and these special comments are converted into an interactive HTML tutorial which explains how the code works in a step-by-step manner. View [this example](http://natpryce.com/software/code-guide/example/selector-button-blink.html) and click the "Explain" button to see it in action. It was generated from this [source code](https://github.com/quick2wire/quick2wire-python-api/blob/master/examples/selector-button-blink). {by james-mead}
 
 :render_as: Blog
 :kind: draft
