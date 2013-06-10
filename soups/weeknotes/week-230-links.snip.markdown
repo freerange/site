@@ -35,6 +35,9 @@ With the news that the [NSA can access your online data whenever they feel like 
 
 I've been using this keyboard with its gesture typing on my Nexus 7 for a while now, and it really makes a difference. If you're still using a stock keyboard (particularly the standard one on the Samsung Galaxy S2) then I'd highly recommend installing this alternative. {by chris-roos}
 
+### [Media for Thinking the Unthinkable](http://vimeo.com/67076984)
+
+Bret Victor is amazing.  Pretty much [everything on his site](http://worrydream.com) is packed full of thoughts and ideas, and unsurprisingly given his areas of interest, they are all deep but accessible.  This talk given at MIT continues this tradition.  Watch it! {by tom-ward}
 
 :render_as: Blog
 :kind: draft
