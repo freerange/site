@@ -16,6 +16,9 @@ Pairing with new people always introduces new tools.  Last week working with [Ni
 We use [Dropbox](http://www.dropbox.com) a lot at {gfr}, but cramming everything into that single directory can be a bit onerous. I've been experimenting with this as an alternative/augmentation, and currently have it syncing my 'Documents' and a few other directories from my laptop to one of my VPS machines "in the cloud". So far it works pretty well; the only problem is that most VPSes don't actually have a huge amount of disk space. {by james-adam}
 
 
+### [Anatomy of a zero-knowledge web application](https://www.clipperz.com/blog/2007/08/24/anatomy_zero_knowledge_web_application/)
+
+With the news that the [NSA can access your online data whenever they feel like it](http://www.guardian.co.uk/world/2013/jun/06/us-tech-giants-nsa-data), it was interesting to read how the developers of the [Clipperz on-line password manager](https://www.clipperz.com/) have built a web application that claims to know *nothing* about their users or their data. I'm not sure how realistic it is for every application, but I did wonder whether it might suggest a way to provide a hosted version of Chris' excellent [MoneyTracker](https://github.com/chrisroos/money-tracker) app. {by james-mead}
 
 :render_as: Blog
 :kind: draft
