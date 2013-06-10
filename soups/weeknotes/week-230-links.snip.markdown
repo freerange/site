@@ -13,7 +13,17 @@ Pairing with new people always introduces new tools.  Last week working with [Ni
 
 ### [BitTorrent Sync](http://labs.bittorrent.com/experiments/sync.html)
 
-We use [Dropbox](http://www.dropbox.com) a lot at {gfr}, but cramming everything into that single directory can be a bit onerous. I've been experimenting with this as an alternative/augmentation, and currently have it syncing my 'Documents' and a few other directories from my laptop to one of my VPS machines "in the cloud". So far it works pretty well; the only problem is that most VPSes don't actually have a huge amount of disk space. {by james-adam}
+We use [Dropbox](http://www.dropbox.com) a lot at {gfr}, but cramming everything into that single directory can be a bit onerous. I've been experimenting with this as an alternative/augmentation, and currently have it syncing my 'Documents' and a few other directories from my laptop to one of [my VPS machines "in the cloud"](http://www.linode.com/?r=6f2e7f0dbc623e6d0db13dd153f4b2c57eb09ce2). So far it works pretty well; the only problem is that most VPSes don't actually have a huge amount of disk space. {by james-adam}
+
+
+### [FeedBin](https://feedbin.me/)
+
+As we approach the [Google Reader shutdown date](http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html), I've started to look at alternatives. This seemed like a good candidate because [Reeder](http://reederapp.com/) (my RSS reader of choice on my phone) already syncs with it. However, the experience of using it isn't fabulous. Maybe that's just the friction of adjusting to change? Maybe. Is there something that you would recommend? {by james-adam}
+
+
+### [Adminium](https://adminium.herokuapp.com/)
+
+A "plug-and-play" database explorer for your Heroku app. If you're anything like me and you use Heroku for silly little things without actually building any proper admin interfaces, this can be a good way of poking around in the database and fixing any bad data that's crept in. The free instance will only let you view five tables, but for the sort of stuff I deploy there ([printer-mail](http://printer-mail.herokuapp.com/send/freerange) and so on), it's perfect. {by james-adam}
 
 
 ### [Anatomy of a zero-knowledge web application](https://www.clipperz.com/blog/2007/08/24/anatomy_zero_knowledge_web_application/)
