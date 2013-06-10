@@ -30,6 +30,12 @@ A "plug-and-play" database explorer for your Heroku app. If you're anything like
 
 With the news that the [NSA can access your online data whenever they feel like it](http://www.guardian.co.uk/world/2013/jun/06/us-tech-giants-nsa-data), it was interesting to read how the developers of the [Clipperz on-line password manager](https://www.clipperz.com/) have built a web application that claims to know *nothing* about their users or their data. I'm not sure how realistic it is for every application, but I did wonder whether it might suggest a way to provide a hosted version of Chris' excellent [MoneyTracker](https://github.com/chrisroos/money-tracker) app. {by james-mead}
 
+
+### [Google Keyboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
+
+I've been using this keyboard with its gesture typing on my Nexus 7 for a while now, and it really makes a difference. If you're still using a stock keyboard (particularly the standard one on the Samsung Galaxy S2) then I'd highly recommend installing this alternative. {by chris-roos}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
