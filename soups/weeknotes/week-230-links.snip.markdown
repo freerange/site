@@ -40,10 +40,10 @@ I've been using this keyboard with its gesture typing on my Nexus 7 for a while 
 Bret Victor is amazing.  Pretty much [everything on his site](http://worrydream.com) is packed full of thoughts and ideas, and unsurprisingly given his areas of interest, they are all deep but accessible.  This talk given at MIT continues this tradition.  Watch it! {by tom-ward}
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2013-06-10 10:00:00 +01:00
-:updated_at: 2013-06-10 10:00:00 +01:00
+:created_at: 2013-06-10 10:26:00 +01:00
+:updated_at: 2013-06-10 10:26:00 +01:00
 :page_title: Monday Links - Week 230
