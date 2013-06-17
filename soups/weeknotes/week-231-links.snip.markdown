@@ -38,10 +38,10 @@ I came across this recently after trying to find a similar tool that I'd previou
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
-:created_at: 2013-06-17 10:00:00 +01:00
-:updated_at: 2013-06-17 10:00:00 +01:00
+:created_at: 2013-06-17 17:00:00 +01:00
+:updated_at: 2013-06-17 17:00:00 +01:00
 :page_title: Monday Links - Week 231
