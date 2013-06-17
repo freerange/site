@@ -30,6 +30,12 @@ In general, the idea of having single-purpose SD cards which you can use to repu
 {l james-adam, I} will be at the Lone Star Ruby Conference in Austin in July, getting a feel for the Ruby scene in Austin. If you're reading this and also going, please let me know, I'd love to meet up! {by james-adam}
 
 
+### [MailCatcher](http://mailcatcher.me/)
+
+> MailCatcher runs a super simple SMTP server which catches any message sent to it to display in a web interface. Run mailcatcher, set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out http://127.0.0.1:1080 to see the mail that's arrived so far.
+
+I came across this recently after trying to find a similar tool that I'd previously used to test email sending in Rails apps. MailCatcher looks pretty enough and certainly offered the functionality required for me to ensure that [Exception Notifier](https://github.com/smartinez87/exception_notification) was all hooked up correctly in our app. {by chris-roos}
+
 
 :render_as: Blog
 :kind: draft
