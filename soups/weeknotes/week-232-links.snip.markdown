@@ -32,7 +32,7 @@ I bumped into [Matt Wynne](http://mattwynne.net) on a Sleeper from London to Sco
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
