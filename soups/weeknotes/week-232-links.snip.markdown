@@ -11,6 +11,15 @@ Some people I've [paired](http://c2.com/cgi/wiki?PairProgramming) with like to h
 I came across this [TAP](http://testanything.org/)-compliant testing framework for [bash](http://www.bash.org/). I think it's pretty neat - each test case is just a function with a description. {by james-mead}
 
 
+### [Government Digital Service Design Principles | Hacker News](https://news.ycombinator.com/item?id=5911218)
+
+I wasn't sure whether to include this or not (most of the discussion appears to have been taken up by whether they should be using Google Analytics) but there are some interesting comments hidden in there. {by chris-roos}
+
+
+### [Rails 3.2 error handling with exceptions_app](https://coderwall.com/p/w3ghqq)
+
+We've recently used the technique of setting the `exceptions_app` as our Routes engine in order to provide custom error pages. While it's very easy to get something working, it took quite a while to get the new behaviour to match the Rails default, which is what our Nginx config was expecting. I hope to write something more detailed about this in the near future. {by chris-roos}
+
 
 :render_as: Blog
 :kind: draft
