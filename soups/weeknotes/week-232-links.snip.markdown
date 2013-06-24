@@ -28,7 +28,7 @@ Ahead of making their [Devkit](http://bergcloud.com/devkit/) available, there's 
 
 ### [Start Small, Stay Small](http://www.startupbook.net/)
 
-I bumped into [Matt Wynne](http://mattwynne.net) on a Sleeper from London to Scotland a while back, and after speaking to him a bit about Harmonia, he recommended (amongst other things) that I take a look at this book: "[a] blueprint to getting your startup off the ground with no outside funding". There's a free sample chapter too. {by james-adam}
+I bumped into [Matt Wynne](http://mattwynne.net) on a Sleeper from London to Scotland a while back, and after speaking to him a bit about [Harmonia](https://harmonia.io), he recommended (amongst other things) that I take a look at this book: "[a] blueprint to getting your startup off the ground with no outside funding". There's a free sample chapter too. {by james-adam}
 
 
 :render_as: Blog
