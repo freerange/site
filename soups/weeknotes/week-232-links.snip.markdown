@@ -21,6 +21,16 @@ I wasn't sure whether to include this or not (most of the discussion appears to 
 We've recently used the technique of setting the `exceptions_app` as our Routes engine in order to provide custom error pages. While it's very easy to get something working, it took quite a while to get the new behaviour to match the Rails default, which is what our Nginx config was expecting. I hope to write something more detailed about this in the near future. {by chris-roos}
 
 
+### [BERGCloud Ardunio library preview](https://github.com/bergcloud/devboard-clientlib-arduino)
+
+Ahead of making their [Devkit](http://bergcloud.com/devkit/) available, there's a sneak peak of the API available on GitHub. {by james-adam}
+
+
+### [Start Small, Stay Small](http://www.startupbook.net/)
+
+I bumped into [Matt Wynne](http://mattwynne.net) on a Sleeper from London to Scotland a while back, and after speaking to him a bit about Harmonia, he recommended (amongst other things) that I take a look at this book: "[a] blueprint to getting your startup off the ground with no outside funding". There's a free sample chapter too. {by james-adam}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
