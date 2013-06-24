@@ -23,7 +23,7 @@ We've recently used the technique of setting the `exceptions_app` as our Routes 
 
 ### [BERGCloud Ardunio library preview](https://github.com/bergcloud/devboard-clientlib-arduino)
 
-Ahead of making their [Devkit](http://bergcloud.com/devkit/) available, there's a sneak peak of the API available on GitHub. {by james-adam}
+Ahead of making their [Dev Kit](http://bergcloud.com/devkit/) available, there's a sneak peak of the API available on GitHub. {by james-adam}
 
 
 ### [Start Small, Stay Small](http://www.startupbook.net/)
