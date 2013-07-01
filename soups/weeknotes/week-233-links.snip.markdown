@@ -13,12 +13,29 @@ I'm always interested in tools to help build servers and development environment
 
 I still find it takes me a while to get my head round the syntax and structure of Puppet and Chef. I'm sure this is mostly because I don't do it often enough, but I'm interested in this project which provides a simpler alternative where you only need to provision a few machines and all on the same OS and platform. {by james-mead}
 
+### [How to Use Bookmarklets in Chrome for Mobile](http://www.labnol.org/software/google-chrome-bookmarklets/27894/)
+
+This is a great little trick. I've been using the [bookmarklets app](https://play.google.com/store/apps/details?id=com.kurtchen.android.bookmarklet.free&hl=en) to post to Roosmarks but it doesn't always pick up the title of the page (although that's possibly only a Chrome beta problem), where this appears to work just fine. {by chris-roos}
+
+### [New in Pivotal Tracker – Story following and user @mentions](http://pivotallabs.com/story-following-and-user-mentions/)
+
+> It’s now even easier to collaborate with your teammates and keep the right people up to date. We’re very excited to announce Tracker story following and @mentioning!
+
+This is a great addition to Pivotal Tracker. It should make it easier to have a discussion about a story with someone other than the person that requested it. {by chris-roos}
+
+### [Keep Your Build Fast with a Timebomb](http://pivotallabs.com/keep-your-build-fast-with-a-timebomb/)
+
+I like this idea. It's really easy for a test suite to increase in size and duration over time. Something like this might/could help you keep an eye on the duration and prevent it from getting too slow in the first place. {by chris-roos}
+
+### [What does status=canceled for a resource mean in Chrome Developer Tools?](http://stackoverflow.com/questions/12009423/what-does-status-canceled-for-a-resource-mean-in-chrome-developer-tools)
+
+I've seen this problem a few times when playing with XmlHttpRequest, most recently when trying to upload files to S3 using the [jQuery file upload plugin](https://github.com/blueimp/jQuery-File-Upload). In short, I think you'll see a "(canceled)" status when the server responds with a redirect (a 303 from S3 in my case). You can use Chrome's net internals (chrome://net-internals) to get a more detailed look at what's going on, but I'd recommend checking whether the service is responding with a redirect before diving in to that level of detail. {by chris-roos}
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2013-07-01 10:00:00 +01:00
-:updated_at: 2013-07-01 10:00:00 +01:00
+:created_at: 2013-07-01 14:00:00 +01:00
+:updated_at: 2013-07-01 14:00:00 +01:00
 :page_title: Monday Links - Week 233
