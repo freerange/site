@@ -16,14 +16,19 @@ This is the second 'start-from-nothing' HTML/JS-based game I've seen in as many 
 I've used the '[inbox zero](http://inboxzero.com/)' practice on-and-off for a few years, and when I manage to stick to it I do find that it really helps. This article takes that further by showing the specific keyboard shortcuts and implementation details (e.g. use stars for emails that need further attention) to make it work with the Gmail web UI. The only problem I have is that the Gmail web UI doesn't really work well with multiple accounts, but maybe that's a good thing rather than a problem; keep emails from a particular context totally out of mind until you choose to read them? {by james-adam}
 
 
-### [Building a mocking library](https://www.youtube.com/watch?v=2aYdtS7FZJA)
-
-This is a video of a talk by Andy Lindeman at the Ancient City Ruby conference 2013. I think Andy's test-driven approach works well and he provides a clear explanation of some of the key issues involves in writing a mocking library in Ruby. His [example library](https://github.com/alindeman/ancient_mock) is loosely based on the newer RSpec syntax discussed in [this issue](https://github.com/rspec/rspec-mocks/issues/153) on Github. {by james-mead}
-
-
 ### [Continuous Design and the NoPSD Movement](http://thoughtworks.github.io/p2/issue02/continuous-design.html)
 
-This article describes how in a truly agile process the design aspect of the work is very integrated into the story workflow with the bulk of the design work done in-browser. It suggests that if you're not careful Photoshop files become "The Final Design" and the "design starts driving the product". {by james-mead}
+This article describes how in a truly agile process the design aspect of the work is fully integrated into the story workflow with the bulk of the design work done in-browser. It suggests that if you're not careful Photoshop files become "The Final Design" and the "design starts driving the product". {by james-mead}
+
+
+### [A 1 minute test suite, 6 months in](http://pivotallabs.com/a-1-minute-test-suite-6-months-in/)
+
+A few weeks back I wrote about [rebalancing the testing pyramid](/week-229#rebalancing-the-testing-pyramid) in part to avoid the test suite becoming too slow. This article suggests that this tactic along with a few others is a way to keep your build running in under one minute. I think it might be time to do some more refactoring! {by james-mead}
+
+
+### [Building a mocking library](https://www.youtube.com/watch?v=2aYdtS7FZJA)
+
+This is a video of a talk by Andy Lindeman at the Ancient City Ruby conference 2013. I think Andy's test-driven approach works well and he provides a clear explanation of some of the key issues involved in writing a mocking library in Ruby. His [example library](https://github.com/alindeman/ancient_mock) is loosely based on the newer RSpec syntax discussed in [this issue](https://github.com/rspec/rspec-mocks/issues/153) on Github. {by james-mead}
 
 
 :render_as: Blog
