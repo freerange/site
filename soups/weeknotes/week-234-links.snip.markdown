@@ -18,7 +18,12 @@ I've used the '[inbox zero](http://inboxzero.com/)' practice on-and-off for a fe
 
 ### [Building a mocking library](https://www.youtube.com/watch?v=2aYdtS7FZJA)
 
-This is a video of a talk by Andy Lindeman at the Ancient City Ruby conference 2013. I think Andy's test-driven approach works well and he provides a clear explanation of some of the key issues involves in writing a mocking library in Ruby. His [example library](https://github.com/alindeman/ancient_mock) is loosely based on the newer RSpec syntax discussed in [this issue](https://github.com/rspec/rspec-mocks/issues/153) on Github.
+This is a video of a talk by Andy Lindeman at the Ancient City Ruby conference 2013. I think Andy's test-driven approach works well and he provides a clear explanation of some of the key issues involves in writing a mocking library in Ruby. His [example library](https://github.com/alindeman/ancient_mock) is loosely based on the newer RSpec syntax discussed in [this issue](https://github.com/rspec/rspec-mocks/issues/153) on Github. {by james-mead}
+
+
+### [Continuous Design and the NoPSD Movement](http://thoughtworks.github.io/p2/issue02/continuous-design.html)
+
+This article describes how in a truly agile process the design aspect of the work is very integrated into the story workflow with the bulk of the design work done in-browser. It suggests that if you're not careful Photoshop files become "The Final Design" and the "design starts driving the product". {by james-mead}
 
 
 :render_as: Blog
