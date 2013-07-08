@@ -20,9 +20,11 @@ I've used the '[inbox zero](http://inboxzero.com/)' practice on-and-off for a fe
 
 This article describes how in a truly agile process the design aspect of the work is fully integrated into the story workflow with the bulk of the design work done in-browser. It suggests that if you're not careful Photoshop files become "The Final Design" and the "design starts driving the product". {by james-mead}
 
+
 ### [Open Rights Group](http://www.openrightsgroup.org/)
 
-With Edward Snowden's revelations about NSA's PRISM and GCHQ's Tempora programs, it's surely never been more important to have a strong advocate for our digital rights.  Joing the Open Rights Group today. {by tom-ward}
+With Edward Snowden's revelations about NSA's PRISM and GCHQ's Tempora programs, it's surely never been more important to have a strong advocate for our digital rights.  Joining the Open Rights Group today. {by tom-ward}
+
 
 ### [A 1 minute test suite, 6 months in](http://pivotallabs.com/a-1-minute-test-suite-6-months-in/)
 
@@ -37,6 +39,7 @@ This is a video of a talk by Andy Lindeman at the Ancient City Ruby conference 2
 ### [Bland on brand](http://zenbullets.com/blog/?p=1738)
 
 My house in Leyton is near enough to the Olympic Park that when concerts are held there, the sound drifts across the rooftops into my garden.  On Saturday I could here the 'Summer Stampede featuring Mumford & Sons', reminding me of this article I'd read earlier in the week.  A persuasive case as to how Mumford & Sons are 'an assault on the very idea of music' and 'emblematic of the banality of evil'.  Read it and weep.  {by tom-ward}
+
 
 ### [Immersion](https://immersion.media.mit.edu/)
 
