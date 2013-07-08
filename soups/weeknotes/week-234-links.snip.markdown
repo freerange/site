@@ -31,6 +31,10 @@ A few weeks back I wrote about [rebalancing the testing pyramid](/week-229#rebal
 This is a video of a talk by Andy Lindeman at the Ancient City Ruby conference 2013. I think Andy's test-driven approach works well and he provides a clear explanation of some of the key issues involved in writing a mocking library in Ruby. His [example library](https://github.com/alindeman/ancient_mock) is loosely based on the newer RSpec syntax discussed in [this issue](https://github.com/rspec/rspec-mocks/issues/153) on Github. {by james-mead}
 
 
+### [Bland on brand](http://zenbullets.com/blog/?p=1738)
+
+My house in Leyton is near enough to the Olympic Park that when concerts are held there, the sound drifts across the rooftops into my garden.  On Saturday I could here the 'Summer Stampede featuring Mumford & Sons', reminding me of this article I'd read earlier in the week.  A persuasive case as to how Mumford & Sons are 'an assault on the very idea of music' and 'emblematic of the banality of evil'.  Read it and weep.  {by tom-ward}
+
 ### [Immersion](https://immersion.media.mit.edu/)
 
 I have 83,156 emails in my *personal* email account, spanning from the 1st of April 2004 until the present, and Immersion has let me get a sense of what that really means, by providing "a people-centric view of your email life using only your metadata". It's fascinating to step through time and see clusters of people come and go, corresponding to various stages of my life -- my PhD, starting my first job, and even organising [Murray](http://h-lame.com)'s stag do are all visible as the graph evolves. {by james-adam}
