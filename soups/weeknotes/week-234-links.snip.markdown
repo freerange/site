@@ -20,6 +20,9 @@ I've used the '[inbox zero](http://inboxzero.com/)' practice on-and-off for a fe
 
 This article describes how in a truly agile process the design aspect of the work is fully integrated into the story workflow with the bulk of the design work done in-browser. It suggests that if you're not careful Photoshop files become "The Final Design" and the "design starts driving the product". {by james-mead}
 
+### [Open Rights Group](http://www.openrightsgroup.org/)
+
+With Edward Snowden's revelations about NSA's PRISM and GCHQ's Tempora programs, it's surely never been more important to have a strong advocate for our digital rights.  Joing the Open Rights Group today. {by tom-ward}
 
 ### [A 1 minute test suite, 6 months in](http://pivotallabs.com/a-1-minute-test-suite-6-months-in/)
 
