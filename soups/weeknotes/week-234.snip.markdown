@@ -13,7 +13,7 @@ In recent weeks it feels to me as if we've been making more and more use of Harm
 
 ## MVB
 
-On Wednesday evening, our office hosted the inaugural workshop for the [Minimum Viable Book](http://minimumviablebook.com/) project. Chris' partner, [Any Wagner](https://twitter.com/amyeee), and [Emily Webber](https://twitter.com/ewebber) are writing a book about agile & lean practices, in an agile & lean way. It sounds intriguing!
+On Wednesday evening, our office hosted the inaugural workshop for the [Minimum Viable Book](http://minimumviablebook.com/) project. Chris' partner, [Amy Wagner](https://twitter.com/amyeee), and [Emily Webber](https://twitter.com/ewebber) are writing a book about agile & lean practices, in an agile & lean way. It sounds intriguing!
 
 ## Looking glass
 
