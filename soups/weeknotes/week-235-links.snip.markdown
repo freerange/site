@@ -25,13 +25,11 @@ This great post (hosted on the [idno](http://idno.co/) software) explains how we
 
 I find the work being done in this area really interesting and it really motivates me to want to build some of the indieweb features into [Roosmarks](https://github.com/chrisroos/roosmarks). {by chris-roos}
 
-# TODO! - update the metadata
-
 :render_as: Blog
 :kind: blog
 :is_page: true
 :written_with: Kramdown
-:author: james-adam
+:author: chris-roos
 :created_at: 2013-07-15 15:00:00 +01:00
 :updated_at: 2013-07-15 15:00:00 +01:00
 :page_title: Monday Links - Week 235
