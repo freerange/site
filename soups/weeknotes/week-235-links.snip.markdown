@@ -28,10 +28,10 @@ I find the work being done in this area really interesting and it really motivat
 # TODO! - update the metadata
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
-:created_at: 2013-07-15 14:00:00 +01:00
-:updated_at: 2013-07-15 14:00:00 +01:00
+:created_at: 2013-07-15 15:00:00 +01:00
+:updated_at: 2013-07-15 15:00:00 +01:00
 :page_title: Monday Links - Week 235
