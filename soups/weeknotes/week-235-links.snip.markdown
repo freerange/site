@@ -7,6 +7,9 @@ Monday Links - 235
 
 This is basically the motivation that drove me towards [Printer](/printer) -- I'd made a hacky thing ([Timmy](/timmy)) that ended up being such a hassle to re-assemble when I came back to it, and such a weight on my mind, that I decided to re-build it in such a way that I (or, as it happens, anyone) could come back to it and find a useful artefact. {by james-adam}
 
+### [Public perceptions of statistics (or the Daily Mail is poisonous)](http://www.rssenews.org.uk/2013/07/rss-commission-new-research-into-public-perceptions-of-statistics/)
+
+'A new survey by Ipsos MORI for the Royal Statistical Society and King’s College London shows just how wrong public opinion can be on key social issues such as crime, benefit fraud and immigration.'  That's the official description taken from these survey results, but what I think it shows is that Goebbels was right: if you repeat a lie often enough it becomes the truth.  The Daily Mail constantly appeals to its readers natural xenophobic tendencies to such an extent that people believe their propaganda.  They make money by stirring up outrage, consequences be damned. {by tom-ward}
 
 ### [Low End Box](http://www.lowendbox.com/)
 
