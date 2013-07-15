@@ -12,6 +12,9 @@ This is basically the motivation that drove me towards [Printer](/printer) -- I'
 
 I told {l chris-roos,Chris} that I'd dig up this link a few weeks ago, and then totally forgot. The hosting provider we use ([Linode](http://www.linode.com/?r=6f2e7f0dbc623e6d0db13dd153f4b2c57eb09ce2)) is excellent and can supply some pretty powerful machines, with up to 40GB of RAM. However, sometimes the application you want to deploy doesn't really need more than a few hundred megabytes of RAM or access to a lot of processing power. Heroku is one option for those cases, but you can also rent a low-spec VPS for less than £2 a month from many different providers; Low End Box provides links to all sorts of options.
 
+### [Why mobile web apps are slow](http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/)
+
+If mobile browsers are becoming more and more capable, why do so many companies insist on making dedicated apps for their products, rather than building a mobile web app?  There's probably a bit of walled garden building going on, not to mention some herd mentality (we've got to be on the App Store!), but this very comprehensive article points at a third reason - web apps on mobile phones are slow and will remain slow. {by tom-ward}
 
 # TODO! - update the metadata
 
