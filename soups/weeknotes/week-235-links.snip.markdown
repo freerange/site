@@ -16,6 +16,12 @@ I told {l chris-roos,Chris} that I'd dig up this link a few weeks ago, and then 
 
 If mobile browsers are becoming more and more capable, why do so many companies insist on making dedicated apps for their products, rather than building a mobile web app?  There's probably a bit of walled garden building going on, not to mention some herd mentality (we've got to be on the App Store!), but this very comprehensive article points at a third reason - web apps on mobile phones are slow and will remain slow. {by tom-ward}
 
+### [The #indieweb as a minimum viable social web ecosystem](http://werd.io/entry/51dca7e2bed7de945debf707/the-indieweb-as-a-minimum-viable-social-web-ecosystem)
+
+This great post (hosted on the [idno](http://idno.co/) software) explains how we can build on the [indieweb](http://indiewebcamp.com/Main_Page) movement to find/demonstrate the business value in these "decentralized social models".
+
+I find the work being done in this area really interesting and it really motivates me to want to build some of the indieweb features into [Roosmarks](https://github.com/chrisroos/roosmarks). {by chris-roos}
+
 # TODO! - update the metadata
 
 :render_as: Blog
