@@ -1,7 +1,7 @@
 Week 235
 ========
 
-Good morning from super-sunny Austin! I understand that it's really got in London right now; it's just as hot here, but we also have thunderstorms happening. It's a topsy-turvy world.
+Good morning from super-sunny Austin! I understand that it's really hot in London right now; it's just as hot here, but we also have thunderstorms happening. It's a topsy-turvy world.
 
 The notes this week are going to be concise, partly because I'm writing them from the [Lone Star Ruby](http://www.lonestarruby.org/2013/lsrc) conference, and partly because I want to write about some of what happened this week in its own post. So there we go!
 
