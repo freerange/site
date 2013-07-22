@@ -19,6 +19,16 @@ This is an outsider's impressions of how Fred George's post-agile [Programmer An
 Although I've never been convinced that fixing a price for a project up-front is a good idea for either party, I think there are some interesting ideas in this article e.g. "value-based pricing" and "positioning the price as an investment, not an expense". {by james-mead}
 
 
+### [MVCli](https://github.com/cowboyd/mvcli)
+
+One of the projects that I heard about at [Lone Star Ruby Conference](http://lonestarruby.org/2013/lsrc), it's basically a "Rails for CLI applications". If the description is accurate it sounds suspiciously like over-engineering to me, and the README is unhelpfully empty, but maybe one of you could check it out and let me know if there's a spark of something interesting there? {by james-adam}
+
+
+### [PairProgramWith.me](http://www.pairprogramwith.me/)
+
+Another of the strong themes at LSRC was pair programming, and in particular remote pair programming. This site was promoted by [Avdi Grimm](http://avdi.org/) in his closing keynote, but I also met [Mark Simm](http://twitter.com/marksim) who spoke about [#pairwithme](http://blog.quarternotecoda.com/blog/2013/07/20/the-number-pairwithme-progression/). I'm hoping to make some time available soon to pair with new people. {by james-adam}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
