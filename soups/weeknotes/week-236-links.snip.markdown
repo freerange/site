@@ -30,7 +30,7 @@ Another of the strong themes at LSRC was pair programming, and in particular rem
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
