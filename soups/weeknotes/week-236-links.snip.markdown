@@ -5,6 +5,9 @@ Monday Links - 236
 
 This is a collection of essays from ThoughtWorks designers who are finding ways to successfully blend together agile development practices with user-centred design [note: you have to give them your email address to download it] {by james-mead}
 
+### [London cycling campaign](http://lcc.org.uk/)
+
+Both Chris and I have witnessed cyclists being hit by other vehicles this past week.  While the accident I saw just resulted in bumps and bruises, Chris had the misfortune to be nearby when [a cyclist was killed](http://www.standard.co.uk/news/london/family-pay-tribute-to-kind-compassionate-loving-alan-neve-51-who-was-killed-when-hit-by-tipper-truck-in-holborn-8713203.html).  The London cycling campaign are working towards making the streets safer for London's ever growing number of cyclists.  I believe they deserve our supports. {by tom-ward}
 
 ### [What is Programmer Anarchy and does it have a future?](http://martinjeeblog.wordpress.com/2012/11/20/what-is-programmer-anarchy-and-does-it-have-a-future/)
 
