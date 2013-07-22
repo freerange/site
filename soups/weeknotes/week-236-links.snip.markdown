@@ -3,7 +3,7 @@ Monday Links - 236
 
 ### [How do you build the right thing?](http://info.thoughtworks.com/How-do-you-build-the-right-thing-part1.html)
 
-This is a collection of essays from ThoughtWorks designers who are finding ways to successfully blend together agile development practices with user-centred design. {by james-mead}
+This is a collection of essays from ThoughtWorks designers who are finding ways to successfully blend together agile development practices with user-centred design [note: you have to give them your email address to download it] {by james-mead}
 
 
 ### [What is Programmer Anarchy and does it have a future?](http://martinjeeblog.wordpress.com/2012/11/20/what-is-programmer-anarchy-and-does-it-have-a-future/)
