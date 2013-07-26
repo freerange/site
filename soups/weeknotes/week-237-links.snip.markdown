@@ -9,6 +9,19 @@ Monday Links - 237
 
 Striking a balance between polishing features and shipping them fast is a tough problem, but one worth perfecting. {by james-mead}
 
+
+### [Exercism.io](http://exercism.io)
+
+Work through exercises in a handful of different languages, and get feedback from other people who've worked through the same exercise. I've been using this for the past week, and it's been quite fun to see what people think about little bits of code. I'm *slightly* concerned that it will lead to a mono-culture of "best practices", and I see the same feedback about certain techniques handed down from person to person, but I still think there's definitely merit in the idea. {by james-adam}
+
+
+### [Nitrous.io](https://www.nitrous.io)
+
+A hosted pairing development system; basically it spins up a VPS instance and lets you easily SSH into it, edit files using a local editor (syncing the files up to the VPS) or a web-based one, and then run your app in development mode on the VPS. Pretty neat, although I really don't like the colour scheme :) {by james-adam}
+
+
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
