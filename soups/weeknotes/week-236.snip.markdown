@@ -9,7 +9,7 @@ OK, genuinely short weeknotes this week. Strap in.
 
 {l james-mead,James M} and I got our [looking glasses](http://scraplab.net/project-looking-glass/) working, and I'm looking forward to using them in anger. At the moment we use [Sqwiggle](https://www.sqwiggle.com/) to give a sense of connection despite our geographic spread, but it suffers from high CPU usage, which isn't great.
 
-James M also visited [OxRUG]() this week, and got to know some of the local community better, including learning about a co-working space hosted by [White October](http://www.whiteoctober.co.uk/) which he might make some use of. I'm also considering spending a bit of my working day somewhere a bit social; with just me and the cat here in the afternoon, it can make a person go a bit stir-crazy.
+James M also visited [OxRUG](http://oxrug.org/) this week, and got to know some of the local community better, including learning about a co-working space hosted by [White October](http://www.whiteoctober.co.uk/) which he might make some use of. I'm also considering spending a bit of my working day somewhere a bit social; with just me and the cat here in the afternoon, it can make a person go a bit stir-crazy.
 
 On the [Harmonia](https://harmonia.io) front, I did a bit of sketching to figure out some more effective ways of communicating the problem Harmonia solves *and* making it easier to sign up.
 
