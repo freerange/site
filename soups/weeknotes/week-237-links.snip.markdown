@@ -25,6 +25,11 @@ A hosted pairing development system; basically it spins up a VPS instance and le
 I did some playing with [Docker](http://docker.io/) last week, and was really impressed with how easy it was to get [a simple app or process running](http://docs.docker.io/en/latest/examples/hello_world/) within a container. I'm hopefully that it will soon be trivial for me to have a single VPS running several "containerized" applications and processes, and be able to deploy new apps very easily, using this kind of technology. {by james-adam}
 
 
+### [Object Playground](http://www.objectplayground.com/)
+
+This site includes not only [The Definitive Guide to Object-Oriented JavaScript](http://www.youtube.com/watch?v=PMfcsYzj-9M) by James Shore of [Let's Code: Test-Driven JavaScript](http://www.letscodejavascript.com/), but also a natty way to visualize the objects created by any JavaScript that you type in. {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
