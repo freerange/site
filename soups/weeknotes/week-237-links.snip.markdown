@@ -30,6 +30,12 @@ I did some playing with [Docker](http://docker.io/) last week, and was really im
 This site includes not only [The Definitive Guide to Object-Oriented JavaScript](http://www.youtube.com/watch?v=PMfcsYzj-9M) by James Shore of [Let's Code: Test-Driven JavaScript](http://www.letscodejavascript.com/), but also a natty way to visualize the objects created by any JavaScript that you type in. {by james-mead}
 
 
+### [OS X Screencast to animated GIF](https://gist.github.com/dergachev/4627207)
+
+This is a gist showing how to create an animated GIF screencast using only free OS X tools: QuickTime, ffmpeg, and gifsicle. {by james-mead}
+
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
