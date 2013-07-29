@@ -15,13 +15,16 @@ This site includes not only [The Definitive Guide to Object-Oriented JavaScript]
 
 A hosted pairing development system; basically it spins up a VPS instance and lets you easily SSH into it, edit files using a local editor (syncing the files up to the VPS) or a web-based one, and then run your app in development mode on the VPS. Pretty neat, although I really don't like the colour scheme :) {by james-adam}
 
+
 ### [Using SASS on gov.uk](https://speakerdeck.com/edds/using-sass-on-gov-dot-uk)
 
 It's no substitute to seeing our old GDS colleague [Edd](https://twitter.com/edds) deliver his talk, but there's still lots of useful information tucked into his slides.  I thought the SASS solutions he came up when we worked with him were simple and flexible, particularly adding right-to-left text.  Definitely worth reading. {by tom-ward}
 
+
 ### [Running a real site powered by Docker](http://nick.stinemat.es/#rethink-docker-technology)
 
 I did some playing with [Docker](http://docker.io/) last week, and was really impressed with how easy it was to get [a simple app or process running](http://docs.docker.io/en/latest/examples/hello_world/) within a container. I'm hopefully that it will soon be trivial for me to have a single VPS running several "containerized" applications and processes, and be able to deploy new apps very easily, using this kind of technology. {by james-adam}
+
 
 ### [Egypt after Morsi](http://www.vice.com/en_uk/vice-news/egypt-after-morsi-part-1)
 
