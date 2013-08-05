@@ -50,7 +50,7 @@ The ultimate sock-pairing machine? Apparently this uses RFIDs in your socks and 
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
