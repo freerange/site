@@ -31,6 +31,11 @@ This is an [Indiegogo](http://www.indiegogo.com/projects/mailpile-taking-e-mail-
 This novel about IT, DevOps, and "Helping Your Business Win" showed up quite a bit in my Twitter feed recently and sounds intriguing, so I've ordered a copy. I'll try to let you know what it's like. {by james-mead}
 
 
+### [Extreme Startup Game](/extreme-startup-game)
+
+I enjoyed reading [James'](/james-adam) account of our attempts at this game which [Rob Chatley](http://chatley.com/) ran at GFRHQ recently. I'm only _ever so slightly_ embarrassed that [Rob D](https://twitter.com/robd) and I didn't write any tests!
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
