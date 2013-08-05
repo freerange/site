@@ -36,6 +36,11 @@ This novel about IT, DevOps, and "Helping Your Business Win" showed up quite a b
 I enjoyed reading [James'](/james-adam) account of our attempts at this game which [Rob Chatley](http://chatley.com/) ran at GFRHQ recently. I'm only _ever so slightly_ embarrassed that [Rob D](https://twitter.com/robd) and I didn't write any tests! {by james-mead}
 
 
+### [Dare to succeed. Reap the rewards from wise risk-taking](http://energizr.wordpress.com/2013/08/03/dare-to-succeed-reap-the-rewards-from-wise-risk-taking/)
+
+Are we too conservative to be a successful product company? This is a question I've been asking myself in the wake of a conversation with [James A](/james-adam) last week. I thought this article provided some more useful food for thought. I've not worked out the answer yet though. {by james-mead}
+
+
 ### [Smarter Socks](http://www.blacksocks.com/smartersocks_us.htm)
 
 The ultimate sock-pairing machine? Apparently this uses RFIDs in your socks and a sensor plugged into your phone to help you pair your socks. It also allows you to use the camera on your phone to compare shades of black! {by james-mead}
