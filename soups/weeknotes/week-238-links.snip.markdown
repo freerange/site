@@ -33,7 +33,12 @@ This novel about IT, DevOps, and "Helping Your Business Win" showed up quite a b
 
 ### [Extreme Startup Game](/extreme-startup-game)
 
-I enjoyed reading [James'](/james-adam) account of our attempts at this game which [Rob Chatley](http://chatley.com/) ran at GFRHQ recently. I'm only _ever so slightly_ embarrassed that [Rob D](https://twitter.com/robd) and I didn't write any tests!
+I enjoyed reading [James'](/james-adam) account of our attempts at this game which [Rob Chatley](http://chatley.com/) ran at GFRHQ recently. I'm only _ever so slightly_ embarrassed that [Rob D](https://twitter.com/robd) and I didn't write any tests! {by james-mead}
+
+
+### [Smarter Socks](http://www.blacksocks.com/smartersocks_us.htm)
+
+The ultimate sock-pairing machine? Apparently this uses RFIDs in your socks and a sensor plugged into your phone to help you pair your socks. It also allows you to use the camera on your phone to compare shades of black! {by james-mead}
 
 
 :render_as: Blog
