@@ -30,6 +30,9 @@ This is an [Indiegogo](http://www.indiegogo.com/projects/mailpile-taking-e-mail-
 
 This novel about IT, DevOps, and "Helping Your Business Win" showed up quite a bit in my Twitter feed recently and sounds intriguing, so I've ordered a copy. I'll try to let you know what it's like. {by james-mead}
 
+### [John Carmack gets all functional](http://www.youtube.com/watch?v=1PhArSujR_A&feature=youtu.be&t=1m57s)
+
+I've no idea what `Quakecon 2013` is, and without prompting, my prejudiced mind would have ignored it completely.  So I'm lucky that this section of a talk by John Carmack, where he explains his thoughts about Haskell, Lisp and functional programming in general appeared in my twitter feed.  Thanks tweeters, without you I'd have missed out. {by tom-ward}
 
 ### [Extreme Startup Game](/extreme-startup-game)
 
