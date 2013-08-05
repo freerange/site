@@ -23,7 +23,12 @@ There are so many things to like about this Bret Victor talk (I'm a huge fan, as
 
 ### [Mailpile](http://www.mailpile.is/)
 
-This is an [Indiegogo](http://www.indiegogo.com/projects/mailpile-taking-e-mail-back)-backed open-source self-hosted Gmail replacement. I'm hoping that [Chris Indieweb Roos](/chris-roos) will try this out for me, but so far he's been showing a strange reluctance to self-host *other people's* software.
+This is an [Indiegogo](http://www.indiegogo.com/projects/mailpile-taking-e-mail-back)-backed open-source self-hosted Gmail replacement. I'm hoping that [Chris Indieweb Roos](/chris-roos) will try this out for me, but so far he's been showing a strange reluctance to self-host *other people's* software. {by james-mead}
+
+
+### [The Phoenix Project](http://www.amazon.co.uk/The-Phoenix-Project-Business-ebook/dp/B00AZRBLHO)
+
+This novel about IT, DevOps, and "Helping Your Business Win" showed up quite a bit in my Twitter feed recently and sounds intriguing, so I've ordered a copy. I'll try to let you know what it's like. {by james-mead}
 
 
 :render_as: Blog
