@@ -21,6 +21,11 @@ If you haven't come across a '1 weird tip' advert, you haven't been using the in
 There are so many things to like about this Bret Victor talk (I'm a huge fan, as [I've said elsewhere](http://interblah.net/inventing-on-principle)), but even if you take nothing away from the content (but you will), the delivery and the fact that he stays in character the whole time is really priceless. I won't say more, because I don't want to spoil it. Go watch. {by james-adam}
 
 
+### [Mailpile](http://www.mailpile.is/)
+
+This is an [Indiegogo](http://www.indiegogo.com/projects/mailpile-taking-e-mail-back)-backed open-source self-hosted Gmail replacement. I'm hoping that [Chris Indieweb Roos](/chris-roos) will try this out for me, but so far he's been showing a strange reluctance to self-host *other people's* software.
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
