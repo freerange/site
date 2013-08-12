@@ -25,8 +25,7 @@ This simple wiki lets you edit its contents in Markdown by just hitting `ESC` an
 
 I thought this was a good writeup of how [StatusPage](http://www.statuspage.io/) identified a problem worth solving and built a product to solve it. I was particularly interested to read how they went about finding new users. {by james-mead}
 
-### [A 451 response in the wild](http://gawker.com/did-rebekah-brooks-fuck-rupert-murdoch-and-his-son-lach-926651851
-)
+### [A 451 response in the wild](http://gawker.com/did-rebekah-brooks-fuck-rupert-murdoch-and-his-son-lach-926651851)
 
 The notable thing about this link isn't so much the content, but instead the response you get (when accessing from the UK at least).  It's the first instance in the wild I've seen of the 451 status code.  Proposed by [Tim Bray](https://www.tbray.org/ongoing/), it's for [legally restricted resources](http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-00).  I don't know if this article is available outside the UK, but given the libel laws in this country, the URL itself gives a good indication as to why it might be blocked over here. {by tom-ward}
 
