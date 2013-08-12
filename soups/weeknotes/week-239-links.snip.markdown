@@ -41,6 +41,11 @@ I'd like to blog more. I tend to struggle at two points in the writing cycle - g
 Mozilla's Persona seems like a really promising authentication system and now they've built an [Identity Bridge](http://identity.mozilla.com/post/56526022621/what-is-an-identity-bridge) for Gmail, so now you can login using your existing Gmail credentials. {by james-mead}
 
 
+### [Stringer](https://github.com/swanson/stringer) - A [work-in-progress] self-hosted, anti-social RSS reader
+
+I've been using Stringer as my RSS reader since Google Reader shut up shop. It's a Ruby/Sinatra app that runs just fine on the free [Heroku](https://www.heroku.com/) plan, and so far it's working out pretty well. It struggles a little when you have lots of unread items (a situation I ran into after being on holiday for a week) but works great on laptop, tablet and mobile for normal use. {by chris-roos}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
