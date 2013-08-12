@@ -9,11 +9,9 @@ An extremely readable overview by [Tom Taylor](http://scraplab.net) to one new t
 
 ### [Showterm](http://showterm.io/)
 
-Really simple recording of terminal output, that can be replayed on the web, or embedded in presentations or on your own site. Here's one I prepared earlier, using the brilliant [Qlobe](http://mamememo.blogspot.com/2010/09/qlobe.html) quine:
+Really simple recording of terminal output, that can be replayed on the web, or embedded in presentations or on your own site. Here's one I prepared earlier, using the brilliant [Qlobe](http://mamememo.blogspot.com/2010/09/qlobe.html) quine. {by james-adam}
 
 <iframe src="http://showterm.io/e565136dc1fc973906285" width="640" height="420"></iframe>
-
-{by james-adam}
 
 
 ### [Enterprise Wiki](http://public.enterprisewiki.co/)
