@@ -20,7 +20,7 @@ It apparently matches any word in /usr/share/dict/words.  Do not use this for an
 {by james-adam}
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
