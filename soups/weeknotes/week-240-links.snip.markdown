@@ -9,6 +9,10 @@ This is nothing but some shameless self promotion. I'm experimenting with using 
 
 Our old GDS colleague [Mark Hurrell](http://prospects.mhurrell.co.uk/) has some interesting thoughts about [this sponsored documentary](http://www.youtube.com/watch?v=_BqFkRwdFZ0) about the dangers of texting and driving.  Read Mark's thoughts then watch the documentary. After all, it is Werner-fucking-Herzog. {by tom-ward}
 
+### [A regular expression that matches English words](https://gist.github.com/noprompt/6106573)
+
+It apparently matches any word in /usr/share/dict/words.  Do not use this for anything serious! {by tom-ward}
+
 ### [Do things, write about it](http://mdswanson.com/blog/2013/08/11/write-things-tell-people.html)
 
 > ... you need to do only two things to put yourself in a position to encounter interesting work: make something cool and then tell people about it.
