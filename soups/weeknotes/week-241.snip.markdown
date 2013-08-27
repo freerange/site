@@ -17,6 +17,17 @@ I love this idea of using a rotating kitchen timer along with my old Samsung S2 
 
 The most intriguing of these for me is [Groupon](http://www.groupon.co.uk/), as it's definitely advice [we've](/) given in the past: If the most important part of your product is the content then do whatever's quickest to get that content into the world (using [Wordpress](http://wordpress.org/), for example), and iterate once it's out there. {by chris-roos}
 
+
+### [A Closer Look at How Ruby Object Mapper Works](http://solnic.eu/2013/08/26/a-closer-look-at-how-ruby-object-mapper-works.html)
+
+I'm interested in alternatives to ActiveRecord which make it easier to reduce coupling between your domain models and your persistence mechanism. This project seems promising. {by james-mead}
+
+
+### [Getting Hexagonal with Wisper, a listener Framework for Ruby](http://devblog.reverb.com/post/57704562313/getting-hexagonal-with-wisper-a-listener-framework-for)
+
+I'm also interested in pub/sub listener techniques for decoupling your business logic from Rails, although I'm not totally convinced I like the syntax of Wisper. {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
