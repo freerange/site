@@ -28,6 +28,21 @@ I've often read about sketching, paper-prototyping & HTML-prototyping as good wa
 
 This is another area of potential conflict on an agile project. Personally I think it's all about reaching a sensible compromise -- it's no good releasing a product that is unuseable or even visually unappealing, but equally it's better to release *something* than spend forever trying to make it look "perfect". {by james-mead}
 
+
+### [Meet the Hackers Who Want to Jailbreak the Internet](http://www.wired.com/wiredenterprise/2013/08/indie-web/)
+
+It's good to see the [Indie Web movement](http://indiewebcamp.com/) getting some coverage in Wired magazine. It's also worth mentioning that [IndieWebCampUK](http://indiewebcamp.com/2013/UK) is this coming weekend (7th and 8th September), although I don't think I'm going to make it unfortunately. {by chris-roos}
+
+
+### [Feed reader developers -- here's an easy way to differentiate your service and have your users love you even more](http://dave.smallpict.com/2013/08/15/feedReaderDevs)
+
+> You all read and write OPML subscription lists, right?
+
+> Let's go one step further, and let users subscribe to OPML subscription lists.
+
+I've never quite understood why feed readers (well, the ones I've used at least) haven't done this to date. It seems like such an obvious feature to me. Maybe I should have a go at adding it to [Stringer](https://github.com/swanson/stringer).
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
