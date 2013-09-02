@@ -10,6 +10,18 @@ I haven't had a chance to listen to this yet, but it's sure to be excellent. Als
 This is an old article, but it's my favourite explanation of the important difference between "iteratively" and "incrementally". Even if you haven't got time to read the whole article, please look at the two figures -- they're worth more than a thousand words. {by james-mead}
 
 
+### [A List Apart: Getting Real About Agile Design](http://alistapart.com/article/gettingrealaboutagiledesign)
+
+How best to integrate visual design into the agile process is a subject close to our hearts. I found this (somewhat old) article written from a designer's perspective particularly illuminating.
+
+> Agile is deliberately light on documentation. Great -- more time to spend on thinking and designing. Given this bias, static page comps and wireframes are a dead end. They’re simply too rigid for Agile, particularly now that the page is no longer the atomic unit of the web.
+
+I've often read about sketching, paper-prototyping & HTML-prototyping as good ways for designers to integrate with an agile workflow, but it still seems to be the exception rather than the rule.
+
+> Designers must let go of perfection to produce rapid, iterative work:  "90% right" solutions are par for the course for Agile. This can be counterintuitive, but for better or worse, Agile prioritizes the timeline over virtuosity. 
+
+This is another area of potential conflict on an agile project. Personally I think it's all about reaching a sensible compromise -- it's no good releasing a product that is unuseable or even visually unappealing, but equally it's better to release *something* than spend forever trying to make it look "perfect". {by james-mead}
+
 :render_as: Blog
 :kind: draft
 :is_page: true
