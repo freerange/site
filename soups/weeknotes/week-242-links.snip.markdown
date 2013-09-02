@@ -40,7 +40,7 @@ It's good to see the [Indie Web movement](http://indiewebcamp.com/) getting some
 
 > Let's go one step further, and let users subscribe to OPML subscription lists.
 
-I've never quite understood why feed readers (well, the ones I've used at least) haven't done this to date. It seems like such an obvious feature to me. Maybe I should have a go at adding it to [Stringer](https://github.com/swanson/stringer).
+I've never quite understood why feed readers (well, the ones I've used at least) haven't done this to date. It seems like such an obvious feature to me. Maybe I should have a go at adding it to [Stringer](https://github.com/swanson/stringer). {by chris-roos}
 
 
 :render_as: Blog
