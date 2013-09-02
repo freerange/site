@@ -44,7 +44,7 @@ I've never quite understood why feed readers (well, the ones I've used at least)
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
