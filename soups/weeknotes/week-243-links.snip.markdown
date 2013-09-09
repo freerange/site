@@ -22,7 +22,7 @@ Talking of Kent Beck, I'm attending this talk by him at Facebook, London, tomorr
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
