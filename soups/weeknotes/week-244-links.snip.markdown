@@ -13,7 +13,7 @@ A raspberry pi image that makes it very easy to get started learning how to make
 
 ### [Hot Pepper Game Reviews](http://www.youtube.com/watch?v=cTMIgyUZDDk)
 
-Game reviews from people who have just chewed and swallowed incredibly hot peppers. I don't know anything about the games they are reviewing, but this certainly makes compelling viewing. This quote from the end really made my laugh: "... we really value your opinion, and all of the support you've given us this far is just amazing... unfortunately, we're going to keep going." {by james-adam}
+Game reviews from people who have just chewed and swallowed incredibly hot peppers. I don't know anything about the games they are reviewing, but this certainly makes compelling viewing. This quote from the end really made me laugh: "... we really value your opinion, and all of the support you've given us this far is just amazing... unfortunately, we're going to keep going." {by james-adam}
 
 
 ### [The Journey of Launching My First Product, “To Do Cal”](http://www.chrisnorstrom.com/2013/08/the-journey-of-launching-my-first-product-to-do-cal/)
