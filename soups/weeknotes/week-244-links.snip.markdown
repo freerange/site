@@ -16,6 +16,15 @@ A raspberry pi image that makes it very easy to get started learning how to make
 Game reviews from people who have just chewed and swallowed incredibly hot peppers. I don't know anything about the games they are reviewing, but this certainly makes compelling viewing. This quote from the end really made my laugh: "... we really value your opinion, and all of the support you've given us this far is just amazing... unfortunately, we're going to keep going." {by james-adam}
 
 
+### [The Journey of Launching My First Product, “To Do Cal”](http://www.chrisnorstrom.com/2013/08/the-journey-of-launching-my-first-product-to-do-cal/)
+
+A pretty-long but very comprehesive writeup of one person selling the product they invented. Seeing all the hassle they went through is fascinating. This part in particular resonated with me and my own thoughts about how a person, or a company, should go about learning how to make things:
+
+> And here’s the terrifying part. You will probably lose it. You WILL probably fail. So you better learn something abso-freakin-lutely amazing to justify that loss. Go all out. Explore your options. And use that knowledge for next time, because there will be a next time and when there is you will do better.
+
+{by james-adam}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
