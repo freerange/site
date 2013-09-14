@@ -29,6 +29,11 @@ A pretty-long but very comprehesive writeup of one person selling the product th
 {by james-adam}
 
 
+### [The Feynman Lectures on Physics](http://feynmanlectures.caltech.edu/)
+
+It's fantastic that Caltech and The Feynman Lectures Website have published these legendary lectures as HTML pages - and in such good quality too with LaTeX maths equations rendered in SVG using [MathJax](http://www.mathjax.org/) JavaScript. Now I just need to find time to read them! {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
