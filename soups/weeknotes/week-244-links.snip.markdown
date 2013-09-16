@@ -6,6 +6,18 @@ Monday Links - 244
 It's fantastic that Caltech and The Feynman Lectures Website have published these legendary lectures as HTML pages - and in such good quality too with LaTeX maths equations rendered in SVG using [MathJax](http://www.mathjax.org/) JavaScript. Now I just need to find time to read them! {by james-mead}
 
 
+### [Time slice images of the Thames](http://chrisroos.co.uk/blog/2013-09-15-time-slice-images-of-the-thames)
+
+More self promotion!? Moi!? Never. Nah, just kidding, here's some more shameless self promotion.
+
+I started to play around with what I can do with all the images I've been capturing of the Thames, and came up with these time slice images (is that what they're called?) and associated video. I'd love to have a set of these images over a long period of time (like, a year) so that you could visualise the shrinking and expanding daylight. {by chris-roos}
+
+
+### [Host webpages on Google Drive](https://googledrive.com/host/0B716ywBKT84AMXBENXlnYmJISlE/GoogleDriveHosting.html)
+
+This is a handy little tip to allow you to host simple websites on Google Drive - I've definitely found myself wanting to demo simple HTML pages publicly in the past and this might just be a great way to do it. As far as I can tell, you'll need to avoid converting the uploaded files in order to get the 'Preview' button mentioned on this page {by chris-roos}
+
+
 ### [FutureLearn](https://www.futurelearn.com/)
 
 "Going live" (although we don't really like that phrase) on the 18th; you can sign up now to get early access to the first set of courses from FutureLearn partners. {by james-adam}
