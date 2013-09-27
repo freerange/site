@@ -17,7 +17,7 @@ Anyway, that's it for now. Have a great weekend.
 -- James
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
