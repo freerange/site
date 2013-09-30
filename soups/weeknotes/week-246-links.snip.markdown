@@ -11,6 +11,21 @@ This is a slide from the [Personal clouds meetup](https://personalclouds5.eventb
 I enjoyed reading this moving story of one person's struggle to re-find motivation to work on his own software. {by chris-roos}
 
 
+[Lanyrd: from idea to exit - the story of our startup](http://blog.natbat.net/post/61658401806/lanyrd-from-idea-to-exit-the-story-of-our-startup?utm_source=hackernewsletter&utm_medium=email)
+
+I had no idea that Natalie and Simon had started building Lanyrd while travelling the world. {by james-mead}
+
+
+[A simple git branching model](https://gist.github.com/jbenet/ee6c9ac48068889b0912)
+
+This is pretty close to how I prefer to develop -- at least it is if I _have_ to use feature branches -- and it's pretty close to how we're working at [FutureLearn](https://www.futurelearn.com/). {by james-mead}
+
+
+[To-Do Lists Don't Work](http://blogs.hbr.org/2012/01/to-do-lists-dont-work/)
+
+While I agree with the problems outlined, I'm far from convinced using a calendar is the best solution. {by james-mead}
+
+
 :render_as: Blog
 :kind: blog
 :is_page: true
