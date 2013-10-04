@@ -1,7 +1,7 @@
 Week 246
 ========
 
-So the cat's out of the bag.  I'm leaving [GFR](https://gofreerange.com).  In fact, my last proper GFR-day will be next Friday.  Maybe this will be my last weeknotes?  I can't believe it's happened so quickly.  Anyway, on to the notes:
+So the cat's out of the bag.  I'm leaving [GFR](/).  In fact, my last proper GFR-day will be next Friday.  Maybe this will be my last weeknotes?  I can't believe it's happened so quickly.  Anyway, on to the notes:
 
 On Monday we took advantage of the last day of James Adam's brief trip to the UK to all meet up for a few drinks.  The venue was [Brewdog in Camden](http://www.brewdog.com/bars/camden).  Good beer and conversation, though I was sorry to see they no longer had their Imperial through Lapsang Souchong on tap.
 
