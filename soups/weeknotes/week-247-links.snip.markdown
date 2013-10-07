@@ -20,6 +20,26 @@ I love these little two frame animations that show the difference between high a
 Four years after it started, Faye 1.0 has been released.  I've been following the project for some time, using it in various experimental projects, and I've always been impressed by it's reliability and ease of use.  The fact it has taken 4 years to release version 1.0 is testament to the professionalism and quality inherent throughout the code.  If you want a pub/sub messaging system between servers and the browser, I'd look at Faye first. {by tom-ward}
 
 
+[Date glitch delays Cygnus's rendezvous with ISS](http://www.newscientist.com/article/dn24248-date-glitch-delays-cygnuss-rendezvous-with-iss.html)
+
+A variation of the Y2K bug has caused problems for Orbital Sciences' Cygnus spacecraft which is attempting to re-supply the ISS. {by james-mead}
+
+
+[Memoization is a liability](http://thepugautomatic.com/2013/08/memoization-is-a-liability/)
+
+Memoization is popular in the Ruby community, but Henrik is right to point out some common pitfalls. {by james-mead}
+
+
+[Live London Bus Map](http://traintimes.org.uk/map/london-buses/)
+
+Matthew Somerville has added this live map of bus locations to his impressive public transport website. {by james-mead}
+
+
+[Self-Assembling Robots Will Blow Your Mind [Video]](http://mashable.com/2013/10/06/self-assembling-robots/)
+
+These little cubes have a flywheel inside which can reach speeds of 20,000 revolutions per second. When a brake is applied to the flywheel its angular momentum is transferred to the block and this can be used to move the block about. Groups of these blocks connected by magnets can "cooperate" to generate more complex behaviour. {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
