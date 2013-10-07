@@ -41,7 +41,7 @@ These little cubes have a flywheel inside which can reach speeds of 20,000 revol
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
