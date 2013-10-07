@@ -15,7 +15,7 @@ I've successfully used this little technique to emulate a retina display on my 1
 
 I love these little two frame animations that show the difference between high and low tide at various locations. It's given me ideas about automatically generating simple animations of some of the [images I'm collecting](http://thames-time-lapse.chrisroos.co.uk/). {by chris-roos}
 
-[Faye 1.0](http://blog.jcoglan.com/2013/10/01/announcing-faye-1-0/)
+[Faye 1.0 released](http://blog.jcoglan.com/2013/10/01/announcing-faye-1-0/)
 
 Four years after it started, Faye 1.0 has been released.  I've been following the project for some time, using it in various experimental projects, and I've always been impressed by it's reliability and ease of use.  The fact it has taken 4 years to release version 1.0 is testament to the professionalism and quality inherent throughout the code.  If you want a pub/sub messaging system between servers and the browser, I'd look at Faye first. {by tom-ward}
 
