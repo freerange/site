@@ -18,7 +18,7 @@ There's been some interest in the idea of in-browser design on our [current proj
 
 ### [Mocoso](https://github.com/frodsan/mocoso)
 
-A Ruby mocking & stubbing library made in Peru and sharing the sobriquet of [Joel Chippindale](https://github.com/mocoso), the Tech Lead on our current project. Note that I've not actually looked at any of the code! {by james-mead}
+A Ruby mocking & stubbing library made in Peru and sharing the [sobriquet](http://translate.google.com/#es/en/mocoso) of [Joel Chippindale](https://github.com/mocoso), the Tech Lead on our current project. Note that I've not actually looked at any of the code! {by james-mead}
 
 
 :render_as: Blog
