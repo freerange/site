@@ -18,6 +18,6 @@ There's much more I could say, but not without boring your socks off, so until w
 :is_page: true
 :written_with: Kramdown
 :author: tom-ward
-:created_at: 2013-10-16 00:30:00 +01:00
-:updated_at: 2013-10-16 00:30:00 +01:00
+:created_at: 2013-10-15 00:30:00 +01:00
+:updated_at: 2013-10-15 00:30:00 +01:00
 :page_title: Week 247
