@@ -27,10 +27,10 @@ Joel [pointed me](https://twitter.com/joelchippindale/status/391217996687233024)
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2013-10-21 13:00:00 +01:00
-:updated_at: 2013-10-21 13:00:00 +01:00
+:created_at: 2013-10-21 19:52:00 +01:00
+:updated_at: 2013-10-21 19:52:00 +01:00
 :page_title: Monday Links - Week 249
