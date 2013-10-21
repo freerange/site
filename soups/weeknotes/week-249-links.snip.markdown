@@ -11,6 +11,21 @@ I recently spent some time investigating the current state of [SASS](http://sass
 I had a little play with this last week. My current loosely-adhered-to system is to either deal with an email immediately or add it to Google Tasks with an action. This works well enough on the desktop but the lack of Google Tasks integration in the Gmail Android app leaves me with a different workflow on my mobile. While I like the look of ActiveInbox, it doesn't seem to avoid this problem and so I'm not sure that I'll make the switch. {by chris-roos}
 
 
+### [The Code-Savvy Web Design Tool](http://macaw.co/)
+
+I came across this new web design tool which generates HTML & CSS. Unlike other tools like this, it sounds as if the CSS it generates is at least half-sensible. The [sneak peak video](http://macaw.co/peek/) is worth watching. {by james-mead}
+
+
+### [RubyGems Update & JRuby 1.7.5](https://semaphoreapp.com/blog/2013/10/19/rubygems-update-and-jruby-175.html)
+
+We ran into some issues last week with [intermittent SSL certificate errors](https://twitter.com/semaphoreapp/status/390609477700816897) on `bundle install`. This article suggests that updating RubyGems fixes the problem and it seems to have worked for us so far. {by james-mead}
+
+
+### [Deliberate Git](http://rakeroutes.com/blog/deliberate-git/)
+
+Joel [pointed me](https://twitter.com/joelchippindale/status/391217996687233024) at this article and I pretty much agree with all of it. Us  [Free Rangers](/people) have long recognized the [power](d2aefccffdee4e113ab0803bb3372324dfd7a0e0) of [commit](https://github.com/alphagov/whitehall/commit/4f7976f122eb3aa528e0f6963d262b34d631e053) [notes](https://github.com/alphagov/whitehall/commit/6745879a89a7c3e290a2f727286c8b4e84f51d6d) as a [communication](https://github.com/alphagov/whitehall/commit/4dd466918202d848827377911b1bb16cebf0c75e) [tool](https://github.com/alphagov/whitehall/commit/ed04c7c6188243a0bfc4f093a0a2f3fcce66782f). In fact the length of our commit notes became a bit of a running joke in [some quarters](http://digital.cabinetoffice.gov.uk/). Also, while pairing with [Rob Chatley](http://chatley.com/) a couple of months back, I became more aware of how unusual it is for people to do significant curating of the commits in a branch e.g. breaking commits down to be as small as sensibly possible while still having the tests pass. This is something we do a lot.
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
