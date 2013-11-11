@@ -33,7 +33,7 @@ My former [Reevoo](http://www.reevoo.com/) colleague, Tom Lea, explains why havi
 
 ### [Unconditional Programming](http://michaelfeathers.typepad.com/michael_feathers_blog/2013/11/unconditional-programming.html)
 
-I (unfairly) associate code written in a functional style with inpenetrably complex algorithms, so it's interesting to see an example where a functional style can make the code more declarative:
+I (unfairly) associate code written in a functional style with impenetrably complex algorithms, so it's interesting to see an example where a functional style can make the code more declarative:
 
 > If we are working in an object-oriented language, we can replace switch-statements with polymorphism.  The same trick works well for if-statements too, but it can be overkill in simple cases. When we use languages with functional features, we can do most of the work that we do in loops using maps, filters, and folds. Control structures end up disappearing, and that can be a good thing.
 
