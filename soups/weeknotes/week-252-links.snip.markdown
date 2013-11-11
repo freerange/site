@@ -18,12 +18,12 @@ Being able to access AWS using Javascript is definitely something I've wished I 
 
 ### [Slack: Be less busy](https://slack.com/)
 
-I've seen [James Weiner](https://twitter.com/jamesweiner) waxing [lyrical](https://twitter.com/jamesweiner/status/398733383494168576) about this service and based on the limited information on the the home page it does sound useful. It also reminds me of _Project Codename: PissWhistle_ mentioned in [James A](/james-adam)'s article about [working remotely](/working-remotely) a while back. {by james=mead}
+I've seen [James Weiner](https://twitter.com/jamesweiner) waxing [lyrical](https://twitter.com/jamesweiner/status/398733383494168576) about this service and based on the limited information on the the home page it does sound useful. It also reminds me of _Project Codename: PissWhistle_ mentioned in [James A](/james-adam)'s article about [working remotely](/working-remotely) a while back. {by james-mead}
 
 
 ### [Why having no goals in our lives might make us happier and more successful](http://blog.bufferapp.com/why-having-no-goals-in-our-lives-might-make-us-happier-and-more-successful)
 
-This article chimes a little with my own thoughts about setting goals for yourself or your company and relates to discussions we've had within [GFR](/) over the last couple of years. The article suggests that it's better to commit to a process or a system rather than committing to a long-term goal. The author reckons that goals can be useful in setting a direction, but can also be unhelpful in actually making progress towards that goal. I don't think this article is the be-all-and-end-all regarding goal-setting, but I think it does contain some useful insights. {by james=mead}
+This article chimes a little with my own thoughts about setting goals for yourself or your company and relates to discussions we've had within [GFR](/) over the last couple of years. The article suggests that it's better to commit to a process or a system rather than committing to a long-term goal. The author reckons that goals can be useful in setting a direction, but can also be unhelpful in actually making progress towards that goal. I don't think this article is the be-all-and-end-all regarding goal-setting, but I think it does contain some useful insights. {by james-mead}
 
 
 ### [Why Code Climate is Good for Society](http://tomlea.co.uk/posts/why-codeclimate-is-good-for-society/)
