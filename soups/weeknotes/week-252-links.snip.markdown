@@ -41,7 +41,7 @@ Michael works through a simple example using Ruby. {by james-mead}
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
