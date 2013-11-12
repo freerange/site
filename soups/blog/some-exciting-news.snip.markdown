@@ -30,10 +30,10 @@ So, [exciting times][exciting.io]! See you in the future,
 [twitter]: https://twitter.com/exciting_io
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-adam
-:created_at: 2013-11-11 12:24:00 +01:00
-:updated_at: 2013-11-11 12:24:00 +01:00
+:created_at: 2013-11-12 16:24:00 +00:00
+:updated_at: 2013-11-12 16:24:00 +00:00
 :page_title: Some "Exciting" news
