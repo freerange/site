@@ -17,8 +17,14 @@ To capture that spirit, and to remind ourselves of its importance, this new comp
 
 You can find out more on [the new website][exciting.io], and by following [@exciting_io][twitter] on Twitter.
 
+While my focus is shifting, [James M](/james-mead) and [Chris](/chris-roos) will continue to run [Go Free Range](/), providing the same great service and exemplary technical skills on all existing and future projects.
+
+So, [exciting times][exciting.io]! See you in the future,
+
+-- James A
+
 [Harmonia]: https://harmonia.io
-[Printer]: http://printer.exciting.io]
+[Printer]: http://printer.exciting.io
 [Heylist]: http://heyli.st
 [exciting.io]: http://exciting.io
 [twitter]: https://twitter.com/exciting_io
