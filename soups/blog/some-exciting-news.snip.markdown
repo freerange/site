@@ -1,4 +1,4 @@
-Some "[Exciting][exciting.io]" news
+Some "Exciting" news
 =======
 
 While it may not always have been obvious, it's always been my intention to build a company that strikes a balance between consulting for clients and exploring how to build products and services for ourselves.
