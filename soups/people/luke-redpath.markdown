@@ -5,5 +5,5 @@ Luke now focuses on [iOS][] development, but we look forward to working with him
 [iOS]: http://developer.apple.com/
 
 :site: lukeredpath.co.uk
-:image: 
+:image: images/people/luke-redpath.png
 :twitter: lukeredpath
