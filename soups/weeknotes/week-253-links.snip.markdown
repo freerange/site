@@ -21,7 +21,7 @@ It's interesting to hear comments like this from a venture capitalist! {by james
 
 > Skiers in Canada are forming co-operatives to buy their local slopes – reconnecting with the true spirit of the sport.
 
-This really appeals to me. I hate all the modern paraphenalia of modern ski resorts. I'm really tempted to visit Shames Mountain and/or the Hankin-Evelyn back-country recreation area this winter. {by james-mead}
+This really appeals to me. I dislike all the modern paraphenalia of modern ski resorts. I'm really tempted to visit Shames Mountain and/or the Hankin-Evelyn back-country recreation area this winter. {by james-mead}
 
 
 ### [Airplane Time! Stretch time while flying](http://aaronparecki.com/articles/2013/11/17/1/airplane-time-stretch-time-while-flying)
