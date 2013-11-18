@@ -1,6 +1,11 @@
 Monday Links - 253
 ==================
 
+### [A Conversation with Kent Beck and Eric Ries](http://www.ustream.tv/recorded/40772384)
+
+I haven't had a chance to listen to this conversation between Mr eXtreme Programming and Mr Lean Startup, but I have high hopes for it. {by james-mead}
+
+
 ### [Government Digital Service: the best startup in Europe we can't invest in](http://www.theguardian.com/technology/2013/nov/15/government-digital-service-best-startup-europe-invest)
 
 > ... there's one incredibly disruptive startup based in London that is going after one of the biggest markets of all, and is so opaque it is largely unknown in the world of business – and, much to my chagrin, it's also impossible to invest in.
