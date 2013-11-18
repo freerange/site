@@ -24,6 +24,16 @@ It's interesting to hear comments like this from a venture capitalist! {by james
 This really appeals to me. I hate all the modern paraphenalia of modern ski resorts. I'm really tempted to visit Shames Mountain and/or the Hankin-Evelyn back-country recreation area this winter. {by james-mead}
 
 
+### [Airplane Time! Stretch time while flying](http://aaronparecki.com/articles/2013/11/17/1/airplane-time-stretch-time-while-flying)
+
+This appeared in my feed over the weekend and just kinda struck a chord. I've often found myself thinking about time when flying and there's something really appealing about this idea of Airplane time. {by chris-roos}
+
+
+### [Viewdocs: Hosted Markdown project documentation (finally!)](http://progrium.com/blog/2013/11/13/viewdocs-hosted-markdown-project-documentation/)
+
+I really like this idea as a simpler alternative to Github Pages. My only concern would be relying on the domain/service sticking around - fortunately it's open source so it shouldn't be too hard to host yourself if you were so inclined. {by chris-roos}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
