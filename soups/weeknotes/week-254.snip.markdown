@@ -7,7 +7,7 @@ Earlier that day we'd done some back-of-the-envelope calculations to try to make
 
 Work on [FutureLearn](http://futurelearn.com/) is ticking along nicely. [Chris](/chris-roos) and [Melinda](https://twitter.com/mseckington) spent quite a bit of time unpicking the idiosyncrasies of [ActiveRecord](http://api.rubyonrails.org/classes/ActiveRecord/Base.html) and ordering on `has_many :through` associations as the behaviour changed significantly from [Rails](http://rubyonrails.org/) v3 to v4.0.0 and again from v4.0.0 to v4.0.1.
 
-Assuming we still have our office, we've decided to continue the tradition of having a [Christmas](http://lanyrd.com/2011/go-free-ranges-office-warmpocalypse/) [party](http://lanyrd.com/2012/go-free-range-christmas-mullfest/). So please keep the [evening of Wednesday, 18th December](xxx) free for mulled wine, mince pies and Christmas cheer [chez nous](http://lanyrd.com/venues/london/vkwy/). [Murray](https://twitter.com/hlame) has tried to persuade Chris to mull some eggs, but fortunately I'm not sure Chris was convinced.
+Assuming we still have our office, we've decided to continue the tradition of having a [Christmas](http://lanyrd.com/2011/go-free-ranges-office-warmpocalypse/) [party](http://lanyrd.com/2012/go-free-range-christmas-mullfest/). So please keep the evening of Wednesday, 18th December free for mulled wine, mince pies and Christmas cheer [chez nous](http://lanyrd.com/venues/london/vkwy/). [Murray](https://twitter.com/hlame) has tried to persuade Chris to mull some eggs, but fortunately I'm not sure Chris was convinced.
 
 Until next time,
 
