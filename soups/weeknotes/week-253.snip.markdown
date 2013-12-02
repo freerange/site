@@ -9,8 +9,6 @@ I'm going to have to leave it there for now and bid you good day until the next 
 
 -- Chris
 
-[^tafkaig]: [The app formerly known as Inside Government](https://github.com/alphagov/whitehall)
-
 :render_as: Blog
 :kind: blog
 :is_page: true
