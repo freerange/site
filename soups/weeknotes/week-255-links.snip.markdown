@@ -22,7 +22,7 @@ I enjoyed reading this article by Alan Francis and being reminded of the corresp
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
