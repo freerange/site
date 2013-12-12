@@ -27,10 +27,10 @@ It's really useful to be able to preview files containing Markdown, Git diffs, C
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2013-12-12 14:00:00 +00:00
-:updated_at: 2013-12-12 14:00:00 +00:00
+:created_at: 2013-12-12 11:43:00 +00:00
+:updated_at: 2013-12-12 11:43:00 +00:00
 :page_title: Monday Links - Week 256
