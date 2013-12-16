@@ -12,7 +12,7 @@ I love the whole the piece but really enjoyed this quote in particular. {by chri
 
 ### [The case for progressive enhancement](http://www.elezea.com/2013/12/progressive-enhancement-yay/)
 
-This article provides links to a number of interesting articles about the merits of using [progressive enhancement](http://alistapart.com/article/understandingprogressiveenhancement). Via [Brad Wright](https://twitter.com/intranation). {by james-mead}
+This article provides links to a number of other interesting pieces about the merits of using [progressive enhancement](http://alistapart.com/article/understandingprogressiveenhancement). Via [Brad Wright](https://twitter.com/intranation). {by james-mead}
 
 
 ### [101 Goals in 1001 Days, Again](http://www.thattommyhall.com/2013/07/11/101-goals-in-1001-days-ii/)
