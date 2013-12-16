@@ -26,10 +26,10 @@ I've previously read a little about [Morning Star](http://morningstarco.com/)'s 
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2013-12-16 14:00:00 +00:00
-:updated_at: 2013-12-16 14:00:00 +00:00
+:created_at: 2013-12-16 15:35 +00:00
+:updated_at: 2013-12-16 15:35 +00:00
 :page_title: Monday Links - Week 257
