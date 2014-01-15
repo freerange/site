@@ -1,6 +1,8 @@
 Wednesday Links - 261
 =====================
 
+We've decided to switch publication of our links to Wednesdays from now on.
+
 ### [LightPaper for Mac](http://clockworkengine.com/lightpaper-mac/)
 
 I came across this Markdown editor over Christmas and love it. I've tried [Mou](http://mouapp.com/) (which admittedly has a slightly different purpose) in the past but never really got into the habit of using it, while I'm already using LightPaper most days. One of the things I love about LightPaper is the ability of show a tree view of a folder structure (rather than being limited to opening a single file at a time).
@@ -45,11 +47,11 @@ I think this is a neat idea. Just add markdown documents to a `docs` directory i
 
 ### [indie Phone](http://indiephone.eu/)
 
-There's not much information to go on, but this open-source mobile phone sounds intriguing. {by james-mead}
+There's not much information to go on, but this open-source mobile phone sounds intriguing. Having said that, I've just found these [two](https://vimeo.com/81015888) [videos](http://www.youtube.com/watch?v=G1QCBzQ0aNc&feature=youtu.be&t=43s) of presentations by Aral Balkan which have slightly put me off! {by james-mead}
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
