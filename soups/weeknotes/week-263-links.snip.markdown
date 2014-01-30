@@ -18,6 +18,28 @@ I can't believe I've only just come across this Bundle item in TextMate. Find it
 I would previously either try to diff by eye (not easy for long strings) or create two temporary files and diff those. {by chris-roos}
 
 
+### [Coverband: Production Ruby Code Coverage](https://techblog.livingsocial.com/blog/2013/12/17/coverband-production-ruby-code-coverage/)
+
+How to generate a code coverage report from production traffic using Rack middleware and Ruby 2's TracePoint API. {by james-mead}
+
+
+### [Killing the Crunch Mode Antipattern](http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/)
+
+Sensible stuff. {by james-mead}
+
+
+### [A Ranty and Dogmatic Troll Masquerading as Coding Guidelines](http://blog.rocketpoweredjetpants.com/2014/01/a-ranty-and-dogmatic-troll-masquerading.html)
+
+Does what it says on the tin. {by james-mead}
+
+
+### [Huxley](https://github.com/facebook/huxley)
+
+> A test-like system for catching visual regressions in Web applications. It watches you browse, takes screenshots, and tells you when they change.
+
+I think [Ben Griffiths](https://twitter.com/beng) made something like this. {by james-mead}
+
+
 :render_as: Blog
 :kind: blog
 :is_page: true
