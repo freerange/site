@@ -1,5 +1,5 @@
-Wednesday Links - 263
-=====================
+Week 263 - Interesting links
+============================
 
 ### [SMS Backup +](https://play.google.com/store/apps/details?id=com.zegoggles.smssync&hl=en)
 
@@ -45,6 +45,6 @@ I think [Ben Griffiths](https://twitter.com/beng) made something like this. {by 
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-01-30 21:00:00 +00:00
-:updated_at: 2014-01-30 21:00:00 +00:00
-:page_title: Wednesday Links - Week 263
+:created_at: 2014-01-31 08:00:00 +00:00
+:updated_at: 2014-01-31 08:00:00 +00:00
+:page_title: Week 263 - Interesting links
