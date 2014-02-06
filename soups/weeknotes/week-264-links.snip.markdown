@@ -18,7 +18,7 @@ A talk at LA Conf by Yehuda Katz on self-improvement for software developers and
 
 ### [George Orwell on how to make the perfect cup of tea](https://soundcloud.com/brainpicker/george-orwell-tea)
 
-A somwhat random recording of George Orwell explaining how to make a perfect cuppa including a very logical explanation for why you should put the milk in _last_ [audio]. {by james-mead}
+A somewhat random recording of George Orwell explaining how to make a perfect cuppa including a very logical explanation for why you should put the milk in _last_ [audio]. {by james-mead}
 
 
 ### [Making remote teams work](http://stet.editorially.com/articles/making-remote-teams-work/)
