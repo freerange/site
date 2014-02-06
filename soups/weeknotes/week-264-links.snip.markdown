@@ -3,7 +3,7 @@ Week 264 - Interesting links
 
 ### [Launch: The official Basecamp Android app](https://basecamp.com/1679267/announcements/38)
 
-The Andriod app that [Tom Ward](http://twitter.com/tomafro), formerly of this parish, has been working on for the last few months was released yesterday. {by james-mead}
+The Android app that [Tom Ward](http://twitter.com/tomafro), formerly of this parish, has been working on for the last few months was released yesterday. {by james-mead}
 
 
 ### [Round-up of the second Little Schemer book club meeting](https://groups.google.com/forum/#!topic/computationbook/1kPa2c5Eyn4)
