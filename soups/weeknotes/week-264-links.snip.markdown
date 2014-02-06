@@ -30,13 +30,21 @@ Although our team is now less remote than ever, I retain an ongoing interest in 
 
 This is an incredibly simple Chrome extension that hides the very annoying Rapport pop-up from the HSBC business banking website. The source is incredible simple, made me laugh out loud and doesn't appear to be doing anything more than hiding some elements on the page. {by chris-roos}
 
+
 ### [AWS Tips I Wish I'd Known Before I Started](http://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
 
 This appears to contain lots of great advice for thinking about deploying your application to the cloud, and AWS in particular. The CloudTrail audit trail to S3 tool sounds particularly useful. {by chris-roos}
 
+
 ### [The First International Conference on Software Archaeology](http://www.fatvat.co.uk/2014/02/the-first-international-conference-on.html)
 
 James linked to this in our [weeknotes](/week-263) but I thought it was worth another plug as a comprehensive writeup of the [TICOSA](http://ticosa.org/) conference we attended last week. {by chris-roos}
+
+
+### [XP is the Mac of Agile](http://agilewarrior.wordpress.com/2014/02/03/xp-is-the-mac-of-agile/)
+
+Martin Fowler [recently blogged](http://martinfowler.com/snips/201401291615.html) about how his [Flaccid Scrum](http://martinfowler.com/snips/201401291615.html) article is still relevant 5 years on. This article by Jonathan Rasmusson talks about why Scrum caught on so much more than [Extreme Programming](http://www.extremeprogramming.org/). {by james-mead}
+
 
 :render_as: Blog
 :kind: blog
