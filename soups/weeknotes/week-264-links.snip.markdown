@@ -13,7 +13,7 @@ A nice write-up by [Tom Stuart](http://twitter.com/tomstuart). {by james-mead}
 
 ### [Endurance](https://www.youtube.com/watch?v=yYihop9gHj4)
 
-A talk at LA Conf by Yehuda Katz on self-improvement for software developers and more specifically working on open source [video]. {by james-mead}
+A talk at La Conf by Yehuda Katz on self-improvement for software developers and more specifically working on open source [video]. {by james-mead}
 
 
 ### [George Orwell on how to make the perfect cup of tea](https://soundcloud.com/brainpicker/george-orwell-tea)
@@ -50,7 +50,7 @@ Martin Fowler [recently blogged](http://martinfowler.com/snips/201401291615.html
 :kind: blog
 :is_page: true
 :written_with: Kramdown
-:author: chris-roos
+:author: james-mead
 :created_at: 2014-02-06 12:00:00 +00:00
 :updated_at: 2014-02-06 12:00:00 +00:00
 :page_title: Week 264 - Interesting links
