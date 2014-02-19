@@ -21,6 +21,14 @@ While doing some research into Ruby parsers, I recently came across Peter Zotov'
 
 I was interested to read about this new London group which aims to offer a narrower focus on technical dicussions for developers practicing [XP](http://www.extremeprogramming.org/). {by james-mead}
 
+### [Rendered Prose Diffs on GitHub](https://github.com/blog/1784-rendered-prose-diffs)
+
+This is a great addition to the standard diff output: GitHub now allows you to view a diff of both the document source (e.g. markdown) and rendered output (e.g html). {by chris-roos}
+
+### [Top Tip – View Source In Android](https://thelab.o2.com/2014/02/top-tip-view-source-in-android/)
+
+I'm sure I've wanted to be able to do this in the past; and now I know how! A top tip indeed from The Lab at O2. {by chris-roos}
+
 
 :render_as: Blog
 :kind: blog
