@@ -15,7 +15,7 @@ I like their idea of making the new URLs live but only allowing access to them i
 
 ### [A Language for Embedded Developers](http://whitequark.org/blog/2012/12/06/a-language-for-embedded-developers/)
 
-While doing some research into Ruby parsers, I recently came across Peter Zotov's website. He's the author of the [parser](https://github.com/whitequark/parser) gem which I'm using at the momment. The article I've linked to explains his idea for a "dialect" of Ruby well-suited for programing embedded systems. I was particularly intrigued that the language itself will be written in Ruby using "a set of built-in functions and some amount of syntactic expansion". Unfortunately it's not open-source. {by james-mead}
+While doing some research into Ruby parsers, I recently came across Peter Zotov's website. He's the author of the [parser](https://github.com/whitequark/parser) gem which I'm using at the moment. The article I've linked to explains his idea for a "dialect" of Ruby well-suited for programing embedded systems. I was particularly intrigued that the language itself will be written in Ruby using "a set of built-in functions and some amount of syntactic expansion". Unfortunately it's not open-source. {by james-mead}
 
 ### [Extreme Programmers London Meetup](http://www.meetup.com/Extreme-Programmers-London/)
 
