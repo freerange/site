@@ -23,7 +23,7 @@ I was interested to read about this new London group which aims to offer a narro
 
 ### [Rendered Prose Diffs on GitHub](https://github.com/blog/1784-rendered-prose-diffs)
 
-This is a great addition to the standard diff output: GitHub now allows you to view a diff of both the document source (e.g. markdown) and rendered output (e.g html). {by chris-roos}
+This is a great addition to the standard diff output: GitHub now allows you to view a diff of both the document source (e.g. markdown) and rendered output (e.g HTML). {by chris-roos}
 
 ### [Top Tip – View Source In Android](https://thelab.o2.com/2014/02/top-tip-view-source-in-android/)
 
