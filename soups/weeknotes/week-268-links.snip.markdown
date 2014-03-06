@@ -38,13 +38,13 @@ I'm a big fan of [Air Hockey][] and so this robot which was built using parts fr
 
 ### [Continuum](http://adactio.com/journal/6692/)
 
-A great post that argues against the idea of trying to make sites look and act the same across multiple browsers. A couple of paragraphs stick out for me:
+A great post that argues against the idea of trying to make sites look and act the same across multiple browsers. These two paragraphs stick out for me. {by chris-roos}
 
 > If your client or boss expects that a website will look and behave the same in every browser on every device, then where did they get those expectations from? And rather than spending your time trying to meet those impossible expectations, I think your time would be better spent explaining why those expectations don’t match the reality of the web.
 
 And
 
-> I think part of the problem may be with the language we use. We talk about “the browser” when we should be talking about the browsers. I’m guilty of this. I’ll use phrases like “designing in the browser” or talk about “what we can do in the browser”, when really I should be talking about designing in the browsers and what we can do in the browsers. {by chris-roos}
+> I think part of the problem may be with the language we use. We talk about “the browser” when we should be talking about the browsers. I’m guilty of this. I’ll use phrases like “designing in the browser” or talk about “what we can do in the browser”, when really I should be talking about designing in the browsers and what we can do in the browsers.
 
 
 [CCMenu]: http://ccmenu.sourceforge.net/
