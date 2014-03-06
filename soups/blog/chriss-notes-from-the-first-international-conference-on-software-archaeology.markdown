@@ -1,4 +1,4 @@
-Chris's notes from The First International Conference on Software Archaeology
+Chris' notes from The First International Conference on Software Archaeology
 ========
 
 *NOTE.* This is <a href="http://chrisroos.co.uk/blog/2014-02-07-notes-from-the-first-international-conference-on-software-archaeology" rel="canonical">cross-posted from my personal blog</a>.
