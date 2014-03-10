@@ -24,9 +24,11 @@ This made it a bit easier to consider extending the MethodFinder to handle class
     
     def Foo.bar; end
 
+
     class Foo
       def self.bar; end
     end
+
 
     class Foo
       class << self
