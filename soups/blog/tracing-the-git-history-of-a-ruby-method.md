@@ -20,16 +20,17 @@ As far as I could tell this was due to limitations in Ripper. So I decided to ha
 
 This made it a bit easier to consider extending the MethodFinder to handle class methods, but it turns out there are a lot more ways to define class methods than there are ways to define instance methods e.g.:
 
+    # example 1
     class Foo; end
     
     def Foo.bar; end
-
-
+    
+    # example 2
     class Foo
       def self.bar; end
     end
-
-
+    
+    # example 3
     class Foo
       class << self
         def bar; end
