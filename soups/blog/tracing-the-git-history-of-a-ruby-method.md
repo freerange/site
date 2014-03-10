@@ -20,25 +20,19 @@ As far as I could tell this was due to limitations in Ripper. So I decided to ha
 
 This made it a bit easier to consider extending the MethodFinder to handle class methods, but it turns out there are a lot more ways to define class methods than there are ways to define instance methods e.g.:
 
-<pre>
-class Foo; end
+    class Foo; end
+    
+    def Foo.bar; end
 
-def Foo.bar; end
-</pre>
+    class Foo
+      def self.bar; end
+    end
 
-<pre>
-class Foo
-  def self.bar; end
-end
-</pre>
-
-<pre>
-class Foo
-  class << self
-    def bar; end
-  end
-end
-</pre>
+    class Foo
+      class << self
+        def bar; end
+      end
+    end
 
 Also the "definee" in each of these cases can be _any_ Ruby expression. Most commonly it will either be `self` or a class or module defined within the current scope.
 
