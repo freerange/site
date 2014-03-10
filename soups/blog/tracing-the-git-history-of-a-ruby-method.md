@@ -3,6 +3,12 @@ Tracing the Git history of a Ruby method
 
 *TL;DR* I've built an [experimental tool][] to display the git history of a single Ruby method definition.
 
+Here's a quick demo of it in action against the [Mocha][] codebase showing the history of the `Mocha::Expectation#with` method...
+
+<iframe src="http://showterm.io/cc440d83266d14fa1c5e9" width="700" height="480"></iframe>
+
+## Introduction
+
 Many years ago I remember using [VisualAge for Java][] which had a built-in version control system called [ENVY/Developer][] which considered each *method definition* as a [versioned component][Mastering ENVY/Developer - Software Components]. I've often wondered how feasible it would be to generate a more [semantic diff][] from the commits in a file-based version control system.
 
 Anyway, a couple of the talks and the ensuing discussions at a [conference on Software Archeology][] earlier this year gave me the impetus to explore some possibilities in this area. In particular I was keen to develop something that I thought I would find useful in my day-to-day work on large long-lived Ruby code bases.
@@ -85,6 +91,8 @@ I have a bunch of ideas that could make use of the MethodFinder functionality, s
 
 A possible optimisation would be to stop parsing a file at the point where the method definition is found - at the moment the whole file is always parsed.
 
+Running the tool against a very large repo (e.g. Rails) is still very slow, so I suspect in the end it might be necessary to build a "database" of method metadata vs commits.
+
 While writing this article, I came across the undocumented `Rugged::Diff` class - it might be better to use this rather than the [diffy gem][] that I'm using at the moment.
 
 At the moment the code delves rather too deeply into the innards of the parser gem i.e. it calls `Parser::Source::Buffer#decompose_position` to determine the last line number of the method definition. It would probably be better to submit a patch to the parser gem to make the last line available directly on `Parser::Source::Buffer`.
@@ -98,6 +106,7 @@ Many thanks to [Chris Roos][], [Tom Stuart][], [Joel Chippindale][], [Chris Lowi
 
 
 [experimental tool]: https://github.com/freerange/method_log
+[Mocha]: http://gofreerange.com/mocha/docs/
 [semantic diff]: http://martinfowler.com/bliki/SemanticDiff.html
 [VisualAge for Java]: http://en.wikipedia.org/wiki/IBM_VisualAge
 [ENVY/Developer]: http://c2.com/cgi/wiki?EnvyDeveloper
