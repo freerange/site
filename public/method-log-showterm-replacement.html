@@ -1,0 +1,98 @@
+<html>
+<head>
+  <style>
+    pre.terminal {
+      display: block;
+      background-color: black;
+      color: white;
+      font-family: monospace;
+      height: 480px;
+      width: 640px;
+      overflow: scroll;
+    }
+    pre.terminal ins {
+      color: green;
+      text-decoration: none;
+    }
+    pre.terminal del {
+      color: red;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<pre class="terminal">
+floehopper% gem install method_log
+Successfully installed method_log-0.1.1
+1 gem installed
+floehopper% rbenv rehash
+floehopper% git clone https://github.com/freerange/mocha.git
+floehopper% cd mocha
+floehopper% method_log --patch --ruby-version=18 Mocha::Expectation#with
+
+commit 8359f1a0be049d25d6fe0bf2f4945e61ee710fa7
+Author: James Mead <james@floehopper.org>
+Date:   Fri Dec 14 13:03:34 2007 +0000
+
+Refactored method_signature into method_matcher and parameters_matcher.
+
+<del>-    def with(*arguments, &block)
+-      @method_signature.modify(arguments, &block)</del>
+<ins>+    def with(*expected_parameters, &matching_block)
++      @parameters_matcher = ParametersMatcher.new(expected_parameters, &matching_block)</ins>
+       self
+     end
+
+commit 8b2617852b318b834874286fc51f18cdde26b251
+Author: James Mead <james@floehopper.org>
+Date:   Thu Oct 4 21:47:18 2007 +0000
+
+Moved method_name into Parameter class and renamed class MethodSignature.
+
+     def with(*arguments, &block)
+<del>-      @parameters = Parameters.new(arguments, &block)</del>
+<ins>+      @method_signature.modify(arguments, &block)</ins>
+       self
+     end
+
+commit 7b27e35f5590c705cc63e563cc4c4089d7916d95
+Author: James Mead <james@floehopper.org>
+Date:   Thu Oct 4 21:01:59 2007 +0000
+
+Refactored parameter matching by block into Parameters class. Renamed Parameters
+#== to Parameters#match?
+
+<del>-    def with(*arguments, &parameter_block)
+-      @parameters, @parameter_block = Parameters.new(arguments), parameter_block</del>
+<ins>+    def with(*arguments, &block)
++      @parameters = Parameters.new(arguments, &block)</ins>
+       self
+     end
+
+commit 9891d91e67c5bfb1c5298d8a08306e846a725bd5
+Author: James Mead <james@floehopper.org>
+Date:   Thu Oct 4 14:21:06 2007 +0000
+
+Extracted list of parameter matchers into a class.
+
+     def with(*arguments, &parameter_block)
+<del>-      @parameters, @parameter_block = arguments, parameter_block
+-      class << @parameters; def to_s; join(', '); end; end</del>
+<ins>+      @parameters, @parameter_block = Parameters.new(arguments), parameter_block</ins>
+       self
+     end
+
+commit e0dddfa5e4a50fa141a2a11363de8c3504a206d6
+Author: James Mead <james@floehopper.org>
+Date:   Fri Jul 14 23:22:18 2006 +0000
+
+First stab at namespacing. Renamed some classes too.
+
+<ins>+    def with(*arguments, &parameter_block)
++      @parameters, @parameter_block = arguments, parameter_block
++      class << @parameters; def to_s; join(', '); end; end
++      self
++    end</ins>
+</pre>
+</body>
+</html>
