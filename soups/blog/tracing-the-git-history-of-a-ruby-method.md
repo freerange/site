@@ -1,11 +1,11 @@
 Tracing the Git history of a Ruby method
 ====
 
-*TL;DR* I've built an [experimental tool][] to display the git history of a single Ruby method definition.
+*TL;DR* I've built an [experimental tool][method_log] to display the git history of a single Ruby method definition.
 
-Here's a quick demo of it in action against the [Mocha][] codebase showing the history of the `Mocha::Expectation#with` method...
+Here's a quick demo of it in action against the [Mocha][] codebase [^1] showing the history of the `Mocha::Expectation#with` method...
 
-<iframe src="http://showterm.io/cc440d83266d14fa1c5e9" width="700" height="480"></iframe>
+<iframe src="http://showterm.io/cc440d83266d14fa1c5e9" width="650" height="480"></iframe>
 
 ## Introduction
 
@@ -97,7 +97,12 @@ While writing this article, I came across the undocumented `Rugged::Diff` class 
 
 At the moment the code delves rather too deeply into the innards of the parser gem i.e. it calls `Parser::Source::Buffer#decompose_position` to determine the last line number of the method definition. It would probably be better to submit a patch to the parser gem to make the last line available directly on `Parser::Source::Buffer`.
 
-It might be nice to convert this tool a git extension. Simply renaming the binary to `git_method_log` would be enough to make it available as a `git method-log` command, but it might be nicer to extend the existing `git log` command itself with extra command line switches.
+It might be nice to convert this tool a git extension. Simply renaming the binary to `git_method_log` and ensuring it is present in the user's `PATH` would be enough to make it available as a `git method-log` command, but it might be nicer to extend the existing `git log` command itself with extra command line switches.
+
+
+## Feedback
+
+I'd love people to try out the tool and let me know what you think - you can add a comment below or add an issue to the [project on GitHub][method_log].
 
 
 ## Acknowledgments
@@ -105,7 +110,10 @@ It might be nice to convert this tool a git extension. Simply renaming the binar
 Many thanks to [Chris Roos][], [Tom Stuart][], [Joel Chippindale][], [Chris Lowis][], [Murray Steele][], [Paul Battley][], and [Rob Chatley][] for various conversations about this stuff.
 
 
-[experimental tool]: https://github.com/freerange/method_log
+[^1]: We have to set the Ruby version to 1.8 so that some of the source code in older commits in the Mocha repository is parsed successfully.
+
+
+[method_log]: https://github.com/freerange/method_log
 [Mocha]: http://gofreerange.com/mocha/docs/
 [semantic diff]: http://martinfowler.com/bliki/SemanticDiff.html
 [VisualAge for Java]: http://en.wikipedia.org/wiki/IBM_VisualAge
