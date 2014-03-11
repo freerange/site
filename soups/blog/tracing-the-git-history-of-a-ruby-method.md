@@ -45,7 +45,7 @@ This made it a bit easier to consider extending the MethodFinder to handle class
 
 Also the "definee" in each of these cases can be _any_ Ruby expression. Most commonly it will either be `self` or a class or module defined within the current scope.
 
-At this point I did start to wonder whether the effort of supporting all these (somewhat edge) cases was worthwhile, but some of the work we've been doing at the [Little Schemer Book Club][] had made me curious programming language parsers and interpreters and so I pressed on regardless. By [modelling Ruby's constant lookup mechanism][] and enhancing my [MethodFinder][MethodLog MethodFinder] class I think I've built a reasonably robust way of extracting method definitions from Ruby source code.
+At this point I did start to wonder whether the effort of supporting all these (somewhat edge) cases was worthwhile, but some of the work we've been doing at the [Little Schemer Book Club][] had made me curious about programming language parsers and interpreters and so I pressed on regardless. By [modelling Ruby's constant lookup mechanism][] and enhancing my [MethodFinder][MethodLog MethodFinder] class I think I've built a reasonably robust way of extracting method definitions from Ruby source code.
 
 Initially the code raised an exception if a constant could not be found, but then I realised that this implied that I couldn't always parse a single file in isolation, so instead I had the code implicitly define missing constants.
 
