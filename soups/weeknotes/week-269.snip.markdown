@@ -1,57 +1,40 @@
-Week 269
+Week 270
 ========
 
-Howdi, folks. I trust you're all well and, for those of you in London, that you've been enjoying the beautiful weather we've had. For those of you not in London, you can experience it virtually through this [60 second timelapse of the splendid Sunday we had at the beginning of the week](https://thames-time-lapse.s3.amazonaws.com/videos/2014-03-09.800x600.mp4).
+Yo, yo, yo, my friends. I trust you're all well.
 
-<video width="540" height="405" controls="">
-  <source src="https://thames-time-lapse.s3.amazonaws.com/videos/2014-03-09.800x600.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+I've had to struggle through all on my own this week as [James] deserted me! Not really; James has actually taken a well deserved break to head into the mountains for some skiing fun. I hope the conditions have been favourable, James.
 
-With the introductions out of the way, let's get on with bidness.
+I think I've just about managed to keep up with the things I was supposed to do; and was happy to have the company of [Paul B][], [Tom S][] and [Chris L][] keeping me sane.
 
-## [Method Log][]
+Tom S hosted the fourth [Little Schemer book club][] meeting in the office on Monday evening. As always, he's done a great job of [documenting their progress](https://groups.google.com/forum/#!topic/computationbook/mmP9TvQJsmQ).
 
-James did a great job of [documenting his work on method_log](/tracing-the-git-history-of-a-ruby-method). He wanted to get it all written up so that he could draw a line under it and potentially move on to something else. That didn't quite go to plan as he found himself with renewed motivation on completing the write-up and finding other people interested in the project. James is now exploring alternative ways of representing the information that method_log provides and, so far, it looks really promising. I'll leave it to James to explain in more detail separately.
+I spent some more time this week playing with the office layout. We've now almost entirely mirrored the old set-up to give us more room around the projector at the other end of the office. I think this works really well, especially now that we've got the projector a little higher and at an angle (thanks for the suggestion, Paul).
 
-## [IndieWeb Homebrew Website Club][]
+I've also had a bit of a play with our wireless network set-up. It turns out that it was pretty much unusable. James and I had avoided this problem by using cables, but Tom and Paul had started to revert to tethering which is bad. Having simplified things a little, we now appear to have a stable wireless network. Sorry about that, Tom and Paul.
 
-I've been reading about the Indieweb for a while but haven't really done much to get involved. I figured it was time to change that and have offered our office to host the first London Homebrew Website Club meeting next Wednesday, 19th March. We've got confirmation from [Tom Morris][] (which is great as he's an active member of the community), [Barry Frost][] and the possible remote attendance of [Kevin Marks][]. If you're interested in coming along then please add yourself to the [wiki](http://indiewebcamp.com/events/2014-03-19-homebrew-website-club), [facebook](https://www.facebook.com/events/268718243295391/) and/or [lanyrd](http://lanyrd.com/2014/homebrew-website-club/).
+Wednesday evening saw us host the inaugural IndieWeb Homebrew website club. You can read more about that in the [blog post](/the-first-london-indieweb-homebrew-website-club).
 
-In other indieweb related news, I've compiled another [This week in the indieweb for the week beginning 3rd March](http://indiewebcamp.com/2014-03-09-this-week-in-the-indieweb).
+Chris L joined us for a few hours in the office yesterday. It's always good to see Chris and to learn about the work he's doing in web audio land.
 
-## [Harmonia][] + [GitHub wiki][] = version controlled task descriptions
+All that's left to say is that James and I are going to be doing a little more work for [FutureLearn][] next week but we'll explain more about that next time.
 
-James and I have wanted some kind of version control for our Harmonia tasks for a while. This desire, combined with the realisation that we have quite a lot of valuable information stored within those tasks has lead us to move the descriptions to a GitHub wiki. Having moved and organised the tasks, we've realised that it's very possible that other people might find value in them too. Our hope/plan is to be able to clean them up such that we can make them public for other people to consume. I'm already imagining being able to tell people to "fork our business" on github :-)
-
-## Fogmageddon
-
-We started with the beautiful Sunday at the beginning of the week so why not end with the [fogmageddon that shrouded London yesterday morning](https://thames-time-lapse.s3.amazonaws.com/videos/2014-03-13.800x600.mp4).
-
-<video width="540" height="405" controls="">
-  <source src="https://thames-time-lapse.s3.amazonaws.com/videos/2014-03-13.800x600.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-## Over and out
-
-I hope y'all have great weekends.
+Have great weekends, folks.
 
 -- Chris
 
-[Harmonia]: https://harmonia.io/
-[GitHub wiki]: https://github.com/gollum/gollum/wiki
-[Method Log]: https://github.com/freerange/method_log
-[IndieWeb Homebrew Website Club]: http://indiewebcamp.com/#Homebrew_Website_Club
-[Tom Morris]: http://tommorris.org/
-[Barry Frost]: http://barryfrost.com/
-[Kevin Marks]: http://www.kevinmarks.com/
+[James]: /james-mead
+[Paul B]: http://po-ru.com/
+[Tom S]: http://codon.com/
+[Chris L]: http://blog.chrislowis.co.uk/
+[Little Schemer book club]: http://lanyrd.com/series/little-schemer-book-club/
+[FutureLearn]: https://www.futurelearn.com/
 
 :render_as: Blog
 :kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-03-14 18:00:00 +00:00
-:updated_at: 2014-03-14 18:00:00 +00:00
-:page_title: Week 269
+:created_at: 2014-03-21 17:00:00 +00:00
+:updated_at: 2014-03-21 17:00:00 +00:00
+:page_title: Week 270
