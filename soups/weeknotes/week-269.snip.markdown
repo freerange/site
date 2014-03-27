@@ -1,4 +1,4 @@
-Week 270
+Week 269
 ========
 
 Yo, yo, yo, my friends. I trust you're all well.
@@ -37,4 +37,4 @@ Have great weekends, folks.
 :author: chris-roos
 :created_at: 2014-03-21 17:00:00 +00:00
 :updated_at: 2014-03-21 17:00:00 +00:00
-:page_title: Week 270
+:page_title: Week 269
