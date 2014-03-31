@@ -8,6 +8,8 @@ Rake::TestTask.new do |t|
   t.verbose = true
 end
 
+require "date"
+
 desc <<-DESC
 Displays the GFR week number from the date of incorporation.
 
