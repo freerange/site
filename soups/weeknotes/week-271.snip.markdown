@@ -1,4 +1,4 @@
-Week 270
+Week 271
 ========
 
 These are possibly the latest week notes ever. Sorry. My excuse is that I've been laid low by a horrible vomiting bug.
@@ -32,4 +32,4 @@ Anyway, that's about all for now.
 :author: james-mead
 :created_at: 2014-04-02 15:42:00 +00:00
 :updated_at: 2014-04-02 15:42:00 +00:00
-:page_title: Week 270
+:page_title: Week 271
