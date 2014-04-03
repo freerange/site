@@ -20,6 +20,16 @@ They also have [transcribed music videos](http://www.soundslice.com/completed/) 
 This is a great idea. It uses a streetview-like experience to display these elevations from 1840! {by chris-roos}
 
 
+### [Annotator](http://annotatorjs.org/)
+
+An open-source JavaScript library that can be added to any web page to make it annotatable. There's also a bookmarklet available. There's a hosted backend, [AnnotateIt](http://annotateit.org/), or you can [host your own storage](http://docs.annotatorjs.org/en/latest/storage.html). Via [Nick Stenning](https://twitter.com/nickstenning). {by james-mead}
+
+
+### [web-vmstats](https://github.com/joewalnes/web-vmstats)
+
+A tiny application that streams the output of `vmstat` over a web socket using [websocketd](https://github.com/joewalnes/websocketd) and charts them using [SmoothieCharts](https://github.com/joewalnes/web-vmstats). I thought this was pretty neat. {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
