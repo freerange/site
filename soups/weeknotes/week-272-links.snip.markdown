@@ -1,4 +1,4 @@
-Week 271 - Interesting links
+Week 272 - Interesting links
 ============================
 
 ### [Be amazed by emails, again | Front](http://frontapp.com/)
@@ -35,6 +35,6 @@ A tiny application that streams the output of `vmstat` over a web socket using [
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-03-31 11:30:00 +00:00
-:updated_at: 2014-03-31 11:30:00 +00:00
-:page_title: Week 271 - Interesting links
+:created_at: 2014-04-03 12:00:00 +10:00
+:updated_at: 2014-04-03 12:00:00 +10:00
+:page_title: Week 272 - Interesting links
