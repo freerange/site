@@ -13,7 +13,7 @@ We wish Kalv and the team all the best in their new venture, and will be sure to
 
 ### [My Prop 8 blog post from 2008](http://scripting.com/2014/04/05/myProp8BlogPostFrom2008.html)
 
-It wasn't so much the content of this post that I found interesting, but more the idea that we should be able to record our current line of thinking without feeling as though that would prevent us from changing our mind in future. I think Dave's comment actually sums this up best.  {by chris-roos}
+It wasn't so much the subject of this post that I found interesting, but more the idea that we should be able to record our current line of thinking without feeling as though that would prevent us from changing our mind in future. I think Dave's comment actually sums this up best.  {by chris-roos}
 
 > That's why it's good to write blog posts. I wrote that Apple was doomed after Jobs came back. Believe me, every time I say something about Apple, I hear about that post. It's what I thought at the time. We live and learn, and grow and change our minds all the time. Some people think that's a failing, I think it's our strength.
 
