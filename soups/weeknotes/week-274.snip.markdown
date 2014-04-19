@@ -13,7 +13,7 @@ I've been attending the LRUG meet-up much more regularly recently and I'm always
 
 As you may have noticed from recent week notes, we've had quite a few people popping in to work in our office for the odd day or two. We've really enjoyed having their company and it's been great to see various side projects that people are working on. [A few weeks back][], [Tom Stuart][] suggested that it might be worth hosting an event to encourage more of this informal sharing of ideas and solicitation of friendly feedback.
 
-So on Wednesday evening we invited a few people to visit us at [GFRHQ][] to try the idea out. First of all I talked a bit about where I've got to with my [Method Log][] project and asked whether people thought it was worth pursuing any further. I got some really useful suggestions and I now have a bit more motivation to do some more work on it.
+So on Wednesday evening we invited a few people to visit us at [GFRHQ][] to try the idea out. First of all I talked a bit about where I've got to with my [MethodLog][] project and asked whether people thought it was worth pursuing any further. I got some really useful suggestions and I now have a bit more motivation to do some more work on it.
 
 [Chris Lowis][] showed us how he uses [TinyLetter][] for his [Web Audio Weekly][] newsletter and then demonstrated a few interesting [Web Audio][] projects he's built. [Ben Griffiths][] then talked us through how [Makie][] allows people to design a doll and have it 3D printed. It was fascinating to see some of the technology that they're using (e.g. [three.js][], [OpenGL Shading Language][], etc) as well as the novelty of a print queue of 3D doll designs awaiting printing.
 
@@ -60,7 +60,7 @@ Anyway, that's about it from me. Enjoy your Easter weekend.
 [A few weeks back]: /week-268
 [Tom Stuart]: https://twitter.com/tomstuart
 [GFRHQ]: http://gofreerange.com/contact
-[Method Log]: https://github.com/freerange/method_log
+[MethodLog]: https://github.com/freerange/method_log
 [Chris Lowis]: https://twitter.com/chrislowis
 [TinyLetter]: https://tinyletter.com/
 [Web Audio Weekly]: https://tinyletter.com/webaudioweekly
