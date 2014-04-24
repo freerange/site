@@ -31,6 +31,6 @@ This is a impressive Chrome extension which effectively OCRs images and document
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-04-24 10:00:00 +00:00
-:updated_at: 2014-04-24 10:00:00 +00:00
+:created_at: 2014-04-24 11:00:00 +00:00
+:updated_at: 2014-04-24 11:00:00 +00:00
 :page_title: Week 275 - Interesting links
