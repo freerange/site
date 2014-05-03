@@ -10,7 +10,7 @@ We had a bit more discussion about how we might [manage people joining or leavin
 
 <a href="http://www.flickr.com/photos/59937401@N07/5929622407/" title="Money by Images_of_Money, on Flickr"><img src="/images/blog/wad-of-bank-notes.png" style="width: 100%" alt="Wad of bank notes"></a>
 
-["Money"][money-image-on-flickr] by [Images_of_Money][money-image-author-on-flickr] is licensed under [CC BY 2.0][cc-by-2.0]
+["Money"][money-image-on-flickr] by [TaxFix][taxfix-author-on-flickr] is licensed under [CC BY 2.0][cc-by-2.0]
 
 At [Chris](chris-roos)'s suggestion, he and I had a go at seeing what bonus Tom's scheme would pay out now versus the calculation we did when [Jase](jason-cale) left. This was actually really useful, but not so much for the intended reason - it turned out we'd made a couple of errors in the calculation we did for Jase. One of the errors was that we'd used the corporation tax figure from our [FreeAgent] account. However, we should have used the figure in our annual accounts which [our accountant][3CA] had corrected. Anyway, it was good to catch this before we actually handed over the spondoolies to Jase. In the meantime I've [suggested][freeagent-corp-tax-suggestion] to FreeAgent that their user interface should somehow distinguish between accurate figures and rough estimates.
 
@@ -90,7 +90,7 @@ That's all, folks.
 [brittany-ferries-repository]: https://github.com/floehopper/brittany_ferries
 [computation-book]: http://experthuman.com/computation-book
 [money-image-on-flickr]: https://www.flickr.com/photos/59937401@N07/5929622407/
-[money-image-author-on-flickr]: https://www.flickr.com/photos/59937401@N07/
+[taxfix-author-on-flickr]: http://taxfix.co.uk/
 [cc-by-2.0]: https://creativecommons.org/licenses/by/2.0/
 
 :render_as: Blog
