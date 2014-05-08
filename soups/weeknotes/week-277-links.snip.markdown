@@ -28,6 +28,38 @@ I've had a quick play with [Babbage](https://babbage.tomscript.com/). It looks r
 Interesting analysis of the Barclays bike data you can get from TFL. I've done some similar(ish) analysis with my own data but hadn't considered that you could potentially identify people from the bulk data. {by chris-roos}
 
 
+### [Round-up of the sixth Little Schemer book club meeting](https://groups.google.com/d/msg/computationbook/s7IF6FS8vqo/cIMdg85IdKwJ)
+
+Another excellent write-up by [Tom](https://twitter.com/tomstuart). This was the meeting where a few things all came together and it felt like me made a bit of a leap forward. I'm very much looking forward to the next meeting. {by james-mead}
+
+
+### [Static Analysis For CSS](http://flippinawesome.org/2014/01/27/static-analysis-for-css/)
+
+What with my work on [method_log](https://github.com/freerange/method_log) and the Little Schemer book club, I've developed an interest in static analysis, ASTs and the like. And so it was fun to read about someone doing static analysis on CSS (and [JavaScript](http://tobyho.com/2013/12/20/falafel-source-rewriting-magicial-assert/)). {by james-mead}
+
+
+### [Atom Shell](https://github.com/atom/atom-shell)
+
+Now that GitHub have [open-sourced](https://github.com/blog/1831-atom-free-and-open-source-for-everyone) the [Atom editor](https://atom.io/), I was interested to read about Atom Shell (based on [Chromium](http://www.chromium.org/) and [node.js](http://nodejs.org/)) which lets you write cross-platform desktop applications using JavaScript, HTML and CSS. {by james-mead}
+
+
+### [Theseus JavaScript Debugger for Chrome and NodeJS](http://blog.brackets.io/2013/08/28/theseus-javascript-debugger-for-chrome-and-nodejs/)
+
+I hadn't come across either the [Brackets editor](http://brackets.io/) or the [Theseus JavaScript debugger](https://github.com/adobe-research/theseus) before, but I really like the idea of seeing code coverage in real-time. It feels as if it might be a nice alternative to (a) adding `console.log()` statements; or (b) stepping through the JS code using the debugger. {by james-mead}
+
+
+### [Google Glass, Pi-Style](http://www.raspberrypi.org/google-glass-pi-style/)
+
+These look like a slightly more practical[^1] version than the [Raspberry Eye](/week-275-links#raspberry-eyehttphackadayioproject865-raspberry-eye) ones I pointed out a couple of weeks back. {by james-mead}
+
+
+### [Assistant.to](http://assistant.to)
+
+I've definitely felt the pain of having a long email exchange in order to arrange a meeting. This browser extension claims to solve this problem and integrates with Gmail and Google Calendar. I think I might give it a try. {by james-mead}
+
+
+[^1]: If [Google Glass](http://www.google.co.uk/glass/) could ever be considered practical.
+
 :render_as: Blog
 :kind: blog
 :is_page: true
