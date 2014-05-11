@@ -5,7 +5,7 @@ Suitably reinvigorated after the Bank Holiday, we resumed work on the [FutureLea
 
 We've noticed that [James A][] over at [Exciting][] has been hard at work making improvements to [Harmonia][]. The new [calendar integration][] works really nicely. The way it adds `[DONE]` to the calendar event titles and cancels the alert is a nice touch. Although we don't really make use of it, I also like the way the calendar event attachments are displayed in Gmail. Keep up the good work, James!
 
-On Wednesday, George from [GrantTree][] (who're just around the corner on Hewett Street) popped round to chat to us about R&D tax credits. It's useful to know a bit about how these work so that we can make use of them if and when we do some more work on our own products.
+On Wednesday, George from [GrantTree][] (just around the corner on Hewett Street) popped round to chat to us about R&D tax credits. It's useful to know a bit about how these work so that we can make use of them if and when we do some more work on our own products.
 
 On Friday, Chris and I took half an hour out to watch the [Is TDD dead?][] hangout with Kent Beck, Martin Fowler and DHH. I'm not sure I got much out of it - it was a shame the discussion didn't involve a "mockist" TDD-er and I'd much prefer them to focus on some code examples rather than talking so much in the abstract.
 
