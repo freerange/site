@@ -31,6 +31,31 @@ I love this video of East London. Partly because I recognise quite a few of the 
 Another beautiful video via [Londonist](http://londonist.com/2014/04/london-in-motion-a-new-timelapse-of-the-capital.php). This time a hyperlapse/timelapse video of London. Enjoy! {by chris-roos}
 
 
+### [The DHH Problem](http://codon.com/the-dhh-problem)
+
+A light-hearted, but heartfelt lightning talk by [Tom Stuart](https://twitter.com/tomstuart) at [Scottish Ruby Conference 2014](http://2014.scottishrubyconference.com/) containing an important message for Rubyists everywhere. {by james-mead}
+
+
+### [RawGit](http://rawgit.com/)
+
+Allows you to serve up your raw files directly from GitHub with proper Content-Type headers and even via a CDN if you so wish. {by james-mead}
+
+
+###[Lotus](http://lotusrb.org/)
+
+An open-source modular web framework for Ruby (more objects, fewer DSLs, no monkey patching) [mentioned by Tom Stuart](https://twitter.com/tomstuart/status/466964841174159360). {by james-mead}
+
+
+### [Jest](http://facebook.github.io/jest/)
+
+This unit-testing framework which sits on top of [Jasmine](http://jasmine.github.io/) looks like it has some interesting features. I'd also like to find out more about one of its dependencies, [jsdom](https://github.com/tmpvar/jsdom). {by james-mead}
+
+
+### [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
+
+Unfortunately sharing code in academia is the exception not the rule. Hopefully issuing [DOI](http://en.wikipedia.org/wiki/Digital_object_identifier)s for GitHub repositories removes one of the main barriers to doing this. {by james-mead}
+
+
 :render_as: Blog
 :kind: blog
 :is_page: true
