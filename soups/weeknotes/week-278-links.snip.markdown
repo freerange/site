@@ -58,7 +58,7 @@ Unfortunately sharing code in academia is the exception not the rule. Hopefully 
 
 ### [Peer Review as a Service: It's not about the journal](http://theoj.org/)
 
-In this article the [Zooniverse](https://www.zooniverse.org/) gang write about an open online academic journal they'v started to build on top of the [arXiv](http://arxiv.org/). It's a shame that they haven't finished it, but I applaud them for open-sourcing their work so far. {by james-mead}
+In this article the [Zooniverse](https://www.zooniverse.org/) gang write about an open online academic journal they started to build on top of the [arXiv](http://arxiv.org/). It's a shame that they haven't finished it, but I applaud them for open-sourcing their work so far. {by james-mead}
 
 
 :render_as: Blog
