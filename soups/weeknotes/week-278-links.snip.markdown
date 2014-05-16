@@ -56,6 +56,11 @@ This unit-testing framework which sits on top of [Jasmine](http://jasmine.github
 Unfortunately sharing code in academia is the exception not the rule. Hopefully issuing [DOI](http://en.wikipedia.org/wiki/Digital_object_identifier)s for GitHub repositories removes one of the main barriers to doing this. {by james-mead}
 
 
+### [Peer Review as a Service: It's not about the journal](http://theoj.org/)
+
+In this article the [Zooniverse](https://www.zooniverse.org/) gang write about an open online academic journal they'v started to build on top of the [arXiv](http://arxiv.org/). It's a shame that they haven't finished it, but I applaud them for open-sourcing their work so far. {by james-mead}
+
+
 :render_as: Blog
 :kind: blog
 :is_page: true
