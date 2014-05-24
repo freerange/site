@@ -39,10 +39,10 @@ A neat internet-conected compass-like device built by Tom Armitage which always 
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-05-21 17:30:00 +00:00
-:updated_at: 2014-05-21 17:30:00 +00:00
+:created_at: 2014-05-24 19:50:00 +00:00
+:updated_at: 2014-05-24 19:50:00 +00:00
 :page_title: Week 279 - Interesting links
