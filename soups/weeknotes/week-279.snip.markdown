@@ -3,7 +3,7 @@ Week 279
 
 Howdi, folks.
 
-Week 279 all went by pretty quickly. A feeling that was exarcebated for me as I took Friday off to prepare for my brother's wedding.
+Week 279 all went by pretty quickly. A feeling that was exacerbated for me as I took Friday off to prepare for my brother's wedding.
 
 James and I spent the week divided between [MakieLab][] and [FutureLearn][].
 
