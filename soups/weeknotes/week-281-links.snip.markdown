@@ -38,7 +38,7 @@ Other commenters mention the [Dust-Me Selectors](https://addons.mozilla.org/en-U
 
 ### [Harmonia paid plans are here! Get a discounted plan while they last!](http://harmonia.io/blog/harmonia-paid-plans-are-here/)
 
-James has announced the new paid plans for [Harmonia](https://harmonia.io/). We've paid up. Have you? {by chris-roos}
+[James Adam](https://twitter.com/lazyatom) has announced the new paid plans for [Harmonia](https://harmonia.io/). We've paid up. Have you? {by chris-roos}
 
 
 :render_as: Blog
