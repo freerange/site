@@ -13,7 +13,7 @@ I've previously written about how we put a lot of value on [curating git history
 
 ### [Empathy](http://techbelly.ghost.io/empathy/)
 
-It's great to see our friend, [Ben Griffiths](https://twitter.com/beng) blogging again. This article reminds us to be more empathetic and compassionate when working on an "over-complicated mess that could be oh, so simpler". Also it's useful to try to put yourself in the shoes of developers who will come to the code after you. {by james-mead}
+It's great to see our friend, [Ben Griffiths](https://twitter.com/beng), blogging again. This article reminds us to be more empathetic and compassionate when working on an "over-complicated mess that could be oh, so simpler". Also it's useful to try to put yourself in the shoes of developers who will come to the code after you. {by james-mead}
 
 
 ### [andyw8/do_by - Automatically expiring TODO notes in Ruby](https://github.com/andyw8/do_by)
