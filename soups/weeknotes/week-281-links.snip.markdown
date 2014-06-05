@@ -36,7 +36,7 @@ I haven't come across that Chrome functionality before so that was a useful find
 Other commenters mention the [Dust-Me Selectors](https://addons.mozilla.org/en-US/firefox/addon/dust-me-selectors/) add-on for Firefox that claims to do something similar. {by chris-roos}
 
 
-### [Harmonia · Blog · Harmonia paid plans are here! Get a discounted plan while they last!](http://harmonia.io/blog/harmonia-paid-plans-are-here/)
+### [Harmonia paid plans are here! Get a discounted plan while they last!](http://harmonia.io/blog/harmonia-paid-plans-are-here/)
 
 James has announced the new paid plans for [Harmonia](https://harmonia.io/). We've paid up. Have you? {by chris-roos}
 
