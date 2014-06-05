@@ -3,7 +3,7 @@ Week 281 - Interesting links
 
 ### [I Have No Idea What I'm Doing](http://codon.com/i-have-no-idea-what-im-doing)
 
-The video and transcript of [Tom Stuart](https://twitter.com/tomstuart)'s though-provoking talk at this year's Scottish Ruby Conference. I'm not a big fan of watching conference talks on video, so I really appreciate Tom taking the time to produce such a readable transcript. {by james-mead}
+The video and transcript of [Tom Stuart](https://twitter.com/tomstuart)'s thought-provoking talk at this year's Scottish Ruby Conference. I'm not a big fan of watching conference talks on video, so I really appreciate Tom taking the time to produce such a readable transcript. {by james-mead}
 
 
 ### [Using Git to refactor vCloud Tools into separate gems](https://gdstechnology.blog.gov.uk/2014/06/04/using-git-to-refactor-vcloud-tools-into-separate-gems/)
