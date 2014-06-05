@@ -15,11 +15,37 @@ I've previously written about how we put a lot of value on [curating git history
 
 It's great to see our friend, [Ben Griffiths](https://twitter.com/beng) blogging again. This article reminds us to be more empathetic and compassionate when working on an "over-complicated mess that could be oh, so simpler". Also it's useful to try to put yourself in the shoes of developers who will come to the code after you. {by james-mead}
 
+
+### [andyw8/do_by - Automatically expiring TODO notes in Ruby](https://github.com/andyw8/do_by)
+
+> This is a proof-of-concept of automatically-expiring TODO notes.
+
+The idea of being reminded when TODO items go stale is something that I've thought about for a while. I'm not too keen on having the TODOs live in the code, but the principles here could easily be applied to an external TODO file. {by chris-roos}
+
+
+### [uncss: Find Unused CSS](http://davidwalsh.name/uncss)
+
+This looks like a nifty little utility to detect unused CSS.
+
+There was also a handy little tip in the comments about using Chrome's web developer tools to find unused CSS in a single page:
+
+> Open the Web Dev tools, Click on the Audits tab, click Run, and then look through the “Remove unused CSS rules” list.
+
+I haven't come across that Chrome functionality before so that was a useful find.
+
+Other commenters mention the [Dust-Me Selectors](https://addons.mozilla.org/en-US/firefox/addon/dust-me-selectors/) add-on for Firefox that claims to do something similar. {by chris-roos}
+
+
+### [Harmonia · Blog · Harmonia paid plans are here! Get a discounted plan while they last!](http://harmonia.io/blog/harmonia-paid-plans-are-here/)
+
+James has announced the new paid plans for [Harmonia](https://harmonia.io/). We've paid up. Have you? {by chris-roos}
+
+
 :render_as: Blog
 :kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-06-05 10:29:00 +00:00
-:updated_at: 2014-06-05 10:29:00 +00:00
+:created_at: 2014-06-05 15:00:00 +01:00
+:updated_at: 2014-06-05 15:00:00 +01:00
 :page_title: Week 281 - Interesting links
