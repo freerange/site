@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem "vanilla", :git => "git://github.com/lazyatom/vanilla-rb.git"
 gem "kramdown"
