@@ -11,15 +11,17 @@ Anyway, I hope the FutureLearn folk feel like we've left them in a decent positi
 
 Back at GFRHQ on Wednesday evening we ran another [Show and Tell][] session. Luckily our shiny new Mac Mini and [Chromecast][] arrived just in time so that we could involve [James A][] from across the pond via a _live video link_.
 
-First up, [Tom Stuart][] talked about his experience of recording a screencast with Drew Neil of [Vimcasts][] fame. I'm very jealous of how proficient at `vim` Tom has become in recent months, but being recorded working on a problem like this sight-unseen sounded very scary.
+First up, [Tom Stuart][] talked about his experience of recording a screencast with [Drew Neil][] of [Vimcasts][] fame. I'm very jealous of how proficient at `vim` Tom has become in recent months, but being recorded working on a problem like this sight-unseen sounded very scary.
 
 He also showed us some of the JavaScript code he's been working on recently with [Nat Buckley][] which was commissioned by [Artangel][]. The commission involves orchestrating a bunch of video and audio assets and they've achieved this using [backbone.js][] custom events and the [WebAudio API][].
 
 Lastly Tom showed us the tool chain he's using to write his upcoming e-book about [writing web apps in Ruby][ruby-web-app-ebook]. I don't remember all the details, but he's [doing something clever][highlight-gist] with Ruby & [Pygments][] to add code syntax highlighting tags to his [DocBook][] markup.
 
-[Chris][] gave us a quick tour of his awesome [Roosmarks][] and [MoneyTracker][] projects, before talking in a bit more detail about his [Thames Time-Lapse][] project. He's been using an old Android phone to capture photos from his flat which overlooks the Thames and then stitching the photos together to make time-lapse videos like [this one which includes a beautiful sunrise][sample-time-lapse-video]. Chris has got some really interesting ideas for things to do with his photos and I'm looking forward to seeing the results!
+James A chipped in at this point to show us the latest design for the [Harmonia][] home page which I notice he has now deployed. James also mentioned a service he's been playing with called [Peek][] which allows you to see and hear a 5-minute video of a real person using your website.
 
-We then adjourned to [The Fox][] for a few more beers. People seemd to enjoy the evening and we've already planned the next one.
+Finally, [Chris][] gave us a quick tour of his awesome [Roosmarks][] and [MoneyTracker][] projects, before talking in a bit more detail about his [Thames Time-Lapse][] project. He's been using an old Android phone to capture photos from his flat which overlooks the Thames and then stitching the photos together to make time-lapse videos like [this one which includes a beautiful sunrise][sample-time-lapse-video]. Chris has got some really interesting ideas for things to do with his photos and I'm looking forward to seeing the results!
+
+We then adjourned to [The Fox][] for a few more beers. People seemed to enjoy the evening and we've already planned the next one.
 
 Until next time.
 
@@ -34,6 +36,7 @@ Until next time.
 [Chromecast]: http://www.google.co.uk/intl/en_uk/chrome/devices/chromecast/
 [James A]: https://twitter.com/lazyatom
 [Tom Stuart]: https://twitter.com/tomstuart
+[Drew Neil]: http://twitter.com/nelstrom
 [Vimcasts]: http://vimcasts.org/
 [Nat Buckley]: https://twitter.com/ntlk
 [backbone.js]: http://backbonejs.org/
@@ -44,6 +47,8 @@ Until next time.
 [Pygments]: http://pygments.org/
 [DocBook]: http://www.docbook.org/
 [XSL-FO]: http://www.xml.com/pub/a/2002/03/20/xsl-fo.html
+[Harmonia]: https://harmonia.io/
+[Peek]: http://peek.usertesting.com/
 [Chris]: /chris-roos
 [Roosmarks]: https://github.com/chrisroos/roosmarks
 [MoneyTracker]: https://github.com/chrisroos/money-tracker
