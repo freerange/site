@@ -26,11 +26,48 @@ I thought this was quite fun and it was interesting to see what's possible with 
 I really like the sound of this project by [Ben Griffiths][]. {by james-mead}
 
 
-[Tom Stuart]: https://twitter.com/tomstuart
-[RFC7230]: http://tools.ietf.org/html/rfc7230
-[RFC7231]: http://tools.ietf.org/html/rfc7231
+### [PSD Viewing & Diffing](https://github.com/blog/1845-psd-viewing-diffing)
+
+GitHub add PSD Viewing and Diffing functionality:
+
+> Any PSD assets in your repositories will be treated just like images, meaning you can view them inline and use our three image view modes to see what's changed in a commit.
+
+The little animated gif demo looks great. I've certainly worked on projects where I would've found this useful. {by chris-roos}
+
+
+### [Todoist](https://todoist.com/)
+
+I've just started playing with this having seen it on [Product Hunt][]. I'd been using a separate Google Calendar to track some of my recurring tasks, and have now moved all of those to Todoist to see how it feels. I have mostly been keeping up with the tasks I had in the calendar but I wonder whether the action of marking tasks as done will encourage me even more. I'll see how it goes. {by chris-roos}
+
+
+### [jwz: BREAKING: ankle-biting script kiddies cause me minor inconvenience](http://www.jwz.org/blog/2014/06/breaking-ankle-biting-script-kiddies-cause-me-minor-inconvenience/)
+
+Jwz on [Feedly's recent denial of service attack][Feedly DDOS]:
+
+> I would be remiss were I not to point out that aforementioned minor inconvenience is only possible because you people -- yes, you -- have decided that you prefer centralized services with big, gaping, candy-like single points of failure over the kind of decentralized infrastructure that is actually implicit in RSS. You have to actually work at it to break the design in this way.
+
+Made me laugh. {by chris-roos}
+
+
+### [Small Squall - A Productivity Community](https://smallsquall.com/)
+
+This was mentioned in a [comment on GFR's weeknotes for week 281][1]. Here's the intro:
+
+> Small Squall is a community of teams and small businesses that share their processes, systems and ideas. The internet is full of insanely useful tools for small teams, but finding those tools and making them work together just right can be a real challenge. If you're interested in sharing your experience while the community is being formed, by all means hit that sign up button.
+
+I noticed that [James A][] has promoted [Harmonia][] on there and it looks like it might contain some useful discussions. I've subscribed to the RSS feed to see whether anything of interest comes up. {by chris-roos}
+
+
+[1]: http://gofreerange.com/week-281#comment-1438234360
 [adaptivelab-methodology]: https://github.com/adaptivelab/adaptivelab.github.com/blob/master/index.md
 [Ben Griffiths]: https://twitter.com/beng
+[Feedly DDOS]: http://blog.feedly.com/2014/06/11/denial-of-service-attack/
+[Harmonia]: https://harmonia.io/
+[James A]: http://lazyatom.com/
+[Product Hunt]: http://www.producthunt.com/
+[RFC7230]: http://tools.ietf.org/html/rfc7230
+[RFC7231]: http://tools.ietf.org/html/rfc7231
+[Tom Stuart]: https://twitter.com/tomstuart
 
 :render_as: Blog
 :kind: draft
