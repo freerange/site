@@ -3,7 +3,7 @@ Week 283 - Interesting links
 
 ### [RFC2616 is Dead. Long Live HTTP.](https://www.mnot.net/blog/2014/06/07/rfc2616_is_dead)
 
-This article explains how the old RFC defining HTTP/1.1 has been replaced by several new easier-to-read RFCs. As [Tom S][] mentioned to us the other day, the [Message Syntax and Routing][RFC7230] and
+This article explains how the old RFC defining HTTP/1.1 has been replaced by several new easier-to-read RFCs. As [Tom Stuart][] mentioned to us the other day, the [Message Syntax and Routing][RFC7230] and
 [Semantics and Content][RFC7231] split makes a lot of sense, particularly in the context of the planned changes in HTTP/2. {by james-mead}
 
 
@@ -21,10 +21,16 @@ Writing down how your process works is a really useful exercise. I like the way 
 I thought this was quite fun and it was interesting to see what's possible with just the `bash` built-ins. {by james-mead}
 
 
-[Tom S]: https://twitter.com/tomstuart
+### [Raspberry pi Jukebox](https://github.com/techbelly/jukebox)
+
+I really like the sound of this project by [Ben Griffiths][]. {by james-mead}
+
+
+[Tom Stuart]: https://twitter.com/tomstuart
 [RFC7230]: http://tools.ietf.org/html/rfc7230
 [RFC7231]: http://tools.ietf.org/html/rfc7231
 [adaptivelab-methodology]: https://github.com/adaptivelab/adaptivelab.github.com/blob/master/index.md
+[Ben Griffiths]: https://twitter.com/beng
 
 :render_as: Blog
 :kind: draft
