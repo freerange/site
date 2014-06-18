@@ -23,7 +23,7 @@ At [GFR](/) we've tried to minimise the amount of paper we use, and I like to th
 
 ### [Hooting Printer](https://vimeo.com/63080261)
 
-[Andrew Nicolaou](http://andrewnicolaou.co.uk/) of [BBC R&D](http://www.bbc.co.uk/rd) has been making Raspberry Pi play nicely with the [Printer backend](http://printer.gofreerange.com) for a while, but it was fun to see his latest code making a "hooting noise" when a print is ready. {by james-adam}
+[Andrew Nicolaou](http://andrewnicolaou.co.uk/) of [BBC R&D](http://www.bbc.co.uk/rd) has been making Raspberry Pi play nicely with the [Printer backend](http://printer.exciting.io) for a while, but it was fun to see his latest code making a "hooting noise" when a print is ready. {by james-adam}
 
 
 

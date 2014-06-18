@@ -177,7 +177,7 @@ Even better, it's *far* simpler to design content in HTML, CSS and Javascript th
 
 When doing client work that involves javascript, we often test it using a "headless browser", which is roughly speaking a web browser that doesn't actually display its windows on your computer. We've had a lot of success with [PhantomJS](http://phantomjs.org), and as it happens it is quite easy for it to load a webpage and [save what would be displayed as an image](http://code.google.com/p/phantomjs/wiki/QuickStart#Rendering).
 
-With a little bit of tweaking to fix the browser width at 384 pixels, and some [helpful stylesheets to make prototyping content for printing at that size easier](http://printer.gofreerange.com/sample.html), it all worked. All that was required to print something was an HTTP page which could be dispatched through the existing software and finally be printed.
+With a little bit of tweaking to fix the browser width at 384 pixels, and some [helpful stylesheets to make prototyping content for printing at that size easier](http://printer.exciting.io/sample.html), it all worked. All that was required to print something was an HTTP page which could be dispatched through the existing software and finally be printed.
 
 (At each step, the boundary of the system moved closer to something that I felt I could pick up later without having to hack it all together again. This was progress.)
 
@@ -237,7 +237,7 @@ As I mentioned at the top of this meandering prose, it's a software system that 
 * [produce customised content](https://github.com/freerange/printer/wiki/Building-content-services) for them, and
 * [share that content](https://github.com/freerange/printer/wiki/Architecture) with other people who also have small internet-connected printers.
 
-The [main project page is here](/printer). We are running [a backend server](http://printer.gofreerange.com), which our office printer is connected to. If you do make a printer ([see below](#getting-a-printer)), you're more than welcome to use it rather than running your own.
+The [main project page is here](/printer). We are running [a backend server](http://printer.exciting.io), which our office printer is connected to. If you do make a printer ([see below](#getting-a-printer)), you're more than welcome to use it rather than running your own.
 
 ![Simple messages send using a distributed architecure](/images/printer/21-simple-messages.jpg)
 
@@ -315,7 +315,7 @@ I am _sure_ you have better ideas for how to use an internet-enabled small print
 
 * [More details](/printer)
 * [The wiki](http://github.com/freerange/printer/wiki)
-* [Our backend server](http://printer.gofreerange.com)
+* [Our backend server](http://printer.exciting.io)
 * [Send a message to our printer](http://printer-mail.herokuapp.com/send/freerange)
 * [Source code](http://github.com/freerange/printer)
 
