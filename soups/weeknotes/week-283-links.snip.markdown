@@ -70,7 +70,7 @@ I noticed that [James A][] has promoted [Harmonia][] on there and it looks like 
 [Tom Stuart]: https://twitter.com/tomstuart
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
