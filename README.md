@@ -11,8 +11,8 @@ A snip is just a text file within the `soup`, like "here-is-my-stuff.snip". You 
 
 You might want to use something like Markdown or Textile to format your text. To do so, you need to add some snip attributes to the bottom of the file. After a blank line, write something like this:
 
-:render_as: Markdown
-:created_at: 2010-11-04 11:12:54 +00:00
+    :render_as: Markdown
+    :created_at: 2010-11-04 11:12:54 +00:00
 
 That tells vanilla to use Markdown to render the snip. The 'created_at' property is optional, but becomes important if you ever want to sort the snips (i.e. for a blog feed). If you want to use Textile, change the `:render_as:` property. Every snip can use a different renderer (and multiple renderers can be involved in a single page if you start getting into snip inclusion; it's powerful stuff). You can add other attributes if you want, like `:author:` or whatever. Go wild.
 
@@ -25,7 +25,7 @@ Writing a blog
 
 Blog posts are just snips with a particular attribute set:
 
-:kind: blog
+    :kind: blog
 
 There's a dynasnip called 'kind' that finds all snips with that property and value, and then renders them all appropriately.
 
