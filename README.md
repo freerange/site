@@ -1,11 +1,8 @@
-WELCOME
-=======
+# WELCOME
 
 This is just a rack application, so you can view the site locally by setting up passenger or running rackup. Easy.
 
-
-Writing a snip
---------------
+## Writing a snip
 
 A snip is just a text file within the `soup`, like "here-is-my-stuff.snip". You can write whatever you like in the file, and it will be rendered as is when you visit http://yoursite/here-is-my-stuff.
 
@@ -18,10 +15,7 @@ That tells vanilla to use Markdown to render the snip. The 'created_at' property
 
 This particular vanilla site uses multiple soups to make it easier to organise the content. Within the `soup` directory there are snips, and also subdirectories; These contain other snips, but don't result in nested urls. In other words, if a snip called `hello.snip` is in `soup/blog`, it is still served from `http://yoursite/hello`, and not `http://yoursite/blog/hello`. The URL space is flat.
 
-
-
-Writing a blog
---------------
+## Writing a blog
 
 Blog posts are just snips with a particular attribute set:
 
