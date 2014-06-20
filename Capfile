@@ -3,8 +3,9 @@ require 'recap/recipes/ruby'
 set :application_user, 'freerange'
 set :application, 'gofreerange.com'
 set :repository, 'git@github.com:freerange/site.git'
+set :branch, 'migrating-to-another-server'
 
-server 'alpaca.gofreerange.com', :app
+server 'badger.gofreerange.com', :app
 
 namespace :deploy do
   task :restart do
