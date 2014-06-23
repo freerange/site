@@ -45,7 +45,7 @@ If we don't do this then Vanilla will show a "malformed snip inclusion" error.
 ### Updating the Apache config file
 
     # Copy the Apache config file (this will trigger Apache to reload)
-    $ cap apache:update_config
+    $ cap apache:enable_config
 
 ## Writing a snip
 
