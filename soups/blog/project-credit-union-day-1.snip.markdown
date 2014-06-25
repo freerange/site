@@ -68,7 +68,7 @@ There are lots of reasons why this project might not succeed but it feels good t
 [accept deposits]: http://www.legislation.gov.uk/uksi/2001/544/part/II/chapter/II/made
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
