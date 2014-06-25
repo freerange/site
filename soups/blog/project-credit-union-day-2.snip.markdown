@@ -13,6 +13,14 @@ They both have online banking but only the London Community Credit Union has a c
 
 Naughty Wonga - http://www.bbc.co.uk/news/business-28015456
 
+Trying to find a definitive list of credit unions.
+
+Does http://www.findyourcreditunion.co.uk/home only contain ABCUL members?
+
+Where is the data on creditunions.co.uk from?
+
+I've emailed PRA to ask if they have a definitive list.
+
 
 :render_as: Blog
 :kind: draft
