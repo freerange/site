@@ -26,6 +26,34 @@ This is a great (and unfortunately rare) example of inter-disciplinary collabora
 We keep thinking of trying to automate more of our administrivia and much of it happens via email. I'm hoping that this newly released [Gmail API][] might allow us to write scripts to handle some of the more mundane tasks. {by james-mead}
 
 
+### [Gas Mask - Hosts file manager for OS X](https://github.com/2ndalpha/gasmask)
+
+This is a handy little Mac utility that makes it slightly easier to manage your /etc/hosts file. I came across it recently while I was migrating some of our apps from one server to another. {by chris-roos}
+
+
+### [A better branches page · GitHub](https://github.com/blog/1852-a-better-branches-page)
+
+GitHub announce their improved Branches page:
+
+> New sections on the page also make it more obvious how you need to take action on the branches in your repository—whether that’s cleaning up stale branches
+
+I think this is a great improvement, particularly highlighting the stale branches that can be deleted. {by chris-roos}
+
+
+### [Code Spaces have been forced to close](http://www.codespaces.com/)
+
+I hadn't heard of Code Spaces until James mentioned them to me. It's pretty scary that an entire business can be brought down by a malicious individual. I wonder what would happen if they find the person responsible: Would they be punishable in a similar fashion to someone that destroyed a traditional bricks and mortar business. {by chris-roos}
+
+
+### [Makies FabLab: Design, Create & Style Doll Fashion Maker](https://itunes.apple.com/gb/app/makies-fablab-design-create/id806174619?mt=8)
+
+Congratulations to Makie for their [recently launched][FabLab tweet] iOS FabLab game.
+
+Actually, it's double congratulations because they've just [announced that Makies are in the Hamleys Magnificent seven must-have toys for Christmas 2014][Makie Hamleys tweet]! Great stuff. {by chris-roos}
+
+
+[FabLab tweet]: https://twitter.com/OfficialMakies/status/479550132598624256
+[Makie Hamleys tweet]: https://twitter.com/OfficialMakies/status/482077580065918977
 [Tom Stuart]: http://codon.com
 [node.js]: http://nodejs.org/
 [broccoli-es6-concatenator]: https://github.com/joliss/broccoli-es6-concatenator
