@@ -42,6 +42,14 @@ We decided that it would be interesting to join a couple of existing credit unio
 
 ### London Capital Credit Union
 
+I went through the [online application process][London Capital CU application] at around 15:00. It was incredibly simple, and is possibly even simpler than their postal application which appears to require at least your national insurance number in addition to everything else in the online form.
+
+I only had to wait about an hour before receiving my membership information by email. I wasn't really expecting anything to happen so quickly so this was a pleasant surprise.
+
+Along with my membership number and welcome letter, I received a list of frequently asked questions, a loan application form and a newsletter. Although there was lots of information, it wasn't immediately obvious what I should do next. Before signing up I'd read about a one-off £5 lifetime membership fee but the documents didn't mention how I might pay that, or indeed whether I actually had to. I did have enough information to make a payment in to the credit union and instructed my bank to transfer £10. Interestingly, they appear to use a single Co-op bank account that their members transfer money to. James and I have discussed this as an approach that we could use if we're unable to offer the Co-op credit union current account, although we think this might limit the functionality we're able to offer.
+
+I waited a couple of hours after making the transfer and filled out the [online account application form][London Capital CU online account]. I submitted that at the end of the day yesterday and am now waiting to hear when I have access to my account.
+
 ### London Community Credit Union
 
 There are three ways to apply: on-line, interactive PDF, or downloadable PDF. I decided to go through the on-line application process which was a large single page form. It was mostly pretty straightforward, but I ran into a bit of a problem with entering my passport details.
@@ -75,6 +83,8 @@ Naughty Wonga - http://www.bbc.co.uk/news/business-28015456
 [LINK]: http://www.link.co.uk/
 [Chris]: /chris-roos
 [London Capital Credit Union]: http://www.credit-union.coop/
+[London Capital CU application]: https://credit-union.securecu.co.uk/05009633a0/secure.asp?section=197
+[London Capital CU online account]: https://credit-union.securecu.co.uk/05009633a0/pins.asp?section=8
 [London Community Credit Union]: http://londoncu.co.uk/
 [machine-readable passport format]: http://en.wikipedia.org/wiki/Machine-readable_passport#Format
 [jQuery validation engine]: https://github.com/posabsolute/jQuery-Validation-Engine
