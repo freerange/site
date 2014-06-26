@@ -21,10 +21,16 @@ This allows people to offer a bounty for work on specific open-source features a
 This is a great (and unfortunately rare) example of inter-disciplinary collaboration and it's particularly brilliant that they got some laws *changed* while developing the service. {by james-mead}
 
 
+### [Introducing the new Gmail API](http://googleappsdeveloper.blogspot.co.uk/2014/06/introducing-new-gmail-api.html)
+
+We keep thinking of trying to automate more of our administrivia and much of it happens via email. I'm hoping that this newly released [Gmail API][] might allow us to write scripts to handle some of the more mundane tasks. {by james-mead}
+
+
 [Tom Stuart]: http://codon.com
 [node.js]: http://nodejs.org/
 [broccoli-es6-concatenator]: https://github.com/joliss/broccoli-es6-concatenator
 [ecmascript-6-import-declaration]: http://wiki.ecmascript.org/doku.php?id=harmony:modules#import_declarations
+[Gmail API]: https://developers.google.com/gmail/api/
 
 :render_as: Blog
 :kind: blog
