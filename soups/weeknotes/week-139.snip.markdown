@@ -32,7 +32,7 @@ Tom
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Markdown
+:written_with: Kramdown
 :author: tom-ward
 :created_at: 2011-09-16 17:30:00 +01:00
 :updated_at: 2011-09-16 17:30:00 +01:00
