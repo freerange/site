@@ -75,7 +75,7 @@ The most obvious reason to stop is if we work out that the amount of time, energ
 [added some notes]: https://github.com/freerange/credit-union/wiki/Home/_compare/13a5459013807dea0d3ca278235ea8c26b7fd3d2...a29af666d6bc9cbe8e2d1fc9d3b0bd34d6620c43
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
