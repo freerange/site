@@ -18,7 +18,7 @@ Please try it out and let us know what you think.  You can find the code [on git
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Markdown
+:written_with: Kramdown
 :author: tom-ward
 :created_at: 2012-05-04 15:05:00 +00:00
 :updated_at: 2012-05-04 15:05:00 +00:00

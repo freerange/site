@@ -31,12 +31,12 @@ I have a lot of sympathy for the Ruby Manor approach, but Railsberry has made me
 
 ## Coda
 
-Anyway, that's it for another week.  These weeknotes were brought to you by the colours [Red, Yellow and Green](http://en.wikipedia.org/wiki/Marley_(film), the song ["A Hard Rain's Gonna Fall"](http://videosift.com/video/Bob-Dylan-A-Hard-Rain-s-A-Gonna-Fall-1964) and [Forbrydelsen](http://www.amazon.co.uk/The-Killing-Series-1-DVD/dp/B004KKPQMI).
+Anyway, that's it for another week.  These weeknotes were brought to you by the colours [Red, Yellow and Green](http://en.wikipedia.org/wiki/Marley_(film)), the song ["A Hard Rain's Gonna Fall"](http://videosift.com/video/Bob-Dylan-A-Hard-Rain-s-A-Gonna-Fall-1964) and [Forbrydelsen](http://www.amazon.co.uk/The-Killing-Series-1-DVD/dp/B004KKPQMI).
 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Markdown
+:written_with: Kramdown
 :author: tom-ward
 :created_at: 2012-04-30 10:49:00 +01:00
 :updated_at: 2012-04-30 10:49:00 +01:00
