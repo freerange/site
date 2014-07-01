@@ -3,7 +3,6 @@ require 'recap/recipes/ruby'
 set :application_user, 'freerange'
 set :application, 'gofreerange.com'
 set :repository, 'git@github.com:freerange/site.git'
-set :branch, 'migrating-to-another-server'
 
 server 'badger.gofreerange.com', :app
 
