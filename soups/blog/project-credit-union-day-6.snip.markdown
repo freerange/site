@@ -36,10 +36,10 @@ We've been doing our best to respond to everyone, but apologies if we don't get 
 [reasons to step]: https://github.com/freerange/credit-union/wiki#reasons-to-stop
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-07-02 11:00:00 +01:00
-:updated_at: 2014-07-02 11:00:00 +01:00
+:created_at: 2014-07-02 12:42 +01:00
+:updated_at: 2014-07-02 12:42 +01:00
 :page_title: Project Credit Union - Day 6
