@@ -19,13 +19,13 @@ We later spoke to the Co-op's credit union relationship manager and asked whethe
 
 ## Credit union current accounts
 
-The news about the credit union current accounts wasn't quite as positive as we were hoping. In short, they are still being offered through [ABCUL][] but it sounds as though they're quite expensive to run. I wasn't able to get exact details as we're not a member of, or a study group with, ABCUL, but the message was that we'd have pretty high expectations to start a credit union and offer current accounts from day one.
+The news about the credit union current accounts wasn't quite as positive as we were hoping. In short, they are still being offered through [ABCUL][] but it sounds as though they're quite expensive to run. I wasn't able to get exact details as we're not a member of, or a study group with, ABCUL, but it sounds as if it would be unrealistic for a credit union to offer current accounts from day one because of the high operating costs.
 
 We're keen to understand exactly how much the current account costs to operate so we think we'll have to register to become an ABCUL study group. It seems slightly odd to me that this information isn't publicly available.
 
 This information about the current account was confirmed by Dawn from [UKCU][] who explains that it's only really the largest, most wealthy credit unions that offer the current account. There is a possible alternative in the [credit union prepaid debit card][] but we need to investigate this further.
 
-The representative at ABCUL talked a little about the Credit union expansion programme, and how that might provide alternative current accounts. I haven't read too much about this programme so I'm not sure we'd hold our breath for anything emerging anytime soon.
+The representative at ABCUL talked a little about the Credit Union Expansion Project, and how that might provide alternative current accounts. I haven't read too much about this project so I'm not sure we'd hold our breath for anything emerging anytime soon.
 
 ## Study groups
 
