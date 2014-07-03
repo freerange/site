@@ -42,10 +42,10 @@ We'd quite like to form a study group with UKCU given how helpful they've been t
 [UKCU]: http://www.ukcu.coop/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-07-03 15:30:00 +01:00
-:updated_at: 2014-07-03 15:30:00 +01:00
+:created_at: 2014-07-03 16:20:00 +01:00
+:updated_at: 2014-07-03 16:20:00 +01:00
 :page_title: Project Credit Union - Day 7
