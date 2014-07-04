@@ -48,10 +48,10 @@ Hopefully these will do the trick. We'll let you know how it goes.
 [FCA]: http://www.fca.org.uk/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-07-04 10:30:00 +01:00
-:updated_at: 2014-07-04 10:30:00 +01:00
+:created_at: 2014-07-04 12:26:00 +01:00
+:updated_at: 2014-07-04 12:26:00 +01:00
 :page_title: Project Credit Union - Day 8
