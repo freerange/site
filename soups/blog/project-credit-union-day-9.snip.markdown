@@ -1,9 +1,9 @@
 Project Credit Union - Day 9
 ============================
 
-## Interesting Twitter conversation
+## Twitter conversation
 
-Friday started with a Twitter exchange where we were put in touch with someone trying to do interesting things with credit unions. We've arranged to meet and we're looking forward to see if anything comes from it.
+Friday started with an interesting Twitter exchange where we were put in touch with someone trying to do interesting things with credit unions. We've arranged to meet and we're looking forward to see if anything comes from it.
 
 ## Expanding the wiki
 
