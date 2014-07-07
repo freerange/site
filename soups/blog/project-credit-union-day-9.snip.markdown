@@ -17,7 +17,7 @@ While the Co-op appears to be the most obvious choice when deciding upon a bank 
 
 ## Bitcoin
 
-A couple of comments about cryptocurrencies on our [day 1 blog post][] got me trying to understand a bit more about them and how they might apply to what we're trying to do. While I don't think it's something we're interested in right now, I do appreciate [Mark][] taking the time to try to explain his thinking and for giving me a reason to learn a bit more about these developments.
+A couple of comments about crypto-currencies on our [day 1 blog post][] got me trying to understand a bit more about them and how they might apply to what we're trying to do. While I don't think it's something we're interested in right now, I do appreciate [Mark][] taking the time to try to explain his thinking and for giving me a reason to learn a bit more about these developments.
 
 
 [Co-op's Community Directplus offering]: http://www.co-operativebank.co.uk/business/community/community-directplus
