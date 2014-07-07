@@ -78,7 +78,7 @@ Anyway, that's all for now.
 [Middleman]: http://middlemanapp.com/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead

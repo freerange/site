@@ -29,7 +29,7 @@ A couple of comments about crypto-currencies on our [Day 1 blog post][] got me t
 [wiki]: https://github.com/freerange/bank/wiki
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
