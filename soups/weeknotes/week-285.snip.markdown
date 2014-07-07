@@ -17,7 +17,7 @@ We've continued to keep daily notes on our progress:
 * [Day 6][] - Tuesday
 * [Day 7][] - Wednesday
 * [Day 8][] - Thursday
-* Day 9 - Friday (pending)
+* [Day 9][] - Friday
 
 It was good to [revisit our motivations][day 6 manifesto] for working on the project and to make our requirements for a [minimum viable account][] more explicit. It also felt like a positive step to send off our application to [become an ABCUL study group][study group application], although it's rather disappointing that we haven't heard anything back from them yet.
 
@@ -59,6 +59,7 @@ Anyway, that's all for now.
 [Day 6]: /project-credit-union-day-6
 [Day 7]: /project-credit-union-day-7
 [Day 8]: /project-credit-union-day-8
+[Day 9]: /project-credit-union-day-9
 [day 6 manifesto]: /project-credit-union-day-6#manifesto
 [minimum viable account]: /project-credit-union-day-8#minimum-viable-account
 [study group application]: /project-credit-union-day-8#study-group-application
