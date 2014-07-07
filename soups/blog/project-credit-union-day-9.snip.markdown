@@ -11,7 +11,7 @@ James has done a great job of moving our notes out of a Google Doc and into the 
 
 James also recently renamed the wiki (well, the GitHub repo) from credit-union to bank to remind ourselves that our [high-level goals][] don't necessarily tie us to credit unions.
 
-## Alternative credit union bank accounts
+## Credit union bank accounts
 
 While the Co-op appears to be the most obvious choice when deciding upon a bank account for your credit union, it would appear that you might also be able to use [other banks][]. Lloyds TSB appears to be the only other bank that explicitly offer a [credit union account][lloyds-tsb-cu-account] but they don't publish their rates so it's not clear how it matches up to the [Co-op's Community Directplus offering][]. Both HSBC and Natwest offer Community accounts that might be suitable for a credit union; although with free banking if your turnover is up to £100,000 it doesn't match up to the Co-op's free banking on a turnover of up to £1,000,000.
 
