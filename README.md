@@ -60,7 +60,7 @@ That tells vanilla to use Markdown to render the snip. The 'created_at' property
 
 This particular vanilla site uses multiple soups to make it easier to organise the content. Within the `soup` directory there are snips, and also subdirectories; These contain other snips, but don't result in nested urls. In other words, if a snip called `hello.snip` is in `soup/blog`, it is still served from `http://yoursite/hello`, and not `http://yoursite/blog/hello`. The URL space is flat.
 
-## Writing a blog
+## Writing a blog post
 
 Blog posts are just snips with a particular attribute set:
 
