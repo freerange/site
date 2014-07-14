@@ -67,7 +67,7 @@ Anyway, that's all for now.
 [Matt Wynne]: http://www.mattwynne.net/
 [Sandi Metz]: http://www.sandimetz.com/
 [Chris Lowis]: http://chrislowis.co.uk
-[Practical Object-Oriented Design course]: http://kickstartacademy.io/dates/poodr-london-2-day
+[Practical Object-Oriented Design course]: http://kickstartacademy.io/courses/practical-object-oriented-design
 [POODR book]: http://www.poodr.com/
 [lean start-up]: http://en.wikipedia.org/wiki/Lean_startup
 [Murray]: http://h-lame.com/
