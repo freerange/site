@@ -71,3 +71,9 @@ There's a dynasnip called 'kind' that finds all snips with that property and val
 The flip side is that if you want to keep a post as a 'draft', just omit that property, or set it to something else. Maybe `draft`; it doesn't matter.
 
 If you're not sure, just look at some of the other snips in `soup/blog`.
+
+## Updating CSS
+
+The `*.css` files are generated from `*.less` files in `public/stylesheets`. You can regenerate a specific file using a command like:
+
+    lessc public/stylesheets/screen.less >public/stylesheets/screen.css
