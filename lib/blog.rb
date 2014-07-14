@@ -32,7 +32,7 @@ module Vanilla::Renderers
         "th"
       end
         
-      time.strftime("%A %d#{suffix} %B")
+      time.strftime("%A %d#{suffix} %B, %Y")
     end
   end
 end
