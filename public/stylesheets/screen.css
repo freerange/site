@@ -137,7 +137,6 @@ body {
 --------------------------------------------- */
 #header {
   /* logo */
-
 }
 #header h1 {
   height: 229px;
@@ -352,7 +351,6 @@ body.blog #page {
 }
 body.blog #page #header {
   /* logo */
-
 }
 body.blog #page #header ul#blog_nav {
   background: #222;
@@ -654,7 +652,6 @@ body.blog #page .comments {
     border: 1px solid #dcdcdc;
     float: left;
     /* Make the 'R' of recent sit on the grid line */
-  
   }
   body.blog #page #content #article_links h3 {
     text-transform: uppercase;
@@ -689,46 +686,6 @@ body.blog #page .comments {
   body.blog #page #content #article_links ul a:active {
     color: #db4a1d;
   }
-}
-#content .printer-kit-option {
-  margin: 6em 0;
-  border-bottom: 1px solid #999;
-  padding-bottom: 4em;
-}
-#content .printer-kit-option select {
-  font-weight: bold;
-  font-size: 1.0em;
-}
-#content .printer-kit-option input[type=image] {
-  display: inline;
-  vertical-align: bottom;
-  padding-left: 1em;
-}
-#content .printer-kit-option p + ul {
-  padding-left: 3em;
-  font-size: 1.6em;
-  line-height: 1.6em;
-  padding-bottom: 1.6em;
-}
-#content .printer-kit-option ul ul {
-  padding-left: 3em;
-}
-#content .buy {
-  margin: 0em -1.5em 1.5em -1.5em;
-  padding: 1.5em;
-  border: 1px solid #ccc;
-  background-color: #FFFBCC;
-}
-#content .important-notes {
-  border: 1px solid #999;
-  font-weight: bold;
-  border: 1px solid #666;
-  background-color: white;
-  padding: 1.5em 1.5em 0 1.5em;
-  margin-bottom: 1.6em;
-}
-#content #important-notes {
-  margin-top: 3em;
 }
 /* misc. 
 --------------------------------------------- */
