@@ -45,7 +45,7 @@ We're back up to full strength next week, so hopefully we'll be able to get a fi
 [james-mead]: /james-mead
 [week #193]: /week-193
 [Harmonia]: https://harmonia.io
-[Go Free Range Printer]: http://gofreerange.com/hello-printer
+[Go Free Range Printer]: /hello-printer
 [printer-twilio]: https://github.com/newsinternational/printer-twilio
 [Twilio]: https://www.twilio.com/
 [Go Free Range]: /
