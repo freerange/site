@@ -18,7 +18,7 @@ We're now wondering whether it's worth speaking to ABCUL to see if they're able 
 
 ## Show and Tell
 
-Wednesday evening saw us host our third show and tell event (previously in weeks [274][] and [282][]). Six of us gathered around the projector, four of us talked about something we'd worked on and everyone contributed to the discussion.
+Wednesday evening saw us host our third _Show and Tell_ event (previously in weeks [274][] and [282][]). Six of us gathered around the projector, four of us talked about something we'd worked on and everyone contributed to the discussion.
 
 I spoke about something I cobbled together to visualise my Barclays Cycle Hire use on a Google Map. It's gimmicky more than useful but it was a pretty fun little exercise to see how much I could get done with Google Drive and limited programming.
 
