@@ -28,7 +28,7 @@ In a little downtime between talking, Murray mentioned that Google appear to hav
 
 [Ryan][] spoke about [Meat Club][], a project he started as an antidote to spending all day in front of a computer. Ryan explained how he's using GitHub to maintain his recipes and how he hopes to publish them, either as a beautifully illustrated book or possibly as some kind of interactive mobile app that'll help guide you through the cooking process.
 
-[Chris Lowis][] brought us up to speed with a blog post he's been working on for a while. It appears to be pretty much ready to publish but it was interesting to heard about some of the challenges he's faced: at least one extreme browser bug that nearly made him go deaf and trying to reduce the duplication in the displayed versus executed code.
+[Chris Lowis][] brought us up to speed with a blog post he's been working on for a while. It appears to be pretty much ready to publish but it was interesting to hear about some of the challenges he's faced: at least one extreme browser bug that nearly made him go deaf and trying to reduce the duplication in the displayed versus executed code.
 
 We inevitably ran on longer than planned but I don't think anyone minded too much. We finished up by talking about how we might increase the number of people involved while trying to avoid it becoming too large to become useful. We're not sure what we'll try yet but it definitely be good to get a few different folks involved.
 
