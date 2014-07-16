@@ -51,10 +51,10 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 [Triumph multi-drawers]: http://www.triumphfurniture.com/Documentation/Products/Storage/Eday_Multidrawers.pdf
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-07-14 16:48:00 +01:00
-:updated_at: 2014-07-14 16:48:00 +01:00
+:created_at: 2014-07-16 12:30:00 +01:00
+:updated_at: 2014-07-16 12:30:00 +01:00
 :page_title: Office Furniture Clearance
