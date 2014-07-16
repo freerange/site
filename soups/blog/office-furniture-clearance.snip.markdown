@@ -1,7 +1,7 @@
 Office Furniture Clearance
 ==========================
 
-We've had a bit of a sort-out in our office and we've identified some furniture and stationery that's surplus to requirements. If you're interested in anything then please [get in touch](/contact) and we'll see if we can work something out.
+We've had a bit of a sort-out in our office and we've identified some furniture and stationery that's surplus to requirements. If you're interested in anything then please get in touch (<a href="mailto:lets@gofreerange.com">email</a> and [twitter][]) and we'll see if we can work something out.
 
 *NOTE: You'd need to be able to pick this furniture up from our office in Shoreditch.*
 
@@ -49,6 +49,7 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 [Bisley A722W00]: http://www.bisley.co.uk/products/1722
 [Bisley A722W00 on Amazon]: http://www.amazon.co.uk/Bisley-Cupboard-2-Door-W914xD457xH1806mm-A722W00-73/dp/B000NRVHP2
 [Triumph multi-drawers]: http://www.triumphfurniture.com/Documentation/Products/Storage/Eday_Multidrawers.pdf
+[twitter]: https://twitter.com/freerange
 
 :render_as: Blog
 :kind: blog
