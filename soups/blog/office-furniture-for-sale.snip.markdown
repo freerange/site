@@ -1,7 +1,18 @@
-Office Furniture For Sale
-=========================
+Office Furniture Clearance
+==========================
 
-We've had a bit of a sort-out in our office and we've identified some furniture and stationery that's surplus to requirements.
+We've had a bit of a sort-out in our office and we've identified some furniture and stationery that's surplus to requirements. If you're interested in anything then please [get in touch](/contact) and we'll see if we can work something out.
+
+*NOTE: You'd need to be able to pick this furniture up from our office in Shoreditch.*
+
+
+* [1 x Bisley two door cupboard](#x-bisley-two-door-cupboard)
+* [2 x unbranded lockable filing cabinets](#x-unbranded-lockable-filing-cabinets)
+* [2 x Triumph multi-drawer units](#x-triumph-multi-drawer-units)
+* [5 x Office Deluxe letter trays](#x-office-deluxe-letter-trays)
+* 34 x filing cabinet suspension files
+* 23 x A4 double size ring binders
+
 
 ## 1 x Bisley two door cupboard
 
@@ -34,11 +45,6 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 
 <img src="/images/blog/office-furniture/letter-trays.jpg" width="100%" alt="Office Deluxe letter trays">
 
-## 34 x filing cabinet suspension files
-
-
-## 23 x A4 double size ring binders
-
 
 [Bisley A722W00]: http://www.bisley.co.uk/products/1722
 [Bisley A722W00 on Amazon]: http://www.amazon.co.uk/Bisley-Cupboard-2-Door-W914xD457xH1806mm-A722W00-73/dp/B000NRVHP2
@@ -51,4 +57,4 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 :author: james-mead
 :created_at: 2014-07-14 16:48:00 +01:00
 :updated_at: 2014-07-14 16:48:00 +01:00
-:page_title: Office Furniture For Sale
+:page_title: Office Furniture Clearance
