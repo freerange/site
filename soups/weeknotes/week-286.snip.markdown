@@ -34,7 +34,7 @@ We inevitably ran on longer than planned but I don't think anyone minded too muc
 
 ## Company Trello
 
-Before James left on Monday, we spent around an hour trying to get our company Trello board into a bit of a better shape. We were using the _Card Aging Power-Up_ but that had resulted in a shedload of unreadble cards that we then ignored. We've now disabled that and have added a Harmonia task to prompt us to ensure we keep on top of it at least once a week.
+Before James left on Monday, we spent around an hour trying to get our company Trello board into a bit of a better shape. We were using the _Card Aging Power-Up_ but that had resulted in a shedload of unreadble cards that we then ignored. We've now disabled that and have added a [Harmonia][] task to prompt us to ensure we keep on top of it at least once a week.
 
 And with that I'll bid y'all goodbye.
 
@@ -52,6 +52,7 @@ And with that I'll bid y'all goodbye.
 [Middleman]: http://middlemanapp.com/
 [Murray]: https://twitter.com/hlame
 [Ryan]: http://ryansnyder.me/
+[Harmonia]: https://harmonia.io/
 
 :render_as: Blog
 :kind: blog
