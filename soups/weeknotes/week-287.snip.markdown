@@ -47,6 +47,6 @@ As you might've gathered, we've lost a bit of momentum on [Project Credit Union]
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-07-22 13:00:00 +01:00
-:updated_at: 2014-07-22 13:00:00 +01:00
+:created_at: 2014-07-22 16:29:00 +01:00
+:updated_at: 2014-07-22 16:29:00 +01:00
 :page_title: Week 287
