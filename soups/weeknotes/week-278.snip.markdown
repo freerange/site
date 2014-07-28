@@ -27,7 +27,7 @@ Finally, both [Tom W][] and [Chris L][] were in the office on Friday so a few of
 
 [Chris Lowis]: http://blog.chrislowis.co.uk/
 [Chris L]: http://blog.chrislowis.co.uk/
-[FA trans explainer]: https://github.com/freerange/free_agent_transaction_explainer
+[FA trans explainer]: https://github.com/freerange/freeagent_transaction_explainer
 [FutureLearn]: https://www.futurelearn.com/
 [IWC feed criticism]: http://indiewebcamp.com/feed#Criticism
 [James]: /james-mead

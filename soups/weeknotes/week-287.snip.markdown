@@ -38,7 +38,7 @@ As you might've gathered, we've lost a bit of momentum on [Project Credit Union]
 [Trello]: https://trello.com/
 [Harmonia]: https://harmonia.io/
 [surplus office furniture]: /office-furniture-clearance
-[FreeAgent Transaction Explainer]: https://github.com/freerange/free_agent_transaction_explainer
+[FreeAgent Transaction Explainer]: https://github.com/freerange/freeagent_transaction_explainer
 [Chrome Extension]: https://developer.chrome.com/extensions
 [Project Credit Union]: /project-credit-union-day-1
 
