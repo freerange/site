@@ -17,6 +17,8 @@ Then when you're on an _unexplained_ bank transaction in FreeAgent, you can trig
 
 For some transactions we like to upload an attachment, e.g. an invoice or receipt, and so the extension can remind you to upload an attachment if appropriate.
 
+<iframe src="//player.vimeo.com/video/102040575" width="556" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/102040575">FreeAgent Transaction Explainer screencast</a> from <a href="http://vimeo.com/gofreerange">Free Range</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## Why a Chrome extension?
 
 We could've written a cron job to periodically add explanations via the [FreeAgent API][], but there are aspects of the process which we're not yet ready to automate e.g. uploading attachments, so having this semi-automated client-side workflow seems like a good compromise. It also makes it obvious when we're missing a rule or a rule is incorrect.
