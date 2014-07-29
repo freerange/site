@@ -9,7 +9,7 @@ As we added more and more rules to the bookmarklet it became more and more usefu
 
 We have a few [bookmarklets][] and [userscripts][] which we use internally and we thought it would be useful to know more about how to create Chrome extensions. Also we want to get _better at building things and writing about them_, and this seemed like a good candidate.
 
-## How to use it
+## How to use the extension
 
 You'll find the latest installation and usage instructions in the [project README][], but essentially you just need to install the Chrome extension and point it at a publicly hosted [JSON][] file containing the rules you want to use. An easy way to do this is to use a [GitHub Gist][] and point the extension at the "raw" version of the Gist file.
 
