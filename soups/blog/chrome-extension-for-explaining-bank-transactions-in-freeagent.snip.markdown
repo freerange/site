@@ -11,7 +11,7 @@ We have a few [bookmarklets][] and [userscripts][] which we use internally and w
 
 ## How to use the extension
 
-You'll find the latest installation and usage instructions in the [project README][], but essentially you just need to install the Chrome extension and point it at a publicly hosted [JSON][] file containing the rules you want to use. An easy way to do this is to use a [GitHub Gist][] and point the extension at the "raw" version of the Gist file.
+You'll find the latest installation and usage instructions in the [project README][], but essentially you just need to [install the Chrome extension][] from the Chrome Web Store and use the extension's _Options_ page to point it at a publicly hosted [JSON][] file containing the rules you want to use. An easy way to do this is to use a [GitHub Gist][] and point the extension at the _raw_ version of the Gist file.
 
 Then when you're on an _unexplained_ bank transaction in FreeAgent, you can trigger the extension using the icon in the Omnibox (or a keyboard shortcut) to suggest an explanation for the transaction. The extension tries to find a rule matching the bank transaction description and if it finds one, it'll make the appropriate changes to the explanation form, but you still need to manually check the changes and submit the form.
 
@@ -32,8 +32,7 @@ You'll be able to see that we've captured a few of our ideas for further work as
 * [Tell the user where to obtain the file to be attached](https://github.com/freerange/freeagent_transaction_explainer/issues/2) - at the moment we're capturing this info in an internal wiki page.
 * [Support transaction where money has been paid to a user](https://github.com/freerange/freeagent_transaction_explainer/issues/15) e.g. salary, dividends, etc.
 
-
-
+Anyway, let us know what you think.
 
 [Chris]: /chris-roos
 [created a bookmarklet]: /automating-some-of-the-freeagent-transaction-explanation-process
@@ -43,6 +42,7 @@ You'll be able to see that we've captured a few of our ideas for further work as
 [bookmarklets]: http://en.wikipedia.org/wiki/Bookmarklet
 [userscripts]: http://en.wikipedia.org/wiki/Userscript
 [project README]: https://github.com/freerange/freeagent_transaction_explainer/blob/master/README.md
+[install the Chrome extension]: https://chrome.google.com/webstore/detail/freeagent-transaction-exp/lgpgdkoopbcppnipcnbodcobjmhagmim?hl=en&gl=GB
 [JSON]: http://json.org/
 [GitHub Gist]: https://gist.github.com/
 [FreeAgent API]: https://dev.freeagent.com/docs/
