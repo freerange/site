@@ -53,11 +53,11 @@ Anyway, let us know what you think.
 [issues page]: https://github.com/freerange/freeagent_transaction_explainer/issues
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-07-28 16:30:00 +00:00
-:updated_at: 2014-07-28 16:30:00 +00:00
+:created_at: 2014-07-30 10:14:00 +00:00
+:updated_at: 2014-07-30 10:14:00 +00:00
 :page_title: Chrome extension for explaining bank transactions in FreeAgent
 
