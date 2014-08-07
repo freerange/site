@@ -15,11 +15,15 @@ Ben also talked about making a [jukebox][] for his kids and sister-in-law. Ben s
 
 We managed to wrap up at around 8:30 and moved to the pub to continue the discussion.
 
+## Want to get involved?
+
+If this sounds like the sort of thing you're interested in, then please do [get in touch][]. We're keen to keep these fairly small but would also like them to be open to other people.
+
 ## Previous Show and Tell evenings
 
-* Show and Tell 1 - [week 274][]
-* Show and Tell 2 - [week 282][]
-* Show and Tell 3 - [week 286][]
+* [Show and Tell 1][]
+* [Show and Tell 2][]
+* [Show and Tell 3][]
 
 
 [Amy]: https://twitter.com/amyeee
@@ -27,21 +31,22 @@ We managed to wrap up at around 8:30 and moved to the pub to continue the discus
 [Ben]: https://twitter.com/beng
 [Emily]: http://emilywebber.co.uk/
 [FreeAgent Transaction Explainer]: https://chrome.google.com/webstore/detail/freeagent-transaction-exp/lgpgdkoopbcppnipcnbodcobjmhagmim
+[get in touch]: (/contact)
 [James]: /james-mead
 [jukebox]: https://github.com/techbelly/jukebox
 [Minimum Viable Book]: http://minimumviablebook.com/
 [mvb-alpha]: http://minimumviablebook.com/2014/07/5-bites-of-advice/
 [Paul]: http://po-ru.com/
-[week 274]: /week-274
-[week 282]: /week-282
-[week 286]: /week-286
+[Show and Tell 1]: /week-274
+[Show and Tell 2]: /week-282
+[Show and Tell 3]: /week-286
 
 :render_as: Blog
 :kind: draft
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-08-07 13:00:00 +01:00
-:updated_at: 2014-08-07 13:00:00 +01:00
+:created_at: 2014-08-07 17:00:00 +01:00
+:updated_at: 2014-08-07 17:00:00 +01:00
 :page_title: Show and Tell 4
 
