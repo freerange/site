@@ -18,24 +18,29 @@ This link is to a tweet containing a photo of a slide presented at [PyCon Austra
 
 ### [Introducing Stellar](https://www.stellar.org/blog/introducing-stellar/)
 
-Stripe recently wrote about [their perspective on Bitcoin](https://stripe.com/blog/bitcoin-the-stripe-perspective) and they talked a lot about the idea of "gateways" which "should allow people to transparently get into and out of the network, while always thinking in terms of their normal currency".
+Stripe recently wrote about [their perspective on Bitcoin](https://stripe.com/blog/bitcoin-the-stripe-perspective) and they talked a lot about the idea of _gateways_ which "should allow people to transparently get into and out of the network, while always thinking in terms of their normal currency".
 
-Stellar is an open-source project which provides a "decentralized protocol for sending and receiving money in any pair of currencies" which should make it a lot easier to build such "gateways". {by james-mead}
+Stellar is an open-source project which provides a "decentralized protocol for sending and receiving money in any pair of currencies" which should make it a lot easier to build such _gateways_. {by james-mead}
 
 
 ### [Eurucamp 2014 Podcast](http://2014.eurucamp.org/podcast/#TCC003)
 
-In this podcast, [Tom Stuart](http://codon.com/) talks about his [Introduction to Monads conference talk](http://2014.eurucamp.org/speakers/#tom-stuart) and "a lot of other things including the problems with math education". Via [James Coglan](http://jcoglan.com/). {by james-mead}
+In this podcast, [Tom Stuart](http://codon.com/) chats about his [Introduction to Monads](http://2014.eurucamp.org/speakers/#tom-stuart) conference talk and "a lot of other things including the problems with math education". Via [James Coglan](http://jcoglan.com/). {by james-mead}
 
 
 ### [Eastbourne pier fire - drone footage](https://vimeo.com/102174078)
 
-This 5 minute video has some incredible footage of the recent fire on Eastbourne pier. I'm amazed that you can get this sort of quality from a drone and camera _relatively_ cheaply. Via [Tom S](https://twitter.com/tomstuart). {by chris-roos}
+This 5 minute video has some incredible footage of the recent fire on Eastbourne pier. I'm amazed that you can get this sort of quality from a drone and camera _relatively_ cheaply. Via [Tom S](http://codon.com). {by chris-roos}
 
 
 ### [Google Cardboard](https://developers.google.com/cardboard/)
 
 I thought it was a joke when someone told me about Google Cardboard. Having watched the [Google I/O video](https://www.youtube.com/watch?v=DFog2gMnm44) I realised it was indeed real and decided to have a go at building one. I ordered some [components from Amazon](http://www.amazon.co.uk/AM-CARDBOARD%C2%AE-Complete-Cardboard-Project/dp/B00LM36DUK), bought some card from Ryman's and got cutting. It probably took around 3 hours to put everything together but I think it's turned out quite well. {by chris-roos}
+
+
+### [When Workers Own Their Companies, Everyone Wins](http://www.newrepublic.com/article/118933/economic-benefits-coop)
+
+Although it's a bit US-centric, I found this article about the economic benefits of worker cooperatives interesting. Via [Chris Lowis](http://chrislowis.co.uk/). {by james-mead}
 
 
 :render_as: Blog
