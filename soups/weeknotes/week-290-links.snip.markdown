@@ -23,7 +23,7 @@ Stripe recently wrote about [their perspective on Bitcoin](https://stripe.com/bl
 Stellar is an open-source project which provides a "decentralized protocol for sending and receiving money in any pair of currencies" which should make it a lot easier to build such _gateways_. {by james-mead}
 
 
-### [Eurucamp 2014 Podcast](http://2014.eurucamp.org/podcast/#TCC003)
+### [Eurucamp 2014 Podcast - Day 3](http://2014.eurucamp.org/podcast/#TCC003)
 
 In this podcast, [Tom Stuart](http://codon.com/) chats about his [Introduction to Monads](http://2014.eurucamp.org/speakers/#tom-stuart) conference talk and "a lot of other things including the problems with math education". Via [James Coglan](http://jcoglan.com/). {by james-mead}
 
