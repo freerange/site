@@ -1,7 +1,7 @@
 Show and Tell 4
 ---------------
 
-We hosted our fourth Show and Tell event last night. Seven of us sat around the projector and five folks talked about things they're working on.
+We hosted our fourth Show and Tell event last night. Seven of us sat around the projector and four folks talked about things they're working on.
 
 [Ben][] showed us how he's using WebGL to render 3D dolls in the browser. It all looks very impressive even if I don't really understand how it works. It was really interesting to hear about the creative workarounds Ben's had to employ to get around some of the limitations of iOS 8's WebGL support.
 
