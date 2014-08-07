@@ -44,10 +44,10 @@ Although it's a bit US-centric, I found this article about the economic benefits
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-08-07 13:10:00 +00:00
-:updated_at: 2014-08-07 13:10:00 +00:00
+:created_at: 2014-08-07 16:27:00 +00:00
+:updated_at: 2014-08-07 16:27:00 +00:00
 :page_title: Week 290 - Interesting links
