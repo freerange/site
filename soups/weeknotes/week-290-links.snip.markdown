@@ -6,15 +6,6 @@ Week 290 - Interesting links
 The [Impact Factor](http://en.wikipedia.org/wiki/Impact_factor) of an academic journal is increasingly being used as a shortcut to assessing the scientific merit of individual papers and thereby individual scientists. Many scientists I know complain that it's often a very unfair metric, but I think this article is right in saying that the only way to improve matters is to come up with better metrics. {by james-mead}
 
 
-### [When 'exciting' trumps 'honest', traditional academic journals encourage bad science](https://theconversation.com/when-exciting-trumps-honest-traditional-academic-journals-encourage-bad-science-29804)
-
-I suspect that scientists are "sexing up" their papers more often than people think, because of the pressure to publish in high-impact journals. This article makes a compelling argument that we should find a way to "publish more papers, even boring ones". I think Robert is also right in saying:
-
-> The main objection to this is that the resulting morass of published articles [would be tough to sort through](https://theconversation.com/how-science-can-beat-the-flawed-metric-that-rules-it-29606). But this is the internet age. We have become [past masters at sorting through masses of crap to get to the good stuff](http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/) – the internet itself would be unusable if we weren't.
-
-{by james-mead}
-
-
 ### [Wuthering Bytes](http://wutheringbytes.com/)
 
 This looks like a really interesting conference, but unfortunately I'm going to be away when it's on. I wish I'd read about it sooner. {by james-mead}
