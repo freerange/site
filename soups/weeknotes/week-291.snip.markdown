@@ -19,7 +19,7 @@ In general it's a definite improvement. The only downside we've found is that ou
 
 I spent some time building out our business wiki. It's still our plan to make at least some of this information public, but we realise this is going to be harder as we add more and more sensitive information.
 
-While adding some historical information about how much we've paid ourselves and how much we've charged, it struck me that we coud've done a better job of recording this information at the time. I think we're generally good at iteratively improving the software we build, but I'm not sure we've been so good at iteratively improving the company itself. We hope to get better at this by documenting the business as we go along.
+While adding some historical information about how much we've paid ourselves and how much we've charged, it struck me that we could've done a better job of recording this information at the time. I think we're generally good at iteratively improving the software we build, but I'm not sure we've been so good at iteratively improving the company itself. We hope to get better at this by documenting the business as we go along.
 
 ## Credit union
 
