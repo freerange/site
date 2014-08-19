@@ -35,7 +35,7 @@ Chris has already [written up][] the _Show and Tell_ session we ran on Wednesday
 [Payment Services Institutions]: http://www.fca.org.uk/firms/firm-types/payment-services-institutions
 [wiki home page]: https://github.com/freerange/bank/wiki
 [accept deposits]: https://github.com/freerange/bank/wiki/Accepting-Deposits
-[start a credit union]: https://github.com/freerange/bank/wiki/Setting-up-a-Credit-Union
+[start a credit union]: https://github.com/freerange/bank/wiki/Credit-Union
 [our aims]: https://github.com/freerange/bank/wiki#manifesto
 [GitHub issue raised by Chris Blanchard]: https://github.com/freerange/bank/issues/1
 [ABCUL]: http://www.abcul.org/
