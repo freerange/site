@@ -34,11 +34,21 @@ I often struggle to make it through videos of conference talks, but I found this
 Tom's little rant against the appalling user experience of hiring a TFL bike is very amusing and it's a prime example of a _dark pattern_ as mentioned by Martin Fowler (in the video above). {by james-mead}
 
 
+### [Hextris](http://hextris.github.io/hextris/)
+
+I quite enjoyed killing a few minutes playing this little Tetris-like game. What I mainly enjoy is that it's written entirely in JavaScript! {by chris-roos}
+
+
+### [Great Train Journeys: London Bridge to Charing Cross](http://deserter.co.uk/2014/08/great-train-journeys-london-bridge-to-charing-cross/)
+
+I really enjoyed reading this post shared by [Paul](http://po-ru.com/). The title suggested to me that it was going to be a bit of a joke, but it actually contains some useful pointers to areas that people may not have noticed. I certainly didn't known about Lower Robert Street before reading this. {by chris-roos}
+
+
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-08-21 12:00:00 +00:00
-:updated_at: 2014-08-21 12:00:00 +00:00
+:created_at: 2014-08-21 15:30:00 +00:00
+:updated_at: 2014-08-21 15:30:00 +00:00
 :page_title: Week 292 - Interesting links
