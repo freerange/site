@@ -66,6 +66,6 @@ Until next time.
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-08-27 15:00:00 +01:00
-:updated_at: 2014-08-27 15:00:00 +01:00
+:created_at: 2014-08-27 15:40:00 +01:00
+:updated_at: 2014-08-27 15:40:00 +01:00
 :page_title: Week 292
