@@ -19,7 +19,7 @@ Anyway the "big news" is that we've decided that we're *not* going to go any fur
 
 We're also more convinced that even if we did start a credit union, it wouldn't actually give us what we want i.e. proper _current accounts_ with their own unique BACS-style sort-code and account number. Although the [Credit Union Expansion Programme][CUEP] _may_ make something like this possible, it's very unclear what will be possible and when it might be available.
 
-It's become apparent that the _standard_ business model for a credit union is to cover costs by lending money and charging interest. This isn't something we'd hoped to avoid getting into and, although there doesn't seem to be anything stopping us from setting up a credit union with a different business model, we worry that we'd be fighting an uphill battle with the [FCA][] et al and it would make any timescales involved even longer.
+It's become apparent that the _standard_ business model for a credit union is to cover costs by lending money and charging interest. This is something we'd hoped to avoid getting into and, although there doesn't seem to be anything stopping us from setting up a credit union with a different business model, we worry that we'd be fighting an uphill battle with the [FCA][] et al and it would make any timescales involved even longer.
 
 Despite all of these negative points, it would've been nice to create a credit union purely because the democratic, transparent and cooperative nature of them seems to closely match the way we aim to run [our own company][GFR].
 
