@@ -63,9 +63,9 @@ Supposedly the government would like more competition for the high street banks,
 
 ## What next?
 
-We sat down a couple of days ago and had a think about where we might go from here. Our broad conclusion is that we're not going to put much more effort into the project, but we've written up some notes on the possible directions we could pursue:
+We sat down a couple of days ago and had a think about where we might go from here. Our main conclusion is that we're not going to put any more significant effort into the project, but we've written up some notes on the options that might be worth pursuing further. It's not an exhaustive list, but hopefully it gives you a flavour for what we've considered.
 
-We're sure that it's not an exhaustive list, but hopefully it gives you a flavour for what we've considered. If you have any thoughts, suggestions or advice, we'd love to hear from you!
+If you have any thoughts, suggestions or advice, we'd love to hear from you!
 
 ### Partner with existing credit union
 
@@ -86,7 +86,7 @@ The idea would be to find a credit union that was willing to let us prototype a 
 
 ### Pre-paid card service
 
-We'd aim to set up a small EMI and offer as many current account like services as we could.
+It feels as if there's still some mileage in doing some more research in this direction. The obvious thing to do would be to try to set up a small EMI and offer as many current account like services as we could.
 
 #### Advantages
 
