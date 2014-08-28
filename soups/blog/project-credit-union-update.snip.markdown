@@ -162,11 +162,11 @@ The assumption here is that we've generated some content which others would find
 [web scraping]: http://en.wikipedia.org/wiki/Web_scraping
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-08-28 14:13:00 +01:00
-:updated_at: 2014-08-28 14:13:00 +01:00
+:created_at: 2014-08-28 15:05:00 +01:00
+:updated_at: 2014-08-28 15:05:00 +01:00
 :page_title: Project Credit Union - Update
 
