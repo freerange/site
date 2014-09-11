@@ -39,6 +39,23 @@ I applaud this attempt by Network Rail to better explain the reasons for delayed
 The next big thing? {by james-mead}
 
 
+### [Let's Talk About 3 Months of Self-Quantifying](http://blog.cozycloud.cc/productivity/2014/08/26/feedback-on-a-three-months-qs-experiment/)
+
+I found some of these conclusions interesting. I collect a reasonable amount of data about myself but am yet to use it to try to draw any conclusions. {by chris-roos}
+
+
+### [GO FREE RANGE LIMITED - Check Business](https://www.check-business.co.uk/business/06789592/go-free-range)
+
+We received an email from this company saying that we could claim our page in someway.
+
+I was quite surprised to see the amount of information they were displaying about us. I can only imagine they buy the information (e.g. annual accounts) from Companies house and then republish that data. {by chris-roos}
+
+
+### [Chrome Apps & Extensions Developer Tool - Chrome Web Store](https://chrome.google.com/webstore/detail/chrome-apps-extensions-de/ohmmkhmmmpcnpikjeljgnaoabkaalbgc?hl=en-US)
+
+This looks interesting - I'll have to give it a go if/when we do more work on the FreeAgent transaction explainer. {by chris-roos}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
