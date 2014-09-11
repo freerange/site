@@ -44,16 +44,16 @@ The next big thing? {by james-mead}
 I found some of these conclusions interesting. I collect a reasonable amount of data about myself but am yet to use it to try to draw any conclusions. {by chris-roos}
 
 
-### [GO FREE RANGE LIMITED - Check Business](https://www.check-business.co.uk/business/06789592/go-free-range)
+### [Check Business - Go Free Range Ltd](https://www.check-business.co.uk/business/06789592/go-free-range)
 
 We received an email from this company saying that we could claim our page in someway.
 
-I was quite surprised to see the amount of information they were displaying about us. I can only imagine they buy the information (e.g. annual accounts) from Companies house and then republish that data. {by chris-roos}
+I was quite surprised to see the amount of information they were displaying about us. I can only imagine they buy the information (e.g. annual accounts) from Companies House and then republish that data. {by chris-roos}
 
 
 ### [Chrome Apps & Extensions Developer Tool - Chrome Web Store](https://chrome.google.com/webstore/detail/chrome-apps-extensions-de/ohmmkhmmmpcnpikjeljgnaoabkaalbgc?hl=en-US)
 
-This looks interesting - I'll have to give it a go if/when we do more work on the FreeAgent transaction explainer. {by chris-roos}
+This looks interesting - I'll have to give it a go if/when we do more work on the [FreeAgent Transaction Explainer](https://github.com/freerange/freeagent_transaction_explainer). {by chris-roos}
 
 
 :render_as: Blog
