@@ -7,7 +7,7 @@ We hosted our fifth Show and Tell on Wednesday last week. There were nine of us 
 
 We also chatted briefly about the 3D printer that we're borrowing from [Makie][]. We showed the [bracelet we'd printed][] and asked if anyone had ideas for what they'd like to print. [Nicky][] wondered if we could print something similar to these [United Nude shoes][] and, in doing so, volunteered to arrange a date to get some people together to give it a go.
 
-Nicky continued the evening by demonstrating [The Noise][], a project she'd worked on with [Storythings][] among others. The Noise uses the [UNEDITIONS][] digital publishing platform to present theatre performances in new ways. This prompted someone to mention [Ben][]'s work on [Readable Shakespeare Plays][] and reminded me of the alternative reading experience provided by [The Bellman][].
+Nicky continued the evening by demonstrating [The Noise][], a project she'd worked on with [Storythings][] among others. The Noise uses the [UNEDITIONS][] digital publishing platform to present theatre performances in new ways. This prompted James to mention [Ben][]'s work on [Readable Shakespeare Plays][] and reminded me of the alternative reading experience provided by [The Bellman][].
 
 Frustrated by losing all his data when [Google Health][] was retired, [Ryan][] talked about using [IFTTT][] to backup his data from multiple services to Google Drive. Ryan recognises the potential problem of relying on Google Drive but figures that it's a good first step to get all his data in one place, and a step on the road to eventually syndicating his data using [POSSE][]. I've started doing something similar, albeit manually, by creating recurring tasks that prompt me to download data I don't want to lose.
 
