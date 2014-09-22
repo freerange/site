@@ -13,7 +13,7 @@ G'day, folks. I hope you're all well, and that those of you in London are enjoyi
 
 * After a few failed attempts, James and I managed to meet [Tom Hall][] and [Mike Jones][] for lunch on Wednesday. We both worked with Mike way back at [Reevoo][] and with Tom more recently at [FutureLearn][]. It was great to catch up and I am now able to recommend the pizzas at [Del Mercato][].
 
-* [Chris Lowis][] was in on Thursday. We managed to fit in some lunchtime [lawn bowling action at Finsbury Square][Finsbury Square bowls] _and_ an afterwork pint. A successful day all round! I only became aware of the bowling green recently but can definitely recommend it as a way to spend an hour.
+* [Chris Lowis][] was in on Thursday. Chris joined Murray, James and I for a spot of lunchtime [lawn bowling at Finsbury Square][Finsbury Square bowls] _and_ we managed to squeeze in an afterwork pint: A successful day all round! I only became aware of the bowling green recently but can definitely recommend it as a very enjoyable way to spend an hour.
 
 * James and I left the office earlier than usual on Friday. James travelled down to the Isle of Wight to help with [Bart's Bash at Yarmouth Sailing Club][], and I travelled to a little village near Stratford-upon-Avon for a wedding.
 
@@ -39,6 +39,6 @@ Until next time.
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-09-22 13:00:00 +01:00
-:updated_at: 2014-09-22 13:00:00 +01:00
+:created_at: 2014-09-22 14:00:00 +01:00
+:updated_at: 2014-09-22 14:00:00 +01:00
 :page_title: Week 296
