@@ -19,7 +19,7 @@ One nice touch is the short links to government departments -- try [www.gov.uk/f
 
 While the site looks great (spades of kudos to [Jason](/jason-cale), [Ben Terrett][ben-terrett], [Mark Hurrell][mark-hurrell], [James Weiner][james-weiner], [Frances Berriman][frances-berriman] and everyone else who worked on it), there's also a wealth of software *behind-the-scenes*, modelling the structure of government and the workflow that departments and organisations will use to publish and administer the site.
 
-Rather than trying to teach how government works to an existing CMS, we have focussed on directly modelling ministers, organisations, policies and all of the other entities that are involved in government, and have build the content layer on top of that model. We are confident that this approach is going to pay dividends when it comes to getting the data out into the public via APIs.
+Rather than trying to teach how government works to an existing CMS, we have focussed on directly modelling ministers, organisations, policies and all of the other entities that are involved in government, and have built the content layer on top of that model. We are confident that this approach is going to pay dividends when it comes to getting the data out into the public via APIs.
 
 It's not often that you get to work on software where the end users are the citizens of an **entire country**, and we'd be remiss not to thank [Neil][neil-williams], [Pete][pete-herlihy] and [all our comrades at GDS][whitehall-contributors].
 
