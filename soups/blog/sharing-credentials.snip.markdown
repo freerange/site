@@ -1,0 +1,59 @@
+Sharing Credentials
+===================
+
+The idea that _everyone_ has joint responsibility for _everything_ is deeply engrained in the ethos of our company. One of the main benefits of this approach is that we're all aware of the state of the company, how the company operates, what the company is planning, etc. It also means we're not dependent on any one person for getting things done.
+
+We also strive to run a paperless office and in doing so we make use of many online services. However, the combination of these two approaches means that we all need access to these online services. While a few of these services allow you to have multiple users for a single account, or at least some notion of an organisation, the majority of them do not. There are also a few services that do allow multiple users per account, but only for as part of an expensive monthly plan.
+
+This leaves us with a problem: how can we share credentials for each of these services?
+
+## Early days
+
+In the early days of [GFR][] when we didn't have many of these services, we tended to use a number of well-known passwords. As we used more and more services, this tactic started becoming a significant security risk and we decided to look for an alternative solution.
+
+## Keychain and Dropbox
+
+I can't remember what else we considered, but in the end we decided to use an [Apple keychain][] shared on [Dropbox][]. The keychain is stored in a single file and while there is a theoretical race condition where two people update the file simultaneously, in practice this has never caused us a significant problem.
+
+There is obviously some risk in trusting all our company credentials to a cloud service like Dropbox, but we hope that this is somewhat mitigated by the fact that the keychain file is encrypted using [Triple DES][].
+
+Although this solution served us well for a number of years, it didn't offer integration with any browsers. Although the built-in password management functionality in Safari and Chrome did store credentials in the default "login" keychain, there didn't seem to be a way to have them use multiple keychains.
+
+Most of us were already using the excellent [1Password][] application and typically we'd look up the credentials for a given service in the shared company keychain and then save them in our personal 1Password keychains. This was less than ideal, both from a user experience point of view and a security point of view.
+
+## 1Password and Dropbox
+
+So soon after Agile Bits released [multiple vaults functionality][] in 1Password v4 in October last year, we decided to migrate our trusty Apple keychain to a 1Password vault shared on Dropbox. This transition was pretty painless and the new system is working well. However, there's always room for improvement!
+
+I tend to use [multiple Chrome profiles][] to separate my personal and work browser sessions. At the moment the selected 1Password vault seems to be set _globally_ across all Chrome profiles. It would be really nice if I could select the appropriate vault for each profile and have the selected vault stay associated with that profile.
+
+There are some services, e.g. [Google Apps for Work][], where we have _individual_ credentials as well as company ones. It doesn't seem appropriate to store the individual credentials in the shared company vault, so I've been storing them in my personal 1Password vault. I've noticed a few times recently when I've got them muddled up with my personal credentials for the same service. This situation can be further confused when we have such individual accounts on a client's domain. I'm thinking of setting up a _third_ 1Password vault which will contain my GFR-related individual credentials.
+
+## Notes
+
+* Even using these solutions, sharing a single account for a service can be still be problematic. For example you often have to enter personal details for an individual. We usually try to avoid entering genuinely personal data, but this can be problematic, especially for things like name or phone number. We don't have a perfect solution for this, but we do have some ideas. Watch this space!
+
+* In order to improve security, we've setup [multi-factor authentication][] for a number of services where we have multiple users on a single account, but doing this for a shared account would be prohibitively restrictive.
+
+* We recently decided to ditch our Dropbox account and to aggregate all our documents in Google Drive and we plan to move our 1Password keychain over sometime soon.
+
+
+[GFR]: /
+[Apple keychain]: http://en.wikipedia.org/wiki/Keychain_(Apple)
+[Dropbox]: https://www.dropbox.com/
+[Triple DES]: http://en.wikipedia.org/wiki/Triple_DES
+[1Password]: https://agilebits.com/onepassword
+[multiple vaults functionality]: https://learn2.agilebits.com/1Password4/Mac/en/whats-new.html#multiple-vaults
+[Google Apps for Work]: http://www.google.com/enterprise/apps/business/
+[muliple Chrome profiles]: https://support.google.com/chrome/answer/2364824?hl=en-GB
+[multi-factor authentication]: http://en.wikipedia.org/wiki/Multi-factor_authentication
+
+
+:render_as: Blog
+:kind: draft
+:is_page: true
+:written_with: Kramdown
+:author: james-mead
+:created_at: 2012-09-22 16:35:00 +01:00
+:updated_at: 2012-09-22 16:35:00 +01:00
+:page_title: Sharing Credentials
