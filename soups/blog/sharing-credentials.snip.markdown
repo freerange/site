@@ -45,7 +45,7 @@ There are some services, e.g. [Google Apps for Work][], where we have _individua
 [1Password]: https://agilebits.com/onepassword
 [multiple vaults functionality]: https://learn2.agilebits.com/1Password4/Mac/en/whats-new.html#multiple-vaults
 [Google Apps for Work]: http://www.google.com/enterprise/apps/business/
-[muliple Chrome profiles]: https://support.google.com/chrome/answer/2364824?hl=en-GB
+[multiple Chrome profiles]: https://support.google.com/chrome/answer/2364824?hl=en-GB
 [multi-factor authentication]: http://en.wikipedia.org/wiki/Multi-factor_authentication
 
 
