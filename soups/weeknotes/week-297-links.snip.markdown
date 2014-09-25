@@ -1,0 +1,31 @@
+Week 297 - Interesting links
+============================
+
+### [Commercial Contracts: Guarantees, commitments and risks](http://www.energizedwork.com/weblog/2014/09/commercial-contracts-guarantees-commitments-risks)
+
+I agree with most of the sentiments in this article and I'm interested in learning more about how [Energized Work](http://www.energizedwork.com/) have put the idea of _committing to outcomes in client contracts_ into practice. {by james-mead}
+
+
+### [Investment rats](http://www.enlightenmenteconomics.com/blog/index.php/2014/09/investment-rats/)
+
+I love the fact that Michael Marcovici managed to train rats to "outperform some of the world's leading human fund managers". {by james-mead}
+
+
+### [Why BDD works solo, and why that matters for everyone](http://kickstartacademy.io/blog/2014-08-04-why-bdd-works-solo-and-why-that-matters-for-everyone)
+
+I'm sure that many of the reasons I'm not keen on using [Cucumber](http://cukes.info/) stem from the difficulty of developing a shared understanding of how to write and organise features and scenarios when working on a multi-person developer team. So I can definitely see why using Cucumber would be a lot less painful when working on a one-man project. {by james-mead}
+
+
+### [Radiolab](http://www.radiolab.org/)
+
+Both [Chris](/chris-roos) and [Amy](https://twitter.com/amyeee) have recommended the Radiolab podcast, so although I've never really got into listening to podcasts, I plan to give it a go. {by james-mead}
+
+
+:render_as: Blog
+:kind: draft
+:is_page: true
+:written_with: Kramdown
+:author: james-mead
+:created_at: 2014-09-25 15:23:00 +00:00
+:updated_at: 2014-09-25 15:23:00 +00:00
+:page_title: Week 297 - Interesting links
