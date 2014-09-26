@@ -9,7 +9,7 @@ This leaves us with a problem: how can we share credentials for each of these se
 
 ## Early days
 
-In the early days of [GFR][] when we didn't have many of these services, we tended to use a number of well-known passwords. As we used more and more services, this tactic started becoming a significant security risk and we decided to look for an alternative solution.
+In the early days of [GFR][] we used a shared text file zipped with a password. Also, given that at this point we didn't have many services to secure, we tended to use a number of well-known passwords. As we used more and more services, this tactic started becoming a significant security risk and we decided to look for an alternative solution.
 
 ## Keychain and Dropbox
 
@@ -17,7 +17,7 @@ I can't remember what else we considered, but in the end we decided to use an [A
 
 There is obviously some risk in trusting all our company credentials to a cloud service like Dropbox, but we hope that this is somewhat mitigated by the fact that the keychain file is encrypted using [Triple DES][].
 
-Although this solution served us well for a number of years, it didn't offer integration with any browsers. Although the built-in password management functionality in Safari and Chrome did store credentials in the default "login" keychain, there didn't seem to be a way to have them use multiple keychains.
+Although this solution served us well for a number of years, it didn't offer integration with any browsers. Although the built-in password management functionality in Safari and Chrome does store credentials in the default "login" keychain, there didn't seem to be a way to have them use multiple keychains.
 
 Most of us were already using the excellent [1Password][] application and typically we'd look up the credentials for a given service in the shared company keychain and then save them in our personal 1Password keychains. This was less than ideal, both from a user experience point of view and a security point of view.
 
@@ -29,13 +29,15 @@ I tend to use [multiple Chrome profiles][] to separate my personal and work brow
 
 There are some services, e.g. [Google Apps for Work][], where we have _individual_ credentials as well as company ones. It doesn't seem appropriate to store the individual credentials in the shared company vault, so I've been storing them in my personal 1Password vault. I've noticed a few times recently when I've got them muddled up with my personal credentials for the same service. This situation can be further confused when we have such individual accounts on a client's domain. I'm thinking of setting up a _third_ 1Password vault which will contain my GFR-related individual credentials.
 
-## Notes
+## Problems
 
 * Even using these solutions, sharing a single account for a service can be still be problematic. For example you often have to enter personal details for an individual. We usually try to avoid entering genuinely personal data, but this can be problematic, especially for things like name or phone number. We don't have a perfect solution for this, but we do have some ideas. Watch this space!
 
-* In order to improve security, we've setup [multi-factor authentication][] for a number of services where we have multiple users on a single account, but doing this for a shared account would be prohibitively restrictive.
+* In order to improve security, we've setup [multi-factor authentication][] for a number of services where we have multiple users on a single account, but doing this for a shared account would be prohibitively restrictive. However, this hasn't yet become a significant problem for us.
 
-* We recently decided to ditch our Dropbox account and to aggregate all our documents in Google Drive and we plan to move our 1Password keychain over sometime soon.
+We'd love to hear from you if you've come up with a better way to do this kind of thing.
+
+-- James.
 
 
 [GFR]: /
@@ -54,6 +56,6 @@ There are some services, e.g. [Google Apps for Work][], where we have _individua
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2012-09-22 16:35:00 +01:00
-:updated_at: 2012-09-22 16:35:00 +01:00
+:created_at: 2012-09-26 11:48:00 +01:00
+:updated_at: 2012-09-26 11:48:00 +01:00
 :page_title: Sharing Credentials
