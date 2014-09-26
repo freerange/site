@@ -23,23 +23,23 @@ Both [Chris](/chris-roos) and [Amy](https://twitter.com/amyeee) have recommended
 
 ### [Known - Indieweb publishing platform](https://gigaom.com/2014/09/11/indieweb-advocates-launch-known-so-bloggers-can-be-social-and-still-control-their-content/)
 
-I've been following Known's development for a while so it was good to see them announce a beta version last week. You can read more in the [Known blog post][] and even listen to Known's creators on [This Week in Google 266][twig-266]. {by chris-roos}
-
-[Known blog post]: (http://stream.withknown.com/2014/announcing-our-first-beta-release---known-06---named-1)
-[twig-266]: http://twit.tv/show/this-week-in-google/266
+I've been following Known's development for a while so it was good to see them announce a beta version last week. You can read more in the [blog post announcing Known][] and even listen to Known's creators on [This Week in Google 266][twig-266]. {by chris-roos}
 
 
 ### [IndieWebCamp UK 2014](http://tantek.com/2014/259/b1/indiewebcampuk-hack-day-https-webactions)
 
 Tantek has done a great job of documenting the achievements of IndieWebCamp UK. It's interesting to see how many people took the time to set-up [https][] for their websites. The use of SSL certainly seems to be gaining traction at the moment. {by chris-roos}
 
+
+[blog post announcing Known]: http://stream.withknown.com/2014/announcing-our-first-beta-release---known-06---named-1
+[twig-266]: http://twit.tv/show/this-week-in-google/266
 [https]: https://indiewebcamp.com/https
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-09-25 15:23:00 +00:00
-:updated_at: 2014-09-25 15:23:00 +00:00
+:created_at: 2014-09-26 12:34:00 +00:00
+:updated_at: 2014-09-26 12:34:00 +00:00
 :page_title: Week 297 - Interesting links
