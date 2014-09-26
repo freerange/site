@@ -11,7 +11,7 @@ This leaves us with a problem: how can we share credentials for each of these se
 
 ## Early days
 
-In the early days of [GFR][] we used a shared text file zipped with a password. Also, given that at this point we didn't have many services to secure, we tended to use a number of well-known passwords. As we used more and more services, this tactic started becoming a significant security risk and we decided to look for an alternative solution.
+In the early days we used a shared text file zipped with a password. Also, given that at this point we didn't have many services to secure, we tended to use a number of well-known passwords. As we used more and more services, this tactic started becoming a significant security risk and we decided to look for an alternative solution.
 
 ## Keychain and Dropbox
 
@@ -42,7 +42,6 @@ We'd love to hear from you if you've come up with a better way to do this kind o
 -- James.
 
 
-[GFR]: /
 [Apple keychain]: http://en.wikipedia.org/wiki/Keychain_(Apple)
 [Dropbox]: https://www.dropbox.com/
 [Triple DES]: http://en.wikipedia.org/wiki/Triple_DES
