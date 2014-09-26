@@ -61,10 +61,10 @@ We'd love to hear from you if you've come up with a better way to do this kind o
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2012-09-26 11:48:00 +01:00
-:updated_at: 2012-09-26 11:48:00 +01:00
+:created_at: 2012-09-26 12:13:00 +01:00
+:updated_at: 2012-09-26 12:13:00 +01:00
 :page_title: Sharing Credentials
