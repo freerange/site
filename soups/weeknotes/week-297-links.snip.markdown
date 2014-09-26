@@ -21,6 +21,20 @@ I'm sure that many of the reasons I'm not keen on using [Cucumber](http://cukes.
 Both [Chris](/chris-roos) and [Amy](https://twitter.com/amyeee) have recommended the Radiolab podcast, so although I've never really got into listening to podcasts, I plan to give it a go. {by james-mead}
 
 
+### [Known - Indieweb publishing platform](https://gigaom.com/2014/09/11/indieweb-advocates-launch-known-so-bloggers-can-be-social-and-still-control-their-content/)
+
+I've been following Known's development for a while so it was good to see them announce a beta version last week. You can read more in the [Known blog post][] and even listen to Known's creators on [This Week in Google 266][twig-266]. {by chris-roos}
+
+[Known blog post]: (http://stream.withknown.com/2014/announcing-our-first-beta-release---known-06---named-1)
+[twig-266]: http://twit.tv/show/this-week-in-google/266
+
+
+### [IndieWebCamp UK 2014](http://tantek.com/2014/259/b1/indiewebcampuk-hack-day-https-webactions)
+
+Tantek has done a great job of documenting the achievements of IndieWebCamp UK. It's interesting to see how many people took the time to set-up [https][] for their websites. The use of SSL certainly seems to be gaining traction at the moment. {by chris-roos}
+
+[https]: https://indiewebcamp.com/https
+
 :render_as: Blog
 :kind: draft
 :is_page: true
