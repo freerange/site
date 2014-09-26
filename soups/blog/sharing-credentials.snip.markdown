@@ -3,7 +3,9 @@ Sharing Credentials
 
 The idea that _everyone_ has joint responsibility for _everything_ is deeply engrained in the ethos of our company. One of the main benefits of this approach is that we're all aware of the state of the company, how the company operates, what the company is planning, etc. It also means we're not dependent on any one person for getting things done.
 
-We also strive to run a paperless office and in doing so we make use of many online services. However, the combination of these two approaches means that we all need access to these online services. While a few of these services allow you to have multiple users for a single account, or at least some notion of an organisation, the majority of them do not. There are also a few services that do allow multiple users per account, but only as part of an expensive monthly plan.
+We also strive to run a paperless office and in doing so we make use of many online services. However, the combination of these two approaches means that we all need access to these online services.
+
+While a few of these services allow you to have multiple users for a single account, or at least some notion of an organisation, the majority of them do not. There are also a few services that do allow multiple users per account, but only as part of an expensive monthly plan.
 
 This leaves us with a problem: how can we share credentials for each of these services?
 
