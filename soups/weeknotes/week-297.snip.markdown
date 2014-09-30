@@ -47,10 +47,10 @@ Ciao.
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-09-30 16:26:00 +01:00
-:updated_at: 2014-09-30 16:26:00 +01:00
+:created_at: 2014-09-30 17:35:00 +01:00
+:updated_at: 2014-09-30 17:35:00 +01:00
 :page_title: Week 297
