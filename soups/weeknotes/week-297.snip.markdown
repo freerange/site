@@ -23,7 +23,7 @@ The club has been re-branded as the [London Computation Club][] and is currently
 
 ## Alumni
 
-On Wednesday, we spent an enjoyable day hanging out with inimitable [Jason Cale][]. It was really interesting to hear about his involvement in the [Lost My Name][] personalised book project and what he's been up to more recently at [Art.com Labs][] - some really impressive stuff!
+On Wednesday, we spent an enjoyable day hanging out with the inimitable [Jason Cale][]. It was really interesting to hear about his involvement in the [Lost My Name][] personalised book project and what he's been up to more recently at [Art.com Labs][] - some really impressive stuff!
 
 That evening we managed to meet up with a few other friends including [James Adam][], newly arrived back from Austin, Texas. It was great to catch up over a beer or two and we look forward to hearing more about his [exciting][] plans.
 
