@@ -14,9 +14,31 @@ To reduce the risk of losing potentially important information should I lose acc
 
 This new version of Takeout allows you store the backup in Google Drive itself. Assuming you're running the Drive Client then the process of storing backups of all your Drive data just became a little bit easier. {by chris-roos}
 
+
+### [Refactoring Ruby with Monads - Tom Stuart](https://www.youtube.com/watch?v=J1jYlPtkrqQ)
+
+I struggled a bit with the Barcelona Ruby Conference superhero (?) background, but this 30-minute video is well worth a watch. [Tom][Tom Stuart] carefully walks you through a bunch of easy to understand Ruby code and then explains how it turns out you've just been using monads without realising it. Neat. {by james-mead}
+
+
+### [The problem with estimates part 2 - all cost, no value](http://www.energizedwork.com/weblog/2014/09/the-problem-with-estimates-all-cost-no-value)
+
+This article talks about the asymmetry in cost/value estimation i.e. most teams put a lot of effort into producing estimates of the cost of a feature, but very little into estimating the value of that feature. {by james-mead}
+
+
+### [CDN acceptance testing for GOV.UK](https://gdstechnology.blog.gov.uk/2014/10/01/cdn-acceptance-testing/)
+
+This detailed is an excellent detailed write-up of how GDS wrote a set of automated tests around their CDN with a view to replacing it. I particularly like the fact that in doing so they have accurately characterised the behaviour of the existing CDN and even uncovered some bugs. {by james-mead}
+
+
+### [Display #Anchors Chrome extension](https://chrome.google.com/webstore/detail/display-anchors/poahndpaaanbpbeafbkploiobpiiieko/related)
+
+I usually try to link to a specific section/paragraph on a page if I can. In fact one of my pet hates is HTML pages containing structured text that have *no* in-page anchors. This plugin doesn't address my pet hate, but it does make it much easier to _find_ any existing in-page anchors. {by james-mead}
+
+
 [Google Drive Client]: https://tools.google.com/dlpage/drive
 [Google Takeout]: https://www.google.com/settings/takeout
 [Pow]: http://pow.cx/
+[Tom Stuart]: http://codon.com/
 
 :render_as: Blog
 :kind: draft
