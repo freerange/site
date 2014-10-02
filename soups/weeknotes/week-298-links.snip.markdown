@@ -41,10 +41,10 @@ I usually try to link to a specific section/paragraph on a page if I can. In fac
 [Tom Stuart]: http://codon.com/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
-:author: chris-roos
-:created_at: 2014-09-30 17:31:00 +00:00
-:updated_at: 2014-09-30 17:31:00 +00:00
+:author: james-mead
+:created_at: 2014-10-03 09:00:00 +00:00
+:updated_at: 2014-10-03 09:00:00 +00:00
 :page_title: Week 298 - Interesting links
