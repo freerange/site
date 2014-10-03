@@ -45,6 +45,6 @@ I usually try to link to a specific section/paragraph on a page if I can. In fac
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-10-03 09:00:00 +00:00
-:updated_at: 2014-10-03 09:00:00 +00:00
+:created_at: 2014-10-03 09:52:00 +00:00
+:updated_at: 2014-10-03 09:52:00 +00:00
 :page_title: Week 298 - Interesting links
