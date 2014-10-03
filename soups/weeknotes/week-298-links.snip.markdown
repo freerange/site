@@ -17,7 +17,7 @@ This new version of Takeout allows you store the backup in Google Drive itself. 
 
 ### [Refactoring Ruby with Monads - Tom Stuart](https://www.youtube.com/watch?v=J1jYlPtkrqQ)
 
-I struggled a bit with the Barcelona Ruby Conference superhero (?) background, but this 30-minute video is well worth a watch. [Tom][Tom Stuart] carefully walks you through a bunch of easy to understand Ruby code and then explains how it turns out you've just been using monads without realising it. Neat. {by james-mead}
+I struggled a bit with the Barcelona Ruby Conference superhero (?) background, but this 30-minute video is well worth a watch. [Tom][Tom Stuart] carefully walks you through a bunch of easy to understand Ruby code and then explains how it turns out you've just been using monads without realising it. Sneaky, but neat! {by james-mead}
 
 
 ### [The problem with estimates part 2 - all cost, no value](http://www.energizedwork.com/weblog/2014/09/the-problem-with-estimates-all-cost-no-value)
