@@ -27,7 +27,7 @@ This article talks about the asymmetry in cost/value estimation i.e. most teams 
 
 ### [CDN acceptance testing for GOV.UK](https://gdstechnology.blog.gov.uk/2014/10/01/cdn-acceptance-testing/)
 
-This detailed is an excellent detailed write-up of how GDS wrote a set of automated tests around their CDN with a view to replacing it. I particularly like the fact that in doing so they have accurately characterised the behaviour of the existing CDN and even uncovered some bugs. {by james-mead}
+This is an excellent detailed write-up of how GDS wrote a set of automated tests around their CDN with a view to replacing it. I particularly like the fact that in doing so they have accurately characterised the behaviour of the existing CDN and even uncovered some bugs. {by james-mead}
 
 
 ### [Display #Anchors Chrome extension](https://chrome.google.com/webstore/detail/display-anchors/poahndpaaanbpbeafbkploiobpiiieko/related)
