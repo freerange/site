@@ -23,11 +23,14 @@ We continued to improve the documentation around our FreeAgent accounting task. 
 
 ## Office admin
 
-Following a fire safety review, we had Green Workforce in to tighten the self-closing mechanisms on our fire doors. While the doors certainly do now fully close on their own, they do so with enough force to do some damage should you get your fingers caught!
+Following a fire safety review, we had [Green Workforce][] in to tighten the self-closing mechanisms on our fire doors. While the doors certainly do now fully close on their own, they do so with enough force to do some damage should you get your fingers caught!
 
 Over and out.
 
 -- Chris
+
+
+[Green Workforce]: http://www.greenworkforce.co.uk/
 
 :render_as: Blog
 :kind: blog
