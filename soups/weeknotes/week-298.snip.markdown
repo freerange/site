@@ -37,6 +37,6 @@ Over and out.
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-10-07 15:30:00 +01:00
-:updated_at: 2014-10-07 15:30:00 +01:00
+:created_at: 2014-10-07 16:00:00 +01:00
+:updated_at: 2014-10-07 16:00:00 +01:00
 :page_title: Week 298
