@@ -1,7 +1,7 @@
 Week 298
 ========
 
-I think we had a pretty productive week 298. We managed to get quite a bit done on the video project, tick off quite a few admin tasks and continue to work on some of the other larger GFR related projects we've got ticking along.
+I think we had a pretty productive week 298. We managed to get quite a bit done on the video project, tick off quite a few admin tasks and continue to work on some of the other longer-term GFR-related projects we've got ticking along.
 
 ## Video project
 
