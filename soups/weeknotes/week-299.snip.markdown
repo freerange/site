@@ -5,7 +5,7 @@ I'm switching back to the good ol' bullet points this week. Paragraphs are hard.
 
 * We spent the majority of the week continuing to work on the video project. We were hoping to be able to send out invites by the end of the week but didn't quite get there. It shouldn't be too long now though.
 
-* We hosted our sixth Show and Tell on Wednesday. We had a few people drop out at the last minute but we still had a good number of people willing to share what they'd been up to. We'll have some notes written up about this in no time.
+* We hosted our [sixth Show and Tell][] on Wednesday. We had a few people drop out at the last minute but we still had a good number of people willing to share what they'd been up to.
 
 * I used the excuse of writing the weeknotes to create a little script ([trello-archived-cards][]) that lists the Trello cards we've marked as complete within a given date range.
 
@@ -23,6 +23,7 @@ I'm switching back to the good ol' bullet points this week. Paragraphs are hard.
 
 * We got rid of the remaining office furniture that we'd advertised. We are Gumtree kings.
 
+[sixth Show and Tell]: /show-and-tell-6
 [Errbit]: https://github.com/errbit/errbit
 [Harmonia]: https://harmonia.io/
 [Hookline]: http://hookline.tv/
@@ -37,6 +38,6 @@ I'm switching back to the good ol' bullet points this week. Paragraphs are hard.
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-10-13 16:30:00 +01:00
-:updated_at: 2014-10-13 16:30:00 +01:00
+:created_at: 2014-10-13 17:00:00 +01:00
+:updated_at: 2014-10-13 17:00:00 +01:00
 :page_title: Week 299
