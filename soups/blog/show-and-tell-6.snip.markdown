@@ -59,6 +59,6 @@ Anyway, that's all for this month!
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-10-13 16:46:00 +01:00
-:updated_at: 2014-10-13 16:46:00 +01:00
+:created_at: 2014-10-13 16:57:00 +01:00
+:updated_at: 2014-10-13 16:57:00 +01:00
 :page_title: Show and Tell 6
