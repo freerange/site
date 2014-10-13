@@ -11,7 +11,7 @@ I'm switching back to the good ol' bullet points this week. Paragraphs are hard.
 
 * We continued our business development efforts, going through our Sales Pipeline and sending out some emails to see what work might be available.
 
-* We spent some time going through our basic cashflow calculator. Although we never feel 100% sure in these calculations, we're fairly confident that we're not going to run out of money just yet...
+* We spent some time going through our basic cashflow calculator. Although we never feel 100% sure in these calculations, we're now more confident that we're not going to run out of money just yet...
 
 * James updated our Harmonia/Trello [webhooks app][] to add [Harmonia][] task assignments to the top of our Todo list in Trello. Convention leads us to prioritise the Hamonia tasks anyway and we think this'll make that convention more explicit.
 
