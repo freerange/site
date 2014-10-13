@@ -9,7 +9,7 @@ First up, [Chris][] & I showed people where we'd got to with our video project. 
 
 [Tom S][] has been invited to make a guest screencast for [Ruby Tapas][]. A while ago he [wrote some notes][Notes on Counting Tree Nodes] on [counting tree nodes][]. James Adam was sufficiently interested to [expand on these notes][Notes on Notes on Counting Tree Nodes] and this in turn encouraged Tom that some exploration of [Enumerators][] might be a good subject for a screencast.
 
-Tom gave us a taster of the screencast using `vim` on the projector. It was interesting to see him using `xmpfilter` (part of [rcodetools][]) to display the output of small snippets of Ruby code. As an aside, Tom also mentioned a [Ruby-backed implementation][IRuby Example] of the [IPython Notebook environment][].
+Tom gave us a taster of the screencast using `vim` on the projector. It was interesting to see him using `xmpfilter` (part of [rcodetools][]) to display the output of small snippets of Ruby code. As an aside, [Ben G][] also mentioned a [Ruby-backed implementation][IRuby Example] of the [IPython Notebook environment][].
 
 As I mentioned a couple of weeks back, the [Little Schemer Book Club has been re-branded][LSBC Rebranded] as the London Computation Club. While we've been working our way through the [Little Schemer][] members have published various bits and pieces on GitHub, in Gists and on the mailing list. Tom decided it would be nice to try to bring all these disparate bits of content together and so he's started building a [club website][London Computation Club].
 
@@ -36,6 +36,7 @@ Anyway, that's all for this month!
 [Notes on Notes on Counting Tree Nodes]: http://interblah.net/notes-on-notes-on-counting-tree-nodes
 [Enumerators]: http://www.ruby-doc.org/core-2.1.3/Enumerator.html
 [rcodetools]: https://rubygems.org/gems/rcodetools
+[Ben G]: https://twitter.com/beng
 [IPython Notebook environment]: http://ipython.org/notebook.html
 [IRuby Example]: http://nbviewer.ipython.org/github/minad/iruby/blob/master/IRuby-Example.ipynb
 [LSBC Rebranded]: /week-297#little-schemer-book-club
