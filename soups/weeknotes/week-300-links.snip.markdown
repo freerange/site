@@ -51,11 +51,12 @@ I don't generally play games but got a little bit addicted to this web based ove
 
 I haven't tried it but really like the look of this app. I collect quite a bit of data about myself but haven't yet taken the step toward interpreting it; something that it looks like this app does really well. {by chris-roos}
 
+
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-10-15 12:43:00 +00:00
-:updated_at: 2014-10-15 12:43:00 +00:00
+:created_at: 2014-10-15 14:39:00 +00:00
+:updated_at: 2014-10-15 14:39:00 +00:00
 :page_title: Week 300 - Interesting links
