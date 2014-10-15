@@ -35,6 +35,21 @@ The idea of music as test/code to be shared and collaborated on via GitHub is al
 Perhaps we can combine this with our CubeX 3D printer (on loan from [Makie](http://mymakie.com/)) to make a [Star Trek-style replicator](http://en.wikipedia.org/wiki/Replicator_(Star_Trek)). {by james-mead}
 
 
+### [Bomb Sight](http://bombsight.org/)
+
+> Explore the London Blitz during 7th October 1940 to 6th June 1941
+
+This is an incredible map of bombs dropped on London during the Blitz. I can't quite get over how many there were and the area they covered. Seeing that bombs were dropped close to our office, and to my flat, somehow makes it all the more real. {by chris-roos}
+
+
+### [Free Rider HD](http://www.freeriderhd.com/)
+
+I don't generally play games but got a little bit addicted to this web based over the weekend. I love the simplicity, the huge number of tracks and the way the little rider bounces around like a rag doll when you crash :-) {by chris-roos}
+
+
+### [Exist - Activity tracking and insights](https://exist.io/)
+
+I haven't tried it but really like the look of this app. I collect quite a bit of data about myself but haven't yet taken the step toward interpreting it; something that it looks like this app does really well. {by chris-roos}
 
 :render_as: Blog
 :kind: draft
