@@ -49,7 +49,7 @@ We had hoped to have been to ask some people to test our video service by the en
 
 * We hosted the [London Computation Club][] meeting on Tuesday evening. Take a look at [Chris Lowis's writeup][] if you want to catch up on what we covered.
 
-* [Tom Close][], [James A][], [Tom W][], Tom T, Mike and [Hookline][] all made appearances in the office throughout the week. We certainly enjoy having a variety of people in the office.
+* [Tom Close][], [James A][], [Tom W][], [Tom T][], Mike and [Hookline][] all made appearances in the office throughout the week. We certainly enjoy having a variety of people in the office.
 
 * [Pete H][] popped by for a chat after a nearby meeting on Tuesday. We haven't seen Pete for a while so it was good to catch up.
 
