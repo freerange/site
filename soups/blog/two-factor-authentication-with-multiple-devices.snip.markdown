@@ -20,10 +20,10 @@ This seems to be working really nicely and we're adopting the same tactics with 
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-10-20 11:58:00 +01:00
-:updated_at: 2014-10-20 11:58:00 +01:00
+:created_at: 2014-10-20 14:48:00 +01:00
+:updated_at: 2014-10-20 14:48:00 +01:00
 :page_title: Two-factor Authentication with Multiple Devices
