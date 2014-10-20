@@ -31,7 +31,7 @@ We had hoped to have been to ask some people to test our video service by the en
 
 * We had an initial go at organising our shared files in Google Drive, having recently moved (almost everything) from Dropbox to Google Drive. We've definitely improved the situation but we know there's more we can do here.
 
-* We set-up 2FA on our joint Go Free Range Dropbox account having got slightly worried about the [reputed hacking of Dropbox][].
+* We [set-up 2FA][two-factor-authentication-with-multiple-devices] on our joint Go Free Range Dropbox account having got slightly worried about the [reputed hacking of Dropbox][].
 
 * James configured [SPF][] for gofreerange.com. Apparently it looks as though we'd tried to set it up in the past but hadn't got the configuration quite right.
 
@@ -73,6 +73,7 @@ Have good weeks y'all.
 [Tom Close]: https://www.linkedin.com/in/tomclose
 [Tom T]: http://tomtaylor.co.uk/
 [Tom W]: http://tomafro.net/
+[two-factor-authentication-with-multiple-devices]: /two-factor-authentication-with-multiple-devices
 
 :render_as: Blog
 :kind: blog
