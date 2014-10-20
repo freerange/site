@@ -13,7 +13,7 @@ We had hoped to have been to ask some people to test our video service by the en
 
 * Changed the bitrate of our ETS Presets. Using 'auto' rather than a fixed, and quite high, bitrate results in much smaller file sizes with no noticeable change in quality.
 
-* Changed the bucket names we're using. We're including random names in the name to reduce the change of a conflict.
+* Changed the bucket names we're using. We're including random names in the name to reduce the chance of a conflict.
 
 * Changed the length of the folder name we're storing output videos in. This appears in the URL so the shorter the better.
 
