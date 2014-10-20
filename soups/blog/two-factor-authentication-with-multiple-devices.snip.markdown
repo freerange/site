@@ -7,7 +7,7 @@ As I [mentioned][Sharing Credentials - Problems], we've held off setting up [2FA
 
 The way we did it was to go through the [normal procedure for setting up two-step verification][Dropbox 2-step verification instructions]. We chose to use the [Google Authenticator][] app on our phones and (here's the "clever" bit), we _both_ scanned the QR code with our mobile phones. We then confirmed that both our phones were generating the same security codes at the same time.
 
-This seems to be working really nicely and we're adopting the same tactics with a number of our other shared accounts.
+This seems to be working really nicely and we're adopting the same tactics with a number of our other shared accounts. Perhaps this isn't news to you, but hopefully it might help someone!
 
 -- James.
 
