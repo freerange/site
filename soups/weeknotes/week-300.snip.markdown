@@ -11,17 +11,17 @@ We had hoped to have been to ask some people to test our video service by the en
 
 * Added a simple way of inviting people to sign up.
 
-* Changed the bitrate of our ETS Presets. Using 'auto' rather than a fixed, and quite high, bitrate results in much smaller file sizes with no noticeable change in quality.
+* Changed the bitrate of our ETS Presets. Using the "auto" setting rather than a fixed, and quite high, bitrate results in much smaller file sizes with no noticeable change in quality.
 
 * Changed the bucket names we're using. We're including random characters in the name to reduce the chance of a conflict.
 
-* Changed the length of the folder name we're storing output videos in. This appears in the URL so the shorter the better.
+* Reduced the length of the folder name in which we're storing output videos. This appears in the URL so the shorter the better.
 
 * Made the video.js player responsive.
 
-* Started using SES instead of Sendmail to send out emails from the service.
+* Started using Amazon SES instead of Sendmail to send out emails from the service.
 
-* Added an SD and HD version of the video page.
+* Added SD and HD versions of the video page.
 
 * Made some small changes to the workflow that should hopefully help people when they first sign up. We know that there's plenty more we can do here but we're trying to strike a balance between something that's too basic and something flashy that takes us a long time to implement.
 
