@@ -80,6 +80,6 @@ Have good weeks y'all.
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-10-20 15:00:00 +01:00
-:updated_at: 2014-10-20 15:00:00 +01:00
+:created_at: 2014-10-20 16:55:00 +01:00
+:updated_at: 2014-10-20 16:55:00 +01:00
 :page_title: Week 300
