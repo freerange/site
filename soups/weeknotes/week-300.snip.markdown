@@ -31,7 +31,7 @@ We had hoped to have been to ask some people to test our video service by the en
 
 * We had an initial go at organising our shared files in Google Drive, having recently moved (almost everything) from Dropbox to Google Drive. We've definitely improved the situation but we know there's more we can do here.
 
-* We [set-up 2FA][two-factor-authentication-with-multiple-devices] on our joint Go Free Range Dropbox account having got slightly worried about the [reputed hacking of Dropbox][].
+* We [set-up 2FA][two-factor-authentication-with-multiple-devices] on our joint Go Free Range Dropbox account having got slightly worried about the [supposed hacking of Dropbox][].
 
 * James configured [SPF][] for gofreerange.com. Apparently it looks as though we'd tried to set it up in the past but hadn't got the configuration quite right.
 
@@ -66,7 +66,7 @@ Have good weeks y'all.
 [London Computation Club]: http://london.computation.club/
 [LRUG on Monday]: http://lrug.org/meetings/2014/10/01/october-2014-meeting/
 [Pete H]: https://twitter.com/yahoo_pete
-[reputed hacking of Dropbox]: https://blog.dropbox.com/2014/10/dropbox-wasnt-hacked/
+[supposed hacking of Dropbox]: https://blog.dropbox.com/2014/10/dropbox-wasnt-hacked/
 [Sonic Pi presentation]: https://skillsmatter.com/skillscasts/5809-live-coding-in-the-classroom
 [SPF]: http://en.wikipedia.org/wiki/Sender_Policy_Framework
 [The Old King's Head]: http://oldkingshead.london/
