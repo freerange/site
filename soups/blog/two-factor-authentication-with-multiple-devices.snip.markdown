@@ -1,5 +1,5 @@
-Sharing Credentials with Two-factor Authentication
-==================================================
+Two-factor Authentication with Multiple Devices
+===============================================
 
 As a bit of a follow-up to our recent [blog post on Sharing Credentials][Sharing Credentials], we thought we'd tell you of a little trick we've come across.
 
@@ -26,4 +26,4 @@ This seems to be working really nicely and we're adopting the same tactics with 
 :author: james-mead
 :created_at: 2014-10-20 11:58:00 +01:00
 :updated_at: 2014-10-20 11:58:00 +01:00
-:page_title: Sharing Credentials with Two-factor Authentication
+:page_title: Two-factor Authentication with Multiple Devices
