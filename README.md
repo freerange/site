@@ -72,6 +72,12 @@ The flip side is that if you want to keep a post as a 'draft', just omit that pr
 
 If you're not sure, just look at some of the other snips in `soup/blog`.
 
+## Including a snip in the sitemap
+
+The site map is generated on the fly and includes any page with:
+
+    :is_page: true
+
 ## Updating CSS
 
 The `*.css` files are generated from `*.less` files in `public/stylesheets`. You can regenerate a specific file using a command like:
