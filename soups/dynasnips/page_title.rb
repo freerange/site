@@ -3,7 +3,7 @@ require 'vanilla/dynasnip'
 class PageTitle < Dynasnip
 
   def handle(default = nil)
-    app.request.snip.page_title || default
+    app.request.snip && app.request.snip.page_title || default
   end
 
   self
