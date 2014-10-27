@@ -35,10 +35,10 @@ Anyway, that's all for now.
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-10-27 16:27:00 +01:00
-:updated_at: 2014-10-27 16:27:00 +01:00
+:created_at: 2014-10-27 17:07:00 +01:00
+:updated_at: 2014-10-27 17:07:00 +01:00
 :page_title: Week 301
