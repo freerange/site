@@ -28,6 +28,36 @@ I can't imagine this was an easy decision to make but it certainly feels like th
 I noticed this new Google Plus share button a couple of days ago and had to do a double take as it looks very similar to a [FutureLearn](https://www.futurelearn.com) plus (+) icon. {by chris-roos}
 
 
+### [Mozilla Science Lab](http://collaborate.mozillascience.org/)
+
+The bits of academia with which I've come into contact didn't seem to collaborate much on software. Hopefully this can help. Via [Tom Hall](http://www.thattommyhall.com/). {by james-mead}
+
+
+### [Info pages: publishing data about user needs and metrics](https://insidegovuk.blog.gov.uk/2014/10/29/info-pages-publishing-data-about-user-needs-and-metrics/)
+
+It's brilliant that GOV.UK is opening up data like this. {by james-mead}
+
+
+### [oathtool](http://www.nongnu.org/oath-toolkit/oathtool.1.html)
+
+I installed this on my laptop today and successfully used it to generate [TOTP](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) codes for our Amazon Web Services account. It's nice not to have to rely on the Google Authenticator app on my mobile phone. {by james-mead}
+
+
+### [From NAND to Tetris](http://www.nand2tetris.org/)
+
+I'm looking forward to working through this book with other members of the [London Computation Club](http://london.computation.club/). {by james-mead}
+
+
+### [The Web, Annotated](https://hypothes.is/)
+
+This is an ambitious-sounding project to develop an open collaborative platform for annotating the web using the excellent [Annotator project](http://okfnlabs.org/projects/annotator/). {by james-mead}
+
+
+### [AdNauseam](http://dhowe.github.io/AdNauseam/)
+
+This made me laugh. It's a browser plugin that automatically clicks on *all* adverts indiscriminantly so that "as the data gathered shows an omnivorous click-stream, user profiling, targeting and surveillance becomes futile". Via [Matt Valentine-House](http://www.eightbitraptor.com/). {by james-mead}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
