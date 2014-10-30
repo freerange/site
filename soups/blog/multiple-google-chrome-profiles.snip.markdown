@@ -37,10 +37,10 @@ I'm sure this approach isn't news to most of you, but hopefully it might be usef
 [signed in to multiple Google accounts]: https://support.google.com/accounts/answer/1721977?hl=en
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-10-30 14:31:00 +01:00
-:updated_at: 2014-10-30 14:31:00 +01:00
+:created_at: 2014-10-30 17:46:00 +01:00
+:updated_at: 2014-10-30 17:46:00 +01:00
 :page_title: Multiple Google Chrome Profiles
