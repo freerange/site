@@ -59,10 +59,10 @@ This made me laugh. It's a browser plugin that automatically clicks on *all* adv
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2014-10-30 17:00:00 +00:00
-:updated_at: 2014-10-30 17:00:00 +00:00
+:created_at: 2014-10-31 17:00:00 +00:00
+:updated_at: 2014-10-31 17:00:00 +00:00
 :page_title: Week 302 - Interesting links
