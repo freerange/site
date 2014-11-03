@@ -39,7 +39,7 @@ If we can find the time, we think this is eminently doable, but it will mean we 
 
 Early in the week, we were treated to a visit from my sister and her young black labrador, Maddie. On the whole she was very well-behaved and the office emerged unscathed.
 
-On Wednesday, we had an enjoyable, if slightly soggy, monthly drinks evening where we made an attempt on the [Artillery Arms][], but we forced to retreat to the [Old Fountain Inn][] when it became obvious we weren't going to get seats.
+On Wednesday, we had an enjoyable, if slightly soggy, monthly drinks evening where we made an attempt on the [Artillery Arms][], but we were forced to retreat to the [Old Fountain Inn][] when it became obvious we weren't going to get seats.
 
 Until next time.
 
