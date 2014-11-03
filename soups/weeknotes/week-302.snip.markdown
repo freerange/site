@@ -57,10 +57,10 @@ Until next time.
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-11-03 17:09:00 +01:00
-:updated_at: 2014-11-03 17:09:00 +01:00
+:created_at: 2014-11-03 17:18:00 +01:00
+:updated_at: 2014-11-03 17:18:00 +01:00
 :page_title: Week 302
