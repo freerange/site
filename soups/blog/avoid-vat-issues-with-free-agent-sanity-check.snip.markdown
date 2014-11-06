@@ -1,6 +1,8 @@
 Avoiding VAT issues with FreeAgent Sanity Check
 ===============
 
+*UPDATE: The FreeAgent Sanity Check app is now deprecated. We now use the [FreeAgent Transaction Explainer Chrome extension](/chrome-extension-for-explaining-bank-transactions-in-freeagent) to achieve something similar.*
+
 While our main focus at {gfr} is building software, we're also running a company and that comes with its own set of chores and obligations. Wherever possible, we like to build simple tools to make sure that managing those obligations is as painless as possible. I'd like to outline one simple tool here -- the [FreeAgent Sanity Check][].
 
 
