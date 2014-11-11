@@ -56,5 +56,5 @@ A slightly later than planned overview of the things that kept us busy during we
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2014-11-07 17:00:00 +00:00
-:updated_at: 2014-11-07 17:00:00 +00:00
+:updated_at: 2014-11-11 14:00:00 +00:00
 :page_title: Week 303
