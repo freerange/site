@@ -21,6 +21,16 @@ I really like the _idea_ of being able to "type" words this fast, but I know I'm
 This article isn't particularly remarkable, but it did make me realise quite how common-place [Failure Demand][] is. Also I followed a link from the article and ended up purchasing John Seddon's new book, [The WHITEHALL Effect][]. {by james-mead}
 
 
+### [Two-Factor Authentication with Authy](https://www.authy.com/)
+
+James mentioned this back in the [links for week 288][] but I've only recently started to use it. I've added a couple of accounts and really appreciate being able to get the 2FA code from my computer rather than having to reach for my phone. {by chris-roos}
+
+
+### [Free My Data](http://freemydata.co/)
+
+The folks at [Known][] have created this useful directory containing instructions for getting your data out of some of the main social networks and websites. {by chris-roos}
+
+
 [Chaos Monkey open sourced]: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
 [Amazon Web Services]: http://aws.amazon.com/
 [GFR Video]: https://github.com/Netflix/SimianArmy
@@ -31,7 +41,8 @@ This article isn't particularly remarkable, but it did make me realise quite how
 [Makie]: https://mymakie.com/
 [Failure Demand]: http://en.wikipedia.org/wiki/Failure_demand
 [The WHITEHALL Effect]: http://www.triarchypress.net/the-whitehall-effect.html
-
+[links for week 288]: /week-228-links
+[Known]: https://withknown.com/
 
 :render_as: Blog
 :kind: draft
