@@ -22,61 +22,61 @@ I'm interested in whether any of these come as a surprise to anyone. Could you i
 
 ## Blogging and website
 
-* Publish week links - _Fortnightly_
-* Publish weeknotes - _Weekly_
-* Publish write up about Show and Tell - _Monthly_
-* Update availability on website - _Monthly_
-* Upgrade to Ruby 2.1.4 on our Linode instance - _One off_
-* Write a blog post - _Fortnightly_
+* __Publish week links__ - _Fortnightly_
+* __Publish weeknotes__ - _Weekly_
+* __Publish write up about Show and Tell__ - _Monthly_
+* __Update availability on website__ - _Monthly_
+* __Upgrade to Ruby 2.1.4 on our Linode instance__ - _One off_
+* __Write a blog post__ - _Fortnightly_
 
 ## Clients and leads
 
-* Prepare invoices - _Fortnightly - Currently paused_
-* Record our client time - _Weekly - Currently paused_
-* Update the leads spreadsheet - _Weekly_
+* __Prepare invoices__ - _Fortnightly - Currently paused_
+* __Record our client time__ - _Weekly - Currently paused_
+* __Update the leads spreadsheet__ - _Weekly_
 
 ## Digital admin
 
-* Backup our FreeAgent data - _Monthly_
-* Download Amazon AWS Invoice - _Monthly_
-* Download Campfire Invoice - _Monthly_
-* Download FreeAgent Invoice - _Annually_
-* Download GitHub Invoice - _Monthly_
-* Download Google Apps Invoice - _Monthly_
-* Download Harmonia Invoice - _Monthly_
-* Download Linode Invoice - _Monthly_
-* Download Sky Digital Invoice - _Monthly_
-* Download Typekit Invoice - _Monthly_
+* __Backup our FreeAgent data__ - _Monthly_
+* __Download Amazon AWS Invoice__ - _Monthly_
+* __Download Campfire Invoice__ - _Monthly_
+* __Download FreeAgent Invoice__ - _Annually_
+* __Download GitHub Invoice__ - _Monthly_
+* __Download Google Apps Invoice__ - _Monthly_
+* __Download Harmonia Invoice__ - _Monthly_
+* __Download Linode Invoice__ - _Monthly_
+* __Download Sky Digital Invoice__ - _Monthly_
+* __Download Typekit Invoice__ - _Monthly_
 
 ## Office
 
-* Cancel Sky Digital broadband & phone line - _One off_
-* Check the fire extinguishers and emergency lighting - _Monthly_
-* Claim a refund on our business rates - _One off_
-* Hoover the office - _Monthly_
-* Organise the fire extinguishers annual service - _Annually_
-* Record the results of the fire alarm test - _Weekly_
-* Update the Asset register - _Fortnightly_
-* Wash the dirty tea towels - _Monthly_
-* Water the plants - _Twice weekly_
+* __Cancel Sky Digital broadband & phone line__ - _One off_
+* __Check the fire extinguishers and emergency lighting__ - _Monthly_
+* __Claim a refund on our business rates__ - _One off_
+* __Hoover the office__ - _Monthly_
+* __Organise the fire extinguishers annual service__ - _Annually_
+* __Record the results of the fire alarm test__ - _Weekly_
+* __Update the Asset register__ - _Fortnightly_
+* __Wash the dirty tea towels__ - _Monthly_
+* __Water the plants__ - _Twice weekly_
 
 ## Social
 
-* Organise monthly drinks - _Monthly_
-* Organise Show & Tell - _Monthly_
+* __Organise monthly drinks__ - _Monthly_
+* __Organise Show & Tell__ - _Monthly_
 
 ## Wages
 
-* Decide salary and dividend amounts for the new tax year - _Annually_
-* Pay our wages - _Monthly_
+* __Decide salary and dividend amounts for the new tax year__ - _Annually_
+* __Pay our wages__ - _Monthly_
 
 [Harmonia]: https://harmonia.io/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2014-11-12 13:17:00 +00:00
-:updated_at: 2014-11-12 13:17:00 +00:00
+:updated_at: 2014-11-12 17:30:00 +00:00
 :page_title: What do we use Harmonia for?
