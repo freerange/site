@@ -3,7 +3,7 @@ What do we use Harmonia for?
 
 We've written about [Harmonia][] plenty of times over the last couple of years, but we've only ever mentioned a handful of the tasks it helps us complete.
 
-In an attempt to illustrate why we think Harmonia is useful and how it helps us run our company I'm listing all of the tasks that it's currently responsible for assinging. I've manually grouped the tasks (they're not grouped in Harmonia) to make them easier to read in this post.
+In an attempt to illustrate why we think Harmonia is useful and how it helps us run our company I'm listing all of the tasks that it's currently responsible for assigning. I've manually grouped the tasks (they're not grouped in Harmonia) to make them easier to read in this post.
 
 Our task instructions are stored in a private GitHub wiki and we're generally pretty good at keeping them up to date as we learn more about the tasks. If we've done our job well then it should be possible for almost __anyone__ to step in and complete the tasks we need to keep our business ticking over!
 
