@@ -43,10 +43,10 @@ The meeting then reconvened in the pub, but I had to slip away. So that's all I 
 [Gherkin]: https://github.com/cucumber/gherkin
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-11-13 08:30:00 +01:00
-:updated_at: 2014-11-13 08:30:00 +01:00
+:created_at: 2014-11-17 14:28:00 +01:00
+:updated_at: 2014-11-17 14:28:00 +01:00
 :page_title: Show and Tell 7
