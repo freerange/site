@@ -1,0 +1,45 @@
+How To Submit Annual Return
+===========================
+
+Submit the annual return, you monkey!
+
+We submit an annual return to inform Companies House about our company. It shouldn't take you too long (unless lots of details have changed), it costs £13 and we *have* to submit by the 10th February. See [gov.uk](https://www.gov.uk/file-an-annual-return-with-companies-house) for more information.
+
+Here's what you need to do:
+
+* Visit the Companies House WebFiling application - https://ewf.companieshouse.gov.uk
+* The first sign in screen will ask for an email address and password. These details are in the Keychain under “Companies House WebFiling Primary”.
+* The second sign in screen will ask for a company number and authentication code. These details are in the Keychain under “Companies House WebFiling Secondary”.
+* Follow the link to “File annual return”.
+* Keep the expected Annual Return Date (13th Jan 2013 for the Jan 2013 return).
+* Answer “no” to the question, “Were any of the company's shares admitted to trading on a market at any time during this return period?”
+
+## Registered Address Details
+* Confirm our registered address as being Stuart at 3CA’s address: Kent Cottage Bridge Lane, Kendal, Cumbria, United Kingdom, LA9 7DD
+
+## Location of Company Registers
+* Confirm that we don’t have a SAIL (Single Alternative Inspection Location) address as all records are kept at the Registered Office.
+
+## Company Officers
+* Ensure that our Service Addresses are all listed as the Registered Office Address.
+* Ensure all our Residential Addresses are up to date - you’ll only need to do something here if one of us has moved since the last annual return.
+
+## SIC
+* Leave the SIC(07) Code as 62020 - Information technology consultancy activities
+
+## Capital
+* Ensure that the correct number of shares are presented at the correct value (3000 at 0.10 each as at Jan 2013).
+
+## Shareholders
+* Ensure we’ve all got the correct allocation of shares, according to the GFR History document. Use the Transfer shares option if someone has left and sold their shares to someone else during the year.
+
+## Payment
+* Choose the option to pay by credit/debit/paypal, as we don’t have an account with Companies House filing. You can either pay with your company debit card or the company paypal account (details are in the Keychain).
+
+## Saving the submission return
+* Save a copy of both the submission confirmation and the return itself (get this from the Recent filings menu) to Dropbox > Administration > Companies House.
+
+:render_as: Kramdown
+:is_page: true
+:created_at: 2014-11-19 13:08:00 +01:00
+:layout: wiki-layout
