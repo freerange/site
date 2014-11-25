@@ -42,10 +42,10 @@ Until next time, folks.
 [Tom W]: https://tomafro.net/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2014-11-25 15:45:00 +00:00
-:updated_at: 2014-11-25 15:45:00 +00:00
+:updated_at: 2014-11-25 17:05:00 +00:00
 :page_title: Week 305
