@@ -30,6 +30,22 @@ Via [Tom Stuart](http://codon.com). {by james-mead}
 A carousel full of good advice. {by james-mead}
 
 
+### [Speed Up JavaScript Capybara Specs by Blacklisting URLs](http://robots.thoughtbot.com/speed-up-javascript-capybara-specs-by-blacklisting-urls)
+
+Useful advice for tracking down slow external network requests in Capybara JavaScript tests (by using the `:webkit_debug` driver) and then using `#url_blacklist` to avoid them.
+
+I hadn't come across either of these things before but will certainly bear them in mind should I come across slow running tests in future. {by chris-roos}
+
+
+### [Taking the Ps](http://deserter.co.uk/2014/11/taking-the-ps/)
+
+> ‘30 quid each? Fuck that. It’s not even got a roof,’ said Half-life, recounting how he had refused his own mother her life-long dream of a ride on an open-top London sightseeing bus.
+
+The [Deserter][] has recently become one of my favourite blogs (thanks, [Paul B][]!). Definitely my kind of humour. {by chris-roos}
+
+[Deserter]: http://deserter.co.uk/
+[Paul B]: http://po-ru.com/
+
 :render_as: Blog
 :kind: draft
 :is_page: true
