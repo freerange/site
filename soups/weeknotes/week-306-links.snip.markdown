@@ -47,10 +47,10 @@ The [Deserter][] has recently become one of my favourite blogs (thanks, [Paul B]
 [Paul B]: http://po-ru.com/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-11-25 14:19:00 +00:00
-:updated_at: 2014-11-25 14:19:00 +00:00
+:created_at: 2014-11-25 15:25:00 +00:00
+:updated_at: 2014-11-25 15:25:00 +00:00
 :page_title: Week 306 - Interesting links
