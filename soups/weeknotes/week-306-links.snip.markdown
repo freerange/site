@@ -20,7 +20,7 @@ An open-source project to build the first "digital life form", a virtual _C. ele
 
 A simple "hack" which allows you to do things like:
 
-    [ { x: 1 }, { x: 2 } ].map(&[:x]) # => [ 'A', 'B' ]
+    [ { x: 1 }, { x: 2 } ].map(&[:x]) # => [ 1, 2 ]
 
 Via [Tom Stuart](http://codon.com). {by james-mead}
 
