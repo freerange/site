@@ -7,7 +7,7 @@ Week 305
 
 * James and I picked up our security passes at the beginning of the week. Which means that we no longer have to bug people to go to the toilet :-)
 
-* I cleared out a bit of a backlog of errors in [Honeybadger][] and we discussed how we were going to keep on top of these errors in future.
+* I cleared out a bit of a backlog of errors in [Honeybadger][] and we discussed how we were going to keep on top of these errors in future. James has already done a great job of clearing through some of the bugs that I added to Pivotal Tracker as part of this exercise.
 
 * I saw a preview of the [UX talk that Lucy, Dereck and Alla were giving at UAL][fl-ux-talk]. I really enjoyed it and it sounds as though it was well recieved.
 
