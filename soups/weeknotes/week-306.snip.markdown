@@ -39,10 +39,10 @@ Until next time.
 [StepUp]: http://www.stepup.io
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-12-03 12:46:00 +01:00
-:updated_at: 2014-12-03 12:46:00 +01:00
+:created_at: 2014-12-03 16:10:00 +01:00
+:updated_at: 2014-12-03 16:10:00 +01:00
 :page_title: Week 306
