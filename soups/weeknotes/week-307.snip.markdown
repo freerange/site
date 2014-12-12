@@ -36,10 +36,10 @@ Until next time.
 [The Fellow]: http://thefellow.co.uk/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2014-12-11 16:00:00 +00:00
-:updated_at: 2014-12-11 16:00:00 +00:00
+:updated_at: 2014-12-12 11:00:00 +00:00
 :page_title: Week 307
