@@ -9,7 +9,7 @@ In addition to our normal development duties we both spent a day on FutureLearn 
 
 [Ricardo][] and I spent some time investigating a Missing Template exception that had made its way to [Honeybadger][]. Having investigated various routing options (see my [Rails routing gist][] for more) I came to the conclusion that we should probably be using constraints in our routes to restrict the number of URLs that resolve to the same content. This is in a similar vein to using the `only` (or `except`) options to avoid missing template errors when we don't implement one of the standard controller actions. I don't recall using constraints before but I'm fairly sure I'll be using it in future now that I understand a little more about it.
 
-[James M][] (a different one!) and I spent some time adding JSHint to our build process. This sits alongside [Rubocop][] and detects problems with our JavaScript that might trip us up.
+[James M][] (a different one!) and I spent some time adding [JSHint][] to our build process. This sits alongside [Rubocop][] and detects problems with our JavaScript that might trip us up.
 
 We finished the week with sprint review and a few beers at [The Fellow][], which was splendid.
 
@@ -29,6 +29,7 @@ Until next time.
 [FutureLearn]: https://www.futurelearn.com/
 [Honeybadger]: https://www.honeybadger.io/
 [James M]: https://twitter.com/jamesmockett
+[JSHint]: http://jshint.com/
 [Rails routing gist]: https://gist.github.com/chrisroos/f9d539773542da79a583
 [Ricardo]: http://ricardolopes.net/
 [Rubocop]: https://github.com/bbatsov/rubocop
