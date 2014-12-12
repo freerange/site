@@ -19,7 +19,7 @@ We spent our day at GFR preparing for our Christmas party and continuing to disc
 
 We brought [Show and Tell][] forward a week to avoid a clash with our Christmas party. We weren't quite sure how many people were going to turn up but I think we ended up with about 6 of us in the end. James is writing this up in more detail and we'll get that published soon.
 
-James and I took a look at [Containerville][] as a potential new offie on Friday morning. These shipping container offices are around a third the size of our current office and around a quarter of our current rent, service charge and business rates! We liked them but we're not sure whether the lack of light might become a bit of a problem.
+James and I took a look at [Containerville][] as a potential new office on Friday morning. These shipping containers are around a third the size of our current office and around a quarter of our current monthly office costs! We like them but we're not sure whether the lack of light might become a bit of a problem.
 
 Until next time.
 
