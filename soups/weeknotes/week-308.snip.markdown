@@ -36,6 +36,6 @@ The idea is that we'll try to rent some new office space in February next year w
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2014-12-17 14:53:00 +00:00
-:updated_at: 2014-12-17 14:53:00 +00:00
+:created_at: 2014-12-17 16:08:00 +00:00
+:updated_at: 2014-12-17 16:08:00 +00:00
 :page_title: Week 308
