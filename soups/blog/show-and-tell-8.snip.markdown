@@ -31,7 +31,7 @@ A lot of it was quite mathematical and I found the various formal notations hard
 
 ### Lambda Calculus
 
-[Tom S][] showed us an HTML page containing some [lambda calculus][] expressions. He'd added some JavaScript to parse those expressions and enhance the page in such a way that you could explore (and even edit) the structure of the expresssions. He'd explained how he'd used [backbone.js][] to do this.
+[Tom S][] showed us an HTML page containing some [lambda calculus][] expressions. He'd added some JavaScript to parse those expressions and enhance the page in such a way that you could explore (and even edit) the _structure_ of the expresssions. He explained how he'd used [backbone.js][] to do this.
 
 ### Smalltalk within Scratch
 
