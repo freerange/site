@@ -29,6 +29,10 @@ Also it seems to have been removed from the Chrome Web Store, so perhaps this [o
 
 A lot of it was quite mathematical and I found the various formal notations hard to get my head around in such a short space of time. However, it does seem like interesting stuff and it mainly reminded me that I _really_ should read Tom S's book, [Understanding Computation][].
 
+### Lambda Calculus
+
+[Tom S][] showed us an HTML page containing some [lambda calculus][] expressions. He'd added some JavaScript to parse those expressions and enhance the page in such a way that you could explore (and even edit) the structure of the expresssions. He'd explained how he'd used [backbone.js][] to do this.
+
 ### Smalltalk within Scratch
 
 We finished up with Ben showing us how you can access the [Smalltalk environment underlying Scratch][] by clicking one of the letters in the logo. He proceeded to redefine `true` as `false` (or was it the other way around?) and immediately all the Scratch windows stopped re-painting. Fun times!
@@ -53,7 +57,9 @@ Anyway, that's your lot for this month. Our [Show & Tell event][] is taking a br
 [Ben G]: https://twitter.com/beng
 [Chris R]: /chris-roos
 [Show & Tell event]: /show-and-tell-events
-
+[Tom S]: http://codon.com/
+[backbone.js]: http://backbonejs.org/
+[lambda calculus]: http://en.wikipedia.org/wiki/Lambda_calculus
 
 :render_as: Blog
 :kind: blog
@@ -61,5 +67,5 @@ Anyway, that's your lot for this month. Our [Show & Tell event][] is taking a br
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2014-12-12 11:53:00 +01:00
-:updated_at: 2014-12-12 11:53:00 +01:00
+:updated_at: 2014-12-17 16:44:00 +01:00
 :page_title: Show and Tell 8
