@@ -15,7 +15,7 @@ After a nervous half an hour wondering whether anyone was going to turn up, our 
 
 ## Packing up
 
-We spent a lot of Friday packing smaller less useful items into boxes and then had them shipped to a self-storage company, [Urban Storage][], underneath the post office on Old Street. We've rented our very own "lock-up" where we're going to put all the decent stuff from the office.
+We spent a lot of Friday packing smaller less useful items into boxes and then had them shipped to a self-storage company, [Urban Locker][], underneath the post office on Old Street. We've rented our very own "lock-up" where we're going to put all the decent stuff from the office.
 
 The idea is that we'll try to rent some new office space in February next year when Chris is back from his hols.
 
@@ -29,7 +29,7 @@ The idea is that we'll try to rent some new office space in February next year w
 [Gouraud shading]: http://en.wikipedia.org/wiki/Gouraud_shading
 [Go Free Range Mullfest]: http://lanyrd.com/2014/freerange/
 [mullin]: https://twitter.com/freerange/status/542738191250644994
-[Urban Storage]: http://www.urbanstorage.com/
+[Urban Locker]: http://www.urbanlocker.co.uk/
 
 :render_as: Blog
 :kind: blog
