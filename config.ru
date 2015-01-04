@@ -22,7 +22,6 @@ if ENV["RACK_ENV"] == "production"
   use Rack::Static, :urls => ["/recap/docs"], :root => "/home/freerange/docs/recap"
   use Rack::Static, :urls => ["/mocha/docs"], :root => "/home/freerange/docs/mocha"
 
-  use CustomExceptionHandlingMiddleware
   use Rack::MailExceptions do |mail|
     mail.to         "everyone@gofreerange.com"
     mail.from       "Exception Notifier <exceptions@gofreerange>"
@@ -37,6 +36,7 @@ if ENV["RACK_ENV"] == "production"
       :enable_starttls_auto => true
     })
   end
+  use CustomExceptionHandlingMiddleware
 end
 
 run Application.new
