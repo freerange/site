@@ -4,12 +4,25 @@ require "application"
 require "vanilla/static"
 require "rack/contrib/mailexceptions"
 
+class CustomExceptionHandlingMiddleware
+  def initialize(app)
+    @app = app
+  end
+
+  def call(env)
+    @app.call(env)
+  rescue Rack::Utils::InvalidParameterError => exception
+    [400, { 'Content-Type' => 'text/plain' }, [ exception.message ] ]
+  end
+end
+
 use Vanilla::Static, File.join(File.dirname(__FILE__), "public")
 
 if ENV["RACK_ENV"] == "production"
   use Rack::Static, :urls => ["/recap/docs"], :root => "/home/freerange/docs/recap"
   use Rack::Static, :urls => ["/mocha/docs"], :root => "/home/freerange/docs/mocha"
 
+  use CustomExceptionHandlingMiddleware
   use Rack::MailExceptions do |mail|
     mail.to         "everyone@gofreerange.com"
     mail.from       "Exception Notifier <exceptions@gofreerange>"
