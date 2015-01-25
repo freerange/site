@@ -21,23 +21,23 @@ Here's what you need to do:
 * Confirm that we don’t have a SAIL (Single Alternative Inspection Location) address as all records are kept at the Registered Office.
 
 ## Company Officers
-* Ensure that our Service Addresses are all listed as the Registered Office Address.
-* Ensure all our Residential Addresses are up to date - you’ll only need to do something here if one of us has moved since the last annual return.
+* Ensure that the Correspondence Address for all directors (via the Update Details button) are listed as the Registered Office Address.
+* Ensure that the Home Address for all directors (via the Update Details button) are up to date - you’ll only need to do something here if one of us has moved since the last annual return.
 
 ## SIC
 * Leave the SIC(07) Code as 62020 - Information technology consultancy activities
 
 ## Capital
-* Ensure that the correct number of shares are presented at the correct value (3000 at 0.10 each as at Jan 2013).
+* Ensure that the correct number of shares are presented at the correct value (3000 at £0.10 each as at Jan 2015).
 
 ## Shareholders
-* Ensure we’ve all got the correct allocation of shares, according to the GFR History document. Use the Transfer shares option if someone has left and sold their shares to someone else during the year.
+* Ensure we’ve all got the correct allocation of shares, according to the GFR History document. Use the Transfer shares option e.g. if someone has left and sold their shares to someone else during the year.
 
 ## Payment
-* Choose the option to pay by credit/debit/paypal, as we don’t have an account with Companies House filing. You can either pay with your company debit card or the company paypal account (details are in the Keychain).
+* Choose the option to pay by credit/debit/paypal, as we don’t have an account with Companies House filing. You can either pay with your company debit card or the company PayPal account (details are in the Keychain).
 
 ## Saving the submission return
-* Save a copy of both the submission confirmation and the return itself (get this from the Recent filings menu) to Dropbox > Administration > Companies House.
+* Save a copy of both the submission confirmation and the return itself (get this from the Recent filings menu) to Googe Drive > Go Free Range > Admin > Companies House.
 
 :render_as: Kramdown
 :is_page: true
