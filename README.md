@@ -28,11 +28,12 @@ So that we don't have to type our password when deploying.
     root$ echo "%freerange ALL=NOPASSWD: ALL" > /etc/sudoers.d/freerange
     root$ chmod 440 /etc/sudoers.d/freerange
 
-### Setting our SMTP password
+### Configuring Airbrake
 
-So that we receive exception notifications by email.
+So that exceptions are reported to our Errbit app. You may need to create a new "app" within the Errbit instance in order to obtain the API key, which is "app"-specific.
 
-    $ cap env:set SMTP_PASSWORD=<our-smtp-password>
+    $ cap env:set AIRBRAKE_API_KEY=<api-key-for-this-app-within-errbit-app>
+    $ cap env:set AIRBRAKE_HOST=<errbit-app-host>
 
 ### Forcing UTF-8 encoding
 
