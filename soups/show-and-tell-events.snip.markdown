@@ -12,6 +12,7 @@ We host this event in our office on the second Wednesday of every month. The ide
   <li><p><a href="/show-and-tell-6">Show and Tell 6</a></p></li>
   <li><p><a href="/show-and-tell-7">Show and Tell 7</a></p></li>
   <li><p><a href="/show-and-tell-8">Show and Tell 8</a></p></li>
+  <li><p><a href="/show-and-tell-9">Show and Tell 9</a></p></li>
 </ul>
 
 :is_page: true
