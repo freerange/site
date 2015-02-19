@@ -32,6 +32,25 @@ Matz is apparently thinking about some form of static typing for Ruby 3.0. Promp
 Excellent news! {by james-mead}
 
 
+### [Habitat - Fosdem 2015 talk](http://blog.memespring.co.uk/2015/02/11/habitat-fosdem-2015-talk/)
+
+> Habitat is an external brain. It does things in response to your interactions with your digital-physical environment using behavior-driven development style tests. (Think self-hosted Google Now meets If This Then That).
+
+I mentioned [Habitat](https://github.com/memespring/habitat) way back in [week 279](/week-279) but thought I'd mention it again given that Richard's written up a talk he recently gave at Fosdem 2015. I've not tried it but am pretty excited by the possibilities. {by chris-roo}
+
+
+### [Why the hell not?](https://signalvnoise.com/posts/3854-why-the-hell-not)
+
+> So when we were talking to our publisher about how we wanted REWORK to be organized and designed, I asked them if we could put the copyright page at the end, rather than the beginning. It would be one fewer page to leaf through up front, and if any page was ignored more than the others, it had to be the copyright page. So why the hell not just put it at the back?
+
+I love these sort of stories of people challenging the accepted way of doing things. It reminds me of something Peter Jackson says in an interview with James Nesbitt in [River Deep, Mountain High](http://www.imdb.com/title/tt2971128/). I'm paraphrasing but it's something along the lines of, "New Zealand has a healthy disrespect for the way the rest of the world works." {by chris-roos}
+
+
+### [Digital Maturity](http://noisydecentgraphics.typepad.com/design/2015/02/digital-maturity.html)
+
+This amused me. [Deloitte's Digital Maturity survey](http://www.deloittedigital.com/eu/digitalmaturity) to "help you understand where your existing strengths lie from a digital perspective" tells you to use a tablet or PC/Mac if you try to register using a mobile device :-) {by chris-roos}
+
+
 :render_as: Blog
 :kind: blog
 :is_page: true
