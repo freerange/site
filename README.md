@@ -81,6 +81,12 @@ The site map is generated on the fly and includes any page with:
 
 ## Updating CSS
 
+### Install node modules
+
+    $ npm install
+
+### Generate CSS
+
 The `*.css` files are generated from `*.less` files in `public/stylesheets`. You can regenerate a specific file using a command like:
 
     lessc public/stylesheets/screen.less >public/stylesheets/screen.css
