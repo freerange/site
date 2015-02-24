@@ -23,7 +23,11 @@ The second story was about notifying learners by email when they become eligible
 
 Having chatted to others on the team, we realised there was another scenario which we'd missed, so we added a new scenario to the feature spec and got that passing in a similar way. We then extracted most of the logic out into a service object to remove most of the duplication which was a satisfying way to round off my time at FutureLearn.
 
-After work we said our goodbyes to the FutureLearn team over some beverages at the [Parcel Yard][]. We've loved working with them and wish them well for the future.
+As well as doing some pairing with [Mark][], Chris did some investigation into the efficiency of the code used to keep two [AWS S3][] buckets in sync. Over time these buckets have filled up with a lot of data and the overnight syncing process had started taking hours.
+
+So Chris did some experiments and discovered that using the [AWS SDK][] was significantly faster than the existing implementation which used [Fog][]. It turned out that using the [AWS Command Line Interface][] was even faster.
+
+After work we said our goodbyes to the FutureLearn team over some beverages at the [Parcel Yard][]. We've loved working with them and wish them all the best for the future.
 
 Anyway, onward and upward!
 
@@ -46,12 +50,17 @@ Anyway, onward and upward!
 [Statement of Participation]: https://about.futurelearn.com/about/faq/?category=statements-of-participation
 [feature spec]: http://www.rubydoc.info/gems/rspec-rails/#Feature_Specs
 [Parcel Yard]: http://www.parcelyard.co.uk/
+[Mark]: http://www.markjs.net/
+[AWS S3]: http://aws.amazon.com/s3/
+[AWS Command Line Interface]: http://aws.amazon.com/cli/
+[AWS SDK]: http://aws.amazon.com/sdk-for-ruby/
+[Fog]: http://fog.io/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-02-23 16:26:00 +01:00
-:updated_at: 2015-02-23 16:26:00 +01:00
+:created_at: 2015-02-24 11:31:00 +01:00
+:updated_at: 2015-02-24 11:31:00 +01:00
 :page_title: Week 318
