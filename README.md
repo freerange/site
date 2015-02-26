@@ -35,14 +35,6 @@ So that exceptions are reported to our Errbit app. You may need to create a new 
     $ cap env:set AIRBRAKE_API_KEY=<api-key-for-this-app-within-errbit-app>
     $ cap env:set AIRBRAKE_HOST=<errbit-app-host>
 
-### Forcing UTF-8 encoding
-
-So that Vanilla plays nice with Ruby 2.1. See [issue 5](https://github.com/lazyatom/vanilla-rb/issues/5) in the Vanilla project for more information.
-
-    $ cap env:set LANG=en_GB.UTF-8
-
-If we don't do this then Vanilla will show a "malformed snip inclusion" error.
-
 ### Updating the Apache config file
 
     # Copy the Apache config file (this will trigger Apache to reload)
