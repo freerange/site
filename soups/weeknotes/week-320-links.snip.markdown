@@ -28,14 +28,19 @@ A conversation with [Tom S](http://codon.com/) prompted me to read some more abo
 
 ### [RFC 7464, JSON Text Sequences](https://www.tbray.org/ongoing/When/201x/2015/02/26/JSON-Text-Sequences)
 
-Reading this reminded me of the "[ASCII Delimited Text](https://ronaldduncan.wordpress.com/2009/10/31/text-file-formats-ascii-delimited-text-not-csv-or-tab-delimited-text/)" blog post I linked to in [week 272](/week-272). The use of these ASCII control characters really appeals to me. I can only imagine that they've not really been adopted because using printable characters is so much easier. {by chris-roos}
+Reading this reminded me of the "[ASCII Delimited Text](https://ronaldduncan.wordpress.com/2009/10/31/text-file-formats-ascii-delimited-text-not-csv-or-tab-delimited-text/)" blog post I linked to in [week 272 links](/week-272-links). The use of these ASCII control characters really appeals to me. I guess that they've not really been adopted because using printable characters is so much easier. {by chris-roos}
 
 
-### [xsv: Command line tool for dealing with CSV files](https://github.com/BurntSushi/xsv#installation)
+### [xsv: Command line tool for dealing with CSV files](https://github.com/BurntSushi/xsv)
 
-I spent a short while playing with this earlier today and was pretty impressed. It's not the sort of thing I currently have need to use every day but can certainly remember occasions where it would've been useful. Aside from anything else, the ability to display CSV files as tables can be really helpful to visually inspect the data.
+I spent a short while playing with this earlier today and was pretty impressed. It's not something I have a need to use everyday but I can certainly remember occasions where it would've saved me some time. Even the basic ability to display CSV data in a table will come in handy.
 
-It also has the option to format a CSV file using ASCII delimiters using unit and record seperators as discussed in the link above. {by chris-roos}
+It also includes an option (`xsv fmt --ascii`) to convert from CSV to ASCII delimiters, as discussed in the link above. {by chris-roos}
+
+
+### [Little Big Details - GOV.UK info pages](http://littlebigdetails.com/post/111659257439/gov-uk-if-you-add-info-before-a-page-url-you)
+
+I enjoy reading Little Big Details and was pleased to see them include [GOV.UK's info pages](https://insidegovuk.blog.gov.uk/2014/10/29/info-pages-publishing-data-about-user-needs-and-metrics/). {by chris-roos}
 
 
 :render_as: Blog
