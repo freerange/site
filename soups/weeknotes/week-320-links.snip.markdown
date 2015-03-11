@@ -44,10 +44,10 @@ I enjoy reading Little Big Details and was pleased to see them include [GOV.UK's
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-03-04 13:00:00 +00:00
-:updated_at: 2015-03-04 15:37:00 +00:00
+:created_at: 2015-03-11 10:30:00 +00:00
+:updated_at: 2015-03-11 10:30:00 +00:00
 :page_title: Week 320 - Interesting links
