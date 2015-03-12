@@ -1,31 +1,59 @@
 Show and Tell 10
 ----------------
 
-Star of Kings
+We had a pretty good turn out for Show and Tell 10 last night, with 9 of us in attendance at the [Star of Kings][].
 
-9 of us
+I thought it was going to be a short one as no one really had much to show, but [Ben][], [Tom S][] and I managed to rustle up some "emergency" things to talk about. We probably spent a couple of hours chatting and I _think_ it went OK.
 
-I started by explaining how I use Google Forms and Todoist to keep records of some personal data I want to collect.
+## Personal data collection
 
-I asked whether anyone else collects this sort of information. Tom S collects some health information but does so automatically using a fitbit and scales.
+I kicked things off by explaining how I use [Google Forms][] and [Todoist][] to make it relatively easy for me to keep records of some personal data (e.g. weight) I want to collect.
 
-Murray collects quite a lot of this information with the intention of doing something with it, but has never quite got that far. This is the same as me.
+I asked whether anyone else collects anything like this sort of information. Tom S collects some health information but does so automatically using a [Fitbit][] and scales.
 
-Interesting discussion about big data in health and whether it causes more problems.
+[Murray][] said that he records a few different things, always with the intention of doing something with the data. This is exactly the same as what I find myself doing: I've become quite good at recording various things but haven't quite made the jump to start interpreting any of it. Murray talked about recording the books he's read, which is something I've also been doing over the last couple of years. Tom S mentioned [@revdancatt's "kindle book cataloging system"](https://twitter.com/revdancatt/status/572837279535915009/photo/1) which might be a neat way of visualising the books I've read; particularly given that most of them are now ebooks.
 
-Interesting discussion of money tracking - Nicky and Tom have started using YNAB, which I've also recently been investigating.
+Ben raised an interesting point about collecting health data in particular. Our understanding of health has been based on trying to diagnose symptoms rather than interpreting data. Having all this data available might make people worry unnecessarily, after all the human body behaves differently at different times.
 
-I gave a little demonstration of xsv having included it in our week links from yesterday.
+[Chris L][] mentioned that he used to go through his receipts and bank statements making sure everything was in order. [Nicky][] and [Tom W][] chimed in by saying that they've both recently started using [You Need a Budget][] (YNAB) for this purpose. I'm interested in this area and have recently spent time rethinking how Money Tracker might help me understand more about my spending habits.
 
-Ben was up next and showed some pictures of some of the games and game accesories he's been making with his children. He's making a board game with his son and explained how he's been trying to model the rules to see how long the game will take and to try to ensure a fair game.
+## XSV
 
-Apparently there's quite a market in handmade inserts for board game boxes, with lots of manufacturers simply supplying the pieces lose in the box.
+I finished up by giving a very quick demonstration of [xsv][] having included it in our week links from yesterday.
 
-Tom S showed [@revdancatt's "kindle book cataloging system"](https://twitter.com/revdancatt/status/572837279535915009/photo/1).
+## Board games
 
-Tom S finished up by talking us through some more of his book publishing workflow. He's taken a ruby script that was shelling out to Pygmentize and re-written it in Python so that he can dig deeper into the lifecycle and get more control over the output.
+Ben was up next and showed us pictures of some of the games and game accesories he's been making with his children. They've made a dice rolling tower to help avoid dice from going everywhere and some game trays to keep board game components neat and tidy in the box. It sounds as though the lack of game trays is enough of a problem that loads of people have created their own and shared instructions online.
 
-I was a little worried as it wasn't obvious than anyone was going to show anything but I think it worked out OK in the end.
+Ben also described a game that he and his son are making. They've created the board and are now testing the rules, using spreadsheets and some Ruby scripts, to ensure that the game is fair and that it lasts a sensible amount of time.
+
+## Syntax highlighting
+
+Tom S talked us through the process of syntax highlighting the code snippets in the ebook he's writing ("[How to Write a Web Application in Ruby][]"). He's taken the [Ruby script][] that he used to syntax highlight the [Understanding Computation][] book and rewrote it in Python. This allows him to hook deeper into the [Pygments][] library rather than simply shelling out to it from Ruby. The result is some DocBook XML that includes a custom Pygments namespace to markup the code snippets with a great deal of control. Tom's currently producing a PDF from the DocBook but believes that the changes to the syntax highlighting will make it really easy to produce good looking HTML too.
+
+Tom also briefly demonstrated [O'Reilly Atlas][], the new publishing tool from O'reilly that lets authors edit their books and build new versions. Tom's already put this to effect by updating the Rubyforge URLs in Understanding Computation to point to the new versions.
+
+Until next time.
+
+-- Chris
+
+[Ben]: https://twitter.com/beng
+[Chris L]: http://blog.chrislowis.co.uk/
+[Fitbit]: http://www.fitbit.com/
+[Google Forms]: http://www.google.co.uk/forms/about/
+[How to Write a Web Application in Ruby]: http://rubywebapp.com/
+[Murray]: https://twitter.com/hlame
+[Nicky]: http://www.knotnicky.com/
+[O'Reilly Atlas]: https://atlas.oreilly.com/
+[Pygments]: http://pygments.org/
+[Ruby script]: https://gist.github.com/tomstuart/4462577
+[Star of Kings]: http://starofkings.co.uk/
+[Todoist]: https://todoist.com/
+[Tom S]: http://codon.com/
+[Tom W]: https://tomafro.net/
+[Understanding Computation]: http://computationbook.com/
+[xsv]: https://github.com/BurntSushi/xsv
+[You Need a Budget]: http://www.youneedabudget.com/
 
 :render_as: blog
 :kind: draft
