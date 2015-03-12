@@ -21,6 +21,8 @@ Ben was up next and showed some pictures of some of the games and game accesorie
 
 Apparently there's quite a market in handmade inserts for board game boxes, with lots of manufacturers simply supplying the pieces lose in the box.
 
+Tom S showed [@revdancatt's "kindle book cataloging system"](https://twitter.com/revdancatt/status/572837279535915009/photo/1).
+
 Tom S finished up by talking us through some more of his book publishing workflow. He's taken a ruby script that was shelling out to Pygmentize and re-written it in Python so that he can dig deeper into the lifecycle and get more control over the output.
 
 I was a little worried as it wasn't obvious than anyone was going to show anything but I think it worked out OK in the end.
