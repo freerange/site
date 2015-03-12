@@ -58,11 +58,11 @@ This report should look pretty similar to [FreeAgent's Profit and Loss report][f
 
 * Should equal "Other Income" in FA P+L.
 
-### Profit on profit on ordinary activities
+### Profit on ordinary activities before taxation
 
 * Should equal "Operating Profit" in FA P+L.
 
-### Tax on profit on ordinary shares
+### Tax on profit on ordinary activities
 
 * Should be roughly 20% (Corporation tax rate) of "Profit on ordinary activities before taxation".
 
