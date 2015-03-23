@@ -30,6 +30,33 @@ Interesting stuff! {by james-mead}
 Francis Irving is [aiming to collect the Curriculum Vitae of everyone standing for parliament](http://www.flourish.org/2015/03/why-im-collecting-every-mp-candidates-cv/) which seems like a very worthwile project. {by james-mead}
 
 
+### [Bidding farewell to Google Code](http://google-opensource.blogspot.co.uk/2015/03/farewell-to-google-code.html)
+
+It didn't come as a huge surprise that Google Code is shutting down: It doesn't seem to have received much love over the years. One good thing is that you appear to be able to [set a new URL for your code and to have users redirected automatically][google-code-redirect]. This is what Tom Stuart's trying to get Rubyforge to do since shutting the service (see [rubyforge-redirects][]). {by chris-roos}
+
+
+### [Highrise attempt to fix infinite scrolling](http://blog.highrisehq.com/post/112136637101/snapback-cache-a-huge-improvement-to-the-speed)
+
+We haven't used Highrise for a while now but I still find it interesting to read what they're up to. I was particularly pleased to read that they've attempted to fix the infuriating problem inherent in lots of infinite scroll implementations. {by chris-roos}
+
+
+### [Peer to Peer: Work with Agile Coach Amy Wagner](http://peertopeer.io/blog/2015/work-with-agile-coach-amy-wagner/)
+
+> Are you someone who is kicking off a new digital product or project? Or do you have a project already running that needs improvement? Would you like some free help from Agile Coach Amy Wagner (in exchange for free help, you will be filmed)?
+
+[Peer to Peer][] are expanding their video series to include things other than coding. The first video is going to be hosted by Amy and they're looking for a volunteer to join her. Get in touch if you're interested. {by chris-roos}
+
+
+### [Meat Club iPad app](https://plus.google.com/+RyanSnyderme/posts/e4AyzYHkcjW?cfem=1)
+
+I'm really pleased to see that Ryan and Dietrich have released their [Meat Club iPad app][]. If you're interested in learning how to prepare meat at home then you should definitely check it out. {by chris-roos}
+
+
+[google-code-redirect]: https://code.google.com/p/support-tools/wiki/GitHubExporterFAQ#Setting_the_%22Project_Moved%22_Flag
+[Meat Club iPad app]: http://itunes.apple.com/us/app/meat-club/id967637748?ls=1
+[Peer to Peer]: http://peertopeer.io/videos/
+[rubyforge-redirects]: https://github.com/tomstuart/rubyforge-redirects
+
 :render_as: Blog
 :kind: blog
 :is_page: true
