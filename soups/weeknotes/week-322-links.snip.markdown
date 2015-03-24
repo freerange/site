@@ -62,6 +62,6 @@ I'm really pleased to see that Ryan and Dietrich have released their [Meat Club 
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-03-23 16:30:00 +00:00
-:updated_at: 2015-03-23 16:30:00 +00:00
+:created_at: 2015-03-24 10:42:00 +00:00
+:updated_at: 2015-03-24 10:42:00 +00:00
 :page_title: Week 322 - Interesting links
