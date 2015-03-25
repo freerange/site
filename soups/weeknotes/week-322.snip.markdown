@@ -43,7 +43,7 @@ I did also manage to install and configure [GQRX][], the GUI app which I'd insta
 
 ## Social
 
-On Thursday, we had a post-work pint with our new ground-floor neighbours, [Tom T][] and [Tom S][], at the Old Kings Head. Tom T told us a bit about what he's been up to at [Offset][], Moo's new digital studio, and the launch of their first product, [Stacks][].
+On Thursday, we had a post-work pint (&#x1F37A;) with our new ground-floor neighbours, [Tom T][] and [Tom S][], at the Old Kings Head. Tom T told us a bit about what he's been up to at [Offset][], Moo's new digital studio, and the launch of their first product, [Stacks][].
 
 My back was playing up on Friday so I had to retire hurt at lunchtime. Unfortunately that meant that I missed our first Shoreditch Works "Mixer". However, Chris stayed for a few drinks and met some of our new office mates, including a couple of people from [Weaveworks][] (doing Docker-related stuff) and Lee Bofkin from [Global Street Art][].
 
