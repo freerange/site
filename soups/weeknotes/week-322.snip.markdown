@@ -37,7 +37,7 @@ Later in the week, Chris did some [more work][Money Tracker changes] on his [Mon
 
 I tried to get back into my [AIS on SDR project][], but it was a bit of a struggle to work out where I'd got to.
 
-In the end I decided to start again installing stuff from scratch on my shiny new [Raspberry Pi 2 Model B][] using the first half of [this GNU Radio tutorial][]. And I did at least manage to get as far receiving BBC Radio 4 using the `rtl_fm` command line tool like I had on my Mac laptop [back in week 319][AIS on SDR project].
+In the end I decided to start again installing stuff from scratch on my shiny new [Raspberry Pi 2 Model B][] using the first half of [this GNU Radio tutorial][]. And I did at least manage to get as far as receiving BBC Radio 4 using the `rtl_fm` command line tool like I had on my Mac laptop [back in week 319][AIS on SDR project].
 
 I did also manage to install and configure [GQRX][], the GUI app which I'd installed on my Mac, on the Raspberry Pi but I found that reception of Radio 4 was very "choppy" - I assume this is due to the fact that it's maxing out all four of the CPU cores!
 
