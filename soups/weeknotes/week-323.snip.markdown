@@ -5,19 +5,19 @@ Week 323
 
 [Chris L][] joined us in the office on Monday. He had a pretty productive day publishing [Web Audio Weekly 35][waw-35] and getting a [first draft of a blog post for Opera developer blog written][chris-l-opera-blog-post]. We even managed to squeeze in lunch at the [Strongroom bar][] and a cheeky post work pint at The Old King's Head.
 
-Wednesday evening saw us head to the [William IV pub][] for our monthly drinks. I don't think I've been there before but thought it was pretty good. We managed to get a table and it didn't get too busy/noisy. It turns out that the pub does have a GFR connection: It hosted a meeting of GFR back when it was still a looser group of freelancers - in fact, it may have been the meeting that kicked off the current incarnation of GFR.
+Wednesday evening saw us head to the [William IV pub][] for our monthly drinks. I don't think I've been there before but thought it was pretty good. We managed to get a table and it didn't get too busy/noisy. It turns out that the pub has a GFR connection: It hosted a meeting of GFR back in the very early days when [James Adam][] and [James Andrews][] were trying to convince people to get involved.
 
 ## Accounts department
 
 We completed our payroll for March during the week. Although [FreeAgent][] makes this process very easy, the March run took slightly longer than expected due to the additional questions you're required to answer at the end of the year.
 
-We've got a task hanging over from our annual accounts where we need to reduce our Prepayments account by the amount of the deposit we put down on 87 Worship Street office. We spent some time trying to get to grips with this by trying to reverse engineer the various Journal Entries that have been created in this account in the past. We made some progress but there's still some more work required.
+We've got a task hanging over from our annual accounts where we need to reduce our Prepayments account by the amount of the deposit we put down on 87 Worship Street office. We spent some time trying to get to grips with this by trying to reverse engineer the various Journal Entries that have been created in this account in the past. We made some progress but there's still more work to do.
 
 ## Business development department
 
-We continued to work through the procurement process for the work we're hoping to start in the near future.
+We continued to work through the procurement process for the work we're hoping to start in the next few weeks.
 
-## Office managers department
+## Office management department
 
 We downsized our [Urban Locker][] storage unit (from 100 to 60 square foot) now that we've moved quite a lot into our new office. We'd actually gone to our lockup to sort a few things out and were pleasantly surprised to be able to downsize there and then: We were lucky that there was a free 60 sq. ft. unit opposite the one we had.
 
@@ -31,7 +31,7 @@ We organised [Show and Tell 11][].
 
 ## Social media department
 
-We spent about an hour chatting to Diana about writing our profile for the [Shoreditch Works blog][]. We ended up rambling quite a bit about how GFR started, some of the projects we've worked on and some of the things we might do next. Hopefully Diana will be able to make some sense of it...
+We spent about an hour chatting to [Diana][] about writing our profile for the [Shoreditch Works blog][]. We ended up rambling quite a bit about how GFR started, some of the projects we've worked on and some of the things we might do next. Hopefully Diana will be able to make some sense of it...
 
 We published [week links for week 322](/week-322-links).
 
@@ -39,9 +39,9 @@ We published [week links for week 322](/week-322-links).
 
 ### Money Tracker
 
-I spent a few hours working on [Money Tracker][]. I managed to reduce the number of places to look when thinking about the project. I moved some outstanding stories from the [public PT project][money-tracker-pt] to a new [Trello board][money-tracker-trello], and the Changelog from [Fargo][] to a [textfile in the repo][money-tracker-changelog].
+I spent a few hours working on [Money Tracker][]. I managed to reduce the number of places to look when thinking about the project by moving some outstanding stories from the [public PT project][money-tracker-pt] to a new [Trello board][money-tracker-trello], and the Changelog from [Fargo][] to a [textfile in the repo][money-tracker-changelog].
 
-I fixed a problem with the jQuery autocomplete styles - it turns out that I still don't understand [Sprockets][] and/or [Sass][].
+I [fixed a problem with the jQuery autocomplete styles][money-tracker-autocomplete-bug] - it turns out that I still don't understand [Sprockets][] and/or [Sass][].
 
 I spent a short while spiking on some alternative bulk edit interfaces but didn't come up with anything that was obviously better than what I already had.
 
@@ -65,14 +65,18 @@ Until next time, folks.
 [belkin-tunecast]: http://www.belkin.com/uk/p/P-F8V3080/
 [Chris L]: http://blog.chrislowis.co.uk/
 [chris-l-opera-blog-post]: https://github.com/operasoftware/devopera/pull/256
+[Diana]: https://twitter.com/dianapinkett
 [Fargo]: http://fargo.io/
 [FreeAgent]: http://www.freeagent.com/
 [GNU AIS]: http://gnuais.sourceforge.net/
 [GQRX]: http://gqrx.dk/
+[James Adam]: http://lazyatom.com/
+[James Andrews]: https://uk.linkedin.com/in/jamesandrews
 [Money Tracker]: https://github.com/chrisroos/money-tracker
+[money-tracker-autocomplete-bug]: https://github.com/chrisroos/money-tracker/commit/ff0fce4ac2ff0729b92354c226d3e80417d60f47
+[money-tracker-changelog]: https://github.com/chrisroos/money-tracker/blob/master/CHANGELOG.md
 [money-tracker-pt]: https://www.pivotaltracker.com/n/projects/290359
 [money-tracker-trello]: https://trello.com/b/N0kPdGAW/money-tracker
-[money-tracker-changelog]: https://github.com/chrisroos/money-tracker/blob/master/CHANGELOG.md
 [Pact coffee]: https://www.pactcoffee.com/
 [rtl_fm]: http://kmkeen.com/rtl-demod-guide/
 [Sass]: http://sass-lang.com/
