@@ -89,10 +89,10 @@ Until next time, folks.
 [William IV pub]: http://www.thewilliam.co.uk/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-03-30 13:30:00 +01:00
-:updated_at: 2015-03-30 13:30:00 +01:00
+:updated_at: 2015-04-01 10:00:00 +01:00
 :page_title: Week 323
