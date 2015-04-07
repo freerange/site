@@ -53,10 +53,10 @@ Until next time.
 [week 304]: /week-304
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-04-07 12:30:00 +01:00
-:updated_at: 2015-04-07 12:30:00 +01:00
+:updated_at: 2015-04-07 17:30:00 +01:00
 :page_title: Week 324
