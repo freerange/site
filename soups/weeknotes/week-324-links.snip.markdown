@@ -71,10 +71,10 @@ I came across it via a [tweet from Kent Beck][] which suggests this is a good mo
 [AIS on SDR]: https://github.com/freerange/ais-on-sdr
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-04-01 10:42:00 +00:00
-:updated_at: 2015-04-01 10:42:00 +00:00
+:updated_at: 2015-04-07 16:30:00 +00:00
 :page_title: Week 324 - Interesting links
