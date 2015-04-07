@@ -21,7 +21,7 @@ We continued working through the contractual process for the new work we're hopi
 
 ## GFR Admin
 
-We've been using [Trello][] for a while now but have recently been feeling a little overwhelmed by the number of things in our To do list. Not only has the list been steadily growing but we were getting into the habbit of prioritising newer tasks which resulted in quite a few cards staying at the bottom and never getting worked on.
+We've been using [Trello][] for a while now but have recently been feeling a little overwhelmed by the number of things in our To do list. Not only has the list been steadily growing but we were getting into the habit of prioritising newer tasks which resulted in quite a few cards staying at the bottom and never getting worked on.
 
 To address both the number of tasks and the prioritisation of newer cards we've made a couple of tweaks to our process:
 
