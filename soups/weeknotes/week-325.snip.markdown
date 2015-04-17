@@ -1,26 +1,19 @@
 Week 325
 ========
 
-This was our last week before starting a new client engagement. It was also another short week due to the Easter Monday bank holiday.
-
-
-## Trello
-
-On Tuesday we had a long overdue sort out of our company [Trello][] board. We'd ended up with a depressing number of things in our _To Do_ list and it was hard to know whether we were making progress through the cards. So we decided to change our process a bit.
-
-Now new cards go into a _Triage_ list and we plan to go through this list weekly and move cards either into _To Do_ or _Later_ with the idea that we'll only put cards into _To Do_ when we think we have a realistic chance of getting them done that week. Hopefully it'll work a bit better and make the _To Do_ list seem a bit less overwhelming.
+This was our last week before starting a new client engagement. It was also another short week due to the Easter Monday bank holiday. We spent most of Tuesday catching up with admin.
 
 
 ## RubyForge
 
-Later that day I noticed that the RubyForge web server seemed to have sprung back to life, perhaps triggered by the stirling work [Tom S][] had done on his [rubyforge-redirects][] project.
+During the morning I noticed that the RubyForge web server seemed to have sprung back to life, perhaps triggered by the stirling work [Tom S][] had done on his [rubyforge-redirects][] project.
 
 I noticed this because [mocha.rubyforge.org][] now correctly redirects to the [relevant path on gofreerange.com][mocha on gofreerange.com]. The fact that the web server is up and running again is good news, because although many RubyForge-hosted projects have moved their sites elsewhere, there are plenty of pages on the web which still link to their previously-defunct rubyforge.org URLs.
 
 
 ## Show & Tell
 
-Earlier in the week, we popped up to our [self-storage locker][Urban Locker] and retrieved our projector, Apple TV, Chromecast, etc in time for the [Show & Tell event][show-and-tell-event-11] on Wednesday.
+On Tuesday we also popped up to our [self-storage locker][Urban Locker] and retrieved our projector, Apple TV, Chromecast, etc in time for the [Show & Tell event][show-and-tell-event-11] on Wednesday.
 
 Both [Chris][] and I spent most of Wednesday itself preparing something to show at the event. I quickly realised I wasn't going to have anything particularly amazing to demo, so I decided to spend the time putting together a basic presentation in an attempt to explain what I've been trying to do on my [AIS on SDR][] project.
 
