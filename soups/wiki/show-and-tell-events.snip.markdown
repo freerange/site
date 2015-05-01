@@ -17,6 +17,8 @@ We host this event in our office on the second Wednesday of every month. The ide
   <li><p><a href="/show-and-tell-11">Show and Tell 11</a></p></li>
 </ul>
 
+:render_as: Kramdown
 :is_page: true
 :created_at: 2014-10-23 18:02:00 +01:00
-:page_title: Show and Tell Events &mdash; Go Free Range.
+:layout: wiki-layout
+:page_title: Show and Tell Events
