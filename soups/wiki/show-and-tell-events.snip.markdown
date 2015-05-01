@@ -3,6 +3,13 @@ Show and Tell Events
 
 We host this event in our office on the second Wednesday of every month. The idea is for people to demonstrate side projects, open-source projects, etc in an informal setting with the aim of garnering friendly and constructive feedback.
 
+### Upcoming meetings
+
+* [Announcement mailing list](https://groups.google.com/a/gofreerange.com/d/forum/show-and-tell)
+* [Event series on Lanyrd](http://lanyrd.com/series/gfr-show-and-tell/)
+
+### Past meetings
+
 * [Show and Tell 1](/week-274#show-and-tell)
 * [Show and Tell 2](/week-286#show-and-tell)
 * [Show and Tell 3](/week-286#show-and-tell)
