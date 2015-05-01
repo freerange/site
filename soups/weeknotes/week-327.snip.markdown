@@ -3,7 +3,7 @@ Week 327
 
 Aloha, folks.
 
-We spent four days of week 327 working with our new client. I'm really enjoying the work. It's certainly challenging but I feel that we're slowly understanding the problem and starting to see some possible directions to move in.
+We spent four days of week 327 working with our new client. I'm really enjoying the work. It's certainly challenging but I feel that we're gradually understanding the problem and starting to see some possible directions to move in.
 
 Being on a client project has reminded me how difficult it is to keep up with the day-to-day running of GFR. I'm struggling to find/make the time to do anything GFR related until the Friday we spend in our own office.
 
