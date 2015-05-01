@@ -15,6 +15,23 @@ This came in handy when we were trying to ensure we hadn't broken the rendered H
 
 [IndieWeb]: http://indiewebcamp.com/
 
+### [Raspberry Pi Build Environment In No Time At All](https://lionfacelemonface.wordpress.com/2015/04/18/raspberry-pi-build-environment-in-no-time-at-all/)
+
+This blog post explains how to use [PRoot][] and [qemu][] to build packages for the Raspberry Pi without the need to do so on physical hardware. I recently built [GNU Radio][] on a Raspberry Pi and it took ages, so I hope to try this approach out sometime soon. Via [Paul B][]. {by james-mead}
+
+[GNU Radio]: http://gnuradio.org/
+[Paul B]: http://po-ru.com/
+[PRoot]: http://proot.me/
+[qemu]: http://qemu.org
+
+### [Video: The stunning still beauty of Antarctica](http://sploid.gizmodo.com/video-the-stunning-still-beauty-of-antarctica-1700493358)
+
+The superb footage in this video was filmed from a [DJI Phantom 2][] drone with a [GoPro HERO3+][] camera all launched from a yacht. The scenery is all very reminiscent of (and not far from) the area around the [research station][faraday-research-station] where I wintered back in the 1990s. {by james-mead}
+
+[DJI Phantom 2]: http://www.dji.com/product/phantom-2
+[GoPro HERO3+]: https://gopro.com/support/hero3plus-black-support
+[faraday-research-station]: http://www.antarctica.ac.uk/about_bas/our_history/stations_and_refuges/faraday.php
+
 :render_as: Blog
 :kind: draft
 :is_page: true
