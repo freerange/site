@@ -3,19 +3,17 @@ Show and Tell Events
 
 We host this event in our office on the second Wednesday of every month. The idea is for people to demonstrate side projects, open-source projects, etc in an informal setting with the aim of garnering friendly and constructive feedback.
 
-<ul>
-  <li><p><a href="/week-274#show-and-tell">Show and Tell 1</a></p></li>
-  <li><p><a href="/week-286#show-and-tell">Show and Tell 2</a></p></li>
-  <li><p><a href="/week-286#show-and-tell">Show and Tell 3</a></p></li>
-  <li><p><a href="/show-and-tell-4">Show and Tell 4</a></p></li>
-  <li><p><a href="/show-and-tell-5">Show and Tell 5</a></p></li>
-  <li><p><a href="/show-and-tell-6">Show and Tell 6</a></p></li>
-  <li><p><a href="/show-and-tell-7">Show and Tell 7</a></p></li>
-  <li><p><a href="/show-and-tell-8">Show and Tell 8</a></p></li>
-  <li><p><a href="/show-and-tell-9">Show and Tell 9</a></p></li>
-  <li><p><a href="/show-and-tell-10">Show and Tell 10</a></p></li>
-  <li><p><a href="/show-and-tell-11">Show and Tell 11</a></p></li>
-</ul>
+* [Show and Tell 1](/week-274#show-and-tell)
+* [Show and Tell 2](/week-286#show-and-tell)
+* [Show and Tell 3](/week-286#show-and-tell)
+* [Show and Tell 4](/show-and-tell-4)
+* [Show and Tell 5](/show-and-tell-5)
+* [Show and Tell 6](/show-and-tell-6)
+* [Show and Tell 7](/show-and-tell-7)
+* [Show and Tell 8](/show-and-tell-8)
+* [Show and Tell 9](/show-and-tell-9)
+* [Show and Tell 10](/show-and-tell-10)
+* [Show and Tell 11](/show-and-tell-11)
 
 :render_as: Kramdown
 :is_page: true
