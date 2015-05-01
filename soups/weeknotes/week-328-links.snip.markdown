@@ -33,10 +33,10 @@ The superb footage in this video was filmed from a [DJI Phantom 2][] drone with 
 [faraday-research-station]: http://www.antarctica.ac.uk/about_bas/our_history/stations_and_refuges/faraday.php
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-05-01 12:30:00 +01:00
-:updated_at: 2015-05-01 12:30:00 +01:00
+:updated_at: 2015-05-01 15:30:00 +01:00
 :page_title: Week 328 - Interesting links
