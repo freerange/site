@@ -61,10 +61,10 @@ Until next time.
 [Vestibule]: https://github.com/rubymanor/vestibule
 
 :render_as: blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-05-15 12:00:00 +01:00
-:updated_at: 2015-05-15 14:40:00 +01:00
+:updated_at: 2015-05-15 15:05:00 +01:00
 :page_title: Show and Tell 12
