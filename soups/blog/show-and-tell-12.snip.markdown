@@ -11,11 +11,11 @@ James talked about the success he'd had in extracting messages from some AIS dat
 
 ## Tax implications of salary vs dividend
 
-James demonstrated a Google Spreadsheet he created to [calculate the tax implications of paying ourselves using a mix of salary and dividend][tax-spreadsheet]. He's made it available as a public spreadsheet so that other people can use it. I was fascinated by quite how complicated the rules are, and how little information there appears to be about them.
+James demonstrated a Google Spreadsheet he created to [calculate the tax implications of paying ourselves using a mix of salary and dividend][tax-spreadsheet]. He's made it available as a public spreadsheet so that other people can use it. I was fascinated by quite how complicated the rules are, and how little *clear* information there appears to be about them.
 
 ## Google Apps Scripting
 
-James's third offering was a Google Apps script he created to [automatically save an email attachment to Google Drive][gapps-script]. I was particularly interested in how easy it appears to be to script these sort of things, and that you can schedule the scripts to run at regular intervals.
+James's third offering was a Google Apps script he created to [automatically save an email attachment to Google Drive][gapps-script]. I was interested to see how easy it appears to be to script these sort of things: Authorising the script to operate on your Google services is handled automatically so you just need to focus on the code to do what you want. I was also interested to learn that you can schedule your scripts to run at regular intervals.
 
 ## Mailing list software
 
