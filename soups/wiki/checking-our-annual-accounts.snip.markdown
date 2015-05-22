@@ -29,6 +29,8 @@ I don't think there's anything we need to check in this section, but it's probab
 
 This report should look pretty similar to [FreeAgent's Profit and Loss report][freeagent-profit-and-loss] (FA P+L) for the same period.
 
+Each section is detailed below so that you can manually check the figures against FreeAgent. Alternatively, you could create a spreadsheet based on FreeAgent's Trial Balance data that allows you compare the figures more accurately. See the [spreadsheet for 2014/15](https://docs.google.com/spreadsheets/d/1utSHuXZ5GkDhsdl9-pi_eMUytU22ot3E8F2LWsPvk1c/edit#gid=44199236) for an example of how this is possible.
+
 ### Turnover
 
 * Should equal "Turnover" in FA P+L.
