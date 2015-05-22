@@ -78,6 +78,8 @@ Each section is detailed below so that you can manually check the figures agains
 
 This report should look pretty similar to [FreeAgent's Balance Sheet report][freeagent-balance-sheet] (FA Balance Sheet) for the same period.
 
+Each section is detailed below so that you can manually check the figures against FreeAgent. Alternatively, you could create a spreadsheet based on FreeAgent's Trial Balance data that allows you compare the figures more accurately. See the [spreadsheet for 2014/15](https://docs.google.com/spreadsheets/d/1utSHuXZ5GkDhsdl9-pi_eMUytU22ot3E8F2LWsPvk1c/edit#gid=44199236) for an example of how this is possible.
+
 ### Current assets
 
 #### Debtors
