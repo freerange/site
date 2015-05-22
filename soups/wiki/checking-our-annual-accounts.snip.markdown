@@ -120,7 +120,7 @@ Each section is detailed below so that you can manually check the figures agains
 
 ### 1. Accounting policies
 
-* I don't think we need to do anything about this section. Simply read it and make sure there's nothing odd in what's written.
+* I don't think we need to do anything about this section. Simply read it and make sure there's nothing odd in what's written. You should compare it to the same section in the previous years to ensure that it's either identical or very similar.
 
 ### 2. Operating profit
 
