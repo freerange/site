@@ -128,7 +128,8 @@ Each section is detailed below so that you can manually check the figures agains
 
 ### 3. Directors' remuneration
 
-* I believe this should be equal to a combination of the "Directors' salaries" listed under "Staff Costs" in the FA P+L, and our pension contributions. In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
+* I believe this should be equal to a combination of the "Directors' salaries" listed under "Staff Costs" in the FA P+L, and our pension contributions.
+* In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
 * Ensure the number listed against "During the year the number of directors who were receiving benefits and share incentives was as follows" is correct.
 
 ### 4. Taxation
@@ -140,12 +141,15 @@ Each section is detailed below so that you can manually check the figures agains
 
 * "Trade debtors" should equal "Trade Debtors" listed under "Current Assets" on the FA Balance Sheet.
 * "Other debtors" should equal "Prepayments" + the sum of the "Director loan accounts" listed under "Current Assets" on the FA Balance Sheet.
+* In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
 
 ### 6. Creditors: Amounts falling due within one year
 
 * "Corporation tax" should equal "UK Corporation tax" from "4. Taxation" above.
 * "Other taxes and social security" should equal "VAT" + "Deferred VAT" listed under "Current Liabilities" on the FA Balance Sheet.
 * "Other creditors" should equal "Accruals" listed under "Current Liabilities" on the FA Balance Sheet.
+* In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
+* In 2014/15 this section included a line item for "Other taxes and social security". I'm not sure why this wasn't present in our 2013/14 accounts.
 
 ### 7. Share capital
 
@@ -154,6 +158,7 @@ Each section is detailed below so that you can manually check the figures agains
 ### 8. Dividends
 
 * "Current year interim dividend paid" should equal "Dividends Paid" on the FA P+L.
+* In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
 
 ### 9. Reserves
 
@@ -161,12 +166,18 @@ Each section is detailed below so that you can manually check the figures agains
 * "Profit for the year" should equal "Profit for the financial year" from "Step 4. Profit and Loss".
 * "Dividends" should equal "Current year interim dividend paid" from "8. Dividends" above.
 * "At 31 January 2014" should roughly equal "Distributable Reserves / Retained Profit carried forward" on the FA P+L.
+* In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
 
-### 10. Commitments
+### 10. Pensions
+
+* In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
+
+### 11. Commitments
 
 * "Within two and five years" should equal our annual rent commitment (e.g. £21,432 in 2013/14 as we were paying £5358/month).
+* There was no commitment in 2014/15 which is what I expected given that we no longer had the lease on 87 Worship Street.
 
-### 11. Related party transactions
+### 12. Related party transactions
 
 #### Directors' advances and credits
 
@@ -181,6 +192,10 @@ Each section is detailed below so that you can manually check the figures agains
 ### 12. Control
 
 * I think this should simply state that "The company is controlled by the directors who own 100% of the called up share capital."
+
+## Detailed Profit and Loss account
+
+* In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
 
 [3ca-blog-post]: http://www.3caonline.com/why-are-my-accounts-different-from-my-accountants-accounts/
 [trial-balance-2014-15]: https://docs.google.com/spreadsheets/d/1utSHuXZ5GkDhsdl9-pi_eMUytU22ot3E8F2LWsPvk1c/edit#gid=44199236
