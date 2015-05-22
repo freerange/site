@@ -29,7 +29,7 @@ I don't think there's anything we need to check in this section, but it's probab
 
 This report should look pretty similar to [FreeAgent's Profit and Loss report][freeagent-profit-and-loss] (FA P+L) for the same period.
 
-Each section is detailed below so that you can manually check the figures against FreeAgent. Alternatively, you could create a spreadsheet based on FreeAgent's Trial Balance data that allows you compare the figures more accurately. See the [spreadsheet for 2014/15](https://docs.google.com/spreadsheets/d/1utSHuXZ5GkDhsdl9-pi_eMUytU22ot3E8F2LWsPvk1c/edit#gid=44199236) for an example of how this is possible.
+Each section is detailed below so that you can manually check the figures against FreeAgent. Alternatively, you could create a spreadsheet based on FreeAgent's Trial Balance data that allows you compare the figures more accurately. See the [spreadsheet for 2014/15][trial-balance-2014-15] for an example of how this is possible.
 
 ### Turnover
 
@@ -78,7 +78,7 @@ Each section is detailed below so that you can manually check the figures agains
 
 This report should look pretty similar to [FreeAgent's Balance Sheet report][freeagent-balance-sheet] (FA Balance Sheet) for the same period.
 
-Each section is detailed below so that you can manually check the figures against FreeAgent. Alternatively, you could create a spreadsheet based on FreeAgent's Trial Balance data that allows you compare the figures more accurately. See the [spreadsheet for 2014/15](https://docs.google.com/spreadsheets/d/1utSHuXZ5GkDhsdl9-pi_eMUytU22ot3E8F2LWsPvk1c/edit#gid=44199236) for an example of how this is possible.
+Each section is detailed below so that you can manually check the figures against FreeAgent. Alternatively, you could create a spreadsheet based on FreeAgent's Trial Balance data that allows you compare the figures more accurately. See the [spreadsheet for 2014/15][trial-balance-2014-15] for an example of how this is possible.
 
 ### Current assets
 
@@ -128,7 +128,8 @@ Each section is detailed below so that you can manually check the figures agains
 
 ### 3. Directors' remuneration
 
-* This should equal "Directors' salaries" listed under "Staff Costs" in the FA P+L.
+* I believe this should be equal to a combination of the "Directors' salaries" listed under "Staff Costs" in the FA P+L, and our pension contributions. In [2014/15 I was able to arrive at the figures using FreeAgent's Trial Balance data][trial-balance-2014-15].
+* Ensure the number listed against "During the year the number of directors who were receiving benefits and share incentives was as follows" is correct.
 
 ### 4. Taxation
 
@@ -182,6 +183,7 @@ Each section is detailed below so that you can manually check the figures agains
 * I think this should simply state that "The company is controlled by the directors who own 100% of the called up share capital."
 
 [3ca-blog-post]: http://www.3caonline.com/why-are-my-accounts-different-from-my-accountants-accounts/
+[trial-balance-2014-15]: https://docs.google.com/spreadsheets/d/1utSHuXZ5GkDhsdl9-pi_eMUytU22ot3E8F2LWsPvk1c/edit#gid=44199236
 
 :render_as: Kramdown
 :is_page: true
