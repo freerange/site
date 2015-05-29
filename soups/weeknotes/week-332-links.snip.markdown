@@ -32,6 +32,27 @@ A while ago Chris talked about moving his blog from [Webby](http://webby.rubyfor
 This is like [Timehop](http://timehop.com/), but for GitHub. It reminded me of an idea Chris had recently - showing you your own commit messages some time after you made them to see whether you can still understand what you meant. {by james-mead}
 
 
+### [Open Location Code: Addresses for everything, everywhere](http://google-opensource.blogspot.co.uk/2015/04/open-location-code-addresses-for.html)
+
+Google have developed a Postcode-like system for the entire world! Seeing this reminded me of [Tom][]'s little [geohash exploring utility][geohash-explorer] that he [wrote about][geohash-blogpost] back in September 2011! It turns out that there are a number of alternative location encoding systems, including Geohash, and the [open-location-code repository][] contains an interesting [comparison][open-location-code-comparison] that helps explain the motivation for yet another system. {by chris-roos}
+
+[geohash-blogpost]: https://tomafro.net/2011/09/a-small-toy-to-explore-geohashes
+[geohash-explorer]: https://github.com/tomafro/geohash-explorer
+[open-location-code repository]: https://github.com/google/open-location-code
+[open-location-code-comparison]: https://github.com/google/open-location-code/blob/master/docs/comparison.adoc
+[Tom]: https://tomafro.net/
+
+
+### [Time-lapse Mining from Internet Photos](http://grail.cs.washington.edu/projects/timelapse/)
+
+This is great! A completely automated approach for generating time-lapse movies from large numbers of public images available on the web. {by chris-roos}
+
+
+### [Introducing new open, shareable steps in FutureLearn courses](https://about.futurelearn.com/blog/introducing-new-open-shareable-steps-in-futurelearn-courses/)
+
+It's great to see FutureLearn start to open up some of their course content to people that aren't registered on the course. I know they've been wanting to do it for quite some time so it's great to see them making progress in this direction. {by chris-roos}
+
+
 :render_as: Blog
 :kind: draft
 :is_page: true
