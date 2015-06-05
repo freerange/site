@@ -47,7 +47,7 @@ Clearly asserting on the differences in HTML is very brittle, but we think it's 
 
 The regression tests rely on having a set of possible responses with which to exercise the flow and generate the outcome pages. For multiple choice questions this is relatively easy, because we can just use all the possible responses, but with questions requiring responses like a date, an integer or a country, including *all* the possible responses would make the tests prohibitively slow.
 
-So we decided to make use of the [Simplecov][] code coverage tool and inspection of the flow logic to select more minimalist sets of responses which still exercise all the reachable code. Unfortunately the fact the flow DSL code is executed [using `Kernel#eval`][smart-answer-flow-eval] meant that no test coverage data was available.
+So we decided to make use of the [Simplecov][] code coverage tool and inspection of the flow logic to select more minimalist sets of responses which still exercise all the reachable code. Unfortunately the fact the flow DSL code is executed using [`Kernel#eval`][smart-answer-flow-eval] meant that no test coverage data was available.
 
 We addressed this by [moving the DSL code for each flow into an instance method][make-test-coverage-available-for-smart-answer-flows] on a subclass of `SmartAnswer::Flow`.
 
