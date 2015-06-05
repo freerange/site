@@ -105,10 +105,10 @@ That's all folks.
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-06-05 12:17:00 +01:00
-:updated_at: 2015-06-05 12:17:00 +01:00
+:created_at: 2015-06-05 14:33:00 +01:00
+:updated_at: 2015-06-05 14:33:00 +01:00
 :page_title: Week 330
