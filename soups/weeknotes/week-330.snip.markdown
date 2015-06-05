@@ -67,7 +67,7 @@ We've also been making an effort to remove unused code. For example, there are a
 
 On Monday, I went along to the [May LRUG meeting][]. However, I was feeling really tired and skipped the post-meeting pub visit.
 
-On Wednesday, we hosted our [twelfth Show and Tell event][show-and-tell-12] and on Thursday evening, we caught up with [Pete Herlihey][] over a few beers at [The Old Nick][] - it was really interesting to hear what he's been up to.
+On Wednesday, we hosted our [twelfth Show and Tell event][show-and-tell-12] and on Thursday evening, we caught up with [Pete Herlihy][] over a few beers at [The Old Nick][] - it was really interesting to hear what he's been up to.
 
 On Friday we had lunch with [Tom Stuart][] at the First Step cafe. Later that afternoon, Tom came up to our office to prepare for a client pairing session which he was due to run on the following Monday.
 
@@ -99,7 +99,7 @@ That's all folks.
 [pull-1640]: https://github.com/alphagov/smart-answers/pull/1640
 [May LRUG meeting]: http://lrug.org/meetings/2015/may/
 [show-and-tell-12]: /show-and-tell-12
-[Pete Herlihey]: https://twitter.com/yahoo_pete
+[Pete Herlihy]: https://twitter.com/yahoo_pete
 [The Old Nick]: http://oldnickholborn.co.uk/
 [Tom Stuart]: http://codon.com/
 
