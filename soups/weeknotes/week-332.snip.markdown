@@ -3,35 +3,44 @@ Week 332
 
 Howdi, folks.
 
-Short week due to bank holiday monday. Three days on Smart Answers for GDS and Friday working for ourselves.
+Week 332 was another short one due to the bank holiday on Monday. We spent three days working on Smart Answers and Friday catching up on GFR business.
 
 ## Smart Answers
 
-Continued adding regression tests and switching a number of smart answers to use ERB templates. After switching a few to use ERB templates we realised that it's probably more important to focus on getting all the regression tests in place so that's what we've been doing.
+We're continuing to add regression tests and have started switching a number of smart answers to use ERB templates. Having switched three Smart Answers to use ERB templates we realised that it's probably more important to get all the regression tests in place. Having all the regression tests in place will make it possible to update individual Smart Answers (e.g. switch from YAML to ERB) and also make it possible to change some of the underlying code that may affect all Smart Answers. The repository is now 85% html!
 
-Focussed on improving the performance of the regression tests. They take quite some time to run so we've been coming up with ways of only running them when something's changed. I've got a pull request that contains an approach to this problem - https://github.com/alphagov/smart-answers/pull/1667. We construct a set of files that are required by the smart answer and hash their contents. By checking these hashes when we start running the tests, we can work out whether the source files have been updated, and therefore whether we need to run the tests.
+We spent some time investigating improvements to the performance of the regression tests. We're currently running the regression tests as part of the main test suite and each additional Smart Answer that we add tests for causes the build to take longer. We investigated running the tests in parallel before switching our efforts toward [only running the tests for a Smart Answer when that Smart Answer's source files had changed][PR-1667]. We do that by recording a hash of the contents of the files that are required by each Smart Answer. If the file contents change then the hash will no longer match and we know that we need to run the regression tests. Having tests that don't run all the time feels a little strange but I think it's probably a good compromise in this instance. Especially as we're hoping to remove these regression tests as soon as they've served their purpose.
 
-Continued to add regression tests for more of the smart answers. Ran into a problem where a filename of some of the generated output is too long! Started to investigate storing the rendered outcomes in directories matching the responses, as they appear on the website, e.g:
+I was forced to make a change to the way we were storing the rendered outcome HTML after running into a problem with a filename that was too long. I was storing all the generated outcomes in a single directory, with the response information stored in the filename. Take, for example, the following Smart Answer outcome URL: https://www.gov.uk/student-finance-calculator/y/2014-2015/eu-part-time/3000.0. I was previously storing that as "2014-2015-eu-part-time-3000.0.html" which, depending on the number of responses, can lead to some very long filenames. I've now switched to mirror the path structure in the URL so that outcome would be stored at "2014-2015/eu-part-time/3000.0.html" instead.
 
-https://www.gov.uk/student-finance-calculator/y/2014-2015/eu-part-time/3000.0
+James found, and [removed][commit-927286], a whole chunk of code that wasn't being used, which is great!
 
-stored in 2014-2015/eu-part-time/3000.0.html instead of 2014-2015-eu-part-time-3000.0.html
-
-James was able to get rid of a whole chunk of unused code, which is great! - 927286cf17eff431a0ff33fb77e9146107c50447
-
-James improved the regression tests so that a test fails if the content of the rendered outcome directory has changed after running the tests - 70d55fa10fdcda77fcffc76bb59cdc1e581288eb
-
-The repo is currently 85% html!
+James improved the regression tests by [adding a test that fails if a change to a Smart Answer results in some existing outcomes no longer being reached][commit-70d55f]. It would've been possible to notice this previously (because `git` would report differences in our output directory) but having a test that fails is much better.
 
 ## GFR
 
-Our plans were slightly changed when Tadas reported an error with Smart Answers. We spent some time investigating before realising that it was caused by an unrelated service.
+[Paul][] and [Ben][] joined James and I for our GFR drinks on Wednesday. We'd originally planned a trip to [The Barley Mow][] but the beautiful morning caused us to switch to [The Old Salt Quay][] and it's West facing beer garden. Unfortunately, the weather had deteriorated a bit by the time we got there but we still had a very pleasant evening.
 
-Met with Josh. Josh has started exploring the credit union space and wanted to chat to us about the work we've done. He's got some great ideas and I really hope he manages to make progress with some of them. It got us excited about the opportunities in this space.
+The start of our GFR day on Friday was slightly different than planned as [Tadas][] reported seeing errors in Smart Answers. We spent a short while investigating before realising that the errors were being caused by an external service and that was already been investigated by some other folks.
+
+We spent about an hour on Friday morning chatting to [Josh Russell][]. We'd met Josh a couple of times in the past in his work at GDS but he's now left there and is thinking about what's next. Josh has started to think about opportunities in the credit union space and we were more than happy to chat about [our experiences][credit-union]. Josh has got some great ideas, and his enthusiasm rekindled our interest in the whole area. I'm hoping he manages to make some progress and look forward to hear what he gets up to.
+
+The remainder of Friday was spent, as is the norm, catching up on various other GFR related tasks that we didn't get to during the week.
 
 Until next time.
 
 -- Chris
+
+[Ben]: https://twitter.com/beng
+[commit-70d55f]: https://github.com/alphagov/smart-answers/commit/70d55fa10fdcda77fcffc76bb59cdc1e581288eb
+[commit-927286]: https://github.com/alphagov/smart-answers/commit/927286cf17eff431a0ff33fb77e9146107c50447
+[credit-union]: http://gofreerange.com/credit-union
+[Josh Russell]: http://joshrussell.com/
+[Paul]: http://po-ru.com/
+[PR-1667]: https://github.com/alphagov/smart-answers/pull/1667
+[Tadas]: http://codeme.lt/
+[The Barley Mow]: http://www.remarkablerestaurants.co.uk/remarkable-restaurants-barley.html
+[The Old Salt Quay]: http://www.saltquay-rotherhithe.co.uk/
 
 :render_as: Blog
 :kind: draft
