@@ -44,10 +44,10 @@ Until next time.
 [waw-38]: http://blog.chrislowis.co.uk/waw/2015/06/05/web-audio-weekly-38.html
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-05-06 10:45:00 +01:00
-:updated_at: 2015-05-06 10:45:00 +01:00
+:updated_at: 2015-05-12 11:20:00 +01:00
 :page_title: Week 333
