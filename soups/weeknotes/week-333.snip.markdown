@@ -3,7 +3,7 @@ Week 333
 
 Howdi, folks.
 
-We spent four days working on Smart Answers (2 days working at Aviation House and 2 days in our office). Friday was spent working on GFR.
+We spent four days working on [Smart Answers][] (2 days working at Aviation House and 2 days in our office). Friday was spent working on GFR.
 
 ## Smart Answers
 
@@ -25,16 +25,23 @@ James and I created a couple of Trello boards to keep on top of the various thin
 
 ## GFR
 
-Getting up to date on week notes.
+Most of Friday was spent ticking off some GFR admin tasks and getting up to date on our week notes for the last few weeks.
 
-Lunch with Tom S, Ben G and Chris L.
+We had an enjoyable lunch in the cafe with [Tom S][], [Ben G][] and [Chris L][]. Chris joined us in the office for the afternoon and published [issue 38 of his Web Audio Weekly][waw-38].
 
-Chris L in the office.
+We finished the day a little earlier than usual and joined the crowds of people standing outside the pub in the beautiful sunshine.
+
+Until next time.
 
 -- Chris
 
+[Ben G]: https://twitter.com/beng
+[Chris L]: http://blog.chrislowis.co.uk
 [commit-390e6c]: https://github.com/alphagov/smart-answers/commit/390e6c99a026787cc98ef4d7db1507a2ce76ca59
 [commit-458e70]: https://github.com/alphagov/smart-answers/commit/458e7029229b11f003a85ee8ea46572660df4917
+[Smart Answers]: https://github.com/alphagov/smart-answers
+[Tom S]: http://codon.com/
+[waw-38]: http://blog.chrislowis.co.uk/waw/2015/06/05/web-audio-weekly-38.html
 
 :render_as: Blog
 :kind: draft
