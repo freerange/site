@@ -9,7 +9,7 @@ We spent four days working on [Smart Answers][] (2 days working at Aviation Hous
 
 We're now in our eighth week of working on Smart Answers. I was quite surprised to realise we've been there that long, but then when I think about what we've managed to do I guess it seems about right.
 
-I finished off, and [merged][commit-458e70], the work we started last week to speed up the regression tests. This is great as we were already starting to feel the pain of a slow test suite caused by all the regression tests we've added.
+I finished off, and [merged][commit-458e70], the work we started last week to selectively run the regression tests. This is great as we were already starting to feel the pain of a slow test suite caused by all the regression tests we've added.
 
 I [added a regression test to ensure that we're exercising all the nodes of a Smart Answer][commit-390e6c]. In most cases we'd hope to see these unused nodes in the coverage reports but this test helps us find unused outcome nodes that don't contain any code.
 
