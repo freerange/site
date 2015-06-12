@@ -48,6 +48,6 @@ Until next time.
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-05-06 10:45:00 +01:00
-:updated_at: 2015-05-12 11:20:00 +01:00
+:created_at: 2015-06-06 10:45:00 +01:00
+:updated_at: 2015-06-12 11:20:00 +01:00
 :page_title: Week 333
