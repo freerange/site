@@ -25,7 +25,7 @@ The intermediate Erubis step meant that we could address some "ERB trim" issues 
 
 For a while we've wondered what metrics are being collected to evaluate the effectiveness of the current smart answers.
 
-This week we established that there currently isn't a way for to see what percentage of people arriving at the beginning of a smart answer make it through to an outcome page, or whether there's a particular point at which people get stuck.
+This week we established that there currently isn't an easy way to see what percentage of people arriving at the beginning of a smart answer make it through to an outcome page, or whether there's a particular point at which people get stuck.
 
 Everyone agrees that it would be useful to be able to see data like this, and so we've made a start at getting some basic metrics in place using Google Analytics.
 
@@ -35,7 +35,7 @@ Chris spent quite a bit of time going through exceptions from the Smart Answers 
 
 It turns out that the majority of reported exceptions are safe to ignore, mainly because they don't result in the user seeing an error, because of e.g. caching. However, the fact that they are reported means that the signal-to-noise ratio is lower than we would like.
 
-In the past, we've found that this situation can be a bit of a slippery slope, because it can be all to easy to accidentally ignore genuine problems. So we'd like to continue to make improvements in this area if we can.
+In the past, we've found that this situation can be a bit of a slippery slope, because it can be all to easy to accidentally ignore genuine problems. So we'd like to continue to make improvements in this area if we can e.g. by explicitly ignoring very specific "safe-to-ignore" exceptions.
 
 ### Deployment
 
@@ -43,7 +43,7 @@ On Tuesday afternoon we watched [Ben J][] and [Elliot C-M][] deploy the Smart An
 
 As I understand it, production traffic is constantly being [re-played against the staging environment][govuk-replay-production-traffic], so Elliot was able to check nothing had gone awry before biting the bullet and deploying the app to production.
 
-Although there's an impressive amount of automation involved in this process, there are still quite a few manual steps and it all takes a while.
+Although there's an impressive amount of automation involved in this process, there are still quite a few manual steps and it does all take a while.
 
 ### Deleting Code
 
@@ -95,10 +95,10 @@ That's all, folks.
 [Murray]: http://h-lame.com/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-06-15 16:07:00 +01:00
-:updated_at: 2015-06-15 16:07:00 +01:00
+:created_at: 2015-06-16 10:30:00 +01:00
+:updated_at: 2015-06-16 10:30:00 +01:00
 :page_title: Week 334
