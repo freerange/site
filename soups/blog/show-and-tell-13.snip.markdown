@@ -7,19 +7,19 @@ We kicked off with a continuation of the discussion about [Daniel Dennett][denne
 
 ## Google Photos
 
-I briefly demonstrated [Google Photos][google-photos]. I took a couple of photos of a little sailing boat on the Thames last night and Google Photos had automatically turned them into a little animated gif which I was able to show. I particularly like the fact that Google Photos sits on top of [Google Drive][google-drive], and that just by uploading photos to Drive, I get some of these automated creations for free.
+I briefly demonstrated [Google Photos][google-photos]. I took a couple of photos of a little sailing boat on the Thames last night and Google Photos had automatically turned them into a little animated gif which I was able to show. I particularly like the fact that Google Photos sits on top of [Google Drive][google-drive], and that just by uploading photos to Drive, I get these automated creations for free.
 
 ## Extracting ID3 tags
 
-I talked through a little script I created to automatically scan a directory for new MP3s and extract the ID3 tags. I started out using [FileWatcher][file-watcher] but had to look for alternatives when I ran into problems with partially copied files. I [investigated a couple of alternatives][files-changed-gist] before settling on a simple loop that runs every 30 seconds. I avoid extracting data from MP3s I've already seen by comparing a hash of the file to a cache of hashes I've already seen. [Paul B][paul-b] mentioned that the hash generation was probably quite expensive and that it might be good enough to store information about the file metadata (e.g. last modified) to make things slightly more effiecient. [James M][james-m] mentioned [fswatch][] as a potentially more robust version of FileWatcher, and [md5deep][] as a potentially more efficient way of generating the file hashes.
+I talked through a little script I created to automatically scan a directory for new MP3s and extract the ID3 tags. I started out using [FileWatcher][file-watcher] but had to look for alternatives when I ran into problems with partially copied files. I [investigated a couple of alternatives][files-changed-gist] before settling on a simple loop that runs every 30 seconds. I avoid extracting data from MP3s I've already seen by comparing a hash of the file to a cache of hashes I've already seen. [Paul B][paul-b] mentioned that the hash generation was probably quite expensive and that it might be good enough to store information about the file metadata (e.g. last modified) to make things slightly more efficient. [James M][james-m] mentioned [fswatch][] as a potentially more robust version of FileWatcher, and [md5deep][] as a potentially more efficient way of generating the file hashes.
 
 ## Layout on the web
 
-I think it was the demonstration of Google Photos that kicked off some discussion about grid layouts on the web. [Ben G][ben-g] mentioned [The Grid][the-grid] as something that claims to take the pain out of laying content out manually. Tom talked about doing this sort of grid based layout by hand in the past, and how it was actually relatively trivial once he'd sketched it all out and understand how it works. This all reminded Paul that he'd recently been surprised to learn about [algebraic expressions in CSS's nth-child selector][nth-child].
+I think it was the demonstration of Google Photos that kicked off some discussion about grid layouts on the web. [Ben G][ben-g] mentioned [The Grid][the-grid] as something that claims to take the pain out of laying content out manually. Tom talked about doing this sort of grid based layout by hand in the past, and how it was actually relatively trivial once he'd sketched it all out and understand how it works. This all reminded Paul that he'd recently read, and been surprised to learn, about [algebraic expressions in CSS's nth-child selector][nth-child].
 
 ## Hello, declarative world
 
-[Tom S][tom-s] took us through the presentation he gave at the [Joy of Coding][joy-of-coding]. His talk was about declarative programming in Ruby and he talked us through the code he created for the presentation. While I can't say I followed all of it, it was certainly interesting to see a declarative system based on relatively simple concepts be used to solve problems.
+[Tom S][tom-s] took us through the presentation he gave at the [Joy of Coding][joy-of-coding]. His talk was about declarative programming in Ruby and he walked us through the code he created for the presentation. While I can't say I followed all of it, it was certainly interesting to see a declarative system based on relatively simple concepts be used to solve problems.
 
 ## Web Audio Weekly workflow
 
