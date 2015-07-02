@@ -36,10 +36,10 @@ Until next time.
 [We Work]: https://www.wework.com/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-06-26 15:45:00 +01:00
-:updated_at: 2015-06-26 15:45:00 +01:00
+:updated_at: 2015-07-02 09:30:00 +01:00
 :page_title: Week 335
