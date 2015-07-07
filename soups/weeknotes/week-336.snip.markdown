@@ -32,7 +32,7 @@ On Wednesday we had a maritime edition of our monthly drinks aboard the 209ft st
 
 On Friday morning Andrew Pavord of [FilmFixer][] came to our office for a chat. If you're making a film and you need some locations on which to shoot, Andrew is your man. The app used by most of the London borough councils (and in cities around the world) to manage such applications from film production companies. Andrew isn't technical himself, but he used to be a freelance Location Manager for film production companies so he has a deep knowledge of the problem domain. Anyway, I think it's impressive how he's built up a system and a business in this area using only out-sourced developers.
 
-For lunch we headed back to [Dinerama][] which Chris & I had reconnoitred the previous lunchtime. We claimed our free beer and sizzled in the heat on the top deck with [Chris L][], [Murray][] and [Ben][].
+For lunch we headed back to [Dinerama][] which Chris & I had reconnoitred the previous lunchtime. We claimed our free beer and sizzled in the heat on the top deck with [Chris L][], [Murray][] and [Ben G][].
 
 Chris & I returned to GFRHQ with Chris L for the afternoon and did a bit of admin. I spent much of the afternoon upgrading Rails, Rack, etc on our Linode box in reponse to the recent security advisories. Chris L published [Web Audio Weekly #41][waw-41].
 
@@ -60,7 +60,7 @@ Chris & I returned to GFRHQ with Chris L for the afternoon and did a bit of admi
 [Dinerama]: http://www.streetfeastlondon.com/where/dinerama
 [Chris L]: http://chrislowis.co.uk/
 [Murray]: http://h-lame.com/
-[Ben]: https://twitter.com/beng
+[Ben G]: https://twitter.com/beng
 [waw-41]: http://blog.chrislowis.co.uk/waw/2015/06/26/web-audio-weekly-41.html
 
 :render_as: Blog
