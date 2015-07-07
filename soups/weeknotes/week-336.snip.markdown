@@ -64,10 +64,10 @@ Chris & I returned to GFRHQ with Chris L for the afternoon and did a bit of admi
 [waw-41]: http://blog.chrislowis.co.uk/waw/2015/06/26/web-audio-weekly-41.html
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2015-07-03 14:34:00 +01:00
-:updated_at: 2015-07-03 17:13:00 +01:00
+:updated_at: 2015-07-07 14:25:00 +01:00
 :page_title: Week 336
