@@ -41,7 +41,7 @@ Historically we've been fans of the single history master branch, but have recen
 
 ### [Streamio FFMPEG](https://github.com/streamio/streamio-ffmpeg)
 
-This claims to be a "simple yet powerful Ruby ffmpeg wrapper for reading metadata and transcoding movies". I thought it might be a useful alternative to [Amazon Elastic Transcoder](http://aws.amazon.com/elastictranscoder/) for our [GFR Video](https://video.gofreerange.com) service. Also it looks as if [StreamIO](https://streamio.com/) might be offering a similar service, although I struggled to find much detail about their service. {by james-mead}
+This claims to be a "simple yet powerful Ruby ffmpeg wrapper for reading metadata and transcoding movies". I thought it might be a useful alternative to [Amazon Elastic Transcoder](http://aws.amazon.com/elastictranscoder/) for our [GFR Video](https://video.gofreerange.com) service. Also it looks as if [StreamIO](https://streamio.com/) might be offering something similar to GFR Video, although I struggled to find much detail about their service on their website. {by james-mead}
 
 
 ### [Moving Past the Scaling Myth](https://michaelfeathers.silvrback.com/the-myth-of-scaling)
