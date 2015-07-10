@@ -58,7 +58,7 @@ I was talking to someone the other day about certain special words, like "enim" 
 
 Watching one of the recent lightning storms in London recently led me to read more about the science behind the VLF experiments that I ran on an [Antarctic research station](http://antarctica.ac.uk/about_bas/our_history/stations_and_refuges/faraday.php) in the 90s. 
 
-[Whistlers](https://en.wikipedia.org/wiki/Whistler_\(radio\)) are caused by some of the radio frequencies emitted by a lightning strike escaping through the ionosphere and travelling along the earth's magnetic field lines, returning through the ionosphere into the other hemisphere. During flight lower frequencies travel slower than higher ones and when translated into audio frequencies by a VLF receiver, you hear the [characteristic descending tone of a whistler](https://www.youtube.com/watch?v=FeuI8AJMIxU).
+VLF [whistlers](https://en.wikipedia.org/wiki/Whistler_\(radio\)) are caused by some of the radio frequencies emitted by a lightning strike escaping through the ionosphere and travelling along the earth's magnetic field lines, returning through the ionosphere into the other hemisphere. During "flight" lower frequencies travel slower than higher ones and when translated into audio frequencies by a VLF receiver, you hear the [characteristic descending tone of a whistler](https://www.youtube.com/watch?v=FeuI8AJMIxU).
 
 
 ### [Announcing Lotus v0.4.0](http://lotusrb.org/blog/2015/06/23/announcing-lotus-040.html)
