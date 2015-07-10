@@ -51,7 +51,7 @@ This article by Michael Feathers calls out the ridiculousness of the "Does agile
 
 ### [Postpositive Particles](http://tutor.bestlatin.net/grammar/postpositives.htm)
 
-I was talking to someone the other day about certain special words, like "enim" that have to be the second word in a Latin sentence. I was quite pleased to discover this article, because it meant that my memory hadn't been playing tricks on me. {by james-mead}
+I was talking to someone the other day about certain special words, like "enim" that have to be the second word in a Latin sentence. I was ridiculously smug to discover this article, because it meant that I had remembered correctly! {by james-mead}
 
 
 ### [VLF](https://en.wikipedia.org/wiki/Very_low_frequency)
