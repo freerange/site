@@ -71,9 +71,9 @@ I have high hopes for [Lotus](http://lotusrb.org/) and it's good to see that dev
 I was very surprised to come across this feature of Ruby the other day and I enjoyed [showing it to the London Computation Club](https://github.com/computationclub/computationclub.github.io/wiki/Elements-of-Computing-Systems-Chapter-11c#asides) earlier this week. {by james-mead}
 
 
-### [git rebase --interactive --exec](http://git-scm.com/docs/git-rebase#_interactive_mode)
+### [Git Interactive Rebase - Exec](http://git-scm.com/docs/git-rebase#_interactive_mode)
 
-The other day, [Tom S](http://codon.com/) mentioned the `exec` "command" in the todo list for `git rebase --interactive`. Recently [Chris](/chris-roos) showed me how he was using it to ensure the tests passed after every commit in a feature branch. Since then I've discovered the `--exec` command line option which makes it easier to do the same thing. {by james-mead}
+The other day, [Tom S](http://codon.com/) mentioned the `exec` "command" in the todo list for `git rebase --interactive`. Recently [Chris](/chris-roos) showed me how he was using it to ensure the tests passed after every commit in a feature branch. Since then I've discovered the `--exec` command line option which makes it even easier to do the same thing. {by james-mead}
 
 
 :render_as: Blog
