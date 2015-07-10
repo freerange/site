@@ -39,6 +39,43 @@ We've been talking about the pros and cons of GitHub's "Merge pull request" butt
 Historically we've been fans of the single history master branch, but have recently converted to using feature branches that are rebased and merged to master. Given our conversion, I was interested to read Thoughtbot's approach, which I believe results in them having a single line history in master with no merge commits. {by chris-roos}
 
 
+### [Streamio FFMPEG](https://github.com/streamio/streamio-ffmpeg)
+
+This claims to be a "simple yet powerful Ruby ffmpeg wrapper for reading metadata and transcoding movies". I thought it might be a useful alternative to [Amazon Elastic Transcoder](http://aws.amazon.com/elastictranscoder/) for our [GFR Video](https://video.gofreerange.com) service. Also it looks as if [StreamIO](https://streamio.com/) might be offering a similar service, although I struggled to find much detail about their service. {by james-mead}
+
+
+### [Moving Past the Scaling Myth](https://michaelfeathers.silvrback.com/the-myth-of-scaling)
+
+This article by Michael Feathers calls out the ridiculousness of the "Does agile scale?" question. It also referenced a book about self-managing organizations, [Reinventing Organisations](http://jarche.com/2014/05/reinventing-organizations-review/), which caught my eye. {by james-mead}
+
+
+### [Postpositive Particles](http://tutor.bestlatin.net/grammar/postpositives.htm)
+
+I was talking to someone the other day about certain special words, like "enim" that have to be the second word in a Latin sentence. I was quite pleased to discover this article, because it meant that my memory hadn't been playing tricks on me. {by james-mead}
+
+
+### [VLF](https://en.wikipedia.org/wiki/Very_low_frequency)
+
+Watching one of the recent lightning storms in London recently led me to read more about the science behind the VLF experiments that I ran on an [Antarctic research station](http://antarctica.ac.uk/about_bas/our_history/stations_and_refuges/faraday.php) in the 90s. 
+
+[Whistlers](https://en.wikipedia.org/wiki/Whistler_\(radio\)) are caused by some of the radio frequencies emitted by a lightning strike escaping through the ionosphere and travelling along the earth's magnetic field lines, returning through the ionosphere into the other hemisphere. During flight lower frequencies travel slower than higher ones and when translated into audio frequencies by a VLF receiver, you hear the [characteristic descending tone of a whistler](https://www.youtube.com/watch?v=FeuI8AJMIxU).
+
+
+### [Announcing Lotus v0.4.0](http://lotusrb.org/blog/2015/06/23/announcing-lotus-040.html)
+
+I have high hopes for [Lotus](http://lotusrb.org/) and it's good to see that it seems to be making progress. I'm looking forward to hearing more about it from the author, [Luca Guidi](http://lucaguidi.com/) at [Brighton Ruby Conf](http://brightonruby.com/) a week on Monday. {by james-mead}
+
+
+### [Flip Flop Operator in Ruby](http://nithinbekal.com/posts/ruby-flip-flop/)
+
+I was very surprised to come across this feature of Ruby the other day and I enjoyed [showing it to the London Computation Club](https://github.com/computationclub/computationclub.github.io/wiki/Elements-of-Computing-Systems-Chapter-11c#asides) earlier this week. {by james-mead}
+
+
+### [git rebase --interactive --exec](http://git-scm.com/docs/git-rebase#_interactive_mode)
+
+The other day, [Tom S](http://codon.com/) mentioned the `exec` "command" in the todo list for `git rebase --interactive`. Recently [Chris](/chris-roos) showed me how he was using it to ensure the tests passed after every commit in a feature branch. Since then I've discovered the `--exec` command line option which makes it easier to do the same thing. {by james-mead}
+
+
 :render_as: Blog
 :kind: blog
 :is_page: true
