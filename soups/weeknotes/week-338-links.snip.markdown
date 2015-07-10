@@ -63,7 +63,7 @@ VLF [whistlers](https://en.wikipedia.org/wiki/Whistler_\(radio\)) are caused by 
 
 ### [Announcing Lotus v0.4.0](http://lotusrb.org/blog/2015/06/23/announcing-lotus-040.html)
 
-I have high hopes for [Lotus](http://lotusrb.org/) and it's good to see that it seems to be making progress. I'm looking forward to hearing more about it from the author, [Luca Guidi](http://lucaguidi.com/) at [Brighton Ruby Conf](http://brightonruby.com/) a week on Monday. {by james-mead}
+I have high hopes for [Lotus](http://lotusrb.org/) and it's good to see that development is still active. I'm looking forward to hearing more about it from the author, [Luca Guidi](http://lucaguidi.com/) at [Brighton Ruby Conf](http://brightonruby.com/) a week on Monday. {by james-mead}
 
 
 ### [Flip Flop Operator in Ruby](http://nithinbekal.com/posts/ruby-flip-flop/)
