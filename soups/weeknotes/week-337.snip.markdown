@@ -17,7 +17,7 @@ The bulk of our work was in the conversion of more Smart Answers to use ERB temp
 
 We managed to add regression tests for two redundancy-pay related flows (calculate-your-redundancy-pay and calculate-employee-redundancy-pay). These had been on hold while they had changes out for fact check so it was good to get the changes deployed and regression tests added.
 
-James did a great job of reworking one of the log lived pull requests he wrote about last week. It's in a new [pull request][PR 1777] and is currently out for fact check. I'm hoping we'll hear back about this soon as this is the final Smart Answer that we're yet to add regression tests to.
+James did a great job of reworking one of the long-lived pull requests he wrote about last week. It's in a new [pull request][PR 1777] and is currently out for fact check. I'm hoping we'll hear back about this soon as this is the final Smart Answer that we're yet to add regression tests to.
 
 We've started talking about creating a new Smart Answer for HMRC. This'll give us an opportunity to test our theory about how Smart Answers should be structured, and hopefully give us an insight into the communication between the GDS content team and the subject matter experts in the department.
 
