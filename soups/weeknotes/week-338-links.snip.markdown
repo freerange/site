@@ -56,7 +56,7 @@ I was talking to someone the other day about certain special words, like "enim" 
 
 ### [VLF](https://en.wikipedia.org/wiki/Very_low_frequency)
 
-Watching one of the recent lightning storms in London recently led me to read more about the science behind the VLF experiments that I ran on an [Antarctic research station](http://antarctica.ac.uk/about_bas/our_history/stations_and_refuges/faraday.php) in the 90s. 
+Watching one of the recent lightning storms in London recently led me to read more about the science behind the VLF experiments that I ran on an [Antarctic research station](http://antarctica.ac.uk/about_bas/our_history/stations_and_refuges/faraday.php) in the 90s.
 
 VLF [whistlers](https://en.wikipedia.org/wiki/Whistler_\(radio\)) are caused by some of the radio frequencies emitted by a lightning strike escaping through the ionosphere and travelling along the earth's magnetic field lines, returning through the ionosphere into the other hemisphere. During "flight" lower frequencies travel slower than higher ones and when translated into audio frequencies by a VLF receiver, you hear the [characteristic descending tone of a whistler](https://www.youtube.com/watch?v=FeuI8AJMIxU).
 
@@ -82,5 +82,5 @@ The other day, [Tom S](http://codon.com/) mentioned the `exec` "command" in the 
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-07-10 11:45:00 +00:00
-:updated_at: 2015-07-10 11:45:00 +00:00
+:updated_at: 2015-07-10 15:45:00 +00:00
 :page_title: Week 338 - Interesting links
