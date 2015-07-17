@@ -79,10 +79,10 @@ Until next time (which will hopefully be later today!)
 [week-336]: /week-336
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-07-17 10:15:00 +01:00
-:updated_at: 2015-07-17 10:15:00 +01:00
+:updated_at: 2015-07-17 16:15:00 +01:00
 :page_title: Week 338
