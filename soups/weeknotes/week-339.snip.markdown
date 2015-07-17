@@ -73,10 +73,10 @@ Have good weekends, and until next time.
 [week-338]: /week-338
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-07-17 12:30:00 +01:00
-:updated_at: 2015-07-17 12:30:00 +01:00
+:updated_at: 2015-07-17 16:30:00 +01:00
 :page_title: Week 339
