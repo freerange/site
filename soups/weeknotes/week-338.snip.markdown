@@ -15,21 +15,21 @@ The bulk of our work was focussed on continuing to convert Smart Answers to use 
 
 We finished the week with 24 of the 35 Ruby Smart Answers using ERB templates.
 
-[Tadas][] had to make some changes to the [overseas-passport Smart Answer][] during the week and, unfortunately, found that the ERB templates made his work slightly harder! You can see some of what he had to deal with by looking at the [ips_application_result.govspeak.erb template][]. Part of the problem is with the lack of indented content (because we're emitting whitespace-sensitive govspeak) and part of it is because of the number of conditionals present in these type of Smart Answers.
+[Tadas][] had to make some changes to the [overseas-passport Smart Answer][] during the week and, unfortunately, found that the ERB templates made his work slightly harder! You can see some of what he had to deal with by looking at the [ips_application_result.govspeak.erb template][]. Part of the problem is with the lack of indented content (because we're emitting whitespace-sensitive govspeak) and part of it is because of the number of conditionals present in these type of Smart Answers. It's worth mentioning that this doesn't come as a complete surprise. We've naively translated the YAML to ERB as a small step toward being able to make further improvements.
 
 ### Analytics
 
 We heard this week that our Google Analytics tracking (added in [week-336][]) didn't seem to be giving us the sort of data we expected. We're trying to record an event when people reach an answer, but the data was showing us that the majority of people were reaching an answer on the start page. After some investigation we realised that the problem was due to Smart Answer's use of JavaScript to replace page content when navigating through the flow; which results in all GA data being recorded against the first page. We think the answer is to send the `page` variable along with our event tracking data, but our wrapper around GA doesn't support that. We've temporarily bypassed our GA wrapper in order to see whether this gives us the data we need. If it does then we can [add support for `page` to our wrapper in the govuk_frontend_toolkit][pr-203].
 
-Updating our Google Analytics tracking code meant that we had to regenerate all our regression test artefacts because they currently contain the complete html of the page.
+Updating our Google Analytics tracking code meant that we had to regenerate all our regression test artefacts because they currently contain the complete HTML of the page. This is the second time we've been bitten by this problem and we've now prioritised the switch to using Govspeak instead of HTML as our regression tests artefact format.
 
 ### Tests
 
-James fixed a problem that occassionally occurred as a result of the interation between the standard test suite and our regression tests. See [commit 3f2503c][] for a fuller explanation.
+James fixed a problem that occassionally occurred as a result of the interaction between the standard test suite and our regression tests. See [commit 3f2503c][] for a fuller explanation.
 
 ## Meetings
 
-We spent an hour or so bringing a few people up to speed on what we've been doing with Smart Answers. This included the product owner ([Mark Sheldon][]) and tech lead ([Jenny Duckett][]) of the Custom publishing tools and formats team that will eventually take over Smart Answers when we leave.
+We spent an hour or so bringing a few people up to speed on what we've been doing with Smart Answers. This included the Product Owner ([Mark Sheldon][]) and Tech Lead ([Jenny Duckett][]) of the Custom Publishing Tools and Formats team that will eventually take over Smart Answers when we leave.
 
 I found it useful to be reminded that one of our main goals for this project is to reduce the maintenance overheard of Smart Answers. I'm really hoping that we're making some progress in that direction!
 
@@ -41,13 +41,13 @@ There was some wider discussion about user-testing some of the Smart Answers to 
 
 ### Social
 
-We had an enjoyable lunch at [Meat Market][] with [Neil][], [Stu][] and Mark on Thursday. Having been postponed once before there was some concern that tubeageddon would affect us, but everyone managed to make it into the office and out to lunch.
+We had an enjoyable lunch at [Meat Market][] with [Neil][], [Stu][] and Mark on Thursday. Having been postponed once before there was some concern that Tubeageddon would affect us, but everyone managed to make it into the office and out to lunch.
 
 ## GFR
 
-We should've hosted our 14th [Show and Tell][] this week but our failure to get organised, and the aforementioned tubeageddon, meant that we decided to postpone to Tuesday the following week.
+We should've hosted our 14th [Show and Tell][] this week but our failure to get organised, and the aforementioned Tubeageddon, meant that we decided to postpone to Tuesday the following week.
 
-James has enabled [Harmonia][]'s Slack integration in our GFR Slack room. We're mostly using Trello to integrate with Harmonia so it'll be interesting to see if/how we use this new Slack integration.
+James has enabled [Harmonia][]'s Slack integration in our GFR Slack room. We're mostly using Trello to integrate with Harmonia so it'll be interesting to see whether/how we use this new Slack integration.
 
 [Chris L][] joined us in the office on Friday afternoon, during which time he published [Web Audio Weekly 42][].
 
