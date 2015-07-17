@@ -22,6 +22,7 @@ We host this event in our office on the second Wednesday of every month. The ide
 * [Show and Tell 10](/show-and-tell-10)
 * [Show and Tell 11](/show-and-tell-11)
 * [Show and Tell 12](/show-and-tell-12)
+* [Show and Tell 13](/show-and-tell-13)
 
 :render_as: Kramdown
 :is_page: true
