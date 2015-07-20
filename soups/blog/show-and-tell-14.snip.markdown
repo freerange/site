@@ -13,7 +13,7 @@ This produces a Git repository with a rich semantic structure which can be inter
 
 In my recent bit of work, I wrote a script designed to be run as a [Git post-commit hook][git-post-commit-hook] which [incrementally builds a semantically structured commit][method-log-post-commit] for every commit to the `master` branch. Rather than create a separate Git repository for these semantic commits, I added them to an orphan `method-log` branch in the same repository [as suggested by James A][orphan-branch-suggestion].
 
-I got some useful feedback from people, but it does feel as if the project might be more of academic, rather than practical, interest.
+I got some useful feedback from people, particularly regarding how best to have the semantic commits reference their corresponding commits in `master`, but it does feel as if the project might be more of academic, rather than practical, interest.
 
 
 ## Smalltalk Method Finder
@@ -100,5 +100,5 @@ Until next time.
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2015-07-20 15:44:00 +01:00
-:updated_at: 2015-07-20 17:54:00 +01:00
+:updated_at: 2015-07-20 17:59:00 +01:00
 :page_title: Show and Tell 14
