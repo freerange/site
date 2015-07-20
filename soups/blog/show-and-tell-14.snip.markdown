@@ -93,10 +93,10 @@ Until next time.
 [Subversion]: https://subversion.apache.org/
 
 :render_as: blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2015-07-20 15:44:00 +01:00
-:updated_at: 2015-07-20 15:44:00 +01:00
+:updated_at: 2015-07-20 17:51:00 +01:00
 :page_title: Show and Tell 14
