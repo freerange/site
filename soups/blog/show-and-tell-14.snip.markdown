@@ -3,13 +3,13 @@ Show and Tell 14
 
 This meeting was postponed at the last minute from Wednesday, 8th July, to Tuesday, 15th July, partly because we didn't quite get our act together in time and partly because we thought that the [Tube strike][] might upset people's travel plans.
 
-Possibly partly as a result of the last minute change in plan, the meeting was quieter than usual with only five of us in attendance.
+Possibly as a result of the last minute change in plan, the meeting was quieter than usual with only five of us in attendance.
 
 ## Method Log
 
 I kicked off proceedings by demonstrating a recent bit of work I've done with [method_log][]. This built on the work I did last year to [build a Git repository of Ruby method definitions][building-a-git-repository-of-ruby-method-definitions] in which Ruby source files are statically parsed and each individual method definition is written into a file based on its namespace and method name e.g. the definition for `Foo::Bar#baz` is saved to `Foo/Bar/#baz.rb`.
 
-This produces a Git repository with a rich semantic structure which can be interrogated using standard Git tools. e.g. it's possible to use the `--follow` option on `git-log` to track the history of a method implmentation as it moves around the codebase.
+This produces a Git repository with a rich semantic structure which can be interrogated using standard Git tools. e.g. it's possible to use the `--follow` option on `git-log` to track the history of a method implementation as it moves around the codebase.
 
 In my recent bit of work, I wrote a script designed to be run as a [Git post-commit hook][git-post-commit-hook] which [incrementally builds a semantically structured commit][method-log-post-commit] for every commit to the `master` branch. Rather than create a separate Git repository for these semantic commits, I added them to an orphan `method-log` branch in the same repository [as suggested by James A][orphan-branch-suggestion].
 
@@ -22,7 +22,7 @@ All this talk about method definitions reminded [Ben G][] of the [Smalltalk Meth
 
 While this seems really clever, Ben showed us that the implementation takes a rather brute-force approach.
 
-After the meeting I was interested to discover that someone has implmented a similar [Method Finder for Ruby][].
+After the meeting I was interested to discover that someone has built a similar [Method Finder for Ruby][].
 
 Anyway, the whole thing reminded me a bit of Tom's [Hello, Declarative World][] demo from the last meeting.
 
@@ -35,7 +35,9 @@ Ben's inventive eldest son came up with the idea of enclosing the printer and Pi
 
 The Slack channel acts as a nice aggregating API for the printer. My favourite application of this API is a "Dad's coming home" button on Ben's smartphone, implemented using [IFTTT's Do Button][]. When Ben pushes the button, a message is sent to the Slack channel to tell Ben's kids that he's on his way home.
 
-Another application is to receive messages left by visitors to a [Geocache][Geocaching] which Ben has positioned on a street near his house. The cache is registered on the [geocaching.com][] website and visitors can post messages there. Unfortunately the site doesn't have anything as simple as an RSS feed, so in an effort to avoid writing or hosting any code, Ben has wired up a complicated pipeline of services to turn the receipt of a notification email into the posting of a message into the Slack channel.
+Another application is to receive messages left by visitors to a [Geocache][Geocaching] which Ben has positioned on a street near his house. The cache is registered on the [geocaching.com][] website and visitors can post messages there.
+
+Unfortunately the site doesn't have anything as simple as an RSS feed, so in an effort to avoid writing or hosting any code, Ben has wired up a complicated pipeline of services to turn the receipt of a notification email into the posting of a message into the Slack channel.
 
 I may've got the sequence wrong, but I think it went something like this:
 
@@ -98,5 +100,5 @@ Until next time.
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2015-07-20 15:44:00 +01:00
-:updated_at: 2015-07-20 17:51:00 +01:00
+:updated_at: 2015-07-20 17:54:00 +01:00
 :page_title: Show and Tell 14
