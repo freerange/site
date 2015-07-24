@@ -29,6 +29,10 @@ I spent Tuesday and Thursday working on [Smart Answers][], and today's been spen
 
 * [Chris L][] spent the afternoon here and published [Web Audio Weekly 44][WAW 44].
 
+Until next time.
+
+-- Chris
+
 [Chris L]: http://blog.chrislowis.co.uk/
 [James]: /james-mead
 [PR 203]: https://github.com/alphagov/govuk_frontend_toolkit/pull/203
