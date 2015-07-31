@@ -641,6 +641,7 @@ body.blog #page #content #blog_articles ol.blog_list,
 body.wiki #page #content #blog_articles ol.blog_list {
   padding: 1.5em 0 0 2.5em;
   margin: 0;
+  list-style-type: disc;
 }
 body.blog #page #content #blog_articles ol.blog_list li,
 body.wiki #page #content #blog_articles ol.blog_list li {
