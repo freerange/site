@@ -65,7 +65,7 @@ Until next time.
 [waw]: http://blog.chrislowis.co.uk/waw.html
 
 :render_as: blog
-:kind: blog
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos

@@ -57,7 +57,7 @@ Until next time.
 [You Need a Budget]: http://www.youneedabudget.com/
 
 :render_as: blog
-:kind: blog
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos

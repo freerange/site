@@ -57,7 +57,7 @@ Although not technically part of the Show and Tell, [Murray][] was keen to show 
 [United Nude shoes]: http://www.unitednude.com/news/2014/united-nude-3d-printing-52
 
 :render_as: Blog
-:kind: blog
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos

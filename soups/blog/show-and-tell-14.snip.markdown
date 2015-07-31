@@ -95,7 +95,7 @@ Until next time.
 [Subversion]: https://subversion.apache.org/
 
 :render_as: blog
-:kind: blog
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: james-mead

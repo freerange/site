@@ -61,7 +61,7 @@ Until next time.
 [Vestibule]: https://github.com/rubymanor/vestibule
 
 :render_as: blog
-:kind: blog
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos

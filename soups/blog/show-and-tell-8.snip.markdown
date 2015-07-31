@@ -62,7 +62,7 @@ Anyway, that's your lot for this month. Our [Show & Tell event][] is taking a br
 [lambda calculus]: http://en.wikipedia.org/wiki/Lambda_calculus
 
 :render_as: Blog
-:kind: blog
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: james-mead

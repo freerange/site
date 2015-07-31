@@ -42,7 +42,7 @@ If this sounds like the sort of thing you're interested in, then please do [get 
 [Show and Tell 3]: /week-286
 
 :render_as: Blog
-:kind: blog
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
