@@ -7,13 +7,14 @@ class ListOf < Dynasnip
     if kind = options[:kind]
       limit = options[:limit]
       el = options[:element]
+      kinds = kind.split(',')
 
-      entries = soup[:kind => kind].sort_by { |e| e.created_at }.reverse
+      entries = kinds.flat_map { |k| soup[:kind => k] }.sort_by { |e| e.created_at }.reverse
       entries = entries[0..limit.to_i] unless limit == nil
 
       value = entries.length + 1
 
-      "<#{el} class='" + kind + "_list' reversed>" + entries.map do |entry|
+      "<#{el} class='" + kinds.first + "_list' reversed>" + entries.map do |entry|
         title = entry.content.split("\n").first
         url = url_to(entry.name)
         value -= 1
