@@ -30,7 +30,7 @@ Apparently fast, non-volatile memory is likely to be available in the not too di
 
 ### [Circuit Simulator](http://lushprojects.com/circuitjs/)
 
-Having worked through the early chapters of the [NAND to Tretris][] book with the London Computation Club, I was interested to see this open-source HTML5/JS electronic circuit simulator. {by james-mead}
+Having worked through the early chapters of the [NAND to Tetris][] book with the [London Computation Club][], I was interested to see this open-source HTML5/JS electronic circuit simulator. {by james-mead}
 
 [NAND to Tetris]: http://www.nand2tetris.org/
 [London Computation Club]: http://london.computation.club
