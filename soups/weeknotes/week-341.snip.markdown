@@ -21,7 +21,7 @@ Now that we're mostly done with the regression tests and conversions to ERB I mo
 
 I [refactored additional-commodity-code to move some of the logic out of the flow and into the calculator][pr-1850].
 
-I spent quite a bit of the week [refactoring the minimum-wage shared logic][pr-1856]. We think the result is much better: All the policy logic is contained in an object which leaves the flow much simpler and easier to follow.
+I spent quite a bit of the week [refactoring the minimum-wage shared logic][pr-1856]. We think the result is much better: all the policy logic is contained in an object and the presentation is handled by the view which leaves the flow much simpler and easier to follow.
 
 I fixed a problem that meant people were able to [enter 0 hours in the minimum-wage calculators][pr-1852] resulting in the outcome showing "NaN".
 
@@ -29,11 +29,11 @@ I indented ERB templates for register-a-birth and register-a-death now that some
 
 I spent a short while investigating Rubocop violations. I'd love to get this added to the project and running automatically.
 
-James [configured Mocha to disable stubbing of non-existent methods][pr-1866], which in turn involved updating a number of existing tests. -
+James [configured Mocha to disable stubbing of non-existent methods][pr-1866], which in turn involved updating a number of existing tests.
 
 James merged his [attempted fix for the intermittent test failure][pr-1816] we're seeing on CI.
 
-[Tadas][] got the app upgraded to Ruby 2.1.6 and continued his sterling work of handling updates to the existing Smart Answers, including overseas-passports, student-finance-forms and calculate-state-pension
+[Tadas][] got the app upgraded to Ruby 2.1.6 and continued his sterling work of handling updates to the existing Smart Answers, including overseas-passports, student-finance-forms and calculate-state-pension.
 
 James and I finished up on Thursday by preparing some notes for the presentation we've agreed to give at the content team show and tell next week.
 
