@@ -65,10 +65,10 @@ The blog post suggests that the data comes from people that have activated Locat
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-08-07 10:56:00 +01:00
-:updated_at: 2015-08-07 10:56:00 +01:00
+:created_at: 2015-08-07 13:12:00 +01:00
+:updated_at: 2015-08-07 13:12:00 +01:00
 :page_title: Week 342 - Interesting links
