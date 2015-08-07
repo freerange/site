@@ -69,10 +69,10 @@ Until next time.
 [Trello]: https://trello.com/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-08-07 10:50:00 +01:00
-:updated_at: 2015-08-07 12:25:00 +01:00
+:updated_at: 2015-08-07 12:40:00 +01:00
 :page_title: Week 341
