@@ -41,7 +41,7 @@ I hope to sit with someone from HMRC and go through various scenarios using this
 
 On Friday morning we both ticked off a bunch of company admin. Chris wrote up the [week notes][] and I compiled our [interesting links][]. Chris worked through the monthly task for paying ourselves and for the first time included the payments to our personal pensions in our payslips. We still need to contact HMRC to find out whether we need to do anything to "fix" payslips for previous months, but this feels like a good step forward.
 
-After lunch we were joined by our [Hookline][] friends, Amy and Jess. They've been making great progress with their independent music brokerage business, but in the process they've come up with an interesting product idea. We spent the afternoon chatting about a possible collaboration to explore the product idea further. Exciting times!
+After lunch we were joined by our [Hookline][] friends, Amy and Rachel. They've been making great progress with their independent music brokerage business, but in the process they've come up with an interesting product idea. We spent the afternoon chatting about a possible collaboration to explore the product idea further. Exciting times!
 
 Anyhoo - that's all for now. Until next time.
 
