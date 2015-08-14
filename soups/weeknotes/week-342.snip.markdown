@@ -32,7 +32,7 @@ Unfortunately this means that the rules are rather complicated and I've found it
 
 On Wednesday morning Liz and I had a phone call with her contact at HMRC and I understood a bit more about the rationale behind some of the logic. However, I still had unresolved questions which were hard to put into words on a phone call. Part of the difficulty with talking about this smart answer is that it's all about a bunch of dates and date ranges like the tax year, accounting years, etc.
 
-To make it easier to understand what was going on I decided to build a visualisation using the [Timeline chart][] from Google's [Chart library][google-charts] pulling data from a Google spreadsheet. It's still a bit of a work-in-progress, but I ended up with [this web page][js-fiddle-timeline]. When the relevant dates are entered into the "Calculator" sheet of the spreadsheet, the formulae on the "DataTable" sheet generate values which are then pulled into the Timeline chart.
+To make it easier to understand what was going on I decided to build a visualisation using the [Timeline chart][] from Google's [Chart library][google-charts] pulling data from a Google spreadsheet. When the relevant dates are entered into the "Calculator" sheet of the spreadsheet, the formulae on the "DataTable" sheet generate values which are then pulled into the Timeline chart.
 
 I hope to sit with someone from HMRC and go through various scenarios using this visualisation tool in order to better model the policy behind the calculator.
 
@@ -55,7 +55,6 @@ Anyhoo - that's all for now. Until next time.
 [pr-1877]: https://github.com/alphagov/smart-answers/pull/1877
 [timeline chart]: https://developers.google.com/chart/interactive/docs/gallery/timeline
 [google-charts]: https://developers.google.com/chart/interactive/docs/
-[js-fiddle-timeline]: https://jsfiddle.net/o1ywuntL/21/embedded/result/
 [week notes]: /week-341
 [interesting links]: /week-342-links
 [Hookline]: http://hookline.tv/
