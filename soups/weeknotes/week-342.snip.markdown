@@ -1,7 +1,7 @@
 Week 342
 ========
 
-We did the usual 4:1 split of days between Smart Answers and GFR, although Chris was still away at Jase' wedding on Monday.
+We did the usual 4:1 split of days between Smart Answers and GFR, although Chris was still away at Jase's wedding on Monday.
 
 ## Smart Answers
 
