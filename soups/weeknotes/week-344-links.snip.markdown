@@ -38,12 +38,12 @@ This is an issue tracking tool which stores issues in plain-text files so you ca
 [Jeremy Keith][jeremy-keith] is starting a [Homebrew Website Club][hwc] in Brighton. If you're interested in the [IndieWeb][] and can get to Brighton then this would be a great event to get involved in. It makes me think about trying to start one in London again. {by chris-roos}
 
 
-### [This is how you shut down a service — ntlk’s blog](http://ntlk.net/2015/08/13/this-is-how-you-shut-down-a-service/)
+### [This is how you shut down a service](http://ntlk.net/2015/08/13/this-is-how-you-shut-down-a-service/)
 
-I've never used [This Is My Jam][this-is-my-jam] but it sounds like they're handling the shutting down of their service better than most. {by chris-roos}
+I've never used [This Is My Jam][this-is-my-jam] but it sounds like they're handling the shutting down of their service better than most. Via [Nat Buckley][]. {by chris-roos}
 
 
-### [Google Lat Long: Plus codes in Google Maps](http://google-latlong.blogspot.co.uk/2015/08/plus-codes-new-way-to-help-pinpoint.html)
+### [Plus codes in Google Maps](http://google-latlong.blogspot.co.uk/2015/08/plus-codes-new-way-to-help-pinpoint.html)
 
 I linked to [Google's Plus Codes][pluscodes] in our [links for week 332][week-332-links]. I wondered at the time how successful they might be so was interested to read that they've added support for reading them in Google Maps. They only have support for parsing the codes at the moment to I wonder whether this is a bit of a trial to see whether people actually use them before they possibly add support for generating them too. {by chris-roos}
 
@@ -54,7 +54,7 @@ I linked to [Google's Plus Codes][pluscodes] in our [links for week 332][week-33
 [pluscodes]: https://plus.codes/
 [this-is-my-jam]: https://www.thisismyjam.com/
 [week-332-links]: /week-332-links
-
+[Nat Buckley]: http://ntlk.net/
 
 :render_as: Blog
 :kind: draft
