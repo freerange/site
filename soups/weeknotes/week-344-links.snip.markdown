@@ -57,10 +57,10 @@ I linked to [Google's Plus Codes][pluscodes] in our [links for week 332][week-33
 [Nat Buckley]: http://ntlk.net/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-08-21 12:05:00 +01:00
-:updated_at: 2015-08-21 12:05:00 +01:00
+:created_at: 2015-08-21 15:25:00 +01:00
+:updated_at: 2015-08-21 15:25:00 +01:00
 :page_title: Week 344 - Interesting links
