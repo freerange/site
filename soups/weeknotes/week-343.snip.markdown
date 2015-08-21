@@ -50,7 +50,7 @@ As well as upgrading Smart Answers to Ruby 2.2.2, [Tadas][tadas] made a start on
 [week-342-visualisation]: /week-342#tax-credits-part-year-finalisation
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
