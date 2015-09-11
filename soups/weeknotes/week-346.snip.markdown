@@ -3,7 +3,7 @@ Week 346
 
 Aloha folks.
 
-Week 346 was both short because of the Bank holiday Monday and quiet because [James][james-mead] was still away on holiday.
+Week 346 was both short because of the bank holiday Monday and quiet because [James][james-mead] was still away on holiday.
 
 I worked on [Smart Answers][smart-answers] on Tuesday, Wednesday and Friday, and on GFR on Thursday.
 
