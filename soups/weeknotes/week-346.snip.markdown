@@ -44,7 +44,7 @@ Until next time.
 [smart-answers]: https://github.com/alphagov/smart-answers
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
