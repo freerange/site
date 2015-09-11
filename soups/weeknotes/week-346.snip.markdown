@@ -13,13 +13,15 @@ I spent some time clearing through [errbit][errbit] at the beginning of the week
 
 I merged the pull request that adds [Rubocop][rubocop] to our test script that runs on [Jenkins][jenkins]. This should prevent us from introducing new violations to our code.
 
-### Part year profit calculator
+### Part year profit for Tax Credits
 
 I added support for businesses that stop trading during the tax year in which their Tax Credits award ends. I think this should cater for people that no longer need to be self employed after their Tax Credits award ends.
 
 I spent some time exploring Cucumber style tests to describe the behaviour of this new Smart Answer. I ended up switching to standard Ruby tests but thinking about the flow in terms of the language that Cucumber promotes definitely helped. This reminded me of [Richard Pope's Cucumber features that describe the rules around free prescriptions][memespring-free-prescriptions]. I do think it might be worth considering something similar to describe the policies/rules underpinning the Smart Answers.
 
-I met with [Liz][liz-lutgendorff] and Gill from HMRC on Friday. I demonstrated the Smart Answer's ability to handle the case where the business has stopped trading, which Gill seemed happy with. We moved on to discuss the rules around businesses that have recently started trading and I think we now have all the information we need to finish the Smart Answer! Gill said that the work James had done to visualise the various date ranges had really helped her understand the rules for this Smart Answer.
+[Liz][liz-lutgendorff] and I met with Gill from HMRC on Friday. I demonstrated the Smart Answer's ability to handle the case where the business has stopped trading, which Gill seemed happy with. We moved on to discuss the rules around businesses that have recently started trading and I think we now have all the information we need to finish the Smart Answer! Gill said that the work James had done to visualise the various date ranges had really helped her understand the rules for this Smart Answer.
+
+### Analytics
 
 I finished up on Friday by spending some time with Chris Russell. Chris had reported a bit of a problem with the Google Analytics tracking we've added to record when people reach Smart Answer outcomes. It seems that in a small number of cases we're recording an outcome event against URLs that don't result in an outcome being reached. I don't have a definitive answer yet but my best guess is that it's a problem with our use of JavaScript to reload sections of the page and update the URL in the browser.
 
@@ -47,5 +49,5 @@ Until next time.
 :written_with: Kramdown
 :author: chris-roos
 :created_at: 2015-09-11 11:00:00 +01:00
-:updated_at: 2015-09-11 11:00:00 +01:00
+:updated_at: 2015-09-11 13:00:00 +01:00
 :page_title: Week 346
