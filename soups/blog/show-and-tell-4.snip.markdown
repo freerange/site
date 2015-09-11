@@ -1,5 +1,5 @@
 Show and Tell 4
----------------
+===============
 
 We hosted our fourth Show and Tell event last night. Seven of us sat around the projector and four folks talked about things they're working on.
 
@@ -49,4 +49,3 @@ If this sounds like the sort of thing you're interested in, then please do [get 
 :created_at: 2014-08-07 17:00:00 +01:00
 :updated_at: 2014-08-07 17:00:00 +01:00
 :page_title: Show and Tell 4
-

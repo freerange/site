@@ -1,5 +1,5 @@
 Show and Tell 10
-----------------
+================
 
 We had a pretty good turn out for Show and Tell 10 this week, with 9 of us in attendance at the [Star of Kings][].
 

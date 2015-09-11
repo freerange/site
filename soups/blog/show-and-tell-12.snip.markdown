@@ -1,5 +1,5 @@
 Show and Tell 12
-----------------
+================
 
 We hosted our 12th Show and Tell in our office, with 7 people in attendance and 5 people sharing the things they've been working on.
 

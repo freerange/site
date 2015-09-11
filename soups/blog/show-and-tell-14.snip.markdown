@@ -1,5 +1,5 @@
 Show and Tell 14
-----------------
+================
 
 This meeting was postponed at the last minute from Wednesday, 8th July, to Tuesday, 15th July, partly because we didn't quite get our act together in time and partly because we thought that the [Tube strike][] might upset people's travel plans.
 
