@@ -7,7 +7,9 @@ We did the usual 4:1 split of days between Smart Answers and GFR, spending Tuesd
 
 ### Tax Credits Award Finalisation
 
-This week [Chris][] has been focussing on the [Part-year profit for Tax Credits smart answer][pr-1942], but as part of that he also took some time to [simplify `Question::Date`][pr-1935]. On Monday I paired with Chris on this smart answer which he'd kindly taken over for me while I'd been on holiday. As we've mentioned before getting the logic right for this smart answer has been a real challenge and has sucked up a lot of our time. However, it's been a really useful glimpse into the process for developing new smart answers.
+This week [Chris][] has been focussing on the [Part-year profit for Tax Credits smart answer][pr-1942], but as part of that he also took some time to [simplify `Question::Date`][pr-1935]. On Monday I paired with Chris on this smart answer which he'd kindly taken over for me while I'd been on holiday.
+
+As we've mentioned before getting the logic right for this smart answer has been a real challenge and has sucked up a lot of our time. However, it's been a really useful glimpse into the process for developing new smart answers.
 
 ### General Improvements
 
