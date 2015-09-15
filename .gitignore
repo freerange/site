@@ -2,5 +2,4 @@
 tmp
 bin
 vendor
-.rbenv-version
 log/*.log
