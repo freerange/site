@@ -80,7 +80,7 @@ Anyway, that's your lot for now. Until next time.
 [autosave-association]: http://api.rubyonrails.org/classes/ActiveRecord/AutosaveAssociation.html
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
