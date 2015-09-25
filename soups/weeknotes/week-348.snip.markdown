@@ -19,7 +19,7 @@ Their music catalogue is now big enough that the manual processes are taking up 
 
 Along the way it's also become apparent that there's not really any good commercial software out there to manage a music catalogue, especially not any representing good value-for-money. They've done some market research and have come to the conclusion that there's a gap in the market for such a product.
 
-We chatted to Amy and Rachel a few weeks ago and agreed to collaborate on building this product. The idea is that initially we'll focus on automating Hookline's manual processes, but in doing so we hope the build a product that could be useful to other music companies. Amy and Rachel will then be able to demo the product to their music industry contacts and hopefully generate some sales.
+We chatted to Amy and Rachel a few weeks ago and agreed to collaborate on building this product. The idea is that initially we'll focus on automating Hookline's manual processes, but in doing so we hope to build a product that could be useful to other music companies. Amy and Rachel will then be able to demo the product to their music industry contacts and hopefully generate some sales.
 
 So Team Hookline joined us at GFRHQ from Tuesday to Friday and we started building the product. It was really refreshing to work on a new app and to work so collaboratively with the product owners.
 
