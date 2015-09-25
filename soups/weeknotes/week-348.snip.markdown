@@ -9,7 +9,7 @@ Hookline broker deals between independent music artists and people who want to l
 
 ### Background
 
-We [^1] first chatted to Amy and Rachel about Hookline back in April 2013 when they had a slightly different business model in mind and were looking at applying to the [Digital R&D Fund for the Arts][] for a grant. At the time I vaguely remember that we encouraged them to focus on proving the business model before spending a lot of money on building software.
+We [^1] first chatted to Hookline back in April 2013 when they had a slightly different business model in mind and were looking at applying to the [Digital R&D Fund for the Arts][] for a grant. At the time I vaguely remember that we encouraged them to focus on proving the business model before spending a lot of money on building software.
 
 Since then they've been successfully signing up artists and licensing their music using relatively manual processes, making use of services like [Google spreadsheets][], [Dropbox][], Echosign, etc - I think it's really impressive how far they've got.
 
