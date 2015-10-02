@@ -1,4 +1,4 @@
-Week 349 - Interesting links
+Week 350 - Interesting links
 ============================
 
 ### [Utter Disregard for Git Commit History](http://zachholman.com/posts/git-commit-history/)
@@ -71,4 +71,4 @@ A little inspirational link to finish with: Read an interview with 80 year old H
 :author: chris-roos
 :created_at: 2015-09-25 14:45:00 +01:00
 :updated_at: 2015-09-25 14:45:00 +01:00
-:page_title: Week 349 - Interesting links
+:page_title: Week 350 - Interesting links
