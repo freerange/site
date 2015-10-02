@@ -65,10 +65,10 @@ A little inspirational link to finish with: Read an interview with 80 year old H
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-09-25 14:45:00 +01:00
-:updated_at: 2015-09-25 14:45:00 +01:00
+:created_at: 2015-10-02 13:58:00 +01:00
+:updated_at: 2015-10-02 13:58:00 +01:00
 :page_title: Week 350 - Interesting links
