@@ -39,7 +39,7 @@ We received great news during both meetings. On Monday we were given permission 
 
 On Thursday we were given the go-ahead to archive the pay-leave-for-parents-adoption Smart Answer. James wasted no time in [removing it][smart-answers-pr-1983] along with [another couple of unnecessary Smartdown flows][smart-answers-pr-1975].
 
-This is great as it means that we'll definitely be able to remove [Smartdown][smartdown] in the relatively near future.
+This is great as it means that we'll definitely be able to remove support for [Smartdown][smartdown] flows in the relatively near future.
 
 
 ### Pay leave for parents
@@ -50,7 +50,7 @@ We needed to make a couple of smaller supporting changes ready for this conversi
 
 I finished up with a [work in progress pull request to add regression tests for pay-leave-for-parents][smart-answers-pr-1986]
 
-As part of the conversion to single questions per page we're working with a performance analyst to determine whether or not it affects peoples use of the Smart Answer. If we find that it negatively affects people then it'll be a strong driver to implement multiple questions per page in Ruby Smart Answers.
+As part of the conversion to single questions per page we're working with an analyst to determine whether or not it affects peoples use of the Smart Answer. If we find that it negatively affects people then it'll be a strong driver to implement multiple questions per page in Ruby Smart Answers.
 
 
 ### Other changes
