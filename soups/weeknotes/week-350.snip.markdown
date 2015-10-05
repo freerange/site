@@ -120,10 +120,10 @@ Until next time, folks.
 [week-341]: /week-341
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-10-02 15:30:00 +01:00
-:updated_at: 2015-10-02 15:30:00 +01:00
+:created_at: 2015-10-05 14:15:00 +01:00
+:updated_at: 2015-10-05 14:15:00 +01:00
 :page_title: Week 350
