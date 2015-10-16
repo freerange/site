@@ -55,7 +55,7 @@ As of the end of this week, Hookline are now using this app to manage their musi
 
 ## Miscellaneous
 
-* Configured errbit for Hookline.
+* Configured Errbit for Hookline.
 
 * Started using Rspec's `instance_double` instead of `double`. We introduced a bug in production because of a problem that would've been caught had we already been using `instance_double`.
 
