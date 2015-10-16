@@ -73,10 +73,10 @@ Until next time.
 [week-348]: /week-348
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-10-16 10:45:00 +01:00
-:updated_at: 2015-10-16 10:45:00 +01:00
+:created_at: 2015-10-16 14:45:00 +01:00
+:updated_at: 2015-10-16 14:45:00 +01:00
 :page_title: Week 351
