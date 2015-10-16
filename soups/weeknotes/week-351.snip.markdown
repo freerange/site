@@ -5,13 +5,13 @@ This was the second of our two planned weeks working with [Hookline][hookline-tv
 
 We had three main goals for the week:
 
-1. Exclusively use the new web app to produce playlists that can be sent in response to briefs.
+1. Exclusively use the new web app to produce playlists when responding to requests for music.
 
 2. Use the new web app to produce public and artist playlists to replace those currently on hookline.tv.
 
 3. Exclusively use the new web app to administer Hookline's music library.
 
-## Responding to briefs
+## Responding to requests for music
 
 We didn't quite get to the point where Hookline could use the app to produce their playlists. I _think_ we're there technically but the playlists still need some visual love before they can be sent out.
 
