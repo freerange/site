@@ -27,6 +27,21 @@ This conference sounds right up my street. Unfortunately, prior engagements mean
 This image caught my eye as it reminded me of the tidal pattern I see in my [Thames Time Lapse timeslice video][thames-timeslice-video]. The picture is of the [Tidal Ribbon installation][tidal-ribbon] at the [Exploratorium in San Francisco][exploratorium]. {by chris-roos}
 
 
+### [Travis CI: Parallelizing RSpec, Cucumber and Minitest on multiple VMs](http://docs.travis-ci.com/user/speeding-up-the-build/#Parallelizing-RSpec%2C-Cucumber-and-Minitest-on-multiple-VMs)
+
+This explains how you can use [knapsack][] to split tests across multiple VMs to speed up the overall build time. Via [Tom S][]. {by james-mead}
+
+
+### [Audiocogs: Codecs](http://audiocogs.org/codecs/)
+
+I was quite surprised to discover these audio codecs written in JavaScript using the [Web Audio API][] & [Audio Data API][] which are capable of playing audio in the browser without native codec support. {by james-mead}
+
+
+### [Let's Encrypt client](https://github.com/letsencrypt/letsencrypt)
+
+I was impressed to see this command line tool which [makes it very easy][lets-encrypt-demo-video] to obtain a certificate and setup SSL on Apache - something I've found a real pain in the past. It's particularly interesting now that [Let's Encrypt][lets-encrypt]'s SSL certificates are [trusted by all major browsers][lets-encrypt-is-trusted]. {by james-mead}
+
+
 [clef]: https://getclef.com/
 [exploratorium]: http://www.exploratorium.edu/
 [huboard]: https://huboard.com/
@@ -37,6 +52,14 @@ This image caught my eye as it reminded me of the tidal pattern I see in my [Tha
 [tidal-ribbon]: http://transmote.com/projects/tidalribbon/
 [thames-timeslice-video]: https://vimeo.com/104385576
 [waffle.io]: https://waffle.io/
+[knapsack]: https://github.com/ArturT/knapsack
+[Tom S]: http://codon.com/
+[Web Audio API]: https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
+[Audio Data API]: https://wiki.mozilla.org/Audio_Data_API
+[lets-encrypt-demo-video]: https://www.youtube.com/watch?v=Gas_sSB-5SU
+[lets-encrypt]: https://letsencrypt.org/
+[lets-encrypt-is-trusted]: https://letsencrypt.org/2015/10/19/lets-encrypt-is-trusted.html
+
 
 :render_as: Blog
 :kind: draft
