@@ -62,10 +62,10 @@ I was impressed to see this command line tool which [makes it very easy][lets-en
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-10-29 10:30:00 +00:00
-:updated_at: 2015-10-29 10:30:00 +00:00
+:created_at: 2015-10-29 16:15:00 +00:00
+:updated_at: 2015-10-29 16:15:00 +00:00
 :page_title: Week 354 - Interesting links
