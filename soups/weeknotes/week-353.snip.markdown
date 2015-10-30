@@ -41,7 +41,7 @@ We continued to add/improve the documentation:
 
 ## GFR
 
-On Wednesday Chris took the afternoon off to attend his Amy's UK citizenship ceremony - congratulations Amy!
+On Wednesday Chris took the afternoon off to attend Amy's UK citizenship ceremony - congratulations Amy!
 
 On Thursday we both did a half-day on Smart Answers, me, mainly because I needed to respond to our contact at HMRC, and Chris, because he'd taken a half-day the day before.
 
@@ -82,6 +82,6 @@ Anyway, that's all for now. Until next time.
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-10-30 12:05:00 +01:00
-:updated_at: 2015-10-30 12:05:00 +01:00
+:created_at: 2015-10-30 12:37:00 +01:00
+:updated_at: 2015-10-30 12:37:00 +01:00
 :page_title: Week 353
