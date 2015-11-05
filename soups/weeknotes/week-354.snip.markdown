@@ -78,10 +78,10 @@ Until next time.
 [week-349-jenkins-merge-commits]: /week-349#other-changes
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-10-30 11:30:00 +00:00
-:updated_at: 2015-10-30 11:30:00 +00:00
+:created_at: 2015-11-05 15:30:00 +00:00
+:updated_at: 2015-11-05 15:30:00 +00:00
 :page_title: Week 354
