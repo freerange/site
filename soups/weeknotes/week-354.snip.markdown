@@ -3,7 +3,7 @@ Week 354
 
 Howdi folks.
 
-This was our second week of working 3 days on Smart Answers and 2 days on GFR. We're doing this as a way of gradually phasing out of GDS, although if it turns out that we're not getting as much done as we'd like then we'll potentially go back to 4 days on Smart Answers.
+This was our second week of working 3 days on [Smart Answers][smart-answers] and 2 days on GFR. We're doing this as a way of gradually phasing out of GDS, although if it turns out that we're not getting as much done as we'd like then we'll potentially go back to 4 days on Smart Answers.
 
 ## Smart Answers
 
@@ -69,6 +69,7 @@ Until next time.
 [pr-2039]: https://github.com/alphagov/smart-answers/pull/2039
 [pr-2040]: https://github.com/alphagov/smart-answers/pull/2040
 [pr-2041]: https://github.com/alphagov/smart-answers/pull/2041
+[smart-answers]: https://github.com/alphagov/smart-answers
 [smartdown]: https://github.com/alphagov/smartdown
 [the-birdcage]: http://drafthouse.co.uk/
 [tom-stuart]: http://codon.com/
