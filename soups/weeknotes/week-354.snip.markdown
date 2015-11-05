@@ -9,15 +9,15 @@ This was our second week of working 3 days on Smart Answers and 2 days on GFR. W
 
 I merged a change that [avoids us rescuing `ArgumentError` exceptions in the next_node blocks][pr-2032]. I believe the intention of this rescue statement was to handle bad user input but it had the side effect of masking real errors in our code. This is all part of our move to ensuring things fail fast during development of Smart Answers.
 
-I opened a pull request to [convert pay-leave-for-parents from Smartdown to Ruby][pr-2035]. James was good enough to review this large PR on Tuesday which gave me time to address the feedback before getting it merged and deployed on Wednesday. This was the final Smartdown flow so its conversion should allow us to start removing fairly large chunks of code.
+I opened a pull request to [convert pay-leave-for-parents from Smartdown to Ruby][pr-2035]. [James M][james-mead] was good enough to review this large PR on Tuesday which gave me time to address the feedback before getting it merged and deployed on Wednesday. This was the final [Smartdown][smartdown] flow so its conversion should allow us to start removing fairly large chunks of code.
 
 I made a start on [removing some unused code in the form of the `FlowAudit` rake task and class][pr-2034].
 
-I spent the majority of Tuesday investigating the Jenkins merge commits appearing in our release branch and tags. We first [noticed these back in week 349][week-349-jenkins-merge-commits] so it was great to finally get to the bottom of it. It turns out that an accidental force push to our GitHub master branch on 8 September had resulted in Jenkins using a recursive (rather than the default fast-forward) merge when fetching changes from origin/master. The effect was that all future fetches also resulted in recursive merge commits appearing. Having understood the cause we were able to reset our release branch to point to origin/master which in turn means that new release tags no longer contain these merge commits.
+I spent the majority of Tuesday investigating the Jenkins merge commits appearing in our release branch and tags. We first [noticed these back in week 349][week-349-jenkins-merge-commits] so it was great to finally get to the bottom of it. It turns out that an accidental force push to our GitHub master branch on 8 September had resulted in Jenkins using a recursive (rather than the default fast-forward) merge when fetching changes from origin/master. The effect was that all future fetches also resulted in recursive merge commits appearing. Having understood the cause we were able to reset our release branch to point to origin/master which in turn means that new release tags no longer contain these merge commits. We've now enabled [made master a protected branch on GitHub][github-protected-branches].
 
-James and I had a short catch-up with the Erik, and new Content Delivery Manager, [Paul][paul-heron].
+James and I had a short catch-up with the [Erik][erik-eide], and new Content Delivery Manager, [Paul][paul-heron]. They've both been with the content team for a couple of weeks so we figured there might be some things we can bring them up to speed on.
 
-Catch-up with [David][david-singleton] and [Jenny][jenny-duckett]. They helped focus us on the priorities before we leave. Got confirmation that switching from multiple questions per page hadn't affected completion rates. If anything, completion rates have improved!
+We also had another catch-up with [David][david-singleton] and [Jenny][jenny-duckett] in which they helped focus us on our priorities before we leave. We also got confirmation that switching the [shared parental leave Smart Answer][pay-leave-for-parents] from multiple to single questions per page hadn't affected completion rates. If anything, completion rates have improved slightly!
 
 I've started to remove Smartdown from the app.
 
@@ -25,28 +25,41 @@ I've started working on changing the code so that it fails fast if an ERB templa
 
 James spent most of the week continuing to [work on the Statutory sick pay calculator][pr-2031]. It's turned into a bit of a nightmare as he continues to discover other things that aren't quite right with it!
 
-[Erik][erik-eide]'s hit the ground running. He's already made changes to both the [maternity-paternity-calculator][pr-2040] and [student-finance-forms][pr-2036] Smart Answers, as well as opening a [pull request to fix a longstanding bug we've had in the project][pr-2041].
+Erik's hit the ground running. He's already made changes to both the [maternity-paternity-calculator][pr-2040] and [student-finance-forms][pr-2036] Smart Answers, as well as opening a [pull request to fix a longstanding bug we've had in the project][pr-2041].
 
 Erik's also [reordered the Gemfile to make it more readable][pr-2037] (the branch name, "update-gemfile-ocd-sorting", made me smile) and added the [ability to read the flow name from within a flow][pr-2039]. The second of those two is in preparation for programmatically changing node options depending on the flow, which is something we've talked about but never quite got round to doing.
 
 ## GFR
 
-Published [links for week 354][week-354-links].
+We published [links for week 354][week-354-links].
 
-Continued to investigate our pensions and whether we're covered in our [auto-enrolment][tpr-auto-enrolment] duties. James did the same thing on Weds.
+We both continued to investigate our pensions to understand whether we've met our [auto-enrolment][tpr-auto-enrolment] obligations.
 
-Spent some time getting my blog working on my laptop. I'd like to blog more but one of the things putting me off is the overhead of my current set-up. I got it working on my laptop and continued to make some progress in converting it from Webby to GitHub Pages/Jekyll. Add link to my blog post?
+We both spent some time getting our blogs working locally. I'd like to blog more but one of the things putting me off is the overhead of my current set-up. We both them working locally and I continued to make some progress in converting mine from [Webby][webby] to [GitHub Pages][github-pages]/[Jekyll][jekyll]. [I even blogged about it][chrisroos-blog-post] (copy/pasting a terminal session _definitely_ counts as blogging).
 
-James did the same thing with his blog.
+James and I made a little more progress toward getting rid of some of our items currently in storage.
 
-TODO: Look at Trello activity for this week.
+We were joined by [James A][james-adam], [Tom S][tom-stuart] and [Chris L][chris-lowis] at [The Birdcage][the-birdcage] on Wednesday evening for another enjoyable instalment of our monthly drinks.
 
-Monthly drinks on Wednesday.
+Chris L joined us for lunch at the [Electricity Showrooms][electicity-showrooms] on Friday before coming back and working from our office for the afternoon.
 
-Chris L joined us on Friday and we had lunch at Electricity Showrooms.
+Until next time.
 
+-- Chris
+
+[chris-lowis]: http://blog.chrislowis.co.uk/
+[chrisroos-blog-post]: http://chrisroos.co.uk/blog/2015-10-29-getting-my-webby-powered-website-running-on-mac-os-x-el-capitan
+[david-singleton]: http://dsingleton.co.uk/
+[electicity-showrooms]: http://www.electricityshowrooms.com/
 [erik-eide]: https://github.com/erik-eide
+[github-pages]: https://pages.github.com/
+[github-protected-branches]: https://help.github.com/articles/about-protected-branches/
+[james-adam]: http://lazyatom.com/
+[james-mead]: /james-mead
+[jekyll]: https://jekyllrb.com/
+[jenny-duckett]: https://twitter.com/jenny_duckett
 [paul-heron]: http://worldofpablo.com/
+[pay-leave-for-parents]: https://www.gov.uk/pay-leave-for-parents
 [pr-2031]: https://github.com/alphagov/smart-answers/pull/2031
 [pr-2032]: https://github.com/alphagov/smart-answers/pull/2032
 [pr-2035]: https://github.com/alphagov/smart-answers/pull/2035
@@ -56,6 +69,12 @@ Chris L joined us on Friday and we had lunch at Electricity Showrooms.
 [pr-2039]: https://github.com/alphagov/smart-answers/pull/2039
 [pr-2040]: https://github.com/alphagov/smart-answers/pull/2040
 [pr-2041]: https://github.com/alphagov/smart-answers/pull/2041
+[smartdown]: https://github.com/alphagov/smartdown
+[the-birdcage]: http://drafthouse.co.uk/
+[tom-stuart]: http://codon.com/
+[tpr-auto-enrolment]: http://www.thepensionsregulator.gov.uk/employers.aspx
+[webby]: https://github.com/TwP/webby
+[week-354-links]: /week-354-links
 [week-349-jenkins-merge-commits]: /week-349#other-changes
 
 :render_as: Blog
