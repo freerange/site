@@ -13,15 +13,15 @@ I opened a pull request to [convert pay-leave-for-parents from Smartdown to Ruby
 
 I made a start on [removing some unused code in the form of the `FlowAudit` rake task and class][pr-2034].
 
-I spent the majority of Tuesday investigating the Jenkins merge commits appearing in our release branch and tags. We first [noticed these back in week 349][week-349-jenkins-merge-commits] so it was great to finally get to the bottom of it. It turns out that an accidental force push to our GitHub master branch on 8 September had resulted in Jenkins using a recursive (rather than the default fast-forward) merge when fetching changes from origin/master. The effect was that all future fetches also resulted in recursive merge commits appearing. Having understood the cause we were able to reset our release branch to point to origin/master which in turn means that new release tags no longer contain these merge commits. We've now enabled [made master a protected branch on GitHub][github-protected-branches].
+I spent the majority of Tuesday investigating the Jenkins merge commits appearing in our release branch and tags. We first [noticed these back in week 349][week-349-jenkins-merge-commits] so it was great to finally get to the bottom of it. It turns out that an accidental force push to our GitHub master branch on 8 September had resulted in Jenkins using a recursive (rather than the default fast-forward) merge when fetching changes from origin/master. The effect was that all future fetches also resulted in recursive merge commits appearing. Having understood the cause we were able to reset our release branch to point to origin/master which in turn means that new release tags no longer contain these merge commits. We've now [made master a protected branch on GitHub][github-protected-branches] to prevent this from happening again in future.
 
 James and I had a short catch-up with the [Erik][erik-eide], and new Content Delivery Manager, [Paul][paul-heron]. They've both been with the content team for a couple of weeks so we figured there might be some things we can bring them up to speed on.
 
-We also had another catch-up with [David][david-singleton] and [Jenny][jenny-duckett] in which they helped focus us on our priorities before we leave. We also got confirmation that switching the [shared parental leave Smart Answer][pay-leave-for-parents] from multiple to single questions per page hadn't affected completion rates. If anything, completion rates have improved slightly!
+We also had another catch-up with [David][david-singleton] and [Jenny][jenny-duckett] in which they helped focus us on our priorities before we leave. We also got confirmation that switching the [shared parental leave Smart Answer][pay-leave-for-parents] from multiple to single questions per page hadn't adversely affected completion rates.
 
 I've started to remove Smartdown from the app.
 
-I've started working on changing the code so that it fails fast if an ERB template (either the cover page or an outcome) doesn't exist. We implemented it the way it is in order to mirror the old i18n behaviour but we're now longer to fail fast as much as possible.
+I've started working on changing the code so that it fails fast if an ERB template (either the cover page or an outcome) doesn't exist. We implemented it the way it is in order to mirror the old i18n behaviour but we're now trying to fail fast as much as possible.
 
 James spent most of the week continuing to [work on the Statutory sick pay calculator][pr-2031]. It's turned into a bit of a nightmare as he continues to discover other things that aren't quite right with it!
 
