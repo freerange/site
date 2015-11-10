@@ -52,10 +52,10 @@ This was the improvised adventure story tweeted by [Melinda](https://missgeeky.c
 [webby]: https://github.com/TwP/webby
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-11-10 14:30:00 +00:00
-:updated_at: 2015-11-10 14:30:00 +00:00
+:created_at: 2015-11-10 16:30:00 +00:00
+:updated_at: 2015-11-10 16:30:00 +00:00
 :page_title: Week 356 - Interesting links
