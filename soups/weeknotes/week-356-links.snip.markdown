@@ -37,7 +37,7 @@ I like really the idea of cooperative alternatives to the death stars of Uber, A
 
 ### [The Others](https://storify.com/mseckington/the-others)
 
-This was the improvised adventure story tweeted by [Melinda](https://missgeeky.com/) throughout the day on Halloween. I thought it was impressively intricate, especially given how she ["pretty much just started tweeting on Saturday without any real plan on how the story would evolve"](http://missgeeky.com/2015/11/03/the-others-behind-the-scenes/). Look out for part 2! {by james-mead}
+This was the improvised adventure story tweeted by [Melinda](https://missgeeky.com/) throughout the day on Hallowe'en. I thought it was impressively intricate, especially given how she ["pretty much just started tweeting on Saturday without any real plan on how the story would evolve"](http://missgeeky.com/2015/11/03/the-others-behind-the-scenes/). Look out for part 2! {by james-mead}
 
 
 [backdrop-github]: https://github.com/alphagov/backdrop/tree/master/doc/arch
