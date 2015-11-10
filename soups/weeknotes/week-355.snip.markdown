@@ -66,7 +66,7 @@ Chris spent most of the day changing the naming of the files we store on S3 to u
 
 Amy and Rich spent the day working on the front-end app. However, I had to leave a bit early so I didn't hear what they'd been working on.
 
-At the end of the day, Chris, Amy & Rich adjourned to the [Old Kings Head][] for a well-deserved beverage. They bumped into [Ben G][] who joined them for a cheeky pint.
+At the end of the day, Chris, Amy & Rich adjourned to the [Horse & Groom][] for a well-deserved beverage. They bumped into [Ben G][] who joined them for a cheeky pint.
 
 Anyway, that's all folks.
 
@@ -81,8 +81,8 @@ Anyway, that's all folks.
 [David Singleton]: http://dsingleton.co.uk/
 [Amy]: http://amyeee.com/
 [Rich Holman]: http://www.dogwonder.co.uk/
-[Hookline]: [Hookline]: http://hookline.tv/
-[Old Kings Head]: http://www.fancyapint.com/Pub/london/old-kings-head/437
+[Hookline]: http://hookline.tv/
+[Horse & Groom]: http://thehorseandgroom.net/
 [Ben G]: https://twitter.com/beng
 [auto-enrolment]: http://www.thepensionsregulator.gov.uk/en/employers
 
