@@ -88,11 +88,11 @@ Until next time,
 [this write-up]: https://github.com/freerange/site/blob/master/soups/blog/show-and-tell-18.snip.markdown
 
 
-:render_as: draft
+:render_as: blog
 :kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2015-11-20 11:28:00 +01:00
-:updated_at: 2015-11-20 11:28:00 +01:00
+:created_at: 2015-11-20 15:02:00 +01:00
+:updated_at: 2015-11-20 15:02:00 +01:00
 :page_title: Show and Tell 18
