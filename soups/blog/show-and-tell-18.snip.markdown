@@ -31,7 +31,7 @@ We talked about quite a few things here and I hope I've done it justice and not 
 
 [Chris L][] talked a bit about the voluntary work he's doing with [DataKind UK][] to help [Age UK Islington][] analyse the data they've collected over the last couple of years to improve the targeting of their resources. I certainly hadn't appreciated that Age UK operates a very devolved model and each branch is pretty independent.
 
-Something else I took away was a reminder that it's all very well to write software for people, but you have to think about what will happen when you're gone i.e. who will maintain it. This is especially important when the people you are helping have in-house technical expertise nor the money to pay for help.
+Something else I took away was a reminder that it's all very well to write software for people, but you have to think about what will happen when you're gone i.e. who will maintain it. This is especially important when the people you are helping don't have in-house technical expertise nor the money to pay for help.
 
 Anyway this sounded like an interesting and potentially rewarding project to work on.
 
@@ -39,13 +39,13 @@ Anyway this sounded like an interesting and potentially rewarding project to wor
 
 [Paul][] was impressed by the resolution of the [LIDAR map data][] which was recently [published by the environment agency][lidar-open-data]. He asked whether anyone knew how he could use it to 3D-print a small area around someone's house as a present.
 
-The main suggestion was to somehow transform (I forget how) the LIDAR data into an STL file and use a service like [Shapeways][] to get it prrinted. As an optional extra, some of the (impressive) detail could be conveyed using [texture mapping][], i.e. by printing a photo-like image of the map onto the 3D-printed surface.
+The main suggestion was to somehow transform (I forget how) the LIDAR data into an STL file and use a service like [Shapeways][] to get it printed. As an optional extra, some of the (impressive) detail could be conveyed using [texture mapping][], i.e. by printing a photo-like image of the map onto the 3D-printed surface.
 
 ## Ambient audio
 
 [Ben][] has been on a long-term mission to make ambient information (e.g. how soon does the next bus leave) available in his home. He's tried a few things e.g. a pico-projector in the hallway, Kindle on the wall, and a receipt printer hooked up to a Slack channel, but he's not really been happy with any of them.
 
-He's recently bought a [Sonos][] system and discovered that it can stream from any [RTMP][] source. He was wondering whether he could use something like [gstreamer][] to inject personalised information into a radio stream from time to time, along the lines of [RDS][] travel news updates. He thought he might be able to use [Google's Text-to-Speech][] to convert the data into audio.
+He's recently bought a [Sonos][] system and discovered that it can stream from any [RTMP][] source. He was wondering whether he could use something like [gstreamer][] to inject personalised information into a radio stream from time to time, along the lines of [RDS][] travel news updates. He thought he might be able to use [Google's Text-to-Speech][google-tts] to convert the data into audio.
 
 There was a lot of other interesting chat which continued well into the evening over a few pints in the [Horse & Groom][].
 
@@ -76,7 +76,7 @@ Until next time,
 [RTMP]: https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol
 [gstreamer]: http://gstreamer.freedesktop.org/
 [RDS]: https://en.wikipedia.org/wiki/Radio_Data_System
-[Google Text-to-Speech]: http://translate.google.com/translate_tts?tl=en&q=Hello%2C+World!
+[google-tts]: http://translate.google.com/translate_tts?tl=en&q=go+free+range
 [Horse & Groom]: http://thehorseandgroom.net/
 [Shapeways]: http://www.shapeways.com/
 [texture mapping]: https://en.wikipedia.org/wiki/Texture_mapping
