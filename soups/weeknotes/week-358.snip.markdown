@@ -11,7 +11,7 @@ I spent 4 1/2 days working on Smart Answers and just 1/2 day working on GFR.
 
 ## Smart Answers
 
-It was good to have [Erik][erik-eide] back this week and to be able to continue handing our work over as best we can.
+It was good to have [Erik][erik-eide] back this week and to be able to continue handing our work over.
 
 Erik got straight back into it, making some improvements to "[Marriage abroad][marriage-abroad]" as part of some business-as-usual changes that had been requested.
 
@@ -51,6 +51,6 @@ I managed to tick off a couple of minor admin tasks and publish notes for [week 
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2015-12-04 10:50:00 +00:00
-:updated_at: 2015-12-04 10:50:00 +00:00
+:created_at: 2015-12-04 12:00:00 +00:00
+:updated_at: 2015-12-04 12:00:00 +00:00
 :page_title: Week 358
