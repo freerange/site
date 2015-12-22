@@ -7,7 +7,7 @@ At the beginning of the week we tidied up a few loose ends on the [Smart Answers
 
 Chris finished off a [load of additions and improvements to the documentation][pr-2169] and then helped Erik get [some changes to the Minimum Wage Calculator][pr-2161] merged.
 
-I merged the change which [memoizes node presenters][pr-2172]. Hopefully this should reduce the app's memory footprint a bit. I then finished up the [removal of all the multiple-question-per-page code][pr-2181] and got it merged.
+I merged the change which [memoizes node presenters][pr-2172]. Hopefully this should reduce the app's memory footprint a bit. I then finished up the [removal of all the multiple-question-per-page code][pr-2181] and got it merged. It felt really good to be deleting more code!
 
 I also got a couple of other small improvements merged: [removing the unused SmartAnswerPresenter#page_title method][pr-2180] and [renaming SmartAnswerPresenter to FlowPresenter][pr-2179].
 
