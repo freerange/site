@@ -9,7 +9,7 @@ When things didn't sell, we ended up offering them for free just to get rid of t
 
 On Monday morning, I upgraded Ruby on our [Linode][] VPS to v2.1.7. In the afternoon we disassembled the sofa and someone came to pick it up that evening. On Tuesday morning I met a van from the [British Heart Foundation][] who kindly took away our office chairs, fridge and coffee table. Unfortunately they wouldn't take our bookcase, because it was slightly damaged, nor the conference table or big metal cupboard, because they were too big.
 
-On Wednesday we advertised a job lot of miscellaneous items on [Feeecycle][] in a final effort to empty the office. We also gave away a few things to people at [Shoreditch Works][] including our printer and Chris' standing desk. At lunchtime I headed up to the storage unit to meet someone who was buying the big metal cupboard.
+On Wednesday we advertised a job lot of miscellaneous items on [Freecycle][] in a final effort to empty the office. We also gave away a few things to people at [Shoreditch Works][] including our printer and Chris' standing desk. At lunchtime I headed up to the storage unit to meet someone who was buying the big metal cupboard.
 
 Amidst the chaos on Wednesday, Chris somehow got some week notes written up and [published][week-359]. On Thursday morning we took a big pile of company paperwork to [Mailboxes Etc][] to have it scanned and later someone collected the Freecycle job lot.
 
@@ -36,7 +36,7 @@ Anyway that's all for now, folks.
 [Linode]: http://linode.com/
 [British Heart Foundation]: https://www.bhf.org.uk/
 [Mailboxes Etc]: http://www.mbe.co.uk/
-[Feeecycle]: https://www.freecycle.org/
+[Freecycle]: https://www.freecycle.org/
 [Shoreditch Works]: http://shoreditchworks.com/
 [George & Vulture]: http://georgeandvulture.com/
 [Freebird Burritos]: https://foursquare.com/v/freebird-burritos/502a3d2fe4b0b811eade928a
@@ -50,5 +50,5 @@ Anyway that's all for now, folks.
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2016-01-05 22:52:00 +00:00
-:updated_at: 2016-01-06 11:08:00 +00:00
+:updated_at: 2016-01-06 11:12:00 +00:00
 :page_title: Week 361
