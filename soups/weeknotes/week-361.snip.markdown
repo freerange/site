@@ -17,7 +17,7 @@ On Thursday afternoon we headed to the [George & Vulture][] for Chris' leaving d
 
 I just about dragged myself out of bed on Friday morning to meet someone at the storage unit to collect the bookcase. I didn't envy Chris who was moving out of his flat and driving a van down to Ramsgate that day, but by all accounts it all went smoothly.
 
-Later I met Paul for lunch at [Freebird Burritos][] in the Shoreditch Food Village. After lunch we retired to the, now rather empty, office for a cup of tea and Paul then departed with the Battley-o-tron[^1] as promised.
+Later I met Paul for lunch at [Freebird Burritos][] in the Shoreditch Food Village. After lunch we retired to the, now rather empty, office for a cup of tea and Paul then departed with the Battley-o-tron[^1] as he'd promised.
 
 On Saturday morning, someone came to my flat to buy our projector. And in the afternoon I met a couple of people who collected the TV/monitor stand and the conference table respectively from the storage unit. At that point the storage unit was finally empty and I checked us out. Yay!
 
