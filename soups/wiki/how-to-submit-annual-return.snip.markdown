@@ -8,8 +8,8 @@ We submit an annual return to inform Companies House about our company. It shoul
 Here's what you need to do:
 
 * Visit the Companies House WebFiling application - https://ewf.companieshouse.gov.uk
-* The first sign in screen will ask for an email address and password. These details are in the Keychain under “Companies House WebFiling Primary”.
-* The second sign in screen will ask for a company number and authentication code. These details are in the Keychain under “Companies House WebFiling Secondary”.
+* The first sign in screen will ask for an email address and password. These details are in the 1Password vault under “Companies House WebFiling Primary”.
+* The second sign in screen will ask for a company number and authentication code. These details are in the 1Password vault under “Companies House WebFiling Secondary”.
 * Follow the link to “File annual return”.
 * Keep the expected Annual Return Date (13th Jan 2013 for the Jan 2013 return).
 * Answer “no” to the question, “Were any of the company's shares admitted to trading on a market at any time during this return period?”
@@ -34,7 +34,7 @@ Here's what you need to do:
 * Ensure we’ve all got the correct allocation of shares, according to the GFR History document. Use the Transfer shares option e.g. if someone has left and sold their shares to someone else during the year.
 
 ## Payment
-* Choose the option to pay by credit/debit/paypal, as we don’t have an account with Companies House filing. You can either pay with your company debit card or the company PayPal account (details are in the Keychain).
+* Choose the option to pay by credit/debit/paypal, as we don’t have an account with Companies House filing. You can either pay with your company debit card or the company PayPal account (details are in the 1Password vault).
 
 ## Saving the submission return
 * Save a copy of both the submission confirmation and the return itself (get this from the Recent filings menu) to Googe Drive > Go Free Range > Admin > Companies House.
