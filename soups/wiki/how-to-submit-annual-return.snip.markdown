@@ -15,7 +15,7 @@ Here's what you need to do:
 * Answer “no” to the question, “Were any of the company's shares admitted to trading on a market at any time during this return period?”
 
 ## Registered Address Details
-* Confirm our registered address as being Stuart at 3CA’s address: Kent Cottage Bridge Lane, Kendal, Cumbria, United Kingdom, LA9 7DD
+* Confirm our registered address as being Walnut Tree Cottage, Station Road, Ningwood, Isle of Wight PO41 0TQ.
 
 ## Location of Company Registers
 * Confirm that we don’t have a SAIL (Single Alternative Inspection Location) address as all records are kept at the Registered Office.
