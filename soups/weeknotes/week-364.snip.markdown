@@ -22,10 +22,10 @@ Anyway, writing this up is part of a concerted effort to "catch up" with our wee
 [Auto Enrolment staging date]: http://www.thepensionsregulator.gov.uk/employers/staging-date.aspx
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
 :created_at: 2016-01-22 15:41:00 +00:00
-:updated_at: 2016-01-22 16:23:00 +00:00
+:updated_at: 2016-01-24 19:20:00 +00:00
 :page_title: Week 364
