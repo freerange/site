@@ -81,6 +81,6 @@ I talked a little bit about [Google Maps Timeline][google-maps-timeline] (previo
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2016-01-25 13:30:00 +00:00
-:updated_at: 2016-01-25 13:30:00 +00:00
+:created_at: 2016-01-25 13:30:00 +13:00
+:updated_at: 2016-01-25 13:30:00 +13:00
 :page_title: Show and Tell 19
