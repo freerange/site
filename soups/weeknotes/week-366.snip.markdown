@@ -7,7 +7,7 @@ I'm still slowly adjusting to the traveling work/life balance. A combination of 
 
 # Digital Outcomes and Specialists Framework
 
-James did a great job of completing the forms required to get us registered on the [Digital Outcomes and Specialists Framework][digital-outcomes-and-specialists]. The deadline for applying was 19 Jan 2016 and we should hear whether we've been successful toward the end of February. We're hoping that a successful application will make it easier for people in Government to buy our services than it has been in the past.
+James did a great job of completing the forms required to get us registered on the [Digital Outcomes and Specialists Framework][digital-outcomes-and-specialists]. The deadline for applying was 19 Jan 2016 and we should hear whether we've been successful toward the end of February. We're hoping that a successful application will make it easier for people in Government to purchase our services than it has been in the past.
 
 # IR35 Tax Assurances
 
