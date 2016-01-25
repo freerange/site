@@ -20,10 +20,10 @@ Anyway, that's all for this week.
 [digital-outcomes-and-specialists]: https://digitalmarketplace.blog.gov.uk/2015/12/07/digital-outcomes-and-specialists-is-open-for-applications/
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2016-01-22 16:28:00 +00:00
-:updated_at: 2016-01-22 17:24:00 +00:00
+:created_at: 2016-01-22 17:28:00 +01:00
+:updated_at: 2016-01-25 10:17:00 +01:00
 :page_title: Week 365
