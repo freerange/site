@@ -7,11 +7,11 @@ I'm still slowly adjusting to the traveling work/life balance. A combination of 
 
 # Digital Outcomes and Specialists Framework
 
-James did a great job of completing the forms required to get us registered on the [Digital Outcomes and Specialists Framework][digital-outcomes-and-specialists]. The deadline for applying was 19 Jan 2016 and we should hear whether we've been successful toward the end of February. We're hoping that a successful application will make it easier for people in Government to purchase our services than it has been in the past.
+[James][james-mead] did a great job of completing the forms required to get us registered on the [Digital Outcomes and Specialists Framework][digital-outcomes-and-specialists]. The deadline for applying was 19 Jan 2016 and we should hear whether we've been successful toward the end of February. We're hoping that a successful application will make it easier for people in Government to purchase our services than it has been in the past.
 
 # IR35 Tax Assurances
 
-As part of our most recent contract with GDS we've been asked to provide them with a tax assurance to state that the way we're "working is coherent to our contracted terms". We're fairly confident that IR35 doesn't apply to this (or any of our previous) contracts but we still need to provide the assurances. I was quite keen to use [HMRC's contract review service][hmrc-ir35-review] but James has suggested that we go for an independent service given that there's a potential conflict of interest between HMRC's review and enforcement departments.
+As part of our most recent contract with GDS we've been asked to provide them with a tax assurance to state that the way we're "working is coherent to our contracted terms". We're fairly confident that IR35 doesn't apply to this (or any of our previous) contracts and are currently reviewing our options to work out how best to provide the assurance.
 
 # SSH Vulnerability
 
@@ -28,6 +28,7 @@ Until next time.
 [cve-2016-0777]: http://www.undeadly.org/cgi?action=article&sid=20160114142733
 [digital-outcomes-and-specialists]: https://digitalmarketplace.blog.gov.uk/2015/12/07/digital-outcomes-and-specialists-is-open-for-applications/
 [hmrc-ir35-review]: https://www.gov.uk/government/organisations/hm-revenue-customs/contact/ir35-enquiries
+[james-mead]: /james-mead
 [submit-annual-return]: http://gofreerange.com/how-to-submit-annual-return
 
 :render_as: Blog
