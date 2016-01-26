@@ -32,10 +32,10 @@ Until next time.
 [submit-annual-return]: http://gofreerange.com/how-to-submit-annual-return
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2016-01-25 16:30:00 +13:00
-:updated_at: 2016-01-25 16:30:00 +13:00
+:created_at: 2016-01-27 12:00:00 +13:00
+:updated_at: 2016-01-27 12:00:00 +13:00
 :page_title: Week 366
