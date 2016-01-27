@@ -81,10 +81,10 @@ An amazing bit of skiing! {by james-mead}
 
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2016-01-25 22:00:00 +13:00
-:updated_at: 2016-01-25 22:00:00 +13:00
+:created_at: 2016-01-28 08:00:00 +13:00
+:updated_at: 2016-01-28 08:00:00 +13:00
 :page_title: Week 367 - Interesting links
