@@ -4,6 +4,7 @@ Week 368 - Interesting links
 ### [Coastermelt](http://www.misc.name/#/coastermelt/)
 
 I was completely fascinated by this series of videos by [Micah Scott][] in which she explains how she's reverse-engineering a common Blu-Ray disc recorder. The end goal is to create discs encoded with holographic images, but there have already been lots of interesting diversions along the way.
+I was completely fascinated by this on-going series of videos by [Micah Scott][] in which she explains how she's reverse-engineering a common Blu-Ray disc recorder. The end goal is to create discs encoded with holographic images, but there have already been lots of interesting diversions along the way.
 
 I particularly liked the way she viewed the firmware code using the [PGM image format][] in order to work out what different chunks of code might do and even what processor's instruction set they might belong to. This seems closely related to Murray's [Stegosaurus project][].
 
