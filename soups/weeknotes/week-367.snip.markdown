@@ -7,7 +7,7 @@ We decided to use [Egos Consultancy][egos] to help with our IR35 compliance. [Ja
 
 We also received an email from [Digital Gurus][digital-gurus] containing some revised contracts for our work with [Smart Answers][smart-answers]. I spent far too long trying to compare the PDFs to work out the changes. A task that would be trivial had they been presented in plain text.
 
-## Continued Smart Answers work
+## Smart Answers
 
 When we finished working on Smart Answers toward the end of 2015, we said that we'd be interested in continuing to work on the project in the new year. We emailed GDS this week to see if they'd like us back!
 
@@ -21,13 +21,17 @@ James also upgraded the app to [Rails 4.2.5.1 after a number of security vulnera
 
 James [fixed a bug with the ordering of Trello cards][webhooks-commit] in our [Trello/Harmonia integration][webhooks-github]. The bug meant that the ordering of cards by due date was occasionally broken.
 
+## GFR Video
+
+James upgraded Rails from 4.1.11 to 4.1.14.1. As with the Rails upgrade for Hookline, this was in response to the security vulnerabilities and fixes that were recently announced.
+
 ## Scanned paperwork
 
 James and I continued going through some of the paperwork we had scanned by [Mailboxes Etc][mailboxes-etc] at the end of last year.
 
 ## Show and Tell
 
-I finally finished the lover overdue write-up of [Show and Tell 19][show-and-tell-19].
+I finally finished the long overdue write-up of [Show and Tell 19][show-and-tell-19].
 
 Until next time, folks.
 
