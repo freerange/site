@@ -47,10 +47,10 @@ Until next time, folks.
 [webhooks-github]: https://github.com/freerange/webhooks
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2016-02-15 10:30:00 +13:00
-:updated_at: 2016-02-15 10:30:00 +13:00
+:created_at: 2016-02-17 09:15:00 +13:00
+:updated_at: 2016-02-17 09:15:00 +13:00
 :page_title: Week 367
