@@ -39,10 +39,10 @@ Until next time.
 [upstart-unicorn-launcher]: https://github.com/freerange/upstart-unicorn-launcher
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2016-02-24 12:50:00 +13:00
-:updated_at: 2016-02-24 12:50:00 +13:00
+:created_at: 2016-03-10 10:35:00 +11:00
+:updated_at: 2016-03-10 10:35:00 +11:00
 :page_title: Week 369
