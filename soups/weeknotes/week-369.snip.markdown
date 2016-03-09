@@ -7,7 +7,7 @@ This was my first week back working on [Smart Answers][smart-answers].
 
 [James][james-mead] and I used Google Hangouts to discuss what we were working on. It was good to speak in person for the first time since 2015!
 
-In our email conversations, [Dai][dai-vaughn] had explained that improving the [Marriage Abroad Smart Answer][marriage-abroad] was one of their top priorities. It currently takes up about 80% of available developer time each month! I decided to get stuck in and slowly start [refactoring it into a better shape](smart-answer-refactor]).
+In our email conversations, [Dai][dai-vaughn] had explained that improving the [Marriage Abroad Smart Answer][marriage-abroad] was one of their top priorities. It currently takes up about 80% of available developer time each month! I decided to get stuck in and slowly start [refactoring it into a better shape][smart-answer-refactor].
 
 While working on Marriage Abroad, I noticed that JavaScript graph visualisation of Smart Answers was broken. I raised a bug for it and James spent some time investigating. James determined that the problem was caused by the [removal of `SVGGraphicsElement.getTransformToElement` from Chrome][chrome-get-transform-to-element-removal], which caused our version of [jointjs][jointjs] to break. Although there's a [fix in jointjs][jointjs-changelog], it appears to rely on a newer version of jQuery than is currently available on GOV.UK, meaning that it's not a simple case of upgrading. We're trying to work out how important this functionality is to help decide whether we should try to fix it or whether we can get away with removing it.
 
