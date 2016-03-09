@@ -44,10 +44,10 @@ Until next time, folks.
 [smart-answers-pr-2285]: https://github.com/alphagov/smart-answers/pull/2285
 
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2016-02-25 15:00:00 +13:00
-:updated_at: 2016-02-25 15:00:00 +13:00
+:created_at: 2016-03-10 10:38:00 +11:00
+:updated_at: 2016-03-10 10:38:00 +11:00
 :page_title: Week 370
