@@ -35,6 +35,8 @@ Example: `GFR_DATE=2014-03-24 rake display_gfr_week_number`
 DESC
 task :display_gfr_week_number do
   date = Date.parse(ENV['GFR_DATE']) rescue Date.today
+  week_number = weeks_since_incorporation(date).to_i
+  week_beginning = monday_beginning(date).strftime("%d %b %Y")
 
-  puts "Week beginning #{monday_beginning(date).strftime("%d %b %Y")} is week #{weeks_since_incorporation(date).to_i}"
+  puts "Week beginning #{week_beginning} is week #{week_number}"
 end
