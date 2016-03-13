@@ -24,19 +24,21 @@ def weeks_since_incorporation(date)
   days_since_incorporation / 7.0
 end
 
-desc <<-DESC
-Displays the GFR week number from the date of incorporation.
+namespace :week do
+  desc <<-DESC
+  Displays the GFR week number from the date of incorporation.
 
-It defaults to today's date but you can override that by supplying
-a parseable date in the GFR_DATE environment variable.
+  It defaults to today's date but you can override that by supplying
+  a parseable date in the GFR_DATE environment variable.
 
-Example: `GFR_DATE=2014-03-24 rake display_gfr_week_number`
-=> Week beginning 24 Mar 2014 is week 271
-DESC
-task :display_gfr_week_number do
-  date = Date.parse(ENV['GFR_DATE']) rescue Date.today
-  week_number = weeks_since_incorporation(date).to_i
-  week_beginning = monday_beginning(date).strftime("%d %b %Y")
+  Example: `GFR_DATE=2014-03-24 rake week:number`
+  => Week beginning 24 Mar 2014 is week 271
+  DESC
+  task :number do
+    date = Date.parse(ENV['GFR_DATE']) rescue Date.today
+    week_number = weeks_since_incorporation(date).to_i
+    week_beginning = monday_beginning(date).strftime("%d %b %Y")
 
-  puts "Week beginning #{week_beginning} is week #{week_number}"
+    puts "Week beginning #{week_beginning} is week #{week_number}"
+  end
 end
