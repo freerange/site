@@ -55,15 +55,16 @@ namespace :week do
     Creates a new weeknotes snip for the current GFR week.
 
     By default it calculates the GFR week number based on today's
-    date, but you can override that by supplying a parseable date
-    in the DATE environment variable.
+    date, but you can override that either by supplying a parseable
+    date in the DATE environment variable or by setting the WEEK
+    environment variable to the GFR week number.
     DESC
     task :create do
       app = Application.new
       snip = app.soup['week-nnn']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = weeks_since_incorporation(date).to_i
+      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
@@ -80,8 +81,9 @@ namespace :week do
     Prepares the current weeknotes snip for publication.
 
     By default it calculates the GFR week number based on today's
-    date, but you can override that by supplying a parseable date
-    in the DATE environment variable.
+    date, but you can override that either by supplying a parseable
+    date in the DATE environment variable or by setting the WEEK
+    environment variable to the GFR week number.
 
     If a weeknotes snip for the relevant GFR week does not exist,
     it will exit with an error message.
@@ -90,7 +92,7 @@ namespace :week do
       app = Application.new
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = weeks_since_incorporation(date).to_i
+      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}"
       snip = app.soup[snip_name]
       unless snip
@@ -109,15 +111,16 @@ namespace :week do
     Creates a new weeklinks snip for the current GFR week.
 
     By default it calculates the GFR week number based on today's
-    date, but you can override that by supplying a parseable date
-    in the DATE environment variable.
+    date, but you can override that either by supplying a parseable
+    date in the DATE environment variable or by setting the WEEK
+    environment variable to the GFR week number.
     DESC
     task :create do
       app = Application.new
       snip = app.soup['week-nnn-links']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = weeks_since_incorporation(date).to_i
+      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
@@ -134,8 +137,9 @@ namespace :week do
     Prepares the current weeklinks snip for publication.
 
     By default it calculates the GFR week number based on today's
-    date, but you can override that by supplying a parseable date
-    in the DATE environment variable.
+    date, but you can override that either by supplying a parseable
+    date in the DATE environment variable or by setting the WEEK
+    environment variable to the GFR week number.
 
     If a weeklinks snip for the relevant GFR week does not exist,
     it will exit with an error message.
@@ -144,7 +148,7 @@ namespace :week do
       app = Application.new
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = weeks_since_incorporation(date).to_i
+      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}-links"
       snip = app.soup[snip_name]
       unless snip
