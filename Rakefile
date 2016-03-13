@@ -103,4 +103,31 @@ namespace :week do
       snip.save
     end
   end
+
+  namespace :links do
+    desc <<-DESC
+    Creates a new weeklinks snip for the current GFR week.
+
+    By default it calculates the GFR week number based on today's
+    date, but you can override that by supplying a parseable date
+    in the DATE environment variable.
+    DESC
+    task :create do
+      app = Application.new
+      snip = app.soup['week-nnn-links']
+
+      date = Date.parse(ENV['DATE']) rescue Date.today
+      week_number = weeks_since_incorporation(date).to_i
+      username = `whoami`.chomp
+      author = USERNAMES_VS_AUTHORS.fetch(username)
+
+      snip.author = author
+      snip.created_at = Time.now
+      snip.updated_at = Time.now
+      snip.page_title = "Week #{week_number} - Interesting links"
+      snip.name = "week-#{week_number}-links"
+      snip.content.gsub!(/Week NNN/, "Week #{week_number}")
+      snip.save
+    end
+  end
 end
