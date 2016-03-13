@@ -129,5 +129,32 @@ namespace :week do
       snip.content.gsub!(/Week NNN/, "Week #{week_number}")
       snip.save
     end
+
+    desc <<-DESC
+    Prepares the current weeklinks snip for publication.
+
+    By default it calculates the GFR week number based on today's
+    date, but you can override that by supplying a parseable date
+    in the DATE environment variable.
+
+    If a weeklinks snip for the relevant GFR week does not exist,
+    it will exit with an error message.
+    DESC
+    task :publish do
+      app = Application.new
+
+      date = Date.parse(ENV['DATE']) rescue Date.today
+      week_number = weeks_since_incorporation(date).to_i
+      snip_name = "week-#{week_number}-links"
+      snip = app.soup[snip_name]
+      unless snip
+        abort "No weeklinks snip found for GFR week number #{week_number}"
+      end
+
+      snip.kind = 'blog'
+      snip.created_at = Time.now
+      snip.updated_at = Time.now
+      snip.save
+    end
   end
 end
