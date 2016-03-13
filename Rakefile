@@ -24,6 +24,14 @@ def weeks_since_incorporation(date)
   days_since_incorporation / 7.0
 end
 
+require "erb"
+require_relative "application"
+
+USERNAMES_VS_AUTHORS = {
+  'jamesmead' => 'james-mead',
+  'chrisroos' => 'chris-roos'
+}
+
 namespace :week do
   desc <<-DESC
   Displays the GFR week number from the date of incorporation.
@@ -40,5 +48,32 @@ namespace :week do
     week_beginning = monday_beginning(date).strftime("%d %b %Y")
 
     puts "Week beginning #{week_beginning} is week #{week_number}"
+  end
+
+  namespace :notes do
+    desc <<-DESC
+    Creates a new weeknotes snip for the current GFR week.
+
+    By default it calculates the GFR week number based on today's
+    date, but you can override that by supplying a parseable date
+    in the DATE environment variable.
+    DESC
+    task :create do
+      app = Application.new
+      snip = app.soup['week-nnn']
+
+      date = Date.parse(ENV['DATE']) rescue Date.today
+      week_number = weeks_since_incorporation(date).to_i
+      username = `whoami`.chomp
+      author = USERNAMES_VS_AUTHORS.fetch(username)
+
+      snip.author = author
+      snip.created_at = Time.now
+      snip.updated_at = Time.now
+      snip.page_title = "Week #{week_number}"
+      snip.name = "week-#{week_number}"
+      snip.content.gsub!(/Week NNN/, "Week #{week_number}")
+      snip.save
+    end
   end
 end
