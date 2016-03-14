@@ -77,10 +77,10 @@ Thanks it for this week. Until next time.
 [pension auto-enrolment]: http://www.thepensionsregulator.gov.uk/en/employers
 
 :name: week-371
-:updated_at: 2016-03-13 14:17:04.929004000 +01:00
+:updated_at: 2016-03-14 10:41:39.460449000 +01:00
 :created_at: 2016-03-13 14:17:04.928975000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
