@@ -58,7 +58,7 @@ finished off doing this during the week.
 
 * Our staging date for [pension auto-enrolment][] is 1st April and so Chris double-checked that we're compliant with the legislation.
 
-Thanks it for this week. Until next time.
+That's it for this week. Until next time.
 
 -- James
 
