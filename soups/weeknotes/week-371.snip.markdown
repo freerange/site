@@ -54,8 +54,6 @@ Locker and Chris sorted out the related book-keeping in [FreeAgent][].
 years and we decided to split it up into a number of smaller tasks. Chris
 finished off doing this during the week.
 
-* The previous week we'd been told that our application to the [Digital Outcomes and Specialists Framework][] had been successful. We spent this week reading the Framework Agreement, asking for clarification on a few points, and then signing and returning the document.
-
 * Our staging date for [pension auto-enrolment][] is 1st April and so Chris double-checked that we're compliant with the legislation.
 
 That's it for this week. Until next time.
@@ -73,7 +71,6 @@ That's it for this week. Until next time.
 [pr-2298]: https://github.com/alphagov/smart-answers/pull/2297
 [FreeAgent]: http://www.freeagent.com/
 [Harmonia]: https://harmonia.io
-[Digital Outcomes and Specialists Framework]: https://digitalmarketplace.blog.gov.uk/2015/12/07/digital-outcomes-and-specialists-is-open-for-applications/
 [pension auto-enrolment]: http://www.thepensionsregulator.gov.uk/en/employers
 
 :name: week-371
