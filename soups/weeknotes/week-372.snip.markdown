@@ -11,6 +11,9 @@ Chris was away on a sailing course for the second half of the week. Otherwise, w
 
 * Chris continued with his quest to refactor [Marriage Abroad][]. In particular, he opened a pull request to [delegate from MarriageAbroadCalculator to MarriageAbroadDataQuery][pr-2316].
 
+Until next time.
+
+-- James
 
 [Smart Answers]: https://github.com/alphagov/smart-answers
 [pr-2316]: https://github.com/alphagov/smart-answers/pull/2316
