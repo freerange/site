@@ -17,9 +17,9 @@ He also [spiked on the idea of having country-specific outcomes][pr-2354] for [M
 
 ## GFR
 
-As usual we just about stayed on top of the usual company admin. The only thing worthy of note was that we filled up our company Dropbox account.
+As usual we just about stayed on top of the usual company admin. Chris filed our VAT return and finished splitting up the documents we had scanned by Mailboxes Etc at the end of last year.
 
-We mainly use Google Drive these days, but we still keep a few things in Dropbox. Chris noticed that our Trello backups were taking up most of the space, so he deleted a bunch of them and created a new Harmonia task to remind us to regularly delete older ones.
+We also ran out of space in our company Dropbox account. We mainly use Google Drive these days, but we still keep a few things in Dropbox. Chris noticed that our Trello backups were taking up most of the space, so he deleted a bunch of them and created a new Harmonia task to remind us to regularly delete older ones.
 
 Until next time.
 
