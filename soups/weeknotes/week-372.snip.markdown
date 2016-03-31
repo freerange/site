@@ -24,10 +24,10 @@ Until next time.
 [Marriage Abroad]: https://www.gov.uk/marriage-abroad
 
 :name: week-372
-:updated_at: 2016-03-16 09:10:20.192778000 +01:00
-:created_at: 2016-03-16 09:10:20.192751000 +01:00
+:updated_at: 2016-03-31 10:28:53.435068000 +02:00
+:created_at: 2016-03-31 10:28:53.435052000 +02:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
