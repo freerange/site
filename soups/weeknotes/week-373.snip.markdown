@@ -39,10 +39,10 @@ Until next time.
 [Marriage Abroad]: https://www.gov.uk/marriage-abroad
 
 :name: week-373
-:updated_at: 2016-03-16 09:10:23.207917000 +01:00
-:created_at: 2016-03-16 09:10:23.207884000 +01:00
+:updated_at: 2016-03-31 10:38:19.579185000 +02:00
+:created_at: 2016-03-31 10:38:19.579181000 +02:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
