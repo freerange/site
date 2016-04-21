@@ -1,0 +1,79 @@
+Week 376
+========
+
+## Smart Answers
+
+[Leena][leena-gupte] joined the team this week. Welcome, Leena!
+
+### Removing unused code
+
+[James][james-mead] did a bit of tidying by removing some unused code:
+
+* [PR 2402 - Remove use_legacy_data option for country_select question][smart-answers-pr-2402].
+
+* [PR 2403 - Remove unused FCOEmbassyScraper][smart-answers-pr-2403].
+
+### Rubocop
+
+James merged his PR that changes the way we're using Rubocop:
+
+* [PR 2418 - Use auto generated Rubocop config][smart-answers-pr-2418].
+
+We were previously using [govuk-lint-ruby][govuk-lint-ruby] with the `--diff --cached` options to prevent us from violating Rubocop rules when changing or adding code. This PR switches us to using an [automatically generated configuration file][rubocop-auto-generated-config] to ignore existing violations. We plan to fix the ignored violations in future commits.
+
+### 2016/17 tax year updates
+
+I made the following change to make it possible for rate changes to be fact checked on Heroku:
+
+* [PR 2412 - Allow `RatesQuery` date to be set using environment variable][smart-answers-pr-2412].
+
+I updated the rates for register-a-birth and register-a-death. In both cases, I extracted the hardcoded values from the ERB templates to YAML files and then added the new fees as required:
+
+* [PR 2424 - Add 2016/17 rates for register-a-birth][smart-answers-pr-2424].
+
+* [PR 2425 - Add 2016/17 rates for register-a-death][smart-answers-pr-2425].
+
+I spent most of my time working on marriage-abroad changes required for 2016/17. We need to change the names and prices of services, and the services offered by different ceremony countries.
+
+I started out by updating the names of the various marriage-abroad services based on information from FCO:
+
+* [PR 2413 - Rename marriage-abroad services][smart-answers-pr-2413].
+
+Having created this pull request, I started to make the changes to the services offered by various countries. This was harder than I'd hoped because the logic wasn't in a single place. I ended up spiking on a couple of different approaches before deciding to extract the service information to a YAML file.
+
+### Marriage-abroad template improvements
+
+When we initially converted Smart Answers from i18n to ERB templates, we used space stripping ERB tags to try to match the rendered HTML as closely as possible. We've made some improvements since that initial conversion that mean these are no longer required. I removed them from the marriage-abroad templates:
+
+* [PR 2420 - Remove space stripping ERB tags from marriage-abroad templates][smart-answers-pr-2420].
+
+## GFR
+
+I think the only thing of note on the GFR front was that we received one or two emails about the [Printer project that's now part of Exciting][exciting-printer]. We configured Google Apps to forward these emails automatically in future.
+
+-- Chris
+
+[exciting-printer]: https://exciting.io/printer/
+[govuk-lint-ruby]: https://github.com/alphagov/govuk-lint
+[james-mead]: /james-mead
+[leena-gupte]: https://github.com/leenagupte
+[rubocop-auto-generated-config]: https://github.com/bbatsov/rubocop#automatically-generated-configuration
+[smart-answers-pr-2402]: https://github.com/alphagov/smart-answers/pull/2402
+[smart-answers-pr-2403]: https://github.com/alphagov/smart-answers/pull/2403
+[smart-answers-pr-2412]: https://github.com/alphagov/smart-answers/pull/2412
+[smart-answers-pr-2413]: https://github.com/alphagov/smart-answers/pull/2413
+[smart-answers-pr-2418]: https://github.com/alphagov/smart-answers/pull/2418
+[smart-answers-pr-2420]: https://github.com/alphagov/smart-answers/pull/2420
+[smart-answers-pr-2424]: https://github.com/alphagov/smart-answers/pull/2424
+[smart-answers-pr-2425]: https://github.com/alphagov/smart-answers/pull/2425
+
+:name: week-376
+:updated_at: 2016-04-11 12:37:36.497251000 +10:00
+:created_at: 2016-04-11 12:37:36.497225000 +10:00
+:render_as: Blog
+:kind: draft
+:is_page: true
+:written_with: Kramdown
+:author: chris-roos
+:page_title: Week 376
+:extension: markdown
