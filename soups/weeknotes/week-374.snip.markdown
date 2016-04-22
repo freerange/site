@@ -5,6 +5,7 @@ Week 374
 
 [Pablo][pablo-manrubia] joined the team this week. Welcome, Pablo!
 
+
 ### Automatically detecting next nodes
 
 [James][james-mead] built on his work that [added support for automatically detecting next nodes for a Smart Answer][smart-answers-pr-2343]. The following pull requests incrementally improved the system until we were left with a single way of defining next nodes, and a single way of determining those next nodes for visualisation purposes.
@@ -18,6 +19,7 @@ Week 374
 * [PR 2378 - Remove `permitted` option from `next_node` with block][smart-answers-pr-2378].
 
 * [PR 2380 - Convert calls to `next_node` without a block into calls with a block][smart-answers-pr-2380]. Simplifies code by having a single syntax for specifying next nodes.
+
 
 ### Smaller changes
 
@@ -35,6 +37,7 @@ James was on a roll this week and also made a number of smaller changes:
 
 * [PR 2386 - Remove unused `state` attribute from flow][smart-answers-pr-2386].
 
+
 ### Refactoring marriage-abroad
 
 I continued to refactor [marriage-abroad][marriage-abroad]. I merged a couple of pull requests that had been given the thumbs up, and opened new pull requests that continue to remove `precalculate` blocks from the flow in favour of encapsulating logic in the associated calculator object:
@@ -51,19 +54,23 @@ I continued to refactor [marriage-abroad][marriage-abroad]. I merged a couple of
 
 * Started working on consistently naming marriage-abroad outcomes in the hope that it makes it easier to work on this smart answers.
 
+
 ## GFR
 
 ### GFR website
 
 James added [Rake tasks to make it easier to create week notes and week links][gfr-site-pr-32]. The discussion highlighted a difference in our approach to updating metadata on our blog posts. Codifying the logic means that this shouldn't be a problem in future.
 
+
 ### IR35 Tax Assurances
 
-We forwarded our completed IR35 questionnaires to GDS. We were under the impression these wouldn't be required but they've been requested in order to "mark your assurances compliant".
+We forwarded our completed Working Practices Questionnaire to GDS. We were under the impression these wouldn't be required but they've been requested in order to "mark your assurances compliant".
+
 
 ### Recording client time
 
 We're working somewhat irregular hours at the moment. Including weekends. This makes it a little hard to fit our time in with the Fieldglass system used by GDS. After some discussion, we agreed to split our time evenly between the two of us, and between Monday to Friday. This means that the time recorded against each day in Fieldglass won't necessarily match reality but the totals remain the same, which is the important thing. James created a spreadsheet to help us convert from our hours logged in FreeAgent to those required by Fieldglass.
+
 
 ### Caffeine Monitor
 
