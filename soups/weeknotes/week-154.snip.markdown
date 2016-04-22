@@ -87,7 +87,7 @@ Have a great New Year, blog friends.
 [Linda]: /linda-reads-your-numbers
 [Voicenet]: /voicenet
 [geohash-explorer]: http://geohash.gofreerange.com/
-[geomob]: http://geomobldn.org/next-geomob-day-24th-of-november
+[geomob]: http://geomobldn.org/post/43642064870/next-geomob-day-24th-of-november
 
 :render_as: Blog
 :kind: blog
