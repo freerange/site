@@ -5,6 +5,7 @@ James was away on a skiing course this week.
 
 I spent most of my time working on Smart Answers. There was plenty to do for the start of the 2016/17 tax year.
 
+
 ## Smart Answers
 
 ### 2016/17 updates for registering births and deaths
@@ -14,6 +15,7 @@ I merged the PRs that were created last week.
 * [PR 2424 - Add 2016/17 rates for register-a-birth][smart-answers-pr-2424].
 
 * [PR 2425 - Add 2016/17 rates for register-a-death][smart-answers-pr-2425].
+
 
 ### 2016/17 updates for marriage-abroad
 
@@ -35,6 +37,7 @@ These changes meant that I ended up closing the PR I opened last week:
 
 * [PR 2413 - Rename marriage-abroad services][smart-answers-pr-2413].
 
+
 ### Refactoring marriage-abroad
 
 * [PR 2444 - Refactor marriage-abroad PACS outcomes][smart-answers-pr-2444]. Replace anonymous arrays of countries with intention revealing methods.
@@ -43,9 +46,11 @@ These changes meant that I ended up closing the PR I opened last week:
 
 * Started working on a branch to remove the duplication between the page titles we use on the marriage-abroad outcomes.
 
+
 ### Bug in minimum-wage calculator
 
 * [PR 2441 - Fix minimum wage rates for people aged 24][smart-answers-pr-2441]. I fixed a bug we were alerted to by exception emails from Errbit.
+
 
 ## Slimmer
 
@@ -54,6 +59,7 @@ I created a couple of pull requests for Slimmer after encountering an exception 
 * [Slimmer PR 143 - Rescue SSL errors in Skin#load_template][slimmer-pr-143]. Raise a more descriptive exception if/when we encounter an SSL error.
 
 * [Slimmer PR 142 - Update .ruby-version to 2.1.0][slimmer-pr-142]. In an attempt to understand why I couldn't "use" the .ruby-version in the project.
+
 
 ## GFR
 
@@ -86,3 +92,4 @@ I only really did the minimum admin required to keep things ticking over this we
 :author: chris-roos
 :page_title: Week 377
 :extension: markdown
+:week_dates: Mon 4 April to Sun 10 April
