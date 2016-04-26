@@ -18,13 +18,13 @@ Week 376
 
 ### 2016/17 updates for marriage-abroad
 
-I spent most of my time working on changes to the marriage-abroad services and fees required by 6 April. We need to change the names and prices of services, and the services offered by different ceremony countries.
+I spent most of my time working on changes to the marriage-abroad services and fees required by 6 April. We need to change the names and prices of services, and the services offered in different ceremony countries.
 
 I started out by updating the names of the various marriage-abroad services based on information from FCO:
 
 * [PR 2413 - Rename marriage-abroad services][smart-answers-pr-2413].
 
-Having created this pull request, I started to make the changes to the services offered by various countries. This was harder than I'd hoped because the logic wasn't in a single place. I ended up spiking on a couple of different approaches before deciding to extract the service information to a YAML file.
+Having created this pull request, I started to make the changes to the services offered in various countries. This was harder than I'd hoped because the logic was spread all over the place. I ended up spiking on a couple of different approaches before deciding to extract the service information to a YAML file.
 
 
 ### Marriage-abroad template improvements
@@ -36,17 +36,18 @@ Having created this pull request, I started to make the changes to the services 
 
 ### Printer
 
-I think the only thing of note on the GFR front was that we received one or two emails about the [Printer project that's now part of Exciting][exciting-printer]. We configured Google Apps to forward these emails automatically in future.
+We received one or two emails about the [Printer project][exciting-printer] (now part of [Exciting][exciting-io]). We configured Google Apps to forward these emails automatically in future.
 
 
 ### Annual accounts
 
-James has started to investigate whether it's going to be possible to generate our annual accounts ourselves. One idea we have is to generate them ourselves and then to pay an accountant to sanity check them, although we're not sure if anyone offers such a service.
+James has started to investigate whether it's going to be possible/easy for us to generate our annual accounts. One idea we've discussed is for us to generate them, and then to pay an accountant to sanity check them, although we're not sure if anyone offers such a service.
 
 James explored using software to generate the accounts from our FreeAgent data, and also started researching whether we'll be able to use [HMRC's new CATO tool][hmrc-cato] to file our accounts online.
 
 -- Chris
 
+[exciting-io]: https://exciting.io/
 [exciting-printer]: https://exciting.io/printer/
 [hmrc-cato]: https://www.gov.uk/file-your-company-accounts-and-tax-return
 [james-mead]: /james-mead
