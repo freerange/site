@@ -64,7 +64,7 @@ James added [Rake tasks to make it easier to create week notes and week links][g
 
 ### IR35 Tax Assurances
 
-We forwarded our completed Working Practices Questionnaire to GDS. We were under the impression these wouldn't be required but they've been requested in order to "mark your assurances compliant".
+We forwarded our completed Working Practices Questionnaire to GDS. We were under the impression this wouldn't be required but it's been requested in order to "mark your assurances compliant".
 
 
 ### Recording client time
