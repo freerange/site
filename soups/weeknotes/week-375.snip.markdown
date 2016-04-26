@@ -3,7 +3,7 @@ Week 375
 
 ## Smart Answers
 
-We were sad to see [Erik][erik-eide] leave the team this week. We enjoyed working with Erik and wish him all the best for the future.
+[Erik][erik-eide] left the team this week. We've enjoyed working with Erik and wish him all the best for the future.
 
 
 ### New `on_response` block
@@ -66,7 +66,7 @@ I spent most of my time continuing to try to improve marriage-abroad.
 
 ### IR35 Tax Assurances
 
-I think the main thing of note this week was that we got confirmation that our tax assurances are all in order from GDS.
+We received confirmation that our tax assurances for GDS are all in order.
 
 -- Chris
 
