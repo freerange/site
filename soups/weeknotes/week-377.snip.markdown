@@ -85,10 +85,10 @@ I only really did the minimum admin required to keep things ticking over this we
 [smart-answers-pr-2448]: https://github.com/alphagov/smart-answers/pull/2448
 
 :name: week-377
-:updated_at: 2016-04-11 12:37:39.203475000 +10:00
-:created_at: 2016-04-11 12:37:39.203448000 +10:00
+:updated_at: 2016-04-26 19:44:11.446889000 +12:00
+:created_at: 2016-04-26 19:44:11.446882000 +12:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
