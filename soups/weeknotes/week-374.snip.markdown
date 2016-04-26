@@ -100,10 +100,10 @@ James noticed that the mirror of [caffeine monitor][caffeine-monitor] we're host
 [twitter-chat-with-andy-mcmillan]: (https://twitter.com/andymcmillan/status/710171697047949312)
 
 :name: week-374
-:updated_at: 2016-03-30 11:10:45.366171000 +13:00
-:created_at: 2016-03-30 11:10:45.366146000 +13:00
+:updated_at: 2016-04-26 19:10:43.221228000 +12:00
+:created_at: 2016-04-26 19:10:43.221221000 +12:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
