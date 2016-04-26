@@ -1,9 +1,9 @@
 Week 377
 ========
 
-James was away on a skiing course this week.
+[James][james-mead] was away on a skiing course this week.
 
-I spent most of my time working on Smart Answers. There was plenty to do for the start of the 2016/17 tax year.
+I spent most of my time working on [Smart Answers][smart-answers]. There was plenty to do for the start of the 2016/17 tax year.
 
 
 ## Smart Answers
@@ -23,7 +23,7 @@ The work to update the services and fees for marriage-abroad took a lot longer t
 
 * [PR 2433 - Extract marriage-abroad fees to YAML file][smart-answers-pr-2433]. I merged Erik's changes to extract the fees to a YAML file.
 
-* [PR 2434 - Extract marriage-abroad service data][smart-answers-pr-2434]. This results in the data about which services are available in which ceremony countries is all in a single place.
+* [PR 2434 - Extract marriage-abroad service data][smart-answers-pr-2434]. This results in the data about the services that are available in each ceremony country all living in a single place.
 
 * [PR 2438 - Update marriage-abroad services][smart-answers-pr-2438]. This updates the names of the services so that they're all consistent, and updates the services offered in the various ceremony countries.
 
@@ -67,8 +67,10 @@ I only really did the minimum admin required to keep things ticking over this we
 
 -- Chris
 
+[james-mead]: /james-mead
 [slimmer-pr-142]: https://github.com/alphagov/slimmer/pull/142
 [slimmer-pr-143]: https://github.com/alphagov/slimmer/pull/143
+[smart-answers]: https://github.com/alphagov/smart-answers
 [smart-answers-pr-2413]: https://github.com/alphagov/smart-answers/pull/2413
 [smart-answers-pr-2424]: https://github.com/alphagov/smart-answers/pull/2424
 [smart-answers-pr-2425]: https://github.com/alphagov/smart-answers/pull/2425
