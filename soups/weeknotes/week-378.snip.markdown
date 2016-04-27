@@ -43,9 +43,9 @@ I started trying to catch up with the backlog of week notes. I'm overdue to writ
 
 ### Salary and dividend amounts for 2016/17
 
-We have an annual [Harmonia][harmonia-io] task that prompts us to review our salary and dividend amounts for the coming tax year. I spent all too long trying to get my head round the new dividend rules. They're really not that complicated so I'm not entirely sure why I found it quite so hard.
+We have an annual [Harmonia][harmonia-io] task that prompts us to review our salary and dividend amounts for the coming tax year. I spent all too long trying to get my head round the new dividend tax rules. They're really not that complicated so I'm not entirely sure why I found it quite so hard.
 
-When working on this task last year (see [accountancy in week 325][week-325-accountancy]), James created a spreadsheet to model the rules. I knew I wanted to modify this to handle the new rules but kept getting distracted by creating different implementations (in spreadsheets and Ruby). Although it felt like a waste at the time, one of the alternative spreadsheet implementations helped me spot a problem with my changes in the main spreadsheet. The Ruby version was definitely just a (fun) waste of time though :-)
+When working on this task last year (see [Accountancy in week 325][week-325-accountancy]), James created a spreadsheet to model the rules. I knew I wanted to modify this to handle the new rules but kept getting distracted by creating different implementations (in spreadsheets and Ruby). Although it felt like a waste at the time, one of the alternative spreadsheet implementations helped me spot a problem with my changes in the main spreadsheet. The Ruby version was definitely just a (fun) waste of time though :-)
 
 ### Annual accounts
 
