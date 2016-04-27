@@ -85,8 +85,8 @@ I only really did the minimum admin required to keep things ticking over this we
 [smart-answers-pr-2448]: https://github.com/alphagov/smart-answers/pull/2448
 
 :name: week-377
-:updated_at: 2016-04-26 19:44:11.446889000 +12:00
-:created_at: 2016-04-26 19:44:11.446882000 +12:00
+:updated_at: 2016-04-27 18:35:58.939282000 +12:00
+:created_at: 2016-04-27 18:35:58.939276000 +12:00
 :render_as: Blog
 :kind: blog
 :is_page: true
