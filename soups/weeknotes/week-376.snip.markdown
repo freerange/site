@@ -61,10 +61,10 @@ James explored using software to generate the accounts from our FreeAgent data, 
 [smart-answers-pr-2425]: https://github.com/alphagov/smart-answers/pull/2425
 
 :name: week-376
-:updated_at: 2016-04-11 12:37:36.497251000 +10:00
-:created_at: 2016-04-11 12:37:36.497225000 +10:00
+:updated_at: 2016-04-27 18:35:22.792721000 +12:00
+:created_at: 2016-04-27 18:35:22.792715000 +12:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
