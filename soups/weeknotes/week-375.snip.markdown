@@ -90,10 +90,10 @@ We received confirmation that our tax assurances for GDS are all in order.
 [smart-answers-pr-2418]: https://github.com/alphagov/smart-answers/pull/2418
 
 :name: week-375
-:updated_at: 2016-04-11 12:37:31.762777000 +10:00
-:created_at: 2016-04-11 12:37:31.762748000 +10:00
+:updated_at: 2016-04-27 18:35:01.832533000 +12:00
+:created_at: 2016-04-27 18:35:01.832526000 +12:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
