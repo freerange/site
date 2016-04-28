@@ -97,7 +97,7 @@ James noticed that the mirror of [caffeine monitor][caffeine-monitor] we're host
 [smart-answers-pr-2385]: https://github.com/alphagov/smart-answers/pull/2385
 [smart-answers-pr-2386]: https://github.com/alphagov/smart-answers/pull/2386
 [smart-answers-pr-2387]: https://github.com/alphagov/smart-answers/pull/2387
-[twitter-chat-with-andy-mcmillan]: (https://twitter.com/andymcmillan/status/710171697047949312)
+[twitter-chat-with-andy-mcmillan]: https://twitter.com/andymcmillan/status/710171697047949312
 
 :name: week-374
 :updated_at: 2016-04-26 19:10:43.221228000 +12:00
