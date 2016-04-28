@@ -79,10 +79,10 @@ Safely in our hands for another year!
 [week-325-accountancy]: /week-325#accountancy
 
 :name: week-378
-:updated_at: 2016-04-21 17:35:14.759746000 +10:00
-:created_at: 2016-04-21 17:35:14.759716000 +10:00
+:updated_at: 2016-04-28 17:19:31.577735000 +12:00
+:created_at: 2016-04-28 17:19:31.577728000 +12:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
