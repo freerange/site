@@ -51,7 +51,7 @@ The final part of our [Automatic enrolment][automatic-enrolment] duty was to dec
 
 ### We Are Open co-op
 
-James met [John Bevan][john-bevan] from [We Are Open][we-are-open-coop]. It sounds as though John is passionate about the co-operative movement and is particularly keen to promote the 6th principle of [cooperation amongst cooperatives][coop-6th-principle] working in the technology sector. This sounds right up our street and I'm interested to see what comes of it.
+James met [John Bevan][john-bevan] from [We Are Open][we-are-open-coop]. It sounds as though John is passionate about the co-operative movement and is particularly keen to promote the 6th co-operative principle, i.e. [cooperation amongst cooperatives][coop-6th-principle], particularly those working in the technology sector. This sounds right up our street and I'm interested to see what comes of it.
 
 ### GFR drinks
 
