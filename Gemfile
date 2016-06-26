@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "vanilla", :git => "git://github.com/lazyatom/vanilla-rb.git"
+gem "vanilla"
 gem "kramdown"
 gem "airbrake"
 

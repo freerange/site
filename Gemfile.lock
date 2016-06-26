@@ -7,20 +7,6 @@ GIT
       open4
       thor
 
-GIT
-  remote: git://github.com/lazyatom/vanilla-rb.git
-  revision: 786cfccdaafe5daf3b2444e51715d6b022d6f420
-  specs:
-    vanilla (1.17.11)
-      BlueCloth (>= 1.0.0)
-      RedCloth (>= 4.1.1)
-      haml (>= 3.1)
-      parslet (>= 1.2.0)
-      rack (>= 0.9.1)
-      rack-test (>= 0.5.7)
-      ratom (>= 0.3.5)
-      soup (>= 1.0.11)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -62,6 +48,15 @@ GEM
     soup (1.0.11)
     thor (0.19.1)
     tilt (2.0.1)
+    vanilla (1.17.13)
+      BlueCloth (>= 1.0.0)
+      RedCloth (>= 4.1.1)
+      haml (>= 3.1)
+      parslet (~> 1.5.0)
+      rack (>= 0.9.1)
+      rack-test (>= 0.5.7)
+      ratom (>= 0.3.5)
+      soup (>= 1.0.11)
 
 PLATFORMS
   ruby
@@ -71,4 +66,7 @@ DEPENDENCIES
   kramdown
   rake
   recap!
-  vanilla!
+  vanilla
+
+BUNDLED WITH
+   1.10.6
