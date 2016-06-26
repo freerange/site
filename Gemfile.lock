@@ -26,7 +26,7 @@ GEM
     haml (4.0.5)
       tilt
     highline (1.6.21)
-    kramdown (1.4.0)
+    kramdown (1.11.1)
     libxml-ruby (2.8.0)
     multi_json (1.10.1)
     net-scp (1.2.1)
