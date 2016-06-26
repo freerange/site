@@ -5,6 +5,6 @@ gem "kramdown"
 gem "airbrake", "~> 4"
 
 group :development do
-  gem "rake"
+  gem "rake", "~> 10"
   gem "recap", :git => "git://github.com/freerange/recap.git"
 end
