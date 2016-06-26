@@ -12,7 +12,7 @@ GEM
   specs:
     BlueCloth (1.0.1)
     RedCloth (4.2.9)
-    airbrake (4.1.0)
+    airbrake (4.3.8)
       builder
       multi_json
     blankslate (2.1.2.4)
@@ -62,7 +62,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  airbrake
+  airbrake (~> 4)
   kramdown
   rake
   recap!

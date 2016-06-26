@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem "vanilla"
 gem "kramdown"
-gem "airbrake"
+gem "airbrake", "~> 4"
 
 group :development do
   gem "rake"
