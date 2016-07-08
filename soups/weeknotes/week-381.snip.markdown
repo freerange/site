@@ -13,3 +13,4 @@ Week 381
 :author: chris-roos
 :page_title: Week 381
 :extension: markdown
+:week_dates: Mon 04 May to Sun 08 May
