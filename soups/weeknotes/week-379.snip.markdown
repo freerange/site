@@ -11,7 +11,7 @@ Week 379
 * [PR #2478 - Spike: Duplicate benefit-cap-calculator flow for 2016 changes][smart-answers-pr-2478]
 * [PR #2480 - Spike: Duplicate benefit cap calculator flow for 2016 changes (with duplication then removed)][smart-answers-pr-2480]
 
-The changes to this Smart Answer ended up causing quite a few problems in the team and, in hindsight, I think it might've been better if we'd taken on the work rather than interjecting from the sidelines.
+The changes to this Smart Answer ended up causing quite a few problems in the team and, in hindsight, I think it might've been better if we'd taken on the work ourselves.
 
 ### Modelling Period of Incapacity for Work ([PR #2479][smart-answers-pr-2479])
 
@@ -57,9 +57,9 @@ We had an email from someone asking us about the [Geohash explorer app hosted on
 
 We resumed organising these tasks after a break at the beginning of the year. James got straight on the case and organised the monthly drinks for April.
 
-### Updating BMM Balance calculator
+### Updating our cashflow forecast
 
-We have a relatively simple spreadsheet that helps us forecast how long we can continue paying ourselves based on our current assets and liabilities. We noticed that some of the figures had been out of date for about a year, and that it didn't take account of some additional monthly expenses. We updated the figures and also updated the instructions to try to make sure that we keep on top of these sort of changes in future.
+We have a very basic spreadsheet that helps us forecast how long we can continue paying ourselves based on our current assets and liabilities. We noticed that some of the figures had been out of date for about a year, and that it didn't take account of some additional monthly expenses. We updated the figures and also updated the instructions to try to make sure that we keep on top of these sort of changes in future.
 
 Until next time.
 
