@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem "vanilla"
+gem "rack", "~> 1"
+gem "vanilla", ">= 2.0.0.beta"
 gem "kramdown"
 gem "airbrake", "~> 4"
 
