@@ -84,10 +84,10 @@ Until next time.
 [weeknotes-154]: http://gofreerange.com/week-154#what
 
 :name: week-379
-:updated_at: 2016-06-16 13:28:41.233853000 +12:00
-:created_at: 2016-06-16 13:28:41.233807000 +12:00
+:updated_at: 2016-08-01 16:44:00.286799000 +01:00
+:created_at: 2016-08-01 16:44:00.286792000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
