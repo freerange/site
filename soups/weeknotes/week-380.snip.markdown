@@ -78,12 +78,11 @@ That's all for this week. Until next time.
 [smart-answers-pr-2498]: https://github.com/alphagov/smart-answers/pull/2498
 [we-are-open-coop]: http://weareopen.coop/
 
-
 :name: week-380
-:updated_at: 2016-05-18 21:16:25.320456000 +12:00
-:created_at: 2016-05-18 21:16:25.320419000 +12:00
+:updated_at: 2016-08-01 16:44:38.624610000 +01:00
+:created_at: 2016-08-01 16:44:38.624599000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
