@@ -40,10 +40,10 @@ Hubert Kriegel is another fascinating person we were fortunate enough to meet. H
 This beautiful magazine is produced by a friend of a friend. The couple of issues I read were full of incredible photos and stories. Stories of everyday people pushing themselves to do extraordinary things. I'm not sure that it's available in the UK but if you spot a copy then I can highly recommend taking a look. {by chris-roos}
 
 :name: week-394-links
-:updated_at: 2016-08-04 09:58:39.349095000 +01:00
-:created_at: 2016-08-04 09:58:39.349066000 +01:00
+:updated_at: 2016-08-04 16:56:38.756949000 +01:00
+:created_at: 2016-08-04 16:56:38.756944000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
