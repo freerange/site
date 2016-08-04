@@ -19,7 +19,7 @@ This is a weather forecasting website with very pretty animations of e.g. wind s
 
 ### [Wildboy Adventures](http://www.wildboyadventures.com/)
 
-We met Brando on Wharariki Beach in New Zealand. His mate had come out of his kayak in some pretty big water and we watched with trepidation as Brando went back out to find him. His mate eventually washed up about 300m down the beach. [Shaken but otherwise unharmed](https://www.flickr.com/photos/amyeee/26927263762/in/photostream/). I've since learnt a bit more about Brando and really admire the way he managed to take control of his like. {by chris-roos}
+We met Brando on Wharariki Beach in New Zealand. His mate had come out of his kayak in some pretty big water and we watched with trepidation as Brando went back out to find him. His mate eventually washed up about 300m down the beach. [Shaken but otherwise unharmed](https://www.flickr.com/photos/amyeee/26927263762/in/photostream/). I've since learnt a bit more about Brando and really admire the way he managed to take control of his life. {by chris-roos}
 
 ### [Webb Chiles](http://www.inthepresentsea.com/)
 
