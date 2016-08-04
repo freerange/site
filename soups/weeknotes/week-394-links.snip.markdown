@@ -17,6 +17,28 @@ The language-agnostic parts of the [IPython Notebook](http://ipython.org/noteboo
 
 This is a weather forecasting website with very pretty animations of e.g. wind speed & direction, and wave height & direction. [VentuSky](http://www.ventusky.com/) is another similar website. {by james-mead}
 
+### [Wildboy Adventures](http://www.wildboyadventures.com/)
+
+We met Brando on Wharariki Beach in New Zealand. His mate had come out of his kayak in some pretty big water and we watched with trepidation as Brando went back out to find him. His mate eventually washed up about 300m down the beach. [Shaken but otherwise unharmed](https://www.flickr.com/photos/amyeee/26927263762/in/photostream/). I've since learnt a bit more about Brando and really admire the way he managed to take control of his like. {by chris-roos}
+
+### [Webb Chiles](http://www.inthepresentsea.com/)
+
+We heard of Webb Chiles while staying in Opua. He was moored up in the marina while attempting his 6th circumnavigation of the globe. This time in his tiny [24 foot boat, GANNET](http://www.inthepresentsea.com/the_actual_site/gannet.html). I've enjoyed what little of his site that I've read. This quote, in particular, struck a chord with me:
+
+> I love entering the monastery of the sea.
+>
+> (I started to write ‘A solo sailor’ instead of ‘I’, but realized that most solo sailors never enter the monastery of the sea.  They blog via satellite devices, call home on SSB, send emails and messages.  One almost wonders if they really want to be alone.)
+
+Note that while I've linked to his main site above he mostly seems to be writing on his [blogspot site](http://self-portraitinthepresentseajournal.blogspot.co.uk/) at the moment. {by chris-roos}
+
+### [The Timeless Ride](http://thetimelessride.com/)
+
+Hubert Kriegel is another fascinating person we were fortunate enough to meet. He's currently in his twelfth year of travelling the world on his bike and sidecar. You can read about our encounter with Hubert in Amy's post, "[Hubert and the incredible life-changing cucumber salad](https://vanmaison.com/2016/05/16/hubert-and-the-incredible-life-changing-cucumber-salad/)". And you can learn more about Hubert on his website, "[if you can handle the truth !!!](http://thetimelessride.com/US/LC/WhoisHubert.html)" {by chris-roos}
+
+### [Say Yes to Adventure magazine](http://www.sytamagazine.com/)
+
+This beautiful magazine is produced by a friend of a friend. The couple of issues I read were full of incredible photos and stories. Stories of everyday people pushing themselves to do extraordinary things. I'm not sure that it's available in the UK but if you spot a copy then I can highly recommend taking a look. {by chris-roos}
+
 :name: week-394-links
 :updated_at: 2016-08-04 09:58:39.349095000 +01:00
 :created_at: 2016-08-04 09:58:39.349066000 +01:00
