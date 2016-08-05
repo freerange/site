@@ -83,10 +83,10 @@ Until next time,
 [pull-request]: https://github.com/freerange/site/pulls
 
 :render_as: blog
-:kind: draft
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2016-08-04 11:46:00 +01:00
-:updated_at: 2016-08-04 11:46:00 +01:00
+:created_at: 2016-08-05 16:18:00 +01:00
+:updated_at: 2016-08-05 16:18:00 +01:00
 :page_title: Show and Tell 21
