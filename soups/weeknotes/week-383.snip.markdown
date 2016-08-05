@@ -39,10 +39,10 @@ Until next time.
 [webmock]: https://github.com/bblimke/webmock
 
 :name: week-383
-:updated_at: 2016-06-14 18:23:10.339098000 +12:00
-:created_at: 2016-06-14 18:23:10.339069000 +12:00
+:updated_at: 2016-08-05 15:09:55.003868000 +01:00
+:created_at: 2016-08-05 15:09:55.003857000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
