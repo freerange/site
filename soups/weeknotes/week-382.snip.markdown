@@ -84,10 +84,10 @@ Until next time.
 [the-peasant]: http://www.thepeasant.co.uk/
 
 :name: week-382
-:updated_at: 2016-06-06 18:37:51.593516000 +12:00
-:created_at: 2016-06-06 18:37:51.593490000 +12:00
+:updated_at: 2016-08-05 15:08:49.818501000 +01:00
+:created_at: 2016-08-05 15:08:49.818494000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
