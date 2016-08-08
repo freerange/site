@@ -55,10 +55,10 @@ I think that's about all for now. Let's see whether this helps unblocks our week
 [week-383]: /week-383
 
 :name: week-393
-:updated_at: 2016-08-01 17:35:03.315340000 +01:00
-:created_at: 2016-08-01 17:35:03.315313000 +01:00
+:updated_at: 2016-08-08 09:40:53.702156000 +01:00
+:created_at: 2016-08-08 09:40:53.702149000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
