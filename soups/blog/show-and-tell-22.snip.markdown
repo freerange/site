@@ -1,0 +1,34 @@
+Show and Tell 22
+================
+
+This meeting was held at the [Cittie of Yorke][] on 13th July. It was a bit of a quiet one with just Chris, Ben and me in attendance, but enjoyable none-the-less. It was the first one Chris had been to since he returned from the Antipodes. The pub was initially pretty busy with the after-work crowd, but it wasn't long before we were safely ensconced in a cosy little booth of our own.
+
+## Ben's game
+
+TODO: Ben showed us a game he'd built as part of doing some online course.
+
+## Sub hunt
+
+I demonstrated the ZX Spectrum game, [Sub hunt][github-sub-hunt], which I wrote as a teenager and had published in [a book][15-graphic-games-for-the-spectrum]. I'd recently got it running in a JavaScript ZX Spectrum emulator on a [Github page][sub-hunt-game], so I was able to show it working on my smart-phone. The game runs pretty sluggishly, but does seem to speed up after a while. It's pretty basic, but it was fun to return to some software I wrote so long ago!
+
+I had briefly looked into using the phone accelerometer to control the position of the ship, but the [emulator][jsspeccy2] didn't seem to expose an appropriate interface to simulate key presses. And as far as I can tell [it's not possible to fire key press events fired programmatically][fire-key-press-events-programmtically], because it would be a security hole.
+
+Until next time,
+
+-- James.
+
+[Cittie of Yorke]: https://en.wikipedia.org/wiki/Cittie_of_Yorke
+[github-sub-hunt]: https://github.com/floehopper/sub-hunt
+[15-graphic-games-for-the-spectrum]: http://www.worldofspectrum.org/infoseekid.cgi?id=2000461
+[sub-hunt-game]: https://floehopper.github.io/sub-hunt/
+[jsspeccy2]: https://github.com/gasman/jsspeccy2
+[fire-key-press-events-programmtically]: http://stackoverflow.com/questions/8668192/programmatically-triggering-ctrls/19882728#19882728
+
+:render_as: blog
+:kind: draft
+:is_page: true
+:written_with: Kramdown
+:author: james-mead
+:created_at: 2016-08-08 11:06:00 +01:00
+:updated_at: 2016-08-08 11:06:00 +01:00
+:page_title: Show and Tell 22
