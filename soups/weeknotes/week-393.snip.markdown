@@ -3,7 +3,7 @@ Week 393
 
 G'day folks,
 
-There's been a distinct lack of week notes for the past 12 weeks (since [week 380][week-380]). We managed to miss a few weeks and then found that it became harder to motivate ourselves to write any at all. I'd like to think we'll fill in the gaps (some of them have already been written) but in the meantime I'm going to try to write about week 393 while it's fresh(ish) in my mind.
+There's been a distinct lack of week notes for the past 10 weeks or so (since [week 383][week-383]). We managed to miss a few weeks and then found that it became harder to motivate ourselves to write any at all. I'd like to think we'll fill in the gaps (some of them have already been written) but in the meantime I'm going to try to write about week 393 while it's fresh(ish) in my mind.
 
 ## Smart Answers
 
@@ -52,7 +52,7 @@ I think that's about all for now. Let's see whether this helps unblocks our week
 [smart-answers-pr-2662]: https://github.com/alphagov/smart-answers/pull/2662
 [smart-answers-pr-2667]: https://github.com/alphagov/smart-answers/pull/2667
 [week-336-gfr]: /week-336#gfr
-[week-380]: /week-380
+[week-383]: /week-383
 
 :name: week-393
 :updated_at: 2016-08-01 17:35:03.315340000 +01:00
