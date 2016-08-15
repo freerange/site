@@ -58,10 +58,10 @@ Anyway, I think that's all for now. Let's hope we can keep up this run of writin
 [notes for week 393]: /week-393
 
 :name: week-395
-:updated_at: 2016-08-15 12:22:00.050004000 +01:00
-:created_at: 2016-08-15 12:22:00.049968000 +01:00
+:updated_at: 2016-08-15 14:15:09.050266000 +01:00
+:created_at: 2016-08-15 14:15:09.050259000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
