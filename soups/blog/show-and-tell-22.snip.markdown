@@ -28,10 +28,10 @@ Until next time,
 [fire-key-press-events-programmtically]: http://stackoverflow.com/questions/8668192/programmatically-triggering-ctrls/19882728#19882728
 
 :render_as: blog
-:kind: draft
+:kind: show-and-tell
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
-:created_at: 2016-08-08 11:06:00 +01:00
-:updated_at: 2016-08-08 11:06:00 +01:00
+:created_at: 2016-08-15 12:09:00 +01:00
+:updated_at: 2016-08-15 12:09:00 +01:00
 :page_title: Show and Tell 22
