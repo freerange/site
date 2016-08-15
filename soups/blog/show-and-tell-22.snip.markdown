@@ -1,11 +1,11 @@
 Show and Tell 22
 ================
 
-This meeting was held at the [Cittie of Yorke][] on 13th July. It was a bit of a quiet one with just Chris, Ben and me in attendance, but enjoyable none-the-less. It was the first one Chris had been to since he returned from the Antipodes. The pub was initially pretty busy with the after-work crowd, but it wasn't long before we were safely ensconced in a cosy little booth of our own.
+This meeting was held at the [Cittie of Yorke][] on 13th July. It was a bit of a quiet one with just [Chris][], [Ben][] and me in attendance, but enjoyable none-the-less. It was also the first one Chris had been to since he returned from the Antipodes. The pub was initially pretty busy with the after-work crowd, but fortunately we found seats OK.
 
-## Ben's game
+## SpriteKit
 
-TODO: Ben showed us a game he'd built as part of doing some online course.
+Ben had been working through the [SpriteKit tutorial][] and showed us one of the games in the tutorial, a physics puzzle game called "Cat Nap", which looked pretty good. Ben is thinking about using SpriteKit to build a game for his kids related to pocket money.
 
 ## Sub hunt
 
@@ -18,6 +18,9 @@ Until next time,
 -- James.
 
 [Cittie of Yorke]: https://en.wikipedia.org/wiki/Cittie_of_Yorke
+[Chris]: /chris-roos
+[Ben]: https://twitter.com/beng
+[SpriteKit tutorial]: https://www.raywenderlich.com/42699/spritekit-tutorial-for-beginners
 [github-sub-hunt]: https://github.com/floehopper/sub-hunt
 [15-graphic-games-for-the-spectrum]: http://www.worldofspectrum.org/infoseekid.cgi?id=2000461
 [sub-hunt-game]: https://floehopper.github.io/sub-hunt/
