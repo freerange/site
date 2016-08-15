@@ -55,10 +55,10 @@ Until next time.
 [week-394-links]: /week-394-links
 
 :name: week-394
-:updated_at: 2016-08-15 10:35:31.292034000 +01:00
-:created_at: 2016-08-15 10:35:31.292006000 +01:00
+:updated_at: 2016-08-15 13:48:43.184399000 +01:00
+:created_at: 2016-08-15 13:48:43.184392000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
