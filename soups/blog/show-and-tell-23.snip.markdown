@@ -68,6 +68,6 @@ Please [get in touch][contact] if you're interested in joining us for the next S
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
-:created_at: 2016-08-22 15:36:00 +01:00
-:updated_at: 2016-08-22 15:36:00 +01:00
+:created_at: 2016-08-26 11:08:00 +01:00
+:updated_at: 2016-08-26 11:08:00 +01:00
 :page_title: Show and Tell 23
