@@ -1,7 +1,7 @@
 Show and Tell 23
 ================
 
-[James][james-mead] and I were joined by [Riccardo][riccardo-cambiassi] and [Ben G][ben-griffiths] for our 23rd Show and Tell. Held at the [The Wood Street Bar and Restaurant][wood-street-bar-and-restaurant] on Weds 10th August.
+[James][james-mead] and I were joined by [Riccardo][riccardo-cambiassi] and [Ben G][ben-griffiths] for our 23rd Show and Tell. Held at the [The Wood Street Bar and Restaurant][wood-street-bar-and-restaurant] on Wed 10th August.
 
 
 ## Companies and cooperatives
@@ -25,11 +25,9 @@ Riccardo spoke about [Electron][electron] and how he's been experimenting with i
 
 ## Inform 7
 
-Ben showed us [Inform 7][inform-7] and an [interactive fiction][interactive-fiction] game he's been writing with his son.
+Ben showed us [Inform 7][inform-7] and an [interactive fiction][interactive-fiction] game he's been writing with his son. I was somewhat amazed at the natural language used to write these games. You can see an example by viewing the [source of When in Rome 2][when-in-rome-2-source].
 
-I was somewhat amazed at the natural language used to write these games. You can see an example by viewing the [source of When in Rome 2][when-in-rome-2-source].
-
-I've just taken a break from writing these notes and spent about 10 minutes playing [when in rome 2][when-in-rome-2] using [Zoom][zoom]. I didn't really know what I was doing, or how the game worked, but enjoyed it nonetheless.
+I've just taken a break from writing these notes and spent about 10 minutes playing [When in Rome 2][when-in-rome-2] using [Zoom][zoom]. I didn't really know what I was doing, or how the game worked, but enjoyed it nonetheless.
 
 
 ## Swift & Swift Playground
