@@ -3,7 +3,7 @@ Week 396
 
 Week 396 was a short one for me. I spent most of Thursday and Friday getting a houseboat surveyed!
 
-[James][james-mead] took a couple of hours out on friday to reminisce about his time in Antarctica by visiting the [Visions of the Great White South][visions-of-the-great-white-south] exhibition at Bonhams.
+[James][james-mead] took a couple of hours out on Friday to reminisce about his time in Antarctica by visiting the [Visions of the Great White South][visions-of-the-great-white-south] exhibition at Bonhams.
 
 On the work front, we split our time between GFR, Mocha and Hookline.
 
