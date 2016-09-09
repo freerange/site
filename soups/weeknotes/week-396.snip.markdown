@@ -31,13 +31,15 @@ I spent some more time working on annual accounts. I continue to question how mu
 
 ### Show and Tell
 
-We invited a couple more people to our [Show and Tell][show-and-tell-events]. Lower numbers and hosting recent events in a pub mean that it's in danger of becoming another pub night which we want to avoid. Feel free to join the [mailing list][show-and-tell-mailing-list] or [get in touch][contact] if you're interested in coming along.
+We invited a couple more people to our [Show and Tell][show-and-tell-events]. Lower numbers and hosting recent events in a pub mean that it's in danger of becoming another pub night which we want to avoid.
+
+Please do [get in touch][contact] if you're interested in joining us for one of our Show & Tell events. They're pretty relaxed and there's no obligation to show anything if you'd prefer to come along and see/hear what other people have been working on.
 
 ---
 
 ## Mocha
 
-James and I spent most of Wednesday pairing on [Mocha][mocha]; specifically on [PR 244][mocha-pr-244]. It took us quite a long time to understand what the code was doing and what we think it should be doing based on the problem described in the PR. We finished the day with a spike branch that we think fixes the problem in a more generic way to the PR. The implementation we've come up with only works in Ruby 2.0 and above which means that we're left the original broken behaviour in 1.8.7 (1.9.3 behaves differently and isn't affected by the original problem!) While not ideal, we think this is still an improvement.
+James and I spent most of Wednesday pairing on [Mocha][mocha]; specifically on [PR 244][mocha-pr-244]. It took us quite a long time to understand what the code was doing and what we think it should be doing based on the problem described in the PR. We finished the day with a spike branch that we think fixes the problem in a more generic way to the PR. The implementation we've come up with only works in Ruby 2.0 and above which means that we're left with the original broken behaviour in 1.8.7 (1.9.3 behaves differently and isn't affected by the original problem!) While not ideal, we think this is still an improvement.
 
 I really enjoyed pairing on this and can't imagine getting anywhere near the solution we came up with if I'd been working on it alone.
 
