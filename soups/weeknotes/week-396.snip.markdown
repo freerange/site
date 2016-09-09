@@ -79,10 +79,10 @@ Until next time, folks.
 [visions-of-the-great-white-south]: https://www.bonhams.com/press_release/22167/
 
 :name: week-396
-:updated_at: 2016-08-26 11:46:13.690342000 +01:00
-:created_at: 2016-08-26 11:46:13.690311000 +01:00
+:updated_at: 2016-09-09 15:42:33.654875000 +01:00
+:created_at: 2016-09-09 15:42:33.654868000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
