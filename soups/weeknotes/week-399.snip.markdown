@@ -114,10 +114,10 @@ Anyway, that's all for now.
 [Hookline]: http://hookline.tv/
 
 :name: week-399
-:updated_at: 2016-09-12 11:41:59.112857000 +01:00
-:created_at: 2016-09-12 11:41:59.112826000 +01:00
+:updated_at: 2016-09-12 17:20:48.621071000 +01:00
+:created_at: 2016-09-12 17:20:48.621066000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
