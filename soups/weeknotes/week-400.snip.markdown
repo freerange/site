@@ -14,6 +14,9 @@ Week 400
 
 * Wednesday
   * Chatted about our research yesterday.
+  * I continued exploring TensorFlow
+  * Show and Tell this evening
+
 
 :name: week-400
 :updated_at: 2016-09-14 10:48:29.831940000 +01:00
