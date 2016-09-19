@@ -62,6 +62,10 @@ Rob D
 ## b1 visa for working in USA
 
 * Tom S
+* https://en.wikipedia.org/wiki/Foreign_Affairs_Manual
+* https://fam.state.gov/FAM/09FAM/09FAM040202.html#M402_2_5_F
+* https://en.wikipedia.org/wiki/B_visa_in_lieu_of_other_visas
+* https://uk.usembassy.gov/global-entry-enrollment-center-top-open-in-london/
 * Is going to help Sandi Metz teach an OO design course
 * In New York
 * Investigated visas.
