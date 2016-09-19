@@ -97,7 +97,7 @@ Most recently he's rewritten it using Ruby ready for an upcoming [Computation Cl
 
 ---
 
-## Software approach to teaching
+## Education for Engineers
 
 Rob C presented a couple of slides from the "Education for Engineers" talk he recently gave at [Swanseacon][swanseacon].
 
