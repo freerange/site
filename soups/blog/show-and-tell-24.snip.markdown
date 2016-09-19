@@ -17,17 +17,17 @@ We hired a meeting room at [Forge & Co][forge-and-co] for the event which worked
 
 ## Ext JS
 
-Pablo talked about [Zendone][zendone]: A [GTD][gtd] app he created with his brother and friends that they run and maintain in their spare time.
+Pablo talked about [Zendone][zendone]: A [GTD][gtd] app written with his brother and friends that they run and maintain in their spare time.
 
-The first version of Zendone was written using a Rails backend and a variety of JavaScript frameworks, libraries and handcrafted code (e.g. [Backbone.js][backbone-js], [jQuery UI][jquery-ui] and [Underscore.js][underscore-js]). This was both hard to maintain and to make work well on touch devices, which was problematic as more of their customers were asking about iPhone and Android versions.
+The first version of Zendone was written using a Rails backend and a variety of JavaScript frameworks and libraries (e.g. [Backbone.js][backbone-js], [jQuery UI][jquery-ui] and [Underscore.js][underscore-js]) on the frontend. Not only was this hard to maintain but it was also difficult to get it working well on touch devices. The lack of touch device functionality became a real problem as more and more of their customers were asking for Android and iPhone versions of the app.
 
-They realised that they weren't going to be able to support the demand for a touch version with the current software and set about investigating their options. They tried both [AngularJS][angular-js] and [Ember.js][ember-js] before deciding to go with Ext JS. I think one of the main advantages of [Ext JS][ext-js] was the cross-platform components you get out of the box with Ext JS.
+They realised that they weren't going to be able to support the demand for a touch version with the current software and set about investigating their options. They tried both [AngularJS][angular-js] and [Ember.js][ember-js] before deciding to go with Ext JS. I think one of the main advantages of [Ext JS][ext-js] was the cross-platform components you get out of the box.
 
 They've now finished version 2 of the app and are really pleased with how it's turned out. It's much easier to maintain and they've been able to satisfy the demand for native apps for Mac, iOS and Android.
 
 While they're very happy with Ext JS, Pablo pointed out that it might not be for everyone. It's a commercial product which means that you need to pay for it and that you have to hope that the company decides to continue supporting it.
 
-Riccardo mentioned that the [Ionic framework][iconic] offers something similar to Ext JS.
+Riccardo mentioned that the [Ionic framework][ionic] offers something similar to Ext JS.
 
 [angular-js]: https://angularjs.org/
 [backbone-js]: http://backbonejs.org/
