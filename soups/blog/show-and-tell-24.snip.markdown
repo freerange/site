@@ -1,116 +1,127 @@
 Show and Tell 24
 ================
 
-James and I were joined by [Amy][amy-wagner], [Pablo][pablo-manrubia], [Riccardo][riccardo-cambiassi], [Rob C][rob-chatley], [Rob D][rob-dupuis], and [Tom S][tom-stuart] for our 24th Show & Tell. We hired a meeting room at Forge & Co which worked out really well.
+James and I were joined by [Amy][amy-wagner], [Pablo][pablo-manrubia], [Riccardo][riccardo-cambiassi], [Rob C][rob-chatley], [Rob D][rob-dupuis], and [Tom S][tom-stuart] for our 24th Show & Tell.
 
-## ExtJS
+We hired a meeting room at [Forge & Co][forge-and-co] for the event which worked out really well.
 
-Pablo talked about [Zendone][zendone]: A GTD app he's created with his family and friends.
+[amy-wagner]: http://amyeee.com/
+[forge-and-co]: http://forgeandco.co.uk/
+[pablo-manrubia]: http://pmanrubia.info/
+[riccardo-cambiassi]: https://github.com/bru
+[rob-chatley]: https://www.doc.ic.ac.uk/~rbc/
+[rob-dupuis]: https://github.com/robd
+[tom-stuart]: http://codon.com/
 
+---
+
+## Ext JS
+
+Pablo talked about [Zendone][zendone]: A [GTD][gtd] app he created with his brother and friends that they run and maintain in their spare time.
+
+The first version of Zendone was written using a Rails backend and a variety of JavaScript frameworks, libraries and handcrafted code (e.g. [Backbone.js][backbone-js], [jQuery UI][jquery-ui] and [Underscore.js][underscore-js]). This was both hard to maintain and to make work well on touch devices, which was problematic as more of their customers were asking about iPhone and Android versions.
+
+They realised that they weren't going to be able to support the demand for a touch version with the current software and set about investigating their options. They tried both [AngularJS][angular-js] and [Ember.js][ember-js] before deciding to go with Ext JS. I think one of the main advantages of [Ext JS][ext-js] was the cross-platform components you get out of the box with Ext JS.
+
+They've now finished version 2 of the app and are really pleased with how it's turned out. It's much easier to maintain and they've been able to satisfy the demand for native apps for Mac, iOS and Android.
+
+While they're very happy with Ext JS, Pablo pointed out that it might not be for everyone. It's a commercial product which means that you need to pay for it and that you have to hope that the company decides to continue supporting it.
+
+Riccardo mentioned that the [Ionic framework][iconic] offers something similar to Ext JS.
+
+[angular-js]: https://angularjs.org/
+[backbone-js]: http://backbonejs.org/
+[ember-js]: http://emberjs.com/
+[ext-js]: https://www.sencha.com/products/extjs/#overview
+[gtd]: https://en.wikipedia.org/wiki/Getting_Things_Done
+[ionic]: http://ionicframework.com/
+[jquery-ui]: https://jqueryui.com/
+[underscore-js]: http://underscorejs.org/
 [zendone]: https://www.zendone.com/
 
-Pablo
+---
 
-* GTD app with ExtJS
-* v1 in Backbone, jquery-ui, underscore and other frontend frameworks. All with a Rails backend.
-* Quite painful to develop but it worked.
-* Contained lots of handcrafted JS on top of jquery-ui.
-* People asking for the iphone and android app.
-* Causing them pain in their spare time - supposed to be a fun thing to work on.
-* They explored Ember and Angular but eventually settled on ExtJS.
-  * I think one of the advantages was the components you get out of the box with ExtJS.
-  * Another advantage was that it works across all devices.
-    * They have web app, Mac app with Electron, ios with Cordove, Android with ???
-* It doesn't have a great reputation. possibly because of problems in some earlier versions.
-* Good enough for Pablo's requirements.
-* Disadvantages
-  * Paid for framework - about $3000/year for a licence + support costs.
-  * Owned by a private company - it might disappear
+## Day of the Mad Man
 
-* The backend is still Rails. Very simple API.
-* There's a native iOS app, using Cordova to wrap the web interface?
-* All works offline.
-* Riccardo suggested Ionic - doing something similar with Angular? and React Native.
-* Zendone.com
+Rob D spoke about [Day of the Mad Man][day-of-the-mad-man]: an Android game he and a friend developed about 4 years ago.
 
-## Day of the madman
+The game is a first person shooter using live action video in the same vein as [Mad Dog McCree][mad-dog-mcree]. It's currently a playable demo that has you trying to shoot Rob and his mates. It contains three locations and about 2 minutes of gameplay.
 
-Rob D
+They resumed working on it about 4 months ago and are in the process of creating a [Kickstarter][kickstarter] campaign to see if they can get some funding for continued development. Rob was mostly interested in whether anyone had any experience with either cross platform game development or of Kickstarter campaigns. Unfortunately, I think we all came up blank. Sorry, Rob!
 
-* https://dayofthemadman.com/
-* Started 4 years ago. Created demo and then left it.
-* Demo contains about 2 minutes of gameplay.
-* Demo is him and his mates
-* Resumed about 4 months ago.
-* Want to create a kickstarter campaign to fund more development.
-  * Hire a proper stunt crew
-  * Hire better cameras
-  * Offer for people to get involved in the game.
-* Want to make a proper game
-* Questions for the group:
-  * Experience of cross platform game development?
-  * Experience of kickstarter?
-* Considered offering it as an experience for companies but not sure about the idea.
-* Hat tip to Mad Dog McCree and American Laser Games.
-* Showed us how they use spreadsheets to map sprite positions and times to movie clips.
-* Should now be able to use subtitle tracks to store this information, which wasn't possible in the past.
-* They're hoping to get about 4-6 minutes of gameplay per location and have about 8 locations.
-* Rob mentioned that they were previously really pushing the limits of the android phones available. It should all be much easier now.
-* Riccardo mentioned that Steam offer a refund if a game contains less than 2 hours of gameplay.
-  * Not that they'll be advertising on Steam as that's for computer games rather than phones/tablets, I think.
+They'd like to hire a proper stunt crew, film using better cameras and turn it into a full game with about 4 to 6 minutes of gameplay across 8 locations. One of the ideas they have for the Kickstarter is to reward people by allowing them to star in the game which I can imagine being quite popular.
 
-## b1 visa for working in USA
+Rob explained that they were pushing the limits of what Android devices could do 4 years ago but that the game should be much easier to write now. He showed us how they used a spreadsheet to record all the details necessary to tie up the various film clips and locations of people. Apparently Android devices now support subtitle tracks in videos which means that they should be able to encode most/all of this information in those tracks.
 
-* Tom S
-* https://en.wikipedia.org/wiki/Foreign_Affairs_Manual
-* https://fam.state.gov/FAM/09FAM/09FAM040202.html#M402_2_5_F
-* https://en.wikipedia.org/wiki/B_visa_in_lieu_of_other_visas
-* https://uk.usembassy.gov/global-entry-enrollment-center-top-open-in-london/
-* Is going to help Sandi Metz teach an OO design course
-* In New York
-* Investigated visas.
-  * Two options
-    * B1. Easy to get but doesn't allow you to be paid for the work you're doing.
-    * H1B. Hard to get - lottery with limited places that opens each April. Allows you to be paid.
-* Found the Foreign Affairs Manual, section 402.2-5 (f) that describes a B1 in leiu of H1B visa.
-  * This visa isn't available everywhere but it is available in the US embassy in London.
-* Took lots of backup material for his application - none of which was necessary in the end.
-* He got his visa that's valid for 1 year.
+[day-of-the-mad-man]: https://dayofthemadman.com/
+[kickstarter]: https://www.kickstarter.com/
+[mad-dog-mcree]: https://en.wikipedia.org/wiki/Mad_Dog_McCree
+
+---
+
+## Work visa for USA
+
+Tom spoke about his experience of getting a visa so that he can teach a [Practical Object-Oriented Design Course][pood-course] in New York with [Sandi Metz][sandi-metz].
+
+There were two visas that looked as though they might be suitable: the [B1][b1-visa] and [H-1B][h1b-visa]. Unfortunately neither of these were quite appropriate. The B1 is relatively easy to get but doesn't allow you to be paid for any work while the H-1B allows you to be paid but is really quite hard to get. Tom was considering turning the opportunity down when he came across the [B1 in lieu of H-1B visa][b-in-lieu-of-other-visa]. The use of a [B1 for "aliens normally classifiable H1 or H3" is documented in the Foreign Affairs Manual][fam-402-2-5] and sounds just about perfect for Tom's needs. It sounds as though these visas are relatively rare (fewer than 1000 issued in 2011 according to Wikipedia) and hard to obtain although fortunately the US Embassy in London is one of the few places that they can be approved.
+
+Although he had to wait at the embassy for a while, the actual interview sounds pretty painless and Tom is now the proud owner of a B1 in lieu of H-1B that allows him to teach in New York.
+
+Tom finished by pointing out that the [US Embassy in London are allowing people to register for Global Entry][us-embassy-global-entry] for a 60 day period starting 26th September.
+
+[b-in-lieu-of-other-visa]: https://en.wikipedia.org/wiki/B_visa_in_lieu_of_other_visas
+[b1-visa]: https://en.wikipedia.org/wiki/B_visa
+[h1b-visa]: https://en.wikipedia.org/wiki/H-1B_visa
+[fam-402-2-5]: https://fam.state.gov/FAM/09FAM/09FAM040202.html#M402_2_5_F
+[pood-course]: http://www.sandimetz.com/courses
+[sandi-metz]: http://www.sandimetz.com/
+[us-embassy-global-entry]: https://uk.usembassy.gov/global-entry-enrollment-center-top-open-in-london/
+
+---
 
 ## Lambda calculus
 
-* Tom S
-* Created a version in Backbone - back in S&T ???
-* Rewrote it in React
-  * Didn't get any new understanding from the act of rewriting
-* Has recently created a new Ruby implementation ready for the Computation Club meeting next week
-  * This really helped him understand what he was trying to do.
-* Model contains an AST, Document and Selection.
-* Built a REPL that allows him to explore the expressions in the Lambda calculus.
-* He switches between the Greek and British keyboards so that he can easily type the Giraffe character.
+Tom showed us some more work he's done on his ongoing [Lambda Calculus][lambda-calculus] visualisation project.
+
+He first showed us a version of this visualisation written using Backbone.js back in [week 268][week-268] and then again in [Show & Tell 8][show-and-tell-8-lambda-calculus]. By [Show & Tell 9][show-and-tell-9-lambda-calculus] he'd rewritten it using [React][react].
+
+Most recently he's rewritten it using Ruby ready for an upcoming [Computation Club meeting about Lambda Calculus][computation-club-lambda-calculus]. The act of writing it in Ruby has helped him solve some of the problems he was having when using JavaScript and doing it in the browser. He's written a [REPL][repl] that allows him to construct functions and then to interactively modify those functions. It all looks very impressive even though most of it went over my head.
+
+[computation-club-lambda-calculus]: http://lanyrd.com/2016/london-computation-club-lambda-calculus/
+[lambda-calculus]: https://en.wikipedia.org/wiki/Lambda_calculus
+[react]: https://facebook.github.io/react/
+[repl]: https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
+[show-and-tell-8-lambda-calculus]: /show-and-tell-8#lambda-calculus
+[show-and-tell-9-lambda-calculus]: /show-and-tell-9#lambda-calculus
+[week-268]: /week-268
+
+---
 
 ## Software approach to teaching
 
-* Rob C
-* Section of a presentation he gave at Swanseacon
-* Traditional is lots of coursework upfront, then a break, then a test, then a break before getting results.
-* He's been trying to shorten the feedback loops
-* Setting an exercise each week that's marked at the end of the week is good but very intensive - 150 students = 150 lots of marking
-* So they've automated the things they can. Students submit a SHA of a commit that should pass the exercise.
-  * It's automatically checked for compilation, tests passing, code coverage.
-  * The thing that's then looked at by a professor has already been vetted so that it should be in a reasonable state to check.
-* Encouraged pair programming. This has been generally positive - lots of people enjoy/prefer it. Nice side-effect of reducing the number of submissions to 75.
-* Group projects in 3rd year
-  * Got rid of lectures
-  * Put all lecture material online
-  * Made lecturers available to students
-  * No one really made us of the help or used the lecture material
-* Coming year
-  * Put in 4 checkpoints during the year. Test as you go rather than testing at the end
-  * Ask people to use Trello/Jira/something and have it available to supervisors
-  * Automatically take screenshots of project management tool over time. See whether people are updating/using them.
+Rob C presented a couple of slides from the "Education for Engineers" talk he recently gave at [Swanseacon][swanseacon].
 
-* Is anyone else doing anything similar to Rob? Not that he's aware of. General sense of complacency in universities. Particularly when compared to private business.
+He showed us a slide that illustrates a traditional course outline: lots of lectures upfront, a big gap before testing the students and then another gap before publishing the results.
+
+Rob's been been tweaking the format of the courses he teaches to try to give students a more realistic understanding of what to expect when developing software in the real world. He's been shortening the feedback loops by testing more frequently. He's trying to manage the increased overhead of marking by encouraging pair programming and making use of automated checks to ensure that assignments are of a suitable standard by the time that a person gets to look at them.
+
+He's also experimented with getting rid of lectures completely. He made all the course material available online and made himself available as much as possible. This didn't quite work out as many students didn't make use of his availability.
+
+He's planning more changes for the coming year. He's thinking about ensuring that each student/group uses some kind of project management tool that he can use to check progress. There was even a suggestion of taking screenshots of this software over time to visualise how things are changing.
+
+I think it's great that Rob's tweaking the courses to help the students get a feel for what it might be like to work in industry.
+
+[swanseacon]: http://swanseacon.co.uk/
+
+---
+
+## Show and Tell 25
+
+[Get in touch][contact] if you're interested in joining us for the next Show and Tell on Wednesday 12th October.
+
+-- Chris
+
+[contact]: /contact
 
 :render_as: blog
 :kind: draft
