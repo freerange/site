@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/freerange/recap.git
+  remote: https://github.com/freerange/recap.git
   revision: c80459e9326b37378e33dac634eca9797a82644f
   specs:
     recap (1.0.12)
