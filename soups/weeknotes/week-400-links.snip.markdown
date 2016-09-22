@@ -51,12 +51,11 @@ Having chatted to Tom Blomfield (now Monzo CEO) a couple of years ago about crea
 
 I loved reading this article by a digital nomad, Thomas Buckley-Houston, who's been living in Leh, the capital of the Ladakh region of North India. It looks like a beautiful place to be, even if his internet connection isn't good enough for him to work remotely. {by james-mead}
 
-
 :name: week-400-links
-:updated_at: 2016-09-15 15:22:38.671722000 +01:00
-:created_at: 2016-09-15 15:22:38.671692000 +01:00
+:updated_at: 2016-09-22 12:17:42.275482000 +01:00
+:created_at: 2016-09-22 12:17:42.275467000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
