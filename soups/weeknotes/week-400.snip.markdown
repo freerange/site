@@ -17,6 +17,14 @@ Week 400
   * I continued exploring TensorFlow
   * Show and Tell this evening
 
+* Thursday
+  * Wrote notes about show and tell
+  * Investigated virtual office addresses
+  * Upgraded software on our Linode box
+
+* Friday
+  * Hookline meeting with Amy and Rach at Tanner & Co
+  * Worked out a plan for what still needs to be done before they can use it to replace Dropbox
 
 :name: week-400
 :updated_at: 2016-09-14 10:48:29.831940000 +01:00
