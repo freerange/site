@@ -5,13 +5,9 @@ Week 400 - Interesting links
 
 Entertaining post about the author's battle with a number of things that suddenly became important when it was time to sit down and write. {by chris-roos}
 
----
-
 ### [Zen: Distraction free writing plugin for Atom](https://atom.io/packages/Zen)
 
 On the subject of distractions. I found this great Atom plugin when I was supposed to be writing a blog post recently. {by chris-roos}
-
----
 
 ### [Tom Armitage: Weeks 183-186](http://tomarmitage.com/2016/07/25/worknotes-weeks-183-186/)
 
