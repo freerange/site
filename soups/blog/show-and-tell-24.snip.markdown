@@ -3,6 +3,8 @@ Show and Tell 24
 
 James and I were joined by [Amy][amy-wagner], [Pablo][pablo-manrubia], [Riccardo][riccardo-cambiassi], [Rob C][rob-chatley], [Rob D][rob-dupuis], and [Tom S][tom-stuart] for our 24th Show & Tell.
 
+![Show & Tell 24 at Forge & Co](/images/blog/2016-09-14-gfr-show-and-tell-24.jpg)
+
 We hired a meeting room at [Forge & Co][forge-and-co] for the event which worked out really well.
 
 [amy-wagner]: http://amyeee.com/
