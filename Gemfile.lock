@@ -68,6 +68,3 @@ DEPENDENCIES
   rake (~> 10)
   recap!
   vanilla (>= 2.0.0.beta)
-
-BUNDLED WITH
-   1.10.6
