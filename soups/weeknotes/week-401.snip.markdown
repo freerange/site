@@ -47,10 +47,10 @@ Until next time.
 [uk-postbox]: https://www.ukpostbox.com/
 
 :name: week-401
-:updated_at: 2016-09-22 12:32:40.269970000 +01:00
-:created_at: 2016-09-22 12:32:40.269939000 +01:00
+:updated_at: 2016-09-26 17:38:17.037738000 +01:00
+:created_at: 2016-09-26 17:38:17.037731000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
