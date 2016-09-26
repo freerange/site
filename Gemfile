@@ -9,3 +9,5 @@ group :development do
   gem "rake", "~> 10"
   gem "recap", :git => "https://github.com/freerange/recap.git"
 end
+
+ruby '2.1.9'
