@@ -1,25 +1,35 @@
 Week 401
 ========
 
-* Monday
-  * Worked at home
-  * Notionally creating a playlist of all Hookline tracks
-    * Got sucked into investigating Heroku release apps
-    * Further got sucked into trying to understand why rake db:migrate didn't work on first deploy, using Rake buildpack
+G'day, folks. I hope you're all well.
 
-* Tuesday
-  * Both worked at Benugo BFI
-  * Spent most of the day enabling review apps for Hookline / closing off the various things I'd started investigating yesterday
+## Hookline
 
-* Wednesday
-  * User testing GOV.UK Notify this morning
-  * Afternoon off to work on boat
-  * James worked on Hookline - continuing to improve ID3 metadata manipulation
+We continued to work on the Hookline music library this week.
 
-* Thursday
-  * Publish show and tell notes
-  * Publish week links
-  * Sign up for ukpostbox
+I mostly worked on the ability for Hookline clients to view the entire catalogue. This relatively simple feature took quite a while to develop as I allowed myself to get distracted by Heroku Pipelines. I wanted to be able to demo my work in progress and thought the best way to do that would be to spent a day or two setting up a Pipeline to enable preview apps... It required me to codify our dependencies in an app.json file, investigate an alternative solution for running migrations on deployment (it would seem that Release Phase tasks are the recommended way of doing this) and finally enabling review apps in the pipeline. I learnt quite a lot by doing this but I'm really not sure it was the best use of time for the project.
+
+James continued to work on manipulating ID3 data in our MP3 files. He added support for writing artwork to the MP3s and took the opportunity to refactor and improve the code in the process.
+
+Amy, Mike and I had a Skype chat on Friday morning. Mike currently administers the Hookline library manually so we wanted to understand how close we were to having something he could use. The feedback was promising and it sounds as though we're not too far away from them switching to use the app as the canonical source of their library. There are __loads__ of improvements we can make but having them use it will really help prioritise what we work on.
+
+## GOV.UK Notify
+
+James and I participated in some GOV.UK Notify user testing at GDS on Wednesday. We agreed that I'd drive and James would observe. I was tasked with integrating Notify into a sample Python app. Despite not knowing much Python, or much about Notify it was really quite straight forward. Good job, Notify folks!
+
+## Harmonia and Trello
+
+James fixed a small bug in the Webhooks app we use to integrate Harmonia and Trello. Task reassignment in Harmonia wasn't being mirrored in Trello when the Trello card had been moved out of the "To Do" list (e.g. it had been started and moved to the "Doing" list). While not a huge problem (tasks are normally reassigned before they're started), it was frustrating when it happened and it's great that it's now fixed.
+
+## Open Collective host for the UK
+
+James continued to try find out more about what would be involved in us becoming an Open Collective host in the UK. We're interested in trying to understand the potential benefit versus the effort required.
+
+## Virtual office
+
+We agreed a while back that we should sign up for a service that provides us with an address and scans any mail we receive. Having done some research to compare various services, we agreed to sign up with [UK Postbox][uk-postbox]. Signing up and uploading electronic copies of the various documents they need to verify our identities was all straight forward. The only hiccup was that I'd misunderstood the packages they offer and signed up for something that wasn't quite right for what we're after. They were quick to point this out and switch us to a more appropriate service. So far, so good.
+
+[uk-postbox]: https://www.ukpostbox.com/
 
 :name: week-401
 :updated_at: 2016-09-22 12:32:40.269970000 +01:00
