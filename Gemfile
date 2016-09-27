@@ -11,3 +11,7 @@ group :development do
   gem "rake", "~> 10"
   gem "recap", :git => "https://github.com/freerange/recap.git"
 end
+
+group :test do
+  gem 'test-unit'
+end
