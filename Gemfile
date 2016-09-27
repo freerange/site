@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.9'
+ruby '2.2.5'
 
 gem "rack", "~> 1"
 gem "vanilla", ">= 2.0.0.beta"

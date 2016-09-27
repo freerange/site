@@ -39,6 +39,7 @@ GEM
     open4 (1.3.4)
     parslet (1.7.1)
       blankslate (>= 2.0, <= 4.0)
+    power_assert (0.3.1)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -46,6 +47,8 @@ GEM
     ratom (0.9.0)
       libxml-ruby (~> 2.6)
     soup (1.0.13)
+    test-unit (3.2.1)
+      power_assert
     thor (0.19.1)
     tilt (2.0.5)
     vanilla (2.0.0.beta)
@@ -67,4 +70,5 @@ DEPENDENCIES
   rack (~> 1)
   rake (~> 10)
   recap!
+  test-unit
   vanilla (>= 2.0.0.beta)
