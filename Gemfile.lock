@@ -72,3 +72,9 @@ DEPENDENCIES
   recap!
   test-unit
   vanilla (>= 2.0.0.beta)
+
+RUBY VERSION
+   ruby 2.2.5p319
+
+BUNDLED WITH
+   1.13.1
