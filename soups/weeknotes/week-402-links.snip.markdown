@@ -23,12 +23,11 @@ This article by Julia Evans recognises that asking good questions is a skill in 
 
 I had no idea that XPath selectors are built-in to Chrome's Developer Tools console - you just need to construct expressions like this: `$x("//div[@class='date']")`. Neat! {by james-mead}
 
-
 :name: week-402-links
-:updated_at: 2016-09-28 10:15:51.629465000 +01:00
-:created_at: 2016-09-28 10:15:51.629450000 +01:00
+:updated_at: 2016-09-30 10:13:02.350684000 +01:00
+:created_at: 2016-09-30 10:13:02.350674000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
