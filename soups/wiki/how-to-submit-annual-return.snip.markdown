@@ -15,7 +15,7 @@ Here's what you need to do:
 * Answer “no” to the question, “Were any of the company's shares admitted to trading on a market at any time during this return period?”
 
 ## Registered Address Details
-* Confirm our registered address as being Walnut Tree Cottage, Station Road, Ningwood, Isle of Wight PO41 0TQ.
+* Confirm our registered address as being {registered_office_address}.
 
 ## Location of Company Registers
 * Confirm that we don’t have a SAIL (Single Alternative Inspection Location) address as all records are kept at the Registered Office.
