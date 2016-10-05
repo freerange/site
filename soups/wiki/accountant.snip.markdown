@@ -1,12 +1,25 @@
-Accountant
-==========
+## Accountant
 
-We've been using Stuart Jones at [3CA][] since 8th March 2011.
+### Current
 
-We previously used [CRM][].
+* Paul Brannigan at [The Proactive Accountant][]
+* Dates: 12 May 2016 - present
 
+### Previous
+
+#### 3CA
+
+* Stuart Jones at [3CA][]
+* Dates: 08 March 2011 - 19 March 2015
+
+#### Chapman, Robinson & Moore
+
+* Tony Hobbs (?) at [Chapman, Robinson & Moore][]
+* Dates: 13 January 2009 - 08 March 2011
+
+[The Proactive Accountant]: http://www.proactive.uk.net/
 [3CA]: http://www.3ca.co.uk/
-[CRM]: http://crmoxford.co.uk/
+[Chapman, Robinson & Moore]: http://crmoxford.co.uk/
 
 :render_as: Kramdown
 :is_page: true
