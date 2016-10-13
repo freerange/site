@@ -36,6 +36,7 @@ Application.configure do |config|
     "soups/people",
     "soups/projects",
     "soups/blog",
+    "soups/weeklinks",
     "soups/weeknotes",
     "soups/wiki",
     "soups/system"
