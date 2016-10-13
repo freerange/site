@@ -22,7 +22,7 @@ And with that, I bid you all adieu and wish you all the very best of weekends.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-03-22 16:30:00 +00:00
 :updated_at: 2013-03-22 16:30:00 +00:00

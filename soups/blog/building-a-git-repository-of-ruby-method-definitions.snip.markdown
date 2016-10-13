@@ -31,7 +31,7 @@ Anyway, hopefully that's some food for thought. I'd love to hear what you think.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-03-16 00:45:00 +00:00
 :updated_at: 2014-03-16 00:45:00 +00:00

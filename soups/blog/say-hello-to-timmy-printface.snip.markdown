@@ -117,7 +117,7 @@ Incidentally, she collaborated with [Roo][] on the [Shift Run Stop](http://www.s
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2011-04-08 13:55:00 +01:00
 :updated_at: 2011-04-08 13:55:00 +01:00

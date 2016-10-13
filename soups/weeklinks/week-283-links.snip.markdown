@@ -72,7 +72,7 @@ I noticed that [James A][] has promoted [Harmonia][] on there and it looks like 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-06-18 13:00:00 +01:00
 :updated_at: 2014-06-18 13:00:00 +01:00

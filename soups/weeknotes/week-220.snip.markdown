@@ -42,7 +42,7 @@ Anyway, that's your lot for this week. Have a great weekend!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-04-05 10:29:00 +00:00
 :updated_at: 2013-04-05 10:29:00 +00:00

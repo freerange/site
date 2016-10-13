@@ -64,7 +64,7 @@ I was impressed to see this command line tool which [makes it very easy][lets-en
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-10-29 16:15:00 +00:00
 :updated_at: 2015-10-29 16:15:00 +00:00

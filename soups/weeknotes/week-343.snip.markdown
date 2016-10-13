@@ -52,7 +52,7 @@ As well as upgrading Smart Answers to Ruby 2.2.2, [Tadas][tadas] made a start on
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-08-14 16:50:00 +01:00
 :updated_at: 2015-08-21 12:30:00 +01:00

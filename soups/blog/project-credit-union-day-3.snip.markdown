@@ -35,7 +35,7 @@ I received notification that the online account for my credit union had been set
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-06-27 17:00:00 +01:00
 :updated_at: 2014-06-27 17:00:00 +01:00

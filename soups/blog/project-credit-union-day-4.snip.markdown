@@ -77,7 +77,7 @@ The most obvious reason to stop is if we work out that the amount of time, energ
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-06-30 11:00:00 +01:00
 :updated_at: 2014-06-30 11:00:00 +01:00

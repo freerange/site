@@ -46,7 +46,7 @@ I enjoy reading Little Big Details and was pleased to see them include [GOV.UK's
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-03-11 10:30:00 +00:00
 :updated_at: 2015-03-11 10:30:00 +00:00

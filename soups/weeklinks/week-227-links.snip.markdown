@@ -28,7 +28,7 @@ I think this is a great description of what makes a good user story and how some
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-05-20 10:00:00 +01:00
 :updated_at: 2013-05-20 10:00:00 +01:00

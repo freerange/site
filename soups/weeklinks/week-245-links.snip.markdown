@@ -34,7 +34,7 @@ Being able to extend an `ActiveRecord::Relation` object with custom scopes looks
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-09-23 13:05:00 +01:00
 :updated_at: 2013-09-23 13:05:00 +01:00

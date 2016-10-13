@@ -32,7 +32,7 @@ This is very much a toy project but I can already see some things that we could 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-02-07 13:25:00 +00:00
 :updated_at: 2014-02-07 13:25:00 +00:00

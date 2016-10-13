@@ -68,7 +68,7 @@ We've also been ordering in [supplies][ocado] for the [office Xmas party next We
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2012-12-14 15:21:00 +00:00
 :updated_at: 2012-12-14 15:21:00 +00:00

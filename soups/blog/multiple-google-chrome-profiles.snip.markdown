@@ -39,7 +39,7 @@ I'm sure this approach isn't news to most of you, but hopefully it might be usef
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-10-30 17:46:00 +01:00
 :updated_at: 2014-10-30 17:46:00 +01:00

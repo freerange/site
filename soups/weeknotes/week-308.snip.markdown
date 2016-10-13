@@ -34,7 +34,7 @@ The idea is that we'll try to rent some new office space in February next year w
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-12-17 16:08:00 +00:00
 :updated_at: 2014-12-17 16:08:00 +00:00

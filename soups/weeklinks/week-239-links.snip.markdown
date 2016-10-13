@@ -53,7 +53,7 @@ I've been using Stringer as my RSS reader since Google Reader shut up shop. It's
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2013-08-12 13:00:00 +01:00
 :updated_at: 2013-08-12 13:00:00 +01:00

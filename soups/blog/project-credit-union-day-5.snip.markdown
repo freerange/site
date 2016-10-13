@@ -16,7 +16,7 @@ James and I chatted over lunch about credit unions and tried to understand why s
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-07-01 18:30:00 +01:00
 :updated_at: 2014-07-01 18:30:00 +01:00

@@ -119,7 +119,7 @@ Anyway, that's all for now.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :page_title: Week 399
 :extension: markdown

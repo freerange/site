@@ -42,7 +42,7 @@ I found this pretty interesting. It turns out that the ASCII character set conta
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-04-03 13:00:00 +10:00
 :updated_at: 2014-04-03 13:00:00 +10:00

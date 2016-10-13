@@ -12,7 +12,7 @@ I'm going to have to leave it there for now and bid you good day until the next 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-11-25 15:00:00 +00:00
 :updated_at: 2013-11-25 15:00:00 +00:00

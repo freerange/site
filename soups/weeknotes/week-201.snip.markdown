@@ -40,7 +40,7 @@ After our enjoyable company Christmas trip to the [Science Museum](http://www.sc
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2012-11-26 09:30:00 +00:00
 :updated_at: 2012-11-26 09:30:00 +00:00

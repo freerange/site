@@ -48,7 +48,7 @@ Hookline:
 :render_as: Blog
 :kind: draft
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :page_title: Week 403
 :extension: markdown

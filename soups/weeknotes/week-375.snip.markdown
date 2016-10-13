@@ -95,7 +95,7 @@ We received confirmation that our tax assurances for GDS are all in order.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 375
 :extension: markdown

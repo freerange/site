@@ -46,7 +46,7 @@ Last, but definitely not least, we're still struggling to get some momentum behi
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2012-09-09 22:11:00 +01:00
 :updated_at: 2012-09-09 22:11:00 +01:00

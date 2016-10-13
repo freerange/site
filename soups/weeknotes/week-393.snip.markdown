@@ -60,7 +60,7 @@ I think that's about all for now. Let's see whether this helps unblocks our week
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 393
 :extension: markdown

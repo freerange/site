@@ -37,7 +37,7 @@ I really like this idea as a simpler alternative to Github Pages. My only concer
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-11-18 18:44:00 +00:00
 :updated_at: 2013-11-18 18:44:00 +00:00

@@ -8,7 +8,7 @@ Your comments here. {by chris-roos}
 :render_as: Blog
 :kind: draft
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-03-13 14:30:00 +00:00
 :updated_at: 2014-03-13 14:30:00 +00:00

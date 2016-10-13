@@ -111,7 +111,7 @@ Anyway, until next time!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-10-23 16:01:00 +01:00
 :updated_at: 2015-10-23 16:01:00 +01:00

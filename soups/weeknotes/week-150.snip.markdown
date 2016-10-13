@@ -22,7 +22,7 @@ All that's left is for me to wish you all a good week and enjoy the hour remaini
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2011-12-05 11:00:00 +01:00
 :updated_at: 2011-12-05 11:00:00 +01:00

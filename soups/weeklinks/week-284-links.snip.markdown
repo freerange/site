@@ -63,7 +63,7 @@ Actually, it's double congratulations because they've just [announced that Makie
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-06-26 14:21:00 +01:00
 :updated_at: 2014-06-26 14:21:00 +01:00

@@ -42,7 +42,7 @@ I've tried a similar approach, sort-of, with encouraging more communication with
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-04-15 10:21:00 +01:00
 :updated_at: 2013-04-16 09:59:00 +01:00

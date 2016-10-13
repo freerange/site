@@ -59,7 +59,7 @@ James A might not be around but pointed out that the [bootstrapd][] conference m
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2012-04-20 11:49:00 +01:00
 :updated_at: 2012-04-20 11:49:00 +01:00

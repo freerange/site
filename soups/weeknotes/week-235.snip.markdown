@@ -29,7 +29,7 @@ Enjoy the sun while it lasts, folks!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-07-18 10:00:00 +06:00
 :updated_at: 2013-07-18 10:00:00 +06:00

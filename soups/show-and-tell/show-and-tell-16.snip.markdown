@@ -104,7 +104,7 @@ Thanks to everyone for coming. Hope to see you next time.
 :render_as: blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-09-11 15:48:00 +01:00
 :updated_at: 2015-09-11 15:48:00 +01:00

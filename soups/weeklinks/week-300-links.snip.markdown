@@ -55,7 +55,7 @@ I haven't tried it but really like the look of this app. I collect quite a bit o
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-10-15 14:39:00 +00:00
 :updated_at: 2014-10-15 14:39:00 +00:00

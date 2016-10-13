@@ -38,7 +38,7 @@ James M has made some great progress on Mocha this week.  You can follow along w
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2012-08-28 15:52:00 +01:00
 :updated_at: 2012-08-28 15:52:00 +01:00

@@ -84,7 +84,7 @@ That's all for this week. Until next time.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 380
 :extension: markdown

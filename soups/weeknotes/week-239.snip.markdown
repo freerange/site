@@ -40,7 +40,7 @@ But still with that NASA music, obviously. That part is inescapable.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-08-16 13:00:00 +06:00
 :updated_at: 2013-08-16 13:00:00 +06:00

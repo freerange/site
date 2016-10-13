@@ -61,7 +61,7 @@ This made me laugh. It's a browser plugin that automatically clicks on *all* adv
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-10-31 17:00:00 +00:00
 :updated_at: 2014-10-31 17:00:00 +00:00

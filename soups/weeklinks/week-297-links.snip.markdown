@@ -38,7 +38,7 @@ Tantek has done a great job of documenting the achievements of IndieWebCamp UK. 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-09-26 12:34:00 +00:00
 :updated_at: 2014-09-26 12:34:00 +00:00

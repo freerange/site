@@ -47,7 +47,7 @@ I really enjoyed reading this post shared by [Paul](http://po-ru.com/). The titl
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-08-21 15:30:00 +00:00
 :updated_at: 2014-08-21 15:30:00 +00:00

@@ -43,7 +43,7 @@ Until next time, folks.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-07-10 15:00:00 +01:00
 :updated_at: 2015-07-10 16:50:00 +01:00

@@ -54,7 +54,7 @@ Anyway, that's yer lot. Do svidaniya!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2012-03-09 12:55:00 +01:00
 :updated_at: 2012-03-09 12:55:00 +01:00

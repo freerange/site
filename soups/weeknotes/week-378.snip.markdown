@@ -84,7 +84,7 @@ Safely in our hands for another year!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 378
 :extension: markdown

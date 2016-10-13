@@ -30,7 +30,7 @@ Until next time, mes amis.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-03-29 17:00:00 +00:00
 :updated_at: 2013-03-29 17:00:00 +00:00

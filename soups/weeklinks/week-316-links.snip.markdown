@@ -48,7 +48,7 @@ A platform for deploying and running web crawlers. The [Crawlera](http://scrapin
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-02-04 14:38:00 +00:00
 :updated_at: 2015-02-04 14:38:00 +00:00

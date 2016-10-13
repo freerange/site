@@ -49,7 +49,7 @@ A pretty-long but very comprehesive writeup of one person selling the product th
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-09-16 16:30:00 +01:00
 :updated_at: 2013-09-16 16:30:00 +01:00

@@ -42,7 +42,7 @@ Today we hit the end of client work, for a few weeks at least, so I'm hoping tha
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-03-01 12:00:00 +00:00
 :updated_at: 2013-03-01 12:00:00 +00:00

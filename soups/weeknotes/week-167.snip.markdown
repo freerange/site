@@ -82,7 +82,7 @@ And with that, I am very definitely spent.  Have good weekends y'all.  Chris.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2012-03-30 16:24:00 +01:00
 :updated_at: 2012-03-30 16:24:00 +01:00

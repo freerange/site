@@ -28,7 +28,7 @@ I find the work being done in this area really interesting and it really motivat
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-07-15 15:00:00 +01:00
 :updated_at: 2013-07-15 15:00:00 +01:00

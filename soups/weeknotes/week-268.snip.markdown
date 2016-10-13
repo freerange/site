@@ -51,7 +51,7 @@ Anyway, that's your lot for now.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-03-11 17:00:00 +00:00
 :updated_at: 2014-03-11 17:00:00 +00:00

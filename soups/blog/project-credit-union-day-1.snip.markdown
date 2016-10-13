@@ -70,7 +70,7 @@ There are lots of reasons why this project might not succeed but it feels good t
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-06-25 12:00:00 +01:00
 :updated_at: 2014-06-25 12:00:00 +01:00

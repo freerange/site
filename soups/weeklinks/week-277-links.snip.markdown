@@ -63,7 +63,7 @@ I've definitely felt the pain of having a long email exchange in order to arrang
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-05-08 14:00:00 +00:00
 :updated_at: 2014-05-08 14:00:00 +00:00

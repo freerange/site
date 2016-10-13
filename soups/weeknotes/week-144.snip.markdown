@@ -20,7 +20,7 @@ Tom
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2011-10-22 17:00:00 +01:00
 :updated_at: 2011-10-22 17:00:00 +01:00

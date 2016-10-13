@@ -45,7 +45,7 @@ As you might've gathered, we've lost a bit of momentum on [Project Credit Union]
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-22 16:29:00 +01:00
 :updated_at: 2014-07-22 16:29:00 +01:00

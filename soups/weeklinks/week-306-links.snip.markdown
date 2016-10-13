@@ -49,7 +49,7 @@ The [Deserter][] has recently become one of my favourite blogs (thanks, [Paul B]
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-11-25 15:25:00 +00:00
 :updated_at: 2014-11-25 15:25:00 +00:00

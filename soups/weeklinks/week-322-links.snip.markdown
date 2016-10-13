@@ -60,7 +60,7 @@ I'm really pleased to see that Ryan and Dietrich have released their [Meat Club 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-03-24 10:42:00 +00:00
 :updated_at: 2015-03-24 10:42:00 +00:00

@@ -31,7 +31,7 @@ A couple of comments about crypto-currencies on our [Day 1 blog post][] got me t
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-07-07 12:30:00 +01:00
 :updated_at: 2014-07-07 12:30:00 +01:00

@@ -164,7 +164,7 @@ The assumption here is that we've generated some content which others would find
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-08-28 15:05:00 +01:00
 :updated_at: 2014-08-28 15:05:00 +01:00

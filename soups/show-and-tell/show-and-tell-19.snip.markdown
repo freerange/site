@@ -79,7 +79,7 @@ I talked a little bit about [Google Maps Timeline][google-maps-timeline] (previo
 :render_as: blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2016-01-25 13:30:00 +13:00
 :updated_at: 2016-01-25 13:30:00 +13:00

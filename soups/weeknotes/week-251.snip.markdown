@@ -18,7 +18,7 @@ And that'll have to do for now. Have good weeks my friends.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-11-11 13:30:00 +00:00
 :updated_at: 2013-11-11 13:30:00 +00:00

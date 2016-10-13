@@ -60,7 +60,7 @@ For what it's worth: what I've learned is, I think, to basically just write what
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2012-05-25 18:49:00 +01:00
 :updated_at: 2012-05-25 18:49:00 +01:00

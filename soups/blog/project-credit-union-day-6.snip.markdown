@@ -38,7 +38,7 @@ We've been doing our best to respond to everyone, but apologies if we don't get 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-02 12:42:00 +01:00
 :updated_at: 2014-07-02 12:42:00 +01:00

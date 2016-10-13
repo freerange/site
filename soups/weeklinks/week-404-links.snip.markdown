@@ -69,7 +69,7 @@ I love this little time-lapse of earth. A little research about the footage lead
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :page_title: Week 404 - Interesting links
 :extension: markdown

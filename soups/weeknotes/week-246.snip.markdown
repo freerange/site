@@ -16,7 +16,7 @@ Anyway, that's it for now.  Maybe we'll meet again next week, but if not, stay a
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2013-10-04 16:00:00 +01:00
 :updated_at: 2013-10-04 16:00:00 +01:00

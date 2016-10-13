@@ -18,7 +18,7 @@ All that's left to say is that it's our Crimbo party on Wednesday. It'd be great
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-12-16 10:00:00 +00:00
 :updated_at: 2013-12-16 10:00:00 +00:00

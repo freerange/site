@@ -28,7 +28,7 @@ I finished up my week by submitting our VAT return. It took me slightly longer t
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-03-12 11:00:00 +00:00
 :updated_at: 2015-03-12 11:00:00 +00:00

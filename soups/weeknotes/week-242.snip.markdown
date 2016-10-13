@@ -14,7 +14,7 @@ And with that, I'll love and leave y'all.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-09-06 16:00:00 +01:00
 :updated_at: 2013-09-06 16:00:00 +01:00

@@ -34,7 +34,7 @@ It wasn't an easy decision and we spent much of Wednesday talking discussing dif
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-01-22 17:55:00 +00:00
 :updated_at: 2014-01-22 17:55:00 +00:00

@@ -43,7 +43,7 @@ Michael works through a simple example using Ruby. {by james-mead}
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-11-11 14:00:00 +00:00
 :updated_at: 2013-11-11 14:00:00 +00:00

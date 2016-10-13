@@ -62,7 +62,7 @@ Answers on a postcard!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-03-12 10:32:00 +00:00
 :updated_at: 2013-03-12 10:32:00 +00:00

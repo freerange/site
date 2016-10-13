@@ -27,7 +27,7 @@ Anyway, I'm finally up-to-date with the week notes. Huzzah!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-05-11 14:10:00 +01:00
 :updated_at: 2014-05-11 14:40:00 +01:00

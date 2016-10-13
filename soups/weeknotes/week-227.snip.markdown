@@ -42,7 +42,7 @@ And with that, I bid you adieu.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-05-24 16:00:00 +01:00
 :updated_at: 2013-05-24 16:00:00 +01:00

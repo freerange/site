@@ -76,7 +76,7 @@ That's all for this week. Until next time!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-03-25 12:23:00 +00:00
 :updated_at: 2015-03-25 12:23:00 +00:00

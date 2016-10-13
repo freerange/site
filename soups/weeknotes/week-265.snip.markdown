@@ -18,7 +18,7 @@ And that, for week 265, is that. Have good weeks folks and you can look forward 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-02-18 17:30:00 +00:00
 :updated_at: 2014-02-18 17:30:00 +00:00

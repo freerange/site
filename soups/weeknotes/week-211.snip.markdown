@@ -32,7 +32,7 @@ Until next week,
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-02-04 08:46:00 +00:00
 :updated_at: 2013-02-04 08:46:00 +00:00

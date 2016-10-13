@@ -29,7 +29,7 @@ This is a impressive Chrome extension which effectively OCRs images and document
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-04-24 11:00:00 +00:00
 :updated_at: 2014-04-24 11:00:00 +00:00

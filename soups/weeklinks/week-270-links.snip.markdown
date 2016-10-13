@@ -40,7 +40,7 @@ This is a great article by [Jeremy Keith][]. I'll give you a little taster but r
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-03-21 11:00:00 +00:00
 :updated_at: 2014-03-21 11:00:00 +00:00

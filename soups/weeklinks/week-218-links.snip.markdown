@@ -55,7 +55,7 @@ I'm quite intrigued by Huginn which claims to be a self-hosted mixture of Yahoo!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-03-18 10:32:00 +00:00
 :updated_at: 2013-03-18 10:32:00 +00:00

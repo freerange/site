@@ -61,7 +61,7 @@ The entries for this year's [JS1k](http://js1k.com) competition are really outst
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-04-02 12:06:00 +00:00
 :updated_at: 2013-04-02 12:06:00 +00:00

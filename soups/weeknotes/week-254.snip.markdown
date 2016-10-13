@@ -16,7 +16,7 @@ Until next time,
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-12-02 10:00:00 +00:00
 :updated_at: 2013-12-02 10:00:00 +00:00

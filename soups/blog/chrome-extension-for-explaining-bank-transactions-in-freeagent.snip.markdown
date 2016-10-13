@@ -55,7 +55,7 @@ Anyway, let us know what you think.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-30 10:14:00 +00:00
 :updated_at: 2014-07-30 10:14:00 +00:00

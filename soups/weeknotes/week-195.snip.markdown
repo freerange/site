@@ -25,7 +25,7 @@ This week's notes were bought to you from the edge of space by [Felix Baumgartne
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2012-10-15 17:00:00 +01:00
 :updated_at: 2012-10-15 17:00:00 +01:00

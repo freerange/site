@@ -82,7 +82,7 @@ Until next time.
 :render_as: blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-08-14 11:10:00 +01:00
 :updated_at: 2015-08-14 11:10:00 +01:00

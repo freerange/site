@@ -28,7 +28,7 @@ It just remains for me to wish everyone a very Merry Christmas and a Happy New Y
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-12-24 12:00:00 +00:00
 :updated_at: 2013-12-24 12:00:00 +00:00

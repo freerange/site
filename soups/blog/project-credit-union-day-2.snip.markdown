@@ -113,7 +113,7 @@ Anyway, that's your lot for today. I hope you're looking forward to tomorrow's e
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-06-26 15:00:00 +01:00
 :updated_at: 2014-06-26 15:00:00 +01:00

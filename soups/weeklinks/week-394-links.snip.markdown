@@ -45,7 +45,7 @@ This beautiful magazine is produced by a friend of a friend. The couple of issue
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :page_title: Week 394 - Interesting links
 :extension: markdown

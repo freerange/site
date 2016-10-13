@@ -64,7 +64,7 @@ Anyway, that's your lot for this month. Our [Show & Tell event][] is taking a br
 :render_as: Blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-12-12 11:53:00 +01:00
 :updated_at: 2014-12-17 16:44:00 +01:00

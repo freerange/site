@@ -32,7 +32,7 @@ I hope you all have the very best of weeks. Until next time. Chris.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-02-11 13:00:00 +00:00
 :updated_at: 2013-02-11 13:00:00 +00:00

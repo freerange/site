@@ -14,7 +14,7 @@ See. I told you they'd be super short and sweet. I hope y'all have a great weeke
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-11-01 18:00:00 +00:00
 :updated_at: 2013-11-01 18:00:00 +00:00

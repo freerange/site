@@ -72,7 +72,7 @@ How about you?
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-01-11 15:21:00 -06:00
 :updated_at: 2013-01-11 15:21:00 -06:00

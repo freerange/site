@@ -26,7 +26,7 @@ Have good weeks everybody peeps.  Over and out.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2011-11-27 15:43:00 +01:00
 :updated_at: 2011-11-27 18:30:00 +01:00

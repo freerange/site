@@ -36,7 +36,7 @@ I'm switching back to the good ol' bullet points this week. Paragraphs are hard.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-10-13 17:00:00 +01:00
 :updated_at: 2014-10-13 17:00:00 +01:00

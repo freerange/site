@@ -38,7 +38,7 @@ I like to think this is at the heart of the way we operate at [GFR](/). {by jame
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-02-13 12:25:00 +00:00
 :updated_at: 2014-02-13 12:25:00 +00:00

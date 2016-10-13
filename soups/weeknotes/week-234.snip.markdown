@@ -30,7 +30,7 @@ Have a good weekend, everyone!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-07-12 17:49:00 +01:00
 :updated_at: 2013-07-12 17:49:00 +01:00

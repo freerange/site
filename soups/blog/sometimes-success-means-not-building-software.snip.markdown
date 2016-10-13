@@ -75,7 +75,7 @@ For us, this represents a tangible success. And if anyone asks Dave where to tak
 :kind: blog
 :is_page: true
 :render_as: Blog
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2010-11-18 15:34:00 +00:00
 :page_title: Sometimes success means not building software

@@ -34,7 +34,7 @@ Many congratulations to [Tom Hall][] on his successfull kickstarter project: Tom
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-09-04 15:30:00 +01:00
 :updated_at: 2014-09-04 15:30:00 +01:00

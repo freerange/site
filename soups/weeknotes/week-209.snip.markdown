@@ -32,7 +32,7 @@ And with that, I wish you all a good week.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-01-21 17:45:00 +00:00
 :updated_at: 2013-01-21 17:45:00 +00:00

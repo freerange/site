@@ -70,7 +70,7 @@ Amy (my partner) and Emily have been collecting research for their [Minimum Viab
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-31 11:30:00 +01:00
 :updated_at: 2014-07-31 11:30:00 +01:00

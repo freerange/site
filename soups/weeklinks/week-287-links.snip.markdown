@@ -45,7 +45,7 @@ I'm not sure how seriously we considered setting up an [Industrial & Provident S
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-17 13:34:00 +01:00
 :updated_at: 2014-07-17 13:34:00 +01:00

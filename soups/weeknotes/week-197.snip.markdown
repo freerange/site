@@ -14,7 +14,7 @@ I'm off to enjoy some of this beautiful sunshine and I hope you all enjoy the re
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2012-10-30 09:30:00 +00:00
 :updated_at: 2012-10-30 09:30:00 +00:00

@@ -16,7 +16,7 @@ That'll have to do for now.  Have a good week and hopefully someone other than [
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2011-11-14 13:27:00 +00:00
 :updated_at: 2011-11-14 13:27:00 +00:00

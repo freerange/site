@@ -92,7 +92,7 @@ Have a great New Year, blog friends.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2011-12-30 11:15:00 +00:00
 :updated_at: 2011-12-30 11:15:00 +00:00

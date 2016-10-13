@@ -22,7 +22,7 @@ Anyway, that's all for this week.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2016-01-22 17:28:00 +01:00
 :updated_at: 2016-01-25 10:17:00 +01:00

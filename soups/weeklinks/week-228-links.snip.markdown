@@ -81,7 +81,7 @@ It's a couple of years old but I've only just come across this video and enjoyed
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-05-28 14:15:00 +01:00
 :updated_at: 2013-05-28 14:15:00 +01:00

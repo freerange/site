@@ -120,7 +120,7 @@ mas: https://github.com/mas-cli/mas
 :render_as: blog
 :kind: draft
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2016-10-13 10:30:00 +01:00
 :updated_at: 2016-10-13 10:30:00 +01:00

@@ -46,7 +46,7 @@ Until next time.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-06-05 15:35:00 +01:00
 :updated_at: 2015-06-05 15:35:00 +01:00

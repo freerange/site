@@ -58,7 +58,7 @@ This article makes Twitter's [Flight framework](http://twitter.github.io/flight/
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-04-11 16:00:00 +10:00
 :updated_at: 2014-04-11 16:00:00 +10:00

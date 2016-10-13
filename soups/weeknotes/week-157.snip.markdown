@@ -72,7 +72,7 @@ Until I'm randomly picked to write you a story once more...
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: jason-cale
 :created_at: 2012-01-20 17:45:00 +00:00
 :updated_at: 2012-01-20 17:45:00 +00:00

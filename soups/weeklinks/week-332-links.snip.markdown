@@ -56,7 +56,7 @@ It's great to see FutureLearn start to open up some of their course content to p
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-05-29 15:47:00 +00:00
 :updated_at: 2015-05-29 15:47:00 +00:00

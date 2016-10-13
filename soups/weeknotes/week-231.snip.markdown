@@ -26,7 +26,7 @@ P.S. If you'd like to see James off, please join us for a drink on Wednesday in 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2013-06-23 23:00:00 +01:00
 :updated_at: 2013-06-23 23:00:00 +01:00

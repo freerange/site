@@ -48,7 +48,7 @@ Striking a balance between polishing features and shipping them fast is a tough 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-07-29 13:00:00 +01:00
 :updated_at: 2013-07-29 13:00:00 +01:00

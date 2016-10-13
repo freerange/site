@@ -68,7 +68,7 @@ As much as it currently pains me, I believe this is something that GFR are going
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-03-25 10:30:00 +00:00
 :updated_at: 2013-03-25 10:30:00 +00:00

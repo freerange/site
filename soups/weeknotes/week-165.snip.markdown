@@ -82,7 +82,7 @@ Until next time, blog-friends,
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2012-03-17 12:23:00 +01:00
 :updated_at: 2012-03-17 12:23:00 +01:00

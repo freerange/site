@@ -29,7 +29,7 @@ I had no idea that XPath selectors are built-in to Chrome's Developer Tools cons
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :page_title: Week 402 - Interesting links
 :extension: markdown

@@ -55,7 +55,7 @@ It's great to see another website making use of [Network Rail](http://www.networ
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2013-06-03 13:00:00 +01:00
 :updated_at: 2013-06-03 13:00:00 +01:00

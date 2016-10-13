@@ -63,7 +63,7 @@ Anyway, I think that's all for now. Let's hope we can keep up this run of writin
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :page_title: Week 395
 :extension: markdown

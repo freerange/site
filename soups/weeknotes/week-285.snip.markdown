@@ -80,7 +80,7 @@ Anyway, that's all for now.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-07 12:55:00 +01:00
 :updated_at: 2014-07-07 12:55:00 +01:00

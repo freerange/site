@@ -23,7 +23,7 @@ The London GFR[^suede] had the monthly social spread over lunch and a post-work-
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-08-04 21:00:00 +06:00
 :updated_at: 2013-08-04 21:00:00 +06:00

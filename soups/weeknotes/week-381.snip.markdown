@@ -9,7 +9,7 @@ Week 381
 :render_as: Blog
 :kind: draft
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 381
 :extension: markdown

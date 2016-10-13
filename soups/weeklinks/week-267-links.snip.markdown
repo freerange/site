@@ -38,7 +38,7 @@ I really enjoyed the most recent Little Schemer book club meeting. We hooked up 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-02-26 16:50:00 +00:00
 :updated_at: 2014-02-26 16:50:00 +00:00

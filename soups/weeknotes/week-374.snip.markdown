@@ -105,7 +105,7 @@ James noticed that the mirror of [caffeine monitor][caffeine-monitor] we're host
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 374
 :extension: markdown

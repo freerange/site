@@ -72,7 +72,7 @@ If we were to create another presentation then I think I’d want us to come tog
 :render_as: blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-03-04 17:00:00 +00:00
 :updated_at: 2015-03-04 17:25:00 +00:00

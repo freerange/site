@@ -189,7 +189,7 @@ Cheers!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: kramdown
+:written_with: markdown
 :author: jason-cale
 :page_title: Building Caffeine Monitor
 :created_at: 2010-12-06 17:55:03 +00:00

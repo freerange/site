@@ -34,7 +34,7 @@ I've seen this problem a few times when playing with XmlHttpRequest, most recent
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-07-01 14:00:00 +01:00
 :updated_at: 2013-07-01 14:00:00 +01:00

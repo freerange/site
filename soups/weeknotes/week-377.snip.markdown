@@ -90,7 +90,7 @@ I only really did the minimum admin required to keep things ticking over this we
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 377
 :extension: markdown

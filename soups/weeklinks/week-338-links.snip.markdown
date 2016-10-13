@@ -79,7 +79,7 @@ The other day, [Tom S](http://codon.com/) mentioned the `exec` "command" in the 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-07-10 11:45:00 +00:00
 :updated_at: 2015-07-10 15:45:00 +00:00

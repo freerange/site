@@ -105,7 +105,7 @@ Anyway, that's all folks. I'm sorry these notes were so late. Until next time.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-05-22 15:58:00 +01:00
 :updated_at: 2015-05-22 15:58:00 +01:00

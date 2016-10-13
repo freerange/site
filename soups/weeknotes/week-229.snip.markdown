@@ -52,7 +52,7 @@ Anyway, until next time.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-06-07 16:00:00 +01:00
 :updated_at: 2013-06-07 16:00:00 +01:00

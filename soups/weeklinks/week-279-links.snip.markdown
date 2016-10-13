@@ -41,7 +41,7 @@ A neat internet-conected compass-like device built by Tom Armitage which always 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-05-24 19:50:00 +00:00
 :updated_at: 2014-05-24 19:50:00 +00:00

@@ -64,7 +64,7 @@ That's all folks.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-01-21 14:53:00 +00:00
 :updated_at: 2015-01-21 14:53:00 +00:00

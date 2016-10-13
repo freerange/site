@@ -20,7 +20,7 @@ The week didn't end so well - on Thursday I had a nightmare journey back to Oxfo
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-01-12 22:00:00 +00:00
 :updated_at: 2014-01-12 22:00:00 +00:00

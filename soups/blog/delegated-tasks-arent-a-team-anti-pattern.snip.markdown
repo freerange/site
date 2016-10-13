@@ -14,7 +14,7 @@ _This post has now [moved to the Harmonia blog](https://harmonia.io/blog/delegat
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2012-11-21 10:24:00 +01:00
 :updated_at: 2012-11-21 10:24:00 +01:00

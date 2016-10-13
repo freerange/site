@@ -49,7 +49,7 @@ I have 83,156 emails in my *personal* email account, spanning from the 1st of Ap
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2013-07-08 15:30:00 +01:00
 :updated_at: 2013-07-08 15:30:00 +01:00

@@ -16,7 +16,7 @@ There's much more I could say, but not without boring your socks off, so until w
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2013-10-15 00:30:00 +01:00
 :updated_at: 2013-10-15 00:30:00 +01:00

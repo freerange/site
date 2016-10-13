@@ -26,7 +26,7 @@ So that's that. See you next time,
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-07-25 10:00:00 +06:00
 :updated_at: 2013-07-25 10:00:00 +06:00

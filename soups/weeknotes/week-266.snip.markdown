@@ -35,7 +35,7 @@ Anyways, I think that’ll do us for week 266. Until next time, everybody peeps.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-02-24 13:30:00 +00:00
 :updated_at: 2014-02-24 13:30:00 +00:00

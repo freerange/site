@@ -64,7 +64,7 @@ In this article the [Zooniverse](https://www.zooniverse.org/) gang write about a
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-05-15 17:00:00 +00:00
 :updated_at: 2014-05-16 11:00:00 +00:00

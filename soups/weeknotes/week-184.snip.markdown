@@ -17,7 +17,7 @@ These weeknotes will available in the USA following a time delay, so they can be
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2012-07-30 12:30:00 +01:00
 :updated_at: 2012-07-30 12:30:00 +01:00

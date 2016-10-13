@@ -54,7 +54,7 @@ This amused me. [Deloitte's Digital Maturity survey](http://www.deloittedigital.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-02-19 15:37:00 +00:00
 :updated_at: 2015-02-19 15:37:00 +00:00

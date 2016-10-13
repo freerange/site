@@ -33,7 +33,7 @@ I'm sure I've wanted to be able to do this in the past; and now I know how! A to
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-02-19 17:41:00 +00:00
 :updated_at: 2014-02-19 17:41:00 +00:00

@@ -24,7 +24,7 @@ Chris
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-04-26 17:30:00 +01:00
 :updated_at: 2013-04-26 17:30:00 +01:00

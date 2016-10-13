@@ -14,7 +14,7 @@ In the middle of next week I'm off to Spain by train for a few days cycling in C
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-10-20 13:48:00 +01:00
 :updated_at: 2013-10-20 13:48:00 +01:00

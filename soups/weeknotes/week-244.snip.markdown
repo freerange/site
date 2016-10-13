@@ -32,7 +32,7 @@ Anyway, that's it for now. Have a great weekend!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-09-20 16:00:00 +01:00
 :updated_at: 2013-09-20 16:00:00 +01:00

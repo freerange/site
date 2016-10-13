@@ -22,7 +22,7 @@ For anyone interested in digging into this in more detail (including links to lo
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-07-09 18:00:00 +01:00
 :updated_at: 2014-07-09 18:00:00 +01:00

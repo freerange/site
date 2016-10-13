@@ -54,7 +54,7 @@ This was the improvised adventure story tweeted by [Melinda](https://missgeeky.c
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-11-10 16:30:00 +00:00
 :updated_at: 2015-11-10 16:30:00 +00:00

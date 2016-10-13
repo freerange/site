@@ -61,7 +61,7 @@ Anyway, that all for this week.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-12-22 11:34:00 +00:00
 :updated_at: 2015-12-22 11:34:00 +00:00

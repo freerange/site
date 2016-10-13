@@ -67,7 +67,7 @@ A little inspirational link to finish with: Read an interview with 80 year old H
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-10-02 13:58:00 +01:00
 :updated_at: 2015-10-02 13:58:00 +01:00

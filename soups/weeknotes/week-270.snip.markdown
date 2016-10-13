@@ -33,7 +33,7 @@ Have great weekends, folks.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-03-21 17:00:00 +00:00
 :updated_at: 2014-03-21 17:00:00 +00:00

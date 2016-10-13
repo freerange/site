@@ -42,7 +42,7 @@ I came across this tutorial by MIT via [How-To: Shrinkify Your Arduino Projects]
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-01-22 18:00:00 +00:00
 :updated_at: 2014-01-22 18:00:00 +00:00

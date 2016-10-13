@@ -54,7 +54,7 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-16 12:30:00 +01:00
 :updated_at: 2014-07-16 12:30:00 +01:00

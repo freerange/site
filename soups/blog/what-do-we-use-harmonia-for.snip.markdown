@@ -75,7 +75,7 @@ I'm interested in whether any of these come as a surprise to anyone. Could you i
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-11-12 13:17:00 +00:00
 :updated_at: 2014-11-12 17:30:00 +00:00

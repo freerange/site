@@ -15,7 +15,7 @@ This week's weeknotes were bought to you by [Bob](http://25.media.tumblr.com/tum
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: tom-ward
 :created_at: 2012-12-01 09:30:00 +00:00
 :updated_at: 2012-12-01 09:30:00 +00:00

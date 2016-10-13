@@ -59,7 +59,7 @@ This looks interesting - I'll have to give it a go if/when we do more work on th
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-09-11 14:22:00 +00:00
 :updated_at: 2014-09-11 14:22:00 +00:00

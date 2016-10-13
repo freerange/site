@@ -35,7 +35,7 @@ This is long but I found it an interesting insight into the motivation behind so
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2013-05-13 10:00:00 +01:00
 :updated_at: 2013-05-13 10:00:00 +01:00

@@ -18,7 +18,7 @@ Friday was FutureLearn's last day in their Open University home before moving to
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-01-29 08:00:00 +00:00
 :updated_at: 2014-01-29 08:00:00 +00:00

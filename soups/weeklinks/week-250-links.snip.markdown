@@ -24,7 +24,7 @@ I came across the term Hyperlapse after watching this excellent "[Louisville In 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-10-28 18:30:00 +00:00
 :updated_at: 2013-10-28 18:30:00 +00:00

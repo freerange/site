@@ -66,7 +66,7 @@ I really enjoyed the evening and I'm glad we decided to keep it up despite not h
 :render_as: blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-02-16 14:30:00 +01:00
 :updated_at: 2015-02-16 17:45:00 +01:00

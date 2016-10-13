@@ -47,7 +47,7 @@ The folks at [Known][] have created this useful directory containing instruction
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-11-12 16:52:00 +00:00
 :updated_at: 2014-11-12 16:52:00 +00:00

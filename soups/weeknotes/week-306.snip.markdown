@@ -41,7 +41,7 @@ Until next time.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-12-03 16:10:00 +01:00
 :updated_at: 2014-12-03 16:10:00 +01:00

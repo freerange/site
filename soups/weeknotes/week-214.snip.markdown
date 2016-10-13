@@ -38,7 +38,7 @@ And with that, I'll bid you all farewell as Tom and I *have* to go drink some be
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-02-22 17:00:00 +00:00
 :updated_at: 2013-02-22 17:00:00 +00:00

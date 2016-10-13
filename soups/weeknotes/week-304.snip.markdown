@@ -25,7 +25,7 @@ Week 304
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-11-19 12:30:00 +00:00
 :updated_at: 2014-11-19 14:30:00 +00:00

@@ -42,7 +42,7 @@ I think these are awesome :-) {by chris-roos}
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-07-24 15:20:00 +01:00
 :updated_at: 2015-07-24 15:20:00 +01:00

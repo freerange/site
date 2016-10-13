@@ -50,7 +50,7 @@ I hope y'all have great weekends.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-03-14 18:00:00 +00:00
 :updated_at: 2014-03-14 18:00:00 +00:00

@@ -64,7 +64,7 @@ There's a lot more work to do, but we're confident that [GDS][gds] will [listen 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2012-02-29 12:45:00 +01:00
 :updated_at: 2012-02-29 12:45:00 +01:00

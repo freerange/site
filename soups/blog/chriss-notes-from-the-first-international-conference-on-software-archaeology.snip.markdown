@@ -61,7 +61,7 @@ I loved [Matt Wynne](https://twitter.com/mattwynne)'s metaphor that he uses to e
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-02-07 12:37:00 +00:00
 :updated_at: 2014-02-07 12:37:00 +00:00

@@ -10,7 +10,7 @@ It's possible that there'll be a few more short updates this week as James is ta
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-07-08 11:45:00 +01:00
 :updated_at: 2014-07-08 11:45:00 +01:00

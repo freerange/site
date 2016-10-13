@@ -57,7 +57,7 @@ Anyway, that's all for this month!
 :render_as: Blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-10-13 16:57:00 +01:00
 :updated_at: 2014-10-13 16:57:00 +01:00

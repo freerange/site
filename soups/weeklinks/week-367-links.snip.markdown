@@ -83,7 +83,7 @@ An amazing bit of skiing! {by james-mead}
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2016-01-28 08:00:00 +13:00
 :updated_at: 2016-01-28 08:00:00 +13:00

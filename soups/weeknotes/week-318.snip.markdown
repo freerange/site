@@ -59,7 +59,7 @@ Anyway, onward and upward!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-02-24 11:31:00 +01:00
 :updated_at: 2015-02-24 11:31:00 +01:00

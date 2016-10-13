@@ -30,7 +30,7 @@ Having cancelled our January [Show and Tell][] event, because it would've been i
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-02-13 11:47:00 +00:00
 :updated_at: 2015-02-13 11:47:00 +00:00

@@ -52,7 +52,7 @@ As the article suggests, we shouldn't assume that more automation is always bett
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-09-19 11:15:00 +00:00
 :updated_at: 2014-09-19 11:15:00 +00:00

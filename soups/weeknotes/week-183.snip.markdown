@@ -31,7 +31,7 @@ That's all for Week 183. Have a good weekend!
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2012-07-20 10:30:00 +01:00
 :updated_at: 2012-07-20 15:32:00 +01:00

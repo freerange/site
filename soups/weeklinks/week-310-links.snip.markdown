@@ -45,7 +45,7 @@ This e-Money payment card by Contis seems to offer an individual sort-code and a
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-12-22 12:15:00 +00:00
 :updated_at: 2014-12-22 12:15:00 +00:00

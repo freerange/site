@@ -31,7 +31,7 @@ I spent most of my time with [Ricardo][], continuing the work we started last we
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2015-02-17 14:10:00 +01:00
 :updated_at: 2015-02-17 14:10:00 +01:00

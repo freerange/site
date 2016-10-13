@@ -50,7 +50,7 @@ Hopefully these will do the trick. We'll let you know how it goes.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-07-04 12:26:00 +01:00
 :updated_at: 2014-07-04 12:26:00 +01:00

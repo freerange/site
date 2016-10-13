@@ -59,7 +59,7 @@ Although not technically part of the Show and Tell, [Murray][] was keen to show 
 :render_as: Blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-09-15 17:30:00 +01:00
 :updated_at: 2014-09-15 17:30:00 +01:00

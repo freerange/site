@@ -45,7 +45,7 @@ The meeting then reconvened in the pub, but I had to slip away. So that's all I 
 :render_as: Blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-11-17 14:28:00 +01:00
 :updated_at: 2014-11-17 14:28:00 +01:00

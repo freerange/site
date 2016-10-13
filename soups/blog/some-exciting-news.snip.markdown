@@ -32,7 +32,7 @@ So, [exciting times][exciting.io]! See you in the future,
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :created_at: 2013-11-12 16:24:00 +00:00
 :updated_at: 2013-11-12 16:24:00 +00:00

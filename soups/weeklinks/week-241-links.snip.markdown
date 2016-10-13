@@ -31,7 +31,7 @@ I'm also interested in pub/sub listener techniques for decoupling your business 
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-08-27 13:00:00 +01:00
 :updated_at: 2013-08-27 13:00:00 +01:00

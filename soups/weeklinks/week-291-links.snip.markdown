@@ -34,7 +34,7 @@ This looks interesting. They appear to have quite a lot of regularly updated con
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-08-14 12:00:00 +01:00
 :updated_at: 2014-08-14 12:00:00 +01:00

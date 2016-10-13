@@ -22,7 +22,7 @@ All that’s left is to show you the [double rainbow](http://www.youtube.com/wat
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-02-10 16:30:00 +00:00
 :updated_at: 2014-02-10 16:30:00 +00:00

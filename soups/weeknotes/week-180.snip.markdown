@@ -109,7 +109,7 @@ Have a great weekend, y'all!
 [heylist-src-2012]: http://twitter.com/heylist/src-2012
 
 :render_as: Blog
-:written_with: Kramdown
+:written_with: markdown
 :author: james-adam
 :kind: blog
 :is_page: true

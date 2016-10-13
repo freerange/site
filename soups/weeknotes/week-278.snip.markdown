@@ -41,7 +41,7 @@ Finally, both [Tom W][] and [Chris L][] were in the office on Friday so a few of
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-05-21 18:30:00 +01:00
 :updated_at: 2014-05-21 18:30:00 +01:00

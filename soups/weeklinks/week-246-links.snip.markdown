@@ -29,7 +29,7 @@ While I agree with the problems outlined, I'm far from convinced using a calenda
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-09-30 15:00:00 +01:00
 :updated_at: 2013-09-30 15:00:00 +01:00

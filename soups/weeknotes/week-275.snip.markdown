@@ -41,7 +41,7 @@ Anyway, that's all folks. Hopefully the notes for this week won't be quite as ta
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-05-02 15:55:00 +01:00
 :updated_at: 2014-05-02 15:55:00 +01:00

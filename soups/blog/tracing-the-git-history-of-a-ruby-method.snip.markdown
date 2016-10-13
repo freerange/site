@@ -147,7 +147,7 @@ Many thanks to [Chris Roos][], [Tom Stuart][], [Joel Chippindale][], [Chris Lowi
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2014-03-11 11:24:00 +00:00
 :updated_at: 2014-03-11 11:24:00 +00:00

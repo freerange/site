@@ -44,7 +44,7 @@ If this sounds like the sort of thing you're interested in, then please do [get 
 :render_as: Blog
 :kind: show-and-tell
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2014-08-07 17:00:00 +01:00
 :updated_at: 2014-08-07 17:00:00 +01:00

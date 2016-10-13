@@ -67,7 +67,7 @@ The blog post suggests that the data comes from people that have activated Locat
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: james-mead
 :created_at: 2015-08-07 13:12:00 +01:00
 :updated_at: 2015-08-07 13:12:00 +01:00

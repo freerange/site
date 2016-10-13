@@ -20,7 +20,7 @@ I think that'll do us for this week. Until next time, folks.
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :created_at: 2013-12-06 17:00:00 +00:00
 :updated_at: 2013-12-06 17:00:00 +00:00

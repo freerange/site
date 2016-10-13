@@ -57,7 +57,7 @@ I loved reading this article by a digital nomad, Thomas Buckley-Houston, who's b
 :render_as: Blog
 :kind: blog
 :is_page: true
-:written_with: Kramdown
+:written_with: markdown
 :author: chris-roos
 :page_title: Week 400 - Interesting links
 :extension: markdown
