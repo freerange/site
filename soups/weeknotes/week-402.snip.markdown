@@ -65,10 +65,10 @@ Until next time.
 [wiltons-music-hall]: https://wiltons.org.uk/
 
 :name: week-402
-:updated_at: 2016-09-29 16:02:05.969947000 +01:00
-:created_at: 2016-09-29 16:02:05.969937000 +01:00
+:updated_at: 2016-10-13 10:12:53.558987000 +01:00
+:created_at: 2016-10-13 10:12:53.558981000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
