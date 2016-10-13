@@ -7,12 +7,14 @@ Chris pointed me at this amusing article. He said it reminded him of my [Just Bo
 
 [Just Boiled project]: /week-216#just-boiled
 
+
 ### [Hackpad](https://github.com/dropbox/hackpad)
 
 I recently spent a bit of time investigating [Gollum][], the git-backed wiki. I'm interested in a wiki-like thing both for personal & company use. I'd completely forgotten that Dropbox has open-sourced [Hackpad][] and recently had a go at firing it up on my laptop. {by james-mead}
 
 [Gollum]: https://github.com/gollum/gollum
 [Hackpad]: https://hackpad.com/
+
 
 ### [Big decision ahead? Just roll the dice](http://timharford.com/2016/10/big-decision-ahead-just-roll-the-dice/)
 
@@ -25,6 +27,7 @@ We already [use randomness in the assignment of tasks][Harmonia] within our comp
 Definitely food for thought! {by james-mead}
 
 [Harmonia]: https://harmonia.io
+
 
 ### [Crash: how computers are setting us up for disaster](https://www.theguardian.com/technology/2016/oct/11/crash-how-computers-are-setting-us-up-disaster)
 
