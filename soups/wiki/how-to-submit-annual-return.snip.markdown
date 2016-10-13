@@ -39,7 +39,7 @@ Here's what you need to do:
 ## Saving the submission return
 * Save a copy of both the submission confirmation and the return itself (get this from the Recent filings menu) to Googe Drive > Go Free Range > Admin > Companies House.
 
-:render_as: Kramdown
+:render_as: markdown
 :is_page: true
 :created_at: 2014-11-19 13:08:00 +01:00
 :layout: wiki-layout

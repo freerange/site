@@ -200,7 +200,7 @@ Each section is detailed below so that you can manually check the figures agains
 [3ca-blog-post]: http://www.3caonline.com/why-are-my-accounts-different-from-my-accountants-accounts/
 [trial-balance-2014-15]: https://docs.google.com/spreadsheets/d/1utSHuXZ5GkDhsdl9-pi_eMUytU22ot3E8F2LWsPvk1c/edit#gid=44199236
 
-:render_as: Kramdown
+:render_as: markdown
 :is_page: true
 :created_at: 2014-11-05 00:00:00 +01:00
 :layout: wiki-layout
