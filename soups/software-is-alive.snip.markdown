@@ -1,6 +1,0 @@
-### Software is alive
-* We know that software is not a static artefact and so cannot be described by a static spec or plan.
-* It needs to grow and evolve according to its environment, to best suit the needs of its users.
-* These needs change over time, even as the software is being built.
-* By getting early and regular feedback from users in real scenarios, we can identify and fulfill these needs.
-* By not compromising on quality and by avoiding unnecessary complexity, we can keep the system flexible and adaptable.
