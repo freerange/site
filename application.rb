@@ -40,6 +40,7 @@ Application.configure do |config|
     "soups/weeknotes",
     "soups/wiki",
     "soups/show-and-tell",
+    "soups/layouts",
     "soups/system"
   ]
 
