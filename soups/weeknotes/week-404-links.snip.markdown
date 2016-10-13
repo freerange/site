@@ -7,6 +7,13 @@ Chris pointed me at this amusing article. He said it reminded him of my [Just Bo
 
 [Just Boiled project]: /week-216#just-boiled
 
+### [Hackpad](https://github.com/dropbox/hackpad)
+
+I recently spent a bit of time investigating [Gollum][], the git-backed wiki. I'm interested in a wiki-like thing both for personal & company use. I'd completely forgotten that Dropbox has open-sourced [Hackpad][] and recently had a go at firing it up on my laptop. {by james-mead}
+
+[Gollum]: https://github.com/gollum/gollum
+[Hackpad]: https://hackpad.com/
+
 :name: week-404-links
 :updated_at: 2016-10-13 12:01:16.427028000 +01:00
 :created_at: 2016-10-13 12:01:16.427022000 +01:00
