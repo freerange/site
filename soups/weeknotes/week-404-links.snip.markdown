@@ -26,6 +26,17 @@ Definitely food for thought! {by james-mead}
 
 [Harmonia]: harmonia.io
 
+### [Crash: how computers are setting us up for disaster](https://www.theguardian.com/technology/2016/oct/11/crash-how-computers-are-setting-us-up-disaster)
+
+This article starts by talking about the causes of the crash of Air France flight 447. It suggests that, because of automation, modern pilots often have very little experience of flying a plane manually, but may be called upon to do so under extreme circumstances as in this plane crash. It talks about this as the [paradox of automation][]:
+
+> The better the automatic systems, the more out-of-practice human operators will be, and the more extreme the situations they will have to face.
+
+There's a nice story about [Monderman's squareabout][] too. All in all an excellent read. {by james-mead}
+
+[paradox of automation]: https://en.wikipedia.org/wiki/Automation#Paradox_of_Automation
+[Monderman's squareabout]: https://thinkbicyclingblog.wordpress.com/2013/06/13/hans-mondermans-people-friendly-dutch-squareabout/
+
 :name: week-404-links
 :updated_at: 2016-10-13 12:01:16.427028000 +01:00
 :created_at: 2016-10-13 12:01:16.427022000 +01:00
