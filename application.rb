@@ -39,6 +39,7 @@ Application.configure do |config|
     "soups/weeklinks",
     "soups/weeknotes",
     "soups/wiki",
+    "soups/show-and-tell",
     "soups/system"
   ]
 
