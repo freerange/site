@@ -117,8 +117,8 @@ mas: https://github.com/mas-cli/mas
 
 [contact]: /contact
 
-:render_as: draft
-:kind: show-and-tell
+:render_as: blog
+:kind: draft
 :is_page: true
 :written_with: Kramdown
 :author: chris-roos
