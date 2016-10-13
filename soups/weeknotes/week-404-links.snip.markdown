@@ -37,6 +37,30 @@ There's a nice story about [Monderman's squareabout][] too. All in all an excell
 [paradox of automation]: https://en.wikipedia.org/wiki/Automation#Paradox_of_Automation
 [Monderman's squareabout]: https://thinkbicyclingblog.wordpress.com/2013/06/13/hans-mondermans-people-friendly-dutch-squareabout/
 
+
+### [Heroku's Release Phase](https://devcenter.heroku.com/articles/release-phase)
+
+I came across this new(ish) Release Phase while trying to work out how to automatically run database migrations when deploying a Rails app to Heroku. I was previously using the [ruby-rake-deploy-tasks buildpack][rake-buildpack] to run `rake db:migrate` but that doesn't work [when deploying for the first time][gist-57b7c4d]. Using the release phase ensures the task is run _after_ deployment which means that it works irrespective of whether it's the very first deploy or not. {by chris-roos}
+
+[rake-buildpack]: https://github.com/gunpowderlabs/buildpack-ruby-rake-deploy-tasks
+[gist-57b7c4d]: https://gist.github.com/chrisroos/57b7c4d7750cdbc0fb96a131403526da
+
+
+### [Hamachi VPN](https://www.vpn.net/)
+
+I rediscovered this when James and I were experimenting with remote pairing again recently. This software allowed us to both join a VPN so that we could use the Mac Screen Sharing app to both control the same screen. This seems to be a pretty good alternative to the [Screenhero][screenhero] functionality that's now only available with paid Slack plans. {by chris-roos}
+
+[screenhero]: https://screenhero.com/
+
+
+### [Time lapse footage of earth from ISS](https://imgur.com/9An6xzf)
+
+I love this little time-lapse of earth. A little research about the footage lead me to this [livestream of earth from the ISS][iss-livestream] and this [map tracking the ISS][iss-map]. I find the live stream mesmerising and can imagine losing a lot of time watching it. {by chris-roos}
+
+[iss-livestream]: http://www.ustream.tv/channel/iss-hdev-payload
+[iss-map]: http://www.lizard-tail.com/isana/tracking/
+
+
 :name: week-404-links
 :updated_at: 2016-10-13 12:01:16.427028000 +01:00
 :created_at: 2016-10-13 12:01:16.427022000 +01:00
