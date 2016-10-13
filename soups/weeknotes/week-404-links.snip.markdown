@@ -14,6 +14,18 @@ I recently spent a bit of time investigating [Gollum][], the git-backed wiki. I'
 [Gollum]: https://github.com/gollum/gollum
 [Hackpad]: https://hackpad.com/
 
+### [Big decision ahead? Just roll the dice](http://timharford.com/2016/10/big-decision-ahead-just-roll-the-dice/)
+
+We already [use randomness in the assignment of tasks][Harmonia] within our company. Perhaps we should be using it to help us make difficult decisions!
+
+> [...] most of us could do with a little more randomness in our lives. The roll of a die or the toss of a coin can actually help us make better decisions.
+>
+> [...] by pre-committing to follow a random instruction, we can end up making decisions that we should have been making all along.
+
+Definitely food for thought! {by james-mead}
+
+[Harmonia]: harmonia.io
+
 :name: week-404-links
 :updated_at: 2016-10-13 12:01:16.427028000 +01:00
 :created_at: 2016-10-13 12:01:16.427022000 +01:00
