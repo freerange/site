@@ -21,7 +21,6 @@ Application.configure do |config|
   # with the given extensions or 'render_as' attributes
   config.renderers.merge!({
     :blog => Vanilla::Renderers::Blog,
-    :kramdown => KramdownRenderer,
     :markdown => KramdownRenderer
   })
 
