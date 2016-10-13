@@ -24,7 +24,7 @@ We already [use randomness in the assignment of tasks][Harmonia] within our comp
 
 Definitely food for thought! {by james-mead}
 
-[Harmonia]: harmonia.io
+[Harmonia]: https://harmonia.io
 
 ### [Crash: how computers are setting us up for disaster](https://www.theguardian.com/technology/2016/oct/11/crash-how-computers-are-setting-us-up-disaster)
 
