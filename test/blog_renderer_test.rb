@@ -1,5 +1,5 @@
 require "test_helper"
-require 'blog'
+require 'blog_renderer'
 
 class BlogRendererTest < Test::Unit::TestCase
 

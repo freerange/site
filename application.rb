@@ -3,7 +3,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'vanilla'
 
-require 'blog'
+require 'blog_renderer'
 require 'kramdown_renderer'
 
 class Application < Vanilla::App
