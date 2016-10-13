@@ -63,12 +63,11 @@ I love this little time-lapse of earth. A little research about the footage lead
 [iss-livestream]: http://www.ustream.tv/channel/iss-hdev-payload
 [iss-map]: http://www.lizard-tail.com/isana/tracking/
 
-
 :name: week-404-links
-:updated_at: 2016-10-13 12:01:16.427028000 +01:00
-:created_at: 2016-10-13 12:01:16.427022000 +01:00
+:updated_at: 2016-10-13 13:20:18.696430000 +01:00
+:created_at: 2016-10-13 13:20:18.696426000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: Kramdown
 :author: james-mead
