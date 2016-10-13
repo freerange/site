@@ -4,7 +4,6 @@ He's helped [Headshift](http://www.headshift.com/) develop the website for Anton
 
 James is the author of [Mocha](http://mocha.rubyforge.org/), a popular Ruby testing framework.
 
-:render_as: Markdown
 :site: jamesmead.org
 :image: images/people/james-mead.jpg
 :twitter: floehopper

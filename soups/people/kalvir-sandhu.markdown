@@ -4,7 +4,6 @@ Kalv started coding when he was 16 for his school and has been addicted since. O
 
 He blogs at [kalv.co.uk](http://kalv.co.uk/), and tweets at [@kalv](http://twitter.com/kalv).
 
-:render_as: Markdown
 :site: kalv.co.uk
 :image: images/people/kalvir-sandhu.jpg
 :twitter: kalv
