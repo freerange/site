@@ -21,7 +21,7 @@ Application.configure do |config|
   # with the given extensions or 'render_as' attributes
   config.renderers.merge!({
     :blog => Vanilla::Renderers::Blog,
-    :markdown => Vanilla::Renderers::KramdownRenderer
+    :markdown => Vanilla::Renderers::Kramdown
   })
 
   # You can partition your snips into subdirectories to keep things tidy.
