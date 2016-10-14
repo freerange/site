@@ -43,7 +43,7 @@ Ben's now wondering what else he can do to build on these foundations. Any ideas
 
 ![James at Show & Tell 25](/images/blog/2016-10-12-show-and-tell-25-james.jpg)
 
-James M used the whiteboard to explain how a change in the recent [1.2 release of Mocha][mocha-1-2] lead to the discovery of a "showstopper" bug in Ruby.
+James M used the whiteboard to explain how a change in the recent [1.2 release of Mocha][mocha-1-2] led to the discovery of a "showstopper" bug in Ruby.
 
 The latest version of [Mocha][mocha] uses prepended modules to insert the stubbed implementation of a method wherever possible. Unfortunately, it turns out that a [combination of prepended modules, setting method visibility and then getting the method object can cause the Ruby interpreter to enter into an infinite loop][ruby-bug-12832]!
 
