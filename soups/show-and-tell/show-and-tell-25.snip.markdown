@@ -63,7 +63,7 @@ I spoke about some of the houseboat renovations I've been doing. We bought a hou
 
 ---
 
-## Improving wikipedia
+## Improving Wikipedia
 
 ![Edward at Show & Tell 25](/images/blog/2016-10-12-show-and-tell-25-edward.jpg)
 
