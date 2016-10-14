@@ -47,7 +47,7 @@ James M used the whiteboard to explain how a change in the recent [1.2 release o
 
 The latest version of [Mocha][mocha] uses prepended modules to insert the stubbed implementation of a method wherever possible. Unfortunately, it turns out that a [combination of prepended modules, setting method visibility and then getting the method object can cause the Ruby interpreter to enter into an infinite loop][ruby-bug-12832]!
 
-In potentially positive news; while discussing the problem we realised that it might be possible to work around this Ruby bug in Mocha.
+In potentially positive news, while discussing the problem, we realised that it might be possible to work around this Ruby bug in Mocha.
 
 [mocha]: https://github.com/freerange/mocha
 [mocha-1-2]: https://github.com/freerange/mocha/commit/fdbbc058eb15f11681208dccf86510e8d920982e
