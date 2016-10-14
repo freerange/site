@@ -20,6 +20,16 @@ Week 404
   * James
     * Continued to investigate Mocha hanging bug.
   * Show & Tell
+* Thursday
+  * James
+    * Final import of hookline music library
+  * Chris
+    * Write-up show and tell
+    * "Improve" our gfr site - mostly from consistency/code aspect
+* Friday
+  * Chris
+    * Write-up show and tell
+    
 
 :name: week-404
 :updated_at: 2016-10-13 10:18:31.537752000 +01:00
