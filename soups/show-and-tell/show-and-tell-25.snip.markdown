@@ -126,10 +126,10 @@ I can imagine adding the Brewfile to my dotfiles repo and potentially switching 
 [contact]: /contact
 
 :render_as: blog
-:kind: draft
+:kind: show-and-tell
 :is_page: true
 :written_with: markdown
 :author: chris-roos
-:created_at: 2016-10-13 10:30:00 +01:00
-:updated_at: 2016-10-13 10:30:00 +01:00
+:created_at: 2016-10-14 17:20:00 +01:00
+:updated_at: 2016-10-14 17:20:00 +01:00
 :page_title: Show and Tell 25
