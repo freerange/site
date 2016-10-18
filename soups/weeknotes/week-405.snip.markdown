@@ -1,7 +1,11 @@
 Week 405
 ========
 
-<!-- add content here -->
+* Monday
+  * Spent about 30 minutes going through Trello
+  * Spent about 60 minutes going through Trello Later list
+  * James
+    * Write notes for 403
 
 :name: week-405
 :updated_at: 2016-10-18 10:45:48.474297000 +01:00
