@@ -21,7 +21,7 @@ end
 
 :name: member
 :template: |
-  <img src="IMAGE" />
+  <img src="IMAGE" alt="Photo of NAME"/>
   <div class="info">
     <h3>NAME</h3>
     <p class="links"><a href="http://SITE">Website</a> / <a href="http://twitter.com/TWITTER">Twitter</a></p>
