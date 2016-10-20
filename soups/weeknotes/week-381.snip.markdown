@@ -1,6 +1,8 @@
 Week 381
 ========
 
+_Note that we're writing these notes nearly 6 months late which is why they're in summary form._
+
 We were mostly focussed on Smart Answers during the week.
 
 ## Smart Answers
@@ -33,8 +35,6 @@ We started recording non-client time in FreeAgent. We want to try to get a bette
 We continued to have conversations about attending the Digital Co-op Retreat in November.
 
 We added a Harmonia task to ensure we comply with reporting requirements of DOSF.
-
-Note that we're writing these notes nearly 6 months late which is why they're in summary form.
 
 :name: week-381
 :updated_at: 2016-10-20 12:27:25.803381000 +01:00
