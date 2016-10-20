@@ -24,7 +24,7 @@ We were mostly focussed on Smart Answers during the week.
 
 May bank holiday Monday.
 
-James met Alex, Dai and co at GDS to talk about continuing Smart Answers work. James and I had two Google Hangouts to talk about Smart Answers.
+James met Alex, Dai and co at GDS to talk about continuing Smart Answers work and/or possible other projects. James and I had a couple of Google Hangouts to talk all this through.
 
 James contacted his pension provider to increase the amount we pay to his pension.
 
