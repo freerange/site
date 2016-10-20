@@ -49,10 +49,10 @@ We were mostly focussed on Smart Answers during the week.
 [week-379]: /week-379#changes-to-benefit-cap-calculator
 
 :name: week-384
-:updated_at: 2016-10-20 12:43:27.096356000 +01:00
-:created_at: 2016-10-20 12:43:27.096347000 +01:00
+:updated_at: 2016-10-20 15:04:09.538766000 +01:00
+:created_at: 2016-10-20 15:04:09.538762000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
