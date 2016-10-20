@@ -37,10 +37,10 @@ We added a Harmonia task to ensure we comply with reporting requirements of DOSF
 Note that we're writing these notes nearly 6 months late which is why they're in summary form.
 
 :name: week-381
-:updated_at: 2016-07-08 14:37:52.743132000 +01:00
-:created_at: 2016-07-08 14:37:52.743098000 +01:00
+:updated_at: 2016-10-20 12:27:25.803381000 +01:00
+:created_at: 2016-10-20 12:27:25.803375000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
