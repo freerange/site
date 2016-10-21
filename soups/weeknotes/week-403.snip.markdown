@@ -1,11 +1,11 @@
 Week 403
 ========
 
-Chris spent quite a bit of time this week working on getting his houseboat ready to re-launch. I mainly worked on our music library project in collaboration with [Hookline][].
+Chris spent quite a bit of time this week working on getting his houseboat ready to re-launch. I mainly worked on our Music Library project in collaboration with [Hookline][].
 
 ### Trello
 
-As has become our habit of late, on Monday Chris & I met up and worked together at the [Benugo cafe at the BFI][bfi-benugo]. We've got into a good rhythm of going through our main company Trello board at the beginning of each week and picking out tasks that we want to aim to do that week. Although we still have a big backlog of cards, it feels as if we're much more on top of things than we have been.
+On Monday, as has become our habit of late, Chris & I met up and worked together at the [Benugo cafe at the BFI][bfi-benugo]. We've got into a good rhythm of going through our main company Trello board at the beginning of each week and picking out tasks that we want to aim to do that week. Although we still have a big backlog of cards, it feels as if we're much more on top of things than we have been.
 
 ### Virtual office
 
@@ -27,17 +27,29 @@ I [replied][comment-2930917130] [to][comment-2930903634] some questions about ou
 
 Following on from [the work he did last week][prospective-client-faqs], Chris sent an excellent reply to a prospective client explaining how we would approach the project he has in mind, e.g. identifying a [minimum viable product][MVP], and [avoiding micro-services][monolith-first] early in the project.
 
-### Music library
+### Music Library project
 
-I did a bunch of work mostly around adding client- and server-side validation, and better handling of errors. Some of this led me into wanting to refactor our existing JavaScript and write some unit tests for it. I spent a while looking at the myriad ways available to do this, but in the end I simply split the code up into "modules" using anonymous functions and wrote tests using [Jasmine][].
+I did a bunch of work mostly around adding client- and server-side validation, and better handling of errors. Some of this led me into wanting to refactor our existing JavaScript and write some unit tests for it.
 
-I actually used the [jasmine-rails gem][] to set this up and later added the [jasmine-jquery-rails gem][] in order to be able to make use of [jasmine-jquery][]'s matchers and HTML fixtures. I'm not totally convinced about having the HTML fixtures in separate files, but I thought I'd give them a go. I struggled a bit to get the HTML fixtures working. However, I eventually managed it thanks to a combination of [this Github comment][comment-48640368] and [this blog post][using-jasmine-with-rails-4.1].
+#### Javascript unit tests
 
-Even though for the moment we're building the system just for Hookline, we're considering trying to offer it as a product for other music publishers. In order to capture Hookline-specific behaviour, we'd already introduced a hard-coded Hookline Publisher ActiveModel model class. As an extension of this I recently wanted to introduce a similar Catalogue class, but I wanted both Publisher & Catalogue to have IDs so that ActiveRecord models could reference them. Thus I decided to use [Paul][]'s [ActiveRecordLikeInterface][].
+I spent a while looking at the myriad ways available to do this, but in the end I simply split the code up into "modules" using anonymous functions and wrote tests using [Jasmine][]. I used the [jasmine-rails gem][] to set this up and later added the [jasmine-jquery-rails gem][] in order to be able to make use of [jasmine-jquery][]'s matchers and HTML fixtures.
 
-Towards the end of the week I had some "fun" using [Rubyzip][] to create large (5GB) zip files using the AWS SDK to upload them to an S3 bucket. The first problem I had was that the zip file I created didn't appear to have a "central directory" which meant that some tools couldn't unzip the file. This turned out to be a mistake on my behalf. Secondly the Ruby version of the AWS SDK refused to upload my file, because it was too big to be handled by [Aws::S3::Object#put][] which only does single-part uploads.
+I'm not totally convinced about having the HTML fixtures in separate files, but I thought I'd give them a go. I struggled a bit to get the HTML fixtures working. However, I eventually managed it thanks to a combination of [this Github comment][comment-48640368] and [this blog post][using-jasmine-with-rails-4.1].
 
-I spent a while trying to work out how to use the SDK to do multi-part uploads when I fortuitously stumbled upon [Aws::S3::Object#upload_file][] which automatically uses a multi-part upload for larger files. It particularly nice, because it even spawns multiple threads to upload the parts in parallel.
+#### Non-ActiveRecord models
+
+Even though for the moment we're building the system just for Hookline, we're considering trying to offer it as a product for other music publishers. In order to capture Hookline-specific behaviour, we'd already introduced a Publisher ActiveModel class, with a static Hookline instance.
+
+As an extension of this I recently wanted to introduce a Catalogue class, but I wanted both Publisher & Catalogue to have IDs so that ActiveRecord models could reference them. Thus I decided to use [Paul B][]'s [ActiveRecordLikeInterface][] which has worked pretty nicely.
+
+#### Large zip files
+
+Towards the end of the week I had some "fun" using [Rubyzip][] to create large (5GB+) zip files using the AWS SDK to upload them to an S3 bucket.
+
+The first problem I had was that the zip file I created didn't appear to have a "central directory" which meant that some tools couldn't unzip the file. This turned out to be a mistake in the way I was using Rubyzip.
+
+Secondly the Ruby version of the AWS SDK refused to upload my file, because it was too big to be handled by [Aws::S3::Object#put][] which only does single-part uploads. I spent a while trying to work out how to use the SDK to do multi-part uploads when I fortuitously stumbled upon [Aws::S3::Object#upload_file][] which automatically uses a multi-part upload for larger files. It particularly nice, because it spawns multiple threads to upload the parts in parallel.
 
 Anyway that's all for this week. Until next time.
 
