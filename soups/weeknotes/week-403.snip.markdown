@@ -79,10 +79,10 @@ Anyway that's all for this week. Until next time.
 [Aws::S3::Object#upload_file]: http://docs.aws.amazon.com/sdkforruby/api/Aws/S3/Object.html#upload_file-instance_method
 
 :name: week-403
-:updated_at: 2016-10-13 11:11:47.586124000 +01:00
-:created_at: 2016-10-13 11:11:47.586105000 +01:00
+:updated_at: 2016-10-24 11:48:57.541017000 +01:00
+:created_at: 2016-10-24 11:48:57.541012000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: james-mead
