@@ -57,10 +57,10 @@ James created a new [Slack room for our Show and Tell events][show-and-tell-slac
 [vanilla-rb]: https://github.com/lazyatom/vanilla-rb
 
 :name: week-404
-:updated_at: 2016-10-13 10:18:31.537752000 +01:00
-:created_at: 2016-10-13 10:18:31.537739000 +01:00
+:updated_at: 2016-10-24 12:10:23.732437000 +01:00
+:created_at: 2016-10-24 12:10:23.732431000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
