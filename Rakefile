@@ -32,6 +32,11 @@ USERNAMES_VS_AUTHORS = {
   'chrisroos' => 'chris-roos'
 }
 
+def existing_show_and_tell_event_numbers
+  app = Application.new
+  app.soup.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
+end
+
 namespace :week do
   desc <<-DESC
   Displays the GFR week number from the date of incorporation.
@@ -160,5 +165,59 @@ namespace :week do
       snip.updated_at = Time.now
       snip.save
     end
+  end
+end
+
+namespace 'show-and-tell' do
+  desc <<-DESC
+  Creates a new show-and-tell snip.
+
+  By default it calculates the new event number based on existing
+  show-and-tell snips, but you can override that by supplying an
+  event number in the NUMBER environment variable.
+  DESC
+  task :create do
+    app = Application.new
+    snip = app.soup['show-and-tell-nn']
+
+    next_event_number = existing_show_and_tell_event_numbers.max + 1
+    event_number = (ENV['NUMBER'] || next_event_number).to_i
+    username = `whoami`.chomp
+    author = USERNAMES_VS_AUTHORS.fetch(username)
+
+    snip.author = author
+    snip.created_at = Time.now
+    snip.updated_at = Time.now
+    snip.page_title = "Show and Tell #{event_number}"
+    snip.name = "show-and-tell-#{event_number}"
+    snip.content.gsub!(/Show and Tell NN/, "Show and Tell #{event_number}")
+    snip.save
+  end
+
+  desc <<-DESC
+  Prepares the latest show-and-tell snip for publication.
+
+  By default it calculates the latest event number based on existing
+  show-and-tell snips, but you can override that by supplying an
+  event number in the NUMBER environment variable.
+
+  If a show-and-tell snip for the relevant number does not exist,
+  it will exit with an error message.
+  DESC
+  task :publish do
+    app = Application.new
+
+    latest_event_number = existing_show_and_tell_event_numbers.max
+    event_number = (ENV['NUMBER'] || latest_event_number).to_i
+    snip_name = "show-and-tell-#{event_number}"
+    snip = app.soup[snip_name]
+    unless snip
+      abort "No show-and-tell snip found for event number #{event_number}"
+    end
+
+    snip.kind = 'show-and-tell'
+    snip.created_at = Time.now
+    snip.updated_at = Time.now
+    snip.save
   end
 end
