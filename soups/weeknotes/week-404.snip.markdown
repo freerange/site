@@ -37,9 +37,9 @@ We continued to update our address with various organisations since moving to [U
 
 ## Show & Tell 25
 
-We hosted our [25th Show and Tell][show-and-tell-25] on Wednesday evening. It took me ages to write it all up afterwards. Partly because I ended up researching more about the topics that were discussed and partly because I always struggle to turn my notes into coherent sentences and paragraphs.
+We hosted our [25th Show and Tell][show-and-tell-25] on Wednesday evening. It took me ages to write it all up afterwards. Partly because I ended up researching more about the topics that were discussed and partly because I always struggle to turn my notes into coherent(ish) sentences and paragraphs.
 
-James created a new [Slack room for our Show and Tell events][show-and-tell-slack] and deployed [Slackin][slackin] to Heroku to allow people to join. We have no idea whether it'll be useful but figured we'd try it given it's easy to do and feels like relatively low risk.
+James created a new [Slack room for our Show and Tell events][show-and-tell-slack] and deployed [Slackin][slackin] to Heroku to allow people to join. We have no idea whether it'll be useful but figured we'd try it given it's easy to do and feels relatively low risk.
 
 [errbit]: https://github.com/errbit/errbit
 [heroku-papertrail]: https://elements.heroku.com/addons/papertrail
