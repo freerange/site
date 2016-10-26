@@ -43,10 +43,10 @@ We were mostly focussed on Smart Answers during the week.
 [sub-hunt]: https://github.com/floehopper/sub-hunt
 
 :name: week-386
-:updated_at: 2016-10-26 17:02:03.536434000 +01:00
-:created_at: 2016-10-26 17:02:03.536421000 +01:00
+:updated_at: 2016-10-26 17:28:35.684159000 +01:00
+:created_at: 2016-10-26 17:28:35.684153000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
