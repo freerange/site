@@ -3,6 +3,9 @@ Show and Tell 26
 
 * When: Wed 9 Nov 2016
 * Where: Forge and Co, 154-158 Shoreditch High St, London E1 6HU
+* Links: [attending.io][attending-io-show-and-tell-26]
+
+[attending-io-show-and-tell-26]: https://attending.io/events/gfr-show-and-tell-26/
 
 :name: show-and-tell-26
 :updated_at: 2016-10-27 12:05:21.318640000 +01:00
