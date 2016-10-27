@@ -11,15 +11,12 @@ We were mostly focussed on Smart Answers during the week.
 * [Move DateHelper into the SmartAnswer namespace #2546](https://github.com/alphagov/smart-answers/pull/2546)
 * [Move calculators into flow directories #2558](https://github.com/alphagov/smart-answers/pull/2558)
 * [Refactor additional-commodity-code to new-style flow #2562](https://github.com/alphagov/smart-answers/pull/2562)
-* [Refactor calculate-agricultural-holiday-entitlement to new style flow (after rebase) #2570](https://github.com/alphagov/smart-answers/pull/2570)
-* [Refactor calculate-agricultural-holiday-entitlement to new-style flow #2561](https://github.com/alphagov/smart-answers/pull/2561)
+* [Refactor calculate-agricultural-holiday-entitlement to new style flow #2570](https://github.com/alphagov/smart-answers/pull/2570)
 * [Refactor calculate-your-child-maintenance to new style flow #2569](https://github.com/alphagov/smart-answers/pull/2569)
 * [Refactor landlord-immigration-check #2550](https://github.com/alphagov/smart-answers/pull/2550)
 * [Remove Vietnam-specific link to consular fees #2525](https://github.com/alphagov/smart-answers/pull/2525)
-* [Revert handling of template exceptions when generating indexable content #2548](https://github.com/alphagov/smart-answers/pull/2548)
-* [Revert handling of template exceptions when generating indexable content (with feedback addressed) #2565](https://github.com/alphagov/smart-answers/pull/2565)
-* [Stub WorldLocation directly instead of using GdsApi::TestHelpers::Worldwide #2555](https://github.com/alphagov/smart-answers/pull/2555)
-* [Stub WorldLocation directly instead of using GdsApi::TestHelpers::Worldwide (with feedback * addressed) #2563](https://github.com/alphagov/smart-answers/pull/2563)
+* [Revert handling of template exceptions when generating indexable content #2565](https://github.com/alphagov/smart-answers/pull/2565)
+* [Stub WorldLocation directly instead of using GdsApi::TestHelpers::Worldwide #2563](https://github.com/alphagov/smart-answers/pull/2563)
 * [Update gds-api-adapters from v25.1.0 to v30.6.0 (the latest version) #2552](https://github.com/alphagov/smart-answers/pull/2552)
 
 ## GFR
