@@ -18,10 +18,10 @@ James and I signed up for a Lounge membership at The Office Group recently. Work
 I'm not really sure why I find this so amusing. {by chris-roos}
 
 :name: week-406-links
-:updated_at: 2016-10-27 16:11:19.238972000 +01:00
-:created_at: 2016-10-27 16:11:19.238961000 +01:00
+:updated_at: 2016-10-31 16:02:58.986758000 +00:00
+:created_at: 2016-10-31 16:02:58.986752000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
