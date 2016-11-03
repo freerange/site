@@ -43,7 +43,7 @@ I asked a friend of mine, [Lisa][lisa-martin], whether they'd be able to help us
 
 We had an email from someone else that's trying to use [Smart Answers][smart-answers] outside of GDS (the first was from someone in South America a couple of weeks ago). We gave them a couple of pointers and offered to help if they run into more problems. We still care about Smart Answers and hope that encouraging people outside of GDS to use it will help improve it.
 
-### UK Post Box
+### UK Postbox
 
 We continued to update our address with the various services that hold it. We maintain a spreadsheet of people/companies that have our address which makes this process slightly easier. This reminded me of the idea of wanting to own our address data and being able to grant access to other people/companies when they want it.
 
