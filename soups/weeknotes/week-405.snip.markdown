@@ -5,43 +5,25 @@ Week 405
 
 ### Other projects
 
-We continue to think and talk about what to work on when we're not being paid.
+We continue to think and talk about what to work on when we're not doing client work.
 
-I think we both have the feeling of being busy but not necessarily being able to point out what we've been busy with. This might be related to the way that we use Trello to break down and prioritise work. We've got a number of "projects" that we're working on
+I think we both have the sense of being busy but not necessarily being productive. It's not clear to me whether this is accurate or not. I wonder whether it's more a case of not having a good measure of our productivity rather than actually not being productive.
 
-I wonder whether it'd be useful to give names to the things we do that span multiple weeks. We've got a number of higher level projects on the go:
+We spent some time talking about higher level goals for the company that we could use to help us make decisions. This is something we've tried in the past but I'm not sure it's ever particularly worked very well.
 
-* Improve our website
-* Make more company information public
-* Outsource/automate more mechanical admin tasks
-* Get on top of Trello
-* Blog more
-* Using IFTTT or similar to automate more of our processes
-* Mocha
-* Hookline
-
-Giving these things names and allowing us to record progress against them might help us look back on this time with a sense of achievement.
-
-Or maybe we're trying to do too many things and we should simply reduce this list?
-
-* Want to look back on this time and think that we've achieved something.
-* Lots of little actionable tasks are added to Trello. Does this prevent us from working on some larger, more ambiguous, more fun things?
-* Could we schedule blocks of time for working on non-admin things? Not everything in Trello is an admin task, though.
-* Maybe there's a way to reframe the tasks so that they're more enjoyable - give more sense of progress?
-* Lunch at pieminster. Chat about higher level aims and goals. Agreed to a weekly planning meeting to agree what we're going to work on. Otherwise we can end up working on things that we think are useful. That work might come from a good place but might not fit with higher level goals. Reminded us that we've tried to come up with higher level company goals in the past. Is it really useful? I don't know.
-* Went through some of our project ideas this afternoon. Hopefully we'll make this a more regular task.
+We consolidated a number of project ideas that we had scattered in various places. We want a single place that we can quickly/easily add new ideas and a place that we can review when we're looking for inspiration for things to work on.
 
 ### More client work
 
-We're currently talking to GDS about the possibility of working with them again.
+We're currently talking to [GDS][gds] about the possibility of working with them again.
 
 ### Website
 
-We're continuing to try to improve our website. Both in terms of content (add information about the projects we've been involved in) and the structure (remove some duplication between the layouts and fix a number of small problems reported by the W3C validator).
+We're continuing to try to improve our website. Both in terms of content (adding information about the projects we've been involved in) and the structure (removing some duplication between the layouts and fix a number of small problems reported by the W3C validator).
 
 ### Mocha
 
-We're working on reducing the number of open pull requests on the project.
+We're continuing to work on reducing the number of open pull requests in [Mocha][mocha].
 
 ### Trello
 
@@ -51,34 +33,42 @@ We've also started using randomness (`%w(James Chris).shuffle.first`) to assign 
 
 ### Outsourcing admin tasks
 
-We spent nearly an hour going through our regular Harmonia tasks to understand whether they could be outsourced. This was useful exercise. Made me realise that there were good candidates. Although, it also made me think that we could potentially automate some of the things we do. This became more obvious when trying to think about how someone else might complete the tasks. The problem with automating trivial tasks is that we run the risk of ultimately making things more complicated.
+We spent nearly an hour going through our regular [Harmonia][harmonia] tasks to understand whether they could be outsourced. I found this really useful. It revealed that quite a lot of the things we do could already be done by someone else. It also made us realise that we should possible be trying to automate them rather than simply paying someone else to do them.
 
-### Copy-writing
+### Copywriting
 
-I asked a friend of mine whether they'd be able to help us with copy-writing. We're particularly interested in whether someone can take a set of notes (e.g. about the week or from a show and tell) and turn them into a blog post. Lisa said she wouldn't be able to help due to lack of domain knowledge but that gives us some hope that it'd be possible to find someone to help.
+I asked a friend of mine, [Lisa][lisa-martin], whether they'd be able to help us with copywriting. We're particularly interested in whether someone can take a set of notes (e.g. about the week or from a show and tell) and turn them into a blog post. Lisa's unable to help but it did give us some hope that it might at least be possible.
 
 ### Smart Answers
 
-We had an email from someone that's trying to use Smart Answers outside of GDS. We gave them a couple of pointers. We know the software's not great but my hope would be that having people outside of GDS use it will help make it more general.
+We had an email from someone else that's trying to use [Smart Answers][smart-answers] outside of GDS (the first was from someone in South America a couple of weeks). We gave them a couple of pointers and offered to help if they run into more problems. We still care about Smart Answers and hope that encouraging people outside of GDS to use it will help improve it.
 
 ### UK Post Box
 
-We continued to update our address with the various services that hold it. We maintain a spreadsheet of people/companies that have our address which makes this process slightly easier. Not as easy as if we owned our address and people made requests for it as/when they required it.
+We continued to update our address with the various services that hold it. We maintain a spreadsheet of people/companies that have our address which makes this process slightly easier. This reminds of the idea of wanting to own our address data and being able to grant access to other people/companies when they want it.
 
 ### Old weeknotes
 
-We're slowly trying to get through our backlog of historical week notes. We wrote weeks 381 and 384 together. I found this much easier, and more enjoyable, than trying to do it alone.
+We're slowly trying to get through our backlog of historical week notes. We wrote weeks 381 and 384 together. I found this much easier and more enjoyable than trying to do it alone.
 
 ## Hookline
 
-James managed to get to work around the bug in Chrome (TODO: Link to bug) that prevent certain MP3s from playing. The bug is related to the size of the ID3 data. The problem remained even after reducing the size of the artwork image. James realised that although the image had been reduced, the ID3 data remained at the same size due to some padding. He stripped the excess padding and the track then played. He then did this for all tracks so we should hopefully be free from the problem for now.
+[James][james-mead] managed to work around the [bug in Chrome that he wrote about in week 368][week-368-chrome-bug]. The problem persisted despite us reducing the size of the artwork (and in theory the size of the ID3 tag). James realised that reducing the size of the image left some padding in the ID3 tag which meant the tag remained the same size. Removing and then replacing the ID3 data results in it being the size we expect. James has updated all tracks so we're now fairly confident that the problem has been dealt with.
 
-https://github.com/amyeee/music-library/commit/6e2920fde9fe4e78ce4798b64045d1908749c3bd
-* helped fix a number of instances of incorrect composer data
+Having [Hookline][hookline] use the app in anger has already revealed some problems with their composer data. The problems already existed but using the app has made them more visible. James helped identify and fix these problems.
 
 Until next time, folks.
 
 -- Chris
+
+[gds]: http://digital.cabinetoffice.gov.uk/
+[Harmonia]: https://harmonia.io/
+[Hookline]: http://hookline.tv/
+[james-mead]: /james-mead
+[lisa-martin]: https://lisaamartin.wordpress.com/
+[mocha]: https://github.com/freerange/mocha
+[smart-answers]: https://github.com/alphagov/smart-answers
+[week-368-chrome-bug]: /week-368-google-chrome-bug
 
 :name: week-405
 :updated_at: 2016-10-18 10:45:48.474297000 +01:00
