@@ -71,10 +71,10 @@ Until next time, folks.
 [week-368-chrome-bug]: /week-368-google-chrome-bug
 
 :name: week-405
-:updated_at: 2016-10-18 10:45:48.474297000 +01:00
-:created_at: 2016-10-18 10:45:48.474283000 +01:00
+:updated_at: 2016-11-03 12:16:58.658944000 +00:00
+:created_at: 2016-11-03 12:16:58.658938000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
