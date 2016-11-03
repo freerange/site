@@ -9,9 +9,9 @@ We continue to think and talk about what to work on when we're not doing client 
 
 I think we both have the sense of being busy but not necessarily being productive. It's not clear to me whether this is accurate or not. I wonder whether it's more a case of not having a good measure of our productivity rather than actually not being productive.
 
-We spent some time talking about higher level goals for the company that we could use to help us make decisions. This is something we've tried in the past but I'm not sure it's ever particularly worked very well.
+We spent some time talking about higher-level goals for the company that we could use to help us make decisions. This is something we've tried in the past but I'm not sure it's ever particularly worked very well.
 
-We consolidated a number of project ideas that we had scattered in various places. We want a single place that we can quickly/easily add new ideas and a place that we can review when we're looking for inspiration for things to work on.
+We consolidated a number of project ideas that we had scattered in various places. We want a single place where we can quickly/easily add new ideas and a place that we can review when we're looking for inspiration for things to work on.
 
 ### More client work
 
@@ -41,11 +41,11 @@ I asked a friend of mine, [Lisa][lisa-martin], whether they'd be able to help us
 
 ### Smart Answers
 
-We had an email from someone else that's trying to use [Smart Answers][smart-answers] outside of GDS (the first was from someone in South America a couple of weeks). We gave them a couple of pointers and offered to help if they run into more problems. We still care about Smart Answers and hope that encouraging people outside of GDS to use it will help improve it.
+We had an email from someone else that's trying to use [Smart Answers][smart-answers] outside of GDS (the first was from someone in South America a couple of weeks ago). We gave them a couple of pointers and offered to help if they run into more problems. We still care about Smart Answers and hope that encouraging people outside of GDS to use it will help improve it.
 
 ### UK Post Box
 
-We continued to update our address with the various services that hold it. We maintain a spreadsheet of people/companies that have our address which makes this process slightly easier. This reminds of the idea of wanting to own our address data and being able to grant access to other people/companies when they want it.
+We continued to update our address with the various services that hold it. We maintain a spreadsheet of people/companies that have our address which makes this process slightly easier. This reminded me of the idea of wanting to own our address data and being able to grant access to other people/companies when they want it.
 
 ### Old weeknotes
 
