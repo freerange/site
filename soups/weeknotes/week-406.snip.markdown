@@ -1,68 +1,97 @@
 Week 406
 ========
 
-Using attending.io vs Lanyrd for Show & Tell event
+## GFR
 
-## Monday
+### The Office Group (TOG)
 
-* Chris at hospital in morning
-* James WFH all day
-* James signed up for Lounge Membership at The Office Group
-  * £50 per month per person for 32 hours per month at locations across London
-  * Application process seemed excessively bureaucratic
-* Chris' "Week 404: Week notes not found" tweet [4]
+In recent months we've been meeting up two or three times a week and working in coffee shops. However, these are sometimes noisy, are lacking power outlets, and don't have very ergonomic seating. So we've signed up for [TOG's Lounge Membership][tog-lounge-membership] which means we can each spend up to 32 hours per week in any of their London offices for £50 per month each.
 
-## Tuesday
+Although the application process seemed overly bureaucratic, it's just a monthly rolling contract, so it feels pretty low risk. On Wednesday we spent most of the day in their Bloomsbury office and on Friday we tried out their Borough office. The Bloomsbury one was good, but the Borough one less so.
 
-* Chris setup an IFTTT recipe to convert Google Calendar events into Trello cards. However, later in the week (Friday?) it turned out this didn't seem to work reliably - errors appeared in the IFTTT log, but we weren't notified.
-* Ongoing work to change our company address with various organisations.
-  * Would love to have a service that organisations could use to find our address.
-* Ruby bug [1] raised last week was fixed.
+### Goals for the week
 
-## Wednesday
+On Wednesday we belatedly attempted to set ourselves some goals for the week, but we struggled a bit on what level to pitch them at. We wanted them to be higher-level than individual Trello cards, but specific enough that we'd know when they were "done". Hopefully we'll do better at this next week.
 
-* Appointment at The Office Group, Bloomsbury Way - Lounge Membership.
-* Went through Trello
-* Took photos for passes & website
-* Talked about setting goals for the week (a bit late)
-* Meeting with Alex Segrove and Paul Bowsher
-* Lunch on grass in Lincoln's Inn Fields
-* Email about Fairmondo [8], although we haven't yet replied
-* Wrote 2 x historical week notes.
-* Continued evaluating Harmonia tasks.
-* Positive feedback about website from a Hookline client.
-* Monthly drinks @ Old Red Cow. Jase turned up!
-* Charles Nutter started digging into this Mocha issue [5] relating to JRuby
-  * Eventually turned out to be a bug in JRuby [6] which he has fixed and will be released in v9.1.6.0
+### Possible client work
 
-## Thursday
+On Wednesday, we also had a meeting at Aviation House with Alex Segrove and Paul Bowsher of [GDS][] to talk through some projects we might be able to help with. It's always a pleasure to chat to the folk at GDS and it sounds as if there could be some interesting work on offer. Afterwards we made the most of the sunshine by having lunch on the grass in Lincoln's Inn Fields.
 
-* James updated the photos of us on the website [7]
-* James investigated a new Mocha bug [2] which turned out to be due to another Ruby bug [3].
-* Email from Anna Shipman about Smart Answers [9]
-* Chris had an email conversation with Paul about GFR Paying for lunch/coffee and about VAT on US transactions
-* Started getting Papertrail usage notifications for Music Library project on Heroku
+On Friday it was really lovely to bump into Jess Wittbort in [Mouse Tail in the John Harvard Library][mouse-tail] (lovely coffee!). She told us about a possible client project which we're going to try to find out more about.
 
-## Friday
+### Website
 
-* Bumped into Jess Wittbort in Mouse Tail and learnt about Open Banking project.
-* Worked at The Office Group, Borough High Street.
-* Continued going through and rationalising various lists of potential projects to work on.
-  * Projects & Ideas folders in Google Drive
-  * Wiki page
-  * Closed Trello board - could not get acccess
-  * Created Trello board
-* James A asked about Megazord by Slack direct message
+We successfully added historical notes for [week 385][week-385-notes] and [week 386][week-386-notes]. Only eight more to go! Given that we had to supply TOG with photos of ourselves for our passes, we thought we might as well update the website with the [new photos][gfr-people].
 
-[1]: https://bugs.ruby-lang.org/issues/12832
-[2]: https://github.com/freerange/mocha/issues/276
-[3]: https://bugs.ruby-lang.org/issues/12876
-[4]: https://twitter.com/freerange/status/790511834117865476
-[5]: https://github.com/freerange/mocha/issues/274
-[6]: https://github.com/jruby/jruby/pull/4250
-[7]: /#people
-[8]: https://groups.google.com/a/gofreerange.com/d/msg/members/d53itkegTOY/qPQSG5kpAQAJ
-[9]: https://groups.google.com/a/gofreerange.com/d/msg/members/qVnVC1o0Rqw/waztxOqHAQAJ
+### Outsourcing admin tasks
+
+We continued the process we began last week and went through the remaining Harmonia tasks. We've tried to assess how much effort each task takes, how often we do it, how suitable it would be for someone else to do, and what online services they would need access to.
+
+We agreed the next step is to convert this into a spreadsheet and try to use the spreadsheet to identify good candidates for automation and/or outsourcing.
+
+### Monthly drinks
+
+On Wednesday we had an enjoyable evening chatting with people over a few beers at the [Old Red Cow][]. We were pleasantly surprised when GFR alumnus and Facebook employee, [Jason Cale][], turned up unannounced and regaled us with tales about his conversations with [Kent Beck][].
+
+### Mocha
+
+The [Ruby bug][ruby-issue-12832] which I raised last week was fixed. Charles Nutter started digging into [this Mocha issue][mocha-issue-274] relating to JRuby. It turned out to be a [bug in JRuby][jruby-issue-4250] which he has fixed and will be released in JRuby v9.1.6.0.
+
+I also investigated a [new Mocha bug][mocha-issue-276] which turned out to be due to another bug in Ruby for which I raised [this issue][ruby-issue-12876].
+
+### Smart Answers
+
+[Anna Shipman][] contacted us to ask about the emails we'd forwarded to GDS from people in other countries who have expressed an interest in using Smart Answers for their own governments. Apparently GDS are hoping to do some work to encourage the re-use of GDS projects outside GDS and Smart Answers might fit the bill. We think this is great and will do all we can to help.
+
+### Internal projects
+
+We continued the rationalisation process we'd begun the previous week. We settled on consolidating everything into a single new Trello board.
+
+### Lanyrd -> Attending
+
+Up until now we've used [Lanyrd][] to advertise our [Show and Tell events][show-and-tell-events], but since it was bought by Eventbrite the site seems unloved and is often down just when you need it. So we've given up on it and started using [Attending][] instead.
+
+### Admin
+
+Chris had an email conversation with our accountant about how we pay for coffee and lunches when we meet up to discuss company business. He also asked about the VAT rate we record for payments we make to US-based companies.
+
+We continued the tedious but necessary task of updating organisations with our new company address.
+
+### IFTTT
+
+Early in the week Chris setup an [IFTTT][] recipe to convert Google Calendar events into Trello cards. However, later in the week it turned out this didn't seem to be working reliably - errors appeared in the IFTTT log, but we didn't get any notification. If we can't rely on it to work, I think we'll have to try something else.
+
+## Hookline
+
+We didn't do any development this week. We're keen to let the Hookline folks try the app out in anger for a bit so that we can get some feedback and prioritise what to work on next.
+
+The Papertrail Heroku add-on which we enabled a couple of weeks ago started sending us lots of usage notifications. We're on the free plan and so now that people are using the app in anger, we were hitting our usage limit. I solved this by filtering out the log statements where Delayed Job polls the database for new jobs.
+
+We also had some positive feedback from a Hookline client who viewed some of Rach's curated playlists.
+
+Anyway, that's all for now. Until next time!
+
+-- James
+
+[tog-lounge-membership]: http://www.theofficegroup.co.uk/lounge-space/
+[IFTTT]: https://ifttt.com/
+[gfr-people]: /#people
+[week-385-notes]: /week-385
+[week-386-notes]: /week-386
+[GDS]: https://gds.blog.gov.uk/
+[Old Red Cow]: http://theoldredcow.com/
+[Jason Cale]: /alumni#jason-cale
+[Kent Beck]: https://www.facebook.com/kentlbeck
+[ruby-issue-12832]: https://bugs.ruby-lang.org/issues/12832
+[mocha-issue-274]: https://github.com/freerange/mocha/issues/274
+[jruby-issue-4250]: https://github.com/jruby/jruby/pull/4250
+[mocha-issue-276]: https://github.com/freerange/mocha/issues/276
+[ruby-issue-12876]: https://bugs.ruby-lang.org/issues/12876
+[Anna Shipman]: http://www.annashipman.co.uk/
+[Lanyrd]: http://lanyrd.com/
+[show-and-tell-events]: /show-and-tell-events
+[Attending]: https://attending.io
+[mouse-tail]: http://www.mousetailcoffee.com/
 
 :name: week-406
 :updated_at: 2016-10-31 12:08:22.161880000 +00:00
