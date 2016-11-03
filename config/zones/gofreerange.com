@@ -13,6 +13,7 @@ $TTL 86400
 @			MX	10	ASPMX3.GOOGLEMAIL.COM.
 @			MX	30	ASPMX4.GOOGLEMAIL.COM.
 @			MX	40	ASPMX5.GOOGLEMAIL.COM.
+; GFR Video uses Amazon SES to send email - hence the mention of amazonses.com in this SPF record
 @		300	TXT	"v=spf1 include:_spf.google.com include:amazonses.com ~all"
 google._domainkey		300	TXT	(
 	"v=DKIM1\059 k=rsa\059 p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqUyRV1d/QCw+4VjDvvAv61hpLub6U6Txnq97Fj0tuIB34GZl0ymT3BSUomPKeH8juQp/iveCnM9sBLg/lYjLjgKBnixOpiWz9nAZA2lrIa1ffIrES+DGiVsGRrFz9zgC/vqC6sfRfMyJahHGL6AYYQzz0OdrZsSsSQf9WTZKr54fykWmrukvpqV9OW86m7At1"
