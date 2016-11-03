@@ -31,11 +31,14 @@ futurelearn-subtitles		300	CNAME	futurelearn-subtitles.gofreerange.com.s3-websit
 futurelearn-video		300	CNAME	futurelearn-video.gofreerange.com.s3-website-eu-west-1.amazonaws.com.
 geohash			CNAME	proxy.heroku.com.
 googleffffffffcc1ff19c			CNAME	google.com.
+; GFR Video uses Amazon SES to send email - hence the mention of amazonses.com in this DKIM record
 m55w7dvxq3gzjauiuonyxccptpeqqyrz._domainkey		300	CNAME	m55w7dvxq3gzjauiuonyxccptpeqqyrz.dkim.amazonses.com.
 mail			CNAME	ghs.google.com.
+; GFR Video uses Amazon SES to send email - hence the mention of amazonses.com in this DKIM record
 qallhze5sbmxakooblcjoxzcnaeaf4gs._domainkey		300	CNAME	qallhze5sbmxakooblcjoxzcnaeaf4gs.dkim.amazonses.com.
 sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
+; GFR Video uses Amazon SES to send email - hence the mention of amazonses.com in this DKIM record
 t4jwxpgubazwy5wbsrytm2ijtbn7wxfz._domainkey		300	CNAME	t4jwxpgubazwy5wbsrytm2ijtbn7wxfz.dkim.amazonses.com.
 videos		300	CNAME	ddcxl0amt4k19.cloudfront.net.
 webhooks		300	CNAME	gofreerange.com.
