@@ -17,7 +17,7 @@ On Wednesday we belatedly attempted to set ourselves some goals for the week, bu
 
 On Wednesday, we also had a meeting at Aviation House with Alex Segrove and Paul Bowsher of [GDS][] to talk through some projects we might be able to help with. It's always a pleasure to chat to the folk at GDS and it sounds as if there could be some interesting work on offer. Afterwards we made the most of the sunshine by having lunch on the grass in Lincoln's Inn Fields.
 
-On Friday it was really lovely to bump into Jess Wittbort in [Mouse Tail in the John Harvard Library][mouse-tail] (lovely coffee!). She told us about a possible client project which we're going to try to find out more about.
+On Friday it was really lovely to bump into [Jess][] in [Mouse Tail in the John Harvard Library][mouse-tail] (lovely coffee!). She told us about a possible client project which we're going to try to find out more about.
 
 ### Website
 
@@ -91,6 +91,7 @@ Anyway, that's all for now. Until next time!
 [Lanyrd]: http://lanyrd.com/
 [show-and-tell-events]: /show-and-tell-events
 [Attending]: https://attending.io
+[Jess]: https://twitter.com/jesybort
 [mouse-tail]: http://www.mousetailcoffee.com/
 
 :name: week-406
