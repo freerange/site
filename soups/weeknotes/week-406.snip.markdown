@@ -67,7 +67,7 @@ We didn't do any development this week. We're keen to let the [Hookline][] folks
 
 The Papertrail Heroku add-on which we enabled a couple of weeks ago started sending us lots of usage notifications. We're on the free plan and so now that people are using the app in anger, we were hitting our usage limit. I solved this by filtering out the log statements where Delayed Job polls the database for new jobs.
 
-We also had some positive feedback from a Hookline client who viewed some of Rach's curated playlists.
+We also had some positive feedback from a Hookline client who viewed some of [Rach][]'s curated playlists.
 
 Anyway, that's all for now. Until next time!
 
@@ -94,6 +94,7 @@ Anyway, that's all for now. Until next time!
 [Jess]: https://twitter.com/jesybort
 [mouse-tail]: http://www.mousetailcoffee.com/
 [Hookline]: http://hookline.tv/
+[Rach]: https://twitter.com/rachmenzies
 
 :name: week-406
 :updated_at: 2016-11-04 10:44:48.603462000 +00:00
