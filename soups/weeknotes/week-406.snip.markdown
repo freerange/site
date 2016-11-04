@@ -94,10 +94,10 @@ Anyway, that's all for now. Until next time!
 [mouse-tail]: http://www.mousetailcoffee.com/
 
 :name: week-406
-:updated_at: 2016-10-31 12:08:22.161880000 +00:00
-:created_at: 2016-10-31 12:08:22.161872000 +00:00
+:updated_at: 2016-11-04 10:44:48.603462000 +00:00
+:created_at: 2016-11-04 10:44:48.603458000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: james-mead
