@@ -97,8 +97,8 @@ Anyway, that's all for now. Until next time!
 [Rach]: https://twitter.com/rachmenzies
 
 :name: week-406
-:updated_at: 2016-11-04 10:44:48.603462000 +00:00
-:created_at: 2016-11-04 10:44:48.603458000 +00:00
+:updated_at: 2016-11-04 10:53:29.576844000 +00:00
+:created_at: 2016-11-04 10:53:29.576841000 +00:00
 :render_as: Blog
 :kind: blog
 :is_page: true
