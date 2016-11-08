@@ -1,7 +1,11 @@
 Week 408 - Interesting links
 ============================
 
-### [Title](http://example.com)
+### [Open:2017 - Platform Cooperatives](http://example.com)
+
+> The UK's first multi-day conference dedicated to Platform Cooperatives.
+
+> Open presents an opportunity to meet and discuss the structure, challenges and opportunities of a truly collaborative economy. If you are interested in co-creating our collective future register your interest below.
 
 Your comments here. {by chris-roos}
 
