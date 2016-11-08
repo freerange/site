@@ -1,7 +1,11 @@
 Week 408
 ========
 
-<!-- add content here -->
+* Monday
+  * James, Chris and Ben continued to work on the chess experiment at BFI
+* Tuesday
+  * James and Chris - GFR admin
+  * James and Ben continuing to work on chess game
 
 :name: week-408
 :updated_at: 2016-11-08 14:45:35.387398000 +00:00
