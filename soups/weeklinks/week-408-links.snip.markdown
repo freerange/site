@@ -22,10 +22,10 @@ I've recently been re-visiting our [GFR Video project](/gfr-video) and in doing 
 I really like this idea of visualising software as interactive, navigable 3D cities. The basic idea is that classes are represented as buildings and packages/modules are represented as districts in which the buildings sit. Various other metrics can then be applied to produce a 3D colour visualisation. For example, the number of methods as building height, the number of attributes as building area, and the number of lines as the colour of the building. {by james-mead}
 
 :name: week-408-links
-:updated_at: 2016-11-08 15:23:59.444753000 +00:00
-:created_at: 2016-11-08 15:23:59.444742000 +00:00
+:updated_at: 2016-11-11 11:23:19.272716000 +00:00
+:created_at: 2016-11-11 11:23:19.272712000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: james-mead
