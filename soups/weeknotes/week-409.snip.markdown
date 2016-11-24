@@ -28,10 +28,10 @@ Until next time.
 [wortley-hall]: https://en.wikipedia.org/wiki/Wortley_Hall
 
 :name: week-409
-:updated_at: 2016-11-23 10:29:55.005410000 +00:00
-:created_at: 2016-11-23 10:29:55.005398000 +00:00
+:updated_at: 2016-11-24 18:55:02.027739000 +00:00
+:created_at: 2016-11-24 18:55:02.027727000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
