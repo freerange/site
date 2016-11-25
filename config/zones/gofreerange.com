@@ -1,4 +1,4 @@
-; NOTE. GFR Video uses Amazon SES to send email - hence the mention of amazonses.com in the SPF records below.
+; NOTE. GFR Video uses Amazon SES to send email - hence the mention of amazonses.com in the SPF and DKIM records below.
 ; Paste the zonefile below this line:
 ; 
 ; gofreerange.com [75717]
