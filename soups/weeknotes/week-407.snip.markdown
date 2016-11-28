@@ -1,7 +1,16 @@
 Week 407
 ========
 
-<!-- add content here -->
+## Calendar
+
+* Mon: Both worked at BFI
+  * Went through Trello board?
+  * Went through Trello Later list?
+  * Agreed goals for week?
+* Wed: Both worked at TOG, Bloomsbury
+  * Continued going through project ideas?
+  * Discussed & paired on Mocha serialization
+* Fri: Both worked at BFI with Ben on Game Soundtrack project
 
 :name: week-407
 :updated_at: 2016-11-28 15:44:09.909500000 +00:00
