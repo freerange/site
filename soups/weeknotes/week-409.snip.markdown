@@ -15,7 +15,7 @@ While there was a lot of discussion, there were also a few practical things that
 * [Domain purchased and wiki created](https://wiki.coops.tech/)
 * [Mailing list created](https://www.email-lists.org/pipermail/tech-coops/)
 
-It was an intensive couple of days spent with lots of enthusiastic and like-minded people. It'll be interesting to see whether the enthusiasm translate into action after the event: I certainly hope it does and am excited by the possibilities.
+It was an intensive couple of days spent with lots of enthusiastic and like-minded people. It'll be interesting to see whether the enthusiasm translates into action after the event: I certainly hope it does and am excited by the possibilities.
 
 Many thanks to [Outlandish][outlandish] for organising it!
 
