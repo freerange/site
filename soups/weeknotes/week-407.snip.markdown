@@ -12,6 +12,13 @@ Week 407
   * Discussed & paired on Mocha serialization
 * Fri: Both worked at BFI with Ben on Game Soundtrack project
 
+## Email
+
+* Purchase of chess-related hardware
+* Initial categorisation of TOG subscription & deposit
+* Email to Anna Shipman about Smart Answers - https://groups.google.com/a/gofreerange.com/d/msg/members/bJvhsgvf2hw/cqMio-CmAwAJ
+* Collected TOG Lounge membership cards & Bloomsbury Way building passes
+
 :name: week-407
 :updated_at: 2016-11-28 15:44:09.909500000 +00:00
 :created_at: 2016-11-28 15:44:09.909489000 +00:00
