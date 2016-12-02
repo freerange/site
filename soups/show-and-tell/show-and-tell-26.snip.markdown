@@ -22,18 +22,22 @@ Murray
 
 ### Tom S - Lambda calculus
 
-* Repl that he demod last night time
-  * Showed/used at Computation Club - illustrated that it was hard for people to use - hard to understand the Repl let alone Lambda calculus itself
-* Taught in NYC (the thing formerly known as Hacker School?)
-  * Demo'd REPL
-* Converted it to JavaScript
-  * Used Jasmine as testing framework. It's BDD so it was relatively trivial to translate his existing RSpec specs to Jasmine.
-* Used React GUI to build interface over the top of the library
-* Used Webpack to build an "app" that can be opened in the browser.
-* People now ask about Lambda Calculus rather than how the interface works.
+Tom demo'd the latest iteration of his tool to help people interact with and understand Lambda Calculus (see Show & Tell 24 for notes about the previous version). Based on feedback about the Ruby version (both from the London Computation Club and elsewhere) Tom has ported it to JavaScript and made an impressive looking web GUI.
+
+The similarities between RSpec and Jasmine meant that he was able to programmatically convert his Ruby tests to JavaScript. Having these tests in place made it _relatvely_ trivial to implement all the functionality in JavaScript.
+
+With the library in place, he was able to use React GUI to build the interface over the top.
+
+The whole thing is brought together using Webpack.
+
+I'm really impressed by Tom's perseverence with this particular problem and was happy to hear that the latest version seems to be doing its job. Tom now gets questions about Lambda Calculus rather than the tool he's using to try to teach it.
+
 
 ### James A - Science Museum Lates
 
+26 Oct Science Museum Lates
+* http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/eventssummary/event_21-10-2016-11-35-16
+* James's tweet about it - https://twitter.com/lazyatom/status/791382964336721926
 * Demonstrate spread of disease
 * "Marketing exercise for the university" (which?)
 * Largest game they've run to date
@@ -43,19 +47,26 @@ Murray
 
 ### James A - Thermostat
 
+James was
+
+James showed us how he's been
+
 * Bad thermostat in his house
 * Could've bought something (e.g. Nest) but decided it'd be fun to make something himself
 * It was surprisingly easy
-* He used a relay and Spark Core
+* He used a relay and [Spark Core][spark-core]. Spark Core appears to be owned by Particle? Although it's not clear you can still buy them.
 * USP of board is that you don't have to think about HTTP - contrast this with Arduino where you have to interact with HTTP at a very low level
 * Particle HTTP API - 3rd party service?
 * First version of the web app - heat-o-tron - allowed him to turn the heating on/off from his computer - i.e. without having to get up and go downstairs
-* Using Dweet to send temp. data from Raspberry Pi Zero - this allows him to build a thermostat by turning the heater on if the temperature isn't at a set level
+* Using [Dweet][dweet] to send temp. data from [Raspberry Pi Zero][raspberry-pi-zero] - this allows him to build a thermostat by turning the heater on if the temperature isn't at a set level
 * Next version allows him to set a timer for the heating system to be turned on/off on a schedule
+
+[dweet]: https://dweet.io/
+[raspberry-pi-zero]: https://www.raspberrypi.org/products/pi-zero/
 
 ### Alex - Hardware time tracker
 
-* Esprino - £25
+* [Espruino][espruino] - £25
 * Battery powered 4 year life
 * USB powered
 * Chrome development environment
@@ -63,10 +74,13 @@ Murray
 * Includes direction sensor and temperature sensor
 * Fibbo? Mesh network
   * £40 for 1/2 switch device
-* Esprino / puck.js
+* Esprino / [Puck.js][puck-js]
 * Use case
   * Time tracking with a physical device - Button on/off
   * Point at time/client? on a piece of paper
+
+[espruino]: https://www.espruino.com/
+[puck-js]: https://www.kickstarter.com/projects/gfw/puckjs-the-ground-breaking-bluetooth-beacon
 
 ### Ben/James/Chris
 
