@@ -27,6 +27,17 @@ def weeks_since_incorporation(date)
   days_since_incorporation / 7.0
 end
 
+def week_numbers_and_dates
+  monday_beginning_the_week_of_incorporation = monday_beginning(incorporation_date)
+
+  current_week_number = weeks_since_incorporation(Date.today).to_i
+
+  (0..current_week_number).map do |week_number|
+    monday_in_week = monday_beginning_the_week_of_incorporation + (week_number * 7)
+    [week_number, monday_in_week]
+  end
+end
+
 require "erb"
 require_relative "application"
 
@@ -59,13 +70,8 @@ namespace :week do
   end
 
   task :numbers_and_dates do
-    monday_beginning_the_week_of_incorporation = monday_beginning(incorporation_date)
-
-    current_week_number = weeks_since_incorporation(Date.today).to_i
-
-    (0..current_week_number).each do |week_number|
-      monday_in_week = monday_beginning_the_week_of_incorporation + (week_number * 7)
-      puts "Week #{week_number} begins #{monday_in_week.strftime('%a %d %b %Y')}"
+    week_numbers_and_dates.each do |(week_number, date)|
+      puts "Week #{week_number} begins #{date.strftime('%a %d %b %Y')}"
     end
   end
 
