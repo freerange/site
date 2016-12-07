@@ -2,9 +2,11 @@
 
 From writing weeknotes to chasing invoices to hosting social events, Harmonia will assign responsibility for completing each task randomly but fairly within the team, so everyone knows who is taking care of what.
 
-Your team can [sign up to Harmonia now][Harmonia].
+Harmonia was originally developed within [Go Free Range][], but it's now owned and run by [Exciting][] as a commercial service.
 
 [Harmonia]: https://harmonia.io
+[Go Free Range]: /
+[Exciting]: https://exciting.io
 
 :kind: project
 :display_name: "Harmonia"
