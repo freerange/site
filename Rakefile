@@ -10,14 +10,17 @@ end
 
 require "date"
 
+def incorporation_date
+  # Tuesday 13th Jan 2009
+  Date.parse('2009-01-13')
+end
+
 def monday_beginning(date)
   # The `+1` is to deal with `#wday` being 0 based and starting from Sunday
   date - date.wday + 1
 end
 
 def weeks_since_incorporation(date)
-  # Tuesday 13th Jan 2009
-  incorporation_date = Date.parse('2009-01-13')
   monday_beginning_the_week_of_incorporation = monday_beginning(incorporation_date)
   monday_beginning_this_week = monday_beginning(date)
   days_since_incorporation = monday_beginning_this_week - monday_beginning_the_week_of_incorporation
@@ -56,8 +59,6 @@ namespace :week do
   end
 
   task :numbers_and_dates do
-    # Tuesday 13th Jan 2009
-    incorporation_date = Date.parse('2009-01-13')
     monday_beginning_the_week_of_incorporation = monday_beginning(incorporation_date)
 
     current_week_number = weeks_since_incorporation(Date.today).to_i
