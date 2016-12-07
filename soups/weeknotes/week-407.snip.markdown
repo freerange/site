@@ -103,7 +103,7 @@ Until next time.
 [mocha-issue-274-comment]: https://github.com/freerange/mocha/issues/274#issuecomment-256157095
 [introspection]: https://rubygems.org/gems/introspection/versions/0.0.4
 [instantiator]: https://rubygems.org/gems/instantiator/versions/0.0.7
-[deferred-signals]: http://perldoc.perl.org/perlipc.html#Deferred-Signals-(Safe-Signals)
+[perl-deferred-signals]: http://perldoc.perl.org/perlipc.html#Deferred-Signals-(Safe-Signals)
 [ruby-bug-12832-comment]: https://bugs.ruby-lang.org/issues/12832#note-9
 [Smart Answers]: https://github.com/alphagov/smart-answers
 [Rachel]: https://twitter.com/rachmenzies
