@@ -71,3 +71,4 @@ Please [get in touch][contact] if you're interested in joining us for the next S
 :created_at: 2016-08-26 11:08:00 +01:00
 :updated_at: 2016-08-26 11:08:00 +01:00
 :page_title: Show and Tell 23
+:layout: show-and-tell-layout

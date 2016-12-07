@@ -64,3 +64,4 @@ Until next time.
 :created_at: 2015-03-12 14:30:00 +00:00
 :updated_at: 2015-03-13 13:00:00 +00:00
 :page_title: Show and Tell 10
+:layout: show-and-tell-layout

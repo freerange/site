@@ -90,3 +90,4 @@ Until next time,
 :created_at: 2016-08-05 16:18:00 +01:00
 :updated_at: 2016-08-05 16:18:00 +01:00
 :page_title: Show and Tell 21
+:layout: show-and-tell-layout

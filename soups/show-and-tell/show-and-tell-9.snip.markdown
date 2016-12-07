@@ -71,3 +71,4 @@ I really enjoyed the evening and I'm glad we decided to keep it up despite not h
 :created_at: 2015-02-16 14:30:00 +01:00
 :updated_at: 2015-02-16 17:45:00 +01:00
 :page_title: Show and Tell 9
+:layout: show-and-tell-layout

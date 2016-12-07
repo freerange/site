@@ -69,3 +69,4 @@ Anyway, that's your lot for this month. Our [Show & Tell event][] is taking a br
 :created_at: 2014-12-12 11:53:00 +01:00
 :updated_at: 2014-12-17 16:44:00 +01:00
 :page_title: Show and Tell 8
+:layout: show-and-tell-layout

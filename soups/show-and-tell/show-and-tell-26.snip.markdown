@@ -123,3 +123,4 @@ James showed us how he's been
 :author: chris-roos
 :page_title: Show and Tell 26
 :extension: markdown
+:layout: show-and-tell-layout

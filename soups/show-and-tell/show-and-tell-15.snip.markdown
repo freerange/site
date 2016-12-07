@@ -87,3 +87,4 @@ Until next time.
 :created_at: 2015-08-14 11:10:00 +01:00
 :updated_at: 2015-08-14 11:10:00 +01:00
 :page_title: Show and Tell 15
+:layout: show-and-tell-layout

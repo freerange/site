@@ -137,3 +137,4 @@ I think it's great that Rob's tweaking the courses to try to give students a mor
 :created_at: 2016-09-22 11:12:00 +01:00
 :updated_at: 2016-09-22 11:12:00 +01:00
 :page_title: Show and Tell 24
+:layout: show-and-tell-layout

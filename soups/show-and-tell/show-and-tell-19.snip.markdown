@@ -84,3 +84,4 @@ I talked a little bit about [Google Maps Timeline][google-maps-timeline] (previo
 :created_at: 2016-01-25 13:30:00 +13:00
 :updated_at: 2016-01-25 13:30:00 +13:00
 :page_title: Show and Tell 19
+:layout: show-and-tell-layout

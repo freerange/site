@@ -109,3 +109,4 @@ Thanks to everyone for coming. Hope to see you next time.
 :created_at: 2015-09-11 15:48:00 +01:00
 :updated_at: 2015-09-11 15:48:00 +01:00
 :page_title: Show and Tell 16
+:layout: show-and-tell-layout

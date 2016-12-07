@@ -12,3 +12,4 @@ Show and Tell NN
 :created_at: 2016-10-14 17:20:00 +01:00
 :updated_at: 2016-10-14 17:20:00 +01:00
 :page_title: Show and Tell NN
+:layout: show-and-tell-layout

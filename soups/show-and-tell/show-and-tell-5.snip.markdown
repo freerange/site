@@ -64,3 +64,4 @@ Although not technically part of the Show and Tell, [Murray][] was keen to show 
 :created_at: 2014-09-15 17:30:00 +01:00
 :updated_at: 2014-09-15 17:30:00 +01:00
 :page_title: Show and Tell 5
+:layout: show-and-tell-layout

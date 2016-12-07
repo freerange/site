@@ -81,3 +81,4 @@ Until next time,
 :created_at: 2016-07-29 17:09:00 +01:00
 :updated_at: 2016-07-29 17:09:00 +01:00
 :page_title: Show and Tell 20
+:layout: show-and-tell-layout

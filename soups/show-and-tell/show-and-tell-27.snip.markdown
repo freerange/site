@@ -18,3 +18,4 @@ Show and Tell 27
 :author: chris-roos
 :page_title: Show and Tell 27
 :extension: markdown
+:layout: show-and-tell-layout

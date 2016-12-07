@@ -96,3 +96,4 @@ Until next time,
 :created_at: 2015-11-20 15:02:00 +01:00
 :updated_at: 2015-11-20 15:02:00 +01:00
 :page_title: Show and Tell 18
+:layout: show-and-tell-layout
