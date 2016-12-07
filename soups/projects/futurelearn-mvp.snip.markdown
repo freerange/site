@@ -9,5 +9,5 @@ We think it's a great project, with a great team, and we're proud to have been i
 [MOOC]: http://en.wikipedia.org/wiki/Massive_open_online_course
 
 :kind: project
-:display_name: "FutureLearn"
+:display_name: "FutureLearn MVP"
 :url: https://www.futurelearn.com/
