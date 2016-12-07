@@ -15,21 +15,22 @@ def incorporation_date
   Date.parse('2009-01-13')
 end
 
+def monday_beginning_the_week_of_incorporation
+  monday_beginning(incorporation_date)
+end
+
 def monday_beginning(date)
   # The `+1` is to deal with `#wday` being 0 based and starting from Sunday
   date - date.wday + 1
 end
 
 def weeks_since_incorporation(date)
-  monday_beginning_the_week_of_incorporation = monday_beginning(incorporation_date)
   monday_beginning_this_week = monday_beginning(date)
   days_since_incorporation = monday_beginning_this_week - monday_beginning_the_week_of_incorporation
   days_since_incorporation / 7.0
 end
 
 def week_numbers_and_dates
-  monday_beginning_the_week_of_incorporation = monday_beginning(incorporation_date)
-
   current_week_number = weeks_since_incorporation(Date.today).to_i
 
   (0..current_week_number).map do |week_number|
