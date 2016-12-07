@@ -27,7 +27,7 @@ We started by trying to use the groups web interface instead of our individual m
 
 We then switched to using a combination of the groups interface and our individual mail clients. This is problematic as the status of messages in the group (e.g. marking an email as "done") isn't reflected in our email clients, meaning that we now need to look in two places to see whether we need to do something.
 
-We've mostly gone back to using our email clients instead of the group. The only thing we're doing in addition is using moderation in the group in an attempt to reduce the number of junk/pointless emails that make it through to our email clients.
+We ended up going back to using our email clients instead of the group. The only thing we're doing in addition is using moderation in the group in an attempt to reduce the number of junk/pointless emails that make it through to our email clients.
 
 ## Hookline
 
@@ -35,17 +35,17 @@ We had an urgent email on Friday afternoon reporting that the playlists weren't 
 
 ## Mocha
 
-James and I spent some time pairing on my pull request ([PR 269][mocha-pr-269]) that refactors some of the `ClassMethod` and `AnyInstanceMethod` classes. This has been "in progress" for some time so our goal was to work out the minimum work required to get the changes merged. I came away with a list of things to do and hope to get round to them quite soon.
+James and I spent some time pairing on my [pull request that refactors some of the `ClassMethod` and `AnyInstanceMethod` classes][mocha-pr-269]. This has been in progress for some time so our goal was to determine the minimum work required to get the changes merged. I came away with a list of things to do and hope to get round to them soon.
 
-James investigated the problem described in [issue 286][mocha-issue-286] and decided to deprecate the somewhat confusing behaviour. This was all made slightly more complicated by a change on Travis [causing builds against Ruby 1.8.7 to fail][travis-issue-6963]. Once that was worked around James was able to get the tests in his branch working.
+James investigated the problem described in [issue 286][mocha-issue-286] and decided to [deprecate the somewhat confusing behaviour of passing a block to the `stub` and `mock` methods][mocha-pr-290]. This all took slightly longer than expected as James first had to work around a change on Travis that [caused builds against Ruby 1.8.7 to fail][travis-issue-6963].
 
 ## Chess
 
-James spent some time working with the chess boards he'd purchased. It sounds as though connecting the chess board computer to a breadboard became was much harder, and frustrating, than expected!
+James spent some time working with the chess boards he'd purchased. He'd hoped to get the chess computer wired up to a breadboard but progress was hampered when the soldering proved to be much trickier than expected.
 
 ## Social
 
-We headed to the [Calthorpe Arms][calthorpe-arms] for our monthly drinks on Wednesday. It wasn't too busy but had a pretty good atmosphere, served delicious beer and the food looked pretty good too!
+We headed to the [Calthorpe Arms][calthorpe-arms] for our monthly drinks on Wednesday. It wasn't too busy, had a good atmosphere, served delicious beer and the food looked pretty tasty too.
 
 Until next time.
 
@@ -59,6 +59,7 @@ Until next time.
 [ifttt]: https://ifttt.com/
 [mocha-issue-286]: https://github.com/freerange/mocha/issues/286
 [mocha-pr-269]: https://github.com/freerange/mocha/pull/269
+[mocha-pr-290]: https://github.com/freerange/mocha/pull/290
 [travis-issue-6963]: https://github.com/travis-ci/travis-ci/issues/6963
 [trello]: https://trello.com/
 
