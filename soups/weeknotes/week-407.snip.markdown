@@ -127,10 +127,10 @@ Until next time.
 [chess.js]: https://github.com/jhlywa/chess.js
 
 :name: week-407
-:updated_at: 2016-11-28 15:44:09.909500000 +00:00
-:created_at: 2016-11-28 15:44:09.909489000 +00:00
+:updated_at: 2016-12-07 15:03:34.206138000 +00:00
+:created_at: 2016-12-07 15:03:34.206133000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: james-mead
