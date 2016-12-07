@@ -10,12 +10,9 @@ end
 
 require "date"
 
-def incorporation_date
-  # Tuesday 13th Jan 2009
-  Date.parse('2009-01-13')
-end
-
 def monday_beginning_the_week_of_incorporation
+  # Tuesday 13th Jan 2009
+  incorporation_date = Date.parse('2009-01-13')
   monday_beginning(incorporation_date)
 end
 
