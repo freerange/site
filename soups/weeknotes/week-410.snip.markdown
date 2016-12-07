@@ -17,10 +17,10 @@ Until next time.
 [lets-encrypt]: https://letsencrypt.org/
 
 :name: week-410
-:updated_at: 2016-11-23 11:59:42.603250000 +00:00
-:created_at: 2016-11-23 11:59:42.603237000 +00:00
+:updated_at: 2016-12-07 11:44:15.985681000 +00:00
+:created_at: 2016-12-07 11:44:15.985675000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
