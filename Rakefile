@@ -55,6 +55,21 @@ namespace :week do
     puts "Week beginning #{week_beginning} is week #{week_number}"
   end
 
+  task :numbers_and_dates do
+    # Tuesday 13th Jan 2009
+    incorporation_date = Date.parse('2009-01-13')
+    monday_beginning_the_week_of_incorporation = monday_beginning(incorporation_date)
+
+    current_week_number = weeks_since_incorporation(Date.today).to_i
+
+    (0..current_week_number).each do |week_number|
+      # date_in_week = date_of_incorporation + ((week_number)* 7)
+      # monday_in_week = monday_beginning(date_in_week)
+      monday_in_week = monday_beginning_the_week_of_incorporation + (week_number * 7)
+      puts "Week #{week_number} begins #{monday_in_week.strftime('%a %d %b %Y')}"
+    end
+  end
+
   namespace :notes do
     desc <<-DESC
     Creates a new weeknotes snip for the current GFR week.
