@@ -67,6 +67,9 @@ namespace :week do
     puts "Week beginning #{week_beginning} is week #{week_number}"
   end
 
+  desc <<-DESC
+  Displays a list of GFR week numbers and dates from the date of incorporation.
+  DESC
   task :numbers_and_dates do
     week_numbers_and_dates.each do |(week_number, date)|
       puts "Week #{week_number} begins #{date.strftime('%a %d %b %Y')}"
