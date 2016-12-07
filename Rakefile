@@ -64,8 +64,6 @@ namespace :week do
     current_week_number = weeks_since_incorporation(Date.today).to_i
 
     (0..current_week_number).each do |week_number|
-      # date_in_week = date_of_incorporation + ((week_number)* 7)
-      # monday_in_week = monday_beginning(date_in_week)
       monday_in_week = monday_beginning_the_week_of_incorporation + (week_number * 7)
       puts "Week #{week_number} begins #{monday_in_week.strftime('%a %d %b %Y')}"
     end
