@@ -7,7 +7,7 @@ We both seemed to struggle with motivation a bit during week 411. It's a problem
 
 We met Jack from GDS to talk about the practicalities of doing some more work with them. We were hoping to be able to use the [Digital Outcomes and Specialists framework][dosf] but it sounds as though that might not be feasible; or at least not in the short term.
 
-We started going through the application process for Digital Outcomes and Specialists 2. I ended up wasting quite a lot of time trying to compare the various contracts between the two versions before giving up. The contracts only appear to be available as PDFs which makes comparing them _way_ harder than it should/could be. At one point I found myself creating Markdown versions of the contracts to make comparison easier (I figure this would be useful to others too) before deciding that it wasn't the best use of my time.
+Despite this we started going through the application process for version 2 of the framework. I ended up wasting quite a lot of time trying to compare the various contracts between the two versions before giving up. The contracts only appear to be available as PDFs which makes comparing them _way_ harder than it should/could be. At one point I found myself creating Markdown versions of the contracts to make comparison easier (I figure this would be useful to others too) before deciding that it wasn't the best use of my time.
 
 ## IFTTT
 
@@ -18,20 +18,20 @@ We're continuing to use [IFTTT][ifttt] to automatically create [Trello][trello] 
 We spent quite a while experimenting with the [Google Groups Collaborative Inbox][collaborative-inbox]. We share the responsibility of handling the emails we receive and have evolved a mostly shared understanding of how to deal with them. We:
 
 * Forward emails to Trello where it looks like there might be some work required.
-* Forward emails to our main group with a note to explain why we're ignoring it.
-* Forward emails to our main group with a note to explain why there's no action required; because it's an informational email in response to submitting our wages, for example.
+* Forward emails to our main Google Group with a note to explain why we're ignoring it.
+* Forward emails to our main Google Group with a note to explain why there's no action required; because it's an informational email in response to submitting our payroll, for example.
 
 We hoped that using the Collaborative Inbox would mean that we're able to codify this process a bit which would allow us to avoid having to remember it. Unfortunately, it didn't quite work in the way we expected and actually appears to introduce more problems than it solves.
 
 We started by trying to use the groups web interface instead of our individual mail clients. This was immediately problematic as it doesn't appear to be possible to reply to the author directly: a reply is sent to the group and cc'd to the author. We imagine this being confusing to (most) people that aren't aware that they're dealing with a mailing list.
 
-We then switched to using a combination of the groups interface and our individual mail clients. This is problematic as the status of messages in the group (e.g. marking an email as "done") isn't reflected in our email clients, meaning that we now need to look in two places to see whether we need to do something.
+We then switched to using a combination of the group interface and our individual mail clients. This is problematic as the status of messages in the group (e.g. marking an email as "done") isn't reflected in our email clients, meaning that we now need to look in two places to see whether we need to do something.
 
-We ended up going back to using our email clients instead of the group. The only thing we're doing in addition is using moderation in the group in an attempt to reduce the number of junk/pointless emails that make it through to our email clients.
+We ended up going back to using our email clients instead of the group interface. The only thing we're doing in addition is using moderation in the group in an attempt to reduce the number of junk/pointless emails that make it through to our email clients and the group archive.
 
 ## Hookline
 
-We had an urgent email on Friday afternoon reporting that the playlists weren't working in the [Hookline][hookline] music app! We soon realised that it was because the credit card registered with [AWS][aws] had expired. Updating the details had us back up and running immediately. We're now planning to put something in place that helps ensure we're alerted to this problem much sooner in future.
+We had an urgent email on Friday afternoon reporting that the playlists weren't working in the [Hookline][hookline] music app! We soon realised that it was because the credit card registered with [AWS][aws] had expired. Updating the details had us back up and running immediately. We're planning to put something in place that helps ensure we're alerted to this problem much sooner in future.
 
 ## Mocha
 
