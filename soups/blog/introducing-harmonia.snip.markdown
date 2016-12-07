@@ -52,12 +52,15 @@ One of the great things about being in a business where you *build* stuff is tha
 
 If you have any thoughts about this, we'd love to hear from you, either via [email](mailto:lets@gofreerange.com), [twitter][], your own blog or even a pull request ;)
 
+_Note that [Harmonia][] is now a product owned and run by [Exciting][]._
 
 [^mentioned]: We mentioned Harmonia in {l week-138}, but since [the README was sparse those few weeks ago](https://github.com/freerange/harmonia/blob/2a6f68bc5aafe8ddc5119c2e70cc62ce3da01955/README.md), I thought it was worth expanding and explaining in more detail. I've expanded on [the new README](https://github.com/freerange/harmonia/blob/master/README.md) here.
 [^office-admin]: Who's going to keep our new office stocked with fruit and milk? :)
 [^ymmv]: "Your mileage may vary" - in other words, please take these ideas and test them, adapt them, reformulate them to suit your own circumstances.
 
 [harmonia]: https://github.com/freerange/harmonia
+[Harmonia]: https://harmonia.io
+[Exciting]: https://exciting.io
 [whenever]: https://github.com/javan/whenever
 [mail]: https://github.com/mikel/mail
 [schedule.rb]: https://github.com/freerange/harmonia/blob/master/config/schedule.rb
