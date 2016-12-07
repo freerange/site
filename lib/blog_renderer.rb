@@ -16,7 +16,7 @@ module Vanilla::Renderers
       author = @app.soup[@snip.author]
       author_name = author.name.split("-").map { |s| s.capitalize }.join(" ")
       author_image = author.image
-      template = @app.soup['blog-template']
+      template = @app.soup["#{@snip.kind}-template"]
       @app.render(template).gsub("ENTRY_CONTENT", entry_content).gsub("ENTRY_AUTHOR_IMAGE", author_image).gsub("ENTRY_AUTHOR", author_name).gsub("ENTRY_DATE", article_date(@snip.created_at))
     end
 
