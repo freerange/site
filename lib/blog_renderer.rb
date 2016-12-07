@@ -19,7 +19,7 @@ module Vanilla::Renderers
       template = @app.soup['blog-template']
       @app.render(template).gsub("ENTRY_CONTENT", entry_content).gsub("ENTRY_AUTHOR_IMAGE", author_image).gsub("ENTRY_AUTHOR", author_name).gsub("ENTRY_DATE", article_date(@snip.created_at))
     end
-    
+
     def article_date(time)
       suffix = case time.day
       when 1, 21, 31
@@ -31,7 +31,7 @@ module Vanilla::Renderers
       else
         "th"
       end
-        
+
       time.strftime("%A %d#{suffix} %B, %Y")
     end
   end
