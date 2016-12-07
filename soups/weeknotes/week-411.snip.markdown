@@ -1,13 +1,13 @@
 Week 411
 ========
 
-I think we both struggled with motivation a bit during week 411. It's a problem we've experienced before when we're splitting our time between lots of smaller tasks rather than having a main thing that we're focussing on.
+We both seemed to struggle with motivation a bit during week 411. It's a problem we've experienced before when we don't have a primary thing we're working on, and instead spend our time working on lots of smaller tasks.
 
 ## Business development
 
 We met Jack from GDS to talk about the practicalities of doing some more work with them. We were hoping to be able to use the Digital Outcomes and Specialists framework but it sounds as though that might not be feasible; or at least not in the short term.
 
-We started going through the application process for Digital Outcomes and Specialists 2. I ended up wasting quite a lot of time trying to compare the various contracts between the two versions before giving up. The contracts only appear to be available as PDFs which makes comparing them _way_ harder than it should/could be. I even started creating Markdown versions of the contracts to make comparison easier (I figure this would be useful to others too) before deciding that it wasn't the best use of my time.
+We started going through the application process for Digital Outcomes and Specialists 2. I ended up wasting quite a lot of time trying to compare the various contracts between the two versions before giving up. The contracts only appear to be available as PDFs which makes comparing them _way_ harder than it should/could be. At one point I found myself creating Markdown versions of the contracts to make comparison easier (I figure this would be useful to others too) before deciding that it wasn't the best use of my time.
 
 ## IFTTT
 
@@ -15,15 +15,23 @@ We're continuing to use IFTTT to automatically create Trello cards for a number 
 
 ## Collaborative Inbox
 
-We spent quite a while experimenting with the Google Groups Collaborative Inbox. We have some shared conventions in place that helps us share responsibility for handling the emails we receive. This relies on us remembering how the process works and we thought that using something like Collaborative Inbox might makes things less confusing. Unfortunately, that doesn't really seem to be the case.
+We spent quite a while experimenting with the Google Groups Collaborative Inbox. We share the responsibility of handling the emails we receive and have evolved a mostly shared understanding of how to deal with them. We:
 
-We played with the idea of using the web interface as our primary method of interacting with emails. Unfortunately this didn't work quite as expected. Replying to an email from the group results in the email being sent to the group and cc'd to the original author. We think this would be confusing for people that don't know they're interacting with a group rather than a single email account.
+* Forward emails to Trello where it looks like there might be some work required.
+* Forward emails to our main group with a note to explain why we're ignoring it.
+* Forward emails to our main group with a note to explain why there's no action required; because it's an informational email in response to submitting our wages, for example.
 
-TODO: Expand on this!
+We hoped that using the Collaborative Inbox would mean that we're able to codify this process a bit which would allow us to avoid having to remember it. Unfortunately, it didn't quite work in the way we expected and actually appears to introduce more problems than it solves.
+
+We started by trying to use the groups web interface instead of our individual mail clients. This was immediately problematic as it doesn't appear to be possible to reply to the author directly: a reply is sent to the group and cc'd to the author. We imagine this being confusing to (most) people that aren't aware that they're dealing with a mailing list.
+
+We then switched to using a combination of the groups interface and our individual mail clients. This is problematic as the status of messages in the group (e.g. marking an email as "done") isn't reflected in our email clients, meaning that we now need to look in two places to see whether we need to do something.
+
+We've mostly gone back to using our email clients instead of the group. The only thing we're doing in addition is using moderation in the group in an attempt to reduce the number of junk/pointless emails that make it through to our email clients.
 
 ## Hookline
 
-We had an urgent email on Friday afternoon stating that the playlists weren't working in the Hookline music app! We soon realised that it was because the credit card registered with GDS had expired. Updating the details had us back up and running immediately. We're now planning to put something in place that helps ensure we're alerted to this problem much sooner in future.
+We had an urgent email on Friday afternoon reporting that the playlists weren't working in the Hookline music app! We soon realised that it was because the credit card registered with AWS had expired. Updating the details had us back up and running immediately. We're now planning to put something in place that helps ensure we're alerted to this problem much sooner in future.
 
 ## Mocha
 
@@ -36,13 +44,11 @@ James investigated the problem described in [issue 286][mocha-issue-286] and dec
 
 ## Chess
 
-James did some more work on this on Friday although ran into problems trying to get the board wired up to a bread board.
-
-TODO: Expand on this.
+James spent some time working with the chess boards he'd purchased. It sounds as though connecting the chess board computer to a breadboard became was much harder, and frustrating, than expected!
 
 ## Social
 
-We headed to the Calthorpe Arms for our monthly drinks on Wednesday. I've not been there before but really liked the feel of the pub.
+We headed to the Calthorpe Arms for our monthly drinks on Wednesday. It wasn't too busy but had a pretty good atmosphere, served delicious beer and the food looked pretty good too!
 
 Until next time.
 
