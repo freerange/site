@@ -64,10 +64,10 @@ Until next time.
 [trello]: https://trello.com/
 
 :name: week-411
-:updated_at: 2016-12-05 16:37:55.065520000 +00:00
-:created_at: 2016-12-05 16:37:55.065509000 +00:00
+:updated_at: 2016-12-08 10:27:16.377238000 +00:00
+:created_at: 2016-12-08 10:27:16.377231000 +00:00
 :render_as: Blog
-:kind: draft
+:kind: blog
 :is_page: true
 :written_with: markdown
 :author: chris-roos
