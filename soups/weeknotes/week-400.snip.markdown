@@ -30,7 +30,8 @@ Week 400
 :updated_at: 2016-09-14 10:48:29.831940000 +01:00
 :created_at: 2016-09-14 10:48:29.831914000 +01:00
 :render_as: Blog
-:kind: draft
+:kind: blog
+:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos

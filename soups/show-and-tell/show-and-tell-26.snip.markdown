@@ -116,7 +116,8 @@ James showed us how he's been
 :updated_at: 2016-10-27 12:05:21.318640000 +01:00
 :created_at: 2016-10-27 12:05:21.318624000 +01:00
 :render_as: blog
-:kind: draft
+:kind: show-and-tell
+:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos

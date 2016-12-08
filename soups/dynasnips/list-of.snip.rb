@@ -9,7 +9,7 @@ class ListOf < Dynasnip
       el = options[:element]
       kinds = kind.split(',')
 
-      entries = kinds.flat_map { |k| soup[:kind => k] }.sort_by { |e| e.created_at }.reverse
+      entries = kinds.flat_map { |k| soup[:kind => k] }.reject { |s| s.draft }.sort_by { |e| e.created_at }.reverse
       entries = entries[0..limit.to_i] unless limit == nil
 
       value = entries.length + 1

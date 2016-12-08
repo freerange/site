@@ -6,7 +6,8 @@ Week NNN - Interesting links
 Your comments here. {by chris-roos}
 
 :render_as: Blog
-:kind: draft
+:kind: blog
+:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos

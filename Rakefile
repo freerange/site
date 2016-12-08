@@ -125,7 +125,7 @@ namespace :week do
         abort "No weeknotes snip found for GFR week number #{week_number}"
       end
 
-      snip.kind = 'blog'
+      snip.attributes.delete(:draft)
       snip.created_at = Time.now
       snip.updated_at = Time.now
       snip.save
@@ -181,7 +181,7 @@ namespace :week do
         abort "No weeklinks snip found for GFR week number #{week_number}"
       end
 
-      snip.kind = 'blog'
+      snip.attributes.delete(:draft)
       snip.created_at = Time.now
       snip.updated_at = Time.now
       snip.save
@@ -236,7 +236,7 @@ namespace 'show-and-tell' do
       abort "No show-and-tell snip found for event number #{event_number}"
     end
 
-    snip.kind = 'show-and-tell'
+    snip.attributes.delete(:draft)
     snip.created_at = Time.now
     snip.updated_at = Time.now
     snip.save
