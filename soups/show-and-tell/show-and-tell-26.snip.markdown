@@ -7,6 +7,8 @@ Show and Tell 26
 
 ### Attendees
 
+![Show & Tell 26 at Forge & Co](/images/blog/2016-11-09-show-and-tell-26-group.jpg)
+
 Me
 James M
 Ben G
@@ -22,11 +24,17 @@ Murray
 
 ### Tom S - Lambda calculus
 
+![Tom S at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-tom-s.jpg)
+
 Tom demo'd the latest iteration of his tool to help people interact with and understand Lambda Calculus (see Show & Tell 24 for notes about the previous version). Based on feedback about the Ruby version (both from the London Computation Club and elsewhere) Tom has ported it to JavaScript and made an impressive looking web GUI.
 
 The similarities between RSpec and Jasmine meant that he was able to programmatically convert his Ruby tests to JavaScript. Having these tests in place made it _relatvely_ trivial to implement all the functionality in JavaScript.
 
-With the library in place, he was able to use React GUI to build the interface over the top.
+With the library in place, he was able to use React GUI to build the interface over the top. He then used [create-react-app] to
+
+"lashed-together React prototype to a modern toolchain (Babel precompilation with Webpack, a linter, a minifier, a command-line test runner etc)"
+
+[create-react-app]: https://github.com/facebookincubator/create-react-app
 
 The whole thing is brought together using Webpack.
 
@@ -34,6 +42,8 @@ I'm really impressed by Tom's perseverence with this particular problem and was 
 
 
 ### James A - Science Museum Lates
+
+![James A at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-james-a-science-museum-lates.jpg)
 
 26 Oct Science Museum Lates
 * http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/eventssummary/event_21-10-2016-11-35-16
@@ -46,6 +56,8 @@ I'm really impressed by Tom's perseverence with this particular problem and was 
 * Almost no programming required
 
 ### James A - Thermostat
+
+![James A at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-james-a-thermostat.jpg)
 
 James was
 
@@ -66,6 +78,8 @@ James showed us how he's been
 
 ### Alex - Hardware time tracker
 
+![Alex at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-alex-s.jpg)
+
 * [Espruino][espruino] - £25
 * Battery powered 4 year life
 * USB powered
@@ -84,6 +98,10 @@ James showed us how he's been
 
 ### Ben/James/Chris
 
+![Ben at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-ben-g-chess-1.jpg)
+
+![Ben demoing chess board image recognition at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-ben-g-chess-2.jpg)
+
 * Ben has migraines
 * Been playing more physical games with the kids (e.g. card games)
 * Interesting idea to add soundtracks to games - do it manually by playing soundtracks but it'd be good if the music could react to what's happening in the game
@@ -94,6 +112,8 @@ James showed us how he's been
 * Someone said that it "sounds like how I imagine chess"
 
 ### Rob C
+
+![Rob C at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-rob-c.jpg)
 
 * Continuation of the demo he gave last time
 * More frequently test students
