@@ -7,7 +7,7 @@ Show and Tell 26
 
 ![Show & Tell 26 at Forge & Co](/images/blog/2016-11-09-show-and-tell-26-group.jpg)
 
-We had a full house for Show & Tell 26, including a couple of new faces. [Riccardo][riccardo-cambiassi] was joined by his colleagues from [100 Starlings][100-starlings], [Alex][alex-stubbs] and Laslow (apologies if I've mis-spelled this!). It was good to see Alex having last seen him about 6 years ago when we worked at Headshift. We were also joined by [Ben G][ben-griffiths], [James A][james-adam], [Murray][murray-steele], [Pablo][pablo-manrubia], [Rob C][rob-chatley], [Tadas][tadas-tamosauskas] and [Tom S][tom-stuart].
+We had a full house for Show & Tell 26, including a couple of new faces. [Riccardo][riccardo-cambiassi] was joined by his colleagues from [100 Starlings][100-starlings]: [Alex][alex-stubbs] and Laslow (apologies if I've mis-spelled this!). It was good to see Alex having last seen him about 6 years ago when we worked at Headshift. We were also joined by [Ben G][ben-griffiths], [James A][james-adam], [Murray][murray-steele], [Pablo][pablo-manrubia], [Rob C][rob-chatley], [Tadas][tadas-tamosauskas] and [Tom S][tom-stuart].
 
 [100-starlings]: https://github.com/100Starlings
 [alex-stubbs]: https://twitter.com/alexstubbs
@@ -20,6 +20,8 @@ We had a full house for Show & Tell 26, including a couple of new faces. [Riccar
 [tom-stuart]: http://codon.com/
 [tadas-tamosauskas]: http://codeme.lt/
 
+---
+
 ### Tom S - Lambda calculus
 
 ![Tom S at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-tom-s.jpg)
@@ -28,16 +30,13 @@ Tom demo'd the latest iteration of his tool to help people interact with and und
 
 The similarities between RSpec and Jasmine meant that he was able to programmatically convert his Ruby tests to JavaScript. Having these tests in place made it _relatvely_ trivial to implement all the functionality in JavaScript.
 
-With the library in place, he was able to use React GUI to build the interface over the top. He then used [create-react-app] to
-
-"lashed-together React prototype to a modern toolchain (Babel precompilation with Webpack, a linter, a minifier, a command-line test runner etc)"
-
-[create-react-app]: https://github.com/facebookincubator/create-react-app
-
-The whole thing is brought together using Webpack.
+With the library in place, he was able to use React GUI to build the interface over the top. He then used [create-react-app] to convert his "lashed-together React prototype to a modern toolchain (Babel precompilation with Webpack, a linter, a minifier, a command-line test runner etc)"
 
 I'm really impressed by Tom's perseverence with this particular problem and was happy to hear that the latest version seems to be doing its job. Tom now gets questions about Lambda Calculus rather than the tool he's using to try to teach it.
 
+[create-react-app]: https://github.com/facebookincubator/create-react-app
+
+---
 
 ### James A - Science Museum Lates
 
@@ -53,61 +52,53 @@ I'm really impressed by Tom's perseverence with this particular problem and was 
 * Built a visualisation of the spread of disease
 * Almost no programming required
 
+---
+
 ### James A - Thermostat
 
 ![James A at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-james-a-thermostat.jpg)
 
-James was
+Frustrated with having to leave his chair to adjust the heating, James has been exploring how to make his life easier by connecting his thermostat to a [Spark Core][spark-core]. The combination of the Wi-Fi enabled Spark Core and the [Particle Cloud API][particle-cloud-api] allowed James to build a simple webapp that allowed him to turn the heating on and off from the comfort of his chair. James was particularly impressed by the ease at which the Spark Core handles HTTP, particularly when contrasting it with the pain of trying to get an Arduino to deal with HTTP.
 
-James showed us how he's been
+With this basic system in place, he added a [Raspberry Pi Zero][raspberry-pi-zero] and temperature sensor so that he could enable/disable the heating based on the ambient temperature of the room. He did this by using [Dweet][dweet] to send the temperature data to an app running on the web.
 
-* Bad thermostat in his house
-* Could've bought something (e.g. Nest) but decided it'd be fun to make something himself
-* It was surprisingly easy
-* He used a relay and [Spark Core][spark-core]. Spark Core appears to be owned by Particle? Although it's not clear you can still buy them.
-* USP of board is that you don't have to think about HTTP - contrast this with Arduino where you have to interact with HTTP at a very low level
-* Particle HTTP API - 3rd party service?
-* First version of the web app - heat-o-tron - allowed him to turn the heating on/off from his computer - i.e. without having to get up and go downstairs
-* Using [Dweet][dweet] to send temp. data from [Raspberry Pi Zero][raspberry-pi-zero] - this allows him to build a thermostat by turning the heater on if the temperature isn't at a set level
-* Next version allows him to set a timer for the heating system to be turned on/off on a schedule
+He finished up by showing us the next version of the app that allows him to set the temperature based on a schedule.
 
 [dweet]: https://dweet.io/
+[particle-cloud-api]: https://docs.particle.io/reference/api/
 [raspberry-pi-zero]: https://www.raspberrypi.org/products/pi-zero/
+[spark-core]: https://www.adafruit.com/product/2127
+
+---
 
 ### Alex - Hardware time tracker
 
 ![Alex at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-alex-s.jpg)
 
-* [Espruino][espruino] - £25
-* Battery powered 4 year life
-* USB powered
-* Chrome development environment
-* Runs JavaScript
-* Includes direction sensor and temperature sensor
-* Fibbo? Mesh network
-  * £40 for 1/2 switch device
-* Esprino / [Puck.js][puck-js]
-* Use case
-  * Time tracking with a physical device - Button on/off
-  * Point at time/client? on a piece of paper
+Alex talked about and showed us his [Espruino Pico][espruino-pico]. It sounds a bit similar to an Arduino or Raspberry Pi but comes with the [Espruino][espruino] JavaScript interpreter and a web based development environment. Alex sounds particularly interested in the soon-to-be-available [Puck.js][puck-js]. If I understood correctly, he's imagining making use of the built-in Magnetometer to build a time tracking app that works by rotating the Puck.js to point at a particular project.
 
 [espruino]: https://www.espruino.com/
+[espruino-pico]: https://www.espruino.com/Pico
 [puck-js]: https://www.kickstarter.com/projects/gfw/puckjs-the-ground-breaking-bluetooth-beacon
 
-### Ben/James/Chris
+---
+
+### Ben - Chess fun times
 
 ![Ben at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-ben-g-chess-1.jpg)
 
 ![Ben demoing chess board image recognition at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-ben-g-chess-2.jpg)
 
-* Ben has migraines
-* Been playing more physical games with the kids (e.g. card games)
-* Interesting idea to add soundtracks to games - do it manually by playing soundtracks but it'd be good if the music could react to what's happening in the game
-* We decided to focus on chess
-* Rules engines are relatively easy to use
-* Amazing what you can now achieve using JS alone
-* Ben moved on to image recognition version so that it could recognise real chess board
-* Someone said that it "sounds like how I imagine chess"
+Ben demoed the chess project that he, James and I worked on in [weeks 407][week-407-fun-times] and 408.
+
+He gave a brief overview of how we'd approach the problem before diving straight in and showing the game we'd built. Everyone seemed suitably impressed by the incredibly atmospheric dynamic sound track that accompanied the game :-) [Check it out][chess-game]!
+
+Ben then went into some detail about the image recognition work he'd been doing in our absence. The hope is that we can add dynamic audio tracks to real games of chess although it looks like there's more work required before this will be possible.
+
+[chess-game]: https://techbelly.github.io/game-soundtrack/webaudio/
+[week-407-fun-times]: /week-407#fun-times
+
+---
 
 ### Rob C
 
