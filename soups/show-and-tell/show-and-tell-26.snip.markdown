@@ -5,22 +5,20 @@ Show and Tell 26
 * Where: Forge and Co, 154-158 Shoreditch High St, London E1 6HU
 * Links: [attending.io][attending-io-show-and-tell-26]
 
-### Attendees
-
 ![Show & Tell 26 at Forge & Co](/images/blog/2016-11-09-show-and-tell-26-group.jpg)
 
-Me
-James M
-Ben G
-Pablo
-Tadas
-Rob C
-Laslow
-Tom S
-Riccardo
-Alex
-James A
-Murray
+We had a full house for Show & Tell 26, including a couple of new faces. [Riccardo][riccardo-cambiassi] was joined by his colleagues from [100 Starlings][100-starlings], [Alex][alex-stubbs] and Laslow (apologies if I've mis-spelled this!). It was good to see Alex having last seen him about 6 years ago when we worked at Headshift. We were also joined by [Ben G][ben-griffiths], [James A][james-adam], [Murray][murray-steele], [Pablo][pablo-manrubia], [Rob C][rob-chatley], [Tadas][tadas-tamosauskas] and [Tom S][tom-stuart].
+
+[100-starlings]: https://github.com/100Starlings
+[alex-stubbs]: https://twitter.com/alexstubbs
+[ben-griffiths]: https://twitter.com/beng
+[james-adam]: http://lazyatom.com/
+[murray-steele]: https://twitter.com/#!/hlame
+[pablo-manrubia]: http://pmanrubia.info/
+[riccardo-cambiassi]: https://github.com/bru
+[rob-chatley]: https://www.doc.ic.ac.uk/~rbc/
+[tom-stuart]: http://codon.com/
+[tadas-tamosauskas]: http://codeme.lt/
 
 ### Tom S - Lambda calculus
 
