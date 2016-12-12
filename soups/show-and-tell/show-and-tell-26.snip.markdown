@@ -100,24 +100,19 @@ Ben then went into some detail about the image recognition work he'd been doing 
 
 ---
 
-### Rob C
+### Rob C - Education for Engineers
 
 ![Rob C at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-rob-c.jpg)
 
-* Continuation of the demo he gave last time
-* More frequently test students
-  * Problem of more frequently needing to mark assignments
-* CI like system for students to push their responses to tests and have them automatically marked against a set number of criteria
-* They'd like to make it usable outside of the computing department
-* Rob was mostly asking for feedback on what they might try
-* I think they're using a combination of Gitlab and some inhouse software for the current system
-* Create all repos for all students - what does this mean?
-* Main objective of the system is to get more feedback to the students quicker
-* Code wars - what does this mean?
-  * Can run tests against students solution
-* Lots of ideas from the group
-  * Focussed on using familiar tools to help
-    * e.g. GitHub, PRs, branches and tags
+Rob went into more detail about his teaching process and systems that he demonstrated in [Show & Tell 24][show-and-tell-24].
+
+I hadn't quite appreciated how much of the system that Rob described previous is actually in place. It's certainly more advanced that I'd envisaged from the demo last time.
+
+Despite being fairly full featured there are still areas that Rob would like to improve (e.g. make it possible to use the system outside of the computing department) and he used this opportunity to ask for feedback on some of his ideas.
+
+There were lots of suggestions from the group, particularly around the idea of utilising existing software (e.g. GitHub) or at least existing terminology (e.g. branches and Pull Requests). I really hope Rob found it useful and look forward to hearing about how it's evolved at a future Show and Tell.
+
+[show-and-tell-24]: /show-and-tell-24#education-for-engineers
 
 [attending-io-show-and-tell-26]: https://attending.io/events/gfr-show-and-tell-26/
 
