@@ -26,7 +26,7 @@ We had a full house for Show & Tell 26, including a couple of new faces. [Riccar
 
 ![Tom S at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-tom-s.jpg)
 
-Tom demoed the latest iteration of his tool to help people interact with and understand Lambda Calculus (see Show & Tell 24 for notes about the previous version). Based on feedback about the Ruby version (both from the London Computation Club and elsewhere) Tom has ported it to JavaScript and made an impressive looking web GUI.
+Tom demoed the latest iteration of his tool to help people interact with and understand Lambda Calculus (see [Show & Tell 24][show-and-tell-24-lambda-calculus] for notes about the previous version). Based on feedback about the Ruby version (both from the London Computation Club and elsewhere) Tom has ported it to JavaScript and made an impressive looking web GUI.
 
 The similarities between RSpec and Jasmine meant that he was able to programmatically convert his Ruby tests to JavaScript. Having these tests in place made it _relatvely_ trivial to implement all the functionality in JavaScript.
 
@@ -34,6 +34,7 @@ With the library in place, he was able to use React GUI to build the interface o
 
 I'm really impressed by Tom's perseverence with this particular problem and was happy to hear that the latest version seems to be doing its job. Tom now gets questions about Lambda Calculus rather than the tool he's using to try to teach it.
 
+[show-and-tell-24-lambda-calculus]: /show-and-tell-24#lambda-calculus
 [create-react-app]: https://github.com/facebookincubator/create-react-app
 
 ---
