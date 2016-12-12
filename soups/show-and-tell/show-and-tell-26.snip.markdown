@@ -38,9 +38,15 @@ I'm really impressed by Tom's perseverence with this particular problem and was 
 
 ---
 
-### James A - Science Museum Lates
+### James A - Contagion
 
 ![James A at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-james-a-science-museum-lates.jpg)
+
+James A described his involvement in Contagion: a Science Museum Lates event in October.
+
+He built software to help The London School of Hygiene & Tropical Medicine model and illustrate the spread of infectious diseases using the visitors at the event.
+
+Visitors were given stickers with QR codes. The QR codes contained a URL that included a number. This
 
 26 Oct Science Museum Lates
 * http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/eventssummary/event_21-10-2016-11-35-16
