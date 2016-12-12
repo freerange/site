@@ -43,21 +43,17 @@ I'm really impressed by Tom's perseverence with this particular problem and was 
 
 ![James A at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-james-a-science-museum-lates.jpg)
 
-James A described his involvement in Contagion: a Science Museum Lates event in October.
+James A described his involvement in Contagion: a [Science Museum Lates][science-museum-lates] event in October.
 
-He built software to help The London School of Hygiene & Tropical Medicine model and illustrate the spread of infectious diseases using the visitors at the event.
+He built software to help [The London School of Hygiene & Tropical Medicine][lshtm] (LSHTM) model and illustrate the spread of infectious diseases. Visitors on the night were "infected" when someone else stickered them with a QR code. Once infected they would report to the "Health Centre", have their QR code scanned and then receive their own stickers to infect other people.
 
-Visitors were given stickers with QR codes. The QR codes contained a URL that included a number. This
+James used a free QR code reader app to send information encoded within the QR code to the software he'd written. The software helped track the spread of the infection, who gave it to who, when and on which floor of the museum. All of which was then used to visualise the spread of infection, as seen in this tweet from LSHTM:
 
-26 Oct Science Museum Lates
-* http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/eventssummary/event_21-10-2016-11-35-16
-* James's tweet about it - https://twitter.com/lazyatom/status/791382964336721926
-* Demonstrate spread of disease
-* "Marketing exercise for the university" (which?)
-* Largest game they've run to date
-* They used to use pegs + codes but have now switched to QR codes
-* Built a visualisation of the spread of disease
-* Almost no programming required
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Here is the whole outbreak at last weeks <a href="https://twitter.com/hashtag/SMLates?src=hash">#SMLates</a> - Thanks for inviting us <a href="https://twitter.com/sciencemuseum">@sciencemuseum</a>, we had a lot of fun. <a href="https://t.co/7zWjQd5YGW">pic.twitter.com/7zWjQd5YGW</a></p>&mdash; cmmid_lshtm (@cmmid_lshtm) <a href="https://twitter.com/cmmid_lshtm/status/794204355020918784">November 3, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[lshtm]: https://www.lshtm.ac.uk/
+[science-museum-lates]: http://www.sciencemuseum.org.uk/visitmuseum/plan_your_visit/lates
 
 ---
 
