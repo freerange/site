@@ -120,11 +120,10 @@ There were lots of suggestions from the group, particularly around the idea of u
 [attending-io-show-and-tell-26]: https://attending.io/events/gfr-show-and-tell-26/
 
 :name: show-and-tell-26
-:updated_at: 2016-10-27 12:05:21.318640000 +01:00
-:created_at: 2016-10-27 12:05:21.318624000 +01:00
+:updated_at: 2016-12-12 17:42:04.028577000 +00:00
+:created_at: 2016-12-12 17:42:04.028569000 +00:00
 :render_as: blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
