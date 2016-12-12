@@ -41,13 +41,11 @@ I came across this tool in the [Ruby Together progress report for December][]. A
 [Ruby Together progress report for December]: https://rubytogether.org/news/2016-11-30-november-2016-monthly-update
 [example-how-is-report]: https://how-is.github.io/how-is-rubygems/2016/12/01/report.html
 
-
 :name: week-412-links
-:updated_at: 2016-12-12 12:31:44.610070000 +00:00
-:created_at: 2016-12-12 12:31:44.610054000 +00:00
+:updated_at: 2016-12-12 14:27:03.117408000 +00:00
+:created_at: 2016-12-12 14:27:03.117398000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
