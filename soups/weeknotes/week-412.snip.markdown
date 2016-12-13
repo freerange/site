@@ -46,7 +46,7 @@ Having done a bit more investigation in the course of writing this post, it look
 [open-2017]: https://2017.open.coop/
 [platform-coop-post]: https://medium.com/@trebors/platform-cooperativism-vs-the-sharing-economy-2ea737f1b5ad#.r8l8laoqa
 
-## Digial Outcomes & Specialists 2
+## Digital Outcomes & Specialists 2
 
 We finalised our submission for the [Digital Outcomes and Specialists 2 framework][dosf2]. We both agreed that we were happy to stick with the same offerings that we listed in DOS1 which made the process _slightly_ less cumbersome.
 
