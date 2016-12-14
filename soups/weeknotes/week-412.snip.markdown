@@ -57,11 +57,10 @@ That's about all for this week. Until next time.
 -- Chris
 
 :name: week-412
-:updated_at: 2016-12-12 18:19:59.303743000 +00:00
-:created_at: 2016-12-12 18:19:59.303730000 +00:00
+:updated_at: 2016-12-14 11:14:14.457688000 +00:00
+:created_at: 2016-12-14 11:14:14.457679000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
