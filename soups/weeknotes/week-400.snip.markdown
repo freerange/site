@@ -7,7 +7,7 @@ I've summarised what we did in bullet point form as it all happened quite a whil
 
 * Spent Tuesday and part of Wednesday working on Fun Times projects - mostly so that we had something to demonstrate at Show & Tell. I chose to learn about [TensorFlow][tensorflow] while James explored various options for hosting content; notably static site generators and wikis.
 
-* Hosted [Show & Tell 25][show-and-tell-25] at Forge & Co on Wednesday.
+* Hosted [Show & Tell 24][show-and-tell-24] at Forge & Co on Wednesday.
 
 * Continued to work through our annual accounts.
 
@@ -29,7 +29,7 @@ I've summarised what we did in bullet point form as it all happened quite a whil
 [kvm]: https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
 [Linode]: http://www.linode.com/
 [passenger]: https://www.phusionpassenger.com/
-[show-and-tell-25]: /show-and-tell-25
+[show-and-tell-24]: /show-and-tell-24
 [tensorflow]: https://www.tensorflow.org/
 [uk-postbox]: https://www.ukpostbox.com/
 [urban-locker]: http://urbanlocker.co.uk/
