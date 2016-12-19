@@ -26,11 +26,10 @@ _Note that we're writing these notes nearly 6 months late which is why they're i
 * Investigated why it doesn't appear to be possible to join the Show & Tell email group. Added a note to the web page to explain that it's a known problem.
 
 :name: week-398
-:updated_at: 2016-12-16 14:29:19.913873000 +00:00
-:created_at: 2016-12-16 14:29:19.913856000 +00:00
+:updated_at: 2016-12-19 13:15:17.233112000 +00:00
+:created_at: 2016-12-19 13:15:17.233104000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
