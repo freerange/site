@@ -104,14 +104,24 @@ https://techbelly.github.io/writing/Hough-Transform/#asterisk-1
 
 ![Edward at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-edward.jpg)
 
-"Google books for all the books I've read"
-Used to manually mark anecdotes when he came across them - it's interesting to see the same anecdote being copied by multiple authors.
-Decided to use a search engine to help him do this.
-He's used solr to index all the ebooks he's read.
-Demonstrated by searching for "first square of the chessboard". Had to enable searching of "stop words" (e.g. "of" and "the") as these are sometimes important (e.g. in the chessboard phrase in this sentence).
+Edward talked about a project he's been working on recently to build a ["Google books for all the books I've read"][monograph].
+
+A voracious reader; he's been manually recording anecdotes and the books they appear in for a while. He's interested in how the same anecdotes are used by different authors, possibly pointing at some relationship between those texts.
+
+He's recently improved this manual process by indexing the content of all the books he's read in order to automatically track phrases he's interested in.  He's using [Solr][solr] to index the content and was pleasantly surprised by the ease at which he could build the functionality. It sounds as though most of the work is in configuring Solr by, for example, enabling the searching of [stop words][stop-words] as they often appear in the phrase he's interested.
+
+He's currently indexing all the content of the book but can imagine a further improvement where he ignores things like the table of contents and notes.
+
+Fortunately, Edward was able to appease our need for chess related things by showing us results for ["first square of the chessboard"][first-square-of-the-chessboard] and ["Freestyle chess"][freestyle-chess]. Freestyle chess sounds like an evolution of chess that pits teams of humans and computers against each other.
+
+[first-square-of-the-chessboard]: https://edwardbetts.com/monograph/first_square_of_the_chessboard
+[freestyle-chess]: https://edwardbetts.com/monograph/Freestyle_chess
+[monograph]: https://edwardbetts.com/monograph/
+
+
+
+
 "Freestyle chess" - teams of humans and machines have proved to be the best combo - they can still beat machines in a way that humans no longer can.
-Improvements
-  He's currently indexing all the text but it'd be better if he could ignore things like the table of contents and possible any notes that appear in the book.
 Edward uses Goodreads to log his reading and Amazon to review books. These both provide him with recommendations.
 He made this public and now appears on the first page of google (although possibly only for his results) when searching for "everywhere but in the productivity stats".
 He includes his amazon affiliate link in the links to books
