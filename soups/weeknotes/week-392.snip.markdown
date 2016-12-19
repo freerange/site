@@ -18,11 +18,10 @@ We're starting to make plans for August. We're hoping to spend at least a week w
 [smart-answers-pr-2648]: https://github.com/alphagov/smart-answers/pull/2648
 
 :name: week-392
-:updated_at: 2016-12-16 16:03:29.413506000 +00:00
-:created_at: 2016-12-16 16:03:29.413496000 +00:00
+:updated_at: 2016-12-19 13:15:03.149262000 +00:00
+:created_at: 2016-12-19 13:15:03.149254000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
