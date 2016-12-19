@@ -26,11 +26,10 @@ _Note that we're writing these notes nearly 6 months late which is why they're i
 * [Spike: Avoid using worldwide api helpers in regression tests #2581](https://github.com/alphagov/smart-answers/pull/2581)
 
 :name: week-387
-:updated_at: 2016-12-16 17:45:33.964279000 +00:00
-:created_at: 2016-12-16 17:45:33.964265000 +00:00
+:updated_at: 2016-12-19 13:14:45.702670000 +00:00
+:created_at: 2016-12-19 13:14:45.702662000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
