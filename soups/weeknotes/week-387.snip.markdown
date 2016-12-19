@@ -5,7 +5,7 @@ _Note that we're writing these notes nearly 6 months late which is why they're i
 
 ## GFR
 
-* Created a monthly task to track the time we each spend per project. The hope is that we'll be able to use to understand the time cost of some of the things we currently prioritise.
+* Created a monthly task to track the time we each spend per project. The hope is that we'll be able to use this to understand the time cost of some of the things we currently prioritise.
 
 * Discussed attending the Digital Coops retreat.
 
