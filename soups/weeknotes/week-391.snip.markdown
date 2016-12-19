@@ -49,13 +49,11 @@ We spent four days working on Smart Answers and Friday working on GFR.
 * [Split marriage-abroad outcome for opposite sex ceremonies in affirmation countries](https://github.com/alphagov/smart-answers/pull/2626)
 * [Update regression tests first for marriage-abroad Denmark change #2591](https://github.com/alphagov/smart-answers/pull/2591)
 
-
 :name: week-391
-:updated_at: 2016-12-16 16:30:56.508527000 +00:00
-:created_at: 2016-12-16 16:30:56.508495000 +00:00
+:updated_at: 2016-12-19 13:14:57.750381000 +00:00
+:created_at: 2016-12-19 13:14:57.750373000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
