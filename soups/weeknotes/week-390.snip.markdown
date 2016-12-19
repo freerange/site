@@ -28,11 +28,10 @@ _Note that we're writing these notes nearly 6 months late which is why they're i
 * [Documentation improvements (with feedback addressed) #2625](https://github.com/alphagov/smart-answers/pull/2625)
 
 :name: week-390
-:updated_at: 2016-12-16 17:28:33.769198000 +00:00
-:created_at: 2016-12-16 17:28:33.769189000 +00:00
+:updated_at: 2016-12-19 13:14:51.599918000 +00:00
+:created_at: 2016-12-19 13:14:51.599909000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
