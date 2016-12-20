@@ -58,11 +58,10 @@ _Note that we're writing these notes nearly 6 months late which is why they're i
 [Michael Grosser]: https://github.com/grosser
 
 :name: week-388
-:updated_at: 2016-12-19 15:44:42.029303000 +00:00
-:created_at: 2016-12-19 15:44:42.029282000 +00:00
+:updated_at: 2016-12-20 16:24:42.585639000 +00:00
+:created_at: 2016-12-20 16:24:42.585628000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
