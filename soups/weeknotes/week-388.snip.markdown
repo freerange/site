@@ -19,7 +19,7 @@ _Note that we're writing these notes nearly 6 months late which is why they're i
 
 * I had some problems with our payroll RTI submission via FreeAgent. FreeAgent's support team said that problem was with the government gateway. Eventually I decided to make the salary payments on time, even though the payroll had not yet been successfully submitted.
 
-* I investigated why a recent [Webhooks][] exception was not reported to our [Errbit][] instance. I didn't completly get to the bottom of this, but I'm pretty sure it was because the exception occurred in the parsing of the HTTP query string parameters which is an area of code somehow not covered by [Airbrake][].
+* I investigated why a recent [Webhooks][] exception was not reported to our [Errbit][] instance. I didn't completely get to the bottom of this, but I'm pretty sure it was because the exception occurred in the parsing of the HTTP query string parameters which is an area of code somehow not covered by [Airbrake][].
 
 * I also investigated and [worked around another Webhooks exception](https://github.com/freerange/webhooks/issues/21) and requested a proper fix in Harmonia.
 
