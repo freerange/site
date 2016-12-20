@@ -67,7 +67,7 @@ James went on to show us the progress he's making on hacking the computer chess 
 
 ![Ben G talking about chess at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-ben-g-chess.jpg)
 
-Ben was going to talk about getting side-tracked while trying to write a blog post. But he got side-tracked and talked about chess instead. Well, at least for a minute anyway :-)
+Ben was going to talk about getting side-tracked while trying to write a blog post. But he got side-tracked and talked about chess instead. Well, at least for a minute anyway.
 
 Ben continued the chess theme by showing us this [blog post about surprising moves in chess games][surprising-moves-in-chess-games] (this appears to be down at the moment but the [Google Cache version][surprising-moves-in-chess-game-cache] seems to work). The author used [Stockfish][stockfish] and [python-chess][python-chess] to highlight moves that might seem completely bizarre to a novice observer but turn out to be advantageous in the long term.
 
@@ -78,25 +78,20 @@ Ben continued the chess theme by showing us this [blog post about surprising mov
 
 ![Ben G talking about Viewpoints Research Initiative at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-ben-g-nile.jpg)
 
-Continuing with the chess theme; Ben talked about a blog post he wrote in order to help learn about and understand the [Hough Transform][hough-transform]. He'd mostly finished writing when he became frustrated by the difficulty of trying to animate the illustrations he'd included to help explain the maths. This frustration led him to re-explore the work of Alan Kay's Viewpoints Research Initiative.
+Ben talked about a [blog post he wrote][hough-transform-beng] in order to help him understand the [Hough Transform][hough-transform]: the image recognition technique he was using to try to recognise pieces on a chess board. He'd mostly finished writing the post when he started to investigate how to animate the illustrations he'd included to help explain the maths. This proved much harder than expected and resulted in a 6 week detour of the work of Alan Kay's [Viewpoints Research Institute][vpri].
 
+Ben gave us a bit of an overview of STEPS (STEPS Toward Express Programming Systems) and the [Nile programming language][nile]. One of the goals of STEPS is for it to be written in a maximum of 20,000 lines of code:
 
+> We set a limit of 20,000 lines of code to express all of the “runnable meaning” of personal computing (“from the end‐user down to the metal”) where “runnable meaning” means that the system will run with just this code (but could have added optimizations to make it run faster).
+
+I've not been able to find a canonical set of information about the STEPS project. The information appears to be spread across [multiple reports on the VPRI site][vpri-writings] with the most up to date report being ["STEPS Toward he Reinvention of Programming, 2012 Final Report"][steps-2012].
+
+[hough-transform-beng]: https://techbelly.github.io/writing/Hough-Transform/
 [hough-transform]: https://en.wikipedia.org/wiki/Hough_transform
-
-Wants to publish a blog post that he wrote 6 weeks ago. Got frustrated by how hard it was to animate some the visuals he'd included. Ended up exploring more of Alan Kay's work in Viewpoints research initiative.
-  They've received lots of money to re-imagine programming "steps"
-  They're interested in what they can build in 20,000 lines of code
-    This is about the size of a book
-    It'd be really interesting to sit down and read/understand a computer system in about a month.
-    "Publish in a book and put on a shelf"
-      Reminded me of Ben's idea of some kind of Ruby magazine that contains reference information that people would want to come back to in future.
-  Interesting take on performance - imagine what we might be able to do in 20 years - work on what we might be able to do in 10 - we can then pay to get that performance now.
-  NILE programming language - reimplemented Cairo + Skia web rendering engine.
-  Ben got some version of their text editor running in the Squeak VM.
-  They talk about biological rather than mathematical systems.
-
-https://github.com/damelang/nile
-https://techbelly.github.io/writing/Hough-Transform/#asterisk-1
+[nile]: https://github.com/damelang/nile
+[steps-2012]: http://www.vpri.org/pdf/tr2012001_steps.pdf
+[vpri]: http://www.vpri.org/
+[vpri-writings]: http://www.vpri.org/html/writings.php
 
 ---
 
@@ -104,30 +99,25 @@ https://techbelly.github.io/writing/Hough-Transform/#asterisk-1
 
 ![Edward at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-edward.jpg)
 
-Edward talked about a project he's been working on recently to build a ["Google books for all the books I've read"][monograph].
+Edward showed us a recent project he's been working on to build a ["Google books for all the books I've read"][monograph].
 
-A voracious reader; he's been manually recording anecdotes and the books they appear in for a while. He's interested in how the same anecdotes are used by different authors, possibly pointing at some relationship between those texts.
+A voracious reader; he's been manually recording anecdotes and the books they appear in for a while. He's interested in seeing the same anecdote repeated by different authors; possibly pointing at some relationship between those texts.
 
-He's recently improved this manual process by indexing the content of all the books he's read in order to automatically track phrases he's interested in.  He's using [Solr][solr] to index the content and was pleasantly surprised by the ease at which he could build the functionality. It sounds as though most of the work is in configuring Solr by, for example, enabling the searching of [stop words][stop-words] as they often appear in the phrase he's interested.
+He's recently improved this manual process by indexing the content of all the books he's read in order to automatically track phrases he's interested in.  He's using [Solr][solr] to index the content and was pleasantly surprised by how little programming he had to do. It sounds as though most of the work is in configuring Solr by, for example, enabling the searching of [stop words][stop-words] as they often appear in the phrase he's interested.
 
 He's currently indexing all the content of the book but can imagine a further improvement where he ignores things like the table of contents and notes.
 
-Fortunately, Edward was able to appease our need for chess related things by showing us results for ["first square of the chessboard"][first-square-of-the-chessboard] and ["Freestyle chess"][freestyle-chess]. Freestyle chess sounds like an evolution of chess that pits teams of humans and computers against each other.
+Fortunately, Edward was able to appease our need for chess related things by showing us results for ["first square of the chessboard"][first-square-of-the-chessboard] and ["Freestyle chess"][freestyle-chess] (apparently combinations of humans and computers playing against each other!)
+
+Edward includes his Amazon affiliate link on the links to the books that appear in his search results. I was interested to hear that Amazon don't attempt to redirect the visitor to the Amazon store for their country and always send them to amazon.com instead. Apparently there are third party libraries that offer this functionality but they do so at the cost of injecting their own affiliate links every so often.
+
+Edward worked at the Internet Archive working on similar book scanning problems so has some experience.
 
 [first-square-of-the-chessboard]: https://edwardbetts.com/monograph/first_square_of_the_chessboard
 [freestyle-chess]: https://edwardbetts.com/monograph/Freestyle_chess
 [monograph]: https://edwardbetts.com/monograph/
-
-
-
-
-"Freestyle chess" - teams of humans and machines have proved to be the best combo - they can still beat machines in a way that humans no longer can.
-Edward uses Goodreads to log his reading and Amazon to review books. These both provide him with recommendations.
-He made this public and now appears on the first page of google (although possibly only for his results) when searching for "everywhere but in the productivity stats".
-He includes his amazon affiliate link in the links to books
-  Amazon doesn't handle territories - it always sends you to .com (I think). There are libraries that handle redirection based on IP (presumably) but they'll then inject their affiliate code every x requests.
-One of the good things about the system is that there's very little code - it mostly involves tweaking the search engine.
-Edward worked at the Internet Archive working on similar book scanning problems so has some experience.
+[solr]: http://lucene.apache.org/solr/
+[stop-words]: https://en.wikipedia.org/wiki/Stop_words
 
 ---
 
@@ -135,19 +125,15 @@ Edward worked at the Internet Archive working on similar book scanning problems 
 
 ![Rob C at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-rob-c.jpg)
 
-Rob talked about an idea he's had to be able to capture the performance characteristics of various components within a system. He'd like to be able to test changes to component A and get some idea of the performance impact given that we know the characteristics of B and C.
+Rob was interested in feedback on an idea he's been exploring about being able to test the performance of a system in a simulated environment.
 
-Ben mentioned something similar in that he's experienced abrupt changes to component F causing degradation to the rest of the system. Degradations that are very hard to track down.
+He's wondering whether it'd be possible to capture the performance characteristics of various components in a system such that you could test the impact of any changes without having to deploy to a production-like environment and use production-like data.
 
-Rob mentioned "Runtime metric meets developer: building better cloud applications using feedback" - https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=fj5MiWsAAAAJ&citation_for_view=fj5MiWsAAAAJ:MXK_kJrjxJIC
+Rob mentioned a paper titled ["Runtime metric meets developer: building better cloud applications using feedback"][runtime-metrics] that explores some similar ideas: specifically the idea of making runtime data (e.g. performance) available at development time.
 
----
+If anyone has any thoughts about this I'm sure [Rob][rob-chatley] would appreciate you getting in touch.
 
-## Rob D - Armando Iannucci
-
-![Rob D at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-rob-d.jpg)
-
-https://www.youtube.com/watch?v=Sb1aQVpT-60
+[runtime-metrics]: https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=fj5MiWsAAAAJ&citation_for_view=fj5MiWsAAAAJ:MXK_kJrjxJIC
 
 ---
 
