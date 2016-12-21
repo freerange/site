@@ -29,13 +29,11 @@ Someone has started trying to build a 32-bit CPU out of 74-series logic chips. T
 [Nand2Tetris book]: http://www.nand2tetris.org/book.php
 [RISC-V]: https://riscv.org/
 
-
 :name: week-414-links
-:updated_at: 2016-12-21 13:05:10.007470000 +00:00
-:created_at: 2016-12-21 13:05:10.007458000 +00:00
+:updated_at: 2016-12-21 14:32:02.465281000 +00:00
+:created_at: 2016-12-21 14:32:02.465271000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
