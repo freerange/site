@@ -25,7 +25,7 @@ Notable in his absence was [Tom S][tom-stuart]; meaning that we were deprived of
 
 ![Chris R at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-chris-r.jpg)
 
-I presented my understanding of [one-time passwords][otp] (specifically the [HOTP][hotp] and [TOTP][totp] algorithms). I used a combination of a whiteboard and some Ruby code to demonstrate the simplicity of the algorithms and how they relate to each other. I'm hoping/planning to write about this in more detail soon so I'll leave this here for now.
+I presented my understanding of [one-time passwords][otp] (specifically the [HOTP][hotp] and [TOTP][totp] algorithms). I used a combination of a whiteboard and some Ruby code to demonstrate the simplicity of the algorithms and how they relate to each other. I'm hoping/planning to write about this in more detail soon.
 
 [hotp]: https://en.wikipedia.org/wiki/HMAC-based_One-time_Password_Algorithm
 [otp]: https://en.wikipedia.org/wiki/One-time_password
@@ -37,9 +37,9 @@ I presented my understanding of [one-time passwords][otp] (specifically the [HOT
 
 ![James M at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-james-m.jpg)
 
-James described the process of configuring and using a [Raspberry Pi][raspberry-pi], camera and a [temperature/humidity sensor][dht22] to monitor a vacant property.
+James described the process of configuring and using a [Raspberry Pi][raspberry-pi], a camera and a [temperature/humidity sensor][dht22] to monitor a vacant property.
 
-He started with a Raspberry Pi Zero before switching to a Raspberry Pi in order to avoid soldering. It sounds as though getting everything hooked up was relatively straight forward although he spent quite a long time trying to ensure that it'd all work correctly once it was left.
+He started with a Raspberry Pi Zero before switching to a Raspberry Pi in order to avoid soldering. It sounds as though getting everything hooked up was relatively straight forward although he spent quite a long time trying to ensure that it'd all work correctly once he'd left it running.
 
 He's using a [Three MiFi][three-mifi] device to provide the Internet connection and [DynDNS][dyndns] to give it a memorable name that he can connect to. A web interface running on the Raspberry Pi provides access to the camera while the temperature and humidity data is being recorded in a Google Spreadsheet.
 
@@ -63,22 +63,26 @@ James went on to show us the progress he's making on hacking the computer chess 
 
 ---
 
-## Ben G - Blog posts, Smalltalk (+ chess)
+## Ben G - Chess
 
 ![Ben G talking about chess at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-ben-g-chess.jpg)
 
 Ben was going to talk about getting side-tracked while trying to write a blog post. But he got side-tracked and talked about chess instead. Well, at least for a minute anyway.
 
-Ben continued the chess theme by showing us this [blog post about surprising moves in chess games][surprising-moves-in-chess-games] (this appears to be down at the moment but the [Google Cache version][surprising-moves-in-chess-game-cache] seems to work). The author used [Stockfish][stockfish] and [python-chess][python-chess] to highlight moves that might seem completely bizarre to a novice observer but turn out to be advantageous in the long term.
+Ben continued the chess theme by showing us this [blog post about surprising moves in chess games][surprising-moves-in-chess-games] (this appears to be down at the moment but the [Google Cache version][surprising-moves-in-chess-game-cache] seems to work). The author used [Stockfish][stockfish] and [python-chess][python-chess] to highlight moves that might seem counterintuitive to a novice observer but turn out to be advantageous in the long term.
 
 [python-chess]: https://github.com/niklasf/python-chess
 [stockfish]: https://stockfishchess.org/
 [surprising-moves-in-chess-games]: http://www.60wo.com/uncategorized/13/finding-surprising-moves-in-chess-games.html
 [surprising-moves-in-chess-game-cache]: http://webcache.googleusercontent.com/search?q=cache:7Z_mVsRwYqkJ:www.60wo.com/uncategorized/13/finding-surprising-moves-in-chess-games.html+&cd=9&hl=en&ct=clnk&gl=uk
 
+---
+
+## Ben G - Blog posts and distractions
+
 ![Ben G talking about Viewpoints Research Initiative at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-ben-g-nile.jpg)
 
-Ben talked about a [blog post he wrote][hough-transform-beng] in order to help him understand the [Hough Transform][hough-transform]: the image recognition technique he was using to try to recognise pieces on a chess board. He'd mostly finished writing the post when he started to investigate how to animate the illustrations he'd included to help explain the maths. This proved much harder than expected and resulted in a 6 week detour of the work of Alan Kay's [Viewpoints Research Institute][vpri].
+Ben talked about a [blog post he wrote][hough-transform-beng] in order to help him understand the [Hough Transform][hough-transform]: the image recognition technique he's been using to try to recognise pieces on a chess board. He'd mostly finished writing the post when he started to investigate how to animate the illustrations he'd included to help explain the maths. This proved much harder than expected and resulted in a 6 week detour into the work of Alan Kay's [Viewpoints Research Institute][vpri].
 
 Ben gave us a bit of an overview of STEPS (STEPS Toward Express Programming Systems) and the [Nile programming language][nile]. One of the goals of STEPS is for it to be written in a maximum of 20,000 lines of code:
 
@@ -107,11 +111,9 @@ He's recently improved this manual process by indexing the content of all the bo
 
 He's currently indexing all the content of the book but can imagine a further improvement where he ignores things like the table of contents and notes.
 
-Fortunately, Edward was able to appease our need for chess related things by showing us results for ["first square of the chessboard"][first-square-of-the-chessboard] and ["Freestyle chess"][freestyle-chess] (apparently combinations of humans and computers playing against each other!)
+Fortunately, Edward was able to appease our need for chess related things by showing us results for ["first square of the chessboard"][first-square-of-the-chessboard] and ["Freestyle chess"][freestyle-chess] (which is apparently combinations of humans and computers playing against each other!)
 
 Edward includes his Amazon affiliate link on the links to the books that appear in his search results. I was interested to hear that Amazon don't attempt to redirect the visitor to the Amazon store for their country and always send them to amazon.com instead. Apparently there are third party libraries that offer this functionality but they do so at the cost of injecting their own affiliate links every so often.
-
-Edward worked at the Internet Archive working on similar book scanning problems so has some experience.
 
 [first-square-of-the-chessboard]: https://edwardbetts.com/monograph/first_square_of_the_chessboard
 [freestyle-chess]: https://edwardbetts.com/monograph/Freestyle_chess
