@@ -41,7 +41,7 @@ James described the process of configuring and using a [Raspberry Pi][raspberry-
 
 He started with a Raspberry Pi Zero before switching to a Raspberry Pi 2 in order to avoid having to solder the fiddly header pins. It sounds as though getting everything hooked up was relatively straight forward although he spent quite a long time trying to ensure that it'd all work correctly once he'd left it running.
 
-He's using a [Three MiFi][three-mifi] device to provide the internet connection and `ddclient` in conjunction with [DynamicDNS][] to give it a memorable name that he can connect to. [A web interface][rpi-cam-web-interface] running on the Raspberry Pi provides access to the camera while the temperature and humidity data is being captured and recorded in a Google Spreadsheet by a [Python script][rpi-dht-sensor-logging].
+He's using a [Three MiFi][three-mifi] device to provide the internet connection and [ddclient][] in conjunction with [DynamicDNS][] to give it a memorable name that he can connect to. [A web interface][rpi-cam-web-interface] running on the Raspberry Pi provides access to the camera while the temperature and humidity data is being captured and recorded in a Google Spreadsheet by a [Python script][rpi-dht-sensor-logging].
 
 James has run into a couple of problems since leaving it all set-up. The DNS address doesn't always resolve (possibly because of the frequency at which the MiFi device obtains a new IP address?) and the temperature/humidity logging stopped when James renamed the spreadsheet it was writing to! It turns out that the script he's using relies on finding the spreadsheet by name instead of key.
 
@@ -54,6 +54,7 @@ James has since been back to the property to restart the temperature/humidity lo
 [raspberry-pi]: https://www.raspberrypi.org/
 [three-mifi]: http://www.three.co.uk/Discover/Devices/Huawei/E5573_4G_Mobile_Wi-Fi
 [ChangeIP]: http://changeip.com/
+[ddclient]: https://sourceforge.net/p/ddclient/wiki/
 
 ---
 
