@@ -39,7 +39,7 @@ I presented my understanding of [one-time passwords][otp] (specifically the [HOT
 
 James described the process of configuring and using a [Raspberry Pi][raspberry-pi], a camera and a [temperature/humidity sensor][dht22] to monitor a vacant property.
 
-He started with a Raspberry Pi Zero before switching to a Raspberry Pi in order to avoid soldering. It sounds as though getting everything hooked up was relatively straight forward although he spent quite a long time trying to ensure that it'd all work correctly once he'd left it running.
+He started with a Raspberry Pi Zero before switching to a Raspberry Pi in order to avoid having to solder the fiddly header pins. It sounds as though getting everything hooked up was relatively straight forward although he spent quite a long time trying to ensure that it'd all work correctly once he'd left it running.
 
 He's using a [Three MiFi][three-mifi] device to provide the Internet connection and [DynDNS][dyndns] to give it a memorable name that he can connect to. A web interface running on the Raspberry Pi provides access to the camera while the temperature and humidity data is being recorded in a Google Spreadsheet.
 
