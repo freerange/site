@@ -39,11 +39,10 @@ Later I wrote up some notes on the meeting and suggested some dates to Ben for a
 [Strongroom Bar & Kitchen]: http://www.strongroombar.com/
 
 :name: week-389
-:updated_at: 2016-12-20 11:05:31.445977000 +00:00
-:created_at: 2016-12-20 11:05:31.445963000 +00:00
+:updated_at: 2016-12-21 10:52:33.923481000 +00:00
+:created_at: 2016-12-21 10:52:33.923472000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
