@@ -71,11 +71,10 @@ Until next time.
 [freeagent-scripts]: https://github.com/freerange/freeagent-scripts
 
 :name: week-413
-:updated_at: 2016-12-21 15:21:49.377842000 +00:00
-:created_at: 2016-12-21 15:21:49.377821000 +00:00
+:updated_at: 2017-01-04 17:30:50.382620000 +00:00
+:created_at: 2017-01-04 17:30:50.382609000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
