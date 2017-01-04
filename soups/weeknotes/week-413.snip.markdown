@@ -59,7 +59,6 @@ Until next time.
 -- James
 
 [show-and-tell-27]: http://gofreerange.dev/show-and-tell-27
-[Open 2017: Platform Cooperatives](https://2017.open.coop/)
 [hotp-rfc]: https://tools.ietf.org/html/rfc4226
 [teensy-plus-plus-2]: https://www.pjrc.com/store/teensypp.html
 [Outlandish]: http://outlandish.com/
