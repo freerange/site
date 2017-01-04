@@ -49,6 +49,7 @@ We had a first attempt at this last week when I went over to Hampton Court to me
 
 ## Miscellaneous
 
+* On Friday Chris did a heroic batch of week note writing - we've almost caught up with the mammoth backlog!
 * We agreed a day rate with the GDS Contracting team and they passed us on to the Capita CL1 team. We both always find the day rate "dance" a difficult process, but on this occasion I think we managed to arrive at a sensible conclusion without too much stress or hassle.
 * We had an email discussion with James A about some minor issues we're having with the Harmonia fairness algorithm.
 * The application process for version 2 of the Digital Outcomes and Specialists framework closed - Chris had finalised our application last week.
