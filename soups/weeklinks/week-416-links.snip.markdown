@@ -42,6 +42,6 @@ This handy looking library allows you to use a text-based syntax to generate dia
 :draft: true
 :is_page: true
 :written_with: markdown
-:author: chris-roos
+:author: james-mead
 :page_title: Week 416 - Interesting links
 :extension: markdown
