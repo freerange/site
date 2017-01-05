@@ -33,13 +33,11 @@ This handy looking library allows you to use a text-based syntax to generate dia
 [Atom editor plugin]: https://atom.io/packages/atom-mermaid
 [dagre-d3 library]: https://github.com/cpettitt/dagre-d3
 
-
 :name: week-416-links
-:updated_at: 2017-01-05 16:12:55.002398000 +00:00
-:created_at: 2017-01-05 16:12:55.002379000 +00:00
+:updated_at: 2017-01-05 17:53:20.722584000 +00:00
+:created_at: 2017-01-05 17:53:20.722570000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
