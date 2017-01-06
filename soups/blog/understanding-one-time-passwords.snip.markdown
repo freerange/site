@@ -1,4 +1,5 @@
-# Understanding one-time passwords
+Understanding one-time passwords
+--------------------------------
 
 I recently spent some time investigating the [HOTP][hotp] (HMAC-based) and [TOTP][totp] (Time-based) one-time password algorithms. You're probably relying on one of these algorithms if you've enabled [two-factor authentication][2fa] for a service (e.g. GitHub) and are using something like [Google Authenticator][google-authenticator], [Authy][authy] or [1Password][1password-otp] to generate a 6 digit code when signing in.
 
@@ -194,10 +195,9 @@ After reading a draft of this post, [Paul][paul-battley] pointed me to this [How
 
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
-:created_at: 2016-12-21 11:25:00 +00:00
-:updated_at: 2016-12-21 11:25:00 +00:00
+:created_at: 2017-01-06 19:30:00 +00:00
+:updated_at: 2017-01-06 19:30:00 +00:00
 :page_title: Understanding one-time passwords
