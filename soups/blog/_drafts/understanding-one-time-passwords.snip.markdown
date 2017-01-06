@@ -17,7 +17,7 @@ The step numbers (1 to 3) below correspond to the steps in section 5.3 ("Generat
 
 ### 1. Generate an HMAC-SHA-1 value
 
-I'm using the key and a counter from the Test Values in Appendix 4 of HOTP RFC 4226 so that we can verify the output. In the real world you'd be given the key (often encoded in a QR code) by the site that you're enabling 2FA for.
+I'm using the key and a counter from the Test Values in Appendix D of HOTP RFC 4226 so that we can verify the output. In the real world you'd be given the key (often encoded in a QR code) by the site that you're enabling 2FA for.
 
 [rfc-4226]: https://www.ietf.org/rfc/rfc4226.txt
 
@@ -76,13 +76,22 @@ bytes[0] = bytes[0] & 0x7f
 
 #### 3a. Convert the 4 bytes into a 32bit integer
 
+There are two implementations below. The first uses bit-shifting and the second (suggested by [James][james-mead]) uses `Array#pack` and `String#unpack`. While the second implementation is more concise, I've retained both as I think the first makes it easier to see what's going on.
+
 ```ruby
+# 1. Bit-shifting
 bytes_as_integer = (bytes[0] << 24) + (bytes[1] << 16) + (bytes[2] << 8) + bytes[3]
 # Equivalent to: (0x33 << 24) + (0xc0 << 16) + (0x83 << 8) + 0xd4
 # or in decimal: (51 * (2**24)) + (192 * (2**16)) + (131 * (2**8)) + 212
 # Equals: 855638016 + 12582912 + 33536 + 212
 # Equals: 868254676
+
+# 2. Using `Array#pack` and `String#unpack`
+bytes_as_integer = bytes.pack('c*').unpack('N')[0]
+# Equals: 868254676
 ```
+
+[james-mead]: /james-mead
 
 #### 3b. Generate OTP
 
