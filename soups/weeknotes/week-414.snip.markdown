@@ -33,11 +33,10 @@ Until next time.
 [rclone]: http://rclone.org/
 
 :name: week-414
-:updated_at: 2017-01-05 18:07:36.409564000 +00:00
-:created_at: 2017-01-05 18:07:36.409552000 +00:00
+:updated_at: 2017-01-06 11:59:21.797398000 +00:00
+:created_at: 2017-01-06 11:59:21.797385000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
