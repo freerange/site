@@ -10,11 +10,10 @@ Normal service will be resumed in week 416.
 -- Chris
 
 :name: week-415
-:updated_at: 2017-01-06 12:12:28.627984000 +00:00
-:created_at: 2017-01-06 12:12:28.627971000 +00:00
+:updated_at: 2017-01-06 15:21:54.922805000 +00:00
+:created_at: 2017-01-06 15:21:54.922793000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
