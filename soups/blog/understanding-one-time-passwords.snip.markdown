@@ -23,7 +23,7 @@ I'm using the key and a counter from the Test Values in Appendix D of HOTP RFC 4
 
 The resulting HMAC is a 20 byte (160 bit) string.
 
-```ruby
+~~~ruby
 require 'openssl'
 
 key = '12345678901234567890'
@@ -38,7 +38,7 @@ puts hmac.unpack('H*')
 # Or as an array
 # [0xa3, 0x7e, 0x78, 0x3d, 0x7b, 0x72, 0x33, 0xc0, 0x83, 0xd4,
 #  0xf6, 0x29, 0x26, 0xc7, 0xa2, 0x5f, 0x23, 0x8d, 0x03, 0x16]
-```
+~~~
 
 ### 2. Generate a 4-byte string
 
@@ -46,31 +46,31 @@ puts hmac.unpack('H*')
 
 The offset is the number represented by the last 4 bits of the last byte.
 
-```ruby
+~~~ruby
 offset = hmac.bytes.last & 0x0f
 # Equivalent to: 0x16 & 0x0f
 # Equals: 0x06
 # Or as a decimal: 6
-```
+~~~
 
 #### 2b. Take 4 bytes starting at the offset
 
-```ruby
+~~~ruby
 bytes = hmac.bytes[offset..offset + 3]
 # Equivalent to: hmac.bytes[6..9]
 # Equals: [0x33, 0xc0, 0x83, 0xd4]
 # Or as decimals: [51, 192, 131, 212]
-```
+~~~
 
 #### 2c. Mask the most significant bit of the first byte
 
 To avoid any confusion around signed vs unsigned integers.
 
-```ruby
+~~~ruby
 bytes[0] = bytes[0] & 0x7f
 # Equivalent to: 0x33 & 0x7f
 # Equals: 0x33 # No-op in this instance
-```
+~~~
 
 ### 3. Compute an HOTP value
 
@@ -78,7 +78,7 @@ bytes[0] = bytes[0] & 0x7f
 
 There are two implementations below. The first uses bit-shifting and the second (suggested by [James][james-mead]) uses `Array#pack` and `String#unpack`. While the second implementation is more concise, I've retained both as I think the first makes it easier to see what's going on.
 
-```ruby
+~~~ruby
 # 1. Bit-shifting
 bytes_as_integer = (bytes[0] << 24) + (bytes[1] << 16) + (bytes[2] << 8) + bytes[3]
 # Equivalent to: (0x33 << 24) + (0xc0 << 16) + (0x83 << 8) + 0xd4
@@ -89,7 +89,7 @@ bytes_as_integer = (bytes[0] << 24) + (bytes[1] << 16) + (bytes[2] << 8) + bytes
 # 2. Using `Array#pack` and `String#unpack`
 bytes_as_integer = bytes.pack('c*').unpack('N')[0]
 # Equals: 868254676
-```
+~~~
 
 [james-mead]: /james-mead
 
@@ -97,16 +97,16 @@ bytes_as_integer = bytes.pack('c*').unpack('N')[0]
 
 The OTP is the last n digits (6 by default) of the number we've generated.
 
-```ruby
+~~~ruby
 digits = 6
 puts bytes_as_integer.modulo(10 ** digits)
 # Equivalent to: 868254676.modulo(1_000_000)
 #=> 254676
-```
+~~~
 
 ### The code in full
 
-```ruby
+~~~ruby
 require 'openssl'
 
 def generate_otp(key, counter, digits = 6)
@@ -122,7 +122,7 @@ end
 
 otp = generate_otp('12345678901234567890', 5)
 puts "OTP: #{otp}"
-```
+~~~
 
 ## Generating TOTPs
 
@@ -137,7 +137,7 @@ We can demonstrate the relationship between TOTPs and HOTPs using `oathtool` fro
 
 [oath-toolkit]: http://www.nongnu.org/oath-toolkit/
 
-```bash
+~~~bash
 # Generate TOTP for current time
 $ oathtool --totp --verbose 3132333435363738393031323334353637383930
 Hex secret: 3132333435363738393031323334353637383930
@@ -154,33 +154,33 @@ Counter: 0x2F1F218 (49410584)
 # Generate HOTP using counter above
 $ oathtool --hotp --counter 49410584 3132333435363738393031323334353637383930
 744955
-```
+~~~
 
 Note that the key we pass to `oathtool` above is the hex encoded representation of the example key we're using in our Ruby script.
 
-```ruby
+~~~ruby
 '12345678901234567890'.unpack('H*')
 => ["3132333435363738393031323334353637383930"]
-```
+~~~
 
 Now that we know that the only difference is in the value of the counter we can update our Ruby script to generate TOTPs.
 
-```ruby
+~~~ruby
 counter = Time.now.to_i / 30 # 30 second intervals in current unix time
 
 otp = generate_otp('12345678901234567890', counter)
 puts "OTP: #{otp}"
-```
+~~~
 
 Assuming we've saved the Ruby script as totp.rb, we can use `oathtool` to verify the generated OTP.
 
-```bash
+~~~bash
 $ ruby totp.rb
 662110
 
 $ oathtool --totp 3132333435363738393031323334353637383930
 662110
-```
+~~~
 
 ## Conclusion
 
