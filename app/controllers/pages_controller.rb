@@ -4,7 +4,8 @@ class PagesController < ApplicationController
     @snip = soup[name]
     @author = soup[@snip.author]
     html = Kramdown::Document.new(@snip.content).to_html
-    render html: html.html_safe, layout: 'blog'
+    layout = @snip.layout.sub(/-layout$/, '')
+    render html: html.html_safe, layout: layout
   end
 
   private
