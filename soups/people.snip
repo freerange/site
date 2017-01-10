@@ -1,19 +1,19 @@
 <div id="people" class="section group">
     <h2>A little background on our team</h2>
-    
+
     <p>Founded in 2009 on the basis of mutual respect for each others' work and character, our team is made up of complementary skills and a shared vision of how software should be built. Respected by clients and the online development community, we are experts at building software for the web.</p>
-    
+
     <ol id="team" class="group">
       <li class="member group" id="james-mead">
-        {member james-mead}
+        <%= member 'james-mead' %>
       </li>
       <li class="member group" id="chris-roos">
-        {member chris-roos}
+        <%= member 'chris-roos' %>
       </li>
       <li class="member group" id="chris-lowis">
         <%= member 'chris-lowis' %>
       </li>
     </ol>
 
-    <p>{link_to alumni, Alumni}: {link_to james-adam, James Adam}, {link_to tom-ward, Tom Ward}, {link_to jason-cale, Jason Cale}, {link_to kalvir-sandhu, Kalv Sandhu}, {link_to james-andrews, James Andrews}, {link_to luke-redpath, Luke Redpath}</p>
+    <p><%= link_to 'Alumni', url_to('alumni') %>: <%= link_to 'James Adam', url_to('james-adam') %>, <%= link_to 'Tom Ward', url_to('tom-ward') %>, <%= link_to 'Jason Cale', url_to('jason-cale') %>, <%= link_to 'Kalv Sandhu', url_to('kalvir-sandhu') %>, <%= link_to 'James Andrews', url_to('james-andrews') %>, <%= link_to 'Luke Redpath', url_to('luke-redpath') %></p>
 </div>

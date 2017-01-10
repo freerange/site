@@ -54,4 +54,45 @@ module ApplicationHelper
       ""
     end
   end
+
+  def tagline
+    options = [
+     "We are exceptionally talented &amp; experienced software developers.",
+     "We are a crack team of kick-ass <em>space engineers</em>.",
+     "We hunt <em>web-ninjas</em> and <em>code-rockstars</em> before breakfast, and build software from their bones and stringy bits.",
+     "We use computers and our <em>indomitable</em> will to transform <em>pure thought</em> into <em>digital magic</em>.",
+     "We make digital stuff.<br>You know, clicky things.",
+     "We build the crystal cities of the future.",
+     "We invented the Internet.<br>OK, not really, but we're pretty good at it.",
+     "We deliver software, hewn from <em>pure thought</em>, using a pickaxe made of <em>inspiration</em>.",
+     "We are the unicorn-riding horsemen of the <em>awesome</em>pocalypse."
+    ]
+    html = options[rand(options.length)]
+    html.html_safe
+  end
+
+  def include_snip(name)
+    snip = @soup[name]
+    context = binding
+    content = ERB.new(snip.content).result(context)
+    html = case snip.extension
+    when 'haml'
+      Haml::Engine.new(content).render
+    when 'markdown'
+      Kramdown::Document.new(content).to_html
+    else
+      content
+    end
+    html.html_safe
+  end
+
+  def member(name)
+    snip = @soup[name]
+    render partial: 'shared/member', locals: { member: snip }
+  end
+
+  def project(name)
+    snip = @soup[name]
+    render partial: 'shared/project', locals: { project: snip }
+  end
 end
