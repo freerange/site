@@ -12,8 +12,16 @@ class PagesController < ApplicationController
 
   def soup
     @soup ||= begin
-      backends = %w(weeknotes weeklinks blog show-and-tell wiki people).map do |path|
-        Soup::Backends::FileBackend.new(Rails.root.join("soups/#{path}"))
+      backend_dirs = %w(
+        soups/weeknotes
+        soups/weeklinks
+        soups/blog
+        soups/show-and-tell
+        soups/wiki
+        soups/people
+      )
+      backends = backend_dirs.map do |path|
+        Soup::Backends::FileBackend.new(Rails.root.join(path))
       end
       Soup.new(Soup::Backends::MultiSoup.new(*backends))
     end
