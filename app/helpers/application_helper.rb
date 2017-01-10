@@ -95,4 +95,8 @@ module ApplicationHelper
     snip = @soup[name]
     render partial: 'shared/project', locals: { project: snip }
   end
+
+  def l(name)
+    link_to name, url_to(name)
+  end
 end
