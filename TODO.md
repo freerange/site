@@ -25,3 +25,4 @@
   * c.f. https://github.com/lazyatom/vanilla-rb/blob/d632db587235722cab79d5dd07515e8252277ec5/lib/vanilla/atom_feed.rb#L66-L82
 * Remove vanilla-related code
 * Work out how we want to deploy the app
+* Do we need the timmy JS stuff in project layout?
