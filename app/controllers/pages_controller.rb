@@ -11,7 +11,8 @@ class PagesController < ApplicationController
     else
       @snip.content
     end
-    layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : 'application'
+    default_layout = (@snip.render_as == 'Blog') ? 'blog' : 'application'
+    layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : default_layout
     render html: html.html_safe, layout: layout
   end
 
