@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   def show
     name = params.permit(:path)[:path]
-    @snip = soup[name]
+    @snip = name.present? ? soup[name] : soup['start']
     @author = soup[@snip.author]
     html = case @snip.extension
     when 'haml'
