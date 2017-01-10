@@ -1,7 +1,7 @@
 Week 154
 ========
 
-If you were impressed that {l week-153, Week 153} came all the way from Scotland, then you better make sure you are seated, because week 154 comes to you from around 11 kilometres in the air above Kentucky. Whoever [Harmonia][] assigns next week is probably going to have to get friendly with [Richard Branson](http://www.virgingalactic.com/) or [Paul Allen](http://www.bbc.co.uk/news/world-us-canada-16171482) to top that.
+If you were impressed that <%= l('week-153', 'Week 153') %> came all the way from Scotland, then you better make sure you are seated, because week 154 comes to you from around 11 kilometres in the air above Kentucky. Whoever [Harmonia][] assigns next week is probably going to have to get friendly with [Richard Branson](http://www.virgingalactic.com/) or [Paul Allen](http://www.bbc.co.uk/news/world-us-canada-16171482) to top that.
 
 Anyway, it's been a quiet week for [Go Free Range](/). I've been in Scotland (although obviously I'm not there now); Jason's been in Norfolk; James M has been on the Isle of Wight, and you'll have to ask Tom and Chris yourself where they hole up for the festive season. Hopefully somewhere warm with access to mulled wine.
 

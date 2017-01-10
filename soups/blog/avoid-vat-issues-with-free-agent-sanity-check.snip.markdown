@@ -40,7 +40,7 @@ Thankfully, there's a clue in the raw text from the bank statement that will let
 
 The eagle-eyed reader will have spotted the string `USD`. This appears in all the transactions from our bank which occured using a different currency ($12 USD, in this case), and we can make use of it to ensure that these transactions are correctly explained.
 
-Stalwart solver-of-problems {l james-mead,James M} took this observation, along with the [FreeAgent API][] (and a [small wrapper that we wrote][freeagent-wrapper]) to write a simple script, which {l chris-roos,Chris} then massaged into very simple application that we call *[FreeAgent Sanity Check][]*.
+Stalwart solver-of-problems <%= l('james-mead', 'James M') %> took this observation, along with the [FreeAgent API][] (and a [small wrapper that we wrote][freeagent-wrapper]) to write a simple script, which <%= l('chris-roos', 'Chris') %> then massaged into very simple application that we call *[FreeAgent Sanity Check][]*.
 
 Three times a day, this application looks at our FreeAgent bank data for any transactions that have `USD` in their raw text, but also have VAT applied. If any are found, then we are warned via an email that we need to take another look at the explanations for those transactions.
 

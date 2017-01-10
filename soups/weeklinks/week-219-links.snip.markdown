@@ -21,7 +21,7 @@ Github explain, in detail, an unexpected side effect of keeping up with the most
 
 ### [Building a GOV.UK exhibit](http://codon.com/building-a-govuk-exhibit)
 
-{l james-mead,James M} mentioned our sneak peek of this in the [Week 217 notes](/week-217#designs-of-the-year). Tom Stuart has an excellent write-up about how he sychronised browsing across a suite of devices to demonstrate the responsive nature of the [GOV.UK](http://www.gov.uk) design. It's being shown at the [Design Museum](http://designmuseum.org/) as part of the [2013 Designs of the Year awards](http://designmuseum.org/exhibitions/2013/designs-of-the-year-2013). {by james-adam}
+<%= l('james-mead', 'James M') %> mentioned our sneak peek of this in the [Week 217 notes](/week-217#designs-of-the-year). Tom Stuart has an excellent write-up about how he sychronised browsing across a suite of devices to demonstrate the responsive nature of the [GOV.UK](http://www.gov.uk) design. It's being shown at the [Design Museum](http://designmuseum.org/) as part of the [2013 Designs of the Year awards](http://designmuseum.org/exhibitions/2013/designs-of-the-year-2013). {by james-adam}
 
 
 ### [Kernel#backtrace](http://nathaniel.talbott.ws/blog/2013/03/11/backtrace/)

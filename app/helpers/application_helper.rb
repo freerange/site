@@ -96,7 +96,7 @@ module ApplicationHelper
     render partial: 'shared/project', locals: { project: snip }
   end
 
-  def l(name)
-    link_to name, url_to(name)
+  def l(name, text = nil)
+    link_to text || name, url_to(name)
   end
 end

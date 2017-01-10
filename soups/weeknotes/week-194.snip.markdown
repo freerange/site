@@ -9,7 +9,7 @@ If you'd like to find out more, [sign up for early access](https://harmonia.io) 
 
 ## Hashblue
 
-As you may recall, once of our previous projects was {l hashblue,Hashblue} (also known as '#blue'), a SMS web appliation and API that we built with O2. Unfortunately, Hashblue's time in the sun has come to an end, and [as it's outlined on the homepage](http://hashblue.com), the service will be closing towards the end of this year.
+As you may recall, once of our previous projects was <%= l('hashblue', 'Hashblue') %> (also known as '#blue'), a SMS web appliation and API that we built with O2. Unfortunately, Hashblue's time in the sun has come to an end, and [as it's outlined on the homepage](http://hashblue.com), the service will be closing towards the end of this year.
 
 The project was always described as a 'beta', but developed a small user base who really appreciated the server. We received [quite a lot of positive feedback](https://getsatisfaction.com/hashblue/praise/recent) from it's users. Here's a small sample of some recent comments:
 

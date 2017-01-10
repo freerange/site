@@ -27,7 +27,7 @@ In general, the idea of having single-purpose SD cards which you can use to repu
 
 ### [Lone Star Ruby Confererence](http://www.lonestarruby.org/2013/lsrc)
 
-{l james-adam, I} will be at the Lone Star Ruby Conference in Austin in July, getting a feel for the Ruby scene in Austin. If you're reading this and also going, please let me know, I'd love to meet up! {by james-adam}
+<%= l('james-adam', 'I') %> will be at the Lone Star Ruby Conference in Austin in July, getting a feel for the Ruby scene in Austin. If you're reading this and also going, please let me know, I'd love to meet up! {by james-adam}
 
 
 ### [MailCatcher](http://mailcatcher.me/)

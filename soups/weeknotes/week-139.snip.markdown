@@ -15,7 +15,7 @@ Jase has been working hard writing his talk for [a conference in Bulgaria](http:
 
 ### Meeting people
 
-On Monday, {l james-adam, James} and {l tom-ward, I} popped down to [LRUG](http://lrug.org) to hear [Chris Parsons](http://chrismdp.github.com/) and other members of the [Agile Delivery Network](http://www.agiledelivery.net/) talk about their experiences building the new Government [e-petitions site](http://epetitions.direct.gov.uk/).  They demonstrated clearly what can be achieved by an agile team in a very short timescale, but better than that, were candid about what things went wrong.
+On Monday, <%= l('james-adam', 'James') %> and <%= l('tom-ward', 'I') %> popped down to [LRUG](http://lrug.org) to hear [Chris Parsons](http://chrismdp.github.com/) and other members of the [Agile Delivery Network](http://www.agiledelivery.net/) talk about their experiences building the new Government [e-petitions site](http://epetitions.direct.gov.uk/).  They demonstrated clearly what can be achieved by an agile team in a very short timescale, but better than that, were candid about what things went wrong.
 
 We also dropped in at the [Ruby Business Meetup](http://www.meetup.com/Ruby-Business-UK/), chatting about all things ruby and business.
 

@@ -3,7 +3,7 @@ Week 240
 
 This week, GFR have mostly been programming in Rails.
 
-Ha, {l week-239, reference humour}!
+Ha, <%= l('week-239', 'reference humour') %>!
 
 Its still basically true, but GFR in this case has mostly been Chris and myself; Tom has left for Canada for two and a half weeks, and James M has also been on holiday. FutureLearn are getting ready to push into a proper public alpha/beta, and so much of the effort has been in tidying up the miscellany via shorter user stories.
 

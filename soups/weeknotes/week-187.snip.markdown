@@ -1,7 +1,7 @@
 Week 187
 ========
 
-Ask I mentioned {l week-186,last week}, this week it's just {l chris-roos,Chris} and {l james-adam,I} keeping the good ship [GFR](/) on an even keel.
+Ask I mentioned <%= l('week-186', 'last week') %>, this week it's just <%= l('chris-roos', 'Chris') %> and <%= l('james-adam', 'I') %> keeping the good ship [GFR](/) on an even keel.
 
 Week 187[^187] was split pretty evenly between our client work and our internal projects. I'll try to pick out some interested moments from each.
 
@@ -15,7 +15,7 @@ Then I'll begin.
 Roosmarks and the IndieWeb movement
 ------------------
 
-{l chris-roos, Chris} has been doing a bit more work on his self-hosted bookmark/research tool currently known as "[Roosmarks](http://github.com/chrisroos/roosmarks)". Aside from scratching his own itch, he's also very interested in the idea of self-hosted web applications. These are applications that you, the user, host for yourself, as opposed to applications like Twitter or Facebook or Flickr, which runs on a central shared server[^many-servers]. It turns our there's a movement -- called [IndieWeb](http://indiewebcamp.com/Main_Page) -- all about this kind of approach.
+<%= l('chris-roos', 'Chris') %> has been doing a bit more work on his self-hosted bookmark/research tool currently known as "[Roosmarks](http://github.com/chrisroos/roosmarks)". Aside from scratching his own itch, he's also very interested in the idea of self-hosted web applications. These are applications that you, the user, host for yourself, as opposed to applications like Twitter or Facebook or Flickr, which runs on a central shared server[^many-servers]. It turns our there's a movement -- called [IndieWeb](http://indiewebcamp.com/Main_Page) -- all about this kind of approach.
 
 [^many-servers]: Or, more likely, [many hundreds of servers](http://gizmodo.com/5632095/justin-bieber-has-dedicated-servers-at-twitter).
 
@@ -33,9 +33,9 @@ Decoupling Harmonia from Rails
 
 The [original version](http://github.com/freerange/harmonia) of [Harmonia][] is barely an application, let alone a [Rails](http://rubyonrails.org) app, but the next version is slightly more ambitious, and will require a web interface of some kind (although that may not be the *only* kind...).
 
-As I mentioned {l week-186,last week}, I've been working on some of the core domain logic, but without any framework or interface. This week, Chris and I started to investigate how to bring persistence (via [ActiveRecord](http://ar.rubyonrails.org/)) to the objects I've built, but without introducing coupling between the framework and the clean objects we already have.
+As I mentioned <%= l('week-186', 'last week') %>, I've been working on some of the core domain logic, but without any framework or interface. This week, Chris and I started to investigate how to bring persistence (via [ActiveRecord](http://ar.rubyonrails.org/)) to the objects I've built, but without introducing coupling between the framework and the clean objects we already have.
 
-After a few hours of head-scratching and a few false starts, I think we've found a simple approach that I'm happy with. I'd love to go into a bit more detail, but I think I'm going to wait until the choices we've made have a chance to prove themselves (not to mention the valuable input of {l tom-ward, Tom} and {l james-mead,James M}).
+After a few hours of head-scratching and a few false starts, I think we've found a simple approach that I'm happy with. I'd love to go into a bit more detail, but I think I'm going to wait until the choices we've made have a chance to prove themselves (not to mention the valuable input of <%= l('tom-ward', 'Tom') %> and <%= l('james-mead', 'James M') %>).
 
 All I'll say for now is that the key is extracting _value objects_ and _adaptors_. More on this later I hope.
 
@@ -94,6 +94,8 @@ Until next time,
 -- James A.
 
 [^printer-plans]: [Printer][gfr-printer] is only one of the projects that we are working on internally, and it's not clear at the moment how it might be able to address our _company goal_ -- in part because of exactly the amount of effort BERG have had to put into Little Printer to get this far. [Shipping atoms](https://twitter.com/freerange/status/235324391406329856) [is hard](http://berglondon.com/blog/2011/03/15/three-cheers-for-plumen-design-of-the-year/)!
+
+
 
 [gfr-printer]: https://exciting.io/printer/
 [hello-printer]: https://exciting.io/2012/04/12/hello-printer/

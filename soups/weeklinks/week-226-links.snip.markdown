@@ -18,12 +18,12 @@ With our current work on [FutureLearn](http://futurelearn.com/), I've been keepi
 
 ### [Contextinator -- dividing your browsing into projects](http://contextinator.cs.vt.edu/)
 
-This might be useful for anyone who has a million tabs open, but my main reason for including it is that it reminds me a little of one of the goals I recall {l chris-roos,Chris} talking about with respect to [roosmarks](https://github.com/chrisroos/roosmarks). Roughly put, it was about managing research, and returning to sites/pages with the context of that research (and any conclusions you came to) available. Perhaps he'll try it out and get some more ideas? (Also, it's a Google Chrome extension, and he loves those[^chris-loves-google]) {by james-adam}
+This might be useful for anyone who has a million tabs open, but my main reason for including it is that it reminds me a little of one of the goals I recall <%= l('chris-roos', 'Chris') %> talking about with respect to [roosmarks](https://github.com/chrisroos/roosmarks). Roughly put, it was about managing research, and returning to sites/pages with the context of that research (and any conclusions you came to) available. Perhaps he'll try it out and get some more ideas? (Also, it's a Google Chrome extension, and he loves those[^chris-loves-google]) {by james-adam}
 
 
 ### [Heyli.st for Scottish Ruby Conference](https://twitter.com/lazyatom/scotrubyconf)
 
-Built and maintained by {l heylist,Heylist}, a service we wrote and I recently "relaunched". I felt it really shone on Saturday night, as people were arriving in Edinburgh or Crieff and trying to coordinate meeting for drinks using twitter, but without any hashtag. It's just a shame that Twitter Lists are so unloved by twitter clients. {by james-adam}
+Built and maintained by <%= l('heylist', 'Heylist') %>, a service we wrote and I recently "relaunched". I felt it really shone on Saturday night, as people were arriving in Edinburgh or Crieff and trying to coordinate meeting for drinks using twitter, but without any hashtag. It's just a shame that Twitter Lists are so unloved by twitter clients. {by james-adam}
 
 
 ### [CSS Architecture](http://engineering.appfolio.com/2012/11/16/css-architecture/)

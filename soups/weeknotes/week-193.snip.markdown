@@ -7,7 +7,7 @@ I'm in Austin again, and while the denizens of my native [BST](http://en.wikiped
 
 Actually, here in Texas we are enjoying the "second summer"[^1]. At the moment the temperatures are around 30&deg;C, and the coverage in iOS 6 mapping here is just fine. I hear some of you had to put on waterproof trousers this week, your weather was so bad. Awww. And your iPhone's turn-by-turn directions landed you into a soggy ditch? _Awwwwwww_.
 
-Right, that's enough faux smugness. It's not all sunglasses and rodeos and brisket here in Texas, and as always the time difference and geographic distances have proved a worth adversary to my productivity. That said, we're getting pretty good at it, and our _GFR Tuesdays_ (see {l week-184,Week 184}) have definitely helped, giving us a good opportunity to use Skype to catch up.
+Right, that's enough faux smugness. It's not all sunglasses and rodeos and brisket here in Texas, and as always the time difference and geographic distances have proved a worth adversary to my productivity. That said, we're getting pretty good at it, and our _GFR Tuesdays_ (see <%= l('week-184', 'Week 184') %>) have definitely helped, giving us a good opportunity to use Skype to catch up.
 
 
 Inside Government home stretch
@@ -35,11 +35,11 @@ So, in the not too distant future we'll take a break from GDS again, partly to f
 Harmonia
 --------
 
-Work continues from {l chris-roos,Chris}, {l james-mead,James M} and {l james-adam,I} on [Harmonia](http://harmonia.io), the tool that keeps our anarchic business ticking over.
+Work continues from <%= l('chris-roos', 'Chris') %>, <%= l('james-mead', 'James M') %> and <%= l('james-adam', 'I') %> on [Harmonia](http://harmonia.io), the tool that keeps our anarchic business ticking over.
 
 Don't forget that you can [sign up for early access](http://harmonia.io), and get updates about progress via our Marketing division! (i.e. [@harmonia](http://twitter.com/harmonia) and [@freerange](http://twitter.com/freerange)) Please do sign up if you're interested; it helps keep us motivated.
 
-{l tom-ward,Tom} is working on an alternative approach (which he has codenamed 'Discordia'). I have given Tom the new job title _Director of Shadow Development_. Tom likes to play his cards, and his code, close to his chest, but he always delivers great stuff so we hope that he'll reveal it to us very soon.
+<%= l('tom-ward', 'Tom') %> is working on an alternative approach (which he has codenamed 'Discordia'). I have given Tom the new job title _Director of Shadow Development_. Tom likes to play his cards, and his code, close to his chest, but he always delivers great stuff so we hope that he'll reveal it to us very soon.
 
 ### Doctor Cron and The Authentication Blues
 
@@ -71,7 +71,7 @@ There's some other stuff that I'd like to talk about, particularly in terms of h
 Fin
 ---
 
-OK, that's enough until next week, when ({l week-192,as mentioned by Chris last week}) [Harmonia](http://harmonia.io) once again blesses a member of our quorum with stewardship of weeknotes. By then I'll be back in the UK, jetlagged and sodden with rain, looking lost and wondering why my phone's mapping has suddenly gone crap.
+OK, that's enough until next week, when (<%= l('week-192', 'as mentioned by Chris last week') %>) [Harmonia](http://harmonia.io) once again blesses a member of our quorum with stewardship of weeknotes. By then I'll be back in the UK, jetlagged and sodden with rain, looking lost and wondering why my phone's mapping has suddenly gone crap.
 
 Adiós y buena suerte, amigos!
 

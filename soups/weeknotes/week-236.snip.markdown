@@ -7,7 +7,7 @@ I've had a sandwich week -- two slices of [Harmonia](https://harmonia.io) with a
 
 ![Looking Glass](/images/blog/looking-glass.jpg)
 
-{l james-mead,James M} and I got our [looking glasses](http://scraplab.net/project-looking-glass/) working, and I'm looking forward to using them in anger. At the moment we use [Sqwiggle](https://www.sqwiggle.com/) to give a sense of connection despite our geographic spread, but it suffers from high CPU usage, which isn't great.
+<%= l('james-mead', 'James M') %> and I got our [looking glasses](http://scraplab.net/project-looking-glass/) working, and I'm looking forward to using them in anger. At the moment we use [Sqwiggle](https://www.sqwiggle.com/) to give a sense of connection despite our geographic spread, but it suffers from high CPU usage, which isn't great.
 
 James M also visited [OxRUG](http://oxrug.org/) this week, and got to know some of the local community better, including learning about a co-working space hosted by [White October](http://www.whiteoctober.co.uk/) which he might make some use of. I'm also considering spending a bit of my working day somewhere a bit social; with just me and the cat here in the afternoon, it can make a person go a bit stir-crazy.
 
@@ -15,9 +15,9 @@ On the [Harmonia](https://harmonia.io) front, I did a bit of sketching to figure
 
 ![Harmonia Sketches](/images/blog/harmonia-sketches.jpg)
 
-{l tom-ward,Tom} has also been doing some work on a new dashboard layout, and on adding the ability to try out new features using [feature flags](http://martinfowler.com/bliki/FeatureToggle.html), which should allow us to more easily experiment and roll out new functionality to subsets of our users.
+<%= l('tom-ward', 'Tom') %> has also been doing some work on a new dashboard layout, and on adding the ability to try out new features using [feature flags](http://martinfowler.com/bliki/FeatureToggle.html), which should allow us to more easily experiment and roll out new functionality to subsets of our users.
 
-Naturally, {l chris-roos, Chris} has been on holiday, the lucky blighter. He's back next week though.
+Naturally, <%= l('chris-roos', 'Chris') %> has been on holiday, the lucky blighter. He's back next week though.
 
 So that's that. See you next time,
 
