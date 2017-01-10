@@ -1,11 +1,52 @@
+require 'atom'
+
 class PagesController < ApplicationController
+  include ERB::Util
+
+  helper_method :url_to
+
   def show
     name = params.permit(:path)[:path]
     @snip = name.present? ? soup[name] : soup['start']
     @author = soup[@snip.author]
+    html = render_snip(@snip)
+    default_layout = (@snip.render_as == 'Blog') ? 'blog' : 'application'
+    layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : default_layout
+    render html: html.html_safe, layout: layout
+  end
+
+  def feed
+    domain = 'gofreerange.com'
+    snips = soup[kind: 'blog'].sort_by { |s| s.updated_at }.reverse.take(10)
+    xml = Atom::Feed.new do |f|
+      f.title = 'Go Free Range Blog'
+      f.updated = snips.first.updated_at
+      f.id = "tag:x,2008-06-01:kind/x"
+      snips.each do |snip|
+        f.entries << Atom::Entry.new do |e|
+          e.published = snip.created_at
+          e.updated = (snip.updated_at || snip.created_at)
+          e.content = Atom::Content::Html.new(h(render_snip(snip)))
+          e.title = snip.title || snip.name
+          e.authors = [Atom::Person.new(name: snip.author || domain)]
+          e.links << Atom::Link.new(href: "http://#{domain}#{url_to(snip.name)}")
+          e.id = "tag:#{domain},#{(snip.created_at || Time.now).to_date}:#{url_to(snip.name)}"
+        end
+      end
+    end.to_xml
+    render inline: xml, layout: false
+  end
+
+  private
+
+  def url_to(snip_name)
+    soup[snip_name] ? "/#{snip_name}" : "[Snip '#{snip_name}' not found]"
+  end
+
+  def render_snip(snip)
     context = view_context.instance_eval { binding }
-    content = ERB.new(@snip.content).result(context)
-    html = case @snip.extension
+    content = ERB.new(snip.content).result(context)
+    case snip.extension
     when 'haml'
       Haml::Engine.new(content).render
     when 'markdown'
@@ -13,12 +54,7 @@ class PagesController < ApplicationController
     else
       content
     end
-    default_layout = (@snip.render_as == 'Blog') ? 'blog' : 'application'
-    layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : default_layout
-    render html: html.html_safe, layout: layout
   end
-
-  private
 
   def soup
     @soup ||= begin
