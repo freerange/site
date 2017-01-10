@@ -34,7 +34,7 @@ Although not technically part of the Show and Tell, [Murray][] was keen to show 
 
 [Ben]: https://twitter.com/beng
 [bracelet we'd printed]: /week-292#the-finished-article
-[get in touch]: (/contact)
+[get in touch]: /contact
 [Google Health]: http://en.wikipedia.org/wiki/Google_Health
 [IFTTT]: https://ifttt.com/
 [James]: /james-mead

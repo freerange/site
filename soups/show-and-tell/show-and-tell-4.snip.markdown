@@ -31,7 +31,7 @@ If this sounds like the sort of thing you're interested in, then please do [get 
 [Ben]: https://twitter.com/beng
 [Emily]: http://emilywebber.co.uk/
 [FreeAgent Transaction Explainer]: https://chrome.google.com/webstore/detail/freeagent-transaction-exp/lgpgdkoopbcppnipcnbodcobjmhagmim
-[get in touch]: (/contact)
+[get in touch]: /contact
 [James]: /james-mead
 [jukebox]: https://github.com/techbelly/jukebox
 [Minimum Viable Book]: http://minimumviablebook.com/
