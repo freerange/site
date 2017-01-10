@@ -4,7 +4,7 @@ class PagesController < ApplicationController
     @snip = soup[name]
     @author = soup[@snip.author]
     html = Kramdown::Document.new(@snip.content).to_html
-    layout = @snip.layout.sub(/-layout$/, '')
+    layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : 'application'
     render html: html.html_safe, layout: layout
   end
 
@@ -13,6 +13,7 @@ class PagesController < ApplicationController
   def soup
     @soup ||= begin
       backend_dirs = %w(
+        soups
         soups/weeknotes
         soups/weeklinks
         soups/blog

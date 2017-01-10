@@ -42,4 +42,16 @@ module ApplicationHelper
   def url_to(snip_name)
     @soup[snip_name] ? "/#{snip_name}" : "[Snip '#{snip_name}' not found]"
   end
+
+  def body_class(snip)
+    return "" unless snip
+    case snip.kind
+    when "blog", "draft"
+      "blog"
+    when "project"
+      "project"
+    else
+      ""
+    end
+  end
 end

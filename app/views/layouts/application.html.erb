@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Site</title>
-    <%= csrf_meta_tags %>
+    <%= render partial: 'shared/head' %>
+    <title>
+      <%= @snip.page_title %> &mdash; Go Free Range.
+    </title>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    <meta name="keywords" content="ruby rails software development london" />
+    <meta name='format-detection' content='telephone=no'>
   </head>
+  <body class="<%= body_class(@snip) %>">
+    <div id="page">
 
-  <body>
-    <%= yield %>
+      <div id="header" class="group">
+        <ul id="top_nav" class="nav group">
+          <li id="link_blog"><p>Read our <a href="/blog">blog</a></p></li>
+        </ul>
+        <h1 id="logo"><a href="/" title="Go to homepage">Go Free Range</a></h1>
+      </div>
+
+      <div id="content" class="group">
+        <%= yield %>
+      </div>
+
+    </div>
+    <%= render partial: 'shared/javascripts' %>
   </body>
 </html>
