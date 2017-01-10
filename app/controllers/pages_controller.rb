@@ -6,8 +6,10 @@ class PagesController < ApplicationController
     html = case @snip.extension
     when 'haml'
       Haml::Engine.new(@snip.content).render
-    else
+    when 'markdown'
       Kramdown::Document.new(@snip.content).to_html
+    else
+      @snip.content
     end
     layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : 'application'
     render html: html.html_safe, layout: layout
