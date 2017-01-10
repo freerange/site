@@ -37,7 +37,7 @@ Yes! Our massive space needs to be filled with toxic substances and human bodies
 
 You, Dear Reader are forever invited to come and make history at the biennial Go Free Range office ceremony where we will all join hands and witness the consummation.
 
-All the details are [laid out for your eyes](gofreerange.com/officewarming) and it would be royally splendid if you would grace our humble abode with your beautiful instance of human.
+All the details are [laid out for your eyes](/officewarming) and it would be royally splendid if you would grace our humble abode with your beautiful instance of human.
 
 ### Roos is a lightweight
 
