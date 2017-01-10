@@ -99,4 +99,10 @@ module ApplicationHelper
   def l(name, text = nil)
     link_to text || name, url_to(name)
   end
+
+  def by(name)
+    initials = name.split('-').map(&:first).join.upcase
+    link = l(name, initials)
+    "<em>&mdash; #{link}</em>".html_safe
+  end
 end

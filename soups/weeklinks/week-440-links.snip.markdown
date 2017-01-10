@@ -3,14 +3,14 @@ Week 440 - Interesting links
 
 ### [Crisp: Happiness Index](http://dna.crisp.se/docs/happiness-index.html)
 
-Crisp are a self-organising consulting company based in Stockholm, Sweden. They use a "happiness index" as their primary metric that they use to make decisions about the direction of the company. This is very similar to an idea we've kicked around at [Go Free Range][] from time to time. I was interested to see that they've split out separate scores for client and non-client work. {by james-mead}
+Crisp are a self-organising consulting company based in Stockholm, Sweden. They use a "happiness index" as their primary metric that they use to make decisions about the direction of the company. This is very similar to an idea we've kicked around at [Go Free Range][] from time to time. I was interested to see that they've split out separate scores for client and non-client work. <%= by('james-mead') %>
 
 [Go Free Range]: /
 
 
 ### [Pinboard acquires Delicious](https://blog.pinboard.in/2017/06/pinboard_acquires_delicious/)
 
-This isn't exactly hot off the press, but since it came as quite a surprise to me, I thought I'd mention it. As a heavy user of the original del.icio.us website, I was very sad to see what became of it after it was sold by Yahoo. Anyway, kudos to [Maciej Cegłowski][] for his relentless focus on providing [the best bookmarking service][pinboard] (other than [Roosmarks][], obviously!). {by james-mead}
+This isn't exactly hot off the press, but since it came as quite a surprise to me, I thought I'd mention it. As a heavy user of the original del.icio.us website, I was very sad to see what became of it after it was sold by Yahoo. Anyway, kudos to [Maciej Cegłowski][] for his relentless focus on providing [the best bookmarking service][pinboard] (other than [Roosmarks][], obviously!). <%= by('james-mead') %>
 
 [Maciej Cegłowski]: http://idlewords.com/
 [pinboard]: https://pinboard.in
@@ -22,7 +22,7 @@ We've been considering revising our company's governing documents and
 potentially sharing publicly some of the wiki we use internally so
 that other tech co-operatives can learn from how we work. I started
 this thread over on the CoTech community discussion forum to collect
-examples from other organisations. {by chris-lowis}
+examples from other organisations. <%= by('chris-lowis') %>
 
 ### [99 Bottles of OOP](https://www.sandimetz.com/99bottles/)
 
@@ -36,7 +36,7 @@ patterns and how they can be used to address "code smells". This in
 particular made me think about our recent work refactoring an
 application for a client and how having a common language for
 describing a refactoring helps to keep individual chunks of work (for
-example in pull requests) self-contained. {by chris-lowis}
+example in pull requests) self-contained. <%= by('chris-lowis') %>
 
 :name: week-440-links
 :updated_at: 2017-06-20 14:39:21.566951000 +01:00

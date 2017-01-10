@@ -5,7 +5,7 @@ Week 340 - Interesting links
 
 I like the look of this new functionality from Google Maps. I've been manually collecting my own location history for a while now, and had imagined being able to use Google's location history to automate the process somewhat (i.e. give me suggestions of places I've been near during the day). Now it looks like I might simply be able to use this interface and then export my data to end up with the same result.
 
-The idea of having the data collected automatically, and updating it if necessary, appeals to me more than having to remember to checkin to each place I might visit. It'll be interesting to see how this evolves. {by chris-roos}
+The idea of having the data collected automatically, and updating it if necessary, appeals to me more than having to remember to checkin to each place I might visit. It'll be interesting to see how this evolves. <%= by('chris-roos') %>
 
 
 ### [Demo of The Social Web Acid Test level 0 at IndieWeb Camp](http://tantek.com/2015/193/t2/user-flow-permalinks-indieweb-swat0)
@@ -26,17 +26,17 @@ The [The Social Web Acid Test - Level 0 (SWAT 0)](http://www.w3.org/2005/Incubat
 
 If that's hard to follow (it took me a while to understand all the parts involved) then it might be easier to watch the [video of the demo](https://aaronparecki.com/notes/2015/07/14/1/swat0).
 
-I love that the work of the [IndieWeb community](http://indiewebcamp.com/) is making these sort of distributed interactions possible. {by chris-roos}
+I love that the work of the [IndieWeb community](http://indiewebcamp.com/) is making these sort of distributed interactions possible. <%= by('chris-roos') %>
 
 
 ### [Table Capture - Chrome Extension](https://chrome.google.com/webstore/detail/table-capture/iebpjdmgckacbodjpijphcplhebcmeop?hl=en)
 
-I found this Chrome extension useful for copying some HTML tables to a Google Spreadsheet. In some cases, simply copying and pasting an HTML table in to a Google Spreadsheet is good enough, but occassionally it'll get screwed up and all paste into a single column. This extension seems to copy the tables in such a way that Google Spreadsheets will always understand them. {by chris-roos}
+I found this Chrome extension useful for copying some HTML tables to a Google Spreadsheet. In some cases, simply copying and pasting an HTML table in to a Google Spreadsheet is good enough, but occassionally it'll get screwed up and all paste into a single column. This extension seems to copy the tables in such a way that Google Spreadsheets will always understand them. <%= by('chris-roos') %>
 
 
 ### [GPS Doodles](http://garmin.blogs.com/my_weblog/2015/07/gps-doodles-a-new-form-of-art-hitting-the-streets.html#.VbJJ7RNVhBc)
 
-I think these are awesome :-) {by chris-roos}
+I think these are awesome :-) <%= by('chris-roos') %>
 
 
 :render_as: Blog

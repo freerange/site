@@ -3,7 +3,7 @@ Week NNN - Interesting links
 
 ### [Title](http://example.com)
 
-Your comments here. {by chris-roos}
+Your comments here. <%= by('chris-roos') %>
 
 :render_as: Blog
 :kind: blog
