@@ -3,7 +3,12 @@ class PagesController < ApplicationController
     name = params.permit(:path)[:path]
     @snip = soup[name]
     @author = soup[@snip.author]
-    html = Kramdown::Document.new(@snip.content).to_html
+    html = case @snip.extension
+    when 'haml'
+      Haml::Engine.new(@snip.content).render
+    else
+      Kramdown::Document.new(@snip.content).to_html
+    end
     layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : 'application'
     render html: html.html_safe, layout: layout
   end
