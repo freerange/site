@@ -18,7 +18,7 @@ Anyway, writing this up is part of a concerted effort to "catch up" with our wee
 -- James
 
 [Show and Tell event]: /show-and-tell-events
-[NEST Pension]: https://www.nestpensions.org.uk/
+[NEST Pension]: https://www.nestpensions.org.uk
 [Auto Enrolment staging date]: http://www.thepensionsregulator.gov.uk/employers/staging-date.aspx
 
 :render_as: Blog
