@@ -29,7 +29,37 @@
         </h1>
       </div>
       <div class='group' id='content'>
-        <%= yield %>
+        <div class='blog_entry group'>
+          <p class='article_date'>
+            <%= article_date(@snip.created_at) %>
+          </p>
+
+          <div class='author'>
+            <img src='<%= @author.image %>' alt='<%= @author.name.titleize %>'/>
+            <span>
+              by <%= @author.name.titleize %>
+            </span>
+          </div>
+
+          <div class='content'>
+            <%= yield %>
+          </div>
+
+          <div id='comments' class='comments'>
+            <% if Rails.env.production? %>
+              <%= render partial: 'shared/disqus_commenting' %>
+            <% else %>
+              Disqus commenting is only enabled in production.
+            <% end %>
+          </div>
+        </div>
+
+        <div id='article_links'>
+          <h3>Recent</h3>
+          <ul id='recent_articles'>
+            <%= list_of kind: 'blog', limit: 5 %>
+          </ul>
+        </div>
       </div>
     </div>
     <%= render partial: 'shared/javascripts' %>
