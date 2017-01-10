@@ -13,7 +13,7 @@ Pairing with new people always introduces new tools.  Last week working with [Ni
 
 ### [BitTorrent Sync](http://labs.bittorrent.com/experiments/sync.html)
 
-We use [Dropbox](http://www.dropbox.com) a lot at {gfr}, but cramming everything into that single directory can be a bit onerous. I've been experimenting with this as an alternative/augmentation, and currently have it syncing my 'Documents' and a few other directories from my laptop to one of [my VPS machines "in the cloud"](http://www.linode.com/?r=6f2e7f0dbc623e6d0db13dd153f4b2c57eb09ce2). So far it works pretty well; the only problem is that most VPSes don't actually have a huge amount of disk space. {by james-adam}
+We use [Dropbox](http://www.dropbox.com) a lot at <%= include_snip 'gfr' %>, but cramming everything into that single directory can be a bit onerous. I've been experimenting with this as an alternative/augmentation, and currently have it syncing my 'Documents' and a few other directories from my laptop to one of [my VPS machines "in the cloud"](http://www.linode.com/?r=6f2e7f0dbc623e6d0db13dd153f4b2c57eb09ce2). So far it works pretty well; the only problem is that most VPSes don't actually have a huge amount of disk space. {by james-adam}
 
 
 ### [FeedBin](https://feedbin.me/)

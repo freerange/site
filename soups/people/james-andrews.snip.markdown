@@ -1,4 +1,4 @@
-James worked as part of {fr} from its inception until May 2010.
+James worked as part of <%= include_snip 'fr' %> from its inception until May 2010.
 
 While working with us, he contributed to the <%= l('tellyougov', 'TellYouGov') %> project, and provided development for <%= l('mubi', 'MUBI') %> and <%= l('new-leaders', 'New Leaders') %>.
 
