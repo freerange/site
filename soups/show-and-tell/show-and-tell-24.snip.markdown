@@ -129,7 +129,7 @@ I think it's great that Rob's tweaking the courses to try to give students a mor
 
 [contact]: /contact
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

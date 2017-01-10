@@ -122,7 +122,7 @@ There were lots of suggestions from the group, particularly around the idea of u
 :name: show-and-tell-26
 :updated_at: 2016-12-12 17:42:04.028577000 +00:00
 :created_at: 2016-12-12 17:42:04.028569000 +00:00
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

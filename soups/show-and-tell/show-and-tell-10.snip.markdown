@@ -56,7 +56,7 @@ Until next time.
 [xsv]: https://github.com/BurntSushi/xsv
 [You Need a Budget]: http://www.youneedabudget.com/
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

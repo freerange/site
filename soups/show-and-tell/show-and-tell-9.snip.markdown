@@ -63,7 +63,7 @@ I really enjoyed the evening and I'm glad we decided to keep it up despite not h
 [week 268]: /week-268
 
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

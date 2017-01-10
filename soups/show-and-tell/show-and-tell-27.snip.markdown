@@ -153,7 +153,7 @@ Please [get in touch][contact] if you're interested in joining us for the next S
 :name: show-and-tell-27
 :updated_at: 2016-12-21 14:35:42.727940000 +00:00
 :created_at: 2016-12-21 14:35:42.727931000 +00:00
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

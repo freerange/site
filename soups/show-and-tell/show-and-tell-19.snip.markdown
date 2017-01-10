@@ -76,7 +76,7 @@ I talked a little bit about [Google Maps Timeline][google-maps-timeline] (previo
 [tom-stuart]: http://codon.com/
 [visual-pinball]: http://www.vpforums.org/
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

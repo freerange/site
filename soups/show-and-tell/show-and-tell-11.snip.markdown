@@ -55,7 +55,7 @@ Until next time.
 [Show and Tell 10]: /show-and-tell-10
 [Stay in Touch]: https://stay-in-touch.herokuapp.com/
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

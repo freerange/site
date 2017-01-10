@@ -88,7 +88,7 @@ Until next time,
 [this write-up]: https://github.com/freerange/site/blob/master/soups/blog/show-and-tell-18.snip.markdown
 
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

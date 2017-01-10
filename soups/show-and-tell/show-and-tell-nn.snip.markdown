@@ -3,7 +3,7 @@ Show and Tell NN
 
 <!-- add content here -->
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :draft: true
 :is_page: true

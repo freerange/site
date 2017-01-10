@@ -77,7 +77,7 @@ Until next time,
 [sentiment analysis]: https://en.wikipedia.org/wiki/Sentiment_analysis
 [howbigreally.com]: http://howbigreally.com
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

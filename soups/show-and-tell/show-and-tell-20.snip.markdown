@@ -73,7 +73,7 @@ Until next time,
 [pull-request]: https://github.com/freerange/site/pulls
 [this-write-up]: https://github.com/freerange/site/blob/master/soups/blog/show-and-tell-20.snip.markdown
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

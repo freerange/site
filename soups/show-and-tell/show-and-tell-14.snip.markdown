@@ -94,7 +94,7 @@ Until next time.
 [Slack]: https://slack.com/
 [Subversion]: https://subversion.apache.org/
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

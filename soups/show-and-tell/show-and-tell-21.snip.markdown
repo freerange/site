@@ -82,7 +82,7 @@ Until next time,
 [this-write-up]: https://github.com/freerange/site/blob/master/soups/blog/show-and-tell-21.snip.markdown
 [pull-request]: https://github.com/freerange/site/pulls
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

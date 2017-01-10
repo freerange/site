@@ -64,7 +64,7 @@ Until next time.
 [tom-s]: http://codon.com/
 [waw]: http://blog.chrislowis.co.uk/waw.html
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

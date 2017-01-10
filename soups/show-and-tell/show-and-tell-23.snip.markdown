@@ -63,7 +63,7 @@ Please [get in touch][contact] if you're interested in joining us for the next S
 [xcode-interactive-playgrounds]: https://developer.apple.com/swift/blog/?id=35
 [zoom]: http://www.logicalshift.co.uk/unix/zoom/
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

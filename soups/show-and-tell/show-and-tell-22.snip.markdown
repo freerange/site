@@ -32,7 +32,7 @@ Until next time,
 [jsspeccy2]: https://github.com/gasman/jsspeccy2
 [fire-key-press-events-programmtically]: http://stackoverflow.com/questions/8668192/programmatically-triggering-ctrls/19882728#19882728
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

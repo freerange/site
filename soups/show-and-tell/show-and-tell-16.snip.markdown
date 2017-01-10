@@ -101,7 +101,7 @@ Thanks to everyone for coming. Hope to see you next time.
 [^2]: This resulted in a rant or two about the awfulness of Puppet
 [^3]: I'm not sure these are the exact plugins Tom is using
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

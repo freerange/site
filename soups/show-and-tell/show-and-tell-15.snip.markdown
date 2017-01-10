@@ -79,7 +79,7 @@ Until next time.
 [strftime-ruby]: http://ruby-doc.org/core-2.2.0/Time.html#method-i-strftime
 [timelines]: https://developers.google.com/chart/interactive/docs/gallery/timeline
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown

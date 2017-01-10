@@ -69,7 +69,7 @@ If we were to create another presentation then I think I’d want us to come tog
 [presentation-pdf]: https://github.com/freerange/pair-programming-presentation/blob/master/presentation.pdf
 [xp-explained]: http://c2.com/cgi/wiki?ExtremeProgrammingExplainedEmbraceChange
 
-:render_as: blog
+:render_as: Blog
 :kind: blog
 :is_page: true
 :written_with: markdown

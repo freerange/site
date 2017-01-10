@@ -60,7 +60,7 @@ Until next time.
 [urm-clojure]: https://github.com/thattommyhall/URM
 [Vestibule]: https://github.com/rubymanor/vestibule
 
-:render_as: blog
+:render_as: Blog
 :kind: show-and-tell
 :is_page: true
 :written_with: markdown
