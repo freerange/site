@@ -76,11 +76,10 @@ Until next time.
 [trello]: https://trello.com/
 
 :name: week-416
-:updated_at: 2017-01-10 10:08:05.744117000 +00:00
-:created_at: 2017-01-10 10:08:05.744102000 +00:00
+:updated_at: 2017-01-11 11:02:36.996303000 +00:00
+:created_at: 2017-01-11 11:02:36.996291000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
