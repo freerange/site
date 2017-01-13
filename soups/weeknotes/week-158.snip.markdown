@@ -1,7 +1,7 @@
 Week 158
 ========
 
-I've already written this week about my experiences <%= l('working-remotely', '"remote working"') %>, but it's weeknotes time and I know you won't be happy without them, so, well, here they are.
+I've already written this week about my experiences <%= l('working-remotely', 'remote working') %>, but it's weeknotes time and I know you won't be happy without them, so, well, here they are.
 
 Happy now?
 
@@ -12,7 +12,7 @@ This was the second of two flat-out weeks for [Free Range](/). It's fair to say 
 
 ### Whitehall
 
-Progress continues apace with the [development of the "corporate" slice][whitehall-github] of the <%= l('government-single-domain', '"single domain project"') %>, and it was the second week of working with [Tom Stuart][], who has taken almost no time to get up to speed and is steadily delivering new features.
+Progress continues apace with the [development of the "corporate" slice][whitehall-github] of the <%= l('government-single-domain', 'single domain project') %>, and it was the second week of working with [Tom Stuart][], who has taken almost no time to get up to speed and is steadily delivering new features.
 
 It's been particularly interesting to get the perspective of another developer on a project you've been building for a while; [Tom][Tom Stuart] has definitely been shining light into some of the less desirable nooks and crannies of the software and helping us clean them up. He's also been asking great questions about which of a set of implementation options is the "[Free Range](/) preferred way", which has given a few of us pause for thought about how we might improve and clarify our shared approach to software architecture.
 
