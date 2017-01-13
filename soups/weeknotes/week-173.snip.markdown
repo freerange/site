@@ -48,7 +48,7 @@ One thing we've tried to do over {l week-171,the past} {l week-172,few weeks} is
 >
 > I now know that discipline and defined action, which followed through daily is the best way I have found to cultivate freedom and happiness.
 
-While it might superficially feel constrictive and stifling to remove the ability to choose what you might work on at any given moment, I believe, as Jason says above, that these choices are frequently just the illusion of choice, and in reality a source of distraction. Picking a goal and then working towards it at the expense of {l printer,playing with printers} (for example) is actually a better way to get satisfaction about what you do.
+While it might superficially feel constrictive and stifling to remove the ability to choose what you might work on at any given moment, I believe, as Jason says above, that these choices are frequently just the illusion of choice, and in reality a source of distraction. Picking a goal and then working towards it at the expense of [playing with printers][gfr-printer] (for example) is actually a better way to get satisfaction about what you do.
 
 Having fewer choices leaves more energy for focussing at the task at hand. [Constraints are liberating](http://gettingreal.37signals.com/ch03_Embrace_Constraints.php). And you see this focussed approach in lots of other mechanisms for achieving, from the agile story process ("pick the next most important thing, do some work towards that, and repeat") to the personal [getting things done](http://www.davidco.com/) system, to our own [Harmonia][]; they are all about removing the illusion of freedom in the moment, and so enabling us to steer ourselves more reliably towards our goals in the medium and long term.
 
@@ -100,6 +100,7 @@ Right, this is already way too long. I'm off to chill out by [gob-slamming a vio
 [Sauron]: http://github.com/freerange/sauron
 [goos]: http://www.growing-object-oriented-software.com/
 [Harmonia]: http://github.com/freerange/harmonia
+[gfr-printer]: https://exciting.io/printer/
 
 :render_as: Blog
 :kind: blog

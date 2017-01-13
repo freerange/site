@@ -40,7 +40,7 @@ After a few hours of head-scratching and a few false starts, I think we've found
 All I'll say for now is that the key is extracting _value objects_ and _adaptors_. More on this later I hope.
 
 
-[[Little](http://bergcloud.com/littleprinter/)] {l printer,Printer}
+[[Little](http://bergcloud.com/littleprinter/)] [Printer][gfr-printer]
 -------
 
 At GFR we've been {l hello-printer,printing with some of our friends since April}, but if you have been waiting for a packaged product, your time has come. This week, [BERG](http://berglondon.com) opened up [pre-orders for Little Printer](http://uk-shop.bergcloud.com/). Welcome to the party!
@@ -81,23 +81,21 @@ It's **all about the format and the content**.
 [As I've tried to emphasise in our own project](https://github.com/freerange/printer/wiki/Building-content-services), what is going to be really interesting is exploring the range of content that could be useful or interesting or delightful in this novel format. A significant amount of BERG's energy has clearly gone into developing and refining their own ideas about what works in this format, but there is doubtless much more that could be done.
 
 
-### And what of our {l printer,Printer}?
+### And what of our [Printer][gfr-printer]?
 
 One side effect of the buzz around BERG's announcement -- positive or otherwise -- is that our own project got a bit of a boost. Here's some analytics information reflecting the number of visitors to this site recently:
 
 ![Printer traffic](/images/blog/printer-traffic.png)
 
-We haven't really decided what we're going to do with {l printer,Printer} yet[^printer-plans], but for the moment it still makes a great open-source alternative. I have plenty more that I'd like to do with it; it's just a case of finding the time.
+We haven't really decided what we're going to do with [Printer][gfr-printer] yet[^printer-plans], but for the moment it still makes a great open-source alternative. I have plenty more that I'd like to do with it; it's just a case of finding the time.
 
 Until next time,
 
 -- James A.
 
-[^printer-plans]: {l printer,Printer} is only one of the projects that we are working on internally, and it's not clear at the moment how it might be able to address our _company goal_ -- in part because of exactly the amount of effort BERG have had to put into Little Printer to get this far. [Shipping atoms](https://twitter.com/freerange/status/235324391406329856) [is hard](http://berglondon.com/blog/2011/03/15/three-cheers-for-plumen-design-of-the-year/)!
+[^printer-plans]: [Printer][gfr-printer] is only one of the projects that we are working on internally, and it's not clear at the moment how it might be able to address our _company goal_ -- in part because of exactly the amount of effort BERG have had to put into Little Printer to get this far. [Shipping atoms](https://twitter.com/freerange/status/235324391406329856) [is hard](http://berglondon.com/blog/2011/03/15/three-cheers-for-plumen-design-of-the-year/)!
 
-
-
-
+[gfr-printer]: https://exciting.io/printer/
 
 :render_as: Blog
 :kind: blog
