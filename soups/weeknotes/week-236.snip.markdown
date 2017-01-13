@@ -3,7 +3,7 @@ Week 236
 
 OK, genuinely short weeknotes this week. Strap in.
 
-{l james-adam,I}'ve had a sandwich week -- two slices of [Harmonia](https://harmonia.io) with a thick layer of client work in the middle of it. It's good to be able to come back to Harmonia more than once in a week though, as it lends a sense of momentum that's otherwise hard to establish.
+I've had a sandwich week -- two slices of [Harmonia](https://harmonia.io) with a thick layer of client work in the middle of it. It's good to be able to come back to Harmonia more than once in a week though, as it lends a sense of momentum that's otherwise hard to establish.
 
 ![Looking Glass](/images/blog/looking-glass.jpg)
 

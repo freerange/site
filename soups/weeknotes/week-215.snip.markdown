@@ -17,7 +17,7 @@ In the spirit of looking back, Neil also wrote another piece on the main GDS blo
 Meanwhile, at GFR HQ...
 ------
 
-Back on the home front, {l james-adam,I}'ve been doing a bit of thinking about the dynamics of self-organisation, and the interplay between autonomy and responsibility. With four hands on the rudder of our ship it can be a challenge to keep a steady tack, let alone plot the best course, and my mind is particularly pre-occupied at the moment with questions about how to build more momentum for our non-client projects. (*Yes, yes, OK, I know; this is always on my mind.*)
+Back on the home front, I've been doing a bit of thinking about the dynamics of self-organisation, and the interplay between autonomy and responsibility. With four hands on the rudder of our ship it can be a challenge to keep a steady tack, let alone plot the best course, and my mind is particularly pre-occupied at the moment with questions about how to build more momentum for our non-client projects. (*Yes, yes, OK, I know; this is always on my mind.*)
 
 I've also been thinking more about what the future is -- if there is any -- for the [Printer][] project with GFR. There's a relatively steady trickle of interest in some kind of "kit", but pricing it competitively is a challenge in and of itself, which has had me spending a bit of time over the last few weeks investigating importing the printer units from China. If you've got *any* experience with this, I'd love to hear from you!
 
