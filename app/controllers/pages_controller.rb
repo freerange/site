@@ -5,9 +5,11 @@ class PagesController < ApplicationController
 
   helper_method :url_to
 
+  ROOT_SNIP_NAME = 'start'.freeze
+
   def show
     name = params.permit(:path)[:path]
-    @snip = name.present? ? soup[name] : soup['start']
+    @snip = name.present? ? soup[name] : soup[ROOT_SNIP_NAME]
     @author = soup[@snip.author]
     html = render_snip(@snip)
     default_layout = (@snip.render_as == 'Blog') ? 'blog' : 'application'
@@ -39,8 +41,11 @@ class PagesController < ApplicationController
 
   private
 
-  def url_to(snip_name)
-    soup[snip_name] ? "/#{snip_name}" : "[Snip '#{snip_name}' not found]"
+  def url_to(snip_name, part=nil)
+    return root_path if snip_name == ROOT_SNIP_NAME && part.nil?
+    url = "/#{CGI.escape(snip_name)}"
+    url += "/#{CGI.escape(part)}" if part
+    url
   end
 
   def render_snip(snip)

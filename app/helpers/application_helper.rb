@@ -92,8 +92,12 @@ module ApplicationHelper
     render partial: 'shared/project', locals: { project: snip }
   end
 
-  def l(name, text = nil)
-    link_to text || name, url_to(name)
+  def l(name, text = nil, part = nil)
+    if @soup[name]
+      link_to text || name, url_to(name, part)
+    else
+      raise "Snip not found: #{name}/#{part} for '#{text}'"
+    end
   end
 
   def by(name)
