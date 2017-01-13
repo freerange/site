@@ -36,7 +36,7 @@ Excellent news! {by james-mead}
 
 > Habitat is an external brain. It does things in response to your interactions with your digital-physical environment using behavior-driven development style tests. (Think self-hosted Google Now meets If This Then That).
 
-I mentioned [Habitat](https://github.com/memespring/habitat) way back in [week 279](/week-279) but thought I'd mention it again given that Richard's written up a talk he recently gave at Fosdem 2015. I've not tried it but am pretty excited by the possibilities. {by chris-roo}
+I mentioned [Habitat](https://github.com/memespring/habitat) way back in [week 279](/week-279) but thought I'd mention it again given that Richard's written up a talk he recently gave at Fosdem 2015. I've not tried it but am pretty excited by the possibilities. {by chris-roos}
 
 
 ### [Why the hell not?](https://signalvnoise.com/posts/3854-why-the-hell-not)
