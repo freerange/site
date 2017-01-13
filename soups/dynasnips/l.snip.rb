@@ -2,9 +2,9 @@ require 'vanilla/dynasnip'
 
 class LinkTo < Dynasnip
   usage %|
-The link_to dyna lets you create links between snips: 
+The link_to dyna lets you create links between snips:
 
-  {link_to blah} 
+  {link_to blah}
 
 would insert a link to the blah snip.|
 
@@ -14,7 +14,7 @@ would insert a link to the blah snip.|
     if app.soup[name]
       %{<a href="#{url_to(name, part)}">#{link_text}</a>}
     else
-      %{<a class="missing" href="#{url_to(name, part)}">#{link_text}</a>}
+      raise "Snip not found: #{name}/#{part} for '#{link_text}'"
     end
   end
 
