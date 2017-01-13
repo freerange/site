@@ -122,7 +122,7 @@ def generate_otp(key, counter, digits = 6)
 end
 
 otp = generate_otp('12345678901234567890', 5)
-puts "OTP: #{otp}"
+puts "OTP: %s" % otp
 ~~~
 
 ## Generating TOTPs
@@ -170,7 +170,7 @@ Now that we know that the only difference is in the value of the counter we can 
 counter = Time.now.to_i / 30 # 30 second intervals in current unix time
 
 otp = generate_otp('12345678901234567890', counter)
-puts "OTP: #{otp}"
+puts "OTP: %s" % otp
 ~~~
 
 Assuming we've saved the Ruby script as totp.rb, we can use `oathtool` to verify the generated OTP.
