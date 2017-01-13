@@ -26,3 +26,4 @@
 * Remove vanilla-related code
 * Work out how we want to deploy the app
 * Do we need the timmy JS stuff in project layout?
+* Fail fast if included snip not found
