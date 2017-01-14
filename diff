@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+directory_1 = ARGV.shift
+directory_2 = ARGV.shift
+abort "Usage: #{__FILE__} <directory_1> <directory_2" unless directory_1 && directory_2
+
+system(%{diff --ignore-blank-lines --ignore-space-change --recursive #{directory_1} #{directory_2}})
