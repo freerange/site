@@ -11,7 +11,7 @@ I've recently moved all my data, including my photos, from Dropbox to Google Dri
 I really enjoyed this documentary about James 'The Amazing' Randi. As a magician, James started noticing the tricks he knew being used to take advantage of vulnerable people. Frustrated with the situation, he seems to have made it his life work to fight these fraudsters. A very entertaining, and at times emotional, film. {by chris-roos}
 
 
-### [Google Analytics Debugger](Google Analytics Debugger)
+### [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en)
 
 This Chrome extension came in really handy when I was trying to understand whether I'd configured Google Analytics correctly while doing some work on [Smart Answers](https://github.com/alphagov/smart-answers). {by chris-roos}
 
