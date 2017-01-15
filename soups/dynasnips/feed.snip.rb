@@ -5,7 +5,7 @@ class Feed < Dynasnip
     app.atom_feed({
       :domain => "gofreerange.com",
       :title => "Go Free Range Blog",
-      :snips => app.soup[:kind => "blog"].reject { |s| s.draft },
+      :snips => %w(blog show-and-tell).flat_map { |k| app.soup[:kind => k] }.reject { |s| s.draft },
       :count => 10
     })
   end
