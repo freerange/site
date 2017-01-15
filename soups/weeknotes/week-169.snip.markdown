@@ -35,11 +35,11 @@ After spending the Easter weekend and most of last week [taking pictures and wri
 
 ### Hello, Printer
 
-After a large amount of proof-reading help (thanks [Chris][], [James][James M], [Murray](http://www.h-lame.com) and everyone else), we tweeted about it on Thursday morning, and published the [blog post](/hello-printer).
+After a large amount of proof-reading help (thanks [Chris][], [James][James M], [Murray](http://www.h-lame.com) and everyone else), we tweeted about it on Thursday morning, and published the [blog post][hello-printer].
 
 ![Some of the feedback via the printer](/images/blog/printer-wow.jpg)
 
-The response has been amazing. I was really concerned that people might not understand the purpose of the project, but all the feedback we've had has been overwhelmingly positive. Thanks to a [post on Hacker News](http://news.ycombinator.com/item?id=3831695), we had around five times as many people read the [project](/printer) and [blog post](/hello-printer) pages as have ever visited our humble corner of the internet before:
+The response has been amazing. I was really concerned that people might not understand the purpose of the project, but all the feedback we've had has been overwhelmingly positive. Thanks to a [post on Hacker News](http://news.ycombinator.com/item?id=3831695), we had around five times as many people read the [project](/printer) and [blog post][hello-printer] pages as have ever visited our humble corner of the internet before:
 
 <blockquote class="twitter-tweet tw-align-center"><p>“@<a href="https://twitter.com/freerange">freerange</a>: Introducing our Printer project: <a href="http://t.co/F8AXrB3x" title="http://gofreerange.com/printer">gofreerange.com/printer</a>" I could see this absorbing a lot of evenings</p>&mdash; James Webster (@jwebster) <a href="https://twitter.com/jwebster/status/190379157585272832" data-datetime="2012-04-12T10:01:42+00:00">April 12, 2012</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -70,6 +70,7 @@ Anyway, that was the week that was. Onwards to Week 170!
 [Chris]: /chris-roos
 [Printer]: /printer
 [James A]: /james-adam
+[hello-printer]: https://exciting.io/2012/04/12/hello-printer/
 
 :render_as: Blog
 :kind: blog

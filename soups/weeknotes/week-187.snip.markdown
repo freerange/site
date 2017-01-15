@@ -43,7 +43,7 @@ All I'll say for now is that the key is extracting _value objects_ and _adaptors
 [[Little](http://bergcloud.com/littleprinter/)] [Printer][gfr-printer]
 -------
 
-At GFR we've been {l hello-printer,printing with some of our friends since April}, but if you have been waiting for a packaged product, your time has come. This week, [BERG](http://berglondon.com) opened up [pre-orders for Little Printer](http://uk-shop.bergcloud.com/). Welcome to the party!
+At GFR we've been [printing with some of our friends since April][hello-printer], but if you have been waiting for a packaged product, your time has come. This week, [BERG](http://berglondon.com) opened up [pre-orders for Little Printer](http://uk-shop.bergcloud.com/). Welcome to the party!
 
 Obviously I have a few thoughts.
 
@@ -96,6 +96,7 @@ Until next time,
 [^printer-plans]: [Printer][gfr-printer] is only one of the projects that we are working on internally, and it's not clear at the moment how it might be able to address our _company goal_ -- in part because of exactly the amount of effort BERG have had to put into Little Printer to get this far. [Shipping atoms](https://twitter.com/freerange/status/235324391406329856) [is hard](http://berglondon.com/blog/2011/03/15/three-cheers-for-plumen-design-of-the-year/)!
 
 [gfr-printer]: https://exciting.io/printer/
+[hello-printer]: https://exciting.io/2012/04/12/hello-printer/
 
 :render_as: Blog
 :kind: blog
