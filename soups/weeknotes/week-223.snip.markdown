@@ -11,7 +11,7 @@ Speaking of which, it feels as though we're really starting to find our stride i
 
 Giles Booth has written up his experiences of getting his [Raspberry Pi hooked up to the GFR Printer platform](http://www.suppertime.co.uk/blogmywiki/2013/04/making-a-gofreerange-printer-with-a-raspberry-pi/), and earned a mention on the [Adafruit blog](http://www.adafruit.com/blog/2013/04/26/making-a-gofreerange-printer-with-a-raspberry-pi/). Good work, Giles!
 
-If you're interested in getting involved with the [GFR Printer](/printer) project, you can [buy your very own kit](/printer-kit) or register your interest to [borrow one](http://gofreerange.com/printer#borrow).
+If you're interested in getting involved with the [GFR Printer](/printer) project, you can [buy your very own kit][printer-kit] or register your interest to [borrow one](http://gofreerange.com/printer#borrow).
 
 ## Inside Government
 
@@ -21,6 +21,8 @@ Until next Summer.
 
 Chris
 
+[printer-kit]: http://exciting.io/printer
+
 :render_as: Blog
 :kind: blog
 :is_page: true
@@ -29,4 +31,3 @@ Chris
 :created_at: 2013-04-26 17:30:00 +01:00
 :updated_at: 2013-04-26 17:30:00 +01:00
 :page_title: Week 223 - Hello Autumn
-

@@ -5,9 +5,9 @@ Early in the week we had our monthly company drinks outing. We decided to go for
 
 ## Printer kit
 
-[Printer][hello-printer], the open-source internet-connected receipt printer project, has received a steady stream of interest and in the middle of the week, James A made good on an earlier promise and offered [printer kits for sale](/printer-kit) to people in the UK. This is a bit of an experiment for us, but our main aim is to get more Printers out into the world thereby encouraging people to experiment and [build more content services](https://github.com/freerange/printer/wiki/Building-content-services) for them.
+[Printer][hello-printer], the open-source internet-connected receipt printer project, has received a steady stream of interest and in the middle of the week, James A made good on an earlier promise and offered [printer kits for sale][printer-kit] to people in the UK. This is a bit of an experiment for us, but our main aim is to get more Printers out into the world thereby encouraging people to experiment and [build more content services](https://github.com/freerange/printer/wiki/Building-content-services) for them.
 
-I'm in the process of assembling my own Printer kit at home and it's definitely very straightforward. So if you previously read about Printer and were inspired to have a go, but were put off by the need to solder electronic components, go to the [GFR "store"](/printer-kit) now and buy yourself a kit!
+I'm in the process of assembling my own Printer kit at home and it's definitely very straightforward. So if you previously read about Printer and were inspired to have a go, but were put off by the need to solder electronic components, go to the [GFR "store"][printer-kit] now and buy yourself a kit!
 
 ## Monday links
 
@@ -64,6 +64,7 @@ Until next time.
 [GOV.UK]: http://www.gov.uk
 [Designs of the year 2013]: http://designmuseum.org/exhibitions/2013/designs-of-the-year-2013
 [hello-printer]: https://exciting.io/2012/04/12/hello-printer/
+[printer-kit]: http://exciting.io/printer
 
 :render_as: Blog
 :kind: blog

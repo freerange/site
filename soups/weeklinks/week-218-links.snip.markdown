@@ -31,7 +31,7 @@ It's also going to be interesting to follow a company generating some revenue fr
 I thought this was a great piece of writing, putting into words the unsettling feelings I already had about this advert. {by tom-ward}
 
 
-### [Printer Kit](/printer-kit)
+### [Printer Kit][printer-kit]
 
 Some shameless self-promotion, but if you're in the UK and want to build a [GFR Printer](/printer), it's never been easier. {by james-adam}
 
@@ -51,6 +51,7 @@ On Wednesday 20th the 'Designs of the Year 2013' exhibition opens at the design 
 I'm quite intrigued by Huginn which claims to be a self-hosted mixture of Yahoo! Pipes plus IFTTT where you have a set of "agents" that monitor bits of the internet and act on your behalf based on a set of rules.  {by james-mead}
 
 
+[printer-kit]: http://exciting.io/printer
 
 :render_as: Blog
 :kind: blog

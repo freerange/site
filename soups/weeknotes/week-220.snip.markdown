@@ -33,11 +33,13 @@ James A has also been keeping an eye on [HeyList!](http://heyli.st/). If you wan
 
 ## Printer kits
 
-After a short delay due to temporary difficulties getting hold of some [Arduino Ethernets](https://github.com/freerange/printer/wiki/Component-list#or-arduino-ethernet-6533-42), James A has sent out a few more [Printer kits](http://gofreerange.com/printer-kit). I'm looking forward to seeing what people do with them.
+After a short delay due to temporary difficulties getting hold of some [Arduino Ethernets](https://github.com/freerange/printer/wiki/Component-list#or-arduino-ethernet-6533-42), James A has sent out a few more [Printer kits][printer-kit]. I'm looking forward to seeing what people do with them.
 
 Anyway, that's your lot for this week. Have a great weekend!
 
 -- James
+
+[printer-kit]: http://exciting.io/printer
 
 :render_as: Blog
 :kind: blog
@@ -47,4 +49,3 @@ Anyway, that's your lot for this week. Have a great weekend!
 :created_at: 2013-04-05 10:29:00 +00:00
 :updated_at: 2013-04-05 10:29:00 +00:00
 :page_title: Week 220
-
