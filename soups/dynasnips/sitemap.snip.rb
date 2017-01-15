@@ -25,8 +25,8 @@ class Sitemap < Dynasnip
     xml =<<-EOX
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      #{urls}
-      #{docs}
+      #{urls.join("\n")}
+      #{docs.join("\n")}
 </urlset>
     EOX
   end
