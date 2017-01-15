@@ -3,6 +3,6 @@
 domain = ARGV.shift
 abort "Usage: #{__FILE__} <domain>" unless domain
 
-system(%{wget --mirror --domains=#{domain} --wait=1 --exclude-directories=assets,images,javascripts,stylesheets http://#{domain}})
+system(%{wget --mirror --adjust-extension --domains=#{domain} --exclude-directories=assets,images,javascripts,stylesheets http://#{domain}})
 
-system(%{find #{domain} -type f ! -name '*.*' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha {} \\;})
+system(%{find #{domain} -type f -name '*.html' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha {} \\;})
