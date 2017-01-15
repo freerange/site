@@ -68,7 +68,7 @@ Until next time, folks.
 [lisa-martin]: https://lisaamartin.wordpress.com/
 [mocha]: https://github.com/freerange/mocha
 [smart-answers]: https://github.com/alphagov/smart-answers
-[week-368-chrome-bug]: /week-368-google-chrome-bug
+[week-368-chrome-bug]: /week-368#google-chrome-bug
 
 :name: week-405
 :updated_at: 2016-11-03 12:16:58.658944000 +00:00
