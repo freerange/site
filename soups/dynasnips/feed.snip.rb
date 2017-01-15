@@ -5,7 +5,7 @@ class Feed < Dynasnip
     app.atom_feed({
       :domain => "gofreerange.com",
       :title => "Go Free Range Blog",
-      :matching => {:kind => "blog"},
+      :snips => app.soup[:kind => "blog"].reject { |s| s.draft },
       :count => 10
     })
   end
