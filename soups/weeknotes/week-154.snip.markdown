@@ -83,7 +83,7 @@ Have a great New Year, blog friends.
 [Stirling Ackroyd]: http://www.stirlingackroyd.com
 [TechHub]: http://www.techhub.com
 [Protein]: http://prote.in
-[Harmonia]: /harmonia
+[Harmonia]: http://exciting.io/harmonia
 [Linda]: /linda-reads-your-numbers
 [Voicenet]: /voicenet
 [geohash-explorer]: http://geohash.gofreerange.com/

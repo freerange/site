@@ -46,7 +46,7 @@ Right: [Harmonia][], let's have that chat...
 
 [^worse]: The phrase I've been using is "this should mean we make things worse _much_ more slowly".
 [Harmonia]: http://github.com/freerange/harmonia
-[harmonia-blog]: /harmonia
+[harmonia-blog]: http://exciting.io/harmonia
 [Inside Government]: /inside-government
 [GDS]: http://digital.cabinetoffice.gov.uk
 [Printer]: /printer

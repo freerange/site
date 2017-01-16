@@ -45,7 +45,7 @@ To be clear, **I'm absolutely not saying that Sinatra is bad software**. I just 
 Our (nefarious) agenda
 --------------
 
-This week I finished off our first pass at the core of what will become the next version of {l harmonia,Harmonia}, the tool we use to manage tasks and chores within our company. This is one of the ideas that we're hoping other people might find useful. Alas there's not much to see beyond library code at the moment, but hopefully soon we'll be able to talk more about how it works. I think we have some really good ideas that I'm looking forward to sharing.
+This week I finished off our first pass at the core of what will become the next version of [Harmonia][], the tool we use to manage tasks and chores within our company. This is one of the ideas that we're hoping other people might find useful. Alas there's not much to see beyond library code at the moment, but hopefully soon we'll be able to talk more about how it works. I think we have some really good ideas that I'm looking forward to sharing.
 
 {l tom-ward,Tom} has spent some time working on a tool to wrangle [Unicorn](http://unicorn.bogomips.org/)s, since that's a problem that we've experienced both in our work with [GDS](http://digital.cabinetoffice.gov.uk), and in our own projects.
 
@@ -60,6 +60,7 @@ Next week it's just Chris and I holding down the fort, as James M is competing i
 
 As an experiment, we've decided to add commenting to our blog, to hopefully facilitate conversations with people who might be interested in how we work and the software we're building. [Speak your brains](http://www.youtube.com/watch?v=mogfCoM8vtc)!
 
+[Harmonia]: http://exciting.io/harmonia
 
 :render_as: Blog
 :kind: blog

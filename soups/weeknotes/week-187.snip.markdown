@@ -31,7 +31,7 @@ Can you imagine self-hosting an application? If so, what kind? If not, is it bec
 Decoupling Harmonia from Rails
 -------
 
-The [original version](http://github.com/freerange/harmonia) of {l harmonia,Harmonia} is barely an application, let alone a [Rails](http://rubyonrails.org) app, but the next version is slightly more ambitious, and will require a web interface of some kind (although that may not be the *only* kind...).
+The [original version](http://github.com/freerange/harmonia) of [Harmonia][] is barely an application, let alone a [Rails](http://rubyonrails.org) app, but the next version is slightly more ambitious, and will require a web interface of some kind (although that may not be the *only* kind...).
 
 As I mentioned {l week-186,last week}, I've been working on some of the core domain logic, but without any framework or interface. This week, Chris and I started to investigate how to bring persistence (via [ActiveRecord](http://ar.rubyonrails.org/)) to the objects I've built, but without introducing coupling between the framework and the clean objects we already have.
 
@@ -97,6 +97,7 @@ Until next time,
 
 [gfr-printer]: https://exciting.io/printer/
 [hello-printer]: https://exciting.io/2012/04/12/hello-printer/
+[Harmonia]: http://exciting.io/harmonia
 
 :render_as: Blog
 :kind: blog

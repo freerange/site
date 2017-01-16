@@ -48,7 +48,7 @@ We have had some thoughts about recording a version of Jason's talk suitable for
 Miscellany
 ---------
 
-{l james-adam,I} have been thinking about [motivation][][^motivation], {l harmonia,Harmonia}, and how the dynamics in our company might be scarily close to those in a flat-share. Applying Harmonia to tasks which require creativity might require a different approach to tasks that are simply rote work. I'll keep thinking about it.
+{l james-adam,I} have been thinking about [motivation][][^motivation], [Harmonia][], and how the dynamics in our company might be scarily close to those in a flat-share. Applying Harmonia to tasks which require creativity might require a different approach to tasks that are simply rote work. I'll keep thinking about it.
 
 Finally, it was great to see this tweet from [Gabe][], the lead developer for {l mubi,MUBI}:
 
@@ -76,6 +76,7 @@ That's all, folks.
 [motivation]: http://www.ted.com/talks/lang/en/dan_pink_on_motivation.html
 [Gabe]: http://darwinweb.net/
 [O2]: http://www.o2.co.uk
+[Harmonia]: http://exciting.io/harmonia
 
 :render_as: Blog
 :kind: blog
