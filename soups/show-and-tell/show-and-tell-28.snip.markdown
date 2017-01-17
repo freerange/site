@@ -24,26 +24,33 @@ This is [a project][gfr-video] we built some time ago based on our experiences [
 
 First I explained a bit about the history and motivations behind the project. I then demonstrated signing up and uploading a video - the video is currently transcoded into MP4 & WebM formats with both SD & HD versions available; a poster frame is also extracted. The app supplies some example HTML to [render the video in a video.js player][gfr-video-test].
 
-I then went on to explain some possible next steps for the project (e.g. selling via AWS Marketplace, or as a Heroku add-on) and asked what people thought. Murray suggested we focus on finding one customer who is prepared to pay for the service as it stands, i.e. without doing any more development. There wasn't much other feedback, but it wasn't obvious to me whether this was because the project doesn't have much merit or whether I just didn't do a very good job of explaining it!
+I then went on to explain some possible next steps for the project (e.g. selling via [AWS Marketplace][], or as a [Heroku add-on][]) and asked what people thought. Murray suggested we focus on finding one customer who is prepared to pay for the service as it stands, i.e. without doing any more development. There wasn't much other feedback, but it wasn't obvious to me whether this was because the project doesn't have much merit or whether I just didn't do a very good job of explaining it!
 
 [gfr-video]: /gfr-video
 [futurelearn-video]: /futurelearn-video
 [gfr-video-test]: https://freerange.github.io/videos-test/
+[AWS Marketplace]: https://aws.amazon.com/marketplace/
+[Heroku add-on]: https://elements.heroku.com/addons
 
 
 ## Tom S - Learning React
 
-Tom talked about his experience of running a "Learning React" workshop at FutureLearn. He thinks that React contains a couple of really great ideas, but also a load of incidental complexity. The aim of the workshop was to explain and demonstrate those great ideas.
+Tom talked about his experience of running a "Learning React" workshop at [FutureLearn][]. He thinks that [React][] contains a couple of really great ideas, but also a load of incidental complexity. The aim of the workshop was to explain and demonstrate those great ideas.
 
-The workshop was a one-hour session split into two halves: (1) Tom explaining the essential concepts illustrated with slides and drawing on the React documentation; and (2) groups working through an exercise to build a fake React from scratch guided by failing (Jasmine/jsdom) tests provided one at a time by Tom.
+The workshop was a one-hour session split into two halves: (1) Tom explaining the essential concepts illustrated with slides and drawing on the React documentation; and (2) groups working through an exercise to build a fake React from scratch guided by failing ([Jasmine][]/[jsdom][]) tests provided one at a time by Tom.
 
-The workshop didn't go as smoothly as Tom had hoped and he was looking for ideas on how to make it better. He'd already realised that an hour was no where near long enough; it should be more like half a day.
+The workshop didn't go quiet as smoothly as Tom had hoped and he was looking for ideas on how to make it better. He'd already realised that an hour was no where near long enough; it should be more like half a day.
 
 Tom had each of the failing tests in a commit on a secret local branch and he pushed them up onto a git remote one at a time for the groups to work on. This meant that everyone had to wait for the slowest group to finish before they could move on to the next test. He thinks it would be better if people could work at their own pace.
 
 In hindsight Tom also realised he didn't make it clear enough how important it was for each group to have at least one person who was proficient with the JavaScript language itself versus e.g. the jQuery API. Matt suggested that for future workshops it might be good if Tom gets those people to stand up and to have groups form around them.
 
-At the end the idea was to replace the real React with the fake React in an example single-page app and to show that it still worked. Recognising that passing tests aren't sufficient feedback for some people, Rob C thought that it might be better if they were encouraged to try out their fake React in the app throughout the process. Matt suggested it might be worth showing the app working with the real React at the beginning to illustrate its power.
+At the end of the workshop the idea was to replace the real React with the fake React in an example single-page app and to show that it still worked. Recognising that passing tests aren't sufficient feedback for some people, Rob C thought that it might be better if they were encouraged to try out their fake React in the app throughout the process. Matt suggested it might even be worth showing the app working with the real React at the beginning to illustrate its power.
+
+[React]: https://facebook.github.io/react/
+[FutureLearn]: https://www.futurelearn.com/
+[Jasmine]: https://jasmine.github.io/
+[jsdom]: https://github.com/tmpvar/jsdom
 
 
 ## Matt W - Cucumber Pro
