@@ -65,7 +65,7 @@ The app has been built using an [Event Sourcing][] and [CQRS][] architecture. Ma
 
 The idea of the product is that Business Analysts and other interested parties can use an on-line user interface to discuss features published from the git repo. Other current or planned functionality: visualising the results of running the features and viewing videos of browser interactions generated from the features.
 
-It costs US$10 per user per month for an in-house installation and it sounds as if they've already got a bunch of these. They reckon there's currently just about enough functionality for enthusiastic people to pay and they plan to add more functionality over time to attract a wider group of users.
+It [costs US$10 per user per month for an in-house installation][cucumber-pro-eap] and it sounds as if they've already got a bunch of these. They reckon there's currently just about enough functionality for enthusiastic people to pay and they plan to add more functionality over time to attract a wider group of users.
 
 [Cucumber]: https://cucumber.io
 [Aslak Hellesøy]: http://aslakhellesoy.com/
@@ -77,7 +77,7 @@ It costs US$10 per user per month for an in-house installation and it sounds as 
 [Replicated]: https://www.replicated.com/
 [Event Sourcing]: https://martinfowler.com/eaaDev/EventSourcing.html
 [CQRS]: https://martinfowler.com/bliki/CQRS.html
-
+[cucumber-pro-eap]: https://app.cucumber.pro/projects/cucumber-pro/documents/master/features/eap.md
 
 ## Chris R
 
