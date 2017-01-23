@@ -19,11 +19,10 @@ This project to improve the [marriage-abroad Smart Answer][marriage-abroad] soun
 I quite like this site that aggregates public apologies made by various transport companies. I wonder whether it's possible to read anything into the visualisations: do higher numbers of apologies (e.g. from BA) correspond to more complaints/problems, or are they just better at responding to people. It also makes me wonder whether companies make use of this sort of data to try to help improve their services. {by chris-roos}
 
 :name: week-418-links
-:updated_at: 2017-01-23 17:06:51.212332000 +00:00
-:created_at: 2017-01-23 17:06:51.212314000 +00:00
+:updated_at: 2017-01-23 17:31:50.743724000 +00:00
+:created_at: 2017-01-23 17:31:50.743712000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
