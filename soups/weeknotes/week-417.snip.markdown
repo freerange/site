@@ -38,11 +38,10 @@ That's all for now. Until next time.
 [vanilla-rb]: https://github.com/lazyatom/vanilla-rb
 
 :name: week-417
-:updated_at: 2017-01-23 11:47:33.411074000 +00:00
-:created_at: 2017-01-23 11:47:33.411065000 +00:00
+:updated_at: 2017-01-23 12:24:00.610672000 +00:00
+:created_at: 2017-01-23 12:24:00.610659000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
