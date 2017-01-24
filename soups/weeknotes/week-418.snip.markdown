@@ -40,11 +40,10 @@ Until next time.
 [open-2017]: https://2017.open.coop/
 
 :name: week-418
-:updated_at: 2017-01-24 10:14:14.604539000 +00:00
-:created_at: 2017-01-24 10:14:14.604529000 +00:00
+:updated_at: 2017-01-24 10:57:14.255490000 +00:00
+:created_at: 2017-01-24 10:57:14.255469000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
