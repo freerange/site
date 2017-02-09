@@ -54,11 +54,10 @@ Until next time.
 [worker-cooperative]: https://en.wikipedia.org/wiki/Worker_cooperative
 
 :name: week-419
-:updated_at: 2017-02-02 15:45:55.806519000 +00:00
-:created_at: 2017-02-02 15:45:55.806507000 +00:00
+:updated_at: 2017-02-09 16:11:18.358922000 +00:00
+:created_at: 2017-02-09 16:11:18.358908000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
