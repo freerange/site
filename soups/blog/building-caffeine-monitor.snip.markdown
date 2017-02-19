@@ -182,7 +182,7 @@ Cheers!
 [Nicholas Felton]: http://feltron.com
 [Rack-offline]: https://github.com/wycats/rack-offline
 [Free Range]: http://gofreerange.com
-[Chris]: http://gofreerange.com/#chris-roos
+[Chris]: /chris-roos
 [Andy McMillan]: http://twitter.com/#!/goodonpaper
 [my own website]: http://jasoncale.com/articles/9-build-conference-2010
 
