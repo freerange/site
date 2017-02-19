@@ -3,7 +3,7 @@ Building Caffeine Monitor
 
 __Wednesday 11th November__ saw the second instalment of [Build Conference][] come forth in bloom. I attended this hand-made web design conference set in stormy Belfast, as I recalled on [my own website][].
 
-Whilst I was there soaking in collective wisdom, friends old &amp; new, we also had an offering of our own to launch that fine day. 
+Whilst I was there soaking in collective wisdom, friends old &amp; new, we also had an offering of our own to launch that fine day.
 
 [Caffeine Monitor][] was an application built to track and display a _realtime visualisation of caffeine consumption_ during the conference.
 
@@ -13,7 +13,7 @@ Whilst I was there soaking in collective wisdom, friends old &amp; new, we also 
 
 Sponsored by [Campaign Monitor][], we collaborated with [Nicholas Felton][] who designed an infographic for the application (shown above).
 
-[Andy McMillan][] the man whose Herculean efforts make Build possible, conceived the idea and approached us to help make it a reality. 
+[Andy McMillan][] the man whose Herculean efforts make Build possible, conceived the idea and approached us to help make it a reality.
 
 ## Application biology
 
@@ -33,7 +33,7 @@ To do this we implemented or made use of the following:
 
 ## Collecting data
 
-The way we collected data had to be really _really_ simple. Andy had lined up some volunteers to help out on the day, whom would record drinks picked up from the refreshment stands or in the market at lunch. 
+The way we collected data had to be really _really_ simple. Andy had lined up some volunteers to help out on the day, whom would record drinks picked up from the refreshment stands or in the market at lunch.
 
 They would likely be using iPhones or iPod touches to collect the data, so we made the following assessments about the user interface:
 
@@ -94,7 +94,7 @@ Modifying our approach to post a single payload; we deployed and all those pendi
 Nicholas supplied us with a HTML/CSS template which became the basis for the infographic. The raw drink records were recorded in a database, exposed as the relevant statistics then placed into the template.
 
 ### Scaling for devices
-The template intended to run on a projector so was designed at a fixed size. A couple of days prior to the event we decided to share the application URL publicly on the day so resizing to fit regular browsers would be an ideal. 
+The template intended to run on a projector so was designed at a fixed size. A couple of days prior to the event we decided to share the application URL publicly on the day so resizing to fit regular browsers would be an ideal.
 
 Sitting in the [Belfast Malmaison](https://www.malmaison.com/hotels/belfast/belfast-mal.aspx) pairing with [Chris][] back in London, we re-wrote the HTML/CSS to make this a little simpler and added a few media queries to help compensate for the shift in display size.
 
@@ -117,18 +117,18 @@ This also meant the whole bar graph scaled rather elegantly by comparison; we to
 ## Working offline
 
 1.  Rack-offline _intentionally_ doesn't work in development environment.
-  
+
     Whilst it makes sense to only work in production (so you don't have to deal with cache when writing code) we were caught out by this a few times.
 
-2.  There isn't a clear way to remove offline-cached application content. 
+2.  There isn't a clear way to remove offline-cached application content.
 
     This makes testing a little cumbersome especially when you have to restart your Rails application with each change running in production (see previous point).
 
 
 3.  Serving offline pages without .html works fine on iOS devices.
 
-    At first, we thought we'd have to create a static page in order to get mobile safari to work offline, and most google results suggest explicitly using .html when calling the page. 
-    
+    At first, we thought we'd have to create a static page in order to get mobile safari to work offline, and most google results suggest explicitly using .html when calling the page.
+
     We found simply using standard Rails routes (without the .html) the iOS devices would still honour the offline content.
 
 ## Securing the application
