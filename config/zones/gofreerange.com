@@ -40,6 +40,7 @@ sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
 t4jwxpgubazwy5wbsrytm2ijtbn7wxfz._domainkey		300	CNAME	t4jwxpgubazwy5wbsrytm2ijtbn7wxfz.dkim.amazonses.com.
 test		300	CNAME	d226fr0d6iesx2.cloudfront.net.
+twilio		300	CNAME	gofreerange.com.
 videos		300	CNAME	ddcxl0amt4k19.cloudfront.net.
 videos-test		300	CNAME	d3fy282lgo2sqj.cloudfront.net.
 webhooks		300	CNAME	gofreerange.com.
