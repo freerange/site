@@ -41,7 +41,8 @@ require_relative "application"
 
 USERNAMES_VS_AUTHORS = {
   'jamesmead' => 'james-mead',
-  'chrisroos' => 'chris-roos'
+  'chrisroos' => 'chris-roos',
+  'chrislowis' => 'chris-lowis'
 }
 
 def existing_show_and_tell_event_numbers
