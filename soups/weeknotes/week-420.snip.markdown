@@ -3,7 +3,7 @@ Week 420
 
 ## Chris Lowis joins GFR!
 
-Exciting news! We're finally able to share that [Chris Lowis is joining us after 3½ years at FutureLearn][chris-lowis-tweet]. We look forward to welcoming him at toward the end of February.
+Exciting news! We're finally able to share that [Chris Lowis is joining us after 3½ years at FutureLearn][chris-lowis-tweet]. We look forward to welcoming him towards the end of February.
 
 ## GDS
 
