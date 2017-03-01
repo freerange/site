@@ -13,7 +13,7 @@ We spent the majority of the week working on this project. Getting up to speed w
 
 ## CoTech
 
-We continued to help organise the [CoTech social][cotech-social] during [Open:2017][open-2017]. [Brian at Outlandish emailed the group to explain how we're going to try to use Cobudget to fund the bar tab][brian-cobudget-email].
+We continued to help organise the [CoTech social][cotech-social] during [Open:2017][open-2017]. Brian at Outlandish emailed the group to explain [how we're going to try to use Cobudget to fund the bar tab][brian-cobudget-email].
 
 We used Loomio to get agreement about content for the CoTech website, due to be launched at Open:2017.
 
