@@ -9,7 +9,7 @@ Exciting news! We're finally able to share that [Chris Lowis is joining us after
 
 James and I started our new contract at [GDS][gds] this week. We've been asked to investigate how manuals are published on GOV.UK with a view to removing complexity and possible duplication.
 
-We spent the majority of the week working on this project. Getting up to speed with the software, speaking to a number of different people to gather information and even starting to make some small improvements to some of the apps.
+We spent the majority of the week working on this project. Getting up to speed with the software, speaking to a number of different people to gather information, and even starting to make small improvements to some of the apps.
 
 ## CoTech
 
