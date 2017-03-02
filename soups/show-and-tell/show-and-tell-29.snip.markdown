@@ -143,11 +143,10 @@ Please [get in touch][contact] if you're interested in joining us for the next S
 [contact]: /contact
 
 :name: show-and-tell-29
-:updated_at: 2017-02-28 14:12:57.076139000 +00:00
-:created_at: 2017-02-28 14:12:57.076128000 +00:00
+:updated_at: 2017-03-02 10:29:52.279126000 +00:00
+:created_at: 2017-03-02 10:29:52.279118000 +00:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
