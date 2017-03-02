@@ -71,6 +71,7 @@ It was reassuring to hear that people didn't seem to think it was a completely c
 [gfr-website]: https://github.com/freerange/site/
 [vanilla.rb]: https://github.com/lazyatom/vanilla-rb
 [vanilla]: http://www.vanillasite.at/space/about
+[Rails]: http://rubyonrails.org/
 
 
 ## Amy - micro-licensing music for sync
