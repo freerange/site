@@ -28,10 +28,11 @@ I heard about this online & print magazine in one of the sessions at the [Open 2
 [open-2017]: https://2017.open.coop/
 
 :name: week-424-links
-:updated_at: 2017-03-02 10:26:20.577979000 +00:00
-:created_at: 2017-03-02 10:26:20.577966000 +00:00
+:updated_at: 2017-02-27 18:27:26.239073000 +00:00
+:created_at: 2017-02-27 18:27:26.239062000 +00:00
 :render_as: Blog
 :kind: blog
+:draft: false
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
