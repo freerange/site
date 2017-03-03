@@ -34,11 +34,10 @@ Until next time.
 [twilio]: https://www.twilio.com/
 
 :name: week-420
-:updated_at: 2017-02-28 16:05:15.613338000 +00:00
-:created_at: 2017-02-28 16:05:15.613328000 +00:00
+:updated_at: 2017-03-03 15:37:09.521285000 +00:00
+:created_at: 2017-03-03 15:37:09.521276000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
