@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.5'
 
 gem "rack", "~> 1"
-gem "vanilla", :git => "https://github.com/freerange/vanilla-rb.git", :branch => "fail-fast-when-rendering-layout-results-in-infinite-recursion"
+gem "vanilla", ">= 2.0.0.beta"
 gem "kramdown"
 gem "airbrake", "~> 4"
 

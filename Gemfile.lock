@@ -7,21 +7,6 @@ GIT
       open4
       thor
 
-GIT
-  remote: https://github.com/freerange/vanilla-rb.git
-  revision: d49ed7f073e99edc0c705a4bbeeeb5894866201b
-  branch: fail-fast-when-rendering-layout-results-in-infinite-recursion
-  specs:
-    vanilla (2.0.0.beta)
-      BlueCloth (>= 1.0.0)
-      RedCloth (>= 4.1.1)
-      haml (>= 3.1)
-      parslet (>= 1.5.0)
-      rack (>= 0.9.1)
-      rack-test (>= 0.5.7)
-      ratom (>= 0.3.5)
-      soup (>= 1.0.13)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -66,6 +51,15 @@ GEM
       power_assert
     thor (0.19.1)
     tilt (2.0.5)
+    vanilla (2.0.0.beta)
+      BlueCloth (>= 1.0.0)
+      RedCloth (>= 4.1.1)
+      haml (>= 3.1)
+      parslet (>= 1.5.0)
+      rack (>= 0.9.1)
+      rack-test (>= 0.5.7)
+      ratom (>= 0.3.5)
+      soup (>= 1.0.13)
 
 PLATFORMS
   ruby
@@ -77,7 +71,7 @@ DEPENDENCIES
   rake (~> 10)
   recap!
   test-unit
-  vanilla!
+  vanilla (>= 2.0.0.beta)
 
 RUBY VERSION
    ruby 2.2.5p319
