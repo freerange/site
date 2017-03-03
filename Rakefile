@@ -33,6 +33,7 @@ namespace :test do
       task 'generate' => 'clear' do
         spider = Spider.new(artefacts_path: ARTEFACTS_PATH)
         spider.run
+        system(%{find #{ARTEFACTS_PATH} -type f -name '*.html' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha {} \\;})
       end
     end
   end
