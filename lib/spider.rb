@@ -5,7 +5,7 @@ class Spider
   SITE_URL = "http://#{HOST}:#{PORT}"
   HOME_PAGE_URL = URI.join(SITE_URL, '/')
 
-  SERVER_COMMAND = "rackup --host #{HOST} --port #{PORT}"
+  SERVER_COMMAND = "RANDOM_SEED=12345 rackup --host #{HOST} --port #{PORT}"
 
   # Based on RewriteRules in config/apache/gofreerange.com.conf
   IGNORE_PATHS = [

@@ -6,6 +6,9 @@ require 'vanilla'
 require 'blog_renderer'
 require 'kramdown_renderer'
 
+random_seed = ENV['RANDOM_SEED']
+srand(random_seed.to_i) if random_seed
+
 class Application < Vanilla::App
 end
 
