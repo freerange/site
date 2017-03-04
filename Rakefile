@@ -34,6 +34,7 @@ namespace :test do
         spider = Spider.new(artefacts_path: ARTEFACTS_PATH)
         spider.run
         system(%{find #{ARTEFACTS_PATH} -type f -name '*.html' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha {} \\;})
+        system(%{find #{ARTEFACTS_PATH} -type f -name '*.xml' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --input-xml 1 {} \\;})
       end
     end
   end
