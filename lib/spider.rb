@@ -23,20 +23,40 @@ class Spider
   # Not much point in capturing paths to images
   IGNORE_PATHS << %r{^/images/*}
 
-  EXTRA_PATHS = [
-    '/feed.xml'
-  ]
+  # Subset of dynasnips
+  EXTRA_PATHS = ['/sitemap.xml', '/feed.xml']
+
+  ROOT_PATH = Pathname.new(File.expand_path('../..', __FILE__))
 
   def initialize(artefacts_path:)
+    soup = begin
+      backend_dirs = %w(
+        soups
+        soups/weeknotes
+        soups/weeklinks
+        soups/blog
+        soups/show-and-tell
+        soups/wiki
+        soups/people
+        soups/projects
+      )
+      backends = backend_dirs.map do |path|
+        Soup::Backends::FileBackend.new(ROOT_PATH.join(path))
+      end
+      Soup.new(Soup::Backends::MultiSoup.new(*backends))
+    end
+
+    seed_paths = soup.all_snips.map(&:name).map { |name| "/#{name}"}
+    seed_paths += EXTRA_PATHS
+
     @server = Server.new(
       command: SERVER_COMMAND,
       healthcheck_url: HOME_PAGE_URL
     )
 
     @client = Client.new(
-      sitemap_path: '/sitemap.xml',
+      seed_paths: seed_paths,
       ignore_paths: IGNORE_PATHS,
-      extra_paths: EXTRA_PATHS,
       allowed_host: 'gofreerange.com',
       allowed_protocol: 'http',
       artefacts_path: artefacts_path
@@ -88,17 +108,16 @@ class Spider
   class Client
     class HttpRetry < StandardError; end
 
-    def initialize(sitemap_path:, ignore_paths:, extra_paths:, allowed_host:, allowed_protocol:, artefacts_path:)
-      @sitemap_path = sitemap_path
+    def initialize(seed_paths:, ignore_paths:, allowed_host:, allowed_protocol:, artefacts_path:)
+      @seed_paths = seed_paths
       @ignore_paths = ignore_paths
-      @extra_paths = extra_paths
       @allowed_host = allowed_host
       @allowed_protocol = allowed_protocol
       @artefacts_path = artefacts_path
     end
 
     def run
-      paths = paths_from(@sitemap_path) + @extra_paths
+      paths = @seed_paths.dup
       index = 0
       while index < paths.length
         path = paths[index]
@@ -117,14 +136,6 @@ class Spider
     end
 
     private
-
-    def paths_from(sitemap_path)
-      response = get(sitemap_path)
-      doc = Nokogiri::XML(response.body)
-      namespace = 'http://www.sitemaps.org/schemas/sitemap/0.9'
-      locs = doc.xpath('//urlset:url//urlset:loc', 'urlset' => namespace)
-      locs.map(&:text).map { |u| URI(u).path }.uniq
-    end
 
     def artefact_path(path)
       path = File.join(path, 'index.html') if File.directory?(path) || path.empty?
