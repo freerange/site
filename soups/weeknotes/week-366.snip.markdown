@@ -29,7 +29,7 @@ Until next time.
 [digital-outcomes-and-specialists]: https://digitalmarketplace.blog.gov.uk/2015/12/07/digital-outcomes-and-specialists-is-open-for-applications/
 [hmrc-ir35-review]: https://www.gov.uk/government/organisations/hm-revenue-customs/contact/ir35-enquiries
 [james-mead]: /james-mead
-[submit-annual-return]: http://gofreerange.com/how-to-submit-annual-return
+[submit-annual-return]: /how-to-submit-annual-return
 
 :render_as: Blog
 :kind: blog

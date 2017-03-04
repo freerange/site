@@ -59,7 +59,7 @@ At the moment, the *FreeAgent Sanity Check* is fairly customised to our company 
 
 [Harmonia]: https://harmonia.io
 [FreeAgent]: http://fre.ag/3276i4uh
-[Free Range]: http://gofreerange.com
+[Free Range]: /
 [using-harmonia-with-freeagent]: http://harmonia.io/blog/using-harmonia-with-freeagent
 [Github]: https://github.com
 [37 Signals]: http://37signals.com

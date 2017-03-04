@@ -15,7 +15,7 @@ Jase did a great job of adding some flair to our office with the painting of our
 
 <img src="http://distilleryimage7.s3.amazonaws.com/2084e66e1c1611e1abb01231381b65e3_7.jpg" style="width:100%;" alt="Jaaaaaase Ross doing his thing" />
 
-This was just in time for our very splendid [Office warming](http://gofreerange.com/officewarming) last Thursday.  There was mulled wine, beer, mince pies and crisps.  More importantly though, there were people!  Although it would appear that we don't have any photographic evidence so you'll just have to take our word for it, mmmkay.  Seriously, thanks to everyone that turned up, we had a great evening.
+This was just in time for our very splendid [Office warming](/officewarming) last Thursday.  There was mulled wine, beer, mince pies and crisps.  More importantly though, there were people!  Although it would appear that we don't have any photographic evidence so you'll just have to take our word for it, mmmkay.  Seriously, thanks to everyone that turned up, we had a great evening.
 
 All that's left is for me to wish you all a good week and enjoy the hour remaining before I get "randomly" selected to write the weeknotes for week 151.
 

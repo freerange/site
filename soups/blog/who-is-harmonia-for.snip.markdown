@@ -6,7 +6,7 @@ There are lots of aspects of [Harmonia][] that we want to explore in more detail
 _This post has now [moved to the Harmonia blog](https://harmonia.io/blog/who-is-harmonia-for), where you can find all of the latest news and tips about [Harmonia][]. You can also subscribe to the [Atom/RSS feed](https://harmonia.io/blog/feed)._
 
 [Harmonia]: https://harmonia.io
-[Free Range]: http://gofreerange.com
+[Free Range]: /
 
 
 :render_as: Blog

@@ -69,7 +69,7 @@ Until next time.
 [method_log]: https://github.com/freerange/method_log
 [building-a-git-repository-of-ruby-method-definitions]: /building-a-git-repository-of-ruby-method-definitions
 [git-post-commit-hook]: https://www.kernel.org/pub/software/scm/git/docs/githooks.html#_post_commit
-[orphan-branch-suggestion]: http://gofreerange.com/building-a-git-repository-of-ruby-method-definitions#comment-1288565310
+[orphan-branch-suggestion]: /building-a-git-repository-of-ruby-method-definitions#comment-1288565310
 [method-log-post-commit]: https://github.com/freerange/method_log/commit/937ccc2cce93c62ccd195c8f98a05c73dd951ab2
 [Tom S]: http://codon.com/
 [ruby-issue-6284]: https://bugs.ruby-lang.org/issues/6284

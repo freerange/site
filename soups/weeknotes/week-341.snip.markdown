@@ -64,7 +64,7 @@ Until next time.
 [pr-1859]: https://github.com/alphagov/smart-answers/pull/1859
 [pr-1863]: https://github.com/alphagov/smart-answers/pull/1863
 [pr-1866]: https://github.com/alphagov/smart-answers/pull/1866
-[Show and Tell homepage]: http://gofreerange.com/show-and-tell-events
+[Show and Tell homepage]: /show-and-tell-events
 [Tadas]: https://github.com/tadast
 [Trello]: https://trello.com/
 

@@ -21,7 +21,7 @@ A couple of comments about crypto-currencies on our [Day 1 blog post][] got me t
 
 
 [Co-op's Community Directplus offering]: http://www.co-operativebank.co.uk/business/community/community-directplus
-[Day 1 blog post]: http://gofreerange.com/project-credit-union-day-1#comment-1462449194
+[Day 1 blog post]: /project-credit-union-day-1#comment-1462449194
 [high-level goals]: https://github.com/freerange/bank/wiki#manifesto
 [lloyds-tsb-cu-account]: http://www.lloydsbankbusiness.com/accounts/creditunionaccounts.asp
 [Mark]: http://blog.polyglotsoftware.co.uk/

@@ -61,8 +61,8 @@ Anyway that's all for this week. Until next time.
 [Mocha]: /mocha/docs/
 [materiality]: https://en.wikipedia.org/wiki/Materiality_(auditing)
 [credit union project]: /credit-union
-[comment-2930917130]: http://gofreerange.com/project-credit-union-day-1#comment-2930917130
-[comment-2930903634]: http://gofreerange.com/project-credit-union-day-1#comment-2930903634
+[comment-2930917130]: /project-credit-union-day-1#comment-2930917130
+[comment-2930903634]: /project-credit-union-day-1#comment-2930903634
 [prospective-client-faqs]: /week-402#potential-client-faqs
 [MVP]: https://en.wikipedia.org/wiki/Minimum_viable_product
 [monolith-first]: http://martinfowler.com/bliki/MonolithFirst.html

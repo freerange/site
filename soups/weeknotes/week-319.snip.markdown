@@ -88,7 +88,7 @@ Anyway, until next time.
 [Money Tracker]: https://github.com/chrisroos/money-tracker
 [money-tracker-pull-request-9]: https://github.com/chrisroos/money-tracker/pull/9
 [money-tracker-pull-request-10]: https://github.com/chrisroos/money-tracker/pull/10
-[week-310-links-rtl-sdr]: http://gofreerange.com/week-310-links#rtl-sdrhttpwwwrtl-sdrcomabout-rtl-sdr
+[week-310-links-rtl-sdr]: /week-310-links#rtl-sdrhttpwwwrtl-sdrcomabout-rtl-sdr
 [SDR#]: http://sdrsharp.com/#download
 [Mono]: http://www.mono-project.com/
 [rtl-sdr-software]: http://www.rtl-sdr.com/big-list-rtl-sdr-supported-software/

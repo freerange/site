@@ -67,7 +67,7 @@ Until next time.
 [USP]: http://en.wikipedia.org/wiki/Unique_selling_proposition
 [Show and Tell]: /show-and-tell-5
 [get in touch]: /contact
-[Mocha]: http://gofreerange.com/mocha/docs/
+[Mocha]: /mocha/docs/
 
 
 :render_as: Blog

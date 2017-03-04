@@ -6,7 +6,7 @@ Welcome to the part of the internet where [we][1] write our thoughts about build
 That is all (for now).
 
 
-[1]: http://gofreerange.com
+[1]: /
 
 :render_as: Blog
 :kind: blog

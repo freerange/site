@@ -27,7 +27,7 @@ What do you think? Do you prefer the longer format or does this do the job just 
 
 [^1]: We've been recording the amount of time we're spending on some of our regular tasks and the weeknotes have taken us an average of 2 hours a week for the last 5 weeks.
 
-[credit-union-summary]: http://gofreerange.com/project-credit-union-update
+[credit-union-summary]: /project-credit-union-update
 [Inside gov.uk blog]: https://insidegovuk.blog.gov.uk
 
 :render_as: Blog

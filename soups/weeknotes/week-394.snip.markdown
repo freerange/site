@@ -50,8 +50,8 @@ Until next time.
 [smart-answers-pr-2667]: https://github.com/alphagov/smart-answers/pull/2667
 [smart-answers-pr-2670]: https://github.com/alphagov/smart-answers/pull/2670
 [smart-answers-pr-2676]: https://github.com/alphagov/smart-answers/pull/2676
-[week-348-hookline]: http://gofreerange.com/week-348#hookline
-[week-351]: http://gofreerange.com/week-351
+[week-348-hookline]: /week-348#hookline
+[week-351]: /week-351
 [week-394-links]: /week-394-links
 
 :name: week-394

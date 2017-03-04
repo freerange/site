@@ -23,7 +23,7 @@ It wasn't an easy decision and we spent much of Wednesday talking discussing dif
 
 [Mocha v1.0]: http://rubygems.org/gems/mocha/versions/1.0.0
 [Ben Griffiths]: https://twitter.com/beng
-[Mocha]: http://gofreerange.com/mocha/docs/
+[Mocha]: /mocha/docs/
 [Reevoo]: http://www.reevoo.com/
 [GFR]: /
 [FutureLearn]: http://futurelearn.com

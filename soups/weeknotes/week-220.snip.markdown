@@ -19,7 +19,7 @@ Unfortunately as far as I can tell it's not possible to enable SSL for a single 
 
 ## 3-2-1 launch?
 
-Tom has been doing some thinking the experience that he and Chris gained on [Project Los Roques](http://gofreerange.com/week-218#project-los-roques) and how we might offer a similar short engagement to prospective clients as a "product". In particular he's been thinking about how we could have some kind of skeleton application which would include common libraries to save time setting them up.
+Tom has been doing some thinking the experience that he and Chris gained on [Project Los Roques](/week-218#project-los-roques) and how we might offer a similar short engagement to prospective clients as a "product". In particular he's been thinking about how we could have some kind of skeleton application which would include common libraries to save time setting them up.
 
 ## MiniTest extension
 
@@ -29,7 +29,7 @@ I have the basics of it working, but I've been struggling to come up with the be
 
 ## Heylist!
 
-James A has also been keeping an eye on [HeyList!](http://heyli.st/). If you want to tap into the [real pulse](http://gofreerange.com/say-hello-to-heylist) of the conference, you might want to consider following the [Ruby Manor 4 list](https://twitter.com/rubymanor/ruby-manor-4) which currently has 107 members. It'll be interesting to see how many people use the list on Saturday and how useful they found it.
+James A has also been keeping an eye on [HeyList!](http://heyli.st/). If you want to tap into the [real pulse](/say-hello-to-heylist) of the conference, you might want to consider following the [Ruby Manor 4 list](https://twitter.com/rubymanor/ruby-manor-4) which currently has 107 members. It'll be interesting to see how many people use the list on Saturday and how useful they found it.
 
 ## Printer kits
 

@@ -2,7 +2,7 @@
   Recap
 
 .section.group
-  %p 
+  %p
     %a{:href => "http://github.com/freerange/recap"} Recap
     is an opinionated set of
     %a{:href => "https://github.com/capistrano/capistrano"} Capistrano
@@ -13,7 +13,7 @@
 
   %h2 Features & Aims
   %ul
-    %li 
+    %li
       %p
         Releases are managed using git.  All code is deployed to a single directory, and git tags are used to manage different released versions.  No
         = succeed "," do
@@ -26,7 +26,7 @@
       %p
         Deployments do the minimum work possible, using git to determine whether tasks need to run.  e.g. the
         %code bundle:install
-        task only runs if the app contains a 
+        task only runs if the app contains a
         %code Gemfile.lock
         file and it has changed since the last deployment.
     %li
@@ -45,7 +45,7 @@
   %p
     For more information, the main documentation can be found at
     = succeed "." do
-      %a{:href => "http://gofreerange.com/recap/docs"} http://gofreerange.com/recap/docs
+      %a{:href => "/recap/docs"} /recap/docs
 
   %h2 Source
   %p

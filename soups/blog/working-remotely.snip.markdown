@@ -37,7 +37,7 @@ You also miss out on any of the spontaneous conversations that might happen in t
 
 [James M][] already knows all about this; not living in London, he's worked remotely on a reasonably regular basis for years now.
 
-<img width="100%" src="http://gofreerange.com/images/blog/skype.png" title="Keep talking" />
+<img width="100%" src="/images/blog/skype.png" title="Keep talking" />
 
 I'm sure that pair programming (among other things) helps the remote worker feel a bit more connected to the rest of the company, but it's not a rich conduit for all the other communication that might be going on, from ambient glances[^glancing] to actual in-depth discussions.
 
@@ -78,7 +78,7 @@ I have a hypothesis (well, many, but here's one) about one aspect of how our gro
 
 Because nobody is "in charge", and because we all directly involved in building the software our clients pay for, it's normal that everyone is working away quietly to develop some feature or other. After all, that's what we are being paid to do, and that's more or less where our passion lies. We didn't get into this to manage projects or juggle cash-flows, after all.
 
-But as you pause, having completed a piece of work or other, the perception that others are still working makes _you_ feel like what you ought to do is pick up the next feature and get to work on it. After all, our principle goal is to build this system, and so manifesting that in a text editor is the most appropriate use of time. 
+But as you pause, having completed a piece of work or other, the perception that others are still working makes _you_ feel like what you ought to do is pick up the next feature and get to work on it. After all, our principle goal is to build this system, and so manifesting that in a text editor is the most appropriate use of time.
 
 <img width="100%" src="http://distillery.s3.amazonaws.com/media/2011/01/06/e4a43e38297641a885d835929a0db26f_7.jpg" title="Working hard." />
 

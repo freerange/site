@@ -59,7 +59,7 @@ Anyway, that's about it from me. Enjoy your Easter weekend.
 
 [A few weeks back]: /week-268
 [Tom Stuart]: https://twitter.com/tomstuart
-[GFRHQ]: http://gofreerange.com/contact
+[GFRHQ]: /contact
 [MethodLog]: https://github.com/freerange/method_log
 [Chris Lowis]: https://twitter.com/chrislowis
 [TinyLetter]: https://tinyletter.com/

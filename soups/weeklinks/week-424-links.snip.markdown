@@ -13,7 +13,7 @@ I'm really interested in Kent Beck's latest approach to software development whi
 
 ### [Cooperative Technologists official launch](https://www.coops.tech/)
 
-The Cooperative Technologists (CoTech) are a network of worker-run cooperatives in the technology and digital sector. Go Free Range are a proud founding member and we [talked about attending the first CoTech retreat](http://gofreerange.com/week-409) back in Week 409. Since then the network has become more official with a set of services that are used to collaborate and communicate internally and a shiny new website which tells the public more about how we work and how you can work with us. {by chris-lowis}
+The Cooperative Technologists (CoTech) are a network of worker-run cooperatives in the technology and digital sector. Go Free Range are a proud founding member and we [talked about attending the first CoTech retreat](/week-409) back in Week 409. Since then the network has become more official with a set of services that are used to collaborate and communicate internally and a shiny new website which tells the public more about how we work and how you can work with us. {by chris-lowis}
 
 ### [Stripe: Bring Your Own Team](https://stripe.com/blog/bring-your-own-team)
 

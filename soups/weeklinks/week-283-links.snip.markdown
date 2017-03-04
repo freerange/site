@@ -58,7 +58,7 @@ This was mentioned in a [comment on GFR's weeknotes for week 281][1]. Here's the
 I noticed that [James A][] has promoted [Harmonia][] on there and it looks like it might contain some useful discussions. I've subscribed to the RSS feed to see whether anything of interest comes up. {by chris-roos}
 
 
-[1]: http://gofreerange.com/week-281#comment-1438234360
+[1]: /week-281#comment-1438234360
 [adaptivelab-methodology]: https://github.com/adaptivelab/adaptivelab.github.com/blob/master/index.md
 [Ben Griffiths]: https://twitter.com/beng
 [Feedly DDOS]: http://blog.feedly.com/2014/06/11/denial-of-service-attack/

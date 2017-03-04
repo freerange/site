@@ -1,7 +1,7 @@
 Week 143
 ========
 
-Aloha, it's me again, Chris (that's my picture over in the corner, although I've got better hair than that now).  [The Goddess of Harmony](https://github.com/freerange/harmonia) has once again chosen me to write of our exploits on this, the 143rd week of [Go Free Range](http://gofreerange.com/).  I've got a strict time limit to get this done as I'm off to get a bit of sun in Fuerteventura later today.  I'm also hoping that it's not the most boring post that's ever been written which, according to my "friend" [Eliot](http://www.eliotfineberg.com/), I managed to achieve with last weeks effort.
+Aloha, it's me again, Chris (that's my picture over in the corner, although I've got better hair than that now).  [The Goddess of Harmony](https://github.com/freerange/harmonia) has once again chosen me to write of our exploits on this, the 143rd week of [Go Free Range](/).  I've got a strict time limit to get this done as I'm off to get a bit of sun in Fuerteventura later today.  I'm also hoping that it's not the most boring post that's ever been written which, according to my "friend" [Eliot](http://www.eliotfineberg.com/), I managed to achieve with last weeks effort.
 
 Anyways, on with the good stuff.
 

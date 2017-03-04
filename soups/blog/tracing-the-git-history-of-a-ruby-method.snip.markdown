@@ -28,14 +28,14 @@ This made it a bit easier to consider extending the MethodFinder to handle class
 
     # example 1
     class Foo; end
-    
+
     def Foo.bar; end
-    
+
     # example 2
     class Foo
       def self.bar; end
     end
-    
+
     # example 3
     class Foo
       class << self
@@ -114,7 +114,7 @@ Many thanks to [Chris Roos][], [Tom Stuart][], [Joel Chippindale][], [Chris Lowi
 
 
 [method_log]: https://github.com/freerange/method_log
-[Mocha]: http://gofreerange.com/mocha/docs/
+[Mocha]: /mocha/docs/
 [semantic diff]: http://martinfowler.com/bliki/SemanticDiff.html
 [VisualAge for Java]: http://en.wikipedia.org/wiki/IBM_VisualAge
 [ENVY/Developer]: http://c2.com/cgi/wiki?EnvyDeveloper

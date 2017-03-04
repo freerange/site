@@ -37,7 +37,7 @@ I was particularly interested to read about [PubPeer](https://pubpeer.com/) whic
 
 ### [How to set up a Workers' Co-op (pdf)](http://www.radicalroutes.org.uk/publicdownloads/setupaworkerscoop-lowres.pdf)
 
-Our recent investigations into [how to set up a credit union](http://gofreerange.com/project-credit-union-day-1) have got me thinking more about whether it might be good to convert [GFR](/) more formally into a co-operative. We looked into this quite a while back, but I _think_ we mainly focussed on whether it was worth [becoming an Limited Liability Partnership](/week-165#to-llp-or-not-to-llp) c.f. John Lewis.
+Our recent investigations into [how to set up a credit union](/project-credit-union-day-1) have got me thinking more about whether it might be good to convert [GFR](/) more formally into a co-operative. We looked into this quite a while back, but I _think_ we mainly focussed on whether it was worth [becoming an Limited Liability Partnership](/week-165#to-llp-or-not-to-llp) c.f. John Lewis.
 
 I'm not sure how seriously we considered setting up an [Industrial & Provident Society](http://en.wikipedia.org/wiki/Industrial_and_provident_society) which is the recommended legal structure for a workers' co-op. In any case, I think this pamphlet by [Radical Routes](http://www.radicalroutes.org.uk/) and recommended by [Chris Lowis](http://chrislowis.co.uk) looks very pertinent. {by james-mead}
 

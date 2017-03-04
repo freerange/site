@@ -3,7 +3,7 @@ Week 232
 
 If a blog post is published to the internet and Google Reader isn't around to show it, will it ever be read?  I guess that's something we'll all soon find out.
 
-When to stop offering things you've offered before is one of the things we talked about on Wednesday.  As you may know, we've been selling ready-made versions of our [printer](http://gofreerange.com/printer).  On Wednesday we stopped.  Not because we no longer want people to use printer - we'd love it if more people did, and [following these detailed instructions they still can](https://github.com/freerange/printer/wiki/Making-your-own-printer).  Nor are we giving up on it - there's something interesting there we want to find.  However, building these kits ourselves no longer feels like the best way to discover it.  Besides, with James A moving to Austin (more of which below), the quality of the printers would surely go down.  A solderer I am not.
+When to stop offering things you've offered before is one of the things we talked about on Wednesday.  As you may know, we've been selling ready-made versions of our [printer](/printer).  On Wednesday we stopped.  Not because we no longer want people to use printer - we'd love it if more people did, and [following these detailed instructions they still can](https://github.com/freerange/printer/wiki/Making-your-own-printer).  Nor are we giving up on it - there's something interesting there we want to find.  However, building these kits ourselves no longer feels like the best way to discover it.  Besides, with James A moving to Austin (more of which below), the quality of the printers would surely go down.  A solderer I am not.
 
 ## James moves to Austin
 

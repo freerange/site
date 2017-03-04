@@ -8,7 +8,7 @@ The video and transcript of [Tom Stuart](https://twitter.com/tomstuart)'s though
 
 ### [Using Git to refactor vCloud Tools into separate gems](https://gdstechnology.blog.gov.uk/2014/06/04/using-git-to-refactor-vcloud-tools-into-separate-gems/)
 
-I've previously written about how we put a lot of value on [curating git history](http://gofreerange.com/week-249-links#deliberate-githttprakeroutescomblogdeliberate-git) in order to explain our intentions to our future selves. In this write-up [Anna Shipman](https://twitter.com/annashipman) explains how she took this idea to a (good) extreme when she split a Ruby gem into multiple gems. She split the existing repository into a bunch of new repositories, but went to great lengths to retain the relevant git history from the old repository in each of the new repositories. {by james-mead}
+I've previously written about how we put a lot of value on [curating git history](/week-249-links#deliberate-githttprakeroutescomblogdeliberate-git) in order to explain our intentions to our future selves. In this write-up [Anna Shipman](https://twitter.com/annashipman) explains how she took this idea to a (good) extreme when she split a Ruby gem into multiple gems. She split the existing repository into a bunch of new repositories, but went to great lengths to retain the relevant git history from the old repository in each of the new repositories. {by james-mead}
 
 
 ### [Empathy](http://techbelly.ghost.io/empathy/)
