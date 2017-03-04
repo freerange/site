@@ -3,7 +3,7 @@
 * Snip tags within pages
 * HAML pages
 * Asset pipeline?
-* Site map
+* Sitemap
 * RSS feed
 * Do we need both/either of "gfr" & "fr" snips
 * Consistent naming of snip files & templates - underscores not hyphens?
@@ -27,3 +27,9 @@
 * Work out how we want to deploy the app
 * Do we need the timmy JS stuff in project layout?
 * Fail fast if included snip not found
+* Use Rails recipe for recap deployment
+* Use Rails.env vs RACK_ENV
+* url_to method is non-standard
+* Use template/builder approach for sitemap & atom feed?
+* Check mocha & recap docs index pages are in sitemap - they won't show up in development, because they rely on server directory structure and publication mechanisms of those gems
+* Escape content HTML in Atom feed (validation?)
