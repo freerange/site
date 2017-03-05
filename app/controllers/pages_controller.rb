@@ -12,8 +12,7 @@ class PagesController < ApplicationController
     @snip = name.present? ? soup[name] : soup[ROOT_SNIP_NAME]
     @author = soup[@snip.author]
     html = render_snip(@snip)
-    default_layout = (@snip.render_as == 'Blog') ? 'blog' : 'application'
-    layout = @snip.layout ? @snip.layout.sub(/-layout$/, '') : default_layout
+    layout = layout_for(@snip)
     render html: html.html_safe, layout: layout
   end
 
@@ -72,6 +71,11 @@ class PagesController < ApplicationController
     else
       content
     end
+  end
+
+  def layout_for(snip)
+    default_layout = (snip.render_as == 'Blog') ? 'blog' : 'application'
+    snip.layout ? snip.layout.sub(/-layout$/, '') : default_layout
   end
 
   def soup
