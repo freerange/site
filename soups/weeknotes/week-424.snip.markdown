@@ -22,10 +22,8 @@ is
 `ssh-agent`, which we eventually resolved by adding the following
 lines to my `~/.ssh/config`
 
-```
-  AddKeysToAgent yes
-  UseKeychain yes
-```
+    AddKeysToAgent yes
+    UseKeychain yes
 
 A bit frustrating but it's good to know that Sierra is keeping up to
 date with the best practices of the upstream OpenSSH project.
