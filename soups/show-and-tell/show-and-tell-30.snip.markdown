@@ -1,7 +1,7 @@
 Show and Tell 30
 ================
 
-* When: Wed 09 Mar 2017
+* When: Wed 08 Mar 2017
 * Where: Forge and Co, 154-158 Shoreditch High St, London E1 6HU
 * Links: [attending.io](https://attending.io/events/gfr-show-and-tell-30/)
 
