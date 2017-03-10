@@ -1,7 +1,7 @@
 Week 425
 ========
 
-We made use of our recent upgrade to [The Office Group][the-office-group] (TOG) co-working membership to spend 4 days working at TOG in Bloomsbury and 1 day at home. I really enjoyed working at home yesterday. Partly because of the break from the commute but also because it was such a beautiful day to be on the river. Not quite sit outside weather but definitely sitting inside next to the open door weather :-)
+We made use of our recent upgrade to [The Office Group][the-office-group] (TOG) co-working membership to spend 4 days working at TOG in Bloomsbury and 1 day at home. I really enjoyed working at home yesterday. Partly because of the break from the commute but also because it was such a beautiful day to be on the river. Not quite sit-outside weather but definitely sitting-inside-next-to-the-open-door weather :-)
 
 We've divided our time this week between [GDS][gds] and GFR with a bias toward GDS.
 
