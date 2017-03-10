@@ -25,8 +25,7 @@ Chris showed us a script
 he
 [has written](https://github.com/chrisroos/thames-river-conditions). It
 uses PhantomJS to grab a screenshot of this page. He runs it on a
-Digital Ocean instance and set uses cron to take a snapshot every
-hour.
+Digital Ocean instance and uses cron to take a snapshot every hour.
 
 Creating the script made Chris wonder where the data comes from. He
 noticed that the local lock keeper's board displays the local stream
