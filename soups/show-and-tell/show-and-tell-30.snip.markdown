@@ -63,11 +63,12 @@ required for the tool to talk to the various services.
 James has also been using
 Google's
 [OAuth 2.0 Playground](https://developers.google.com/oauthplayground/). This
-web application makes it easy to experiment with code that uses the
-[OAuth 2] protocol to authenticate. It comes with built in support for
-a large number of Google's APIs and can also be used with 3rd party
-APIs that use OAuth - in particular James has been using it to
-interact with the [FreeAgent API](https://dev.freeagent.com/docs).
+web application makes it easy to experiment with code that uses
+the [OAuth 2](https://oauth.net/2/) protocol to authenticate. It comes
+with built in support for a large number of Google's APIs and can also
+be used with 3rd party APIs that use OAuth - in particular James has
+been using it to interact with
+the [FreeAgent API](https://dev.freeagent.com/docs).
 
 Finally, James was moving his personal blog engine from Webby to
 Middleman. He created a new Git repository to hold the new version of
