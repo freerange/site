@@ -52,11 +52,10 @@ Until next time.
 [the-office-group]: http://www.theofficegroup.co.uk/
 
 :name: week-425
-:updated_at: 2017-03-10 16:23:58.719668000 +00:00
-:created_at: 2017-03-10 16:23:58.719658000 +00:00
+:updated_at: 2017-03-10 16:50:15.733425000 +00:00
+:created_at: 2017-03-10 16:50:15.733417000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
