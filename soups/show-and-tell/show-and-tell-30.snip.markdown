@@ -14,11 +14,10 @@ and [Pablo](http://pmanrubia.info/) for our 30th Show and Tell event.
 
 Chris lives on a houseboat moored on an island in the Thames. To get
 on and off his boat he uses another small boat with an outboard
-motor. This means he is particularly interested in the tidal stream
+motor. This means he is particularly interested in the stream
 conditions of the Thames where he lives.
 
-The Environmental Agency do not seem to provide open data about the
-tidal stream conditions but they do
+The Environmental Agency do not seem to provide open data about the stream conditions but they do
 have
 [a website that gives a visual indication](http://riverconditions.environment-agency.gov.uk/).
 
