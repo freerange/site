@@ -34,7 +34,7 @@ conditions but that the information is often out of sync with the
 website. This raises the question - does the lock keeper measure the
 stream conditions, inform the Environment Agency who then update the
 website? Or does the Agency have a device which measures the
-condition, updates the webiste and the lock keeper who then updates
+condition, updates the website and the lock keeper who then updates
 their board? Chris is interested in solving this puzzle and finding
 out if there's a more machine-readable source of data that he could
 get access to.
