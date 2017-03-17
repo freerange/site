@@ -5,7 +5,7 @@ Afternoon, folks. I hope you've all had a splendid week and that you've enjoyed 
 
 We spent three days working at [TOG][the-office-group] and two at home. [Chris][chris-lowis] spent Monday enjoying the sunshine in Oxford.
 
-We continued to work on [GDS][gds] and GFR with a bias toward working on GDS.
+We continued to work on [GDS][gds] and GFR with a heavy bias toward working on GDS.
 
 ## GDS
 
@@ -15,7 +15,7 @@ We've make good progress in our quest to refactor and simplify the [manuals-publ
 
 We were joined for lunch on Tuesday by [Jusna][jusna]. Jusna's recently left FutureLearn (where we all worked together) so it was interesting to hear about her plans for the future.
 
-We had a good conversation about some potential client work. It's not the sort of work we've been involved in before so it was good to discuss it and for us to agree on something we're all comfortable with.
+We had a good conversation about some potential client work. It's a little different from the sort of engagement we've had historically so it was good to discuss it and come up with an approach we're all comfortable with.
 
 Chris and I spent Friday morning evaluating the [Fairmondo][fairmondo] and [Sharetribe][sharetribe] codebases to determine their suitability for use for [Fairmondo UK][fairmondo-uk].
 
