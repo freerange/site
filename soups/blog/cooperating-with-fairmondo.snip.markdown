@@ -1,7 +1,7 @@
 Cooperating with Fairmondo
 ----------------------------------
 
-Go Free Range are a member of the [CoTech](https://www.coops.tech/)
+Go Free Range is a member of the [CoTech](https://www.coops.tech/)
 network of cooperatives. One of the aims of the network is to foster
 cooperation among its members and in doing so embody the
 6th
@@ -17,7 +17,7 @@ Fairmondo UK are replicating that model for sellers in the UK.
 Fairmondo UK is currently based on
 the [Sharetribe](https://github.com/sharetribe/sharetribe) open-source
 marketplace software but they have some ideas of how to improve their
-market place that are difficult to achieve with Sharetribe
+marketplace that are difficult to achieve with Sharetribe
 out-of-the-box.
 
 Fairmondo UK wondered if it would be possible to extend the Sharetribe
@@ -37,7 +37,7 @@ considered.
 We can’t talk too much at this stage about what we recommended, as
 Fairmondo UK are thinking about their next steps - but they were very
 pleased with the advice we gave them. We also learnt a lot by looking
-at a couple of different, large rails apps including
+at a couple of different, large Rails apps including
 how
 [translation and internationalisation](http://guides.rubyonrails.org/i18n.html) works
 in Rails.
