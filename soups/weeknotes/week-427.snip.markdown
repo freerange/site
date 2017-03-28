@@ -9,7 +9,7 @@ I'm finding the co-working space at TOG pretty good, although I am still keen to
 
 ### Procurement
 
-I'm pleased to say that we finally seem to have reached the end of the procurement process and can concentrate more fully on the project itself. At times I've questioned the merits of going through "big company" processes like this. However, I think the main alternative is to do lots of smaller projects with a larger pool of small clients and of course that has it's own problems.
+I'm pleased to say that we finally seem to have reached the end of the procurement process and can concentrate more fully on the project itself. At times I've questioned the merits of going through "big company" processes like this. However, I think the main alternative is to do lots of smaller projects with a larger pool of small clients and of course that has its own problems.
 
 ### Refactoring
 
@@ -33,7 +33,7 @@ Chris L has organised a company away day, although he's keeping the details secr
 
 ### CoTech
 
-Plans for a follow-up to [last year's founding event][wortley-hall-2016] took a step forward with the successfuly [co-budgeting][cobudget] of the deposit for a [similar retreat in November][wortley-hall-2017].
+Plans for a follow-up to [last year's founding event][wortley-hall-2016] took a step forward with the successful [co-budgeting][cobudget] of the deposit for a [similar retreat in November][wortley-hall-2017].
 
 We've continued to make an effort to participate in ongoing [CoTech][] discussions. In particular we've been making an effort to vote on proposals made in [Loomio][cotech-loomio] to help maintain momentum within the network.
 
@@ -49,13 +49,15 @@ I fixed this by following [some instructions][correcting-payments-to-hmrc] on GO
 
 Next [FreeAgent Support][] updated the figures in their system and applied the necessary corrections for the current tax year. These corrections were then submitted to HRMC via our regular [Full Payment Submission][].
 
-I was then able to make the necessary payments to HMRC and to reclaim the missing employee NICs from myself as an employee. FreeAgent were incredibly helpful throughout this process - [I can't recommend them enough][freeagent-referral]! [referral link]
+I was then able to make the necessary payments to HMRC and to reclaim the missing employee NICs from myself as an employee. FreeAgent were incredibly helpful throughout this process - I can't recommend them highly enough! [^1]
 
 Anyway, that's all for this week.
 
 Until next time.
 
 -- James
+
+[^1]: [FreeAgent referral link](http://fre.ag/3276i4uh)
 
 [TOG Bloomsbury]: http://www.theofficegroup.co.uk/office/the-bloomsbury-building/
 [GDS]: https://www.gov.uk/government/organisations/government-digital-service
@@ -67,7 +69,6 @@ Until next time.
 [submit-eyu]: https://www.gov.uk/government/publications/basic-paye-tools-earlier-year-update-alongside-commercial-software
 [Basic PAYE Tools]: https://www.gov.uk/basic-paye-tools
 [FreeAgent Support]: https://www.freeagent.com/support/
-[freeagent-referral]: http://fre.ag/3276i4uh
 [Full Payment Submission]: https://www.gov.uk/running-payroll/reporting-to-hmrc
 [wortley-hall-2016]: https://wiki.coops.tech/wiki/Main_Page#Wortley_Hall_2016
 [cobudget]: https://github.com/cobudget/cobudget
