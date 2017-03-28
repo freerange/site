@@ -78,11 +78,10 @@ Until next time.
 [NI category letter]: https://www.gov.uk/national-insurance-rates-letters/category-letters
 
 :name: week-427
-:updated_at: 2017-03-28 11:29:20.270382000 +01:00
-:created_at: 2017-03-28 11:29:20.270370000 +01:00
+:updated_at: 2017-03-28 15:32:18.925587000 +01:00
+:created_at: 2017-03-28 15:32:18.925578000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
