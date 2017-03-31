@@ -14,7 +14,7 @@ with his family in Iceland.
 One of the great things about working on GDS projects is that a lot of
 the code is available for anyone to look at on Github. This week we
 opened
-[13 pull requests](https://github.com/alphagov/manuals-publisher/pulls?utf8=%E2%9C%93&q=is%3Apr%20created%3A2017-03-27..2017-04-01). There's
+[15 pull requests](https://github.com/alphagov/manuals-publisher/pulls?utf8=%E2%9C%93&q=is%3Apr%20created%3A2017-03-27..2017-04-01). There's
 still quite a bit of simple renaming refactoring to do in the code
 base, although because of Ruby's dynamic nature and the large number
 of classes and files these renames can be quite time-consuming.
