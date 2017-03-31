@@ -25,6 +25,32 @@ Finding a canonical list of government organisations was something I remember wr
 [Neil Williams]: https://twitter.com/neillyneil
 
 
+### [Learn to code electronic music tools with JavaScript](https://www.futurelearn.com/courses/electronic-music-tools)
+
+I'm enjoying participating in
+this [FutureLearn](https://futurelearn.com) course from Goldsmith's
+University. I've been involved with the development of
+the [Web Audio API](https://webaudio.github.io/web-audio-api/) for a
+long time and it's exciting for me to see it being used in classroom
+teaching. As a former employee of FutureLearn it's also fun to be
+taking a course "from the other side". {by chris-lowis}
+
+
+### [Reinventing Organizations](http://www.reinventingorganizations.com/)
+
+I've been reading Frederic Laloux's book "Reinventing Organizations"
+after hearing an interview with the author
+on
+[Ricardo Semler's podcast](http://podcast.leadwise.co/s1e03-reinventing-organizations-with-frederic-laloux). I'm
+not sure I fully buy in to the evolutionary arguments put forward in
+the book, but the detailed case studies of different types of
+organisations and how they work are fascinating. I particularly
+enjoyed learning about the decentralised way
+that
+[Buurtzorg Neighborhood Nursing](http://www.buurtzorgusa.org/about-us/) in
+The Netherlands works. {by chris-lowis}
+
+
 ### [LOOPY: a tool for thinking in systems](http://ncase.me/loopy/)
 
 This project is part of [Explorable Explanations][], a movement to make learning active, not just passive. I found the example simulations pretty mesmerising! Via [Ben G][]. {by james-mead}
