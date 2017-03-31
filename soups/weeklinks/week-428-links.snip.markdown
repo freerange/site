@@ -58,13 +58,11 @@ This project is part of [Explorable Explanations][], a movement to make learning
 [Explorable Explanations]: http://explorableexplanations.com/
 [Ben G]: https://twitter.com/beng
 
-
 :name: week-428-links
-:updated_at: 2017-03-31 12:26:22.361142000 +01:00
-:created_at: 2017-03-31 12:26:22.361128000 +01:00
+:updated_at: 2017-03-31 13:57:14.166510000 +01:00
+:created_at: 2017-03-31 13:57:14.166496000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
