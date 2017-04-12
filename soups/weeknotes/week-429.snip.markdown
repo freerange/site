@@ -17,13 +17,11 @@ At GFR everyone has access to the full financial details of the company and we d
 
 We ended the week with our regular retrospective and a pint in [The Plough](http://www.taylor-walker.co.uk/pub/plough-bloomsbury/m2605/).
 
-
 :name: week-429
-:updated_at: 2017-04-12 11:00:24.619355000 +01:00
-:created_at: 2017-04-12 11:00:24.619346000 +01:00
+:updated_at: 2017-04-12 12:03:11.002112000 +01:00
+:created_at: 2017-04-12 12:03:11.002102000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
