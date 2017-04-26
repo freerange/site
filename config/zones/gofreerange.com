@@ -3,7 +3,7 @@
 ; 
 ; gofreerange.com [75717]
 $TTL 86400
-@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2017011156 14400 14400 1209600 86400
+@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2017020429 14400 14400 1209600 86400
 @		NS	ns1.linode.com.
 @		NS	ns2.linode.com.
 @		NS	ns3.linode.com.
