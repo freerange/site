@@ -33,10 +33,11 @@ using [Jenkins](https://jenkins.io/). This means there is a record of
 the script having been run.
 
 It was good to get to the bottom of the issue and to see our fix
-having an impact on a public-facing part of `gov.uk`. Tracking down
-the root cause of the bug also seemed much easier thanks to the
-refactoring work that had gone before. This has given us renewed
-confidence that we're on the right track.
+having an impact on a public-facing part
+of [GOV.UK](https://www.gov.uk/). Tracking down the root cause of the
+bug also seemed much easier thanks to the refactoring work that had
+gone before. This has given us renewed confidence that we're on the
+right track.
 
 ## GFR
 
