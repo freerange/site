@@ -1,7 +1,7 @@
 Week 432
 ========
 
-We worked from home a bit more than usual this week, but we still did a couple of days at [TOG Bloomsbury][] with a pitstop at Aviation House on Wednesday for a meeting with Antonia Simmons and her [Holding government to account][govuk-roadmap-2017-2018] team at [GDS][]. Chris L headed off for a well-earned holiday in Spain on Thursday.
+We worked from home a bit more than usual this week, but we still did a couple of days at [TOG Bloomsbury][] with a pitstop at Aviation House on Wednesday for a meeting with Antonia Simmons and her [Holding government to account][govuk-roadmap-2017-2018] team at [GDS][]. On Thursday Chris L headed off for a well-earned holiday in Spain.
 
 In the last couple of weeks the co-working space at TOG has been a lot busier with a lot of people on the phone and seemingly larger teams of people resulting in more hubbub. On Wednesday afternoon I was struggling to concentrate and ended up heading home early to work on something in peace and quiet. This is a bit frustrating and we've started to talk again about looking for some office space or even setting up our own cooperatively-run co-working space.
 
@@ -25,6 +25,7 @@ Anyway, that's all for now. Until next time.
 
 -- James
 
+[TOG Bloomsbury]: http://www.theofficegroup.co.uk/office/the-bloomsbury-building/
 [govuk-roadmap-2017-2018]: https://insidegovuk.blog.gov.uk/2017/02/13/the-2017-to-2018-gov-uk-roadmap/
 [GDS]: https://www.gov.uk/government/organisations/government-digital-service
 [pr-983]: https://github.com/alphagov/manuals-publisher/pull/983
