@@ -45,11 +45,10 @@ Anyway, that's all for now. Until next time.
 [Queen's Larder]: http://www.queenslarder.co.uk/
 
 :name: week-432
-:updated_at: 2017-04-28 14:21:26.754470000 +01:00
-:created_at: 2017-04-28 14:21:26.754461000 +01:00
+:updated_at: 2017-04-28 16:28:40.819243000 +01:00
+:created_at: 2017-04-28 16:28:40.819235000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
