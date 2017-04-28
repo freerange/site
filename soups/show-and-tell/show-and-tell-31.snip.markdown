@@ -113,11 +113,10 @@ Please [get in touch][contact] if you're interested in joining us for the next S
 [contact]: /contact
 
 :name: show-and-tell-31
-:updated_at: 2017-04-28 10:06:07.786368000 +01:00
-:created_at: 2017-04-28 10:06:07.786356000 +01:00
+:updated_at: 2017-04-28 17:21:04.348718000 +01:00
+:created_at: 2017-04-28 17:21:04.348709000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
