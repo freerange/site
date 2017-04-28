@@ -21,13 +21,11 @@ Last Friday we had a go at one of [ClueQuest][]'s escape room puzzles which was 
 
 I was also fascinated by this video [19 mins] which Ben mentioned. It's amazing to watch this bloke turn a tree trunk into a beautiful canoe. {by james-mead}
 
-
 :name: week-432-links
-:updated_at: 2017-04-28 11:16:19.954389000 +01:00
-:created_at: 2017-04-28 11:16:19.954379000 +01:00
+:updated_at: 2017-04-28 16:25:18.808287000 +01:00
+:created_at: 2017-04-28 16:25:18.808251000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
