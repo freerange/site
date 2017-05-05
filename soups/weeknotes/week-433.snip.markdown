@@ -95,11 +95,10 @@ Until next time.
 [webarchitects]: https://www.webarchitects.coop/
 
 :name: week-433
-:updated_at: 2017-05-05 14:42:40.523096000 +01:00
-:created_at: 2017-05-05 14:42:40.523084000 +01:00
+:updated_at: 2017-05-05 16:11:09.298870000 +01:00
+:created_at: 2017-05-05 16:11:09.298858000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
