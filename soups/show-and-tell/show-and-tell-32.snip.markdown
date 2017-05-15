@@ -62,11 +62,15 @@ Apparently the temperature sensor was accidentally hidden behind some furniture 
 
 ### Tutankhamun Quiz
 
-* Homework
-* Running joke turning homework into computer project
-* Hands in a short URL
-* Scratch
-* [Tweet about deleting a line of code](https://twitter.com/beng/status/861316361657647105)
+Next I asked Ben about a [tweet he'd sent about giving programming advice to his son][beng-tweet-programming-advice]. Apparently there's a running joke in his household that all his son's homework assignments are turned into computer projects. In the week in question, his son was supposed to be learning about [Tutankhamun][], so he built a quiz game using [Scratch][] which asked questions about the pharaoh. There was a picture of an [Egyptian mummy][] and if you got a question wrong, some of the bandages were removed [hangman-style][hangman-game] to reveal a skeleton.
+
+At one point Ben suggested his son could remove a line of code, but his son (correctly) said that removing it would break the program and followed that by saying "Is this really your job, Dad?"! Ben explained this by saying that his son can keep much more stuff in his head at one time than Ben can. I definitely know this feeling! Anyway, kudos to Ben for sharing this moment!
+
+[beng-tweet-programming-advice]: https://twitter.com/beng/status/861316361657647105
+[Tutankhamun]: https://en.wikipedia.org/wiki/Tutankhamun
+[Scratch]: https://scratch.mit.edu/
+[Egyptian mummy]: https://en.wikipedia.org/wiki/Mummy
+[hangman-game]: https://en.wikipedia.org/wiki/Hangman_(game)
 
 
 ## Tom S - Ikea Trådfri
