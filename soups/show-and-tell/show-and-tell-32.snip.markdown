@@ -20,7 +20,7 @@ I've always thought the most useful [UML][] diagram is the [Sequence Diagram][].
 
 Recently we've been busy refactoring a legacy Rails web app in which most requests were handled by a very large number of objects, i.e. many, many levels of indirection. Early on in the process I often found myself sketching sequence diagrams to help me understand what was going on. So I've recently been playing around again with the idea of generating such diagrams by tracing application execution.
 
-I demonstrated using [Ruby 2's TracePoint][tracepoint-docs] generate output suitable for [js-sequence-diagrams][], firstly for a single web request using [Rack][] middleware and then for a set of specs using an [RSpec around hook][rspec-around-hook].
+I demonstrated using [Ruby 2's TracePoint][tracepoint-docs] to generate output suitable for [js-sequence-diagrams][], firstly for a single web request using [Rack][] middleware and then for a set of specs using an [RSpec around hook][rspec-around-hook].
 
 This was definitely a work-in-progress and not a polished solution, but I was keen to get some feedback on whether people thought it could be useful. One of the main problems I'd run into was how cluttered the diagrams are with calls to objects outside the application, i.e. objects in Rails, other gems, and the Ruby standard library. I'd made some attempt to remove this clutter, but there's more work to do on that front.
 
@@ -39,11 +39,15 @@ I'm keen to take this work a bit further and, for example, implement an [RSpec f
 
 ## Paul P - Pitch to BBC
 
-Paul took us through a presentation which was used in a pitch to the BBC for a mobile app to encourage online participation by "makers" following the success of shows like [The Great British Bake-off][bbc-bake-off]. It was interesting to hear him explain how he'd made some of the slides, e.g. photos overlaid with line drawings.
+Paul took us through a presentation which he had previously used in a pitch to the BBC. The competitive brief for which his previous company had pitched was to encourage online participation by "makers" following the success of shows like [The Great British Bake-off][bbc-bake-off]. It was interesting to hear him explain how he'd made some of the slides.
 
-Paul pointed out that these slides would probably never see the light of day again and it's a bit sad to think of all the work that goes into presentations like this which never get a wider audience.
+Paul mainly uses Photoshop and Illustrator (he says this is "old school" compared to the currently-popular [Sketch][]). One approach was to take photos and trace over them to creating pencil-like drawings. These help to turn attention away from the person in the photo and onto the device they're holding. Another approach was to use a collection of vector images in Illustrator to create some isometric perspective illustrations of the applications in use in physical spaces.
+
+Ultimately they didn't win the bid and as a result these slides will probably never see the light of day again. It's a bit sad to think of all the work that goes into presentations like this which never get a wider audience.
 
 [bbc-bake-off]: http://www.bbc.co.uk/programmes/b013pqnm
+[Sketch]: https://www.sketchapp.com/
+
 
 ## Ben G
 
