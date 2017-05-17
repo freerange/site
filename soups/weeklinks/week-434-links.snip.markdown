@@ -1,13 +1,9 @@
 Week 434 - Interesting links
 ============================
 
-### [Choose your own business adventure](https://words.buckleywilliams.com/choose-your-own-business-adventure-745989584b07)
-
-Your comments here. {by chris-roos}
-
-
 ### [CoTech Discussion Group](https://community.coops.tech/)
 
+[CoTech](https://www.coops.tech/) - the network of technology cooperatives that we are a member of - recently launched a community discussion group powered by the open source [Discourse software](https://www.discourse.org/). There's already been a number of interesting threads and event announcements and the decision to make the community open to all should help us in our mission to grow CoTech. {by chris-lowis}
 
 ### [Github: Press y to permalink to a file in a specific commit](https://help.github.com/articles/getting-permanent-links-to-files/#press-y-to-permalink-to-a-file-in-a-specific-commit)
 
@@ -16,13 +12,15 @@ I often find myself wanting to reference a file or lines of a file on Github. I'
 [dont-link-that-line-number]: http://andrew.yurisich.com/work/2014/07/16/dont-link-that-line-number/
 [github-keyboard-shortcuts-source-code]: https://help.github.com/articles/using-keyboard-shortcuts/#source-code-browsing
 
+### [Choose your own business adventure](https://words.buckleywilliams.com/choose-your-own-business-adventure-745989584b07)
+
+[Nat Buckley](http://ntlk.net/) spoke about setting up your own business at the recent [Alterconf conference in London](https://alterconf.com/conferences/london-england). Nat has turned the talk into a very informative blog post about the hows and whys of setting out on your own. The post is an excellent, accessible accompaniment to the video of the talk (which should appear on the conference website soon). {by chris-lowis}
 
 ### [Principles for deciding what to work on: Jon Leighton](http://www.jonathanleighton.com/articles/2017/principles-for-deciding-what-to-work-on/)
 
 This article really resonated with me. I think we already unconsciously use some of these principles at [Go Free Range][], but I like the idea of going through an exercise to write down and publish how we make these decisions, so that we can get a better shared understanding and get feedback from outside the organisation. {by james-mead}
 
 [Go Free Range]: /
-
 
 ### [Loomio Cooperative Handbook](https://loomio.coop/)
 
@@ -33,13 +31,11 @@ This was first mentioned to me by [Chris L][], but it was also referenced in [Jo
 [loomio-working-together]: https://loomio.coop/working_together.html
 [basecamp-employee-handbook]: https://github.com/basecamp/handbook
 
-
 ### [How to Fix Banking - Ben Dyson at Positive Money Conference 2013](https://www.youtube.com/watch?v=Rd9Pf3Bqp20)
 
 This video [33 mins] is a talk by the founder of the [Positive Money campaign][] eloquently explains the problems with our banking system and the flaws in the standard economic model, as well as how it can all be fixed. Highly recommended! {by james-mead}
 
 [Positive Money campaign]: http://positivemoney.org/
-
 
 ### [ZX Spectrum Next](https://www.kickstarter.com/projects/1835143999/zx-spectrum-next)
 
@@ -49,13 +45,11 @@ This is a re-imagining of the ZX Spectrum using new hardware, but still fully co
 [zx-spectrum-next-accelerator]: https://www.kickstarter.com/projects/1835143999/zx-spectrum-next#h:future-proof-for-ano
 [zx-spectrum-next-deathchase-demo-video]: https://www.youtube.com/watch?v=LOl9zJDLgvs#t=4m46s
 
-
 :name: week-434-links
-:updated_at: 2017-05-09 18:01:30.702003000 +01:00
-:created_at: 2017-05-09 18:01:30.701989000 +01:00
+:updated_at: 2017-05-17 09:53:56.318156000 +01:00
+:created_at: 2017-05-17 09:53:56.318146000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
