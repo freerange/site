@@ -69,13 +69,11 @@ Anyway, that's all for now!
 [show-and-tell-32]: /show-and-tell-32
 [CoTech]: https://www.coops.tech/
 
-
 :name: week-435
-:updated_at: 2017-05-25 15:35:03.682454000 +01:00
-:created_at: 2017-05-25 15:35:03.682443000 +01:00
+:updated_at: 2017-05-26 09:35:08.505840000 +01:00
+:created_at: 2017-05-26 09:35:08.505826000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
