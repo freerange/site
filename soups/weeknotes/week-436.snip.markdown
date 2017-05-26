@@ -25,7 +25,7 @@ I'm happy that we're going to leave the app in a much better state than it was b
 
 ## Harmonia and Webhooks
 
-James investigated a number of exceptions reported from our [Webhooks app][webhooks]. The app was experiencing timeouts when communicating with [Harmonia][harmonia]. Having spoken to [James A][james-adam] it sounds as though this is caused by the large ical feed we use to trigger some of our tasks. We've attempted to alleviate this problem by using a Harmonia-specific calendar instead of our main GFR one and by [reducing the number of times we sign in to Harmonia][webhooks-pr-26].
+James investigated a number of exceptions reported from our [Webhooks app][webhooks]. The app was experiencing timeouts when communicating with [Harmonia][harmonia]. Having spoken to [James A][james-adam] it sounds as though this is caused by the large iCal feed we use to trigger some of our tasks. We've attempted to alleviate this problem by using a Harmonia-specific calendar instead of our main GFR one and by [reducing the number of times we sign in to Harmonia][webhooks-pr-26].
 
 ## Errbit
 
