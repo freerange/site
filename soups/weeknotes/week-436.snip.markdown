@@ -55,11 +55,10 @@ Until next time.
 [webhooks-pr-26]: https://github.com/freerange/webhooks/pull/26
 
 :name: week-436
-:updated_at: 2017-05-26 13:45:58.240733000 +01:00
-:created_at: 2017-05-26 13:45:58.240719000 +01:00
+:updated_at: 2017-05-26 15:11:10.432454000 +01:00
+:created_at: 2017-05-26 15:11:10.432443000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
