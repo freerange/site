@@ -22,11 +22,10 @@ Week 422
 [the-office-group]: http://www.theofficegroup.co.uk/
 
 :name: week-422
-:updated_at: 2017-06-05 11:09:45.295082000 +01:00
-:created_at: 2017-06-05 11:09:45.295067000 +01:00
+:updated_at: 2017-06-05 11:44:16.425318000 +01:00
+:created_at: 2017-06-05 11:44:16.425298000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
