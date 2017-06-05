@@ -5,6 +5,8 @@ _Note that I'm writing these notes about 4 months late which is why they're in s
 
 * Worked at home, Aviation House and [TOG Bloomsbury][the-office-group].
 
+* Spent the majority of our time working on the [Manuals Publisher][manuals-publisher] project for GDS. We spoke to lots of people with knowledge of the project to help us come up with a suggestion as to how best approach it.
+
 * Hosted [GFR Show & Tell 29][show-and-tell-29] on Wednesday.
 
 * Continued organising the [CoTech][co-tech] social during [Open 2017][open-2017].
@@ -20,6 +22,7 @@ _Note that I'm writing these notes about 4 months late which is why they're in s
 [co-tech]: https://www.coops.tech/
 [fairmondo-uk]: https://fairmondo.uk/
 [hookline]: http://hookline.tv/
+[manuals-publisher]: https://github.com/alphagov/manuals-publisher
 [open-2017]: https://2017.open.coop/
 [ross-ferguson]: https://basiccraft.wordpress.com/
 [show-and-tell-29]: /show-and-tell-29
