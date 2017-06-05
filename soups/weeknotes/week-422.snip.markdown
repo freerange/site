@@ -1,6 +1,8 @@
 Week 422
 ========
 
+_Note that I'm writing these notes about 4 months late which is why they're in summary form._
+
 * James and I documented our research into [Manuals Publisher][manuals-publisher] along with a number of possible next steps.
 
 * Met Jen, Tim and Paul on Wednesday to present our suggestions for Manuals Publisher. We recommended refactoring the app given that the biggest problem seems to be that it's so hard for developers to work on.
