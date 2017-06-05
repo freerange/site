@@ -27,11 +27,10 @@ _Note that I'm writing these notes about 4 months late which is why they're in s
 [twilio]: https://www.twilio.com/
 
 :name: week-421
-:updated_at: 2017-06-05 09:58:56.868919000 +01:00
-:created_at: 2017-06-05 09:58:56.868908000 +01:00
+:updated_at: 2017-06-05 10:15:16.921597000 +01:00
+:created_at: 2017-06-05 10:15:16.921582000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
