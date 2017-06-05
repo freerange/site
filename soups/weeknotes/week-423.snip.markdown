@@ -23,11 +23,10 @@ _Note that I'm writing these notes about 4 months late which is why they're in s
 [ni-category-letter]: https://www.gov.uk/national-insurance-rates-letters/category-letters
 
 :name: week-423
-:updated_at: 2017-06-05 16:51:46.275551000 +01:00
-:created_at: 2017-06-05 16:51:46.275541000 +01:00
+:updated_at: 2017-06-05 18:01:18.947547000 +01:00
+:created_at: 2017-06-05 18:01:18.947537000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
