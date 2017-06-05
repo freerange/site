@@ -7,7 +7,7 @@ _Note that I'm writing these notes about 4 months late which is why they're in s
 
 * We worked at TOG Bloomsbury on Monday & Tuesday, at TOG Tottenham Court Road on Wednesday, the Barbican Cinema Benugo on Thursday, and from home on Friday. Chris R headed off for a long (birthday) weekend in Bath on Friday.
 
-* On Wednesday we had a follow-up meeting with a prospective client.
+* On Wednesday we had a meeting with a prospective client in their office on Gower Street.
 
 * Chris L's new laptop arrived on Thursday - woot!
 
