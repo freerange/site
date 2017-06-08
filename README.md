@@ -82,3 +82,9 @@ The site map is generated on the fly and includes any page with:
 The `*.css` files are generated from `*.less` files in `public/stylesheets`. You can regenerate a specific file using a command like:
 
     lessc public/stylesheets/screen.less >public/stylesheets/screen.css
+
+### Regression test
+
+There are a set of Rake tasks under the 'regression' namespace which allow generation and comparison of a set of normalized HTML/XML artefacts. Note that these Rake tasks depend on HTML Tidy [1] which can be installed via `brew install tidy-html5` on OSX.
+
+[1]: http://www.html-tidy.org/

@@ -10,6 +10,7 @@ gem "airbrake", "~> 4"
 group :development do
   gem "rake", "~> 10"
   gem "recap", :git => "https://github.com/freerange/recap.git"
+  gem 'nokogiri'
 end
 
 group :test do
