@@ -7,6 +7,7 @@
 * Check mocha & recap docs index pages are in sitemap - they won't show up in development, because they rely on server directory structure and publication mechanisms of those gems
 * Does content in Atom feed need HTML-escaping (validation?)
 * Validate RSS/Atom feed
+* Re-add Rake tasks for creating new week notes, etc
 
 ## Problems with existing version of site
 
