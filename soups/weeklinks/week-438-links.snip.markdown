@@ -50,13 +50,11 @@ This is a bit of a wacky experiment which borrows some of the ideas from [Scuttl
 [self-mutating-websites]: https://beakerbrowser.com/2017/06/05/beaker-0-7-2.html
 [dat-archive-api]: https://beakerbrowser.com/docs/apis/dat.html
 
-
 :name: week-438-links
-:updated_at: 2017-06-07 12:33:00.171060000 +01:00
-:created_at: 2017-06-07 12:33:00.171050000 +01:00
+:updated_at: 2017-06-08 09:54:24.426274000 +01:00
+:created_at: 2017-06-08 09:54:24.426262000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
