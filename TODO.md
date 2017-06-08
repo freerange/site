@@ -32,3 +32,4 @@
 * Consider using Rails atom_feed helper method - no dependency on `ratom` gem
 * Use template/builder approach for sitemap & atom feed?
 * Use asset pipeline?
+* Consider replacing blog_renderer_test

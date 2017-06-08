@@ -1,12 +1,7 @@
-$LOAD_PATH.unshift File.expand_path("../..", __FILE__)
-require "application"
-require 'test/unit'
+ENV['RAILS_ENV'] ||= 'test'
+require File.expand_path('../../config/environment', __FILE__)
+require 'rails/test_help'
 
-class Test::Unit::TestCase
-  include Vanilla::TestHelper
-
-  def assert_response_body_match(expected, uri)
-    get uri
-    assert_match expected, last_response.body
-  end
+class ActiveSupport::TestCase
+  # Add more helper methods to be used by all tests here...
 end

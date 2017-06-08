@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class RegressionTest < Test::Unit::TestCase
+class RegressionTest < ActiveSupport::TestCase
   ROOT_PATH = Pathname.new(File.expand_path('../..', __FILE__))
   ARTEFACTS_PATH = ROOT_PATH.join('artefacts')
 
