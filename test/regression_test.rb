@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'spider'
 
 class RegressionTest < Test::Unit::TestCase
   ROOT_PATH = Pathname.new(File.expand_path('../..', __FILE__))
