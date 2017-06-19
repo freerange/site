@@ -3,6 +3,8 @@ Show and Tell 33
 
 [James][james-mead] and I were joined by [Rob C][rob-chatley], [Rob D][rob-dupuis], [Ben G][ben-griffiths], [Chris P][chris-patuzzo] and [Tom S][tom-stuart] for our 33rd Show & Tell.
 
+![Show & Tell 33 drinks](/images/blog/2017-06-14-show-and-tell-33.jpg)
+
 ---
 
 ## Todayomatic
@@ -10,6 +12,8 @@ Show and Tell 33
 Rob D's current contract involves him doing quite a bit of remote pairing with an office-based development team. He explained the problem of trying to find availability in one of the 20+ office meeting rooms for his office-based pair to use. Each room has its own Google Calendar but the standard calendar interface doesn't make it easy to see the availability of those rooms at a glance.
 
 Rob's solution is [Todayomatic][todayomatic]: a JavaScript app that connects to your Google Calendar account to display a list of all your calendars along with their periods of availability. A text box allows you to filter the calendars on display (e.g. "meeting room") so that you can quickly see availability of the rooms you're interested in.
+
+![Rob D showing Todayomatic at Show & Tell 33](/images/blog/2017-06-14-show-and-tell-33-rob-d.jpg)
 
 I wondered whether Google Calendar's Find a Time feature might be suitable but it sounds as though having to first create an event and then invite all 20+ meeting rooms means that this is less than ideal.
 
@@ -22,6 +26,8 @@ James wondered whether [Appointment Slots][google-calendar-appointment-slots] mi
 Rob C told us about a [Countdown][countdown]-like game he co-presented with [Jon Jagger][jon-jagger] at the [ACCU 2017 conference][accu-2017]. Jon explains the premise of the game in [his blog post][accu-countdown]:
 
 > In the TV version, contestants play individually and have 30 seconds to find the longest word using only a small set of letters. In this version, contestants play in teams, and have ~7 minutes to write the smallest valid C++ program containing a small set of tokens.
+
+![Rob C and the Cyber Dojo at Show & Tell 33](/images/blog/2017-06-14-show-and-tell-33-rob-c.jpg)
 
 Rob has since converted the game to Ruby and we split into pairs to play a couple of rounds. Each round lasted a couple of minutes during which we had to write the smallest "valid" Ruby code that included a number of tokens. I enjoyed the challenge of trying to bend Ruby a bit in order to reduce the amount of code we had to write.
 
@@ -43,6 +49,8 @@ The first problem is in working out how to order the tests. His current approach
 
 With the tests ordered he runs each of them in turn and uses code coverage to determine the minimum amount of code required to make those tests pass. Each test and its related code is then committed to git to build some kind of "ideal" history of the app.
 
+![Ben G showing an extracted git history at Show & Tell 33](/images/blog/2017-06-14-show-and-tell-33-ben-g.jpg)
+
 Ben explained that the early commits contain code that doesn't really change, followed by tests/commits that change the app code and finally code that's untested. He's interested in what we might learn from the "shape" of the app when viewed in this way.
 
 Ben used his [Basic interpreter][ben-g-basic-interpreter] for this experiment. Despite the test suite being very quick to run it still takes quite a while to determine the order of tests and then to generate the history.
@@ -54,6 +62,8 @@ This reminded me a bit of James M's [method log][method-log] in that I think the
 ## Roombot
 
 Tom explained that the meeting room naming convention (famous world locations) in their new office means that people are spending/wasting time trying to work out where to go when they're invited to meetings.
+
+![Tom S showing Roombot at Show & Tell 33](/images/blog/2017-06-14-show-and-tell-33-tom-s.jpg)
 
 Tom's built Roombot in an attempt to reduce the amount of time it takes to find the location of a meeting. Roombot sits in the company Slack channel and responds to questions about meeting room locations with a map and description of the location.
 
