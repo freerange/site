@@ -22,11 +22,10 @@ That's all folks!
 [James A]: http://lazyatom.com/
 
 :name: week-439
-:updated_at: 2017-06-19 12:38:04.209016000 +01:00
-:created_at: 2017-06-19 12:38:04.209003000 +01:00
+:updated_at: 2017-06-19 15:03:31.466597000 +01:00
+:created_at: 2017-06-19 15:03:31.466585000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
