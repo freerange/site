@@ -23,11 +23,10 @@ Until next time!
 [James A]: http://lazyatom.com/
 
 :name: week-438
-:updated_at: 2017-06-19 11:48:18.658231000 +01:00
-:created_at: 2017-06-19 11:48:18.658205000 +01:00
+:updated_at: 2017-06-19 15:02:39.211738000 +01:00
+:created_at: 2017-06-19 15:02:39.211729000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
