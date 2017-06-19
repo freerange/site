@@ -1,7 +1,7 @@
 Week 438
 ========
 
-The big news is that Chris L junior arrived on Sunday - congratulations to Chris & Adri!
+The big news is that Chris L's son Noah arrived on Sunday - congratulations to Chris & Adri!
 
 With Chris L on paternity leave, Chris R having some friends over on Monday afternoon, and James taking Tuesday & Thursday off, this was a pretty quiet week work-wise.
 
