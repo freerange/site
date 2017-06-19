@@ -1,89 +1,98 @@
 Show and Tell 33
 ================
 
-14 Jun 2017
-
-Rob C, Rob D, Ben, Chris P, Tom S, JM, CR
-
-## Rob D
-
-Remote pairing. Problem booking meeting rooms with the office-based participant. 20+ meeting rooms each have a Google Calendar.
-
-Created https://robd.github.io/todayomatic/. Authorise it to access your Google Calendars and then use it to find availability in your calendars.
-
-I wondered whether Google Calendar's Find a Time might be suitable but it sounds as though having to invite all 20+ meeting rooms might make it harder than hoped. Tom S says he runs into problems doing this at FL.
-
-JM suggested that Appointment Slots might help but no one knew too much about them.
+[James][james-mead] and I were joined by [Rob C][rob-chatley], [Rob D][rob-dupuis], [Ben G][ben-griffiths], [Chris P][chris-patuzzo] and [Tom S][tom-stuart] for our 33rd Show & Tell.
 
 ---
 
-## Rob C
+## Todayomatic
 
-Jon Jagger
-Rob and John were discussing the idea of a Countdown-like game to run
-  They ran it using c++ at a conference.
-No one outside the UK knows what Countdown is
-cd.chattley.com
-http://cyber-dojo.org/
-http://jonjagger.blogspot.co.uk/2017/05/accu-c-countdown-pub-quiz.html
-We had to write the smallest "valid" Ruby code that included a number of tokens.
-The Ruby solutions might be valid syntax but they don't necessarily "run" at the moment. A suggested addition was to ensure that the code runs as well as is just valid.
+Rob D's current contract involves him doing quite a bit of remote pairing with an office-based development team. He explained the problem of trying to find availability in one of the 20+ office meeting rooms for his office-based pair to use. Each room has its own Google Calendar but the standard calendar interface doesn't make it easy to see the availability of those rooms at a glance.
 
-Cyber Dojo uses animal names instead of people/team names so that you can avoid identifying people taking part. James M and I were Elephant.
+Rob's solution is [Todayomatic][todayomatic]: a JavaScript app that connects to your Google Calendar account to display a list of all your calendars along with their periods of availability. A text box allows you to filter the calendars on display (e.g. "meeting room") so that you can quickly see availability of the rooms you're interested in.
 
-Cyber Dojo is easy to self-host and also easy to configure to run your own tests.
+I wondered whether Google Calendar's Find a Time feature might be suitable but it sounds as though having to first create an event and then invite all 20+ meeting rooms means that this is less than ideal.
+
+James wondered whether [Appointment Slots][google-calendar-appointment-slots] might help but no one knew too much about them.
 
 ---
 
-## Ben G
+## Countdown in the Cyber Dojo
 
-Based on:
+Rob C told us about a [Countdown][countdown]-like game he co-presented with [Jon Jagger][jon-jagger] at the [ACCU 2017 conference][accu-2017]. Jon explains the premise of the game in [his blog post][accu-countdown]:
 
-* Sequence diagrams from running code that JM showed
-* Prejudice against commit comments
-* Handing a project over to a customer and they deleted the git history in order to open source the app
+> In the TV version, contestants play individually and have 30 seconds to find the longest word using only a small set of letters. In this version, contestants play in teams, and have ~7 minutes to write the smallest valid C++ program containing a small set of tokens.
 
-Ben's experimenting with constructing a history based on the state of the code right now. If it's possible to order the tests then you could determine the minimum set of code required to satisfy those tests at each point and commit those.
+Rob has since converted the game to Ruby and we split into pairs to play a couple of rounds. Each round lasted a couple of minutes during which we had to write the smallest "valid" Ruby code that included a number of tokens. I enjoyed the challenge of trying to bend Ruby a bit in order to reduce the amount of code we had to write.
 
-The difficult problem is working out how to order the tests. He's currently running all the tests individually and finding the one with the lowest coverage score (i.e. it requires the smallest amount of app code to run). He repeats the process until he has all the tests ordered.
-
-Once the tests are ordered he runs each of them are uses code coverage to determine the minimum amount of code required to satisfy those tests.
-
-He said you end up with app code that doesn't really change, then tests/commits that change app code and then finally app code that isn't tested.
-
-He's interested in the "shape" of the app when viewed in this way.
-
-Ben used his [Basic interpreter](https://github.com/techbelly/BASIC) in order to test his theory. It's ideal because the tests run quickly. Even though the tests for the basic interpreter run very quickly, it still takes time to run the this test ordering/coverage report.
-
-The result is an "ideal" git history without you having had to think about it too much/at all.
-
-Reminds me of James M's method log that attempts to add meaning/semantics to the code.
-
-Using git blame allows you to determine which tests required what code.
+While the Ruby solutions might be valid syntax they don't necessarily "run" at the moment. There was some discussion afterwards about adding the requirement of having the code run in addition to being valid syntax.
 
 ---
 
-## Tom S
+## Writing an app's history
 
-New building. Meeting room names are confusing.
+A number of things have got Ben thinking about the information we can get from the current state of a code base:
 
-Built roombot that responds to questions like "where is machu picchu" with a coloured map indicating the location of the meeting room as well as some written instructions.
+* [James's experiment in generating Sequence Diagrams from running code][show-and-tell-32-sequence-diagrams].
+* His, in his own words, unfashionable prejudice against commit comments.
+* A recent experience of handing a project over to a customer and them deleting the git history in order to open source the app.
 
-Handles aliases, e.g. Ayers Rock for Uluru.
+He's been experimenting with constructing a history based on the state of a codebase. He thinks it should be possible to order the tests in such a way as to minimise the amount of application code that needs to be added between one test and the next.
 
-It uses fuzzy string matching to attempt to deal with mis-spellings of room names. This uses a variation of the Levenstein distance algorithm that allows you to do substring matches. Although there are lots of Gems that implement the Levenstein distance, none of them handle the substring distance bit that Tom needed so he wrote his own.
+The first problem is in working out how to order the tests. His current approach is to run all the tests individually and to find the one with the lowest coverage score (i.e. it requires the smallest amount of app code to run). He repeats the process until he has all the tests ordered.
 
-Ben G mentioned using Trigrams to do something similar with ministers names matching at GDS.
+With the tests ordered he runs each of them in turn and uses code coverage to determine the minimum amount of code required to make those tests pass. Each test and its related code is then committed to git to build some kind of "ideal" history of the app.
 
-Tom wanted the bot to listen to all conversations so that it would work without people having to use @roombot to contact it. This required an "always-on" connection to respond to Webhook messages from Slack. This meant that the Heroku hobby plan wasn't good enough and Tom had to go for the $7/month plan.
+Ben explained that the early commits contain code that doesn't really change, followed by tests/commits that change the app code and finally code that's untested. He's interested in what we might learn from the "shape" of the app when viewed in this way.
 
-There were questions about whether Tom had considered extending the functionality but he said he thinks it's fine that it's a simple app that does a single thing. People in the company have been asking whether they can use it to book rooms but that's a whole lot more work.
+Ben used his [Basic interpreter][ben-g-basic-interpreter] for this experiment. Despite the test suite being very quick to run it still takes quite a while to determine the order of tests and then to generate the history.
 
-This reminded me of seeing someone ask a question in GDS Slack. They asked a general "anyone know the post room hours" question and received a response from Slackbot giving him an answer. That's the first time I've seen a bot used in a way that I could understand/appreciate.
+This reminded me a bit of James M's [method log][method-log] in that I think they're both trying to extract somewhat hidden information from code.
+
+---
+
+## Roombot
+
+Tom explained that the meeting room naming convention (famous world locations) in their new office means that people are spending/wasting time trying to work out where to go when they're invited to meetings.
+
+Tom's built Roombot in an attempt to reduce the amount of time it takes to find the location of a meeting. Roombot sits in the company Slack channel and responds to questions about meeting room locations with a map and description of the location.
+
+Roombot uses fuzzy matching to handle mis-spellings and is aware of alternative names for some of the locations used e.g. Ayers Rock for Uluru.
+
+Tom's using a slight variation of the [Levenshtein distance][levenshtein-distance] algorithm to provide the [fuzzy matching][wikipedia-approximate-string-matching]. There are plenty of Rubygems that implement this algorithm but none of them seemed to handle this variation so [Tom was left to build his own][tom-s-levenshtein].
+
+Tom didn't want people to have to message Roombot directly which means he has to have an always-on Websocket connection so that Roombot receives the stream of all messages. He was hoping to be able to host it on a free Heroku plan but this always-on requirement meant that he had to settle for the Hobby plan instead.
+
+He's already had requests for additional functionality like adding support for booking rooms. Not only would this be really quite involved but he's also happy for the app to have a single purpose and to do that one thing well.
+
+Tom's demo of Roombot reminded me of a recent interaction in one of the GDS Slack channels. Someone asked a general question about the post room opening hours and Slackbot responded with the answer. It's one of the very few times I've seen a bot used in a way that I can understand/appreciate.
+
+---
 
 ## Show & Tell 34
 
-TODO: Add details here
+We're hosting our 34th Show & Tell on Wednesday 12th July. Please [get in touch][contact] if you'd like to join us.
+
+[accu-2017]: https://conference.accu.org/site/index.html
+[accu-countdown]: http://jonjagger.blogspot.co.uk/2017/05/accu-c-countdown-pub-quiz.html
+[ben-g-basic-interpreter]: https://github.com/techbelly/BASIC
+[ben-griffiths]: https://twitter.com/beng
+[chris-patuzzo]: http://chris.patuzzo.co.uk/
+[contact]: /contact
+[countdown]: https://en.wikipedia.org/wiki/Countdown_(game_show)
+[cyber-dojo]: http://cyber-dojo.org/
+[google-calendar-appointment-slots]: https://support.google.com/calendar/answer/190998?hl=en
+[james-mead]: /james-mead
+[jon-jagger]: http://jonjagger.blogspot.co.uk/
+[levenshtein-distance]: https://en.wikipedia.org/wiki/Levenshtein_distance
+[method-log]: https://github.com/freerange/method_log
+[rob-chatley]: https://www.doc.ic.ac.uk/~rbc/
+[rob-dupuis]: https://github.com/robd
+[show-and-tell-32-sequence-diagrams]: /show-and-tell-32#james-m---sequence-diagrams
+[todayomatic]: https://robd.github.io/todayomatic/
+[tom-s-levenshtein]: https://gist.github.com/tomstuart/9e4fd5cd96527debf7a685d0b5399635
+[tom-stuart]: http://codon.com/
+[wikipedia-approximate-string-matching]: https://en.wikipedia.org/wiki/Approximate_string_matching
 
 :name: show-and-tell-33
 :updated_at: 2017-06-15 11:50:44.294337000 +01:00
