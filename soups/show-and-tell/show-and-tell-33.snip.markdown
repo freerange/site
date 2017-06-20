@@ -105,11 +105,10 @@ We're hosting our 34th Show & Tell on Wednesday 12th July. Please [get in touch]
 [wikipedia-approximate-string-matching]: https://en.wikipedia.org/wiki/Approximate_string_matching
 
 :name: show-and-tell-33
-:updated_at: 2017-06-15 11:50:44.294337000 +01:00
-:created_at: 2017-06-15 11:50:44.294326000 +01:00
+:updated_at: 2017-06-20 14:03:58.547308000 +01:00
+:created_at: 2017-06-20 14:03:58.547298000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
