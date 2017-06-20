@@ -39,11 +39,10 @@ describing a refactoring helps to keep individual chunks of work (for
 example in pull requests) self-contained. {by chris-lowis}
 
 :name: week-440-links
-:updated_at: 2017-06-19 14:23:29.631952000 +01:00
-:created_at: 2017-06-19 14:23:29.631943000 +01:00
+:updated_at: 2017-06-20 14:39:21.566951000 +01:00
+:created_at: 2017-06-20 14:39:21.566942000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
