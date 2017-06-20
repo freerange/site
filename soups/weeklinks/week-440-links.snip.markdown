@@ -16,6 +16,27 @@ This isn't exactly hot off the press, but since it came as quite a surprise to m
 [pinboard]: https://pinboard.in
 [Roosmarks]: https://github.com/chrisroos/roosmarks
 
+### [Examples of governing documents / handbooks / constitutions](https://community.coops.tech/t/examples-of-governing-documents-handbooks-constitutions/101)
+
+We've been considering revising our company's governing documents and
+potentially sharing publicly some of the wiki we use internally so
+that other tech co-operatives can learn from how we work. I started
+this thread over on the CoTech community discussion forum to collect
+examples from other organisations. {by chris-lowis}
+
+### [99 Bottles of OOP](https://www.sandimetz.com/99bottles/)
+
+I've been working through Sandi Metz and Katrina Owen's book "99
+Bottles of OOP" in the last week. It's a very well-written exploration
+of practical test-driven development and refactoring. Metz and Owen
+refer throughout
+to [design](https://en.wikipedia.org/wiki/Design_Patterns)
+and [refactoring](https://martinfowler.com/books/refactoring.html)
+patterns and how they can be used to address "code smells". This in
+particular made me think about our recent work refactoring an
+application for a client and how having a common language for
+describing a refactoring helps to keep individual chunks of work (for
+example in pull requests) self-contained. {by chris-lowis}
 
 :name: week-440-links
 :updated_at: 2017-06-19 14:23:29.631952000 +01:00
