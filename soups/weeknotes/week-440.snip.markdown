@@ -3,7 +3,7 @@ Week 440
 
 We spent the first two days of this week based out of our usual
 co-working space near the British Museum. On Wednesday James took a
-few days off to visit the Isle of White while Chris R headed to France
+few days off to visit the Isle of Wight while Chris R headed to France
 for the [Mont-Blanc 80k](http://www.montblancmarathon.net/en/home)
 run. I held the fort for the second half of the week.
 
