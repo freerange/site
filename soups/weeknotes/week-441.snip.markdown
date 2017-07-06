@@ -37,7 +37,7 @@ Chris finished converting the [Model governing document][coops-uk-model-governin
 
 We met the ever energetic [Tom Hall][tom-hall] for a drink on Tuesday. We had a good evening chatting about work, coops and CoTech.
 
-James and I hosted our monthly drinks at the [Temple Brew House][temple-brew-house] on Wednesday. It wasn't too busy and they had a huge selection of delicious beers. We were even joined by GFR alumni [Tom W][tom-ward]!
+James and I hosted our monthly drinks at the [Temple Brew House][temple-brew-house] on Wednesday. It wasn't too busy and they had a huge selection of delicious beers. We were even joined by GFR alumnus [Tom W][tom-ward]!
 
 That's all for now. Until next time, folks.
 
