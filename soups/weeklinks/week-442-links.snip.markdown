@@ -21,6 +21,9 @@ I was fascinated to see this pull request by [Matthew Somerville][] in which he 
 [Matthew Somerville]: http://dracos.co.uk/
 [child-benefit-tax-calculator]: https://www.gov.uk/child-benefit-tax-calculator
 
+### [Why large technology programmes fail and what to do instead](https://medium.com/@daverog/why-large-technology-programmes-fail-and-what-to-do-instead-5bf8acce09ca)
+
+Dave Rogers and Arif Harbott discuss some of the reasons why large technology projects fail to deliver - particularly in the context of the public sector. The sustained delivery capability the authors advocate is based on an alternative way of running public sector technology projects pioneered at places like our current client GDS and the Ministry of Justice where Dave is the CTO. {by chris-lowis}
 
 ### [Cooling the tube – Engineering heat out of the Underground](https://www.ianvisits.co.uk/blog/2017/06/10/cooling-the-tube-engineering-heat-out-of-the-underground/)
 
@@ -31,13 +34,15 @@ This is a brilliantly detailed look at why it's so hard to keep the London Under
 
 A new train journey planning website helping make sense of the ridiculously complicated UK rail network ticket pricing. {by james-mead}
 
+## [Introduction to parser combinators](https://blog.jcoglan.com/2017/07/06/introduction-to-parser-combinators/)
+
+James Coglan has prepared this article to as pre-reading for next week's [London Computation Club](http://london.computation.club/) meeting on parsers. It's a fantastic overview of how to build increasingly capable systems by combining simple functional pieces. {by chris-lowis}
 
 ### [How to Create a MOOC in 28 Days](https://www.indiehackers.com/@sknthla/how-to-create-a-mooc-in-28-days)
 
 We've occasionally talked about writing on-line courses to generate an alternative revenue stream, so I was interested to read this article about creating a MOOC on the [teachable platform][]. {by james-mead}
 
 [teachable platform]: https://teachable.com/
-
 
 :name: week-442-links
 :updated_at: 2017-07-07 08:14:18.296411000 +01:00
