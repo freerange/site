@@ -48,6 +48,11 @@ We've occasionally talked about writing on-line courses to generate an alternati
 
 [teachable platform]: https://teachable.com/
 
+
+### [Monzo's 2017 Annual Report](https://monzo.com/annual-report/2017/)
+
+I really appreciate that [Monzo's transparency](https://monzo.com/transparency/) allows them to be so open with their annual accounts and reports. {by chris-roos}
+
 :name: week-442-links
 :updated_at: 2017-07-07 08:14:18.296411000 +01:00
 :created_at: 2017-07-07 08:14:18.296393000 +01:00
