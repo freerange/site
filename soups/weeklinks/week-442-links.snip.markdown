@@ -37,7 +37,7 @@ This is a brilliantly detailed look at why it's so hard to keep the London Under
 A new train journey planning website helping make sense of the ridiculously complicated UK rail network ticket pricing. {by james-mead}
 
 
-## [Introduction to parser combinators](https://blog.jcoglan.com/2017/07/06/introduction-to-parser-combinators/)
+### [Introduction to parser combinators](https://blog.jcoglan.com/2017/07/06/introduction-to-parser-combinators/)
 
 James Coglan has prepared this article to as pre-reading for next week's [London Computation Club](http://london.computation.club/) meeting on parsers. It's a fantastic overview of how to build increasingly capable systems by combining simple functional pieces. {by chris-lowis}
 
