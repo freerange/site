@@ -29,7 +29,7 @@ I spent Friday reviewing a pull request in [Smart Answers][smart-answers]. The i
 
 ## Becoming a coop
 
-Chris finished converting the [Model governing document][coops-uk-model-governing-document] for a [Worker Co-operative Company Limited by Shares][coops-uk-worker-coop] from a PDF to Markdown and has [made them available on GitHub][github-coop-model-docs]. The hope is that modifying a text version of the document will help us demonstrate how we differ from the model documents.
+Chris finished converting the [Model governing document][coops-uk-model-governing-document] for a [Worker Co-operative Company Limited by Shares][coops-uk-worker-coop] from a PDF to HTML and has [made them available on GitHub][github-coop-model-docs]. The hope is that we can track the changes we make to the model document if we decide to adopt them ourselves.
 
 ---
 
