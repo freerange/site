@@ -62,11 +62,10 @@ That's all for now. Until next time, folks.
 [tom-ward]: https://twitter.com/tomafro
 
 :name: week-441
-:updated_at: 2017-07-04 09:23:10.602955000 +01:00
-:created_at: 2017-07-04 09:23:10.602940000 +01:00
+:updated_at: 2017-07-11 13:37:33.089624000 +01:00
+:created_at: 2017-07-11 13:37:33.089615000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
