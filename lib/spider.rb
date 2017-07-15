@@ -156,7 +156,9 @@ class Spider
       end
       artefact_path = artefact_path(path)
       FileUtils.mkdir_p(File.dirname(artefact_path))
-      File.write(artefact_path, response.body)
+      File.open(artefact_path, 'wb') do |f|
+        f.write(response.body)
+      end
       response
     end
   end
