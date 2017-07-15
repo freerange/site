@@ -26,7 +26,7 @@ GEM
     haml (4.0.7)
       tilt
     highline (1.6.21)
-    kramdown (1.11.1)
+    kramdown (1.14.0)
     libxml-ruby (2.9.0)
     mini_portile2 (2.1.0)
     multi_json (1.10.1)
