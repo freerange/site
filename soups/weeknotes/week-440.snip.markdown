@@ -39,7 +39,7 @@ and organising some of our upcoming events. I also spent a little bit
 of time playing with [hledger](http://hledger.org/)
 a [plaintext accounting](http://plaintextaccounting.org/) tool. I'm
 interested to see if we can convert our transaction history
-from [FreeAgent](freeagent.com) into
+from [FreeAgent](http://freeagent.com) into
 the
 [ledger format](http://hledger.org/step-by-step.html#basic-data-entry-reporting) and
 in doing so take advantage of some of
