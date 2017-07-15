@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 283 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Monday 23rd June, 2014</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-283">Week 283</h1>
+          <p>This was the first week in a few months when we haven’t had any client work scheduled. Inevitably we spent much of the time catching up with company administrivia and reflecting on how things have been going, but there were also a few events worthy of note…</p>
+          <h2 id="london-xp-meetup">London XP Meetup</h2>
+          <p>On Monday night I went along to my first <a href="http://www.meetup.com/Extreme-Programmers-London/">XP London</a> meetup, themed <a href="http://www.meetup.com/Extreme-Programmers-London/events/174870232/">Reflections on TDD</a>, in the very agreeable <a href="http://www.unrulymedia.com/">Unruly Media</a> “clubhouse” near Brick Lane. I’ve been meaning to go along to this meet-up since it was started earlier in the year, but it keeps clashing with the excellent <a href="http://lanyrd.com/series/little-schemer-book-club/">Little Schemer Book Club</a>.</p>
+          <h3 id="promises">Promises</h3>
+          <p>The first talk was by <a href="https://twitter.com/timpickles">Tim Pickles</a> on <a href="http://en.wikipedia.org/wiki/Futures_and_promises">promises</a> in JavaScript with a focus on how to test them. Tim’s examples made use of the <a href="http://en.wikipedia.org/wiki/Futures_and_promises">Q.js</a> promise library with tests written using <a href="http://visionmedia.github.io/mocha/">Mocha</a>, <a href="http://chaijs.com/">Chai</a> and <a href="http://sinonjs.org/">Sinon</a>.</p>
+          <p>I’ve been aware of promises for some time, mainly courtesy of jQuery’s <a href="http://api.jquery.com/category/deferred-object/">Deferred Object</a> mechanism, but it was interesting to see some more sophisticated use cases.</p>
+          <h3 id="tdd-with-mocks">TDD with Mocks</h3>
+          <p><a href="http://www.natpryce.com/">Nat Pryce</a> followed up with a talk: “Are mock objects the work of the devil?”. This talk was somewhat in response to the <a href="http://martinfowler.com/articles/is-tdd-dead/">Is TDD Dead?</a> brouhaha. I’ve probably forgotten some of the salient points, but here’s what I remember:</p>
+          <p>Nat recommended an addition to the usual red-green-refactor TDD workflow diagram - jump straight to the refactoring step if it’s hard to write a useful failing test.</p>
+          <p><a href="http://martinfowler.com">Martin Fowler</a> divides TDD practitioners into <a href="http://martinfowler.com/articles/mocksArentStubs.html#ClassicalAndMockistTesting">Mockists and Classicists</a> and <a href="http://www.exampler.com/">Brian Marick</a> further divides mockists into “London school” versus “Detroit school”. Nat suggested that these divisions are not helpful in that they can encourage developers down the undesirable path of <a href="http://www.mockobjects.com/2007/04/test-smell-everything-is-mocked.html">mocking everything</a>.</p>
+          <p>Nat also explained how testing with mock objects is only really appropriate for a “Tell, Don’t Ask” style of object-oriented development - many people who run into problems with mocks are essentially “writing <a href="http://en.wikipedia.org/wiki/COBOL">COBOL</a>” in Java/Ruby/etc and their design is a mixture of CRAPs <sup id="fnref:1"><a class="footnote" href="#fn:1">1</a></sup> and NOJOs <sup id="fnref:2"><a class="footnote" href="#fn:2">2</a></sup> .</p>
+          <p>When using the “Tell, Don’t Ask” style it’s important to find simple and stable protocols i.e. have your classes talk to each other over non-implementation-specific, domain-specific interfaces. Also the behaviour of the system should <em>emerge</em> based on how you “wire up” your classes.</p>
+          <p>I enjoyed hearing this calm and measured counterpoint to the much trumpeted discussions between Kent Beck, Martin Fowler and DHH.</p>
+          <h2 id="linode-vps">Linode VPS</h2>
+          <p>We currently host our <a href="/">website</a> and a few other bits and pieces on a <a href="https://www.linode.com/">Linode</a> VPS. This VPS has been showing it’s age <sup id="fnref:3"><a class="footnote" href="#fn:3">3</a></sup> for a while now, mainly because it hasn’t had much love over the years - in particular I recently ran into some annoying problems trying to deploy a simple Rack application.</p>
+          <p>So <a href="/chris-roos">Chris</a> has been valiantly trying to create a new Linode VPS to replace the current one. It all went pretty smoothly until he ran into a couple of problems with <a href="http://www.ubuntu.com/">Ubuntu</a>, <a href="https://www.phusionpassenger.com/">Phusion Passenger</a>, environment variables, encoding and <a href="https://github.com/lazyatom/vanilla-rb">vanilla.rb</a>. He’s written some of this up in these two GitHub issues in case anyone’s interested:</p>
+          <ul>
+            <li>
+              <a href="https://github.com/lazyatom/vanilla-rb/issues/5">“malformed snip inclusion” error when encoding is not UTF-8</a>
+            </li>
+            <li>
+              <a href="https://github.com/phusion/passenger/pull/1216">Document the use of .profile instead of .bashrc</a>
+            </li>
+          </ul>
+          <p>Chris has been meticulously documenting the configuration of the new VPS in his inimitable style, so I’m confident we’re going to be in a much better state once he’s finished.</p>
+          <h2 id="in-other-news">In Other News</h2>
+          <p>Having taken delivery of a Mac Mini <a href="/week-282">last week</a>, Chris made further improvements to our audio-visual set-up by having a bloke from <a href="http://www.greenworkforce.co.uk/">Green Workforce</a> come in and put up a <a href="http://www.amazon.co.uk/gp/product/B006G0UF8A/">shelf for the projector</a>. This meant we could remove the table it had been sitting on and freed up a load of extra space in our “cinema zone”. I think it’s a great improvement! Good work, Chris.</p>
+          <p>On Thursday we met up with <a href="http://pivotallabs.com/author/jb/">JB Steadman</a> & <a href="http://pivotallabs.com/author/cstott/">Callum Stott</a> of <a href="http://pivotallabs.com/">Pivotal Labs</a> for lunch at the <a href="http://www.oldfountain.co.uk/">Old Fountain</a>. It was good to exchange notes about how Pivotal and Free Range work with clients; I think we share a lot of the same ideals about how a successful “agile” process should work.</p>
+          <p><a href="http://codon.com/">Tom Stuart</a> was away at <a href="http://rulu.eu/">RuLu</a> for the latter half of the week, but we were pleased to welcome a couple of guest to GFRHQ to make up for his absence - <a href="http://chrislowis.co.uk">Chris Lowis</a> joined us on Thursday and <a href="http://jasoncale.com/">Jason Cale</a> on Friday.</p>
+          <p>We spent a slightly indulgent, but very enjoyable Friday afternoon shooting the breeze with Jase at the <a href="http://www.strongroombar.com/">Strongroom Bar</a> accompanied by sunshine and beer. Jase mentioned he’d recently been reading back through some of his GFR week notes, so I thought I do the same - some of <a href="/week-148">them</a> <em>were</em> <a href="/week-151">pretty epic</a>!</p>
+          <p>It was great to catch up with Jase and we hope to see him again soon.</p>
+          <p>Anyway, that’s yer lot.</p>
+          <p>– James</p>
+          <div class="footnotes">
+            <ol>
+              <li id="fn:1">
+                <p>Class that’s Really A Procedure&nbsp;<a class="reversefootnote" href="#fnref:1">↩</a></p>
+              </li>
+              <li id="fn:2">
+                <p>Plain Old Java Object with No behaviour&nbsp;<a class="reversefootnote" href="#fnref:2">↩</a></p>
+              </li>
+              <li id="fn:3">
+                <p>4+ years&nbsp;<a class="reversefootnote" href="#fnref:3">↩</a></p>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

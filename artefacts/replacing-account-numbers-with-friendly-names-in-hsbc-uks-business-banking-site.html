@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Replacing account numbers with friendly names in HSBC UK's business banking site — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 07th February, 2014</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="replacing-account-numbers-with-friendly-names-in-hsbc-uks-business-banking-site">Replacing account numbers with friendly names in HSBC UK’s business banking site</h1>
+          <p>We’ve recently opened a second HSBC Business Money Manager account in order to maintain separate pots of money for different liabilities that we want to track. Unfortunately, this has left us with two (well, three really) very similar looking accounts in the banking interface.</p>
+          <p><img alt="Screenshot showing HSBC business banking with account numbers" src="/images/blog/hsbc-with-unfriendly-account-numbers.png"></p>
+          <p>I don’t think we had an opportunity to choose the name of the account, and I can’t find any functionality to rename it now, so resorted to playing with JavaScript to get what I was after. The result is that we can now display friendly account names making it easy to choose which account to select at a glance.</p>
+          <p><img alt="Screenshot showing HSBC business banking with friendly account names" src="/images/blog/hsbc-with-friendly-account-names.png"></p>
+          <p>This might seem a bit gimmicky but I think it’s good to remember that the web offers us this ability to customise our experience of the sites we interact with.</p>
+          <h2 id="to-play-along-at-home-assuming-youre-using-chrome">To play along at home (assuming you’re using Chrome):</h2>
+          <ul>
+            <li>Take a copy of the <a href="https://gist.github.com/chrisroos/8862244">user script</a>
+            </li>
+            <li>Replace the account numbers and names</li>
+            <li>Open the <a href="chrome://extensions/">Chrome extensions page</a>
+            </li>
+            <li>Drag the user script from your computer on to the extensions page</li>
+            <li>Visit HSBC banking and you should (hopefully) see that your account numbers have been replaced by the friendly names.</li>
+          </ul>
+          <h2 id="future-ideas">Future ideas</h2>
+          <p>This is very much a toy project but I can already see some things that we could do if we found it useful.</p>
+          <ul>
+            <li>Turn the user script into a full blown browser extension.</li>
+            <li>Store the account numbers to names mapping in user preferences somewhere. I’m not sure this is possible with a user script but it certainly would be if it was an extension.</li>
+            <li>Load the account numbers to names mapping from somewhere external. This would make it easier for multiple people to share the same mappings.</li>
+            <li>Build on this tiny project to really customise HSBC so that it becomes much better at doing the things we need.</li>
+          </ul>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

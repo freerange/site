@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Show and Tell 29 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/show-and-tell-events' title='Go to Show and Tell index'>Show and Tell index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Thursday 02nd March, 2017</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="show-and-tell-29">Show and Tell 29</h1>
+          <ul>
+            <li>When: Wed 08 Feb 2017</li>
+            <li>Where: Forge and Co, 154-158 Shoreditch High St, London E1 6HU</li>
+            <li>Links: <a href="https://attending.io/events/gfr-show-and-tell-29/">attending.io</a>
+            </li>
+          </ul>
+          <p><a href="/chris-roos">Chris R</a> and I were joined by <a href="http://amyeee.com/">Amy</a>, <a href="https://twitter.com/beng">Ben</a>, <a href="https://www.doc.ic.ac.uk/~rbc/">Rob C</a>, <a href="https://github.com/robd">Rob D</a> and <a href="https://github.com/bru">Riccardo</a> for our 29th Show & Tell.</p>
+          <h2 id="rob-c---test-driving-performance">Rob C - Test-driving performance</h2>
+          <p><img alt="Rob Chatley talking about test-drivign performance of software" src="/images/blog/2017-02-08-show-and-tell-29-rob-chatley.jpg"></p>
+          <p><a href="/show-and-tell-27#rob-c---performance-testing-with-mocks">Rob talked us through this idea</a> a couple of months ago. This time he had some code to show us. One of his students had modified jMock to make it possible to describe the performance characteristics of each mocked method, e.g. by chaining <code>responseTime(uniform(100, 200))</code> on the end of the expectation one can specify that the mocked method should take a random amount of time between 100ms and 200ms with the response times distributed uniformly within this range.</p>
+          <p>When the test is run, the mocked methods add the relevant response time to a per-test virtual clock so that at the end of a test the response time of the method-under-test is known. Each test is run multiple times to capture a representative sample of response times for the method-under-test.</p>
+          <p>Assertions can then be added to check the performance of the method-under-test fulfils the requirements, e.g. <code>assertThat(percentile(80, context.runtimes(), is(lessThan(250.0))))</code> which ensures that for 80% of the time the response time of the method-under-test is under 250ms.</p>
+          <p>If one of these assertions fails, it might be hard to work out what was wrong. Rob thinks it would be good to display a graph of the response times if an assertion fails to give the developer as much information as possible to diagnose the problem.</p>
+          <p>Rob has some ideas for modelling asynchronous requests being queued up, i.e. the interaction between multiple requests. He’s also interested in instrumenting production code and plugging real data distributions into the performance characteristics of a mocked method.</p>
+          <p>Ben mentioned that he has a problem with an application which is creating a lot of database connections. It takes a long time to create each connection and so this is slowing the application down. Ben thinks it would make sense to introduce a connection pool so the connections can be re-used, but he said it would be nice to be able to model various solutions and compare their relative performance.</p>
+          <h2 id="james---raspberry-pi-monitoring">James - Raspberry Pi monitoring</h2>
+          <p><img alt="James talking about analysing a temperature log" src="/images/blog/2017-02-08-show-and-tell-29-james-rpi-monitoring.jpg"></p>
+          <p>I gave a quick update on the kit <a href="/show-and-tell-27#james-m---raspberry-pi-monitoring">I mentioned a couple of months back</a> to monitor a vacant property. I’ve improved the dynamic DNS situation by changing providers - I’m now using changeip.org which seems to be a lot more reliable. I’ve also re-visited the property and opened up SSH access on the Raspberry Pi so I can now fix things if they go wrong.</p>
+          <p>I showed some primitive analysis of the temperature data which I’d done in Google Spreadsheets to convince myself that the central heating was working. The central heating is on a simple time-switch (no room thermostat) and it was encouraging to see that the temperature showed an upward gradient in the periods when it’s supposed to be on and a negative gradient in the other periods. Therefore the heating is working. QED!</p>
+          <p>During some cold weather, I was able to use the data to make the decision to visit the property and increase the length of time the heating is switched on; James, the human thermostat!</p>
+          <p>I found some CSV data available online for the the local outside temperature and thought it would be interesting to try to model the thermodynamic characteristics of the house. I got as far as looking at this <a href="http://nicola.qeng-ho.org/housemodel/interactive.php">Simple Home Heating Model</a> before running out of enthusiasm.</p>
+          <h2 id="james---3-port-central-heating-valve">James - 3-port central heating valve</h2>
+          <p><img alt="James talking about the 3-port central heating valve" src="/images/blog/2017-02-08-show-and-tell-29-james-3-port-valve.jpg"></p>
+          <p>I waxed lyrical about <a href="http://www.diyfaq.org.uk/plumbing/controls/midpositionvalve.htm">this amazing bit of engineering</a> which is used in many small houses across the country. I really like how the combination of a simple mechanical and electrical design provides some quite sophisticated emergent behaviour. If you’re interested in learning more and you can bear the narrator’s monotonous voice, <a href="https://www.youtube.com/watch?v=F5m8f6HN2Us">this video</a> is quite good.</p>
+          <h2 id="james---gfr-website-conversion">James - GFR website conversion</h2>
+          <p>I think I also talked briefly about how we’re considering converting <a href="https://github.com/freerange/site/">our company website</a> from using <a href="https://github.com/lazyatom/vanilla-rb">vanilla.rb</a>, a Ruby port of <a href="http://www.vanillasite.at/space/about">vanilla</a>, to <a href="http://rubyonrails.org/">Rails</a>. While we like many aspects of vanilla.rb, it feels as if things like routing, layouts, partial templates, etc, sometimes work in unexpected ways. This is exacerbated by some slightly odd customisations which we’ve added to our website app over the years.</p>
+          <p>We’ve considered a few options, but we’re leaning towards converting it into a database-less Rails app. Part of the thinking is that Rails is our bread and butter and so we ought to be very familiar with it. We did consider moving to a generated static app, but it felt as if this would be a bigger change and might restrict what we can do with the site in the future.</p>
+          <p>It was reassuring to hear that people didn’t seem to think it was a completely crazy idea!</p>
+          <h2 id="amy---micro-licensing-music-for-sync">Amy - micro-licensing music for sync</h2>
+          <p><img alt="Amy talking about micro-licensing music for sync" src="/images/blog/2017-02-08-show-and-tell-29-amy.jpg"></p>
+          <p><a href="http://hookline.tv/">Hookline</a> have a catalogue of music by independent artists which they license for <a href="https://en.wikipedia.org/wiki/Synchronization_rights">Sync</a>. They’re always looking for new ways to bring in revenue for their artists and they’re currently investigating micro-licensing shorter edits of their artists’ tracks for use on e.g. Youtube. It would be a bit like a high-quality stock image library, but for music. Part of the thinking is to bring in a steadier revenue stream, because while Sync deals for TV and advertising can be lucrative, they are also more unpredictable.</p>
+          <p>Amy was interested in feedback on the idea and on the best way to prototype it on their website. People came up with some suggestions for target markets in the micro-licensing space. And the consensus was to prototype the idea with a simple static page making use of something like the Stripe or Paypal javascript widget.</p>
+          <h2 id="riccardo---amazon-echo--alexa">Riccardo - Amazon Echo & Alexa</h2>
+          <p><img alt="Riccardo talking about Amazon Echo &amp; Alexa" src="/images/blog/2017-02-08-show-and-tell-29-riccardo.jpg"></p>
+          <p>Riccardo explained that the <a href="https://developer.amazon.com/echo">Echo</a> is essentially a big speaker with a microphone, all connected to the internet. It uses the <a href="https://developer.amazon.com/alexa-voice-service">Alexa Voice Service</a> to respond to your questions and commands, e.g. buy an item from Amazon. He went on to explain that this functionality is provided by a set of built-in “skills”, but it’s possible to <a href="https://developer.amazon.com/alexa-skills-kit">build your own custom skills</a> and there’s even a <a href="https://www.amazon.com/b?ie=UTF8&amp;node=13727921011">marketplace</a> where you can buy or sell skills.</p>
+          <p>He then demonstrated how to use the <a href="https://developer.amazon.com/edw/home.html#/skills">Alexa developer console</a> to create a simple new skill invoked by saying “Alexa: Open ‘Hello World’” and responding by saying “Hello World”. As I understood it, first you have to set up some “intents” which describe what phrases trigger your skill and then you define an <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> function to perform the desired operation. Even though he didn’t have an Echo device, he was able to use a simulator to test the new skill.</p>
+          <p>Riccardo mentioned that someone has built an interactive story called <a href="https://www.themagicdoor.org/">The Magic Door</a>. He’s interested in building a <a href="https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure">Choose Your Own Adventure</a> game and he’s hoping to write his Lambda functions in <a href="https://clojurescript.org/">ClojureScript</a>. He recommended using the <a href="https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs">Alexa Skills Kit SDK for Node.js</a>. Apparently a session gets passed to the Alexa Lambda functions so it’s possible to store state between invocations of multiple skills.</p>
+          <p>I suggested that if he had microphones all around the house, he could have an adventure game where you have to physically move around the house. Riccardo said that you can federate multiple microphones, so this might well be possible. Ben suggested Riccardo might be able to use <a href="https://en.wikipedia.org/wiki/Z-machine">Infocom’s Z-machine</a>, a virtual machine designed for building text adventures, or <a href="https://iplayif.com/">parchment.js</a>, an interpreter for interactive fiction.</p>
+          <p>Finally, Ben then amused us all by telling us about the <a href="https://www.youtube.com/watch?v=oI2KLIULjXc">Alexa dolls’ house fiasco</a> in which a TV news story caused lots of Echo units to order a dolls’ house.</p>
+          <h2 id="ben---board-games">Ben - Board games</h2>
+          <p><img alt="Ben talking about card &amp; board games" src="/images/blog/2017-02-08-show-and-tell-29-ben.jpg"></p>
+          <p>Ben has been playing lots of card and board games with his kids recently. He’s discoverd a couple of things which make this a lot easier:</p>
+          <ul>
+            <li>
+              <a href="https://www.funlearning.co.uk/little-hands-card-holder">Little Hands card holder</a>
+            </li>
+            <li>
+              <a href="http://makezine.com/2016/11/19/building-your-own-dice-tower/">Build your own dice tower</a>
+            </li>
+          </ul>
+          <p>He also showed us a bunch of games which he likes:</p>
+          <ul>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/938/enchanted-forest">Enchanted Forest</a> - cruel memory game - easy for kids, hard for adults
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/125921/catan-junior">Catan Junior</a> - dress up as a pirate
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/41010/my-first-carcassonne">My First Carcassonne</a> - don’t need to be able to read
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/191004/my-first-stone-age">My First Stone Age</a> - for similar reasons
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/146312/ghost-fightin-treasure-hunters">Ghost Fightin’ Treasure Hunters</a> (aka Geister Geister) - cooperative game - all working together to defeat game mechanic - good for kids who think they always lose when they play on their own
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/22864/zeus-loose">Zeus on the Loose</a> - maths game
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/geeksearch.php?action=search&amp;objecttype=boardgame&amp;q=Dungeons%20%26%20Dragons">Dungeons & Dragons board games</a> - ham them up - big monsters - need to be able to read - wander around dungeons
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/160610/thunderbirds">Thunderbirds</a> - excellent: best board game designer in the world - expansion packs make it better
+            </li>
+            <li>
+              <a href="https://boardgamegeek.com/boardgame/199042/harry-potter-hogwarts-battle">Harry Potter: Hogwarts Battle</a> - <a href="https://en.wikipedia.org/wiki/Deck-building_game">deck-builder game</a> - 7 games - 1 per book - each one gets harder to win
+            </li>
+          </ul>
+          <h2 id="show--tell-30">Show & Tell 30</h2>
+          <p>Please <a href="/contact">get in touch</a> if you’re interested in joining us for the next Show & Tell on Wednesday, 8th March 2017 - it’ll be fun!</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='show-and-tell_list' reversed="">
+            <li value="6">
+              <a href="/show-and-tell-33">Show and Tell 33</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-32">Show and Tell 32</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-31">Show and Tell 31</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-30">Show and Tell 30</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-29">Show and Tell 29</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-28">Show and Tell 28</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

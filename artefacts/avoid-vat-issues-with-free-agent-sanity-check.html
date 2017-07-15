@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Avoiding VAT issues with FreeAgent Sanity Check — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Monday 28th January, 2013</p>
+        <div class='author'>
+          <img alt='James Adam' src='images/people/james-adam.jpg'> <span>by James Adam</span>
+        </div>
+        <div class='content'>
+          <h1 id="avoiding-vat-issues-with-freeagent-sanity-check">Avoiding VAT issues with FreeAgent Sanity Check</h1>
+          <p><em>UPDATE: The FreeAgent Sanity Check app is now deprecated. We now use the <a href="/chrome-extension-for-explaining-bank-transactions-in-freeagent">FreeAgent Transaction Explainer Chrome extension</a> to achieve something similar.</em></p>
+          <p>While our main focus at <a href="/">Go Free Range</a> is building software, we’re also running a company and that comes with its own set of chores and obligations. Wherever possible, we like to build simple tools to make sure that managing those obligations is as painless as possible. I’d like to outline one simple tool here – the <a href="https://github.com/freerange/free_agent_sanity_check">FreeAgent Sanity Check</a>.</p>
+          <h2 id="vatspun-vat"><em>Vat</em>’s<sup id="fnref:pun"><a class="footnote" href="#fn:pun">1</a></sup> “VAT”?</h2>
+          <p>To help manage the accounting aspect of our business, we use <a href="http://fre.ag/3276i4uh">FreeAgent</a> (along with <a href="https://harmonia.io">Harmonia</a>, as <a href="http://harmonia.io/blog/using-harmonia-with-freeagent">outlined on the Harmonia blog</a>). Amongst the many things that FreeAgent helps us with are our VAT<sup id="fnref:vat"><a class="footnote" href="#fn:vat">2</a></sup> accounts. Because <a href="/">Go Free Range</a> is a VAT-registered business, we have to charge VAT on services and products that we sell, and then once a quarter we pay that tax forward to the UK Government, along with reclaiming any VAT that we’ve paid on services and products that we’ve purchased.</p>
+          <p>If that sounds like a lot of jumping through hoops then you’ve probably grasped the idea. We’re really glad that FreeAgent gives us a helping hand to ensure that we’re paying (or indeed reclaiming) the right amount.</p>
+          <h2 id="its-not-vatlol-simple">It’s not <em>vat<sup id="fnref:lol"><a class="footnote" href="#fn:lol">3</a></sup></em> simple</h2>
+          <p>Unfortunately there’s one little wrinkle that’s very likely to cause a problem, and that’s buying anything from outside Europe.</p>
+          <p>If you’re reading this blog it’s quite likely that you’re paying for some subscription services from US companies like <a href="https://github.com">Github</a>, or <a href="http://37signals.com">37 Signals</a>. Because these companies are based in the USA, they don’t charge VAT. However, when importing transactions, the default setting in FreeAgent is to automatically determine the amount of VAT present:</p>
+          <p><img alt="FreeAgent automatically determining the VAT for a transaction" src="/images/blog/free-agent-explaining-vat-transaction.png" width="100%"></p>
+          <p>This will mean that our accounts include some VAT – 20% of £7.69 in this case – that we never actually paid:</p>
+          <p><img alt="VAT for a transaction that shouldn't exist" src="/images/blog/free-agent-us-transaction-with-vat.png" width="100%"></p>
+          <p>If we leave this unremedied, we’ll attempt to reclaim £1.54 that we’re not due in our next VAT return filing, and this is, alas, illegal. We’re too pretty to last any amount of time in the <a href="http://www.urbandictionary.com/define.php?term=the%20big%20house">Big House</a>!</p>
+          <h2 id="so-vatssorry-the-solution">So <em>vat’s<sup id="fnref:sorry"><a class="footnote" href="#fn:sorry">4</a></sup></em> the solution?</h2>
+          <p>Thankfully, there’s a clue in the raw text from the bank statement that will let us automatically check whether or not a transaction is likely to be VAT-exempt. Take a closer look at the cryptic text from our bank statement:</p>
+          <pre><code>37SIGNALS-CHARGE.COM 3122390165 IL 12.00 USD @ 1.5604//OTHER/£7.69
+</code></pre>
+          <p>The eagle-eyed reader will have spotted the string <code>USD</code>. This appears in all the transactions from our bank which occured using a different currency ($12 USD, in this case), and we can make use of it to ensure that these transactions are correctly explained.</p>
+          <p>Stalwart solver-of-problems <a href="/james-mead">James M</a> took this observation, along with the <a href="https://dev.freeagent.com/">FreeAgent API</a> (and a <a href="https://github.com/freerange/free_agent">small wrapper that we wrote</a>) to write a simple script, which <a href="/chris-roos">Chris</a> then massaged into very simple application that we call <em><a href="https://github.com/freerange/free_agent_sanity_check">FreeAgent Sanity Check</a></em>.</p>
+          <p>Three times a day, this application looks at our FreeAgent bank data for any transactions that have <code>USD</code> in their raw text, but also have VAT applied. If any are found, then we are warned via an email that we need to take another look at the explanations for those transactions.</p>
+          <p>If you’ve ever spent any time trying to get to grips with the accounting side of running a business, you’ll know how stressful it can be when you realise that you’ve made a mistake. I can happily report that since we kicked-off the <em>FreeAgent Sanity Check</em> application, dealing with our VAT returns has been far less stressful.</p>
+          <p>One of the best things about <a href="http://fre.ag/3276i4uh">FreeAgent</a> is that you can build software using their <a href="https://dev.freeagent.com/">API</a> to help run your business more smoothly and efficiently. It’s something we really believe in, and really value.</p>
+          <p>At the moment, the <em>FreeAgent Sanity Check</em> is fairly customised to our company (you can see our group email hard-coded in the source, for example), but if there’s any interest it could very easily be made more generic. Let us know in the comments if you’d like to run your own instance to keep your own VAT situation as stress-free as possible.</p>
+          <div class="footnotes">
+            <ol>
+              <li id="fn:pun">
+                <p>It will help you tolerate this pronunciation-based pun if you say these instances of “<em>vat</em>” as if you were Dracula. A part of me wants to apologise for such terrible humour, but I won’t. It will be for the best if get used to it sooner rather than later.&nbsp;<a class="reversefootnote" href="#fnref:pun">↩</a></p>
+              </li>
+              <li id="fn:vat">
+                <p>VAT stands for <em>Value-Added Tax</em>, in case you’re not au fait with European tax conventions.&nbsp;<a class="reversefootnote" href="#fnref:vat">↩</a></p>
+              </li>
+              <li id="fn:lol">
+                <p><em>Ahahahahah!</em> So funny.&nbsp;<a class="reversefootnote" href="#fnref:lol">↩</a></p>
+              </li>
+              <li id="fn:sorry">
+                <p>OK, yes, I will apologise for the joke. It’s terrible. I am sorry. (But apparently not sorry enough to remove it.)&nbsp;<a class="reversefootnote" href="#fnref:sorry">↩</a></p>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

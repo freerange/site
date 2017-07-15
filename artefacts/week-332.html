@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 332 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 05th June, 2015</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-332">Week 332</h1>
+          <p>Howdi, folks.</p>
+          <p>Week 332 was shorter than normal due to the bank holiday on Monday. We spent three days working on Smart Answers and Friday catching up on GFR business.</p>
+          <h2 id="smart-answers">Smart Answers</h2>
+          <p>We’re continuing to add regression tests and have started switching a number of smart answers to use ERB templates. Having switched three Smart Answers to use ERB templates we realised that it’s probably more important to get all the regression tests in place first. Having all the regression tests in place will give us confidence to update individual Smart Answers (e.g. switch from YAML to ERB) and to change some of the underlying code that may affect all Smart Answers. The continued addition of regression tests mean that the repository is now 85% html!</p>
+          <p>We spent some time investigating improvements to the performance of the regression tests. We’re currently running these tests as part of the main test suite and each additional Smart Answer that we add tests for increases the time of the build. We investigated running the tests in parallel before switching our efforts toward <a href="https://github.com/alphagov/smart-answers/pull/1667">only running the tests for a Smart Answer when that Smart Answer’s source files had changed</a>. We do that by recording a hash of the contents of the files that are required by each Smart Answer. If the file contents change then the hash will no longer match and we know that we need to run the regression tests. Having tests that don’t run all the time feels a little strange but I think it’s probably a good compromise in this instance. Especially as we’re hoping to remove these regression tests as soon as they’ve served their purpose.</p>
+          <p>I was forced to make a change to the way we were storing the rendered outcome HTML after running into a problem with a filename that was too long. We were storing all the generated outcomes in a single directory, with the response information stored in the filename. Take, for example, the following Smart Answer outcome URL: <a href="https://www.gov.uk/student-finance-calculator/y/2014-2015/eu-part-time/3000.0">https://www.gov.uk/student-finance-calculator/y/2014-2015/eu-part-time/3000.0</a>. The rendered outcome was previously stored as “2014-2015-eu-part-time-3000.0.html” and, while that’s not particularly long, you can see how more responses can end up generating very long filenames. To rectify the problem, I’ve now switched to mirror the path structure in the URL so that outcome would be stored at “2014-2015/eu-part-time/3000.0.html” instead.</p>
+          <p>James found, and <a href="https://github.com/alphagov/smart-answers/commit/927286cf17eff431a0ff33fb77e9146107c50447">removed</a>, a whole chunk of code that wasn’t being used. No code is the best type of code :-)</p>
+          <p>James improved the regression tests by <a href="https://github.com/alphagov/smart-answers/commit/70d55fa10fdcda77fcffc76bb59cdc1e581288eb">adding a test that fails if a change to a Smart Answer results in some existing outcomes no longer being reached</a>. While it would’ve been possible to notice this previously (because <code>git</code> would report differences in our output directory) having a test that fails is much better.</p>
+          <h2 id="gfr">GFR</h2>
+          <p><a href="http://po-ru.com/">Paul</a> and <a href="https://twitter.com/beng">Ben</a> joined James and I for our GFR drinks on Wednesday. We’d originally planned a trip to <a href="http://www.remarkablerestaurants.co.uk/remarkable-restaurants-barley.html">The Barley Mow</a> but the beautiful morning gave us reason us to switch to <a href="http://www.saltquay-rotherhithe.co.uk/">The Old Salt Quay</a> and it’s west facing beer garden. Unfortunately, the weather had deteriorated a bit by the time we got there but that didn’t stop us from enjoying some delicious cold beers.</p>
+          <p>The start of our GFR day on Friday was slightly different than planned as <a href="http://codeme.lt/">Tadas</a> reported seeing errors in Smart Answers. We spent a short while investigating before realising that the errors were being caused by an external service and the problem with that was already being investigated by some other folks.</p>
+          <p>We spent about an hour on Friday morning chatting to <a href="http://joshrussell.com/">Josh Russell</a>. We’ve met Josh a couple of times in the past when he worked at GDS. Josh has moved on from GDS and has started to explore opportunities in the credit union space. We were more than happy to chat about <a href="http://gofreerange.com/credit-union">our experiences</a>. Josh has got some great ideas and his enthusiasm rekindled our interest in the whole area. I’m hoping he manages to make some progress and look forward to hearing what he gets up to.</p>
+          <p>The remainder of Friday was spent, as is the norm, catching up on various other GFR related tasks that we didn’t get to during the week.</p>
+          <p>Until next time.</p>
+          <p>– Chris</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

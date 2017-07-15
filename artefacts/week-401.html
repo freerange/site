@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 401 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Monday 26th September, 2016</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-401">Week 401</h1>
+          <p>G’day, folks. I hope you’re all well.</p>
+          <h2 id="hookline">Hookline</h2>
+          <p>We continued to work on the <a href="http://hookline.tv/">Hookline</a> music library this week.</p>
+          <p>I mostly worked on the ability for Hookline clients to view the entire catalogue. This relatively simple feature took quite a while to develop as I allowed myself to get distracted by <a href="https://devcenter.heroku.com/articles/pipelines">Heroku Pipelines</a>. I wanted to be able to demo my work in progress and thought the best way to do that would be to spent a day or two setting up a Pipeline to enable <a href="https://devcenter.heroku.com/articles/github-integration-review-apps">Review Apps</a>… It required me to codify our dependencies in an app.json file, investigate an alternative solution for running migrations on deployment (it would seem that <a href="https://devcenter.heroku.com/articles/release-phase">Release Phase</a> tasks are the recommended way of doing this) and finally enabling Review Apps in the pipeline. I learnt quite a lot by doing this but I’m really not sure it was the best use of time for the project.</p>
+          <p><a href="/james-mead">James</a> continued to work on manipulating <a href="https://en.wikipedia.org/wiki/ID3">ID3</a> data in our MP3 files. He added support for writing artwork to the MP3s and took the opportunity to refactor and improve the code in the process.</p>
+          <p>Amy, Mike and I had a Skype chat on Friday morning. Mike currently administers the Hookline library manually so we wanted to understand how close we are to having something he could use. The feedback was promising and it sounds as though we’re not too far away from them switching to use the app as the canonical source of their library. There are <strong>loads</strong> of improvements we can make but having Hookline use the app will really help prioritise what we work on.</p>
+          <h2 id="govuk-notify">GOV.UK Notify</h2>
+          <p>James and I participated in some <a href="https://www.gov.uk/government/publications/govuk-notify/govuk-notify">GOV.UK Notify</a> user testing at GDS on Wednesday. We agreed that I’d drive and James would observe. I was tasked with integrating Notify into a sample Python app. Despite not knowing much Python, and only a little bit about Notify, it was really quite straight forward. Good job, Notify team!</p>
+          <h2 id="harmonia-and-trello">&nbsp;Harmonia and Trello</h2>
+          <p>James fixed a small bug in the <a href="https://github.com/freerange/webhooks">Webhooks app</a> we use to integrate <a href="https://harmonia.io/">Harmonia</a> and <a href="https://trello.com/">Trello</a>. Task reassignment in Harmonia wasn’t being mirrored in Trello when the Trello card had been moved out of the “To Do” list (e.g. it had been started and moved to the “Doing” list). While not a huge problem (tasks are normally reassigned before they’re started), it was frustrating when it happened and it’s great that it’s now fixed.</p>
+          <h2 id="open-collective-host-for-the-uk">Open Collective host for the UK</h2>
+          <p>James continued to try find out more about what would be involved in us becoming an <a href="https://opencollective.com/">Open Collective</a> host in the UK. We’re interested in trying to understand the potential benefit versus the effort required.</p>
+          <h2 id="virtual-office">Virtual office</h2>
+          <p>We agreed a while back that we should sign up for a service that provides us with an address and scans any mail we receive. Having done some research to compare various services, we agreed to sign up with <a href="https://www.ukpostbox.com/">UK Postbox</a>. Signing up and uploading electronic copies of the various documents they need to verify our identities was all straight forward. The only hiccup was that I’d misunderstood the packages they offer and signed up for something that wasn’t quite right for what we’re after. They were quick to point this out and switch us to a more appropriate service. So far, so good.</p>
+          <p>Until next time.</p>
+          <p>– Chris</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

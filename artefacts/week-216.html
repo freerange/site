@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 216 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Tuesday 12th March, 2013</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-216">Week 216</h1>
+          <p>This week’s notes were delayed by illness. My apologies.</p>
+          <p>This week we’ve tried to make progress on a number of projects. Although this work was mainly aimed at our <a href="/week-210#products-and-services">products & services</a> and <a href="/week-210#total-revenue-target">total revenue</a> goals, for me it was also about rekindling a sense of fun and enjoyment in my work and rediscovering some of my lapsed electronics knowledge.</p>
+          <h3 id="just-boiled">Just boiled</h3>
+          <p>As <a href="/james-adam">James A</a> mentioned <a href="/week-215">last week</a>, I’ve been trying to make a device to remind me that my kettle had boiled. I wanted to keep the electronics as simple and safe as possible and so initially I tried a <a href="http://www.coolcomponents.co.uk/catalog/invasive-current-sensor-p-677.html">split-core current transformer sensor</a>, like the ones used in <a href="http://openenergymonitor.org/">home energy monitoring</a>. However, when I clamped the sensor around the mains cable, I didn’t get any output, and it dawned on me that the magnetic fields induced by the live and neutral conductors were cancelling each other out.</p>
+          <p>When I split the three conductors from the kettle cable and clamped the sensor around the live wire (don’t try this at home!), I was able to get a reading. But the need to split the cable defeated the object of the exercise. I had a quick play with a <a href="http://www.ebay.co.uk/itm/250747838342">non-contact AC voltage detector stick</a>, but as I suspected, voltage is present in the kettle cable even when the kettle has switched itself off - it’s actually the <em>current</em> that I need to sense.</p>
+          <p>I’ve considered trying an <a href="http://www.amazon.co.uk/dp/B003WK62WK">inline plug & socket energy monitor</a>, but I’m wary that these involve closer proximity to mains voltages. I’ve also considered attaching a thermistor to the kettle itself, but this is once again more “invasive” than I would like and is likely to introduce other safety issues. Anyway, it was a fun diversion and allowed me to play with my soldering iron and fire up my <a href="http://www.arduino.cc/">Arduino</a> for the first time.</p>
+          <h3 id="share-registry">Share registry</h3>
+          <p>I’ve also been exploring the possibility of building a web application to manage the shareholdings for a limited company - share issues, transfers & re-organisations, and submitting an annual return (and any other relevant forms) to <a href="http://www.companieshouse.gov.uk/">Companies House</a>.</p>
+          <p>Obviously this isn’t too complex for a company like <a href="/">GFR</a> in its current state and we currently manage our shareholdings internally using a Google spreadsheet. But I’ve been wondering for a while whether there might be a market for a product like this. So far I’ve just been researching the market, but I’d love to hear from you if you think it might be something you’d find useful; or even if you’re already happy with an alternative solution.</p>
+          <h3 id="roosmarks">Roosmarks</h3>
+          <p><a href="/chris-roos">Chris</a> continued work on <a href="https://github.com/chrisroos/roosmarks">Roosmarks</a>. Specifically he’s been building a <a href="https://github.com/chrisroos/roosmarks-chrome-extension">Chrome extension</a> to make it easier to add bookmarks. He ran into some difficulties with <a href="http://www.w3.org/TR/cors/">CORS</a>, XMLHttpRequest and HTTP Basic authentication, which he’s <a href="http://chrisroos.co.uk/blog/2013-03-08-the-behaviour-of-xmlhttprequest-withcredentials-when-used-with-cors">written up</a> in commendable detail. However, I think he now has the basics of his extension up and running.</p>
+          <h3 id="time-lapse">Time-lapse</h3>
+          <p>Chris has also used an <a href="https://play.google.com/store/apps/details?id=com.ui.LapseItPro&amp;hl=en">app</a> on his Android phone to put together a <a href="https://www.youtube.com/watch?feature=player_embedded&amp;v=y2cfh0frmYk">video</a> of a view of the Thames and Canary Wharf. This is a worthy successor to his previous <a href="http://chrisroos.co.uk/blog/2009-01-13-24-hours-of-ramsgate-outer-harbour">Ramsgate harbour</a> masterpiece.</p>
+          <h3 id="photostream">Photostream</h3>
+          <p>James A has been busy. Along with continued work on <a href="https://harmonia.io/">Harmonia</a>, <a href="http://gofreerange.com/printer">Printer</a> and <a href="http://rubymanor.org/4/">Ruby Manor</a>, he’s found time to build a <a href="https://github.com/lazyatom/photostream">tool</a> which makes it easier to access the photos in your <a href="http://www.apple.com/uk/icloud/features/photo-stream.html">iCloud Photostream</a>. Apparently the photos normally end up in a hard-to-navigate nested directory structure. James’ tool detects the arrival of new photos and creates <a href="http://en.wikipedia.org/wiki/Hard_link">hard links</a> to them in a single flat directory.</p>
+          <h3 id="teasmade">Teasmade</h3>
+          <p>James also came up with an iOS app that allows him to very easily start a simple countdown timer when he puts tea on to brew. The idea is that the app will then remind him to go back and take the tea bags out and avoid him <a href="https://twitter.com/lazyatom/status/295895415813988353">feeling stupid</a>. Interestingly, James seemed quite impressed with the latest incarnation of Xcode which he’s found more intuitive for wiring up user interface components.</p>
+          <h3 id="fair-harmonia">Fair Harmonia</h3>
+          <p><a href="/tom-ward">Tom</a> has developed an improved algorithm for assigning tasks in Harmonia. There’s a tricky balance to be struck between complete randomness and the perception of fairness. Although it’s perfectly possible with a completely random algorithm, people don’t like it when they’re picked several times in a row to perform a certain task. Similarly, people don’t like it when they’re picked for several different tasks in a short period.</p>
+          <p>We already had some protection against these scenarios, but Tom has come up with a much more sophisticated solution which we hope will improve matters. These changes are already live, so <a href="https://harmonia.io/register">register now</a> if you want to try it out!</p>
+          <h3 id="back-to-the-future">Back to the future</h3>
+          <p>Tom’s also been experimenting with something akin to the Internet Archive’s <a href="http://web.archive.org">Wayback Machine</a>. He hasn’t published any of his work yet, but I reckon he might well be on to something.</p>
+          <h2 id="introspection">Introspection</h2>
+          <p>There’s been some more team introspection this week. I don’t think we’ve come to too many conclusions, but we have at least identified some important questions:</p>
+          <ul>
+            <li>
+              <p>How much do each of us want GFR to become a product company? Does it matter that some of us want to put more emphasis on this than others? How are we going to get there?</p>
+            </li>
+            <li>
+              <p>What makes a project a GFR project? Do all of us have to think it’s a good idea? Do all of us have to work on it? Is it fair that a project mainly developed by one person is “owned” by GFR?</p>
+            </li>
+            <li>
+              <p>Are we too often under-thinking things and going with our “gut feeling”? Are there dangers in this? Do we sometimes over-think things and would we be better off not worrying so much and just trying stuff?</p>
+            </li>
+          </ul>
+          <p>Answers on a postcard!</p>
+          <p>– James.</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

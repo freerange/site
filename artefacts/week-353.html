@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 353 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 30th October, 2015</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-353">Week 353</h1>
+          <p>We reduced our time on <a href="https://github.com/alphagov/smart-answers">Smart Answers</a> this week and did a 3:2 split of days, spending Monday & Tuesday at Aviation House and the rest of the week at GFRHQ.</p>
+          <h2 id="smart-answers">Smart Answers</h2>
+          <h3 id="business-as-usual">Business as usual</h3>
+          <p>With Erik now on the case, we had less of this to contend with. However, we continued to work on some in-progress items where it made sense, e.g. because we had more history/context:</p>
+          <ul>
+            <li>
+              <p>Chris got the <a href="https://github.com/alphagov/smart-answers/pull/2012">landlord-immigration-check updated and published</a>. This (originally Smartdown) flow has been in draft status and awaiting fact-checking since we started work on the project early this year, so it was great to finally get it published.</p>
+            </li>
+            <li>
+              <p>I spent a lot of time continuing to work on fixing a bug in calculate-statuatory-sick-pay. I thought I’d finally cracked it and submitted <a href="https://github.com/alphagov/smart-answers/pull/2031">a new pull request explaining the changes in detail</a>, but having conferred with our contact at HMRC it turned out that I hadn’t correctly understood the rules, so there’s still more work to do on this.</p>
+            </li>
+          </ul>
+          <h3 id="converting-smartdown-flows">Converting Smartdown flows</h3>
+          <p>Chris continued on his quest to banish Smartdown from the app. First of all he got the <a href="https://github.com/alphagov/smart-answers/pull/2018">renaming of pay-leave-for-parents question pages</a> which he’d worked on in the previous week merged.</p>
+          <p>Then, since we’ve stopped using multiple questions per page, he <a href="https://github.com/alphagov/smart-answers/pull/2029">removed the ability to display question page titles</a> from the code. These were no longer adding much/any value. This change will also mean when pay-leave-for-parents is converted from Smartdown to Ruby Smart Ansers, the regression test artefacts will be easier to compare.</p>
+          <h3 id="fail-fast">Fail fast</h3>
+          <p>Unfortunately, there are a lot of places in the app which swallow exceptions and/or silently fallback to (often unhelpful/surprising) default values. We’ve been gradually trying to remove these. Last week I did some <a href="/week-352#question-options">work on this around question options</a>, but some exceptions occurred in production over the weekend highlighting <a href="https://github.com/alphagov/smart-answers/pull/2020">some question option translations which I’d missed</a>.</p>
+          <p>Chris ran into a problem where the very generic <code>ArgumentError</code> was being rescued around big blocks of code. He changed the code so it <a href="https://github.com/alphagov/smart-answers/pull/2032">rescued the generic exception much closer to its source and raised a much more specific application-specific exception instead</a>.</p>
+          <h3 id="tidying-up">Tidying up</h3>
+          <p>In preparation for splitting the question content up from the flow-wide i18n file into question-specific files, I <a href="https://github.com/alphagov/smart-answers/pull/2023">moved outcome templates into their own sub-directory</a>.</p>
+          <p>The <code>Services</code> module was added relatively recently in <a href="https://github.com/alphagov/smart-answers/commit/34f8f7f4b169c8f10471edc630c7c1088cc205aa">this commit</a>. It introduced a <em>different</em> way to “lookup” clients to external APIs. I wasn’t sure whether this was the official GDS way, but I wanted to <a href="https://github.com/alphagov/smart-answers/pull/2025">make the code more consistent</a> by doing this kind of thing only one way.</p>
+          <h3 id="documentation">Documentation</h3>
+          <p>We continued to add/improve the documentation:</p>
+          <ul>
+            <li>
+              <a href="https://github.com/alphagov/smart-answers/pull/2007">Add docs for CI and deploying to preview</a> (implemented last week; now merged)
+            </li>
+            <li>
+              <a href="https://github.com/alphagov/smart-answers/pull/2021">Bring docs into line with most recent practice</a> (tweaks to release note format)
+            </li>
+            <li>
+              <a href="https://github.com/alphagov/smart-answers/pull/2024">Improve documentation for regression tests</a>
+            </li>
+          </ul>
+          <h2 id="gfr">GFR</h2>
+          <p>On Wednesday Chris took the afternoon off to attend Amy’s UK citizenship ceremony - congratulations Amy!</p>
+          <p>On Thursday we both did a half-day on Smart Answers, me, mainly because I needed to respond to our contact at HMRC, and Chris, because he’d taken a half-day the day before.</p>
+          <p>The rest of Thursday and the beginning of Friday was spent doing company admin. I sorted out the payment of our Corporation Tax (take note Google, Amazon, Startbucks, et al!) and picked a pub for our monthly drinks. Amongst other things, Chris did some research into whether his pension qualifies for auto-enrolment, and identifyied items in our lock-up which we might want to sell or give away.</p>
+          <h2 id="music-library">Music Library</h2>
+          <p>On Friday, we spent much of the day working on the Music Library project in collaboration with <a href="http://hookline.tv/">Hookline</a>:</p>
+          <ul>
+            <li>Amy shared a Trello board with us and I added all the physical cards from our whiteboard.</li>
+            <li>I added time-limited URLs for the tracks and artwork to the CSV export.</li>
+            <li>Chris made the playlist download links work correctly in Safari.</li>
+            <li>I tweaked the application config to force the use of SSL.</li>
+            <li>I setup daily and (hopefully) weekly database backups on Heroku.</li>
+          </ul>
+          <p>Anyway, that’s all for now. Until next time.</p>
+          <p>– James</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 190 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Sunday 09th September, 2012</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-190">Week 190</h1>
+          <p>This week’s notes may not be as comprehensive as usual, because I was caught up with moving house and then away in Sardinia<sup id="fnref:sardinia"><a class="footnote" href="#fn:sardinia">1</a></sup> – I’m still knee-deep in boxes. Apologies to those concerned if I’ve missed something important.</p>
+          <p>The week started with the annoying incident of the burglar(s) in the night-time - there was a break-in at our office and some of our stuff was stolen. Needless to say, sorting this out took up a lot of <a href="/chris-roos">Chris</a>, <a href="/tom-ward">Tom</a> & <a href="/james-adam">James A</a>’s time. Anyway the police are on the case and we await developments…</p>
+          <p>In the meantime, we’ve continued to beaver way on <a href="http://inside-inside-gov.tumblr.com/">Inside Government</a> with our <a href="http://digital.cabinetoffice.gov.uk/">GDS</a> team-mates. It feels as if there’s been a welcome increase in feedback with a round of user testing focussing on the <a href="https://www.gov.uk/specialist">specialist guides</a>, lots of content being bulk-imported from existing sites, and more editorial people using the publishing tool for real.</p>
+          <p>After the server problems we had last week, <a href="/james-adam">James A</a> changed <a href="/printer">Printer</a> <a href="https://github.com/freerange/printer/commit/4c53a2dbc36572631f7386fb55c9334ae882215e">to use PostgreSQL</a> instead of Redis which has led to a significant drop in memory use on our Linode box. And earlier in the week I noticed <a href="https://www.google.com/webmasters/tools">Google Webmaster Tools</a> was reporting a lot of 404s & 500s on <a href="/">our website</a>, so I spent a while trying to sort that out. Today I spent some time trying to add <a href="https://github.com/rack/rack-contrib/blob/master/lib/rack/contrib/mailexceptions.rb">Rack::MailExceptions</a> to give us better visibility of such problems.</p>
+          <p>James A has also been exploring different approaches for marrying <a href="http://github.com/freerange/harmonia">Harmonia</a>’s framework-agnostic domain model with a persistence mechanism. He’s tried out a few approaches in different branches and has come to the conclusion that “Rails and ‘Good OO’ are definitely at odds and sacrifices on both sides will be required; the key is really understanding those sacrifices so they don’t cause friction when we come back to the code later”.</p>
+          <p>While I was away I made some more progress on a significant new release of <a href="http://gofreerange.com/mocha/docs">Mocha</a> which should mean an end to monkey-patching the <a href="https://github.com/test-unit/test-unit">Test::Unit</a> and <a href="https://github.com/seattlerb/minitest">MiniTest</a> test libraries. I ran into a lot of problems with VM “power-down” exceptions on <a href="http://travis-ci.org">Travis-CI</a> while doing this, but as always the Travis team were very <a href="https://twitter.com/travisci/status/243277263091671040">responsive</a> & <a href="https://twitter.com/travisci/status/243030960671707136">helpful</a>. I also pushed out a patch release of Mocha to cope with new test library releases.</p>
+          <p>This week I also saw the <a href="https://github.com/travisbot">Travis CI bot</a> in action. I received a Mocha <a href="https://github.com/freerange/mocha/pull/101">pull request</a> already stamped as having built successfully on Travis. I was able to review the pull request in a matter of minutes and push the “merge” button with confidence - altogether a very streamlined process.</p>
+          <p>Last, but definitely not least, we’re still struggling to get some momentum behind <a href="/">GFR</a> projects and to make progress towards our company goal. It sounds as if there are a few different opinions about why this is so and how we might make things better. But hopefully we can have a good chat about this when we all get together in the office this coming week.</p>
+          <p>– James M.</p>
+          <div class="footnotes">
+            <ol>
+              <li id="fn:sardinia">
+                <p>I was a hanger-on at the <a href="http://ecvp2012.uniss.it/">European Conference on Visual Perception</a>, which gave me the chance to observe the workings of an academic conference and compare it with techie conferences I’ve attended. I went to the session on <a href="http://openscience.org">Open Science</a> which had some interesting talks.&nbsp;<a class="reversefootnote" href="#fnref:sardinia">↩</a></p>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

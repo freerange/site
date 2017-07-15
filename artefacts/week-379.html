@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 379 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Monday 01st August, 2016</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-379">Week 379</h1>
+          <h2 id="smart-answers">Smart Answers</h2>
+          <h3 id="changes-to-benefit-cap-calculator">Changes to Benefit cap calculator</h3>
+          <p><a href="/james-mead">James</a> and I spent quite a while using pull requests to illustrate possible approaches to a required change to the <a href="https://www.gov.uk/benefit-cap-calculator">benefit-cap-calculator Smart Answer</a>:</p>
+          <ul>
+            <li>
+              <a href="https://github.com/alphagov/smart-answers/pull/2477">PR #2477 - Spike: Allow user to choose between 2 versions of benefit-cap-calculator</a>
+            </li>
+            <li>
+              <a href="https://github.com/alphagov/smart-answers/pull/2478">PR #2478 - Spike: Duplicate benefit-cap-calculator flow for 2016 changes</a>
+            </li>
+            <li>
+              <a href="https://github.com/alphagov/smart-answers/pull/2480">PR #2480 - Spike: Duplicate benefit cap calculator flow for 2016 changes (with duplication then removed)</a>
+            </li>
+          </ul>
+          <p>The changes to this Smart Answer ended up causing quite a few problems in the team and, in hindsight, I think it might’ve been better if we’d taken on the work ourselves.</p>
+          <h3 id="modelling-period-of-incapacity-for-work-pr-2479smart-answers-pr-2479">Modelling Period of Incapacity for Work (<a href="https://github.com/alphagov/smart-answers/pull/2479">PR #2479</a>)</h3>
+          <p>James built on his spike (<a href="https://github.com/alphagov/smart-answers/pull/2280">PR #2280</a>) to introduce this domain concept into the <a href="https://www.gov.uk/calculate-statutory-sick-pay">calculate-statutory-sick-pay Smart Answer</a>. Domain modelling is something that’s sorely missing from Smart Answers so this is a great step in the right direction. We’re left with a Smart Answer that’s easier to test, reason about and discuss.</p>
+          <h3 id="fixing-auto-correctable-rubocop-violations-pr-2474smart-answers-pr-2474">Fixing auto-correctable Rubocop violations (<a href="https://github.com/alphagov/smart-answers/pull/2474">PR #2474</a>)</h3>
+          <p>James fixed a whole load of the auto-correctable <a href="https://github.com/bbatsov/rubocop">Rubocop</a> violations. This gets us much closer to our ultimate goal of having no violations.</p>
+          <h3 id="removing-legacy-code-pr-2476smart-answers-pr-2476">Removing legacy code (<a href="https://github.com/alphagov/smart-answers/pull/2476">PR #2476</a>)</h3>
+          <p>James removed support for an old name-based branching mechanism that was previously being used in Smart Answers.</p>
+          <h3 id="remove-worldwide-fixture-data-from-regression-test-checksums-pr-2473smart-answers-pr-2473">Remove worldwide fixture data from regression test checksums (<a href="https://github.com/alphagov/smart-answers/pull/2473">PR #2473</a>)</h3>
+          <p>This relatively small change means that we’re now consistently tracking worldwide fixture data in the regression test checksums.</p>
+          <h3 id="remove-unnecessary-explicit-namespace-qualifications-pr-2475smart-answers-pr-2475">Remove unnecessary explicit namespace qualifications (<a href="https://github.com/alphagov/smart-answers/pull/2475">PR #2475</a>)</h3>
+          <p>The PR description says it all, really.</p>
+          <hr>
+          <h2 id="gfr">GFR</h2>
+          <h3 id="weeknotes">Weeknotes</h3>
+          <p>I continued to make progress with the backlog of week notes. Sadly, we seem to have fallen into the same trap again. I’m currently writing these about 3 months late!</p>
+          <h3 id="annual-accounts">Annual accounts</h3>
+          <p>We had some further discussion about what to do but are still yet to come to any conclusions.</p>
+          <h3 id="salary-dividend-and-pensions">Salary, dividend and pensions</h3>
+          <p>I finished working on this task that I’d started last week. We agreed to reduce our salary and dividend amounts and to increase our pension payments.</p>
+          <h3 id="geohash-explorer">Geohash explorer</h3>
+          <p>We had an email from someone asking us about the <a href="http://geohash.gofreerange.com/">Geohash explorer app hosted on our domain</a>. James and I had completely forgotten about it but some investigation revealed that it was a project of <a href="https://tomafro.net/">Tom W’s</a>. You can read more about it in <a href="http://gofreerange.com/week-154#what">notes for week 154</a> and Tom’s blog post, <a href="https://tomafro.net/2011/09/a-small-toy-to-explore-geohashes">“A small toy to explore geohashes”</a></p>
+          <h3 id="show-and-tell-and-monthly-drinks">Show and Tell and Monthly Drinks</h3>
+          <p>We resumed organising these tasks after a break at the beginning of the year. James got straight on the case and organised the monthly drinks for April.</p>
+          <h3 id="updating-our-cashflow-forecast">Updating our cashflow forecast</h3>
+          <p>We have a very basic spreadsheet that helps us forecast how long we can continue paying ourselves based on our current assets and liabilities. We noticed that some of the figures had been out of date for about a year, and that it didn’t take account of some additional monthly expenses. We updated the figures and also updated the instructions to try to make sure that we keep on top of these sort of changes in future.</p>
+          <p>Until next time.</p>
+          <p>– Chris</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

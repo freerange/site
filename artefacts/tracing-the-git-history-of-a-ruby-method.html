@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Tracing the Git history of a Ruby method — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Tuesday 11th March, 2014</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="tracing-the-git-history-of-a-ruby-method">Tracing the Git history of a Ruby method</h1>
+          <p><em>TL;DR</em> I’ve built an <a href="https://github.com/freerange/method_log">experimental tool</a> to display the git history of a single Ruby method definition.</p>
+          <p>Here’s a demo of it in action against the <a href="/mocha/docs/">Mocha</a> codebase <sup id="fnref:1"><a class="footnote" href="#fn:1">1</a></sup> showing the history of the <code>Mocha::Expectation#with</code> method. Note that you should be able to scroll down through the history.</p><iframe height="480" src="/method-log-showterm-replacement.html" style="overflow: hidden" width="650"></iframe>
+          <h2 id="introduction">Introduction</h2>
+          <p>Many years ago I remember using <a href="http://en.wikipedia.org/wiki/IBM_VisualAge">VisualAge for Java</a> which had a built-in version control system called <a href="http://c2.com/cgi/wiki?EnvyDeveloper">ENVY/Developer</a> which considered each <em>method definition</em> as a <a href="http://books.google.co.uk/books?id=ld6E19QIMo4C&amp;lpg=PP1&amp;pg=PA24">versioned component</a>. I’ve often wondered how feasible it would be to generate a more <a href="http://martinfowler.com/bliki/SemanticDiff.html">semantic diff</a> from the commits in a file-based version control system.</p>
+          <p>Anyway, a couple of the talks and the ensuing discussions at a <a href="http://ticosa.org/">conference on Software Archeology</a> earlier this year gave me the impetus to explore some possibilities in this area. In particular I was keen to develop something that I thought I would find useful in my day-to-day work on large long-lived Ruby code bases.</p>
+          <p>I decided to focus on the idea of displaying the history of a single Ruby method definition. It’s possible to achieve something akin to this using the <a href="http://www.philandstuff.com/2014/02/09/git-pickaxe.html">git pickaxe</a> or even a sequence of calls to <code>git blame</code>, but I was curious to see whether I could make something a little more sophisticated.</p>
+          <p>In his Software Archeology talk, “Process Echoes in Code”, <a href="https://twitter.com/mfeathers">Michael Feathers</a> demonstrated his <a href="https://github.com/michaelfeathers/delta-flora">Delta Flora</a> library. This uses the <a href="http://ruby-doc.org/stdlib-2.0.0/libdoc/ripper/rdoc/Ripper.html">Ripper</a> standard library to parse Ruby source code and identify “method events” for each commit i.e. what methods have been added, removed or modified. A batch process runs through all the commits and saves these method events to a CSV file. This method event data is later analysed in various interesting ways.</p>
+          <h2 id="parsing-ruby">Parsing Ruby</h2>
+          <p>I was most interested in Delta Flora’s <a href="https://github.com/michaelfeathers/delta-flora/blob/master/method_finder.rb">MethodFinder</a> class which does the actual parsing and it formed a useful starting point for my work. However, early on I noticed that it only handled <em>instance</em> method definitions and not <em>class</em> method definitions. I quickly ran into trouble when I tried to extend it to support class method definitions. Part of the problem was that the MethodFinder uses low-level parser events (i.e. <code>kw</code>, <code>const</code>) to detect the <em>beginning</em> of various constructs, but high-level parser events (i.e. <code>def</code>, <code>class</code>, <code>module</code>) to detect the <em>end</em> of the same constructs.</p>
+          <p>As far as I could tell this was due to limitations in Ripper. So I decided to have a bit of a look around at other Ruby parsers. In the end I found the <a href="https://github.com/whitequark/parser">parser gem</a> which provides callbacks <em>around</em> various constructs (i.e. <code>class</code>, <code>module</code>, <code>def</code>) including ones relating to class method definitions (i.e. <code>defs</code>, <code>sclass</code>).</p>
+          <p>This made it a bit easier to consider extending the MethodFinder to handle class methods, but it turns out there are a lot more ways to define class methods than there are ways to define instance methods e.g.:</p>
+          <pre><code># example 1
+class Foo; end
+
+def Foo.bar; end
+
+# example 2
+class Foo
+  def self.bar; end
+end
+
+# example 3
+class Foo
+  class &lt;&lt; self
+    def bar; end
+  end
+end
+</code></pre>
+          <p>Also the “definee” in each of these cases can be <em>any</em> Ruby expression. Most commonly it will either be <code>self</code> or a class or module defined within the current scope.</p>
+          <p>At this point I did start to wonder whether the effort of supporting all these (somewhat edge) cases was worthwhile, but some of the work we’ve been doing at the <a href="http://lanyrd.com/2014/little-schemer-book-club-march/">Little Schemer Book Club</a> had made me curious about programming language parsers and interpreters and so I pressed on regardless. By <a href="https://github.com/freerange/method_log/blob/master/lib/method_log/scope.rb">modelling Ruby’s constant lookup mechanism</a> and enhancing my <a href="https://github.com/freerange/method_log/blob/master/lib/method_log/method_finder.rb">MethodFinder</a> class I think I’ve built a reasonably robust way of extracting method definitions from Ruby source code.</p>
+          <p>Initially the code raised an exception if a constant could not be found, but then I realised that this implied that I couldn’t always parse a single file in isolation, so instead I had the code implicitly define missing constants.</p>
+          <p>I recognise that this MethodFinder doesn’t handle all scenarios, particularly not methods defined at run-time. However, I’m not sure there are many more scenarios it would actually be <em>possible</em> to handle using only <em>static</em> analysis. I did briefly contemplate changing tack and doing some kind of dynamic analysis based on inspecting the residual <code>ObjectSpace</code> left after running all of a project’s tests, but I decided I’d reached my yak-shaving limit and sanity prevailed.</p>
+          <p>Another limitation of this MethodFinder is that, unlike Delta Flora, it doesn’t consider RSpec tests as “method definitions”. Delta Flora uses a <a href="https://github.com/michaelfeathers/delta-flora/blob/master/spec_finder.rb">regular-expression-based parser</a> to do this, but I think it ought to be possible to use the parser gem and its <code>send</code> event to detect invocations of the RSpec methods like <code>describe</code> and <code>it</code>.</p>
+          <h2 id="querying-git">Querying Git</h2>
+          <p>As I mentioned above, Delta Flora runs a batch process to build a “database” of method events which can then be queried. The batch process does this by shelling out to various <code>git</code> commands. For my use case, I’m only interested in the history of a <em>single</em> method, so I wondered whether I could get away with querying the git repository directly rather than having to build a separate “database”. I’d read some good things about the <a href="https://github.com/libgit2/rugged">rugged gem</a> which provides Ruby bindings to <a href="https://github.com/libgit2/libgit2">libgit2</a> and I thought this would be a good opportunity to try it out.</p>
+          <p>I was quite keen to have <a href="https://github.com/freerange/method_log/blob/master/spec/api_spec.rb">acceptance tests</a> that commit source files to a real git repository and fortunately this turned out to be <a href="https://github.com/libgit2/rugged#writing-to-a-repository">fairly straightforward</a>:</p>
+          <ul>
+            <li>Write the source code to the repository as a blob.</li>
+            <li>Add that blob’s SHA and the path of the source file to an instance of a <code>Rugged::Index</code>.</li>
+            <li>Write the index to the repository as a <code>Rugged::Tree</code>.</li>
+            <li>Create a commit in the repository using that tree.</li>
+          </ul>
+          <p>Querying the repository is even more straightforward. The code just “walks” through the commits starting from the latest commit and “walks” through all the blobs in the commit’s tree, building up the file paths and looking up the source code in the repository. Then it was a simple matter of wiring all this up in combination with a <a href="https://github.com/samg/diffy">library to obtain a diff</a> of the method body in each significant commit in order to pass some basic acceptance tests.</p>
+          <p>So far so good!</p>
+          <h2 id="optimisations">Optimisations</h2>
+          <p>When I pointed the tool at the repository for a large Rails app, I wasn’t surprised to discover that it took <em>ages</em> to run. So it was time to do some optimisation.</p>
+          <p>One simple improvement was to only consider parsing source files that contained the method name. Although this also includes files where the method is invoked (not just those where it is defined), it significantly reduces the number of files we need to parse.</p>
+          <p>Once the method definition has been found, we can assume that the method definition has not changed if the file containing it has not changed i.e. if the SHA for the same path is unchanged. This means we can quickly discard commits that are of no significance.</p>
+          <p>A smaller improvement was to only lookup the source for a file in the repository at the point where it’s actually needed i.e. for text searching or parsing.</p>
+          <p>Lastly, I decided that in most cases there isn’t much point in going further back in time once we find the commit where a method is defined. So I changed the default behaviour to stop at this point, but provided a flag to continue if required.</p>
+          <p>Unfortunately these optimisations have made the code a bit more convoluted than I would like - I think some of my abstractions might be a bit wrong - but for the moment I’ve run out of energy to tidy things up any further. I thought it was better to publish what I’ve got so far and see whether anyone finds it useful.</p>
+          <h2 id="further-work">Further work</h2>
+          <p>I have a bunch of ideas that could make use of the MethodFinder functionality, so I think it might be worth extracting this into its own gem, e.g. having a pre-commit hook to annotate commit messages with method events, and enhancing GitHub source file pages to have links to a “method log”.</p>
+          <p>A possible optimisation would be to stop parsing a file at the point where the method definition is found - at the moment the whole file is always parsed.</p>
+          <p>Running the tool against a very large repo (e.g. Rails) is still very slow, so I suspect in the end it might be necessary to build a “database” of method metadata vs commits.</p>
+          <p>While writing this article, I came across the undocumented <code>Rugged::Diff</code> class - it might be better to use this rather than the <a href="https://github.com/samg/diffy">diffy gem</a> that I’m using at the moment.</p>
+          <p>At the moment the code delves rather too deeply into the innards of the parser gem i.e. it calls <code>Parser::Source::Buffer#decompose_position</code> to determine the last line number of the method definition. It would probably be better to submit a patch to the parser gem to make the last line available directly on <code>Parser::Source::Buffer</code>.</p>
+          <p>It might be nice to convert this tool a git extension. Simply renaming the binary to <code>git_method_log</code> and ensuring it is present in the user’s <code>PATH</code> would be enough to make it available as a <code>git method-log</code> command, but it might be nicer to extend the existing <code>git log</code> command itself with extra command line switches.</p>
+          <h2 id="feedback">Feedback</h2>
+          <p>I’d love people to try out the tool and let me know what you think - you can add a comment below or add an issue to the <a href="https://github.com/freerange/method_log">project on GitHub</a>.</p>
+          <h2 id="acknowledgments">Acknowledgments</h2>
+          <p>Many thanks to <a href="/chris-roos">Chris Roos</a>, <a href="https://twitter.com/tomstuart">Tom Stuart</a>, <a href="https://twitter.com/joelchippindale">Joel Chippindale</a>, <a href="https://twitter.com/chrislowis">Chris Lowis</a>, <a href="https://twitter.com/hlame">Murray Steele</a>, <a href="https://twitter.com/threedaymonk">Paul Battley</a>, and <a href="https://twitter.com/rchatley">Rob Chatley</a> for various conversations about this stuff.</p>
+          <div class="footnotes">
+            <ol>
+              <li id="fn:1">
+                <p>We have to set the Ruby version to 1.8 so that some of the source code in older commits in the Mocha repository is parsed successfully.&nbsp;<a class="reversefootnote" href="#fnref:1">↩</a></p>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

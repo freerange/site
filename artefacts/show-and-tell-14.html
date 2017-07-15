@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Show and Tell 14 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/show-and-tell-events' title='Go to Show and Tell index'>Show and Tell index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Monday 20th July, 2015</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="show-and-tell-14">Show and Tell 14</h1>
+          <p>This meeting was postponed at the last minute from Wednesday, 8th July, to Tuesday, 15th July, partly because we didn’t quite get our act together in time and partly because we thought that the <a href="http://www.theguardian.com/uk-news/2015/jun/18/london-biggest-tube-strike-10-years-night-shift-pay">Tube strike</a> might upset people’s travel plans.</p>
+          <p>Possibly as a result of the last minute change in plan, the meeting was quieter than usual with only five of us in attendance.</p>
+          <h2 id="method-log">Method Log</h2>
+          <p>I kicked off proceedings by demonstrating a recent bit of work I’ve done with <a href="https://github.com/freerange/method_log">method_log</a>. This built on the work I did last year to <a href="/building-a-git-repository-of-ruby-method-definitions">build a Git repository of Ruby method definitions</a> in which Ruby source files are statically parsed and each individual method definition is written into a file based on its namespace and method name e.g. the definition for <code>Foo::Bar#baz</code> is saved to <code>Foo/Bar/#baz.rb</code>.</p>
+          <p>This produces a Git repository with a rich semantic structure which can be interrogated using standard Git tools. e.g. it’s possible to use the <code>--follow</code> option on <code>git-log</code> to track the history of a method implementation as it moves around the codebase.</p>
+          <p>In my recent bit of work, I wrote a script designed to be run as a <a href="https://www.kernel.org/pub/software/scm/git/docs/githooks.html#_post_commit">Git post-commit hook</a> which <a href="https://github.com/freerange/method_log/commit/937ccc2cce93c62ccd195c8f98a05c73dd951ab2">incrementally builds a semantically structured commit</a> for every commit to the <code>master</code> branch. Rather than create a separate Git repository for these semantic commits, I added them to an orphan <code>method-log</code> branch in the same repository <a href="/building-a-git-repository-of-ruby-method-definitions#comment-1288565310">as suggested by James A</a>.</p>
+          <p>I got some useful feedback from people, particularly regarding how best to have the semantic commits reference their corresponding commits in <code>master</code>, but it does feel as if the project might be more of academic, rather than practical, interest.</p>
+          <h2 id="smalltalk-method-finder">Smalltalk Method Finder</h2>
+          <p>All this talk about method definitions reminded <a href="https://twitter.com/beng">Ben G</a> of the <a href="http://pharo.gforge.inria.fr/PBE1/PBE1ch2.html#x8-190009">Smalltalk Method Finder</a>. He demonstrated how you can use a particular syntax to ask what method should be called on a given object to get a given result e.g. entering <code>'eureka' . 'EUREKA'</code> suggests that you should call the <code>*String asUpperCase</code> method on <code>'eureka'</code> to get <code>'EUREKA'</code>.</p>
+          <p>While this seems really clever, Ben showed us that the implementation takes a rather brute-force approach.</p>
+          <p>After the meeting I was interested to discover that someone has built a similar <a href="http://citizen428.github.io/methodfinder/">Method Finder for Ruby</a>.</p>
+          <p>Anyway, the whole thing reminded me a bit of Tom’s <a href="/show-and-tell-13#hello-declarative-world">Hello, Declarative World</a> demo from the last meeting.</p>
+          <h2 id="receipt-printer">Receipt Printer</h2>
+          <p>Ben has recently wired up a receipt printer to a <a href="https://www.raspberrypi.org/">Raspberry Pi</a> at home. The Pi polls a <a href="https://slack.com/">Slack</a> channel and, when a new message appears in the channel, a light flashes on the printer and then, when you push a button, the message is printed.</p>
+          <p>Ben’s inventive eldest son came up with the idea of enclosing the printer and Pi in a Lego frame with Lego figures strategically positioned to make it look like a <a href="https://twitter.com/beng/status/601890039681982465">giant printing press</a>.</p>
+          <p>The Slack channel acts as a nice aggregating API for the printer. My favourite application of this API is a “Dad’s coming home” button on Ben’s smartphone, implemented using <a href="https://ifttt.com/products/do/button">IFTTT’s Do Button</a>. When Ben pushes the button, a message is sent to the Slack channel to tell Ben’s kids that he’s on his way home.</p>
+          <p>Another application is to receive messages left by visitors to a <a href="https://en.wikipedia.org/wiki/Geocaching">Geocache</a> which Ben has positioned on a street near his house. The cache is registered on the <a href="https://www.geocaching.com/">geocaching.com</a> website and visitors can post messages there.</p>
+          <p>Unfortunately the site doesn’t have anything as simple as an RSS feed, so in an effort to avoid writing or hosting any code, Ben has wired up a complicated pipeline of services to turn the receipt of a notification email into the posting of a message into the Slack channel.</p>
+          <p>I may’ve got the sequence wrong, but I think it went something like this:</p>
+          <ul>
+            <li>Gmail filter to add a label to notification emails from geocaching.com</li>
+            <li>
+              <a href="https://ifttt.com/">IFTTT</a> recipe to forward emails with the label to an email address for an instance of <a href="https://parser.zapier.com/">Zapier’s email parser</a>
+            </li>
+            <li>An IFTTT or <a href="https://zapier.com/">Zapier</a> recipe to send parsed data to the Slack channel
+            </li>
+          </ul>
+          <p>Just to round this off, here are a couple more tweets containing photos of the printer:</p>
+          <ul>
+            <li>
+              <a href="https://twitter.com/beng/status/605850876100476928">Lego printing press possibly overmanned - by a mermaid, two cyborgs and a punk wearing a knight’s helmet</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/beng/status/618196821823881216">Ariel’s in charge of the messaging machine. Nova’s useless at security. Here comes a shifty-looking armed Manta Ray</a>
+            </li>
+          </ul>
+          <h2 id="composing-functions">Composing Functions</h2>
+          <p><a href="http://codon.com/">Tom S</a> showed us a <a href="https://bugs.ruby-lang.org/issues/6284">Ruby feature request for composition of Procs</a>. The original request was made over 3 years ago, but despite <a href="https://bugs.ruby-lang.org/issues/6284#note-11">early positive feedback from Matz</a>, the discussion seems to have descended into the <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality">bike shed</a> and then petered out.</p>
+          <p>Tom pointed out that about a month ago, <a href="http://london.computation.club">London Computation Club</a> attendee, <a href="http://mudge.name/">Paul Mucur</a>, came up with what looks like a sensible implementation of the feature. Paul has submitted patches and opened a <a href="https://github.com/ruby/ruby/pull/935">pull request</a>, but there doesn’t seem to have been much of a response from the Ruby maintainers.</p>
+          <p>I was quite surprised to learn that although there’s been a <a href="https://github.com/ruby/ruby">Ruby repository on GitHub</a> for some time, it’s still only a mirror of a <a href="https://subversion.apache.org/">Subversion</a> repository. This makes pull requests a bit meaningless.</p>
+          <p>Thanks to Tom for giving us this interesting glimpse into how one might go about getting a new feature into the Ruby language.</p>
+          <p>Until next time.</p>
+          <p>– James</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='show-and-tell_list' reversed="">
+            <li value="6">
+              <a href="/show-and-tell-33">Show and Tell 33</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-32">Show and Tell 32</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-31">Show and Tell 31</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-30">Show and Tell 30</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-29">Show and Tell 29</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-28">Show and Tell 28</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

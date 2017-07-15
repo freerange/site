@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 351 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 16th October, 2015</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-351">Week 351</h1>
+          <p>This was the second of our two planned weeks working with <a href="http://hookline.tv/">Hookline</a> (the first was in <a href="/week-348">week 348</a>).</p>
+          <p>We had three main goals for the week:</p>
+          <ol>
+            <li>
+              <p>Exclusively use the new web app to produce playlists when responding to requests for music.</p>
+            </li>
+            <li>
+              <p>Use the new web app to produce public and artist playlists to replace those currently on hookline.tv.</p>
+            </li>
+            <li>
+              <p>Exclusively use the new web app to administer Hookline’s music library.</p>
+            </li>
+          </ol>
+          <h2 id="responding-to-requests-for-music">Responding to requests for music</h2>
+          <p>We didn’t quite get to the point where Hookline could use the app to produce their playlists. I <em>think</em> we’re there technically but the playlists still need some visual love before they can be sent out.</p>
+          <h2 id="replacing-playlists-on-hooklinetv">Replacing playlists on hookline.tv</h2>
+          <p>Aside from the visual love mentioned above I think we’re also ready to replace the playlists on hookline.tv with those generated in the app.</p>
+          <h3 id="what-we-did">What we did</h3>
+          <ul>
+            <li>
+              <p>Generated different markup for the public and artist playlist pages.</p>
+            </li>
+            <li>
+              <p>Avoided using easily discoverable track URLs. We’re using JavaScript to request a time-limited track URL, rather than embedding the URL in the HTML. We had to configure CORS in our app to enable this.</p>
+            </li>
+            <li>
+              <p>Avoided using easily shareable track URLs. The time-limited URLs mean that they’re of limited use when shared.</p>
+            </li>
+            <li>
+              <p>Avoided using easily guessable track URLs. We’re using short random keys to identify our tracks. This should make it harder for people to guess track URLs than if we were using sequential numbers as keys.</p>
+            </li>
+            <li>
+              <p>Built a simple static website to act as another client of the Hookline playlists. Having this as well as hookline.tv helps highlight some of the things that should be extracted from the main app in order to make this useful to people other than Hookline.</p>
+            </li>
+          </ul>
+          <h2 id="administering-the-music-library">Administering the music library</h2>
+          <p>As of the end of this week, Hookline are now using this app to manage their music library. This replaces the combination of a Google Spreadsheet and Dropbox that they were using previously.</p>
+          <h3 id="what-we-did-1">What we did</h3>
+          <ul>
+            <li>
+              <p>Imported the track data from the Google Spreadsheet into PostgreSQL and started using the data stored in the database instead of the data in the spreadsheet.</p>
+            </li>
+            <li>
+              <p>Added a scheduled task to keep the database in sync with tracks manually uploaded to S3. This was a short-term fix that we put in place until we were able to upload tracks through the web interface.</p>
+            </li>
+            <li>
+              <p>Added the ability to upload track assets (MP3, WAV and artwork images) to S3 through the web app. This replaces the use of Dropbox + laptop + s3cmd to sync the data to S3.</p>
+            </li>
+            <li>
+              <p>Added functionality to rename tracks in S3 when they were renamed in the database.</p>
+            </li>
+            <li>
+              <p>Configured a combination of cross-region replication and lifecycle events in S3 to create a backup of the tracks in Glacier.</p>
+            </li>
+            <li>
+              <p>Added an incomplete track listing page the app to help Hookline focus on the data they’re missing.</p>
+            </li>
+            <li>
+              <p>Added the “main genre” attribute to a track so that Hookline can use an export of this data to integrate with some other systems.</p>
+            </li>
+            <li>
+              <p>Added some global navigation to the web app to make it easier to use.</p>
+            </li>
+          </ul>
+          <h2 id="miscellaneous">Miscellaneous</h2>
+          <ul>
+            <li>
+              <p>Configured Errbit for Hookline.</p>
+            </li>
+            <li>
+              <p>Started using RSpec’s <code>instance_double</code> instead of <code>double</code>. We introduced a bug in production because of a problem that would’ve been caught had we already been using <code>instance_double</code>.</p>
+            </li>
+          </ul>
+          <h2 id="summary">Summary</h2>
+          <p>I enjoyed this second week and was pleased with our progress, despite not quite getting everything done that we’d have liked to.</p>
+          <p>We don’t have any more time booked with Hookline but I’m sure this won’t be the end of our collaboration.</p>
+          <p>Until next time.</p>
+          <p>– Chris</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

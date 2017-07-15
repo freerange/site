@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 383 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 05th August, 2016</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-383">Week 383</h1>
+          <h2 id="smart-answers">Smart Answers</h2>
+          <p>This was a bit of a quiet week for us on Smart Answers. We’re aiming to do about 5 to 6 days between us but we only managed about 2.5 this week!</p>
+          <h3 id="stubbing-with-mocha-instead-of-webmock-pr-2540smart-answers-pr-2540">Stubbing with Mocha instead of WebMock (<a href="https://github.com/alphagov/smart-answers/pull/2540">PR #2540</a>)</h3>
+          <p>I think <a href="/james-mead">James</a> suggested this a while back and I finally got round to experimenting with it this week.</p>
+          <p>Smart Answers uses the <a href="https://github.com/alphagov/gds-api-adapters">gds-api-adapters Gem</a> to consume some of the APIs available on GOV.UK. This Gem comes with a set of test helper methods that we were using in quite a few of our tests. These helper methods work by using <a href="https://github.com/bblimke/webmock">WebMock</a> to return canned responses for requests to the GOV.UK APIs. While this works, it introduces quite a lot of unnecessary overhead. As long as we have confidence that gds-api-adapters works as advertised then we don’t need to exercise its code in each of our tests.</p>
+          <p>We already had some Smart Answer specific wrappers around the gds-api-adapters Gem so I was able to remove some uses of the helper methods in favour of stubbing our wrapper classes instead. Doing this for the integration tests in the system shaved about 60 seconds from the time it took to run all the tests on my machine!</p>
+          <p>I went on to investigate making a similar change to the Smart Answers regression tests. I didn’t spend very long working on this but was disappointed by the initial results: they actually appear to have made the tests take longer to run! I’m hoping I’m missing something obvious here and that there are some performance improvements to be had.</p>
+          <h3 id="fixing-a-failing-test-pr-2539smart-answers-pr-2539">Fixing a failing test (<a href="https://github.com/alphagov/smart-answers/pull/2539">PR #2539</a>)</h3>
+          <p>James noticed that a test had started failing on CI, but not locally. He determined that the problem was to do with an updated version of <a href="https://github.com/alphagov/govuk-content-schemas/">govuk-content-schemas</a>, replicated it locally and then submitted the fix.</p>
+          <p>It sounds as though something has been put in place to avoid these sort of third party changes from causing these sort of problems in future.</p>
+          <h2 id="gfr">GFR</h2>
+          <p>Our GFR time was mostly spent ticking off the standard admin tasks that help keep the company running.</p>
+          <p>I think the only thing of note was that James spent a while answering questions from our new accountant about our annual accounts.</p>
+          <p>Until next time.</p>
+          <p>– Chris</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

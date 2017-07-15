@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 172 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Thursday 03rd May, 2012</p>
+        <div class='author'>
+          <img alt='James Adam' src='images/people/james-adam.jpg'> <span>by James Adam</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-172">Week 172</h1>
+          <p>Our new-found focus on, well, <em>focusing</em>, continued in Week 172, but we have very temporarily parked <a href="https://github.com/freerange/sauron">Sauron</a> in order to get <a href="https://github.com/freerange/recap">Recap</a> to 1.0.0. We’ll explain more about Recap in another blog post today, as soon as <a href="/tom-ward">Tom</a> emerges from his documentation fugue state, but if you can’t wait then feel free to <a href="https://github.com/freerange/recap">check out the code</a> in the meantime.</p>
+          <h2 id="mocha">Mocha</h2>
+          <p>During moments of respite from chasing the chaotic agencies required to arrange a mortgage, <a href="/james-mead">James M</a> has been doing more sterling work on <a href="http://gofreerange.com/mocha/docs/">Mocha</a>, solving the issues that people encounter when they try to do crazy stuff with stubs and mocks.</p>
+          <p>This week someone has been attempting to serialise a stub within an ActiveRecord object. James has a <a href="https://github.com/floehopper/mocha/commit/d0569869da15fa9d3d86b18047630452a21906df">quick fix</a>, but there’s more thinking to be done about whether or not Mocha should actually prevent you from trying to serialise stubs in the first place.</p>
+          <h2 id="what-does-gfr-do">What does GFR do?</h2>
+          <p><a href="/chris-roos">Chris</a> and <a href="/james-adam">I</a> took a step back from <a href="https://github.com/freerange/recap">Recap</a> on Thursday morning to roughly map out <em>what GFR has done</em>. Like, ever. We roughly categorised the fruit of our labours into five categories: products, apps, libraries, client work, and philosophy.</p>
+          <p><img alt="What does GFR do?" src="/images/blog/what-does-gfr-do.jpg"></p>
+          <p>We weren’t entirely sure that this would be interesting while we were actually doing it, but looking afterwards has definitely given us a sense of what things – like the mechanics we use to run the company – we might polish and make more available to the world.</p>
+          <h2 id="printer">Printer</h2>
+          <p>At the weekend <a href="/james-adam">I</a> went up to Sheffield to visit <a href="http://finalbullet.com">Leila</a> and <a href="http://experthuman.com">Tom</a>, and also to check on the first two <a href="/printer">Printers</a> to live outside of our office.</p>
+          <p><a href="http://instagr.am/p/J7cOtEGjKO/"><img alt="Leila's printer" src="http://distilleryimage2.s3.amazonaws.com/d8cf1be8908011e1abb01231381b65e3_7.jpg"></a></p>
+          <p>It sounds like they’ve taken on some identities from Wuthering Heights - you can follow them on Twitter at <a href="https://twitter.com/HeathcliffPrint">@HeathcliffPrint</a> and <a href="https://twitter.com/CathyPrint">@CathyPrint</a>. I’m looking forward to <a href="http://www.flickr.com/photos/lovemaus/6995417290/in/photostream">seeing what they print</a>!</p>
+          <p>I also dropped of another couple of printers for <a href="https://twitter.com/jamesweiner">James Weiner</a> and <a href="http://twitter.com/undermanager">Russell Davies</a> on Friday. Exciting times in Printerland; I’m hoping we will learn a lot from them about what aspects of the overall system are confusing or unintuitive.</p>
+          <p><a href="http://instagr.am/p/KK1qQNDo6y/"><img alt="James Weiner's printer" src="http://distilleryimage10.instagram.com/c3d47690953311e1abb01231381b65e3_7.jpg"></a></p>
+          <h2 id="businessing--rfps">Businessing & RFPs</h2>
+          <p>We’re lucky enough to have a reasonably steady stream of interest from potential clients, and we make a conscious effort to try and speak to everyone at least once. Even if it’s unlikely that we’ll actually develop software for someone, we hope that at the very least we can help them think through the problem they are trying to solve.</p>
+          <p>One potential client approached us this week to ask if we’d be interested in participating in an <em>RFP</em> (that’s ‘request for proposals’) process.</p>
+          <p><strong>We are suspicious of RFPs, because they tend to involve a lot of up-front design and decision-making</strong>.</p>
+          <p>We are really uncomfortable with the idea of selling clients on any vision of a ‘finished’ solution. We know that it’s more effective to explore problems by building working software, since doing so will often lead us in a direction different to the one we imagined at the outset.</p>
+          <p>When a client engages our services, they aren’t buying the guarantee of some finished product at some point in the future; they are buying our skills and expertise to get to the root of the problems the are trying to solve, and explore how we can use software to address to those problems.</p>
+          <h2 id="jupiter-mission">Jupiter mission</h2>
+          <p>Now that the European Space Agency has committed to <a href="http://www.guardian.co.uk/science/2012/may/02/esa-mission-jupiters-moons-europa">sending probes to the moons of Jupiter</a>, we’ve ramped up our Space Research Division to get ready for our pitch to build the probes themselves.</p>
+          <p>Obviously our software <a href="/ethos">ethos</a> would guide our approach to building the probes; we’re going to recommend that rather than spending millions of Euros upfront on planning and design, we start launching probes as soon as possible, and then use feedback from each one to iterate towards the ideal probe. It takes about six years to get to Jupiter, so once we can retrieve the probe, and obviously building in time for a <a href="http://en.wikipedia.org/wiki/Retrospective">retrospective</a>, we’re looking at a 12-year iteration length. Seems fine to us.</p>
+          <p>(Our other idea was to build a probe that was capable of iterating <em>itself</em> via some onboard system of self-programming and 3D printing, but we decided that the chances of it returning as a malevolent artificial intelligence were too great to risk it.)</p>
+          <h2 id="next-week">Next week?</h2>
+          <p>I’m hoping that we’ll continue pre-emptively answering the question <em>what should I be doing today?</em>, but as yet we haven’t decided what that will be. Will it be more <a href="https://github.com/freerange/sauron">Sauron</a>? Perhaps some work on <a href="/printer">Printer</a>? Who knows!</p>
+          <p>The only way to find out will be watch out for issue 173 of the <a href="/">GFR</a> weeknotes!</p>
+          <p>Adios compadre,</p>
+          <p>– James A</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

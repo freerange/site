@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 382 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 05th August, 2016</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-382">Week 382</h1>
+          <h2 id="smart-answers">Smart Answers</h2>
+          <p>I continued to work on <a href="https://www.gov.uk/marriage-abroad">Marriage Abroad</a> while <a href="/james-mead">James</a> mostly worked on improving the regression tests and refactoring/fixing <a href="https://www.gov.uk/calculate-married-couples-allowance">Married Couples Allowance</a>.</p>
+          <h3 id="displaying-servicesfees-for-marriages-in-france-pr-2526smart-answers-pr-2526">Displaying services/fees for marriages in France (<a href="https://github.com/alphagov/smart-answers/pull/2526">PR #2526</a>)</h3>
+          <p>This adds the “Fees” section to outcomes for ceremonies in France and French overseas territories. This omission was highlighted by some of the work I did for the new tax year changes so it was great to finally get it fixed!</p>
+          <h3 id="removing-vietnam-specific-marriage-information-pr-2525smart-answers-pr-2525">Removing Vietnam-specific marriage information (<a href="https://github.com/alphagov/smart-answers/pull/2525">PR #2525</a>)</h3>
+          <p>I spotted this special case for Vietnam while trying to remove some duplication in the way the services and fees are displayed. We don’t believe it’s required so I’ve opened a PR so that it can be fact checked by the department.</p>
+          <h3 id="removing-servicesfees-inconsistency-for-marriages-in-columbia-pr-2522smart-answers-pr-2522">Removing services/fees inconsistency for marriages in Columbia (<a href="https://github.com/alphagov/smart-answers/pull/2522">PR #2522</a>)</h3>
+          <p>This removes an inconsistency in the way we were displaying the services and fees information for Columbia. Making it identical to all the other outcomes should make it easier to DRY up the display of services/fees information in future.</p>
+          <h3 id="merging-two-almost-identical-marriage-abroad-outcomes-pr-2530smart-answers-pr-2530">Merging two almost identical marriage-abroad outcomes (<a href="https://github.com/alphagov/smart-answers/pull/2530">PR #2530</a>)</h3>
+          <p>This simplifies the system slightly by merging two almost identical outcomes into one.</p>
+          <h3 id="using-current-tax-year-in-regression-tests-pr-2518smart-answers-pr-2518">Using current tax year in regression tests (<a href="https://github.com/alphagov/smart-answers/pull/2518">PR #2518</a>)</h3>
+          <p>James added a way to allow us to configure the date and time used by the regression tests. We were previously fixing the date to 1 Jan 2015 for these tests but want to be able to use a more recent date so that the artefacts more closely reflect the behaviour of the actual site.</p>
+          <h3 id="using-stubbed-time-when-generating-regression-test-data-pr-2528smart-answers-pr-2528">Using stubbed time when generating regression test data (<a href="https://github.com/alphagov/smart-answers/pull/2528">PR #2528</a>)</h3>
+          <p>This follows on from the work in PR #2518 (discussed above). It ensures we’re also using the same stubbed date when generating the regression test data, as we do when we’re running the tests.</p>
+          <h3 id="failing-fast-in-regression-tests-pr-2519smart-answers-pr-2519">Failing fast in regression tests (<a href="https://github.com/alphagov/smart-answers/pull/2519">PR #2519</a>)</h3>
+          <p>The regression tests work by making a request to a Smart Answer and then saving the response. This change ensures we fail fast if the response returns a status code of something other than 200.</p>
+          <h3 id="fixing-regression-test-input-data-pr-2527smart-answers-pr-2527">Fixing regression test input data (<a href="https://github.com/alphagov/smart-answers/pull/2527">PR #2527</a>)</h3>
+          <p>James noticed that some of the input data we use to run the regression tests had got out of date. This hasn’t happened very often so we’ve held off automatically detecting it becoming stale. If we notice this happening more then I imagine we’ll improve things.</p>
+          <h3 id="refactoring-and-fixing-married-couples-allowance-pr-2529smart-answers-pr-2529">Refactoring and fixing Married Couples Allowance (<a href="https://github.com/alphagov/smart-answers/pull/2529">PR #2529</a>)</h3>
+          <p>While working on this Smart Answer James noticed a number of bugs that had crept in over time. As well as refactoring it to follow the newer style we’ve adopted, James has also improved the code so that it better reflects the domain its dealing with. In doing so he’s also been able to fix the problems with the original implementation.</p>
+          <h2 id="gfr">GFR</h2>
+          <h3 id="tracking-time-on-non-client-projects">Tracking time on non-client projects</h3>
+          <p>We started tracking our time on non-client projects in FreeAgent this week. This should help ensure we’re contributing roughly the same amount of time while I’m still remote and we’re both working part-time.</p>
+          <h3 id="more-gds-work">More GDS work?</h3>
+          <p>James followed up with an email after his meeting last week.</p>
+          <h3 id="annual-accounts">Annual Accounts</h3>
+          <p>It’s possible that we’re going to need to get our annual accounts produced relatively soon in order to help James with a mortgage application. Rather than continuing to investigate producing them ourselves; we agreed that the simplest thing would be to engage an accountant to do them. We’ve decided to use <a href="http://proactive.uk.net/">The Proactive Accountant</a> based on a recommendation and some research.</p>
+          <h3 id="increasing-pension-payments">Increasing pension payments</h3>
+          <p>We recently decided to increase the amount that GFR pays into our personal pensions. My pension provider was happy enough to accept the form that I’d completed and signed digitally, although they required a “wet signature” for their records. James’s provider required that another director complete the form, which I did this week.</p>
+          <h3 id="show-and-tell">Show and Tell</h3>
+          <p>James hosted the first <a href="/show-and-tell-events">Show and Tell</a> of 2016 this week. It sounds like there were a few people in attendance at <a href="http://www.thepeasant.co.uk/">The Peasant</a> and hopefully James will be able to write a bit more about this soon.</p>
+          <p>Until next time.</p>
+          <p>– Chris</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

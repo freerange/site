@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 297 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Tuesday 30th September, 2014</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-297">Week 297</h1>
+          <p>We continued to work on the Video project for much of the week, but we had a bit of a rethink which meant backing out a bunch of changes.</p>
+          <p>Having spiked on using <a href="https://login.amazon.com/">Login with Amazon</a> and the AWS Security Token Service’s <a href="http://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoleWithWebIdentity.html">AssumeRoleWithWebIdentity</a> functionality to setup resources within the <em>user’s</em> AWS account, we decided that the resultant user experience was going to be way too complicated.</p>
+          <p>We also realised that the important aspect of the service’s <a href="/week-295#usp">USP</a> is that the user can easily switch to using another service - the most obvious practical implication is that the user should own the URLs for their assets, but there’s no need for them to own e.g. the AWS S3 bucket from which they are hosted.</p>
+          <p>This means that we’ll need to take responsibility for all AWS charges which is something that we’d have preferred to avoid. However, it feels like the right way to go and we figure we can cross that bridge when we get to it. It may well provide the impetus we need to do some more investigation into things like the <a href="https://aws.amazon.com/marketplace">AWS Marketplace</a>.</p>
+          <p>It’s always disheartening to undo a bunch of development work, but we learnt a lot in implementing it and predictably it didn’t take as long as we thought to remove it. And by the end of the week it felt as if we had momentum back in the project.</p>
+          <h2 id="little-schemer-book-club">Little Schemer Book Club</h2>
+          <p>The 13th and final meeting of the book club took place in our office on Monday evening, <a href="https://groups.google.com/forum/#!topic/london-computation-club/4WeajK29_hY">ably minuted</a> by Murray.</p>
+          <p>I found it very heartening to see that the book’s Scheme implementation of a Scheme interpreter closely resembled our own Ruby implementation of a Scheme interpreter. A triumphant end indeed!</p>
+          <p>The club has been re-branded as the <a href="https://groups.google.com/forum/#!forum/london-computation-club">London Computation Club</a> and is currently <a href="https://groups.google.com/forum/#!topic/london-computation-club/4ari5vK15Kc">on the look-out for ideas for what to do next</a>. Do you fancy joining us?</p>
+          <h2 id="alumni">Alumni</h2>
+          <p>On Wednesday, we spent an enjoyable day hanging out with the inimitable <a href="http://jasoncale.com/">Jason Cale</a>. It was really interesting to hear about his involvement in the <a href="https://beta.lostmy.name/">Lost My Name</a> personalised book project and what he’s been up to more recently at <a href="http://corporate.art.com/artlabs/">Art.com Labs</a> - some really impressive stuff!</p>
+          <p>That evening we managed to meet up with a few other friends including <a href="http://interblah.net/">James Adam</a>, newly arrived back from Austin, Texas. It was great to catch up over a beer or two and we look forward to hearing more about his <a href="http://exciting.io/">exciting</a> plans.</p>
+          <p>Ciao.</p>
+          <p>– James</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

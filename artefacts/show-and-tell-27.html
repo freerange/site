@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Show and Tell 27 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/show-and-tell-events' title='Go to Show and Tell index'>Show and Tell index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Wednesday 21st December, 2016</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="show-and-tell-27">Show and Tell 27</h1>
+          <ul>
+            <li>When: Wed 14 Dec 2016</li>
+            <li>Where: Forge and Co, 154-158 Shoreditch High St, London E1 6HU</li>
+            <li>Links: <a href="https://attending.io/events/gfr-show-and-tell-27/">attending.io</a>
+            </li>
+          </ul>
+          <p><a href="/james-mead">James</a> and I were joined by <a href="https://twitter.com/beng">Ben G</a>, <a href="http://edwardbetts.com/">Edward</a>, <a href="https://www.doc.ic.ac.uk/~rbc/">Rob C</a> and <a href="https://github.com/robd">Rob D</a> for our 27th Show & Tell.</p>
+          <p>We decided to be a bit stricter about the time people get in the spotlight this month. We’ve never worried about it before but thought it might be a useful thing to do; particularly to help when we have a larger group. Our very low tech solution was to use an <a href="https://en.wikipedia.org/wiki/List_of_macOS_components#Automator">Automator script</a> and the <code>say</code> command to alert people when they had 5 minutes left, 1 minute left and when their time was up. It seemed to work quite well!</p>
+          <p>Notable in his absence was <a href="http://codon.com/">Tom S</a>; meaning that we were deprived of our regular dose of Lambda Calculus and that we had to take our own photos!</p>
+          <hr>
+          <h2 id="chris-r---otp">Chris R - OTP</h2>
+          <p><img alt="Chris R at Show &amp; Tell 26" src="/images/blog/2016-12-14-show-and-tell-27-chris-r.jpg"></p>
+          <p>I presented my understanding of <a href="https://en.wikipedia.org/wiki/One-time_password">one-time passwords</a> (specifically the <a href="https://en.wikipedia.org/wiki/HMAC-based_One-time_Password_Algorithm">HOTP</a> and <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm">TOTP</a> algorithms). I used a combination of a whiteboard and some Ruby code to demonstrate the simplicity of the algorithms and how they relate to each other. I’m hoping/planning to write about this in more detail soon.</p>
+          <hr>
+          <h2 id="james-m---raspberry-pi-monitoring">James M - Raspberry Pi monitoring</h2>
+          <p><img alt="James M at Show &amp; Tell 26" src="/images/blog/2016-12-14-show-and-tell-27-james-m.jpg"></p>
+          <p>James described the process of configuring and using a <a href="https://www.raspberrypi.org/">Raspberry Pi</a>, a camera and a <a href="https://www.adafruit.com/product/385">temperature/humidity sensor</a> to monitor a vacant property.</p>
+          <p>He started with a Raspberry Pi Zero before switching to a Raspberry Pi 2 in order to avoid having to solder the fiddly header pins. It sounds as though getting everything hooked up was relatively straight forward although he spent quite a long time trying to ensure that it’d all work correctly once he’d left it running.</p>
+          <p>He’s using a <a href="http://www.three.co.uk/Discover/Devices/Huawei/E5573_4G_Mobile_Wi-Fi">Three MiFi</a> device to provide the internet connection and <a href="https://sourceforge.net/p/ddclient/wiki/">ddclient</a> in conjunction with <a href="https://www.dnsdynamic.org/">DynamicDNS</a> to give it a memorable name that he can connect to. <a href="http://elinux.org/RPi-Cam-Web-Interface">A web interface</a> running on the Raspberry Pi provides access to the camera while the temperature and humidity data is being captured and recorded in a Google Spreadsheet by a <a href="https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging">Python script</a>.</p>
+          <p>James has run into a couple of problems since leaving it all set-up. The DNS address doesn’t always resolve (possibly because of the frequency at which the MiFi device obtains a new IP address?) and the temperature/humidity logging stopped when James renamed the spreadsheet it was writing to! It turns out that the script he’s using relies on finding the spreadsheet by name instead of key.</p>
+          <p>James has since been back to the property to restart the temperature/humidity logging and to open up a port for SSH so that he can remotely fix these sort of problems in future. He’s also switched to a different dynamic DNS service, <a href="http://changeip.com/">ChangeIP</a>, which seems to provide a more reliable DNS lookup.</p>
+          <hr>
+          <h2 id="james-m---chess-board-hacking">James M - Chess board hacking</h2>
+          <p>James went on to show us the progress he’s making on hacking the computer chess board he’s recently purchased. He’s managed to desolder the existing ribbon cable and solder on a header in its place. Unfortunately, the small size of the board means that he’s had to cut a hole for the header instead of having it all tucked away out of sight. The next step is to connect the chess board to a <a href="https://www.pjrc.com/teensy/">Teensy</a> that he’s got wired up in a <a href="https://en.wikipedia.org/wiki/Breadboard">breadboard</a>.</p>
+          <hr>
+          <h2 id="ben-g---chess">Ben G - Chess</h2>
+          <p><img alt="Ben G talking about chess at Show &amp; Tell 26" src="/images/blog/2016-12-14-show-and-tell-27-ben-g-chess.jpg"></p>
+          <p>Ben was going to talk about getting side-tracked while trying to write a blog post. But he got side-tracked and talked about chess instead. Well, at least for a minute anyway.</p>
+          <p>Ben continued the chess theme by showing us this <a href="http://www.60wo.com/uncategorized/13/finding-surprising-moves-in-chess-games.html">blog post about surprising moves in chess games</a> (this appears to be down at the moment but the <a href="http://webcache.googleusercontent.com/search?q=cache:7Z_mVsRwYqkJ:www.60wo.com/uncategorized/13/finding-surprising-moves-in-chess-games.html+&amp;cd=9&amp;hl=en&amp;ct=clnk&amp;gl=uk">Google Cache version</a> seems to work). The author used <a href="https://stockfishchess.org/">Stockfish</a> and <a href="https://github.com/niklasf/python-chess">python-chess</a> to highlight moves that might seem counterintuitive to a novice observer but turn out to be advantageous in the long term.</p>
+          <hr>
+          <h2 id="ben-g---blog-posts-and-distractions">Ben G - Blog posts and distractions</h2>
+          <p><img alt="Ben G talking about Viewpoints Research Initiative at Show &amp; Tell 26" src="/images/blog/2016-12-14-show-and-tell-27-ben-g-nile.jpg"></p>
+          <p>Ben talked about a <a href="https://techbelly.github.io/writing/Hough-Transform/">blog post he wrote</a> in order to help him understand the <a href="https://en.wikipedia.org/wiki/Hough_transform">Hough Transform</a>: the image recognition technique he’s been using to try to recognise pieces on a chess board. He’d mostly finished writing the post when he started to investigate how to animate the illustrations he’d included to help explain the maths. This proved much harder than expected and resulted in a 6 week detour into the work of Alan Kay’s <a href="http://www.vpri.org/">Viewpoints Research Institute</a>.</p>
+          <p>Ben gave us a bit of an overview of STEPS (STEPS Toward Express Programming Systems) and the <a href="https://github.com/damelang/nile">Nile programming language</a>. One of the goals of STEPS is for it to be written in a maximum of 20,000 lines of code:</p>
+          <blockquote>
+            <p>We set a limit of 20,000 lines of code to express all of the “runnable meaning” of personal computing (“from the end‐user down to the metal”) where “runnable meaning” means that the system will run with just this code (but could have added optimizations to make it run faster).</p>
+          </blockquote>
+          <p>I’ve not been able to find a canonical set of information about the STEPS project. The information appears to be spread across <a href="http://www.vpri.org/html/writings.php">multiple reports on the VPRI site</a> with the most up to date report being <a href="http://www.vpri.org/pdf/tr2012001_steps.pdf">“STEPS Toward he Reinvention of Programming, 2012 Final Report”</a>.</p>
+          <hr>
+          <h2 id="edward---indexing-books--chess">Edward - Indexing books (+ chess)</h2>
+          <p><img alt="Edward at Show &amp; Tell 26" src="/images/blog/2016-12-14-show-and-tell-27-edward.jpg"></p>
+          <p>Edward showed us a recent project he’s been working on to build a <a href="https://edwardbetts.com/monograph/">“Google books for all the books I’ve read”</a>.</p>
+          <p>A voracious reader; he’s been manually recording anecdotes and the books they appear in for a while. He’s interested in seeing the same anecdote repeated by different authors; possibly pointing at some relationship between those texts.</p>
+          <p>He’s recently improved this manual process by indexing the content of all the books he’s read in order to automatically track phrases he’s interested in. He’s using <a href="http://lucene.apache.org/solr/">Solr</a> to index the content and was pleasantly surprised by how little programming he had to do. It sounds as though most of the work is in configuring Solr by, for example, enabling the searching of <a href="https://en.wikipedia.org/wiki/Stop_words">stop words</a> as they often appear in the phrase he’s interested.</p>
+          <p>He’s currently indexing all the content of the book but can imagine a further improvement where he ignores things like the table of contents and notes.</p>
+          <p>Fortunately, Edward was able to appease our need for chess related things by showing us results for <a href="https://edwardbetts.com/monograph/first_square_of_the_chessboard">“first square of the chessboard”</a> and <a href="https://edwardbetts.com/monograph/Freestyle_chess">“Freestyle chess”</a> (which is apparently combinations of humans and computers playing against each other!)</p>
+          <p>Edward includes his Amazon affiliate link on the links to the books that appear in his search results. I was interested to hear that Amazon don’t attempt to redirect the visitor to the Amazon store for their country and always send them to amazon.com instead. Apparently there are third party libraries that offer this functionality but they do so at the cost of injecting their own affiliate links every so often.</p>
+          <hr>
+          <h2 id="rob-c---performance-testing-with-mocks">Rob C - Performance testing with mocks</h2>
+          <p><img alt="Rob C at Show &amp; Tell 26" src="/images/blog/2016-12-14-show-and-tell-27-rob-c.jpg"></p>
+          <p>Rob was interested in feedback on an idea he’s been exploring about being able to test the performance of a system in a simulated environment.</p>
+          <p>He’s wondering whether it’d be possible to capture the performance characteristics of various components in a system such that you could test the impact of any changes without having to deploy to a production-like environment and use production-like data.</p>
+          <p>Rob mentioned a paper titled <a href="https://scholar.google.co.uk/citations?view_op=view_citation&amp;hl=en&amp;user=fj5MiWsAAAAJ&amp;citation_for_view=fj5MiWsAAAAJ:MXK_kJrjxJIC">“Runtime metric meets developer: building better cloud applications using feedback”</a> that explores some similar ideas: specifically the idea of making runtime data (e.g. performance) available at development time.</p>
+          <p>If anyone has any thoughts about this I’m sure <a href="https://www.doc.ic.ac.uk/~rbc/">Rob</a> would appreciate you getting in touch.</p>
+          <hr>
+          <h2 id="show--tell-28">Show & Tell 28</h2>
+          <p>Please <a href="/contact">get in touch</a> if you’re interested in joining us for the next Show & Tell on Wednesday 11th January 2017!</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='show-and-tell_list' reversed="">
+            <li value="6">
+              <a href="/show-and-tell-33">Show and Tell 33</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-32">Show and Tell 32</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-31">Show and Tell 31</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-30">Show and Tell 30</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-29">Show and Tell 29</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-28">Show and Tell 28</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

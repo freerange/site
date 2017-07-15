@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 186 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Saturday 11th August, 2012</p>
+        <div class='author'>
+          <img alt='James Adam' src='images/people/james-adam.jpg'> <span>by James Adam</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-186">Week 186</h1>
+          <p>We’re trying to establish a rhythm after “<em>The Meeting</em>” (as mentioned by <a href="/week-184">Tom</a> and <a href="/week-185">Chris</a> in previous weeks), and at the moment we are splitting our time evenly between client work and our own (nefarious) agenda.</p>
+          <p>Welcome to Week 186! <a href="#comments">Now with commenting</a> for your thought-expressing pleasure.</p>
+          <h2 id="the-client-work">The client work</h2>
+          <p>The bulk of our effort for <a href="http://digital.cabinetoffice.gov.uk">GDS</a> over recent weeks has been working on the <a href="https://www.gov.uk/specialist">specialist guides part of the single domain</a>, which was <a href="http://digital.cabinetoffice.gov.uk/2012/08/08/shipping-new-formats-the-gov-uk-international-trade-release/">launched this week</a>. This content – “specialist guidance” – is managed by the same software that we built for <a href="/inside-government">Inside Government</a>, but it marks the start of a closer integration between that and the “mainstream” content at <a href="https://www.gov.uk">the root of gov.uk</a>.</p>
+          <p>You can see some of that integration in the search results; from <a href="https://www.gov.uk/specialist/search?q=animals">both specialist</a> and <a href="https://www.gov.uk/search?q=animals">the main site</a> you’ll find links to relevant content in both parts of the site.</p>
+          <p>I’m not sure I can say that Unicorn is happily galloping without issue yet, but compared to <a href="/week-185">previous weeks</a> deployment has pretty much returned to the uneventful process that it ought to be.</p>
+          <h3 id="sinatra-and-the-weight-of-software">Sinatra and the weight of software</h3>
+          <p>A conversation at GDS got me thinking about whether or not <a href="http://sinatrarb.com">Sinatra</a> is an appopriate choice for production web systems. I can see the appeal: you can start with an application that’s just a single file, and as a single script it’s very quick to examine how the application works.</p>
+          <p>That said, I’ve got a few concerns about its use in <em>this</em> environment. Sinatra applications tend to become harder to maintain over time, precisely because of the <em>carte blanche</em> they give you at the start. Without a concerted effort to keep that script well factored, it’s not unsual to find yourself a few months later with a spaghetti of top-level methods and configuration.</p>
+          <p>Speaking of configuration, the specific hurdle I hit this week was adding exception mailing to a Sinatra application. Sure, <a href="https://github.com/rack/rack-contrib/blob/master/lib/rack/contrib/mailexceptions.rb">there’s some basic middleware</a>, but if I want to send that email via <a href="http://aws.amazon.com/ses/">Amazon’s Simple Email Service</a> rather than your own SMTP server? Time to roll my sleeves up.</p>
+          <h4 id="how-heavy-is-a-kilobyte">How heavy is a kilobyte?</h4>
+          <p>That’s all just programming though; with enough effort you can keep Sinatra applications maintainable, and with appropriate 3rd-party abstractions there’s no reason why Sinatra should have to help me integrate things like exception handling and emailing. What I find more interesting are the perceptions that lead to the choice of Sinatra in the first place: ideas like “I only want to build a simple app”, or “Rails is too heavyweight for this”, and so on. I find the idea of of the <em>weight</em> of software really interesting. I’m also quite wary of it.</p>
+          <p>I think some of it stems from past experience of slow Rails environment startup when running tests or starting web servers. This slowness translates in our minds to heavyness. But in reality, Rails is not the source of the slowness – it’s merely complicit. Take an empty Rails application and run <code>rake routes</code>, and it returns in less than a second. It’s only when your application has become larger that the environment starts to slow down, so really <strong>the weight is from your own application</strong>, and Rails is simply flexing underneath this burden.</p>
+          <h4 id="the-simplicity-fallacy">The simplicity fallacy</h4>
+          <p>It’s not just “weight”, either; there are other subtle ideas in play, like “<em>I’m building a simple thing, so all the software in my stack should be simple</em>”, which is a notion that I’m also suspicious of. What I believe is important is that my framework allows me to <em>express</em> my implementation in a simple, comprehensible way; the number of lines of code it might use to help me achieve that is largely irrelevant.</p>
+          <p>Finally, I think you need to consider the motivations of the maintainers of the tools you’re using, and how aligned they are with yours; if you care most about speed, but they prioritise having an elegant DSL or integrating with multiple ORMs, then while a tool might suit your needs now, that may not be in the case at some point in the future.</p>
+          <p>To be clear, <strong>I’m absolutely not saying that Sinatra is bad software</strong>. I just think we need to be confident that we are evaluating tools using sound and broad criteria.</p>
+          <p><a href="#comments">Maybe you disagree</a>? I’d love to explore this more.</p>
+          <h2 id="our-nefarious-agenda">Our (nefarious) agenda</h2>
+          <p>This week I finished off our first pass at the core of what will become the next version of <a href="http://exciting.io/harmonia">Harmonia</a>, the tool we use to manage tasks and chores within our company. This is one of the ideas that we’re hoping other people might find useful. Alas there’s not much to see beyond library code at the moment, but hopefully soon we’ll be able to talk more about how it works. I think we have some really good ideas that I’m looking forward to sharing.</p>
+          <p><a href="/tom-ward">Tom</a> has spent some time working on a tool to wrangle <a href="http://unicorn.bogomips.org/">Unicorn</a>s, since that’s a problem that we’ve experienced both in our work with <a href="http://digital.cabinetoffice.gov.uk">GDS</a>, and in our own projects.</p>
+          <p>It’s been another <a href="/mocha">Mocha</a> week for <a href="/james-mead">James M</a>, as he’s been performing some very delicate refactoring that he’s been working on for a few weeks. Integrating with the idiosyncrasies of various test frameworks, particularly as they themselves evolve, requires a lot of effort – perhaps more than the legions of Mocha users might realise.</p>
+          <p>As <a href="/chris-roos">Chris</a> mentioned in <a href="/week-185">his notes last week</a>, he’s been working on his bookmarking/research tool experiment <a href="https://github.com/chrisroos/roosmarks">roosmarks</a>, the development of which <a href="https://github.com/chrisroos/roosmarks/commits/master">you can follow on github</a>.</p>
+          <p>Next week it’s just Chris and I holding down the fort, as James M is competing in the <a href="http://gp14worlds.com/">GP14 World Championship</a> (good luck James!), and Tom is on the first of two consecutive breaks, this one to Turkey.</p>
+          <h3 id="finally-comments">Finally: Comments</h3>
+          <p>As an experiment, we’ve decided to add commenting to our blog, to hopefully facilitate conversations with people who might be interested in how we work and the software we’re building. <a href="http://www.youtube.com/watch?v=mogfCoM8vtc">Speak your brains</a>!</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

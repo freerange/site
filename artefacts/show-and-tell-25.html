@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Show and Tell 25 — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/show-and-tell-events' title='Go to Show and Tell index'>Show and Tell index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 14th October, 2016</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="show-and-tell-25">Show and Tell 25</h1>
+          <p><a href="/james-mead">James</a> and I were joined by <a href="https://twitter.com/beng">Ben G</a>, <a href="http://codon.com/">Tom S</a>, <a href="http://pmanrubia.info/">Pablo</a> and <a href="http://edwardbetts.com/">Edward Betts</a> for our 25th Show & Tell.</p>
+          <p>We hired the same meeting room at <a href="http://forgeandco.co.uk/">Forge & Co</a> given that it seemed to work well last month.</p>
+          <p><img alt="Show &amp; Tell 25 at Forge &amp; Co" src="/images/blog/2016-10-12-show-and-tell-25-group.jpg"></p>
+          <p>Credit goes to Tom S for taking some photos during the evening. Thanks, Tom!</p>
+          <hr>
+          <h2 id="disney-infinity">Disney Infinity</h2>
+          <p><img alt="Ben at Show &amp; Tell 25" src="/images/blog/2016-10-12-show-and-tell-25-ben.jpg"></p>
+          <p>Ben G started the evening by talking about reverse engineering the <a href="https://en.wikipedia.org/wiki/Disney_Infinity">Disney Infinity portal</a>. Having been recently discontinued Ben wondered whether he could repurpose it for other things. Being off work with a bad back (and while high on painkillers) gave him the perfect opportunity to start exploring the device.</p>
+          <p>He didn’t have a USB sniffer to intercept traffic in real time but he did have 4 files containing traffic dumps that he’d managed to download from a now-deleted forum post.</p>
+          <p>Sadly, despite his altered state of mind, he wasn’t able to gain much insight by simply reading the hex dumps; aside from noticing that the messages all started with AA or FF, with the exception of a small number of ABs.</p>
+          <p>Ben used Python (having failed to get a Ruby USB library to work) to start sending the messages to the base. Through trial and error he slowly built up an understanding of how the messages worked to control the portal. The AA lines represented messages sent to the base and the FF lines represented the responses. He found the handshake message required to start communicating with the portal, the length part of the message, the checksum part of the message and the identifier that allowed him to tie the input and output messages together. He eventually realised that AB messages were messages triggered by a change on the base, e.g. adding/removing a character.</p>
+          <p>Ben was able to use all this understanding to create a script that changes the colours on the base depending on the characters that are present. This is all codified in the <a href="https://github.com/techbelly/di-usb-library">Disney Infinity USB Base library</a> if you want to play along at home.</p>
+          <p>Ben’s now wondering what else he can do to build on these foundations. Any ideas?</p>
+          <hr>
+          <h2 id="mocha-and-the-showstopper-ruby-bug">Mocha and the showstopper Ruby bug</h2>
+          <p><img alt="James at Show &amp; Tell 25" src="/images/blog/2016-10-12-show-and-tell-25-james.jpg"></p>
+          <p>James M used the whiteboard to explain how a change in the recent <a href="https://github.com/freerange/mocha/commit/fdbbc058eb15f11681208dccf86510e8d920982e">1.2 release of Mocha</a> led to the discovery of a “showstopper” bug in Ruby.</p>
+          <p>The latest version of <a href="https://github.com/freerange/mocha">Mocha</a> uses prepended modules to insert the stubbed implementation of a method wherever possible. Unfortunately, it turns out that a <a href="https://bugs.ruby-lang.org/issues/12832">combination of prepended modules, setting method visibility and then getting the method object can cause the Ruby interpreter to enter into an infinite loop</a>!</p>
+          <p>In potentially positive news, while discussing the problem, we realised that it might be possible to work around this Ruby bug in Mocha.</p>
+          <hr>
+          <h2 id="houseboat-renovation">Houseboat renovation</h2>
+          <p><img alt="Chris at Show &amp; Tell 25" src="/images/blog/2016-10-12-show-and-tell-25-chris.jpg"></p>
+          <p>I spoke about some of the houseboat renovations I’ve been doing. We bought a houseboat about 8 weeks ago and have slowly been learning about all the work it needs. It’s become somewhat all consuming so I figured I’d share a bit about what I’ve been up to and what I’ve learnt along the way.</p>
+          <hr>
+          <h2 id="improving-wikipedia">Improving Wikipedia</h2>
+          <p><img alt="Edward at Show &amp; Tell 25" src="/images/blog/2016-10-12-show-and-tell-25-edward.jpg"></p>
+          <p>Edward started by demonstrating <a href="http://edwardbetts.com/find_link">Find link</a>: a tool he’s built to help identify text in Wikipedia articles that should be linked.</p>
+          <p>Using this tool to improve Wikipedia means that he’s currently hovering just outside the <a href="https://en.wikipedia.org/wiki/Wikipedia:List_of_Wikipedians_by_number_of_edits#1.E2.80.931000">top 500 in the league table of Wikipedians by number of edits</a>!</p>
+          <p>I was interested to learn that the rules around whether something should be linked appear to be fairly subjective. Apparently it’s common knowledge in the community that “electricity” shouldn’t be linked but it doesn’t sound as though there are a formal set of rules that help you decide in each case.</p>
+          <hr>
+          <h2 id="improving-openstreetmap">Improving OpenStreetMap</h2>
+          <p>Edward went on to talk about his effort to use <a href="https://www.wikidata.org/">Wikidata</a> to help improve <a href="https://www.openstreetmap.org/">OpenStreetMap</a>.</p>
+          <p>Wikidata is a Wikimedia project containing structured data (i.e. machine readable). For example, it contains a link to the various translations of a Wikipedia article: data that was (and maybe still is) stored as text in Wikipedia itself.</p>
+          <p>Every entity in Wikidata has a unique identifier that Edward’s proposing to add to OSM where appropriate. This would allow you to link from OSM to Wikidata to find further information about a location. For example, a link from <a href="https://www.openstreetmap.org/way/264532955">Wilton’s Music Hall on OSM</a> to <a href="https://www.wikidata.org/wiki/Q8023341">Wilton’s Music Hall on Wikidata</a> would allow you to further navigate to the <a href="https://www.historicengland.org.uk/listing/the-list/list-entry/1065173">entry on the Historic England website</a>.</p>
+          <p>Edward has written software that allows him to find matches between OSM places and the corresponding entries in Wikidata (<a href="http://edwardbetts.com/osm-wikidata/">see the matched data on Edward’s website</a>). He first <a href="https://lists.openstreetmap.org/pipermail/talk/2014-August/070617.html">posted to the OSM list about this in August 2014</a> but has experienced some resistance to the idea. As well as some general scepticism about its utility, it sounds as though part of the problem is related to the difference between the US/European definition of copyright and specifically about whether a database is subject to copyright. Having got fed up with the continued discussions he decided to start submitting the changes to OSM. Unfortunately he’s been blocked which means that he now needs to find an alternative approach.</p>
+          <hr>
+          <h2 id="managing-dotfiles">Managing dotfiles</h2>
+          <p><img alt="Pablo at Show &amp; Tell 25" src="/images/blog/2016-10-12-show-and-tell-25-pablo.jpg"></p>
+          <p>Pablo wanted to do a clean install of OS X on his laptop but didn’t want to have to spend ages trying to remember/learn what he needed to install to get it all back up and running.</p>
+          <p>He did some research and came across <a href="https://robots.thoughtbot.com/rcm-for-rc-files-in-dotfiles-repos">Thoughtbot’s rcm</a>: a “management suite for dotfiles”. He used this to get his existing dotfiles in order so that he could be confident he wouldn’t lose anything after the reinstall.</p>
+          <p>He also came across <a href="https://github.com/Homebrew/homebrew-bundle">Homebrew Bundle</a>: “Bundler for non-Ruby dependencies from Homebrew” (see the <a href="https://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew">brewfile blog post</a> for more info). This allows you to list the Homebrew packages you want installed and store them alongside your dotfiles. It turns out that you can additionally use the <a href="https://github.com/mas-cli/mas">mas-cli</a> command line interface to the Mac App Store so that you can also list/install your App Store apps from the Brewfile.</p>
+          <p>I can imagine adding the Brewfile to my dotfiles repo and potentially switching to rcm instead of my current home grown solution.</p>
+          <hr>
+          <h2 id="show-and-tell-26">Show and Tell 26</h2>
+          <p><a href="/contact">Get in touch</a> if you’re interested in joining us for the next Show and Tell on Wednesday 9th November.</p>
+          <p>– Chris</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='show-and-tell_list' reversed="">
+            <li value="6">
+              <a href="/show-and-tell-33">Show and Tell 33</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-32">Show and Tell 32</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-31">Show and Tell 31</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-30">Show and Tell 30</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-29">Show and Tell 29</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-28">Show and Tell 28</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

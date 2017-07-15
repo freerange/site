@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 404 - Interesting links — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Thursday 13th October, 2016</p>
+        <div class='author'>
+          <img alt='James Mead' src='images/people/james-mead.jpg'> <span>by James Mead</span>
+        </div>
+        <div class='content'>
+          <h1 id="week-404---interesting-links">Week 404 - Interesting links</h1>
+          <h3 id="english-man-spends-11-hours-trying-to-make-cup-of-tea-with-wi-fi-kettlehttpswwwtheguardiancomtechnology2016oct12english-man-spends-11-hours-trying-to-make-cup-of-tea-with-wi-fi-kettle"><a href="https://www.theguardian.com/technology/2016/oct/12/english-man-spends-11-hours-trying-to-make-cup-of-tea-with-wi-fi-kettle">English man spends 11 hours trying to make cup of tea with Wi-Fi kettle</a></h3>
+          <p>Chris pointed me at this amusing article. He said it reminded him of my <a href="/week-216#just-boiled">Just Boiled project</a> from 3 years ago which I’d completely forgotten about! <em>— <a href="/james-mead">JM</a></em></p>
+          <h3 id="hackpadhttpsgithubcomdropboxhackpad"><a href="https://github.com/dropbox/hackpad">Hackpad</a></h3>
+          <p>I recently spent a bit of time investigating <a href="https://github.com/gollum/gollum">Gollum</a>, the git-backed wiki. I’m interested in a wiki-like thing both for personal & company use. I’d completely forgotten that Dropbox has open-sourced <a href="https://hackpad.com/">Hackpad</a> and recently had a go at firing it up on my laptop. <em>— <a href="/james-mead">JM</a></em></p>
+          <h3 id="big-decision-ahead-just-roll-the-dicehttptimharfordcom201610big-decision-ahead-just-roll-the-dice"><a href="http://timharford.com/2016/10/big-decision-ahead-just-roll-the-dice/">Big decision ahead? Just roll the dice</a></h3>
+          <p>We already <a href="https://harmonia.io">use randomness in the assignment of tasks</a> within our company. Perhaps we should be using it to help us make difficult decisions!</p>
+          <blockquote>
+            <p>[…] most of us could do with a little more randomness in our lives. The roll of a die or the toss of a coin can actually help us make better decisions.</p>
+            <p>[…] by pre-committing to follow a random instruction, we can end up making decisions that we should have been making all along.</p>
+          </blockquote>
+          <p>Definitely food for thought! <em>— <a href="/james-mead">JM</a></em></p>
+          <h3 id="crash-how-computers-are-setting-us-up-for-disasterhttpswwwtheguardiancomtechnology2016oct11crash-how-computers-are-setting-us-up-disaster"><a href="https://www.theguardian.com/technology/2016/oct/11/crash-how-computers-are-setting-us-up-disaster">Crash: how computers are setting us up for disaster</a></h3>
+          <p>This article starts by talking about the causes of the crash of Air France flight 447. It suggests that, because of automation, modern pilots often have very little experience of flying a plane manually, but may be called upon to do so under extreme circumstances as in this plane crash. It talks about this as the <a href="https://en.wikipedia.org/wiki/Automation#Paradox_of_Automation">paradox of automation</a>:</p>
+          <blockquote>
+            <p>The better the automatic systems, the more out-of-practice human operators will be, and the more extreme the situations they will have to face.</p>
+          </blockquote>
+          <p>There’s a nice story about <a href="https://thinkbicyclingblog.wordpress.com/2013/06/13/hans-mondermans-people-friendly-dutch-squareabout/">Monderman’s squareabout</a> too. All in all an excellent read. <em>— <a href="/james-mead">JM</a></em></p>
+          <h3 id="herokus-release-phasehttpsdevcenterherokucomarticlesrelease-phase"><a href="https://devcenter.heroku.com/articles/release-phase">Heroku’s Release Phase</a></h3>
+          <p>I came across this new(ish) Release Phase while trying to work out how to automatically run database migrations when deploying a Rails app to Heroku. I was previously using the <a href="https://github.com/gunpowderlabs/buildpack-ruby-rake-deploy-tasks">ruby-rake-deploy-tasks buildpack</a> to run <code>rake db:migrate</code> but that doesn’t work <a href="https://gist.github.com/chrisroos/57b7c4d7750cdbc0fb96a131403526da">when deploying for the first time</a>. Using the release phase ensures the task is run <em>after</em> deployment which means that it works irrespective of whether it’s the very first deploy or not. <em>— <a href="/chris-roos">CR</a></em></p>
+          <h3 id="hamachi-vpnhttpswwwvpnnet"><a href="https://www.vpn.net/">Hamachi VPN</a></h3>
+          <p>I rediscovered this when James and I were experimenting with remote pairing again recently. This software allowed us to both join a VPN so that we could use the Mac Screen Sharing app to both control the same screen. This seems to be a pretty good alternative to the <a href="https://screenhero.com/">Screenhero</a> functionality that’s now only available with paid Slack plans. <em>— <a href="/chris-roos">CR</a></em></p>
+          <h3 id="time-lapse-footage-of-earth-from-isshttpsimgurcom9an6xzf"><a href="https://imgur.com/9An6xzf">Time lapse footage of earth from ISS</a></h3>
+          <p>I love this little time-lapse of earth. A little research about the footage lead me to this <a href="http://www.ustream.tv/channel/iss-hdev-payload">livestream of earth from the ISS</a> and this <a href="http://www.lizard-tail.com/isana/tracking/">map tracking the ISS</a>. I find the live stream mesmerising and can imagine losing a lot of time watching it. <em>— <a href="/chris-roos">CR</a></em></p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

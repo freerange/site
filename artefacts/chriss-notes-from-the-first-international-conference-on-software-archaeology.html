@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href="/stylesheets/screen.css" rel="stylesheet" title="screen" type="text/css">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel='alternate' title='Go Free Range Blog' type='application/atom+xml'>
+  <script src='http://use.typekit.com/rny4upv.js' type='text/javascript'>
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Chris's notes from The First International Conference on Software Archaeology — Go Free Range.</title>
+</head>
+<body class='blog'>
+  <div id='page'>
+    <div class='group' id='header'>
+      <ul class='nav group' id='blog_nav'>
+        <li id='link_home'>
+          <p>Visit our <a href='/'>company website</a></p>
+        </li>
+        <li id='link_rss'>
+          <p>Grab the <a href='http://feeds.gofreerange.com/GoFreeRangeBlog' title='RSS Feed from Feedburner'>RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id='logo'><a href='/blog' title='Go to blog index'>Blog index</a></h1>
+    </div>
+    <div class='group' id='content'>
+      <div class='blog_entry group'>
+        <p class='article_date'>Friday 07th February, 2014</p>
+        <div class='author'>
+          <img alt='Chris Roos' src='images/people/chris-roos.jpg'> <span>by Chris Roos</span>
+        </div>
+        <div class='content'>
+          <h1 id="chris-notes-from-the-first-international-conference-on-software-archaeology">Chris’ notes from The First International Conference on Software Archaeology</h1>
+          <p><em>NOTE.</em> This is <a href="http://chrisroos.co.uk/blog/2014-02-07-notes-from-the-first-international-conference-on-software-archaeology" rel="canonical">cross-posted from my personal blog</a>.</p>
+          <p><a href="http://jamesmead.org/">James</a> and I attended <a href="http://ticosa.org/">The First International Conference on Software Archaeology</a> last week.</p>
+          <p>I’ve spent some time going through the notes I made and have categorised the things I took from the presentations into three broad themes. I’m not sure how effective a picture this paints for anyone that wasn’t there but hopefully there’s something useful in here. For an alternative overview, please see <a href="http://www.fatvat.co.uk/2014/02/the-first-international-conference-on.html">Jeff Foster’s TICOSA writeup</a> or the <a href="http://ticosa.org/sessions.html">TICOSA sessions</a> page which contains some of the presentation slides.</p>
+          <p>The three broad themes are analysing legacy code (the past), working on legacy code (the present) and helping our future selves (the future).</p>
+          <h2 id="analysing-legacy-code">Analysing legacy code</h2>
+          <p><em>I think the main thing I took away from this theme was that there’s quite a lot of work going into what still appears to be a fairly new idea.</em></p>
+          <p><a href="https://twitter.com/mfeathers">Michael Feathers</a> demonstrated the use of his <a href="https://github.com/michaelfeathers/delta-flora">delta-flora</a> tool to analyse Ruby projects over the history of the git repository.</p>
+          <p><a href="https://twitter.com/dmitrykandalov">Dmitry Kandalov</a> demonstrated his <a href="https://github.com/dkandalov/code-history-mining">code-history-mining IntelliJ plugin</a> that was inspired by Michael’s delta-flora.</p>
+          <p><a href="https://twitter.com/robsmallshire">Robert Smallshire</a> showed us a number of ways of visualising complexity, including maps of complexity density, and explained how we can use these to identify areas of concern in a system.</p>
+          <p><a href="https://twitter.com/stephaneducasse">Stéphane Ducasse</a> told us that having to maintain software means that the software is useful and successful. So, maintenance is a good thing but we can often benefit from dedicated tools that help us understand our specific problems.</p>
+          <h2 id="working-on-legacy-code">Working on legacy code</h2>
+          <p><em>The main thing I took away from this theme was the reinforcement of my belief that we shouldn’t be so quick to think that we can improve something by throwing it away and rewriting it.</em></p>
+          <h3 id="avoiding-the-temptation-to-throw-away-whats-there">Avoiding the temptation to throw away what’s there</h3>
+          <p>Stéphane Ducasse reminded us that, “Early decisions were certainly good at that time”</p>
+          <p><a href="https://twitter.com/keithb_b">Keith Braithwaite</a> explained that different types of people approach problems in slightly different ways: Computer scientists might prefer a single longer method that contains all the logic, while OO advocates might prefer many smaller methods. There are merits to both approaches and we should remember that projects coded in a style different to our own aren’t wrong; they’re just different.</p>
+          <p><a href="https://twitter.com/chrisoldwood">Chris Oldwood</a>’s lightning talk <a href="https://twitter.com/dmitrykandalov/status/429401314234494977">contained a paraphrased quote</a> (coined by either <a href="http://en.wikiquote.org/wiki/Talk:Robert_Frost">Robert Frost</a> or <a href="http://platitudesundone.blogspot.co.uk/2010/04/dont-take-fence-down-until-you-know-why.html">G.K. Chesterton</a>) that really resonated with me:</p>
+          <blockquote>
+            <p>Don’t ever take a fence down until you know why it was put up</p>
+          </blockquote>
+          <p><a href="https://twitter.com/stuartcurran">Stuart Curran</a> reminded us of George Santayana’s quote, “Those who cannot remember the past are condemned to repeat it”</p>
+          <h3 id="using-tools-to-get-an-overview-of-the-code-were-working-on">Using tools to get an overview of the code we’re working on</h3>
+          <p>Michael Feathers (using delta-flora), Dmitry Kandalov (using his IntelliJ plugin) and Robert Smallshire (in his dependency structure matrices) all demonstrated ways of visualising which parts of the system are tightly coupled.</p>
+          <h2 id="helping-our-future-selves">Helping our future selves</h2>
+          <p><em>The main thing I took away from this theme was that code will be around for longer than we expect and we should do our best to help our future selves.</em></p>
+          <p>Stéphane Ducasse reminded us that software is a living entity and will probably survive for longer that we might imagine. Stéphane gave examples of military and insurance systems that have been around for 15/20 years, which seemed like a long time until I realised that <a href="https://github.com/freerange/mocha">Mocha</a> has been around for about <a href="https://github.com/freerange/mocha/commit/df720ef11f8cdb21cf5dfbc5f84f35e325fa8258">8 years</a>.</p>
+          <p>Robert Smallshire showed some graphs that suggest code is likely to outlast most other aspects of an organisation. By the time you’re working on a 20 year old codebase, you’re probably working in a team where only 20% have been around from the beginning.</p>
+          <p>Michael Feathers suggested we be more aware of how seemingly unrelated factors can affect the complexity of our code. He used the fascinating example of how <a href="http://www.wired.com/wiredscience/2011/04/judges-mental-fatigue/">parole is more likely to be granted at certain times of day</a> to illustrate the sort of things we could be looking for.</p>
+          <p>I loved <a href="https://twitter.com/mattwynne">Matt Wynne</a>’s metaphor that he uses to explain refactoring to non-developers: Think of developers as chefs, their output as meals and refactoring as keeping the kitchen clean. Matt also talked about analysing the commits in the new <a href="https://github.com/cucumber/cucumber-ruby-core">cucumber-ruby-core project</a> and saying that he thinks that about 75% of the commits are refactoring commits.</p>
+          <p><a href="https://twitter.com/danielbrolund">Daniel Brolund</a> described how to use the Mikado method to ensure that we’re always reshaping the system to get it into a state that’s ready to accept new changes.</p>
+          <p><a href="https://twitter.com/ivanrmoore">Ivan Moore</a> gave us some practical advice about <a href="http://puttingtheteaintoteam.blogspot.co.uk/2014/02/making-life-easier-for-future-software.html">being kind to our future selves in his lightning talk</a>.</p>
+        </div>
+        <div class='comments' id='comments'>
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id='article_links'>
+        <h3>Recent</h3>
+        <div id='recent_articles' style="margin-left: 2em">
+          <ul class='blog_list' reversed="">
+            <li value="6">
+              <a href="/week-443">Week 443</a>
+            </li>
+            <li value="5">
+              <a href="/week-441">Week 441</a>
+            </li>
+            <li value="4">
+              <a href="/week-442">Week 442</a>
+            </li>
+            <li value="3">
+              <a href="/week-442-links">Week 442 - Interesting links</a>
+            </li>
+            <li value="2">
+              <a href="/week-440">Week 440</a>
+            </li>
+            <li value="1">
+              <a href="/week-440-links">Week 440 - Interesting links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script charset="utf-8" src="/javascripts/app.js" type="text/javascript">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
