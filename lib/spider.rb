@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'net/http'
 
 class Spider
   HOST, PORT = 'localhost', 9292
