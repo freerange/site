@@ -10,5 +10,6 @@ gem 'ratom'
 gem 'airbrake', '~> 4'
 
 group :development do
+  gem 'recap'
   gem 'timecop'
 end
