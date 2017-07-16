@@ -10,6 +10,7 @@ gem 'ratom'
 gem 'airbrake', '~> 4'
 
 group :development do
+  gem 'dotenv-rails'
   gem 'recap'
   gem 'timecop'
 end

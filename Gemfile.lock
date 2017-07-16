@@ -50,6 +50,10 @@ GEM
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
     concurrent-ruby (1.0.5)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubis (2.7.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
@@ -139,6 +143,7 @@ PLATFORMS
 
 DEPENDENCIES
   airbrake (~> 4)
+  dotenv-rails
   haml
   kramdown
   rails (~> 5.0.1)
