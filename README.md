@@ -32,8 +32,9 @@ So that we don't have to type our password when deploying.
 
 So that exceptions are reported to our Errbit app. You may need to create a new "app" within the Errbit instance in order to obtain the API key, which is "app"-specific.
 
+    $ cap env:set AIRBRAKE_PROJECT_ID=<id-for-this-app-within-errbit-app>
     $ cap env:set AIRBRAKE_API_KEY=<api-key-for-this-app-within-errbit-app>
-    $ cap env:set AIRBRAKE_HOST=<errbit-app-host>
+    $ cap env:set AIRBRAKE_HOST=<errbit-app-host-including-scheme>
 
 ### Configure secret key
 
