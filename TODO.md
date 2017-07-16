@@ -3,7 +3,6 @@
 * Use Rails recipe for recap deployment
 * Does content in Atom feed need HTML-escaping (validation?)
 * Validate RSS/Atom feed
-* Re-add Rake tasks for creating new week notes, etc
 
 ## Problems with existing version of site
 
