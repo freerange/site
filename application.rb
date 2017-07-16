@@ -9,6 +9,10 @@ require 'kramdown_renderer'
 random_seed = ENV['RANDOM_SEED']
 srand(random_seed.to_i) if random_seed
 
+require 'timecop'
+time_now = ENV['TIME_NOW']
+Timecop.freeze(Time.parse(time_now)) if time_now
+
 class Application < Vanilla::App
 end
 

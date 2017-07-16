@@ -11,6 +11,7 @@ group :development do
   gem "rake", "~> 10"
   gem "recap", :git => "https://github.com/freerange/recap.git"
   gem 'nokogiri'
+  gem 'timecop'
 end
 
 group :test do

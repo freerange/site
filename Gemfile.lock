@@ -56,6 +56,7 @@ GEM
       power_assert
     thor (0.19.1)
     tilt (2.0.7)
+    timecop (0.9.1)
     vanilla (2.0.0.beta)
       BlueCloth (>= 1.0.0)
       RedCloth (>= 4.1.1)
@@ -77,6 +78,7 @@ DEPENDENCIES
   rake (~> 10)
   recap!
   test-unit
+  timecop
   vanilla (>= 2.0.0.beta)
 
 RUBY VERSION
