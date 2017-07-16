@@ -1,4 +1,5 @@
 require 'atom'
+require 'action_controller/metal/exceptions'
 
 class PagesController < ApplicationController
   include ERB::Util
@@ -10,6 +11,10 @@ class PagesController < ApplicationController
   def show
     name = params.permit(:path)[:path]
     @snip = name.present? ? soup[name] : soup[ROOT_SNIP_NAME]
+    unless @snip.present?
+      render text: "Soup not found: #{name}", status: :not_found
+      return
+    end
     @author = soup[@snip.author]
     html = render_snip(@snip)
     layout = layout_for(@snip)
