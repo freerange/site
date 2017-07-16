@@ -12,7 +12,6 @@
 * Should we be using `Time.now` as a default in the atom entry ID?
   * Maybe better to fail fast?
 * RSS/Atom feed - validation warnings
-* Template for Rake tasks shouldn't be public pages nor in RSS/Atom feed
 
 ## Possible improvements
 

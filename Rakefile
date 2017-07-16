@@ -79,6 +79,8 @@ def existing_show_and_tell_event_numbers
   Site::Application.soup.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
 end
 
+templates = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/templates')))
+
 namespace :week do
   desc <<-DESC
   Displays the GFR week number from the date of incorporation.
@@ -116,7 +118,7 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task :create do
-      snip = Site::Application.soup['week-nnn']
+      snip = templates['week-nnn']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
@@ -169,7 +171,7 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task :create do
-      snip = Site::Application.soup['week-nnn-links']
+      snip = templates['week-nnn-links']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
@@ -222,7 +224,7 @@ namespace 'show-and-tell' do
   event number in the NUMBER environment variable.
   DESC
   task :create do
-    snip = Site::Application.soup['show-and-tell-nn']
+    snip = templates['show-and-tell-nn']
 
     next_event_number = existing_show_and_tell_event_numbers.max + 1
     event_number = (ENV['NUMBER'] || next_event_number).to_i
