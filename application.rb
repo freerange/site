@@ -6,9 +6,11 @@ require 'vanilla'
 require 'blog_renderer'
 require 'kramdown_renderer'
 
-require 'timecop'
-time_now = ENV['TIME_NOW']
-Timecop.freeze(Time.parse(time_now)) if time_now
+unless ENV["RACK_ENV"] == "production"
+  require 'timecop'
+  time_now = ENV['TIME_NOW']
+  Timecop.freeze(Time.parse(time_now)) if time_now
+end
 
 class Application < Vanilla::App
 end
