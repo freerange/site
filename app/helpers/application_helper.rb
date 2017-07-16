@@ -1,3 +1,5 @@
+require 'snip_renderer'
+
 module ApplicationHelper
   def article_date(time)
     suffix = case time.day
@@ -70,16 +72,8 @@ module ApplicationHelper
 
   def include_snip(name)
     snip = Site::Application.soup[name]
-    context = binding
-    content = ERB.new(snip.content).result(context)
-    html = case snip.extension
-    when 'haml'
-      Haml::Engine.new(content).render
-    when 'markdown'
-      Kramdown::Document.new(content).to_html
-    else
-      content
-    end
+    snip_renderer = SnipRenderer.new
+    html = snip_renderer.render(snip, binding)
     html.html_safe
   end
 

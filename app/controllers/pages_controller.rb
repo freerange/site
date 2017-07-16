@@ -1,5 +1,6 @@
 require 'atom'
 require 'action_controller/metal/exceptions'
+require 'snip_renderer'
 
 class PagesController < ApplicationController
   include ERB::Util
@@ -66,16 +67,9 @@ class PagesController < ApplicationController
   end
 
   def render_snip(snip)
+    snip_renderer = SnipRenderer.new
     context = view_context.instance_eval { binding }
-    content = ERB.new(snip.content).result(context)
-    case snip.extension
-    when 'haml'
-      Haml::Engine.new(content).render
-    when 'markdown'
-      Kramdown::Document.new(content).to_html
-    else
-      content
-    end
+    snip_renderer.render(snip, context)
   end
 
   def layout_for(snip)
