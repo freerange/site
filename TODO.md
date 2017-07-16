@@ -16,7 +16,6 @@
 
 ## Possible improvements
 
-* Remove vanilla-related code
 * Remove duplication across layouts
 * Use standard url_to method or at least distinguish custom url_to method from it
 * Only use one of HTML & HAML - I suggest we use HTML
