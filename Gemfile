@@ -5,6 +5,7 @@ gem 'soup'
 gem 'kramdown'
 gem 'haml'
 gem 'ratom'
+gem 'airbrake', '~> 4'
 
 group :development do
   gem 'timecop'

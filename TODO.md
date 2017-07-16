@@ -1,7 +1,6 @@
 ## Required changes to match existing version of site
 
 * Use Rails recipe for recap deployment if necessary
-* Add Airbrake for Errbit error reporting
 
 ## Problems with existing version of site
 
