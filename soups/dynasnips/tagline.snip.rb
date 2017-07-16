@@ -14,7 +14,8 @@ class Tagline < Dynasnip
      "We deliver software, hewn from <em>pure thought</em>, using a pickaxe made of <em>inspiration</em>.",
      "We are the unicorn-riding horsemen of the <em>awesome</em>pocalypse."
     ]
-    options[rand(options.length)]
+    index = ENV['TAGLINE_INDEX'] || rand(options.length)
+    options[index.to_i]
   end
 
   self
