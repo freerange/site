@@ -12,6 +12,7 @@
 * Should we be using `Time.now` as a default in the atom entry ID?
   * Maybe better to fail fast?
 * RSS/Atom feed - validation warnings
+* Template for Rake tasks shouldn't be public pages nor in RSS/Atom feed
 
 ## Possible improvements
 
@@ -24,3 +25,4 @@
 * Consider replacing blog_renderer_test
 * Remove unused assets e.g. most of Javascript?
 * Consider reinstating project image rendering
+* Extract Google Analytics account ID into env var
