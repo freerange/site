@@ -104,6 +104,7 @@ GEM
     thor (0.19.4)
     thread_safe (0.3.6)
     tilt (2.0.7)
+    timecop (0.9.1)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
     websocket-driver (0.6.5)
@@ -119,6 +120,7 @@ DEPENDENCIES
   rails (~> 5.0.1)
   ratom
   soup
+  timecop
 
 BUNDLED WITH
    1.14.5

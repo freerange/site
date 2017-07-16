@@ -5,3 +5,7 @@ gem 'soup'
 gem 'kramdown'
 gem 'haml'
 gem 'ratom'
+
+group :development do
+  gem 'timecop'
+end
