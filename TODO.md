@@ -1,6 +1,7 @@
 ## Required changes to match existing version of site
 
-* Use Rails recipe for recap deployment
+* Use Rails recipe for recap deployment if necessary
+* Add Airbrake for Errbit error reporting
 
 ## Problems with existing version of site
 
@@ -24,3 +25,5 @@
 * Use template/builder approach for sitemap & atom feed?
 * Use asset pipeline?
 * Consider replacing blog_renderer_test
+* Remove unused assets e.g. most of Javascript?
+* Consider reinstating project image rendering
