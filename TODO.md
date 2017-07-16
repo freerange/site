@@ -1,8 +1,6 @@
 ## Required changes to match existing version of site
 
 * Use Rails recipe for recap deployment
-* Does content in Atom feed need HTML-escaping (validation?)
-* Validate RSS/Atom feed
 
 ## Problems with existing version of site
 
@@ -14,6 +12,7 @@
 * Should we be using `Time.now` as a default in the atom entry ID?
   * Maybe better to fail fast?
 * Fail fast if included snip not found
+* RSS/Atom feed - validation warnings
 
 ## Possible improvements
 
