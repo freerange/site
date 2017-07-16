@@ -12,6 +12,7 @@
 * Should we be using `Time.now` as a default in the atom entry ID?
   * Maybe better to fail fast?
 * RSS/Atom feed - validation warnings
+* Consider hiding "partial" snips, e.g. "work", "company_info"
 
 ## Possible improvements
 
