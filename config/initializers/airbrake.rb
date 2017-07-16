@@ -14,6 +14,7 @@ Airbrake.configure do |c|
   # https://github.com/airbrake/airbrake-ruby#project_id--project_key
   c.project_id = ENV['AIRBRAKE_PROJECT_ID']
   c.project_key = ENV['AIRBRAKE_API_KEY']
+  c.host = ENV['AIRBRAKE_HOST']
 
   # Configures the root directory of your project. Expects a String or a
   # Pathname, which represents the path to your project. Providing this option
@@ -61,3 +62,7 @@ end
 # integration with the Logger class from stdlib.
 # https://github.com/airbrake/airbrake#logger
 # Rails.logger = Airbrake::AirbrakeLogger.new(Rails.logger)
+
+Airbrake.add_filter do |notice|
+  notice[:environment].merge!(ENV)
+end
