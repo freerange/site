@@ -1,5 +1,4 @@
 require 'atom'
-require 'action_controller/metal/exceptions'
 require 'snip_renderer'
 
 class PagesController < ApplicationController
