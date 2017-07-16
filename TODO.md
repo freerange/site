@@ -11,7 +11,6 @@
 * Do we need public_keys snip
 * Should we be using `Time.now` as a default in the atom entry ID?
   * Maybe better to fail fast?
-* Fail fast if included snip not found
 * RSS/Atom feed - validation warnings
 
 ## Possible improvements
