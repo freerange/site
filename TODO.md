@@ -26,3 +26,4 @@
 * Remove unused assets e.g. most of Javascript?
 * Consider reinstating project image rendering
 * Extract Google Analytics account ID into env var
+* Simple HTTP caching
