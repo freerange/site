@@ -1,10 +1,6 @@
 ## Required changes to match existing version of site
 
-* Clarify use of created_at & updated_at - how are they used?
-  * in RSS/Atom feed
-  * in sort order on various index pages
 * Use Rails recipe for recap deployment
-* Check mocha & recap docs index pages are in sitemap - they won't show up in development, because they rely on server directory structure and publication mechanisms of those gems
 * Does content in Atom feed need HTML-escaping (validation?)
 * Validate RSS/Atom feed
 * Re-add Rake tasks for creating new week notes, etc
@@ -12,9 +8,6 @@
 ## Problems with existing version of site
 
 * Do we need the timmy JS stuff in project layout?
-* Should atom feed include author attribution, Disqus comment & navigation side-bar sections?
-  * I think this is happening because Vanilla::AtomFeed is rendering the
-    snip within the blog-template
 * Nested <ul> for blog navigation side-bar (list-of)
 * Do we need both/either of "gfr" & "fr" snips
 * Consistent naming of snip files & templates - underscores not hyphens?
