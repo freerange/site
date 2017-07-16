@@ -21,5 +21,23 @@ module Site
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    def self.soup
+      @soup ||= begin
+        backend_dirs = %w(
+          soups
+          soups/people
+          soups/projects
+          soups/blog
+          soups/weeklinks
+          soups/weeknotes
+          soups/wiki
+          soups/show-and-tell
+        )
+        backends = backend_dirs.map do |path|
+          Soup::Backends::FileBackend.new(Rails.root.join(path))
+        end
+        Soup.new(Soup::Backends::MultiSoup.new(*backends))
+      end
+    end
   end
 end

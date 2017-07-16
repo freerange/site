@@ -79,22 +79,7 @@ class PagesController < ApplicationController
   end
 
   def soup
-    @soup ||= begin
-      backend_dirs = %w(
-        soups
-        soups/people
-        soups/projects
-        soups/blog
-        soups/weeklinks
-        soups/weeknotes
-        soups/wiki
-        soups/show-and-tell
-      )
-      backends = backend_dirs.map do |path|
-        Soup::Backends::FileBackend.new(Rails.root.join(path))
-      end
-      Soup.new(Soup::Backends::MultiSoup.new(*backends))
-    end
+    Site::Application.soup
   end
 
   def externalise_links(content)

@@ -22,7 +22,7 @@ module ApplicationHelper
       el = options[:element]
       kinds = kind.split(',')
 
-      entries = kinds.flat_map { |k| @soup[:kind => k] }.reject { |s| s.draft }.sort_by { |e| e.created_at }.reverse
+      entries = kinds.flat_map { |k| Site::Application.soup[:kind => k] }.reject { |s| s.draft }.sort_by { |e| e.created_at }.reverse
       entries = entries[0..limit.to_i] unless limit == nil
 
       value = entries.length + 1
@@ -69,7 +69,7 @@ module ApplicationHelper
   end
 
   def include_snip(name)
-    snip = @soup[name]
+    snip = Site::Application.soup[name]
     context = binding
     content = ERB.new(snip.content).result(context)
     html = case snip.extension
@@ -84,17 +84,17 @@ module ApplicationHelper
   end
 
   def member(name)
-    snip = @soup[name]
+    snip = Site::Application.soup[name]
     render partial: 'shared/member', locals: { member: snip }
   end
 
   def project(name)
-    snip = @soup[name]
+    snip = Site::Application.soup[name]
     render partial: 'shared/project', locals: { project: snip }
   end
 
   def l(name, text = nil, part = nil)
-    if @soup[name]
+    if Site::Application.soup[name]
       link_to text || name, url_to(name, part)
     else
       raise "Snip not found: #{name}/#{part} for '#{text}'"
