@@ -11,11 +11,11 @@ One advantage of being based in Lambeth is that we get to watch the other Gov UK
 
 ### Jase in Sofia
 
-While most of us have been toiling in Lambeth, {l jason-cale,Jason} took his trip to Sofia to speak at [DesignDay 2011](http://designday.netmag.bg/).  His talk went well, but his attempts to follow a vegan diet faltered.  
+While most of us have been toiling in Lambeth, <%= l('jason-cale', 'Jason') %> took his trip to Sofia to speak at [DesignDay 2011](http://designday.netmag.bg/).  His talk went well, but his attempts to follow a vegan diet faltered.  
 
 ### Miscellany ###
 
-Other bits and pieces include the fact that {l james-adam,James Adam} is making one of his regular visits to Austin, Texas.  He'll be working whilst away; our challenge is to keep working as a team despite the time-zone mismatch.  We're not great at it yet, but we're determined to get better.
+Other bits and pieces include the fact that <%= l('james-adam', 'James Adam') %> is making one of his regular visits to Austin, Texas.  He'll be working whilst away; our challenge is to keep working as a team despite the time-zone mismatch.  We're not great at it yet, but we're determined to get better.
 
 Finally, I and other members of the team are busy working on our [LRUG](http://lrug.org/) Battleship programs.  If you want to challenge us, there's about a week left to write yourself a player.  You'd better hope that [Paul](http://po-ru.com/) has implemented some strict security counter measures, because like all good Generals, I intend to cheat.  Remember, all's fair in love and war.
 

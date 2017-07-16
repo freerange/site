@@ -1,0 +1,6 @@
+<img src="<%= member.image %>" alt="Photo of <%= member.name.titleize %>"/>
+<div class="info">
+  <h3><%= member.name.titleize %></h3>
+  <p class="links"><a href="http://<%= member.site %>">Website</a> / <a href="http://twitter.com/<%= member.twitter %>">Twitter</a></p>
+  <div class="bio"><%= include_snip member.name %></div>
+</div>

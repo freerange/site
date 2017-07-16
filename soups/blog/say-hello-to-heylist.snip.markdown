@@ -1,9 +1,9 @@
 Say hello to HeyList!
 =======
 
-With {l james-mead,James M} on holiday, and {l chris-roos, Chris} and {l tom-ward, Tom} using a week to undertake {l week-218, Project Los Roques}, I decided to take some time to spin out one of our past ideas into a fully-fledged product.
+With <%= l('james-mead', 'James M') %> on holiday, and <%= l('chris-roos', 'Chris') %> and <%= l('tom-ward', 'Tom') %> using a week to undertake <%= l('week-218', 'Project Los Roques') %>, I decided to take some time to spin out one of our past ideas into a fully-fledged product.
 
-We've {l week-179,spoken about the idea before}, and even {l twitter-lists-and-scottish-ruby-conf,run a quick prototype} to gather feedback and test the concept. However, those are just *explorations in software*; they don't qualify in my eyes as a "product".
+We've <%= l('week-179', 'spoken about the idea before') %>, and even <%= l('twitter-lists-and-scottish-ruby-conf', 'run a quick prototype') %> to gather feedback and test the concept. However, those are just *explorations in software*; they don't qualify in my eyes as a "product".
 
 After a few days of flipping between *developer* and *user* roles, I think we finally have something ready for consumption.
 

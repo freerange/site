@@ -32,7 +32,7 @@ There's also something to be said for more aggressive repetition than a rota wou
 
 ### What kind of tasks are suitable?
 
-Anything that can be reduced to a clear set of instructions with minimal amount of decision making. Importing bank transactions, sending invoices, and assigning temporary responsibilities (like {l week-138,weeknotes}) are ideal, but more will certainly follow[^office-admin].
+Anything that can be reduced to a clear set of instructions with minimal amount of decision making. Importing bank transactions, sending invoices, and assigning temporary responsibilities (like <%= l('week-138', 'weeknotes') %>) are ideal, but more will certainly follow[^office-admin].
 
 
 Under the hood
@@ -54,7 +54,7 @@ If you have any thoughts about this, we'd love to hear from you, either via [ema
 
 _Note that [Harmonia][] is now a product owned and run by [Exciting][]._
 
-[^mentioned]: We mentioned Harmonia in {l week-138}, but since [the README was sparse those few weeks ago](https://github.com/freerange/harmonia/blob/2a6f68bc5aafe8ddc5119c2e70cc62ce3da01955/README.md), I thought it was worth expanding and explaining in more detail. I've expanded on [the new README](https://github.com/freerange/harmonia/blob/master/README.md) here.
+[^mentioned]: We mentioned Harmonia in <%= l('week-138') %>, but since [the README was sparse those few weeks ago](https://github.com/freerange/harmonia/blob/2a6f68bc5aafe8ddc5119c2e70cc62ce3da01955/README.md), I thought it was worth expanding and explaining in more detail. I've expanded on [the new README](https://github.com/freerange/harmonia/blob/master/README.md) here.
 [^office-admin]: Who's going to keep our new office stocked with fruit and milk? :)
 [^ymmv]: "Your mileage may vary" - in other words, please take these ideas and test them, adapt them, reformulate them to suit your own circumstances.
 

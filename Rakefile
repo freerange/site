@@ -1,12 +1,11 @@
-task :default => :test
+# Add your own tasks in files placed in lib/tasks ending in .rake,
+# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+
+require_relative 'config/application'
+
+Rails.application.load_tasks
 
 require "rake/testtask"
-desc 'Run tests (excluding regression test)'
-Rake::TestTask.new do |t|
-  t.libs << "test"
-  t.test_files = FileList["test/**/*_test.rb"].exclude("test/regression_test.rb")
-  t.verbose = true
-end
 
 namespace :test do
   Rake::TestTask.new('regression' => 'regression:artefacts:generate') do |t|
@@ -69,7 +68,6 @@ def week_numbers_and_dates
 end
 
 require "erb"
-require_relative "application"
 
 USERNAMES_VS_AUTHORS = {
   'jamesmead' => 'james-mead',
@@ -78,8 +76,7 @@ USERNAMES_VS_AUTHORS = {
 }
 
 def existing_show_and_tell_event_numbers
-  app = Application.new
-  app.soup.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
+  Site::Application.soup.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
 end
 
 namespace :week do
@@ -119,8 +116,7 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task :create do
-      app = Application.new
-      snip = app.soup['week-nnn']
+      snip = Site::Application.soup['week-nnn']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
@@ -148,12 +144,10 @@ namespace :week do
     it will exit with an error message.
     DESC
     task :publish do
-      app = Application.new
-
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}"
-      snip = app.soup[snip_name]
+      snip = Site::Application.soup[snip_name]
       unless snip
         abort "No weeknotes snip found for GFR week number #{week_number}"
       end
@@ -175,8 +169,7 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task :create do
-      app = Application.new
-      snip = app.soup['week-nnn-links']
+      snip = Site::Application.soup['week-nnn-links']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
@@ -204,12 +197,10 @@ namespace :week do
     it will exit with an error message.
     DESC
     task :publish do
-      app = Application.new
-
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}-links"
-      snip = app.soup[snip_name]
+      snip = Site::Application.soup[snip_name]
       unless snip
         abort "No weeklinks snip found for GFR week number #{week_number}"
       end
@@ -231,8 +222,7 @@ namespace 'show-and-tell' do
   event number in the NUMBER environment variable.
   DESC
   task :create do
-    app = Application.new
-    snip = app.soup['show-and-tell-nn']
+    snip = Site::Application.soup['show-and-tell-nn']
 
     next_event_number = existing_show_and_tell_event_numbers.max + 1
     event_number = (ENV['NUMBER'] || next_event_number).to_i
@@ -259,12 +249,10 @@ namespace 'show-and-tell' do
   it will exit with an error message.
   DESC
   task :publish do
-    app = Application.new
-
     latest_event_number = existing_show_and_tell_event_numbers.max
     event_number = (ENV['NUMBER'] || latest_event_number).to_i
     snip_name = "show-and-tell-#{event_number}"
-    snip = app.soup[snip_name]
+    snip = Site::Application.soup[snip_name]
     unless snip
       abort "No show-and-tell snip found for event number #{event_number}"
     end

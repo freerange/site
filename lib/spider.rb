@@ -2,11 +2,11 @@ require 'nokogiri'
 require 'net/http'
 
 class Spider
-  HOST, PORT = 'localhost', 9292
+  HOST, PORT = 'localhost', 3000
   SITE_URL = "http://#{HOST}:#{PORT}"
   HOME_PAGE_URL = URI.join(SITE_URL, '/')
 
-  SERVER_COMMAND = %{TIME_NOW="2017-07-17 00:00:00" TAGLINE_INDEX=0 rackup --host #{HOST} --port #{PORT}}
+  SERVER_COMMAND = %{TIME_NOW="2017-07-17 00:00:00" TAGLINE_INDEX=0 rails s --binding #{HOST} --port #{PORT}}
 
   # Based on RewriteRules in config/apache/gofreerange.com.conf
   IGNORE_PATHS = [

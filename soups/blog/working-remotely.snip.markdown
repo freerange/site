@@ -104,8 +104,8 @@ Adieu, blogfolk!
 -- James
 
 
-[^aberdeen]: Familial home; see {l week-153}
-[^austin]: Current location of my other half; see {l week-154}
+[^aberdeen]: Familial home; see <%= l('week-153') %>
+[^austin]: Current location of my other half; see <%= l('week-154') %>
 [^meatspace]: Every time I type this, reader, I'm resisting the urge to type "meatspace". I just want you to know that.
 [^glancing]: I'm always reminded of the [Glances application](http://interconnected.org/notes/2003/09/glancing/) that Matt Webb made, but I'm never sure if it would really help. Here's [his presentation about it](http://glancing.interconnected.org/2004/02/etcon/) in case that gives more context.
 [^camera]: It's a [Y-cam White S](http://www.y-cam.com/y-cam-white-s/) which streams audio as well as video. The quality of either is... passable.

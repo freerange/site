@@ -34,16 +34,16 @@ As well as all of this introspection, not to mention talking to some new clients
 
 ## Mocha
 
-{l james-mead,James M} has been powering through various {l mocha} issues; we are eagerly awaiting the day when [his patches to finally resolve the monkey-patch-pocalpyse within ActiveSupport::Test][mocha-rails-patch] get released and pave the way to a brighter, simpler test tool integration future.
+<%= l('james-mead', 'James M') %> has been powering through various <%= l('mocha') %> issues; we are eagerly awaiting the day when [his patches to finally resolve the monkey-patch-pocalpyse within ActiveSupport::Test][mocha-rails-patch] get released and pave the way to a brighter, simpler test tool integration future.
 
 It's not been an easy quest, and I truly admire the patience and tenacity that James has shown in order to get this far, particularly helping people out as they report issues. I personally consider Mocha to be basically part of the unofficial standard libraries of Ruby, and I really appreciate the time and effort he puts into it.
 
 
 ## Code Reviews
 
-Meanwhile, {l chris-roos,Chris} and {l tom-ward,Tom} have been keeping the office running, handling the ins-and-outs of various leads, and most recently undertaking a small code review for a new client. Code reviews are always an interesting challenge, because we have to spend the time quite carefully so that the right balance between breadth (of the codebase and the context) and depth (of specific concerns or implementation recommendations) is achieved.
+Meanwhile, <%= l('chris-roos', 'Chris') %> and <%= l('tom-ward', 'Tom') %> have been keeping the office running, handling the ins-and-outs of various leads, and most recently undertaking a small code review for a new client. Code reviews are always an interesting challenge, because we have to spend the time quite carefully so that the right balance between breadth (of the codebase and the context) and depth (of specific concerns or implementation recommendations) is achieved.
 
-{l james-adam,I} haven't been directly involved in this work, but I can't think of better people to tackle this than Chris[^toc] and Tom, both extremely seasoned developers but also both sharing a great capacity for *software empathy*; that is, the ability to try and understand the intention behind a piece of problematic or confusing code, rather than insisting that it be completely rewritten to match some platonic ideal.
+<%= l('james-adam', 'I') %> haven't been directly involved in this work, but I can't think of better people to tackle this than Chris[^toc] and Tom, both extremely seasoned developers but also both sharing a great capacity for *software empathy*; that is, the ability to try and understand the intention behind a piece of problematic or confusing code, rather than insisting that it be completely rewritten to match some platonic ideal.
 
 If you'd like us to help review any of your code, <a href="/#contact">get in touch</a>!
 

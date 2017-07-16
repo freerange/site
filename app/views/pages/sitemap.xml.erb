@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <% @snips.each do |snip| %>
+    <url>
+      <loc><%= "http://#{@domain}#{url_to snip.name}" %></loc>
+      <lastmod><%= snip.updated_at.xmlschema %></lastmod>
+    </url>
+  <% end %>
+  <% @docs.each do |project, doc| %>
+    <url>
+      <loc><%= "http://#{@domain}#{doc[:root]}" %></loc>
+      <lastmod><%= doc[:last_updated].xmlschema %></lastmod>
+    </url>
+  <% end %>
+</urlset>

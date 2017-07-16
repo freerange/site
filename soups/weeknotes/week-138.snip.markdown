@@ -28,9 +28,9 @@ It started as a simple script called chaos.rb, but we're pushing more and more i
 
 ### Miscellany
 
-{l tom-ward, Tom} has been exploring [a simple set of deployment recipes that leverage git][tomafro-deploy], and we've been trying them out. There are a few rough edges, but it looks very promising so far, and it's *very* fast.
+<%= l('tom-ward', 'Tom') %> has been exploring [a simple set of deployment recipes that leverage git][tomafro-deploy], and we've been trying them out. There are a few rough edges, but it looks very promising so far, and it's *very* fast.
 
-We've been using [Highrise][] to give everyone visibility of what's going on in the company, but when someone forgets to BCC or forward an email, it causes a hiccup. This wastes time, so we've spent a bit of time thinking about other solutions, from a single shared mail account to some custom software. {l james-adam, I} have been spiking some scripts to automatically produce a single, searchable view of every email in and out of Free Range. There's nothing worth looking at yet, and we're still exploring what flow will really work for our company.
+We've been using [Highrise][] to give everyone visibility of what's going on in the company, but when someone forgets to BCC or forward an email, it causes a hiccup. This wastes time, so we've spent a bit of time thinking about other solutions, from a single shared mail account to some custom software. <%= l('james-adam', 'I') %> have been spiking some scripts to automatically produce a single, searchable view of every email in and out of Free Range. There's nothing worth looking at yet, and we're still exploring what flow will really work for our company.
 
 
 
