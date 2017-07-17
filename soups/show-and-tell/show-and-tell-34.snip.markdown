@@ -100,9 +100,13 @@ Ben mentioned [AWS CodeStar][aws-codestar] which does everything I did but also 
 
 James explained how relatively cheap and easy it was to get his own VPN set-up. He rents a cheap server from [LiteServer][lite-server] and has installed OpenVPN using [docker-openvpn][docker-openvpn] and the related [tutorial from Digital Ocean][digital-ocean-openvpn-tutorial]. He connects using the open source [Tunnelblick][tunnelblick] client on his Mac.
 
+James thanks [Paul B][paul-battley] and [James A][james-adam] for their help and inspiration in getting this set-up.
+
 [digital-ocean-openvpn-tutorial]: https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04
 [docker-openvpn]: https://github.com/kylemanna/docker-openvpn
+[james-adam]: http://lazyatom.com/
 [lite-server]: https://www.liteserver.nl/
+[paul-battley]: http://po-ru.com
 [tunnelblick]: https://tunnelblick.net/
 
 ---
@@ -138,7 +142,7 @@ Square with a magic sum of 21
  -------------
 </code></pre>
 
-Chris went on to explain that there's such a thing as an [Alphamagic Square][alphamagic-square]. These are special because replacing the number in each square with the number of letters in the English spelling of that number creates a new Magic Square! This is probably more easily understood with an example
+Chris went on to explain that there's such a thing as an [Alphamagic Square][alphamagic-square]. These are special because replacing the number in each square with the number of letters in the English spelling of that number creates a new Magic Square! This is probably more easily understood with an example:
 
 <pre><code>
 Square with a magic sum of 45
@@ -170,12 +174,14 @@ and we get a square with a magic sum of 21
  -------------
 </code></pre>
 
-Interested in this problem, Chris has [written some code][tuzz-letterwise-magic-squares] that's allowed him to discover a number of doubly alphamagic squares!
+Chris used [Sentient][sentient-lang], his experimental programming language, to [discover a number of doubly alphanumeric squares][tuzz-letterwise-magic-squares]! Something that's earned him a [write-up on Futility Closet][futility-closet-alphamagic-squares] and a mention on the Alphamagic Squares Wikipedia page.
 
-He's also used his software to find a number of alphamagic squares in French but is yet to find any doubly alphamagic squares.
+Chris has also been searching for Alphamagic squares in other languages. He's already found a number of Alphamagic squares in French but has so far hit the limits of his software when trying to find doubly Alphamagic ones.
 
 [alphamagic-square]: https://en.wikipedia.org/wiki/Alphamagic_square
+[futility-closet-alphamagic-squares]: https://www.futilitycloset.com/2017/05/07/double-alphamagic-squares/
 [magic-squares]: https://en.wikipedia.org/wiki/Magic_square
+[sentient-lang]: http://sentient-lang.org/
 [tuzz-letterwise-magic-squares]: https://github.com/tuzz/letterwise_magic_squares
 
 ---
