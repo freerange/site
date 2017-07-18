@@ -174,7 +174,7 @@ and we get a square with a magic sum of 21
  -------------
 </code></pre>
 
-Chris used [Sentient][sentient-lang], his experimental programming language, to [discover a number of doubly alphanumeric squares][tuzz-letterwise-magic-squares]! Something that's earned him a [write-up on Futility Closet][futility-closet-alphamagic-squares] and a mention on the Alphamagic Squares Wikipedia page.
+Chris used [Sentient][sentient-lang], his experimental programming language, to [discover a number of doubly Alphamagic squares][tuzz-letterwise-magic-squares]! This has earned him a [write-up on Futility Closet][futility-closet-alphamagic-squares] and a mention on the Alphamagic Squares Wikipedia page.
 
 Chris has also been searching for Alphamagic squares in other languages. He's already found a number of Alphamagic squares in French but has so far hit the limits of his software when trying to find doubly Alphamagic ones.
 
