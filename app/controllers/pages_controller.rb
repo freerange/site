@@ -12,7 +12,7 @@ class PagesController < ApplicationController
     name = params.permit(:path)[:path]
     @snip = name.present? ? soup[name] : soup[ROOT_SNIP_NAME]
     if @snip.nil?
-      render text: "Soup not found: #{name}", status: :not_found
+      render plain: "Soup not found: #{name}", status: :not_found
       return
     end
     @author = soup[@snip.author]
