@@ -80,6 +80,9 @@ def existing_show_and_tell_event_numbers
 end
 
 templates = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/templates')))
+weeknotes = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/weeknotes')))
+weeklinks = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/weeklinks')))
+showandtell = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/show-and-tell')))
 
 namespace :week do
   desc <<-DESC
@@ -118,20 +121,22 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task :create do
-      snip = templates['week-nnn']
+      template = templates['week-nnn']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
-      snip.author = author
-      snip.created_at = Time.now
-      snip.updated_at = Time.now
-      snip.page_title = "Week #{week_number}"
-      snip.name = "week-#{week_number}"
-      snip.content.gsub!(/Week NNN/, "Week #{week_number}")
-      snip.save
+      weeknotes << template.attributes.merge({
+        name: "week-#{week_number}",
+        extension: "markdown",
+        author: author,
+        created_at: Time.now,
+        updated_at: Time.now,
+        page_title: "Week #{week_number}",
+        content: template.content.gsub(/Week NNN/, "Week #{week_number}")
+      })
     end
 
     desc <<-DESC
@@ -149,7 +154,7 @@ namespace :week do
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}"
-      snip = Site::Application.soup[snip_name]
+      snip = weeknotes[snip_name]
       unless snip
         abort "No weeknotes snip found for GFR week number #{week_number}"
       end
@@ -171,20 +176,22 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task :create do
-      snip = templates['week-nnn-links']
+      template = templates['week-nnn-links']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
-      snip.author = author
-      snip.created_at = Time.now
-      snip.updated_at = Time.now
-      snip.page_title = "Week #{week_number} - Interesting links"
-      snip.name = "week-#{week_number}-links"
-      snip.content.gsub!(/Week NNN/, "Week #{week_number}")
-      snip.save
+      weeklinks << template.attributes.merge({
+        name: "week-#{week_number}-links",
+        extension: "markdown",
+        author: author,
+        created_at: Time.now,
+        updated_at: Time.now,
+        page_title: "Week #{week_number} - Interesting links",
+        content: template.content.gsub(/Week NNN/, "Week #{week_number}")
+      })
     end
 
     desc <<-DESC
@@ -202,7 +209,7 @@ namespace :week do
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}-links"
-      snip = Site::Application.soup[snip_name]
+      snip = weeklinks[snip_name]
       unless snip
         abort "No weeklinks snip found for GFR week number #{week_number}"
       end
@@ -224,20 +231,22 @@ namespace 'show-and-tell' do
   event number in the NUMBER environment variable.
   DESC
   task :create do
-    snip = templates['show-and-tell-nn']
+    template = templates['show-and-tell-nn']
 
     next_event_number = existing_show_and_tell_event_numbers.max + 1
     event_number = (ENV['NUMBER'] || next_event_number).to_i
     username = `whoami`.chomp
     author = USERNAMES_VS_AUTHORS.fetch(username)
 
-    snip.author = author
-    snip.created_at = Time.now
-    snip.updated_at = Time.now
-    snip.page_title = "Show and Tell #{event_number}"
-    snip.name = "show-and-tell-#{event_number}"
-    snip.content.gsub!(/Show and Tell NN/, "Show and Tell #{event_number}")
-    snip.save
+    showandtell << template.attributes.merge({
+      name: "show-and-tell-#{event_number}",
+      extension: "markdown",
+      author: author,
+      created_at: Time.now,
+      updated_at: Time.now,
+      page_title: "Show and Tell #{event_number}",
+      content: template.content.gsub(/Show and Tell NN/, "Show and Tell #{event_number}")
+    })
   end
 
   desc <<-DESC
@@ -254,7 +263,7 @@ namespace 'show-and-tell' do
     latest_event_number = existing_show_and_tell_event_numbers.max
     event_number = (ENV['NUMBER'] || latest_event_number).to_i
     snip_name = "show-and-tell-#{event_number}"
-    snip = Site::Application.soup[snip_name]
+    snip = showandtell[snip_name]
     unless snip
       abort "No show-and-tell snip found for event number #{event_number}"
     end
