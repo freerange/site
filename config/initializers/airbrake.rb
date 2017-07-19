@@ -66,3 +66,9 @@ end
 Airbrake.add_filter do |notice|
   notice[:environment].merge!(ENV)
 end
+
+Airbrake.add_filter do |notice|
+  if notice[:errors].any? { |error| error[:type] == 'ActionController::BadRequest' && error[:message][/^Invalid query parameters/] }
+    notice.ignore!
+  end
+end
