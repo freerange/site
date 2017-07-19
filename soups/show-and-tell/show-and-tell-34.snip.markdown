@@ -41,7 +41,7 @@ He's splashed out just over £10 on a couple of wireless motion sensors and a US
 It sounds as though this isn't a problem exclusive to Ben's office as someone mentioned that [Made by Many have also written about solving this problem][made-by-many-toilet-post].
 
 [cubic-sdr]: http://cubicsdr.com/
-[made-by-many-toilet-post]: https://madebymany.com/stories/is-the-toilet-free.
+[made-by-many-toilet-post]: https://madebymany.com/stories/is-the-toilet-free
 
 ---
 
