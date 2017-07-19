@@ -213,11 +213,10 @@ We're hosting our 35th Show & Tell on Wednesday 9th August. It's open to all so 
 [contact]: /contact
 
 :name: show-and-tell-34
-:updated_at: 2017-07-14 10:02:05.114021000 +01:00
-:created_at: 2017-07-14 10:02:05.114010000 +01:00
+:updated_at: 2017-07-19 09:54:27.222661000 +01:00
+:created_at: 2017-07-19 09:54:27.222646000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
