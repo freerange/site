@@ -34,7 +34,7 @@ class PagesController < ApplicationController
           e.updated = (snip.updated_at || snip.created_at)
           content = externalise_links(render_snip(snip))
           e.content = Atom::Content::Html.new(content)
-          e.title = snip.title || snip.name
+          e.title = snip.page_title || snip.title || snip.name
           e.authors = [Atom::Person.new(name: snip.author || @domain)]
           e.links << Atom::Link.new(href: "http://#{@domain}#{url_to(snip.name)}")
           e.id = "tag:#{@domain},#{(snip.created_at || Time.now).to_date}:#{url_to(snip.name)}"
