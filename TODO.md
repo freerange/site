@@ -4,7 +4,6 @@
 
 ## Problems with existing version of site
 
-* Do we need the timmy JS stuff in project layout?
 * Nested <ul> for blog navigation side-bar (list-of)
 * Do we need both/either of "gfr" & "fr" snips
 * Consistent naming of snip files & templates - underscores not hyphens?

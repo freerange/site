@@ -24,18 +24,5 @@
 
     </div>
     <%= render partial: 'shared/javascripts' %>
-
-    <script>
-      function refreshSnapshot() {
-        $("img#snapshot").attr("src", "http://public.lazyatom.com/timmy/snapshot.jpg?" + (new Date().valueOf()));
-      }
-
-      $(function() {
-        $("img#snapshot").load(function() {
-          setTimeout(refreshSnapshot, 5000);
-        })
-        refreshSnapshot();
-      })
-    </script>
   </body>
 </html>
