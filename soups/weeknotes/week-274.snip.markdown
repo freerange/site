@@ -5,7 +5,7 @@ I began the week with a trip to the monthly [London Ruby User Group][LRUG] (LRUG
 
 The first talk described how the [Open Data Institute][ODI] had re-purposed a lot of the [GOV.UK code open-sourced][alphagov] by [GDS][] to build their own site. I'm not sure I'd have taken this approach, but, having worked on some of the GOV.UK code, it was interesting to hear about the challenges involved.
 
-In the second talk, it was useful to learn about the current state of play with [aspect-oriented programming][AOP] in Ruby, but I'm a little sceptical about it's use in a real application. In particular, I'm not keen on the fact that there is no indication at the "join points" that the code is being "advised" by an aspect. This reminds me of the problem of [Rails observers][] which were removed from Rails in v4 i.e. a lack of explicitness[^1] .
+In the second talk, it was useful to learn about the current state of play with [aspect-oriented programming][AOP] in Ruby, but I'm a little sceptical about it's use in a real application. In particular, I'm not keen on the fact that there is no indication at the "join points" that the code is being "advised" by an aspect. This reminds me of the problem of [Rails observers][] which were removed from Rails in v4 i.e. a lack of explicitness[^1].
 
 I've been attending the LRUG meet-up much more regularly recently and I'm always impressed by the quality of the talks. [Murray][] deserves huge credit for his organisation of the event and it's no accident that the [Skills Matter][] venue is frequently filled to capacity.
 

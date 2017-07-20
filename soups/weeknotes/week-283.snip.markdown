@@ -21,7 +21,7 @@ Nat recommended an addition to the usual red-green-refactor TDD workflow diagram
 
 [Martin Fowler][] divides TDD practitioners into [Mockists and Classicists][] and [Brian Marick][] further divides mockists into "London school" versus "Detroit school". Nat suggested that these divisions are not helpful in that they can encourage developers down the undesirable path of [mocking everything][].
 
-Nat also explained how testing with mock objects is only really appropriate for a "Tell, Don't Ask" style of object-oriented development - many people who run into problems with mocks are essentially "writing [COBOL][]" in Java/Ruby/etc and their design is a mixture of CRAPs [^1] and NOJOs [^2] .
+Nat also explained how testing with mock objects is only really appropriate for a "Tell, Don't Ask" style of object-oriented development - many people who run into problems with mocks are essentially "writing [COBOL][]" in Java/Ruby/etc and their design is a mixture of CRAPs [^1] and NOJOs [^2].
 
 When using the "Tell, Don't Ask" style it's important to find simple and stable protocols i.e. have your classes talk to each other over non-implementation-specific, domain-specific interfaces. Also the behaviour of the system should _emerge_ based on how you "wire up" your classes.
 

@@ -11,7 +11,7 @@ Early in the week we decided we had to turn down the opportunity to run a course
 
 The [Little Schemer Book Club][] met up again on Monday at [GFRHQ][]. We continued to use Tom's specs to drive out the implementation of our Scheme interpreter and managed to get all the specs for chapters 2 & 3 passing. You can read more about what we got up to in [Tom's excellent notes][little schemer notes].
 
-[Tom][Tom Stuart] was beavering away all week preparing his [I Have No Idea What I'm Doing][] talk for [Scottish Ruby Conference][]. It sounds intruiging, so I'm rather sorry I'm not going to get to hear it[^1] .
+[Tom][Tom Stuart] was beavering away all week preparing his [I Have No Idea What I'm Doing][] talk for [Scottish Ruby Conference][]. It sounds intruiging, so I'm rather sorry I'm not going to get to hear it[^1].
 
 On Wednesday, we went for another round of our monthly drinks meet-up. This time we sampled the delights of [the Old Fountain][] off the City Road, one of our regular haunts when we rented desks at the old [Moo][] office. Good beer, good company and a thoroughly enjoyable evening.
 

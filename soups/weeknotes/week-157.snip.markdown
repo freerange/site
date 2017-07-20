@@ -25,7 +25,7 @@ We even borrowed some of the computational firepower from [CERN](http://public.w
 
 ### Chaos Returns
 
-For some extra brownie points a few weeks ago I decided to [contribute some code](https://github.com/freerange/harmonia/commit/5ad4eabd701050f65a7b02756a4ab55e33b2aed2) to our bad ass Chaos Administrator, the mighty vixen [Harmonia](https://github.com/freerange/harmonia) .
+For some extra brownie points a few weeks ago I decided to [contribute some code](https://github.com/freerange/harmonia/commit/5ad4eabd701050f65a7b02756a4ab55e33b2aed2) to our bad ass Chaos Administrator, the mighty vixen [Harmonia](https://github.com/freerange/harmonia).
 
 We needed to do our annual return, so I had a quick word with her, and low and behold on Monday she appointed Tom to sort it out big style.
 

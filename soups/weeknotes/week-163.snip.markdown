@@ -9,7 +9,7 @@ Pizza, beer, and a splash of [cava][sparkling-wine] were supplied on the evening
 
 In the days after the release, we continued to work on the project at Aviation House, fixing bugs and responding to feedback from users. [James A](/james-adam) revealed his [secret development technique][copy-paste-keyboard] and made [Chris](/chris-roos) green with envy by running build processes remotely at high speed on his iMac at [GFR HQ][office].
 
-However, all good things must come to an end and this was our our last week working on the Whitehall project. That being said we will be popping in next week to take part in a [retrospective][retrospective] .
+However, all good things must come to an end and this was our our last week working on the Whitehall project. That being said we will be popping in next week to take part in a [retrospective][retrospective].
 
 Since for some reason I was awake quite early the day after the release of the Whitehall app, I decided to see if I could order a [Raspberry Pi][raspberry-pi]. I had the same frustrations as many people with both of the websites which were struggling with the heavy demand, but after persevering for about 30 minutes, I managed to order one. Initially the delivery date was given as 26th March, but this has now slipped to 23rd April.
 
