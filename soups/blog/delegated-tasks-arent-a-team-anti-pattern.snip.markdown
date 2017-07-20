@@ -16,6 +16,6 @@ _This post has now [moved to the Harmonia blog](https://harmonia.io/blog/delegat
 :is_page: true
 :written_with: markdown
 :author: james-adam
-:created_at: 2012-11-21 10:24:00 +01:00
-:updated_at: 2012-11-21 10:24:00 +01:00
+:created_at: 2012-11-21 10:24:01 +01:00
+:updated_at: 2012-11-21 10:24:01 +01:00
 :page_title: Delegated tasks aren't a team anti-pattern
