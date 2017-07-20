@@ -21,7 +21,7 @@ Once the business domain was stripped away, the system wasn't particularly compl
 
 __The bottom line__: undertaking this project could represent a fairly easy source of income for _our_ company. We could easily start pitching Rails and our team, win the project, and keep our cash-flow nice and rosy. That's the best thing for _our_ business, right?
 
-Thankfully, that is not how we work at <%= include_snip 'fr' %>.
+Thankfully, that is not how we work at <%= include_snip 'gfr' %>.
 
 
 What is the actual problem?
