@@ -2,7 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:x,2008-06-01:kind/x</id>
   <title>Go Free Range Blog</title>
-  <updated>2017-07-19T09:54:27+01:00</updated>
+  <updated>2017-07-21T09:57:04+01:00</updated>
+  <entry>
+    <title>Week 444 - Interesting links</title>
+    <id>tag:gofreerange.com,2017-07-21:/week-444-links</id>
+    <updated>2017-07-21T09:57:04+01:00</updated>
+    <published>2017-07-21T09:57:04+01:00</published>
+    <link href="http://gofreerange.com/week-444-links" />
+    <author>
+      <name>chris-roos</name>
+    </author>
+    <content type="html">&lt;h1 id="week-444---interesting-links"&gt;Week 444 - Interesting links&lt;/h1&gt; &lt;h3 id="firefox-focushttpsblogmozillaorgblog20170620firefox-focus-new-to-android-blocks-annoying-ads-and-protects-your-privacy"&gt;&lt;a href="https://blog.mozilla.org/blog/2017/06/20/firefox-focus-new-to-android-blocks-annoying-ads-and-protects-your-privacy/"&gt;Firefox Focus&lt;/a&gt;&lt;/h3&gt; &lt;p&gt;I’ve been happily using this as the default browser on my Nexus 5X for the past few weeks. Not only does it feel faster than Firefox (my previous default) but I’m also really appreciating the simplicity of the single tab browsing experience. &lt;em&gt;— &lt;a href="http://gofreerange.com/chris-roos"&gt;CR&lt;/a&gt;&lt;/em&gt;&lt;/p&gt; &lt;h3 id="findmypast-family-tree-builderhttpswwwfindmypastcoukfamily-tree"&gt;&lt;a href="https://www.findmypast.co.uk/family-tree"&gt;Findmypast Family Tree builder&lt;/a&gt;&lt;/h3&gt; &lt;p&gt;I started exploring my family history about 15 years ago and have dipped in and out every so often since then. I’ve got back into it recently and have been using Findmypast’s Family Tree functionality to construct my own tree. I’m really impressed by how easy they’ve made it to merge data from their various sources into your own tree. &lt;em&gt;— &lt;a href="http://gofreerange.com/chris-roos"&gt;CR&lt;/a&gt;&lt;/em&gt;&lt;/p&gt; &lt;h3 id="building-tubealert-a-serverless-progressive-web-site-with-push-notificationshttpswwwhammerspacecoukpoststube-alert-07-2017"&gt;&lt;a href="https://www.hammerspace.co.uk/posts/tube-alert-07-2017"&gt;Building TubeAlert, a Serverless Progressive Web Site with push notifications&lt;/a&gt;&lt;/h3&gt; &lt;p&gt;David Marland built this site to provide alerts when London’s tube network has disruptions. He used React for the front end, Service Worker and push notifications to provide an “app-like” experience, and NodeJS on AWS Lambda for the “serverless” backend. He then spent &lt;a href="https://twitter.com/djmarland/status/887949355038244864"&gt;just as long&lt;/a&gt; documenting and explaining the whole thing. A fantastic resource. &lt;em&gt;— &lt;a href="http://gofreerange.com/chris-lowis"&gt;CL&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Show and Tell 34</title>
     <id>tag:gofreerange.com,2017-07-19:/show-and-tell-34</id>
@@ -101,16 +112,5 @@
       <name>james-mead</name>
     </author>
     <content type="html">&lt;h1 id="week-439"&gt;Week 439&lt;/h1&gt; &lt;p&gt;This was another quiet week. Chris L’s paternity leave continued and Chris R spent some time getting his boat’s engine working so he can take it to a boatyard in a couple of weeks time.&lt;/p&gt; &lt;p&gt;We continued work on the Manuals Publisher app for GDS, although what with one thing and another, we didn’t manage to spend loads of time on it. I continued work on the spike to identify and resolve problems which might make it hard to do the migration, and Chris R worked on actually making the required changes to manual section attachments so that their single source of truth is the Publishing API.&lt;/p&gt; &lt;p&gt;Chris R &amp;amp; I worked remotely for most of the week, but we met up at &lt;a href="https://www.theofficegroup.co.uk/office/albert-house/"&gt;TOG Albert House&lt;/a&gt; on Wednesday afternoon prior to our regular &lt;a href="http://gofreerange.com/show-and-tell-events"&gt;Show &amp;amp; Tell&lt;/a&gt; event that evening. We worked at &lt;a href="http://www.theofficegroup.co.uk/office/the-bloomsbury-building/"&gt;TOG Bloomsbury&lt;/a&gt; on Thursday, before Chris headed off on holiday on Friday.&lt;/p&gt; &lt;p&gt;For a long time, we’ve been using our own &lt;a href="https://github.com/freerange/webhooks"&gt;custom integration&lt;/a&gt; between &lt;a href="https://harmonia.io/"&gt;Harmonia&lt;/a&gt; and Trello, but on Thursday I switched us over to use the &lt;a href="https://harmonia.io/#features"&gt;official Harmonia Trello integration&lt;/a&gt;. It seems to be working well so far and hopefully it means we can retire our custom web app shortly. &lt;a href="http://lazyatom.com/"&gt;James A&lt;/a&gt; was also kind enough to implement a variation in the behaviour to support our use case, whereby archiving a card marks a task as done (i.e. no need for a “Done” list).&lt;/p&gt; &lt;p&gt;That’s all folks!&lt;/p&gt; &lt;p&gt;– James&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Week 438</title>
-    <id>tag:gofreerange.com,2017-06-19:/week-438</id>
-    <updated>2017-06-19T15:02:39+01:00</updated>
-    <published>2017-06-19T15:02:39+01:00</published>
-    <link href="http://gofreerange.com/week-438" />
-    <author>
-      <name>james-mead</name>
-    </author>
-    <content type="html">&lt;h1 id="week-438"&gt;Week 438&lt;/h1&gt; &lt;p&gt;The big news is that Chris L’s son Noah arrived on Sunday - congratulations to Chris &amp;amp; Adri!&lt;/p&gt; &lt;p&gt;With Chris L on paternity leave, Chris R having some friends over on Monday afternoon, and James taking Tuesday &amp;amp; Thursday off, this was a pretty quiet week work-wise.&lt;/p&gt; &lt;p&gt;Early in the week, in the light of our spike into “fully migrating” the Manuals Publisher app (to use the Publisher API as its canonical persistence mechanism), we came up with an estimate for how long it would take to do this work. Later in the week, once we’d heard back from GDS, we made a start on making the changes for real.&lt;/p&gt; &lt;p&gt;Chris R spent some time investigating how to consolidate the CoTech mailing lists. For example, now that we have &lt;a href="https://community.coops.tech/"&gt;public forums&lt;/a&gt;, he thinks that the &lt;a href="https://www.email-lists.org/mailman/listinfo/tech-coops"&gt;public mailing list&lt;/a&gt; is now redundant. However, in thinking about this he got sucked into a bunch of related issues.&lt;/p&gt; &lt;p&gt;On Friday, Chris R &amp;amp; I went to visit the Outlandish office near Finsbury Park to have a look around their nascent &lt;a href="https://www.email-lists.org/pipermail/tech-coops/2017-June/000027.html"&gt;co-working space&lt;/a&gt;. The office was understandably quiet after the General Election the night before, but Polly gave us a guided tour and explained some of their plans for the space.&lt;/p&gt; &lt;p&gt;Afterwards we arranged to meet up with &lt;a href="http://lazyatom.com/"&gt;James A&lt;/a&gt; for a coffee at a nearby café where we sat outside in the sunshine - it was really nice to catch-up. James then gave us a guided tour of the neighbourhood before we headed back to TOG Bloomsbury. We retired to the pub relatively early for a short retrospective, before heading our separate ways for the weekend.&lt;/p&gt; &lt;p&gt;Until next time!&lt;/p&gt; &lt;p&gt;– James&lt;/p&gt;</content>
   </entry>
 </feed>
