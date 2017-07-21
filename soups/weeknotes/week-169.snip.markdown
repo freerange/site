@@ -70,7 +70,7 @@ Anyway, that was the week that was. Onwards to Week 170!
 [Chris]: /chris-roos
 [Printer]: /printer
 [James A]: /james-adam
-[hello-printer]: https://exciting.io/2012/04/12/hello-printer/
+[hello-printer]: /hello-printer
 
 :render_as: Blog
 :kind: blog

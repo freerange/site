@@ -63,7 +63,7 @@ Until next time.
 [Understanding Computation]: http://shop.oreilly.com/product/0636920025481.do
 [GOV.UK]: http://www.gov.uk
 [Designs of the year 2013]: http://designmuseum.org/exhibitions/2013/designs-of-the-year-2013
-[hello-printer]: https://exciting.io/2012/04/12/hello-printer/
+[hello-printer]: /hello-printer
 [printer-kit]: http://exciting.io/printer
 
 :render_as: Blog

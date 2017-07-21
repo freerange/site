@@ -98,7 +98,7 @@ Until next time,
 
 
 [gfr-printer]: https://exciting.io/printer/
-[hello-printer]: https://exciting.io/2012/04/12/hello-printer/
+[hello-printer]: /hello-printer
 [Harmonia]: http://exciting.io/harmonia
 
 :render_as: Blog
