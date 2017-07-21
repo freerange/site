@@ -1,7 +1,7 @@
 Who is Harmonia For?
 ===============
 
-There are lots of aspects of [Harmonia][] that we want to explore in more detail, like how to create smart recurring tasks, and what makes a good task, but before that we'd like to spend a bit of time exploring who might find Harmonia useful&hellip;
+There are lots of aspects of [Harmonia][] that we want to explore in more detail, like how to create smart recurring tasks, and what makes a good task, but before that we'd like to spend a bit of time exploring who might find Harmonia useful...
 
 _This post has now [moved to the Harmonia blog](https://harmonia.io/blog/who-is-harmonia-for), where you can find all of the latest news and tips about [Harmonia][]. You can also subscribe to the [Atom/RSS feed](https://harmonia.io/blog/feed)._
 

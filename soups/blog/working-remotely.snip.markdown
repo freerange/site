@@ -6,7 +6,7 @@ There's no point accepting the burden of being your own boss if you don't actual
 Working remotely is a four dimensional problem, so first let's consider the first three: **space**.
 
 
-[The Northern Lights&hellip;][nothern-lights]
+[The Northern Lights...][nothern-lights]
 --------------------
 
 Working from Aberdeen is only marginally different from working from home; it's just a question of geography.
@@ -52,12 +52,12 @@ Perhaps this is simply [the Law of the Instrument][hammer] in operation, but I f
 What remains is the fourth dimension: **time**.
 
 
-[The Stars At Night, Are Big And Bright&hellip;][deep-in-the-heart-of-texas]
+[The Stars At Night, Are Big And Bright...][deep-in-the-heart-of-texas]
 ----------
 
 Working from Austin is not like working from Aberdeen, because now we have the smug whimsy of _The Sun And Its Incessant Rotation Around The Earth_ to reckon with. No matter how long you spend shaking your skinny fist at that irrepressible ball of fire, it's not going to rise in Austin at the same time as it does in London.
 
-When I'm in Austin, I start work just as you are wiping the afternoon tea's clotted cream from your chin. I've just finished breakfast and you're already thinking about dinner. I'm getting up to speed with the day's work while you are winding down, day-dreaming about a tepid, nut-brown ale&hellip; You get the idea.
+When I'm in Austin, I start work just as you are wiping the afternoon tea's clotted cream from your chin. I've just finished breakfast and you're already thinking about dinner. I'm getting up to speed with the day's work while you are winding down, day-dreaming about a tepid, nut-brown ale... You get the idea.
 
 In many ways this situation is similar to remote working from the same timezone, with each challenge only slightly magnified. Communication is harder because now it's _actually very likely_ that nobody is around. The temptation to slack off is easier to indulge because, similarly, there's nobody even in the group chat to notice that you're not working. The kitchen is even more tempting because the food in Austin is _freaking delicious_!
 
@@ -72,7 +72,7 @@ However, it's possible the exacerbation of those conditions is actually useful, 
 
 During the couple of hours which did overlap, I _think_ I made better use of; for example, focussing on emails whose responses required input from other people, or discussing higher-level aspects of our projects and leads. It's also possible that the people in London also shifted their behaviour slightly and were, perhaps, more responsive during that window of overlap than they might otherwise have been. I'm curious if this was real, or just my perception.
 
-### [Stop&hellip; Hypothesis time][hammer-break]
+### [Stop... Hypothesis time][hammer-break]
 
 I have a hypothesis (well, many, but here's one) about one aspect of how our group dynamic operates, and I think it's relevant here.
 
@@ -111,8 +111,8 @@ Adieu, blogfolk!
 [^camera]: It's a [Y-cam White S](http://www.y-cam.com/y-cam-white-s/) which streams audio as well as video. The quality of either is... passable.
 [^pisswhistle]: I'm sorry about the name, but in my defence, I am unable to help myself and cannot be held responsible for my own behaviour in the case of software naming.
 [^nickname]: This term is not in vogue, and I cannot be held responsible for the consequences of using it.
-[^email]: &hellip; along with around sixty other emails. I think it's fair to say that [gov.uk](/government-single-domain) are <u>a</u>ll <u>b</u>ig <u>users</u> of email. <u>Ahem</u>.
-[^maybe-only-me]: &hellip; and it's possible that I'm the only one who does, and that anything which distracts from programming really is less important. But my intuition is that understanding and working to resolve these things will be tangible help when trying to build a solid foundation for the kind of company that we're trying to run.
+[^email]: ... along with around sixty other emails. I think it's fair to say that [gov.uk](/government-single-domain) are <u>a</u>ll <u>b</u>ig <u>users</u> of email. <u>Ahem</u>.
+[^maybe-only-me]: ... and it's possible that I'm the only one who does, and that anything which distracts from programming really is less important. But my intuition is that understanding and working to resolve these things will be tangible help when trying to build a solid foundation for the kind of company that we're trying to run.
 
 [yinyang]: http://en.wikipedia.org/wiki/Yin_and_yang
 [James M]: /james-mead

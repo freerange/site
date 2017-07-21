@@ -3,7 +3,7 @@ Delegated tasks aren't a team anti-pattern
 
 (Well, not all kinds of delegated tasks are.)
 
-Our friend and occasional colleague [Chris Parsons][] wrote a blog posted titled "[Delegated tasks are a team anti-pattern][dtaatap]" a few weeks ago that we found very interesting&hellip;
+Our friend and occasional colleague [Chris Parsons][] wrote a blog posted titled "[Delegated tasks are a team anti-pattern][dtaatap]" a few weeks ago that we found very interesting...
 
 _This post has now [moved to the Harmonia blog](https://harmonia.io/blog/delegated-tasks-arent-an-anti-pattern), where you can find all of the latest news and tips about [Harmonia][]. You can also subscribe to the [Atom/RSS feed](https://harmonia.io/blog/feed)._
 
