@@ -26,11 +26,10 @@ Along the way Chris wrote a [fantastic summary](http://gofreerange.com/show-and-
 Have a very good weekend, won't you?
 
 :name: week-444
-:updated_at: 2017-07-21 15:40:00.296726000 +01:00
-:created_at: 2017-07-21 15:40:00.296724000 +01:00
+:updated_at: 2017-07-21 17:20:31.016432000 +01:00
+:created_at: 2017-07-21 17:20:31.016421000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
