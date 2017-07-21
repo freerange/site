@@ -14,11 +14,10 @@ I started exploring my family history about 15 years ago and have dipped in and 
 David Marland built this site to provide alerts when London's tube network has disruptions. He used React for the front end, Service Worker and push notifications to provide an "app-like" experience, and NodeJS on AWS Lambda for the "serverless" backend. He then spent [just as long](https://twitter.com/djmarland/status/887949355038244864) documenting and explaining the whole thing. A fantastic resource. <%= by('chris-lowis') %>
 
 :name: week-444-links
-:updated_at: 2017-07-18 10:19:50.025753000 +01:00
-:created_at: 2017-07-18 10:19:50.025739000 +01:00
+:updated_at: 2017-07-21 09:57:04.952573000 +01:00
+:created_at: 2017-07-21 09:57:04.952560000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
