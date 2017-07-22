@@ -1,4 +1,4 @@
-[James](http://lazyatom.com) co-founded <%= include_snip 'gfr' %> in 2009 and remained with the company until September 2013 when he left to [start a new venture](/some-exciting-news) called ["Exciting"](http://exciting.io).
+[James](http://lazyatom.com) co-founded [Go Free Range](/) in 2009 and remained with the company until September 2013 when he left to [start a new venture](/some-exciting-news) called ["Exciting"](http://exciting.io).
 
 James is a long-time Rubyist and one of the instigators of [LRUG](http://lrug.org) and [Ruby Manor](http://rubymanor.org). Since finishing his PhD, he's been building applications using Ruby, including work on [theauteurs.com](http://www.theauteurs.com) and [Reevoo](http://www.reevoo.com).
 

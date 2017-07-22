@@ -1,4 +1,4 @@
-James worked as part of <%= include_snip 'gfr' %> from its inception until May 2010.
+James worked as part of [Go Free Range](/) from its inception until May 2010.
 
 While working with us, he contributed to the <%= l('tellyougov', 'TellYouGov') %> project, and provided development for <%= l('mubi', 'MUBI') %> and <%= l('new-leaders', 'New Leaders') %>.
 

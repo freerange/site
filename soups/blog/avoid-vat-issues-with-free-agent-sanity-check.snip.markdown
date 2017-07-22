@@ -3,13 +3,13 @@ Avoiding VAT issues with FreeAgent Sanity Check
 
 *UPDATE: The FreeAgent Sanity Check app is now deprecated. We now use the [FreeAgent Transaction Explainer Chrome extension](/chrome-extension-for-explaining-bank-transactions-in-freeagent) to achieve something similar.*
 
-While our main focus at <%= include_snip 'gfr' %> is building software, we're also running a company and that comes with its own set of chores and obligations. Wherever possible, we like to build simple tools to make sure that managing those obligations is as painless as possible. I'd like to outline one simple tool here -- the [FreeAgent Sanity Check][].
+While our main focus at [Go Free Range](/) is building software, we're also running a company and that comes with its own set of chores and obligations. Wherever possible, we like to build simple tools to make sure that managing those obligations is as painless as possible. I'd like to outline one simple tool here -- the [FreeAgent Sanity Check][].
 
 
 *Vat*'s[^pun] "VAT"?
 ---------
 
-To help manage the accounting aspect of our business, we use [FreeAgent][] (along with [Harmonia][], as [outlined on the Harmonia blog][using-harmonia-with-freeagent]). Amongst the many things that FreeAgent helps us with are our VAT[^vat] accounts. Because <%= include_snip 'gfr' %> is a VAT-registered business, we have to charge VAT on services and products that we sell, and then once a quarter we pay that tax forward to the UK Government, along with reclaiming any VAT that we've paid on services and products that we've purchased.
+To help manage the accounting aspect of our business, we use [FreeAgent][] (along with [Harmonia][], as [outlined on the Harmonia blog][using-harmonia-with-freeagent]). Amongst the many things that FreeAgent helps us with are our VAT[^vat] accounts. Because [Go Free Range](/) is a VAT-registered business, we have to charge VAT on services and products that we sell, and then once a quarter we pay that tax forward to the UK Government, along with reclaiming any VAT that we've paid on services and products that we've purchased.
 
 If that sounds like a lot of jumping through hoops then you've probably grasped the idea. We're really glad that FreeAgent gives us a helping hand to ensure that we're paying (or indeed reclaiming) the right amount.
 

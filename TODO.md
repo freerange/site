@@ -1,7 +1,6 @@
 ## Problems with existing version of site
 
 * Nested <ul> for blog navigation side-bar (list-of)
-* Do we need both/either of "gfr" & "fr" snips
 * Consistent naming of snip files & templates - underscores not hyphens?
 * Do we need public_keys snip
 * Should we be using `Time.now` as a default in the atom entry ID?
