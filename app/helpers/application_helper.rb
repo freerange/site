@@ -81,7 +81,7 @@ module ApplicationHelper
   end
 
   def member(name)
-    snip = Site::Application.soup[name]
+    snip = Site::Application.people[name]
     render partial: 'shared/member', locals: { member: snip }
   end
 
