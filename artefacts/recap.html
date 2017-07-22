@@ -28,7 +28,7 @@
     <div class="group" id="content">
       <h2 id='tag'>Recap</h2>
       <div class='section group'>
-        <p><a href='http://github.com/freerange/recap'>Recap</a> is an opinionated set of <a href='https://github.com/capistrano/capistrano'>Capistrano</a> deployment recipes, designed to use <a href='http://git-scm.com/'>git</a>'s strengths to deploy applications and websites in a fast and simple manner.</p>
+        <p><a href='http://github.com/freerange/recap'>Recap</a> is an opinionated set of <a href='https://github.com/capistrano/capistrano'>Capistrano</a> deployment recipes, designed to use <a href='http://git-scm.com/'>git</a>’s strengths to deploy applications and websites in a fast and simple manner.</p>
         <h2>Features & Aims</h2>
         <ul>
           <li>
@@ -38,7 +38,7 @@
             <p>Deployments do the minimum work possible, using git to determine whether tasks need to run. e.g. the <code>bundle:install</code> task only runs if the app contains a <code>Gemfile.lock</code> file and it has changed since the last deployment.</p>
           </li>
           <li>
-            <p>Applications have their own user account and group, owning all of that application's associated files and processes. This gives them a dedicated environment, allowing environment variables to be used for application specific configuration. Tasks such as <code>env</code>, <code>env:set</code> and <code>env:edit</code> make setting and changing these variables easy.</p>
+            <p>Applications have their own user account and group, owning all of that application’s associated files and processes. This gives them a dedicated environment, allowing environment variables to be used for application specific configuration. Tasks such as <code>env</code>, <code>env:set</code> and <code>env:edit</code> make setting and changing these variables easy.</p>
           </li>
           <li>
             <p>Personal accounts are used to deploy to the server, distinct from the application user. The right to deploy an application is granted simply by adding a user to the application group.</p>
