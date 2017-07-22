@@ -1,7 +1,3 @@
-## Required changes to match existing version of site
-
-* Use Rails recipe for recap deployment if necessary
-
 ## Problems with existing version of site
 
 * Nested <ul> for blog navigation side-bar (list-of)
