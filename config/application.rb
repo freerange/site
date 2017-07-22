@@ -38,6 +38,10 @@ module Site
       @people ||= Soup.new(backend_for('soups/people'))
     end
 
+    def self.projects
+      @projects ||= Soup.new(backend_for('soups/projects'))
+    end
+
     def self.weeklinks_pages
       @weeklinks ||= Soup.new(backend_for('soups/weeklinks'))
     end

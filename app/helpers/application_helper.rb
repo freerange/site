@@ -86,7 +86,7 @@ module ApplicationHelper
   end
 
   def project(name)
-    snip = Site::Application.soup[name]
+    snip = Site::Application.projects[name]
     render partial: 'shared/project', locals: { project: snip }
   end
 
