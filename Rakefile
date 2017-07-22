@@ -76,7 +76,7 @@ USERNAMES_VS_AUTHORS = {
 }
 
 def existing_show_and_tell_event_numbers
-  Site::Application.soup.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
+  Site::Application.show_and_tell_events.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
 end
 
 templates = Site::Application.templates
