@@ -20,7 +20,7 @@ This is an old article, but it's my favourite explanation of the important diffe
 
 How best to integrate visual design into the agile process is a subject close to our hearts. I found this (somewhat old) article written from a designer's perspective particularly illuminating.
 
-> Agile is deliberately light on documentation. Great -- more time to spend on thinking and designing. Given this bias, static page comps and wireframes are a dead end. They’re simply too rigid for Agile, particularly now that the page is no longer the atomic unit of the web.
+> Agile is deliberately light on documentation. Great -- more time to spend on thinking and designing. Given this bias, static page comps and wireframes are a dead end. They're simply too rigid for Agile, particularly now that the page is no longer the atomic unit of the web.
 
 I've often read about sketching, paper-prototyping & HTML-prototyping as good ways for designers to integrate with an agile workflow, but it still seems to be the exception rather than the rule.
 

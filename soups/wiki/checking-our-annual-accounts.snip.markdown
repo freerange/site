@@ -3,7 +3,7 @@ Checking Our Annual Accounts
 
 This should help you check our Annual Accounts supplied by the Accountant.
 
-It might be worth reading 3CA's blog post, "[Why are my accounts different from my accountants’ accounts?][3ca-blog-post]", to understand why there might be some differences between our accounts in FreeAgent and those that our accountant sends over.
+It might be worth reading 3CA's blog post, "[Why are my accounts different from my accountants' accounts?][3ca-blog-post]", to understand why there might be some differences between our accounts in FreeAgent and those that our accountant sends over.
 
 Each heading below should correspond to a section in the Annual Accounts that our Accountant sends us. The headings below should give you a good idea of what you need to check and where to find the various figures that are used in the accounts.
 

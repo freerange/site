@@ -1,7 +1,7 @@
 Week 340 - Interesting links
 ============================
 
-### [Your Timeline: Revisiting the world that you’ve explored](http://google-latlong.blogspot.co.uk/2015/07/your-timeline-revisiting-world-that.html)
+### [Your Timeline: Revisiting the world that you've explored](http://google-latlong.blogspot.co.uk/2015/07/your-timeline-revisiting-world-that.html)
 
 I like the look of this new functionality from Google Maps. I've been manually collecting my own location history for a while now, and had imagined being able to use Google's location history to automate the process somewhat (i.e. give me suggestions of places I've been near during the day). Now it looks like I might simply be able to use this interface and then export my data to end up with the same result.
 

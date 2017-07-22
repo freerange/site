@@ -17,7 +17,7 @@ Following on from Chris' links above, this article by Phil Potter is a good expl
 
 This reminded me of a thought I'd had about linking web pages (e.g. blog posts or news articles) to their source in version control (assuming that's how they're stored). I can imagine that such a machine readable link would make it possible to add something to the browser to give a nice view of the history of the page over time. <%= by('chris-roos') %>
 
-### [Choosing an OSS license doesn’t need to be scary](http://choosealicense.com/)
+### [Choosing an OSS license doesn't need to be scary](http://choosealicense.com/)
 
 This was one of a number of useful links from [Despo Pentara](https://twitter.com/despo)'s recent LRUG Lightning Talk on [how to get started with Open Source](https://skillsmatter.com/skillscasts/5057-open-source-how-to-get-started).
 

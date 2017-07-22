@@ -19,7 +19,7 @@ This is a great little trick. I've been using the [bookmarklets app](https://pla
 
 ### [New in Pivotal Tracker – Story following and user @mentions](http://pivotallabs.com/story-following-and-user-mentions/)
 
-> It’s now even easier to collaborate with your teammates and keep the right people up to date. We’re very excited to announce Tracker story following and @mentioning!
+> It's now even easier to collaborate with your teammates and keep the right people up to date. We're very excited to announce Tracker story following and @mentioning!
 
 This is a great addition to Pivotal Tracker. It should make it easier to have a discussion about a story with someone other than the person that requested it. <%= by('chris-roos') %>
 

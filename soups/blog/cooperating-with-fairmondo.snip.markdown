@@ -31,10 +31,10 @@ Fairmondo UK by taking a look at both applications and giving them
 some advice.
 
 We also took a step back to consider what Fairmondo UK were trying to
-achieve and whether there would be some alternatives that they hadn’t
+achieve and whether there would be some alternatives that they hadn't
 considered.
 
-We can’t talk too much at this stage about what we recommended, as
+We can't talk too much at this stage about what we recommended, as
 Fairmondo UK are thinking about their next steps - but they were very
 pleased with the advice we gave them. We also learnt a lot by looking
 at a couple of different, large Rails apps including

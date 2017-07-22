@@ -41,7 +41,7 @@ Game reviews from people who have just chewed and swallowed incredibly hot peppe
 
 A pretty-long but very comprehesive writeup of one person selling the product they invented. Seeing all the hassle they went through is fascinating. This part in particular resonated with me and my own thoughts about how a person, or a company, should go about learning how to make things:
 
-> And here’s the terrifying part. You will probably lose it. You WILL probably fail. So you better learn something abso-freakin-lutely amazing to justify that loss. Go all out. Explore your options. And use that knowledge for next time, because there will be a next time and when there is you will do better.
+> And here's the terrifying part. You will probably lose it. You WILL probably fail. So you better learn something abso-freakin-lutely amazing to justify that loss. Go all out. Explore your options. And use that knowledge for next time, because there will be a next time and when there is you will do better.
 
 <%= by('james-adam') %>
 

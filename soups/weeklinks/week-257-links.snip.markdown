@@ -7,7 +7,7 @@ A great reminder from Jeffrey Zeldman that the web is a beautiful thing and is c
 
 I love the whole the piece but really enjoyed this quote in particular. <%= by('chris-roos') %>
 
-> Yes, recycling other people’s recycling of other people’s recycling of cat gifs is fun and easy on Tumblr. Yes, rubbing out a good bon mot on Twitter can satisfy one’s ego and rekindle a wistful remembrance of meaning. Yes, these things are still fine to do. But they are not all we can do on this web. This is our web. Let us not surrender it so easily to new corporate masters.
+> Yes, recycling other people's recycling of other people's recycling of cat gifs is fun and easy on Tumblr. Yes, rubbing out a good bon mot on Twitter can satisfy one's ego and rekindle a wistful remembrance of meaning. Yes, these things are still fine to do. But they are not all we can do on this web. This is our web. Let us not surrender it so easily to new corporate masters.
 
 
 ### [The case for progressive enhancement](http://www.elezea.com/2013/12/progressive-enhancement-yay/)

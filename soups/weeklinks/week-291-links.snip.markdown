@@ -8,7 +8,7 @@ This looks great. It's pretty common to see software READMEs include a section o
 
 ### [nemex.io](http://beta.nemex.io/)
 
-> nemex is a tiny app that helps you to track and curate ideas and projects. It’s self-hosted and based on markdown.
+> nemex is a tiny app that helps you to track and curate ideas and projects. It's self-hosted and based on markdown.
 
 This sounds like exactly the sort of thing I've been imagining building for a while. I'm yet to try it but the website and feature set looks great and I'm hoping it'll be just what I'm after. <%= by('chris-roos') %>
 

@@ -39,7 +39,7 @@ I hadn't come across either of these things before but will certainly bear them 
 
 ### [Taking the Ps](http://deserter.co.uk/2014/11/taking-the-ps/)
 
-> ‘30 quid each? Fuck that. It’s not even got a roof,’ said Half-life, recounting how he had refused his own mother her life-long dream of a ride on an open-top London sightseeing bus.
+> ‘30 quid each? Fuck that. It's not even got a roof,' said Half-life, recounting how he had refused his own mother her life-long dream of a ride on an open-top London sightseeing bus.
 
 The [Deserter][] has recently become one of my favourite blogs (thanks, [Paul B][]!). Definitely my kind of humour. <%= by('chris-roos') %>
 

@@ -5,7 +5,7 @@ Week 438 - Interesting links
 
 Tim Bray explains why he continues to blog in 2017. This paragraph in particular resonated with me.
 
-> The great dan­ger is that the Web’s fu­ture is mall-like: No space re­al­ly pub­lic, no store­fronts but na­tion­al brands’, no vi­su­als com­posed by am­a­teurs, noth­ing that’s on of­fer just for its own sake, and for love.
+> The great dan­ger is that the Web's fu­ture is mall-like: No space re­al­ly pub­lic, no store­fronts but na­tion­al brands', no vi­su­als com­posed by am­a­teurs, noth­ing that's on of­fer just for its own sake, and for love.
 
 Reading these sort of posts make me want to write/post more. <%= by('chris-roos') %>
 
@@ -21,7 +21,7 @@ As someone without an account I'm somewhat fascinated by the fact that Facebook 
 
 ### [Deserter Election Manifesto](https://deserter.co.uk/2017/06/deserter-election-manifesto-revealed/)
 
-This is a manifesto I can get behind! Mostly because "The potato will be allowed into the ‘five-a-day’ club" :-) <%= by('chris-roos') %>
+This is a manifesto I can get behind! Mostly because "The potato will be allowed into the ‘five-a-day' club" :-) <%= by('chris-roos') %>
 
 
 ### [How much does a website cost?](https://outlandish.com/blog/how-much-does-a-website-cost/)

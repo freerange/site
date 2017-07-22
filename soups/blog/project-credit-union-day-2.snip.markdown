@@ -13,7 +13,7 @@ The most obviously useful mechanism is [Faster Payments][]. This allows transfer
 
 * be a customer with an account at a member that is willing to sponsor you
 * have, or be eligible to hold, at least one unique sort code
-* be able to comply continuously with Faster Payments’ technical and operational requirements.
+* be able to comply continuously with Faster Payments' technical and operational requirements.
 
 From what we can tell it seems as if the next step is to talk to an existing member. We're thinking of talking to the [Co-operative Bank][] given their [history of supporting credit unions][Co-operative Bank Social Enterprises].
 

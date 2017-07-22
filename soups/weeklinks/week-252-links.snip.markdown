@@ -6,7 +6,7 @@ Monday Links - 252
 [Tom Stuart](https://twitter.com/tomstuart)'s new podcast. I feel slightly guilty that I haven't listened to episode 1 yet but knowing Tom, I don't doubt that it'll be great. <%= by('chris-roos') %>
 
 
-### [How to Subscribe to A Brand’s Facebook Page in an RSS Feed Reader](http://blogsandpr.com/2013/03/subscribe-to-a-brands-facebook-page-in-an-rss/)
+### [How to Subscribe to A Brand's Facebook Page in an RSS Feed Reader](http://blogsandpr.com/2013/03/subscribe-to-a-brands-facebook-page-in-an-rss/)
 
 I found myself wanting to do this last week when a bike shop said they'd announce a bike sale on their facebook page. Following these instructions seem to have done the trick - now I just need to read my feeds... <%= by('chris-roos') %>
 

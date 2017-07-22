@@ -4,9 +4,9 @@ Monday Links - 219
 Here are a few links and ideas we've been thinking about over the last week.
 
 
-### [How do you fight the UKBA when they’re wrong?](http://turbotasticaltales.com/2013/03/23/how-do-you-fight-the-ukba-when-theyre-wrong/)
+### [How do you fight the UKBA when they're wrong?](http://turbotasticaltales.com/2013/03/23/how-do-you-fight-the-ukba-when-theyre-wrong/)
 
-This is a personal one: My friend’s being asked to leave the UK due to what appears to be an error on UKBA’s side. If anyone can help in any way, please do get in touch. <%= by('chris-roos') %>
+This is a personal one: My friend's being asked to leave the UK due to what appears to be an error on UKBA's side. If anyone can help in any way, please do get in touch. <%= by('chris-roos') %>
 
 
 ### [A FizzBuzz fit for the enterprise](https://github.com/Mikkeren/FizzBuzzEnterpriseEdition)
@@ -16,7 +16,7 @@ As developers, we've all had to write implementations of [FizzBuzz](https://gith
 
 ### [Today's Email Incident](https://github.com/blog/1440-today-s-email-incident)
 
-Github explain, in detail, an unexpected side effect of keeping up with the most recent Rails patches. As a slight aside, I tried this code on an empty 3.2.13 app, using sqlite3 and I don’t see the problem they’re experiencing. <%= by('chris-roos') %>
+Github explain, in detail, an unexpected side effect of keeping up with the most recent Rails patches. As a slight aside, I tried this code on an empty 3.2.13 app, using sqlite3 and I don't see the problem they're experiencing. <%= by('chris-roos') %>
 
 
 ### [Building a GOV.UK exhibit](http://codon.com/building-a-govuk-exhibit)
@@ -31,7 +31,7 @@ Here's a quick tip to get a backtrace in ruby.  So simple, it's almost worth the
 
 ### [The Myth of Focus & Why Many Great Entrepreneurs Pursued Multiple Projects at Once](http://www.mindvalleyinsights.com/the-myth-of-focus/)
 
-I’m still trying to work out the level of focus that this guy’s talking about, but I’m sure there’s *something* in this. <%= by('chris-roos') %>
+I'm still trying to work out the level of focus that this guy's talking about, but I'm sure there's *something* in this. <%= by('chris-roos') %>
 
 
 ### [Don't be a free user](http://blog.pinboard.in/2011/12/don_t_be_a_free_user/)
@@ -46,7 +46,7 @@ This menu can be found in [an old furniture shop in Stoke Newington](http://www.
 
 ### [Self-Organizing Organizations (For Real)](http://www.infoq.com/articles/self-organizing-organizations)
 
-This is probably the first example I’ve come across of another company operating similarly to GFR. It’s interesting to read about the challenges they’ve faced and compare them to our own experiences. <%= by('chris-roos') %>
+This is probably the first example I've come across of another company operating similarly to GFR. It's interesting to read about the challenges they've faced and compare them to our own experiences. <%= by('chris-roos') %>
 
 
 ### [Autonomous Teams: What They Are and Why You Should Care](http://blog.newrelic.com/2013/02/26/autonomous-teams-what-they-are-and-why-you-should-care/)

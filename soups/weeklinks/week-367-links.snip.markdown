@@ -10,7 +10,7 @@ This reminds me of the [daily time slice images I created from the photos I was 
 
 ### [Nick on Twitter](http://inessential.com/2016/01/20/nick_on_twitter)
 
-> I don’t have any analytics on this blog. I don’t know how many visitors it gets, how many RSS subscribers it has, or which posts are more popular than other posts. I like not knowing.
+> I don't have any analytics on this blog. I don't know how many visitors it gets, how many RSS subscribers it has, or which posts are more popular than other posts. I like not knowing.
 
 This is the reason I don't have any analytics, or record any logs, of visitors to my blog. I think it's all too easy for the thing being measured to become the primary focus and to take away from the original reason for doing something. While this post might specifically be about the author writing on their blog I think the general principle applies in many cases. <%= by('chris-roos') %>
 
@@ -19,11 +19,11 @@ This is the reason I don't have any analytics, or record any logs, of visitors t
 
 I enjoyed reading this post about FutureLearn's experiment to anonymise details of applicants for their Ruby developer roles. It sounds as though there was some initial doubt but that the trial has paid off. Good work, FutureLearn!
 
-> After trialling anonymisation with six Ruby developer candidates, we could see that it was good for our preparation; it was much easier for the team to pay attention to relevant information, and it was particularly useful guidance for team members who’d not done hiring before.
+> After trialling anonymisation with six Ruby developer candidates, we could see that it was good for our preparation; it was much easier for the team to pay attention to relevant information, and it was particularly useful guidance for team members who'd not done hiring before.
 
 I particularly liked this quote too:
 
-> We don’t care about having worked at big-name tech companies – we care about job responsibilities. We don’t care about having given talks at prestigious conferences – we care about being able to communicate with us.
+> We don't care about having worked at big-name tech companies – we care about job responsibilities. We don't care about having given talks at prestigious conferences – we care about being able to communicate with us.
 
 <%= by('chris-roos') %>
 

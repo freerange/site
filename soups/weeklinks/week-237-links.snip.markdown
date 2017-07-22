@@ -36,11 +36,11 @@ It's a strange new media world we live in where one of the most interesting docu
 This is a gist showing how to create an animated GIF screencast using only free OS X tools: QuickTime, ffmpeg, and gifsicle. <%= by('james-mead') %>
 
 
-### [IMVU’s Approach to Integrating Quality Assurance with Continuous Deployment](http://engineering.imvu.com/2010/04/09/imvus-approach-to-integrating-quality-assurance-with-continuous-deployment/)
+### [IMVU's Approach to Integrating Quality Assurance with Continuous Deployment](http://engineering.imvu.com/2010/04/09/imvus-approach-to-integrating-quality-assurance-with-continuous-deployment/)
 
 [Tom](/tom-ward) gave a great presentation at [FutureLearn](http://futurelearn.com) last week about the business case behind continuous deployment. Following on from that I enjoyed reading this (admittedly old) article about how the lean-startup gurus think about quality and QA. This paragraph stood out:
 
-> We’ve found that the costs we incur -- typically bugs or unpolished but functional features -- are worthwhile in the name of getting feedback from our customers as quickly as possible about our product innovations. The sooner we have feedback from our customers, the sooner we know whether we guessed right about our product decisions and the sooner we can choose to either change course or double down on a winning idea.
+> We've found that the costs we incur -- typically bugs or unpolished but functional features -- are worthwhile in the name of getting feedback from our customers as quickly as possible about our product innovations. The sooner we have feedback from our customers, the sooner we know whether we guessed right about our product decisions and the sooner we can choose to either change course or double down on a winning idea.
 
 Striking a balance between polishing features and shipping them fast is a tough problem, but one worth perfecting. <%= by('james-mead') %>
 

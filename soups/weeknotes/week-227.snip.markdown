@@ -25,7 +25,7 @@ In my book, one of the marks of a good manager is one who notices when someone d
 
 Talking of books, an exciting development this week was the publication of a new O'Reilly book, [Understanding Computation](http://codon.com/computation-book), by our very own author-in-residence and plant-waterer-in-chief, [Tom Stuart](https://twitter.com/tomstuart):
 
-> It’s a book about old, deep ideas from theoretical computer science, deconstructed and explained in an engaging, practical way for an audience of working programmers.
+> It's a book about old, deep ideas from theoretical computer science, deconstructed and explained in an engaging, practical way for an audience of working programmers.
 
 Given that I did my degree in Electronic-(ish) Engineering and not Computer Science, I'm hoping this book will fill in some big gaps in my knowledge. I've purchased a copy, but not yet found time to read any of it. However, if Tom's [Programming with Nothing](http://rubymanor.org/3/videos/programming_with_nothing/) talk at [Ruby Manor 3](http://rubymanor.org/3) is anything to go by, I reckon it's going to be well worth the money.
 

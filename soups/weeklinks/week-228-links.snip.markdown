@@ -28,7 +28,7 @@ Tom Stuart's book is finally available, in electronic and dead-tree forms. If yo
 The [Kickstarter campaign](http://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform) for this open-source blogging platform is already pretty much finished and very well funded, but what caught my eye in the teaser video was the side-by-side editing and preview feature. We're pretty much in the business of making "admin" interfaces, and it got me thinking about how we might make Markdown more user-friendly. <%= by('james-adam') %>
 
 
-### [Leaving Google’s silo: Alternatives to Gmail, Talk, Calendar, and more](https://kkinder.com/2013/05/21/leaving-googles-silo-alternatives-to-gmail-talk-calendar-and-more/)
+### [Leaving Google's silo: Alternatives to Gmail, Talk, Calendar, and more](https://kkinder.com/2013/05/21/leaving-googles-silo-alternatives-to-gmail-talk-calendar-and-more/)
 
 Ken Kinder claims that "Google is the new AOL", has given up on open standards and is gradually removing its properties from the open web. While I think his claims have _some_ justification, the existence of [The Data Liberation Front](http://www.dataliberation.org/) means that I don't feel as paranoid as he does. However, it was interesting to read about alternatives to Google products. I've had a [Fastmail](https://www.fastmail.fm/) account since 2002 and have always found it to be an excellent service, so it wasn't a surprise to see it in the list. However, [Fruux](https://fruux.com/) and [Radicale](http://radicale.org/) were new to me and worth some investigation. The article has also prompted me to have another look at [Soocial](http://www.soocial.com/), a service that I experimented with a while back. <%= by('james-mead') %>
 

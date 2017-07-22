@@ -8,7 +8,7 @@ This proposed new method called `Object.observe()` looks very useful. Apparently
 
 ### [When two-factor authentication is not enough](http://blog.fastmail.fm/2014/04/10/when-two-factor-authentication-is-not-enough/)
 
-This is the story of a failed attempt to steal FastMail’s domains which are registered with Gandi. I was particularly interested, because I use Gandi as a domain registrar, both for GFR and personally. <%= by('james-mead') %>
+This is the story of a failed attempt to steal FastMail's domains which are registered with Gandi. I was particularly interested, because I use Gandi as a domain registrar, both for GFR and personally. <%= by('james-mead') %>
 
 
 ### [Use Fig and Docker to run a Rails app... without installing Rails](https://www.orchardup.com/blog/use-fig-to-run-a-rails-app)

@@ -23,7 +23,7 @@ I know that collectively we won't want to talk about ourselves as _consultants_,
 
 ## Inside Government
 
-At the beginning of the week, our [GDS](http://digital.cabinetoffice.gov.uk/) colleagues were marking a major milestone - [10 Downing Street](https://www.gov.uk/number10), the [Deputy PM’s office](https://www.gov.uk/dpm), [all 24 of the UK’s central government departments](https://www.gov.uk/government/organisations) and its [embassies around the world](https://www.gov.uk/government/world) are now sharing a single, joined-up presence on the web at [www.gov.uk/government](http://www.gov.uk/government).
+At the beginning of the week, our [GDS](http://digital.cabinetoffice.gov.uk/) colleagues were marking a major milestone - [10 Downing Street](https://www.gov.uk/number10), the [Deputy PM's office](https://www.gov.uk/dpm), [all 24 of the UK's central government departments](https://www.gov.uk/government/organisations) and its [embassies around the world](https://www.gov.uk/government/world) are now sharing a single, joined-up presence on the web at [www.gov.uk/government](http://www.gov.uk/government).
 
 And Neil Williams eloquently [explained its significance](http://digital.cabinetoffice.gov.uk/2013/04/30/24-departments-later/):
 

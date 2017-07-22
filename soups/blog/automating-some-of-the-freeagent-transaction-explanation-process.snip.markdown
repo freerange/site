@@ -3,7 +3,7 @@ Automating some of the FreeAgent transaction explanation process
 
 We have a weekly [Harmonia][] task to import our bank statements and explain them in [FreeAgent][]. Explaining a transaction in FreeAgent involves, among other things, choosing a category, setting the amount of VAT, describing the transaction and potentially uploading an attachment.
 
-Trying to remember how to explain recurring payments (e.g. for our monthly GitHub subscription) is error prone and takes longer than necessary. While explaining the transactions yesterday, I decided to do something about it. To that end, I’ve created a bookmarklet that automates some of the explanation process for me. You can see it in action in the short video below (there's a [better quality video too](https://docs.google.com/a/gofreerange.com/file/d/0Byppog2awIncRjVnd2M4THlzMVU)).
+Trying to remember how to explain recurring payments (e.g. for our monthly GitHub subscription) is error prone and takes longer than necessary. While explaining the transactions yesterday, I decided to do something about it. To that end, I've created a bookmarklet that automates some of the explanation process for me. You can see it in action in the short video below (there's a [better quality video too](https://docs.google.com/a/gofreerange.com/file/d/0Byppog2awIncRjVnd2M4THlzMVU)).
 
 <iframe src="https://docs.google.com/a/gofreerange.com/file/d/0Byppog2awIncRjVnd2M4THlzMVU/preview" width="640" height="385"></iframe>
 

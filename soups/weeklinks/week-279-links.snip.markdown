@@ -1,7 +1,7 @@
 Week 279 - Interesting links
 ============================
 
-### [The Search Features You’ve Been Looking For](http://blog.trello.com/the-search-features-youve-been-looking-for/)
+### [The Search Features You've Been Looking For](http://blog.trello.com/the-search-features-youve-been-looking-for/)
 
 This is a great improvement to the search functionality in Trello. I've certainly felt the pain of not being able to find a card by searching for something I knew I'd written in a comment before. <%= by('chris-roos') %>
 

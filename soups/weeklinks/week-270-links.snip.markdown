@@ -32,7 +32,7 @@ This is fascinating. A searchable archive of old newspapers. I just searched for
 
 This is a great article by [Jeremy Keith][]. I'll give you a little taster but recommend reading it in full. 
 
-> That’s another killer feature of the web: you don’t need anyone else. You can publish to this world-changing creation without asking anyone for permission. I wish it were easier for people to do this: entrusting your heritage to the Yahoos and Pownces of the world is seductively simple …but only in the short term. <%= by('chris-roos') %>
+> That's another killer feature of the web: you don't need anyone else. You can publish to this world-changing creation without asking anyone for permission. I wish it were easier for people to do this: entrusting your heritage to the Yahoos and Pownces of the world is seductively simple …but only in the short term. <%= by('chris-roos') %>
 
 
 [Jeremy Keith]: http://adactio.com/

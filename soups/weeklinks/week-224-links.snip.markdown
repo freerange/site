@@ -7,7 +7,7 @@ Posting content on my own site (or using my preferred service) and having that c
 
 ### [BERG - Week 408](http://berglondon.com/blog/2013/04/04/week-408/)
 
-> In this week’s All Hands, we discussed Weeknotes. What are Weeknotes? Why do we do them,? Who reads them? Should they continue? Well, apparently Neil’s Mum reads them and this is as good a reason to continue as any, so here’s what’s happening this week...
+> In this week's All Hands, we discussed Weeknotes. What are Weeknotes? Why do we do them,? Who reads them? Should they continue? Well, apparently Neil's Mum reads them and this is as good a reason to continue as any, so here's what's happening this week...
 
 Given some of our own internal discussions about the purpose of our weeknotes, it was interesting to read that others share some of our concerns, even if they don't seem to have come to any real conclusions. <%= by('james-mead') %>
 
@@ -27,7 +27,7 @@ I'm constantly amazed by how many business processes are entirely dependent on M
 
 I only recently became aware of [the role of Excel](http://baselinescenario.com/2013/02/09/the-importance-of-excel/) (and copying & pasting!) in JPMorgan's "London Whale" fiasco. Given the pervasiveness of Excel, I also found it sobering to read about the [lack of accuracy of statistical procedures in Excel](http://www.pages.drexel.edu/~bdm25/excel2007.pdf):
 
-> Excel 2007, like its predecessors, fails a standard set of intermediate-level accuracy tests in three areas: statistical distributions, random number generation, and estimation. Additional errors in specific Excel procedures are discussed. Microsoft’s continuing inability to correctly fix errors is discussed.
+> Excel 2007, like its predecessors, fails a standard set of intermediate-level accuracy tests in three areas: statistical distributions, random number generation, and estimation. Additional errors in specific Excel procedures are discussed. Microsoft's continuing inability to correctly fix errors is discussed.
 
 You have been warned! <%= by('james-mead') %>
 

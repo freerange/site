@@ -27,7 +27,7 @@ Rather than create a Gemfile alongside your Ruby script, you can combine them in
 
 ### [Feature-based Benefits](http://www.unboxedconsulting.com/blog/feature-based-benefits)
 
-> If you take a feature-based approach to define what the project chunks are then you will be in a stronger position to deliver the most valuable features first, irrespective of which project they’ve been categorised into.
+> If you take a feature-based approach to define what the project chunks are then you will be in a stronger position to deliver the most valuable features first, irrespective of which project they've been categorised into.
 
 Richard Stobart describes the benefits of delivering software based on the value of features, rather than which project they fall into. This is something we agree with but don't really see very often in practice. I suspect there's something about being able to say a project is completely finished, irrespective of how comparatively valuable its components are, that people are attracted to. <%= by('chris-roos') %>
 

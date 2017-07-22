@@ -27,7 +27,7 @@ We heard of Webb Chiles while staying in Opua. He was moored up in the marina wh
 
 > I love entering the monastery of the sea.
 >
-> (I started to write ‘A solo sailor’ instead of ‘I’, but realized that most solo sailors never enter the monastery of the sea.  They blog via satellite devices, call home on SSB, send emails and messages.  One almost wonders if they really want to be alone.)
+> (I started to write ‘A solo sailor' instead of ‘I', but realized that most solo sailors never enter the monastery of the sea.  They blog via satellite devices, call home on SSB, send emails and messages.  One almost wonders if they really want to be alone.)
 
 Note that while I've linked to his main site above he mostly seems to be writing on his [blogspot site](http://self-portraitinthepresentseajournal.blogspot.co.uk/) at the moment. <%= by('chris-roos') %>
 

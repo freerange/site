@@ -20,7 +20,7 @@ It wasn't so much the subject of this post that I found interesting, but more th
 
 ### [Readmill Epilogue](https://readmill.com/epilogue)
 
-> Readmill’s story ends here. Many challenges in the world of ebooks remain unsolved, and we failed to create a sustainable platform for reading. For this, we’re deeply sorry. We considered every option before making the difficult decision to end the product that brought us together.
+> Readmill's story ends here. Many challenges in the world of ebooks remain unsolved, and we failed to create a sustainable platform for reading. For this, we're deeply sorry. We considered every option before making the difficult decision to end the product that brought us together.
 
 I only recently came across Readmill and it looked like a really nice service. It's a real shame they're having to shut down. <%= by('chris-roos') %>
 

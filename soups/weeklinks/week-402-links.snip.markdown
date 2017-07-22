@@ -11,7 +11,7 @@ From what I've read, it looks as if the subsidiary of ABCUL, [Cornerstone Mutual
 
 I found this article by Kent Beck really interesting. It reinforced to me how important it is to understand **why** you are using a particular practice like [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) and not just [cargo-cult](https://en.wikipedia.org/wiki/Cargo_cult) it. <%= by('james-mead') %>
 
-### [Everyone Should Be Feeling the Customer’s Pain](https://www.helpscout.net/blog/customer-pain/)
+### [Everyone Should Be Feeling the Customer's Pain](https://www.helpscout.net/blog/customer-pain/)
 
 The idea of having everyone in your team do a stint on customer support is a really powerful one. It was something that our former client, [FutureLearn](https://www.futurelearn.com/), really embraced and I certainly found my days on support very illuminating. <%= by('james-mead') %>
 

@@ -10,7 +10,7 @@ I had a go at doing this aeons ago using Ruby 1.8.6, but I seem to remember I ra
 
 ### [rubyforge-redirects](https://github.com/tomstuart/rubyforge-redirects)
 
-As [Tom Stuart says](https://twitter.com/tomstuart/status/565902766087090176), "It’s a shame that all links to RubyForge projects are broken. Let’s fix it! Please help by contributing redirects." <%= by('james-mead') %>
+As [Tom Stuart says](https://twitter.com/tomstuart/status/565902766087090176), "It's a shame that all links to RubyForge projects are broken. Let's fix it! Please help by contributing redirects." <%= by('james-mead') %>
 
 
 ### [Undercover restorers fix Paris landmark's clock](http://www.theguardian.com/world/2007/nov/26/france.artnews)

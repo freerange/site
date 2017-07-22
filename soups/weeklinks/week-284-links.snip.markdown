@@ -35,7 +35,7 @@ This is a handy little Mac utility that makes it slightly easier to manage your 
 
 GitHub announce their improved Branches page:
 
-> New sections on the page also make it more obvious how you need to take action on the branches in your repository—whether that’s cleaning up stale branches
+> New sections on the page also make it more obvious how you need to take action on the branches in your repository—whether that's cleaning up stale branches
 
 I think this is a great improvement, particularly highlighting the stale branches that can be deleted. <%= by('chris-roos') %>
 

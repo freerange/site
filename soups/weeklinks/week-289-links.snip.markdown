@@ -31,7 +31,7 @@ This seems like a useful way to decide when it's worth doing TDD. <%= by('james-
 
 Tim introduces his post with:
 
-> I haven’t written a blog for ages. This is partly because I’m lazy, and I procrastinate (I’ve certainly got lots of half-baked drafts and sets of notes for things I’ve vaguely meant to write about at some point). It’s also partly because I’m never sure if what I have to say is interesting, novel, or even just correct enough to publish.
+> I haven't written a blog for ages. This is partly because I'm lazy, and I procrastinate (I've certainly got lots of half-baked drafts and sets of notes for things I've vaguely meant to write about at some point). It's also partly because I'm never sure if what I have to say is interesting, novel, or even just correct enough to publish.
 
 This pretty much sums up why I haven't written anything on my personal blog for ages, even though I'd like to.
 

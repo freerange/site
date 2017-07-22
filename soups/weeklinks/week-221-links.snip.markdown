@@ -5,7 +5,7 @@ Pry open your eyes with matchsticks and let the *interesting* flow straight into
 
 ### [Stop working (so hard)](https://medium.com/i-m-h-o/ef4772e3c628)
 
-"Nowadays, I’m working 4-day weeks, and doing no more than an hour or two of intense work at a time. I take a lot of walks. I’ve lost weight. I’m happier. My wife is happier. I’m more present." I know this is going to resonate with a lot of people (I'm not looking at anyone in particular, <%= l('chris-roos', 'Chris') %>) but it's not about just taking things easy and worrying less.
+"Nowadays, I'm working 4-day weeks, and doing no more than an hour or two of intense work at a time. I take a lot of walks. I've lost weight. I'm happier. My wife is happier. I'm more present." I know this is going to resonate with a lot of people (I'm not looking at anyone in particular, <%= l('chris-roos', 'Chris') %>) but it's not about just taking things easy and worrying less.
 
 The important point here, which is all too easy to miss, is the definition of __concrete boundaries__ (in the authors case, some number of hours of work per week that's under 35). Picking a specific goal and then sticking to it -- or, in otherwords, __wholeheartedly adopting a constraint__ -- can be liberating. <%= by('james-adam') %>
 
@@ -19,7 +19,7 @@ I've never heard of the game but I appreciate the level of transparency that the
 
 Interesting article by Tim Bray, someone I respect from afar, about his experiences at Google.
 
-I really like this quote, "Code reviews are way fiercer. The world doesn’t see this process but is in its debt". <%= by('chris-roos') %>
+I really like this quote, "Code reviews are way fiercer. The world doesn't see this process but is in its debt". <%= by('chris-roos') %>
 
 
 ### [Teehan+Lax Site](http://www.teehanlax.com/)
@@ -55,7 +55,7 @@ That paragraph, in particular, struck a chord with me. <%= by('chris-roos') %>
 
 This pretty much sums up how I imagine most people are using services to share their experiences.
 
-I love this quote, "You’re just a prism that takes bits of light and sound and channels them into The Cloud, to be stored with all the other bits of light and sound from everyone else. You become nothing more than the thumb operating your smartphone." <%= by('chris-roos') %>
+I love this quote, "You're just a prism that takes bits of light and sound and channels them into The Cloud, to be stored with all the other bits of light and sound from everyone else. You become nothing more than the thumb operating your smartphone." <%= by('chris-roos') %>
 
 
 ### [Game of Life in APL](http://www.youtube.com/watch?v=a9xAKttWgP4)
