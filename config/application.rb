@@ -22,22 +22,39 @@ module Site
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     def self.soup
-      @soup ||= begin
-        backend_dirs = %w(
-          soups
-          soups/people
-          soups/projects
-          soups/blog
-          soups/weeklinks
-          soups/weeknotes
-          soups/wiki
-          soups/show-and-tell
-        )
-        backends = backend_dirs.map do |path|
-          Soup::Backends::FileBackend.new(Rails.root.join(path))
-        end
-        Soup.new(Soup::Backends::MultiSoup.new(*backends))
-      end
+      @soup ||= Soup.new(Soup::Backends::MultiSoup.new(
+        backend_for('soups'),
+        backend_for('soups/people'),
+        backend_for('soups/projects'),
+        backend_for('soups/blog'),
+        backend_for('soups/weeklinks'),
+        backend_for('soups/weeknotes'),
+        backend_for('soups/wiki'),
+        backend_for('soups/show-and-tell')
+      ))
+    end
+
+    def self.weeklinks_pages
+      @weeklinks ||= Soup.new(backend_for('soups/weeklinks'))
+    end
+
+    def self.weeknotes_pages
+      @weeknotes ||= Soup.new(backend_for('soups/weeknotes'))
+    end
+
+    def self.show_and_tell_events
+      @wiki_pages ||= Soup.new(backend_for('soups/show-and-tell'))
+    end
+
+    # intentionally not included in multi-soup
+    def self.templates
+      @templates ||= Soup.new(backend_for('soup/templates'))
+    end
+
+    private
+
+    def self.backend_for(path)
+      Soup::Backends::FileBackend.new(Rails.root.join(path))
     end
   end
 end

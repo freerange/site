@@ -79,10 +79,10 @@ def existing_show_and_tell_event_numbers
   Site::Application.soup.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
 end
 
-templates = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/templates')))
-weeknotes = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/weeknotes')))
-weeklinks = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/weeklinks')))
-showandtell = Soup.new(Soup::Backends::FileBackend.new(Rails.root.join('soups/show-and-tell')))
+templates = Site::Application.templates
+weeknotes = Site::Application.weeknotes_pages
+weeklinks = Site::Application.weeklinks_pages
+showandtell = Site::Application.show_and_tell_events
 
 namespace :week do
   desc <<-DESC
