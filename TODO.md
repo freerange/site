@@ -12,7 +12,6 @@
 
 * Remove duplication across layouts
 * Use standard url_to method or at least distinguish custom url_to method from it
-* Only use one of HTML & HAML - I suggest we use HTML
 * Consider using Rails atom_feed helper method - no dependency on `ratom` gem
 * Use template/builder approach for sitemap & atom feed?
 * Use asset pipeline?
