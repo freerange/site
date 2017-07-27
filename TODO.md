@@ -1,12 +1,3 @@
-## Problems with existing version of site
-
-* Nested <ul> for blog navigation side-bar (list-of)
-* Do we need public_keys snip
-* Should we be using `Time.now` as a default in the atom entry ID?
-  * Maybe better to fail fast?
-* RSS/Atom feed - validation warnings
-* Consider hiding "partial" snips, e.g. "work", "company_info"
-
 ## Possible improvements
 
 * Remove duplication across layouts
