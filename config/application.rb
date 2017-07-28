@@ -51,7 +51,7 @@ module Site
     end
 
     def self.show_and_tell_events
-      @wiki_pages ||= Soup.new(backend_for('soups/show-and-tell'))
+      @show_and_tell_events ||= Soup.new(backend_for('soups/show-and-tell'))
     end
 
     # intentionally not included in multi-soup
