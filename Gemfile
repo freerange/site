@@ -13,3 +13,7 @@ group :development do
   gem 'recap'
   gem 'timecop'
 end
+
+group :development, :test do
+  gem 'rspec-rails'
+end
