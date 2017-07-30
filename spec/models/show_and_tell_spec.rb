@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'soup/snip'
 
 RSpec.describe ShowAndTell, type: :model do
   let(:backend) { Soup::Backends::Memory.new }
