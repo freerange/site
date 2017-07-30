@@ -56,7 +56,7 @@ namespace :week do
   DESC
   task number: :environment do
     date = Date.parse(ENV['DATE']) rescue Date.today
-    week_number = Company::GoFreeRange.week_number_for(date).to_i
+    week_number = Company::GoFreeRange.week_number_for(date)
     week_beginning = date.monday.strftime("%d %b %Y")
 
     puts "Week beginning #{week_beginning} is week #{week_number}"
@@ -84,7 +84,7 @@ namespace :week do
       template = templates['week-nnn']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
@@ -112,7 +112,7 @@ namespace :week do
     DESC
     task publish: :environment do
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
       snip_name = "week-#{week_number}"
       snip = weeknotes[snip_name]
       unless snip
@@ -139,7 +139,7 @@ namespace :week do
       template = templates['week-nnn-links']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
@@ -167,7 +167,7 @@ namespace :week do
     DESC
     task publish: :environment do
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
       snip_name = "week-#{week_number}-links"
       snip = weeklinks[snip_name]
       unless snip
