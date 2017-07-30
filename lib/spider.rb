@@ -29,23 +29,7 @@ class Spider
 
   def initialize
     @artefacts_path = Rails.root.join('artefacts')
-    soup = begin
-      backend_dirs = %w(
-        soups
-        soups/weeknotes
-        soups/weeklinks
-        soups/blog
-        soups/show-and-tell
-        soups/wiki
-        soups/people
-        soups/projects
-      )
-      backends = backend_dirs.map do |path|
-        Soup::Backends::FileBackend.new(Rails.root.join(path))
-      end
-      Soup.new(Soup::Backends::MultiSoup.new(*backends))
-    end
-
+    soup = Site::Application.soup
     seed_paths = soup.all_snips.map(&:name).map { |name| "/#{name}"}
     seed_paths += EXTRA_PATHS
 
