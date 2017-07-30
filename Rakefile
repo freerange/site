@@ -35,14 +35,9 @@ USERNAMES_VS_AUTHORS = {
   'chrislowis' => 'chris-lowis'
 }
 
-def existing_show_and_tell_event_numbers
-  Site::Application.show_and_tell_events.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i)
-end
-
 templates = Site::Application.templates
 weeknotes = Site::Application.weeknotes_pages
 weeklinks = Site::Application.weeklinks_pages
-showandtell = Site::Application.show_and_tell_events
 
 namespace :week do
   desc <<-DESC
@@ -190,15 +185,14 @@ namespace 'show-and-tell' do
   show-and-tell snips, but you can override that by supplying an
   event number in the NUMBER environment variable.
   DESC
-  task :create do
+  task create: :environment do
     template = templates['show-and-tell-nn']
 
-    next_event_number = existing_show_and_tell_event_numbers.max + 1
-    event_number = (ENV['NUMBER'] || next_event_number).to_i
+    event_number = (ENV['NUMBER'] || ShowAndTell.latest_event_number + 1).to_i
     username = `whoami`.chomp
     author = USERNAMES_VS_AUTHORS.fetch(username)
 
-    showandtell << template.attributes.merge({
+    ShowAndTell.create(template.attributes.merge({
       name: "show-and-tell-#{event_number}",
       extension: "markdown",
       author: author,
@@ -206,7 +200,7 @@ namespace 'show-and-tell' do
       updated_at: Time.now,
       page_title: "Show and Tell #{event_number}",
       content: template.content.gsub(/Show and Tell NN/, "Show and Tell #{event_number}")
-    })
+    }))
   end
 
   desc <<-DESC
@@ -219,11 +213,10 @@ namespace 'show-and-tell' do
   If a show-and-tell snip for the relevant number does not exist,
   it will exit with an error message.
   DESC
-  task :publish do
-    latest_event_number = existing_show_and_tell_event_numbers.max
-    event_number = (ENV['NUMBER'] || latest_event_number).to_i
+  task publish: :environment do
+    event_number = (ENV['NUMBER'] || ShowAndTell.latest_event_number + 1).to_i
     snip_name = "show-and-tell-#{event_number}"
-    snip = showandtell[snip_name]
+    snip = ShowAndTell.find(snip_name)
     unless snip
       abort "No show-and-tell snip found for event number #{event_number}"
     end

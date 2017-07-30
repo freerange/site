@@ -50,16 +50,10 @@ module Site
       @weeknotes ||= Soup.new(backend_for('soups/weeknotes'))
     end
 
-    def self.show_and_tell_events
-      @show_and_tell_events ||= Soup.new(backend_for('soups/show-and-tell'))
-    end
-
     # intentionally not included in multi-soup
     def self.templates
       @templates ||= Soup.new(backend_for('soups/templates'))
     end
-
-    private
 
     def self.backend_for(path)
       Soup::Backends::FileBackend.new(Rails.root.join(path))
