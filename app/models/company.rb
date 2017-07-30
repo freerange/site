@@ -1,4 +1,6 @@
 class Company
+  attr_reader :incorporation_date
+
   def initialize(incorporation_date:)
     @incorporation_date = incorporation_date
   end
@@ -10,8 +12,8 @@ class Company
     (days_since_incorporation / 7.0).to_i
   end
 
-  def week_numbers_and_dates
-    current_week_number = week_number_for(Date.today)
+  def week_numbers_and_dates(last_date: Date.today)
+    current_week_number = week_number_for(last_date)
 
     (0..current_week_number).map do |week_number|
       monday_in_week = @incorporation_date.monday + (week_number * 7)
