@@ -1,4 +1,4 @@
-class ShowAndTell
+class ShowAndTell < Base
   def self.all
     soup.all_snips.reject { |s| s.draft }.sort_by { |e| e.created_at }.reverse
   end
@@ -8,7 +8,7 @@ class ShowAndTell
   end
 
   def self.find(name)
-    soup[name]
+    soup[name] || raise(NotFoundError.new("Show & Tell snip not found: #{name}"))
   end
 
   def self.create(attributes)

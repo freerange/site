@@ -47,6 +47,10 @@ RSpec.describe ShowAndTell, type: :model do
       snip = described_class.create(name: 'snip-name')
       expect(described_class.find('snip-name')).to eq(snip)
     end
+
+    it 'raises not found error if no snip exists with the specified name' do
+      expect { described_class.find('snip-name') }.to raise_error(Base::NotFoundError)
+    end
   end
 
   describe '.create' do
