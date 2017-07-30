@@ -29,8 +29,8 @@ class Spider
 
   ROOT_PATH = Pathname.new(File.expand_path('../..', __FILE__))
 
-  def initialize(artefacts_path:)
-    @artefacts_path = artefacts_path
+  def initialize
+    @artefacts_path = Rails.root.join('artefacts')
     soup = begin
       backend_dirs = %w(
         soups

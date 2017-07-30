@@ -10,18 +10,16 @@ require 'spider'
 
 namespace :spec do
   namespace 'regression' do
-    ARTEFACTS_PATH = Rails.root.join('artefacts')
-
     namespace 'artefacts' do
       desc 'Clear regression test artefacts'
       task 'clear' do
-        spider = Spider.new(artefacts_path: ARTEFACTS_PATH)
+        spider = Spider.new
         spider.clear_artefacts
       end
 
       desc 'Generate regression test artefacts'
       task 'generate' => 'clear' do
-        spider = Spider.new(artefacts_path: ARTEFACTS_PATH)
+        spider = Spider.new
         spider.run
         spider.normalize_artefacts
       end
