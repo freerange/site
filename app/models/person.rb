@@ -1,4 +1,4 @@
-class Person
+class Person < Base
   USERNAMES_VS_PERSON_NAMES = {
     'jamesmead' => 'james-mead',
     'chrisroos' => 'chris-roos',
@@ -6,11 +6,12 @@ class Person
   }
 
   def self.current_name
-    USERNAMES_VS_PERSON_NAMES.fetch(current_username)
+    person_name = USERNAMES_VS_PERSON_NAMES.fetch(current_username)
+    find(person_name).name
   end
 
   def self.find(name)
-    soup[name]
+    soup[name] || raise(NotFoundError.new("Person snip not found: #{name}"))
   end
 
   def self.create(attributes)
