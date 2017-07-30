@@ -56,7 +56,7 @@ module Site
 
     # intentionally not included in multi-soup
     def self.templates
-      @templates ||= Soup.new(backend_for('soup/templates'))
+      @templates ||= Soup.new(backend_for('soups/templates'))
     end
 
     private
