@@ -81,6 +81,10 @@ class Spider
     system(%{find #{@artefacts_path} -type f -name '*.xml' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --indent auto --input-xml 1 {} \\;})
   end
 
+  def artefact_differences
+    `git status --short -- #{@artefacts_path}`.strip
+  end
+
   class Server
     def initialize(command:, healthcheck_url:)
       @command = command
