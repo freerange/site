@@ -86,7 +86,7 @@ module ApplicationHelper
   end
 
   def project(name)
-    snip = Site::Application.projects[name]
+    snip = Project.find(name)
     render partial: 'shared/project', locals: { project: snip }
   end
 

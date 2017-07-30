@@ -34,10 +34,6 @@ module Site
       ))
     end
 
-    def self.projects
-      @projects ||= Soup.new(backend_for('soups/projects'))
-    end
-
     # intentionally not included in multi-soup
     def self.templates
       @templates ||= Soup.new(backend_for('soups/templates'))
