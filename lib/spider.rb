@@ -30,6 +30,7 @@ class Spider
   ROOT_PATH = Pathname.new(File.expand_path('../..', __FILE__))
 
   def initialize(artefacts_path:)
+    @artefacts_path = artefacts_path
     soup = begin
       backend_dirs = %w(
         soups
@@ -60,7 +61,7 @@ class Spider
       ignore_paths: IGNORE_PATHS,
       allowed_host: 'gofreerange.com',
       allowed_protocol: 'http',
-      artefacts_path: artefacts_path
+      artefacts_path: @artefacts_path
     )
   end
 
@@ -68,6 +69,16 @@ class Spider
     @server.run do
       @client.run
     end
+    normalize_artefacts
+  end
+
+  def clear_artefacts
+    FileUtils.rm_rf(@artefacts_path)
+  end
+
+  def normalize_artefacts
+    system(%{find #{@artefacts_path} -type f -name '*.html' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --indent auto {} \\;})
+    system(%{find #{@artefacts_path} -type f -name '*.xml' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --indent auto --input-xml 1 {} \\;})
   end
 
   class Server

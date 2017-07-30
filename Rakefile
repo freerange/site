@@ -15,15 +15,15 @@ namespace :spec do
     namespace 'artefacts' do
       desc 'Clear regression test artefacts'
       task 'clear' do
-        FileUtils.rm_rf(ARTEFACTS_PATH)
+        spider = Spider.new(artefacts_path: ARTEFACTS_PATH)
+        spider.clear_artefacts
       end
 
       desc 'Generate regression test artefacts'
       task 'generate' => 'clear' do
         spider = Spider.new(artefacts_path: ARTEFACTS_PATH)
         spider.run
-        system(%{find #{ARTEFACTS_PATH} -type f -name '*.html' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --indent auto {} \\;})
-        system(%{find #{ARTEFACTS_PATH} -type f -name '*.xml' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --indent auto --input-xml 1 {} \\;})
+        spider.normalize_artefacts
       end
     end
   end
