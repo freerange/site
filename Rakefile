@@ -5,16 +5,9 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
-require "rake/testtask"
+require 'rspec/core/rake_task'
 
-namespace :test do
-  Rake::TestTask.new('regression' => 'regression:artefacts:generate') do |t|
-    t.description = 'Run regression test'
-    t.libs << "test"
-    t.test_files = FileList["test/regression_test.rb"]
-    t.verbose = true
-  end
-
+namespace :spec do
   namespace 'regression' do
     $:.unshift File.join(File.dirname(__FILE__), *%w[lib])
     require 'spider'
