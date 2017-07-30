@@ -29,12 +29,6 @@ end
 
 require "erb"
 
-USERNAMES_VS_AUTHORS = {
-  'jamesmead' => 'james-mead',
-  'chrisroos' => 'chris-roos',
-  'chrislowis' => 'chris-lowis'
-}
-
 templates = Site::Application.templates
 weeknotes = Site::Application.weeknotes_pages
 weeklinks = Site::Application.weeklinks_pages
@@ -80,13 +74,11 @@ namespace :week do
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
-      username = `whoami`.chomp
-      author = USERNAMES_VS_AUTHORS.fetch(username)
 
       weeknotes << template.attributes.merge({
         name: "week-#{week_number}",
         extension: "markdown",
-        author: author,
+        author: Person.current_name,
         created_at: Time.now,
         updated_at: Time.now,
         page_title: "Week #{week_number}",
@@ -135,13 +127,11 @@ namespace :week do
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
-      username = `whoami`.chomp
-      author = USERNAMES_VS_AUTHORS.fetch(username)
 
       weeklinks << template.attributes.merge({
         name: "week-#{week_number}-links",
         extension: "markdown",
-        author: author,
+        author: Person.current_name,
         created_at: Time.now,
         updated_at: Time.now,
         page_title: "Week #{week_number} - Interesting links",
@@ -189,13 +179,11 @@ namespace 'show-and-tell' do
     template = templates['show-and-tell-nn']
 
     event_number = (ENV['NUMBER'] || ShowAndTell.latest_event_number + 1).to_i
-    username = `whoami`.chomp
-    author = USERNAMES_VS_AUTHORS.fetch(username)
 
     ShowAndTell.create(template.attributes.merge({
       name: "show-and-tell-#{event_number}",
       extension: "markdown",
-      author: author,
+      author: Person.current_name,
       created_at: Time.now,
       updated_at: Time.now,
       page_title: "Show and Tell #{event_number}",

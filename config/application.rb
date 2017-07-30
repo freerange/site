@@ -34,10 +34,6 @@ module Site
       ))
     end
 
-    def self.people
-      @people ||= Soup.new(backend_for('soups/people'))
-    end
-
     def self.projects
       @projects ||= Soup.new(backend_for('soups/projects'))
     end
