@@ -27,29 +27,6 @@ namespace :spec do
   end
 end
 
-require "date"
-
-def monday_beginning_the_week_of_incorporation
-  # Tuesday 13th Jan 2009
-  incorporation_date = Date.parse('2009-01-13')
-  incorporation_date.monday
-end
-
-def weeks_since_incorporation(date)
-  monday_beginning_this_week = date.monday
-  days_since_incorporation = monday_beginning_this_week - monday_beginning_the_week_of_incorporation
-  days_since_incorporation / 7.0
-end
-
-def week_numbers_and_dates
-  current_week_number = weeks_since_incorporation(Date.today).to_i
-
-  (0..current_week_number).map do |week_number|
-    monday_in_week = monday_beginning_the_week_of_incorporation + (week_number * 7)
-    [week_number, monday_in_week]
-  end
-end
-
 require "erb"
 
 USERNAMES_VS_AUTHORS = {
@@ -77,9 +54,9 @@ namespace :week do
   Example: `DATE=2014-03-24 rake week:number`
   => Week beginning 24 Mar 2014 is week 271
   DESC
-  task :number do
+  task number: :environment do
     date = Date.parse(ENV['DATE']) rescue Date.today
-    week_number = weeks_since_incorporation(date).to_i
+    week_number = Company::GoFreeRange.weeks_since_incorporation(date).to_i
     week_beginning = date.monday.strftime("%d %b %Y")
 
     puts "Week beginning #{week_beginning} is week #{week_number}"
@@ -88,8 +65,8 @@ namespace :week do
   desc <<-DESC
   Displays a list of GFR week numbers and dates from the date of incorporation.
   DESC
-  task :numbers_and_dates do
-    week_numbers_and_dates.each do |(week_number, date)|
+  task numbers_and_dates: :environment do
+    Company::GoFreeRange.week_numbers_and_dates.each do |(week_number, date)|
       puts "Week #{week_number} begins #{date.strftime('%a %d %b %Y')}"
     end
   end
@@ -103,11 +80,11 @@ namespace :week do
     date in the DATE environment variable or by setting the WEEK
     environment variable to the GFR week number.
     DESC
-    task :create do
+    task create: :environment do
       template = templates['week-nnn']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.weeks_since_incorporation(date)).to_i
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
@@ -133,9 +110,9 @@ namespace :week do
     If a weeknotes snip for the relevant GFR week does not exist,
     it will exit with an error message.
     DESC
-    task :publish do
+    task publish: :environment do
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}"
       snip = weeknotes[snip_name]
       unless snip
@@ -158,11 +135,11 @@ namespace :week do
     date in the DATE environment variable or by setting the WEEK
     environment variable to the GFR week number.
     DESC
-    task :create do
+    task create: :environment do
       template = templates['week-nnn-links']
 
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.weeks_since_incorporation(date)).to_i
       username = `whoami`.chomp
       author = USERNAMES_VS_AUTHORS.fetch(username)
 
@@ -188,9 +165,9 @@ namespace :week do
     If a weeklinks snip for the relevant GFR week does not exist,
     it will exit with an error message.
     DESC
-    task :publish do
+    task publish: :environment do
       date = Date.parse(ENV['DATE']) rescue Date.today
-      week_number = (ENV['WEEK'] || weeks_since_incorporation(date)).to_i
+      week_number = (ENV['WEEK'] || Company::GoFreeRange.weeks_since_incorporation(date)).to_i
       snip_name = "week-#{week_number}-links"
       snip = weeklinks[snip_name]
       unless snip
