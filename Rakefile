@@ -32,16 +32,11 @@ require "date"
 def monday_beginning_the_week_of_incorporation
   # Tuesday 13th Jan 2009
   incorporation_date = Date.parse('2009-01-13')
-  monday_beginning(incorporation_date)
-end
-
-def monday_beginning(date)
-  # The `+1` is to deal with `#wday` being 0 based and starting from Sunday
-  date - date.wday + 1
+  incorporation_date.monday
 end
 
 def weeks_since_incorporation(date)
-  monday_beginning_this_week = monday_beginning(date)
+  monday_beginning_this_week = date.monday
   days_since_incorporation = monday_beginning_this_week - monday_beginning_the_week_of_incorporation
   days_since_incorporation / 7.0
 end
@@ -85,7 +80,7 @@ namespace :week do
   task :number do
     date = Date.parse(ENV['DATE']) rescue Date.today
     week_number = weeks_since_incorporation(date).to_i
-    week_beginning = monday_beginning(date).strftime("%d %b %Y")
+    week_beginning = date.monday.strftime("%d %b %Y")
 
     puts "Week beginning #{week_beginning} is week #{week_number}"
   end
