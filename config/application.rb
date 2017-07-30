@@ -38,10 +38,6 @@ module Site
       @projects ||= Soup.new(backend_for('soups/projects'))
     end
 
-    def self.weeklinks_pages
-      @weeklinks ||= Soup.new(backend_for('soups/weeklinks'))
-    end
-
     # intentionally not included in multi-soup
     def self.templates
       @templates ||= Soup.new(backend_for('soups/templates'))
