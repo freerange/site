@@ -27,8 +27,6 @@ class Spider
   # Subset of dynasnips
   EXTRA_PATHS = ['/sitemap.xml', '/feed.xml']
 
-  ROOT_PATH = Pathname.new(File.expand_path('../..', __FILE__))
-
   def initialize
     @artefacts_path = Rails.root.join('artefacts')
     soup = begin
@@ -43,7 +41,7 @@ class Spider
         soups/projects
       )
       backends = backend_dirs.map do |path|
-        Soup::Backends::FileBackend.new(ROOT_PATH.join(path))
+        Soup::Backends::FileBackend.new(Rails.root.join(path))
       end
       Soup.new(Soup::Backends::MultiSoup.new(*backends))
     end
