@@ -13,6 +13,10 @@ class Person
     soup[name]
   end
 
+  def self.create(attributes)
+    soup << attributes
+  end
+
   private
 
   def self.soup
