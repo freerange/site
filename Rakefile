@@ -6,14 +6,11 @@ require_relative 'config/application'
 Rails.application.load_tasks
 
 require 'rspec/core/rake_task'
+require 'spider'
 
 namespace :spec do
   namespace 'regression' do
-    $:.unshift File.join(File.dirname(__FILE__), *%w[lib])
-    require 'spider'
-
-    ROOT_PATH = Pathname.new(File.expand_path('..', __FILE__))
-    ARTEFACTS_PATH = ROOT_PATH.join('artefacts')
+    ARTEFACTS_PATH = Rails.root.join('artefacts')
 
     namespace 'artefacts' do
       desc 'Clear regression test artefacts'
