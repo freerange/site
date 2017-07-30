@@ -30,7 +30,6 @@ end
 require "erb"
 
 templates = Site::Application.templates
-weeknotes = Site::Application.weeknotes_pages
 weeklinks = Site::Application.weeklinks_pages
 
 namespace :week do
@@ -75,7 +74,7 @@ namespace :week do
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
 
-      weeknotes << template.attributes.merge({
+      Weeknotes.create(template.attributes.merge({
         name: "week-#{week_number}",
         extension: "markdown",
         author: Person.current_name,
@@ -83,7 +82,7 @@ namespace :week do
         updated_at: Time.now,
         page_title: "Week #{week_number}",
         content: template.content.gsub(/Week NNN/, "Week #{week_number}")
-      })
+      }))
     end
 
     desc <<-DESC
@@ -101,10 +100,7 @@ namespace :week do
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
       snip_name = "week-#{week_number}"
-      snip = weeknotes[snip_name]
-      unless snip
-        abort "No weeknotes snip found for GFR week number #{week_number}"
-      end
+      snip = Weeknotes.find(snip_name)
 
       snip.attributes.delete(:draft)
       snip.created_at = Time.now
