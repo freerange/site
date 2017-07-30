@@ -1,14 +1,14 @@
 class Company
-  attr_reader :incorporation_date
+  attr_reader :incorporated_on
 
-  def initialize(incorporation_date:)
-    @incorporation_date = incorporation_date
+  def initialize(incorporated_on:)
+    @incorporated_on = incorporated_on
   end
 
-  GoFreeRange = new(incorporation_date: Date.parse('2009-01-13'))
+  GoFreeRange = new(incorporated_on: Date.parse('2009-01-13'))
 
   def week_number_for(date)
-    days_since_incorporation = date.monday - @incorporation_date.monday
+    days_since_incorporation = date.monday - @incorporated_on.monday
     (days_since_incorporation / 7.0).to_i
   end
 
@@ -16,7 +16,7 @@ class Company
     current_week_number = week_number_for(last_date)
 
     (0..current_week_number).map do |week_number|
-      monday_in_week = @incorporation_date.monday + (week_number * 7)
+      monday_in_week = @incorporated_on.monday + (week_number * 7)
       [week_number, monday_in_week]
     end
   end
