@@ -34,7 +34,7 @@ As well as all of this introspection, not to mention talking to some new clients
 
 ## Mocha
 
-[James M](/james-mead) has been powering through various <%= l('mocha') %> issues; we are eagerly awaiting the day when [his patches to finally resolve the monkey-patch-pocalpyse within ActiveSupport::Test][mocha-rails-patch] get released and pave the way to a brighter, simpler test tool integration future.
+[James M](/james-mead) has been powering through various [mocha](/mocha) issues; we are eagerly awaiting the day when [his patches to finally resolve the monkey-patch-pocalpyse within ActiveSupport::Test][mocha-rails-patch] get released and pave the way to a brighter, simpler test tool integration future.
 
 It's not been an easy quest, and I truly admire the patience and tenacity that James has shown in order to get this far, particularly helping people out as they report issues. I personally consider Mocha to be basically part of the unofficial standard libraries of Ruby, and I really appreciate the time and effort he puts into it.
 
