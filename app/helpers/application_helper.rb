@@ -90,17 +90,9 @@ module ApplicationHelper
     render partial: 'shared/project', locals: { project: snip }
   end
 
-  def l(name, text = nil, part = nil)
-    if Site::Application.soup[name]
-      link_to text || name, url_to(name, part)
-    else
-      raise "Snip not found: #{name}/#{part} for '#{text}'"
-    end
-  end
-
   def by(name)
     initials = name.split('-').map(&:first).join.upcase
-    link = l(name, initials)
+    link = link_to(initials, url_to(name))
     "<em>&mdash; #{link}</em>".html_safe
   end
 end
