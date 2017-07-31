@@ -32,7 +32,7 @@ There's also something to be said for more aggressive repetition than a rota wou
 
 ### What kind of tasks are suitable?
 
-Anything that can be reduced to a clear set of instructions with minimal amount of decision making. Importing bank transactions, sending invoices, and assigning temporary responsibilities (like <%= l('week-138', 'weeknotes') %>) are ideal, but more will certainly follow[^office-admin].
+Anything that can be reduced to a clear set of instructions with minimal amount of decision making. Importing bank transactions, sending invoices, and assigning temporary responsibilities (like [weeknotes](/week-138)) are ideal, but more will certainly follow[^office-admin].
 
 
 Under the hood

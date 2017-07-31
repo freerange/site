@@ -7,9 +7,9 @@ Apparently, in the USA they consider Sunday to be the *start* of the week, despi
 
 Thankfully the physical and to some extent spiritual home of [GFR](/) is in the UK, which considers Sunday to still be part of week 237[^cdt], and so the weeknote gods have been satisfied.
 
-We started week 237 with a solid block of work on FutureLearn; lots of small stories appearing to address last-minute concerns from various peripheral stakeholders, as typically happens at five minutes before launch. <%= l('james-adam', 'I') %> spent a bit of time writing some load testing scenarios, which <%= l('chris-roos', 'Chris') %> kindly tidied and completed, and a handful of other security-related barbs were filed smooth.
+We started week 237 with a solid block of work on FutureLearn; lots of small stories appearing to address last-minute concerns from various peripheral stakeholders, as typically happens at five minutes before launch. [I](/james-adam) spent a bit of time writing some load testing scenarios, which [Chris](/chris-roos) kindly tidied and completed, and a handful of other security-related barbs were filed smooth.
 
-In the rest of the week, some scattered showers of [Harmonia](http://harmonia.io) improvement work, with an unfortunate misunderstanding between <%= l('tom-ward', 'Tom') %> and I about de-scoping and feature flags, and a conversation with <%= l('james-mead', 'James M') %> about strategy which I strongly suspect left him feeling more than frustrated. Sorry about that.
+In the rest of the week, some scattered showers of [Harmonia](http://harmonia.io) improvement work, with an unfortunate misunderstanding between [Tom](/tom-ward) and I about de-scoping and feature flags, and a conversation with [James M](/james-mead) about strategy which I strongly suspect left him feeling more than frustrated. Sorry about that.
 
 And, spot of GFR admin: the profit calculations that I'd thrown together a few months ago didn't include any costs. I *am* good at businessing, honestly. These are the numbers by which decisions about distribution of effort are (or should be) made, and so it's generally considered better for everyone if they are grounded in reality. Which, thankfully, they are now. I hope.
 

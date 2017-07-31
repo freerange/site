@@ -1,4 +1,4 @@
-[Tom](http://tomafro.net) worked with [Go Free Range](/) from February 2009 until <%= l('week-247', 'October 2013') %>.
+[Tom](http://tomafro.net) worked with [Go Free Range](/) from February 2009 until [October 2013](/week-247).
 
 Tom is a software developer passionate about building and improving the web. Though his background is in J2EE, he has embraced Ruby On Rails as a platform and become a [respected contributor](http://contributors.rubyonrails.org/contributors/tom-ward/commits).
 

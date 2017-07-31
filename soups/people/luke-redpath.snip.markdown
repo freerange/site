@@ -1,4 +1,4 @@
-Luke worked with FreeRange from February 2009 until May 2010, working on a prototype of <%= l('gig-fm', 'Gig fm') %>, and the <%= l('tellyougov', 'TellYouGov') %> project.
+Luke worked with FreeRange from February 2009 until May 2010, working on a prototype of [Gig fm](/gig-fm), and the [TellYouGov](/tellyougov) project.
 
 Luke now focuses on [iOS][] development, but we look forward to working with him in the future.
 

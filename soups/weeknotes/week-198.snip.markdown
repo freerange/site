@@ -22,13 +22,13 @@ That, friends, is a call-to-action.
 Inside Government
 -----------------
 
-(_<%= l('inside-government', 'Inside Government') %> is the second major part of the UK Government's "Single Domain" project, bringing almost all departmental and organisational publishing onto a single "platform" which is modern, clear and designed with users in mind._)
+(_[Inside Government](/inside-government) is the second major part of the UK Government's "Single Domain" project, bringing almost all departmental and organisational publishing onto a single "platform" which is modern, clear and designed with users in mind._)
 
 With the first department moving to the single domain platform in a couple of weeks, most of our recent effort has been focussed towards getting scraped data from their old site imported into the new system.
 
 It's been occasionally messy: a combination of stricter deployment controls, human error and *Microsoft-fscking-Excel* have made this a slower and more arduous procedure than I think anyone was hoping for.
 
-Anyway, hopefully the worse of the pain is over. <%= l('tom-ward', 'Tom') %> is back from a short holiday in Cornwall, and so I'm sure he will wrangle it successfully. I've certainly been reminded of some of the lessons I learned on previous projects (previous jobs, previous lives...) about importing data: **get it out of human hands as soon as possible!**
+Anyway, hopefully the worse of the pain is over. [Tom](/tom-ward) is back from a short holiday in Cornwall, and so I'm sure he will wrangle it successfully. I've certainly been reminded of some of the lessons I learned on previous projects (previous jobs, previous lives...) about importing data: **get it out of human hands as soon as possible!**
 
 In the meantime, we continue to fight the good fight and try to keep code quality high and continue to deliver features where possible.
 
@@ -36,11 +36,11 @@ In the meantime, we continue to fight the good fight and try to keep code qualit
 Miscellany
 ----------
 
-<%= l('chris-roos', 'Chris') %>, <%= l('james-mead', 'James M') %> and <%= l('james-adam', 'I') %> went for our monthly "GFR Social" on Tuesday, with impromptu guest appearances by our friends [Murray Steele](http://h-lame.com) and [Paul Battley](http://po-ru.com). That pleasant sensation you awoke to on Wednesday was in no small part down to us having fully set the world to rights the night before, and yes -- before you say anything else -- you are *welcome*.
+[Chris](/chris-roos), [James M](/james-mead) and [I](/james-adam) went for our monthly "GFR Social" on Tuesday, with impromptu guest appearances by our friends [Murray Steele](http://h-lame.com) and [Paul Battley](http://po-ru.com). That pleasant sensation you awoke to on Wednesday was in no small part down to us having fully set the world to rights the night before, and yes -- before you say anything else -- you are *welcome*.
 
 Having an office is _a)_ expensive, but _b)_ very pleasant except _c)_ when you have to do all sorts of stuff to satisfy the law. In this case, it's arranging to get the electricity tested ("_is it the right colour? does it have somewhere to drain?_"), and making sure that the place isn't a blazing inferno deathtrap waiting to happen the next time Chris decides to mull something. It's boring, but it needs to be done.
 
-<%= l('tom-ward', 'Tom') %> and <%= l('james-adam', 'I') %> have been playing [Letterpress](https://itunes.apple.com/us/app/letterpress-word-game/id526619424?mt=8), along with the rest of the planet.
+[Tom](/tom-ward) and [I](/james-adam) have been playing [Letterpress](https://itunes.apple.com/us/app/letterpress-word-game/id526619424?mt=8), along with the rest of the planet.
 
 
 Beyond Harmonia

@@ -7,7 +7,7 @@ Normally I don't have too much trouble thinking of things to write for our weekn
 
 Why not press play while you read the rest of these notes?
 
-Anyway, one potentially interesting thought I have had relates to a conversation I had with <%= l('chris-roos', 'Chris') %> this morning about "always doing the next most important thing". I think it's given me a bit of insight into some of the ways that other people in GFR think and work, and why my perspective might be slightly different.
+Anyway, one potentially interesting thought I have had relates to a conversation I had with [Chris](/chris-roos) this morning about "always doing the next most important thing". I think it's given me a bit of insight into some of the ways that other people in GFR think and work, and why my perspective might be slightly different.
 
 ## The Next Most Important Thing
 

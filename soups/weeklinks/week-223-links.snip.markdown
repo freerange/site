@@ -30,7 +30,7 @@ when he was still writing. <%= by('james-adam') %>
 
 ### [Developing on a Chromebook](http://www.simonmweber.com/2013/04/20/development-on-a-chromebook-an-opinionated-guide.html)
 
-Something for <%= l('chris-roos', 'Chris') %> here: one strategy for using a Chromebook to do _real work_ (i.e. software development). <%= by('james-adam') %>
+Something for [Chris](/chris-roos) here: one strategy for using a Chromebook to do _real work_ (i.e. software development). <%= by('james-adam') %>
 
 ### [Short's Not Always Sweet: The Case for Long Test Names](https://m.facebook.com/note.php?note_id=564493423583526)
 

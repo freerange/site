@@ -1,7 +1,7 @@
 Week 186
 =========
 
-We're trying to establish a rhythm after "_The Meeting_" (as mentioned by <%= l('week-184', 'Tom') %> and <%= l('week-185', 'Chris') %> in previous weeks), and at the moment we are splitting our time evenly between client work and our own (nefarious) agenda.
+We're trying to establish a rhythm after "_The Meeting_" (as mentioned by [Tom](/week-184) and [Chris](/week-185) in previous weeks), and at the moment we are splitting our time evenly between client work and our own (nefarious) agenda.
 
 Welcome to Week 186! [Now with commenting](#comments) for your thought-expressing pleasure.
 
@@ -9,11 +9,11 @@ Welcome to Week 186! [Now with commenting](#comments) for your thought-expressin
 The client work
 -----------
 
-The bulk of our effort for [GDS](http://digital.cabinetoffice.gov.uk) over recent weeks has been working on the [specialist guides part of the single domain](https://www.gov.uk/specialist), which was [launched this week](http://digital.cabinetoffice.gov.uk/2012/08/08/shipping-new-formats-the-gov-uk-international-trade-release/). This content -- "specialist guidance" -- is managed by the same software that we built for <%= l('inside-government', 'Inside Government') %>, but it marks the start of a closer integration between that and the "mainstream" content at [the root of gov.uk](https://www.gov.uk).
+The bulk of our effort for [GDS](http://digital.cabinetoffice.gov.uk) over recent weeks has been working on the [specialist guides part of the single domain](https://www.gov.uk/specialist), which was [launched this week](http://digital.cabinetoffice.gov.uk/2012/08/08/shipping-new-formats-the-gov-uk-international-trade-release/). This content -- "specialist guidance" -- is managed by the same software that we built for [Inside Government](/inside-government), but it marks the start of a closer integration between that and the "mainstream" content at [the root of gov.uk](https://www.gov.uk).
 
 You can see some of that integration in the search results; from [both specialist](https://www.gov.uk/specialist/search?q=animals) and [the main site](https://www.gov.uk/search?q=animals) you'll find links to relevant content in both parts of the site.
 
-I'm not sure I can say that Unicorn is happily galloping without issue yet, but compared to <%= l('week-185', 'previous weeks') %> deployment has pretty much returned to the uneventful process that it ought to be.
+I'm not sure I can say that Unicorn is happily galloping without issue yet, but compared to [previous weeks](/week-185) deployment has pretty much returned to the uneventful process that it ought to be.
 
 
 ### Sinatra and the weight of software
@@ -47,11 +47,11 @@ Our (nefarious) agenda
 
 This week I finished off our first pass at the core of what will become the next version of [Harmonia][], the tool we use to manage tasks and chores within our company. This is one of the ideas that we're hoping other people might find useful. Alas there's not much to see beyond library code at the moment, but hopefully soon we'll be able to talk more about how it works. I think we have some really good ideas that I'm looking forward to sharing.
 
-<%= l('tom-ward', 'Tom') %> has spent some time working on a tool to wrangle [Unicorn](http://unicorn.bogomips.org/)s, since that's a problem that we've experienced both in our work with [GDS](http://digital.cabinetoffice.gov.uk), and in our own projects.
+[Tom](/tom-ward) has spent some time working on a tool to wrangle [Unicorn](http://unicorn.bogomips.org/)s, since that's a problem that we've experienced both in our work with [GDS](http://digital.cabinetoffice.gov.uk), and in our own projects.
 
-It's been another <%= l('mocha', 'Mocha') %> week for <%= l('james-mead', 'James M') %>, as he's been performing some very delicate refactoring that he's been working on for a few weeks. Integrating with the idiosyncrasies of various test frameworks, particularly as they themselves evolve, requires a lot of effort -- perhaps more than the legions of Mocha users might realise.
+It's been another [Mocha](/mocha) week for [James M](/james-mead), as he's been performing some very delicate refactoring that he's been working on for a few weeks. Integrating with the idiosyncrasies of various test frameworks, particularly as they themselves evolve, requires a lot of effort -- perhaps more than the legions of Mocha users might realise.
 
-As <%= l('chris-roos', 'Chris') %> mentioned in <%= l('week-185', 'his notes last week') %>, he's been working on his bookmarking/research tool experiment [roosmarks](https://github.com/chrisroos/roosmarks), the development of which [you can follow on github](https://github.com/chrisroos/roosmarks/commits/master).
+As [Chris](/chris-roos) mentioned in [his notes last week](/week-185), he's been working on his bookmarking/research tool experiment [roosmarks](https://github.com/chrisroos/roosmarks), the development of which [you can follow on github](https://github.com/chrisroos/roosmarks/commits/master).
 
 Next week it's just Chris and I holding down the fort, as James M is competing in the [GP14 World Championship](http://gp14worlds.com/) (good luck James!), and Tom is on the first of two consecutive breaks, this one to Turkey.
 

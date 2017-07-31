@@ -9,7 +9,7 @@ Yes, yes, and no, it was not a problem.
 
 Right -- with that all taken care of, what's been happening in Week 199? It felt like a really busy week to me.
 
-We had an early _GFR Social_ this month, because <%= l('chris-roos', 'Chris') %> has now begun his Antipodean odyssey, and we won't see him again until mid-December. Have fun down under, mate!
+We had an early _GFR Social_ this month, because [Chris](/chris-roos) has now begun his Antipodean odyssey, and we won't see him again until mid-December. Have fun down under, mate!
 
 ## Inside Government preparing for launch!
 
@@ -39,9 +39,9 @@ Think about how [37 Signals'](http://37signals.com) views about how companies sh
 
 ## Other things!
 
-<%= l('james-mead', 'James M') %> has prepared another freshly-cut [Mocha](http://gofreerange.com/mocha) gem, now at v0.13.0. This was a huge piece of work, but should leave Mocha in a much more stable position as other libraries change and evolve. You can [read more about it on James M's blog](http://jamesmead.org/blog/2012-11-11-mocha-release-0-13-0).
+[James M](/james-mead) has prepared another freshly-cut [Mocha](http://gofreerange.com/mocha) gem, now at v0.13.0. This was a huge piece of work, but should leave Mocha in a much more stable position as other libraries change and evolve. You can [read more about it on James M's blog](http://jamesmead.org/blog/2012-11-11-mocha-release-0-13-0).
 
-We spent a bit more time together in the office than we have in the recent past, and I really enjoyed getting re-settled there. I'm definitely looking forward to spending more time there in December and the new year. <%= l('tom-ward', 'Tom') %> and <%= l('james-adam', 'I') %> want to get a projector[^projector], but we might need to move some filing cabinets around to get a big enough wall to use as a screen.
+We spent a bit more time together in the office than we have in the recent past, and I really enjoyed getting re-settled there. I'm definitely looking forward to spending more time there in December and the new year. [Tom](/tom-ward) and [I](/james-adam) want to get a projector[^projector], but we might need to move some filing cabinets around to get a big enough wall to use as a screen.
 
 Is it too early to start drinking mulled wine? In the office, I mean.
 

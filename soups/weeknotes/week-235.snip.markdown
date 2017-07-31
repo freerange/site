@@ -7,7 +7,7 @@ The notes this week are going to be concise, partly because I'm writing them fro
 
 ## Better stories
 
-<%= l('james-mead', 'James M') %> spent the first part of the week in the Isle of Wight, and undertook another [Phileas Fogg-worth epic journey](https://twitter.com/floehopper/status/357626361042575360) to join us in the office on Wednesday. Meanwhile, <%= l('chris-roos', 'Chris') %>, <%= l('tom-ward', 'Tom') %> and <%= l('james-adam', 'I') %> held down the fort with our client, [FutureLearn](http://futurelearn.com). Aside from the programming, the client-focussed hemisphere of my brain has been occupied of late with how to improve the story process that we're using with the client; it's an interesting challenge when a client has a wealth of experience in their domain, whereas the agile process tries to encourage only developing the simplest thing that could add value.
+[James M](/james-mead) spent the first part of the week in the Isle of Wight, and undertook another [Phileas Fogg-worth epic journey](https://twitter.com/floehopper/status/357626361042575360) to join us in the office on Wednesday. Meanwhile, [Chris](/chris-roos), [Tom](/tom-ward) and [I](/james-adam) held down the fort with our client, [FutureLearn](http://futurelearn.com). Aside from the programming, the client-focussed hemisphere of my brain has been occupied of late with how to improve the story process that we're using with the client; it's an interesting challenge when a client has a wealth of experience in their domain, whereas the agile process tries to encourage only developing the simplest thing that could add value.
 
 ## Extreme Startup
 

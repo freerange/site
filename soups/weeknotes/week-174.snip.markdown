@@ -23,13 +23,13 @@ I wasn't sure if we'd continue to work on [Sauron][] this week, but after a chat
 Miscellany
 ------
 
-<%= l('chris-roos', 'Chris') %> and <%= l('james-mead', 'James M') %> performed a bit of server cleanup this week, including moving the last of our projects from our own [Jenkins][]-based CI to [Travis CI][], to which [we also donated][travis-donate] in the hope that it gets them closer to a commercial, supported product that we can use with our clients as well as our open source work. Jenkins is a fine bit of software, and definitely one of the more stable CI tools we've tried; it's just more convenient to have someone else responsible for it.
+[Chris](/chris-roos) and [James M](/james-mead) performed a bit of server cleanup this week, including moving the last of our projects from our own [Jenkins][]-based CI to [Travis CI][], to which [we also donated][travis-donate] in the hope that it gets them closer to a commercial, supported product that we can use with our clients as well as our open source work. Jenkins is a fine bit of software, and definitely one of the more stable CI tools we've tried; it's just more convenient to have someone else responsible for it.
 
 Chris also took the opportunity to rewrite [a little helper tool][freeagent-vat] which checks our FreeAgent accounts for any transactions which might have accidentally been explained with VAT.
 
-<%= l('tom-ward', 'Tom') %> has been continuing to tinker with [Clojure][], and has embarked on [implementing the Mustache templating language][tom-mustache], helped by [the language-agnostic specs][mustache-specs].
+[Tom](/tom-ward) has been continuing to tinker with [Clojure][], and has embarked on [implementing the Mustache templating language][tom-mustache], helped by [the language-agnostic specs][mustache-specs].
 
-<%= l('james-adam', 'I') %> have done a bit more work on the [Printer][] [backend software][printer-backend], implementing the first steps towards [a print archive][]. The server rebuild highlighted [a known issue with the Arduino software][printer-status-code-issue], which I'm very keen to resolve soon. We've also noticed that the printer [doesn't cope well with dark images][printer-dark-image-issue], and so I've been thinking about various ways to address that too.
+[I](/james-adam) have done a bit more work on the [Printer][] [backend software][printer-backend], implementing the first steps towards [a print archive][]. The server rebuild highlighted [a known issue with the Arduino software][printer-status-code-issue], which I'm very keen to resolve soon. We've also noticed that the printer [doesn't cope well with dark images][printer-dark-image-issue], and so I've been thinking about various ways to address that too.
 
 Thats about it really; no deep thoughts this week, as I managed to drop a [Bertrand Russell quote][] onto Facebook yesterday, and that's about as much philosophy as the Internet can handle at the moment.
 

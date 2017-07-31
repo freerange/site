@@ -3,7 +3,7 @@ Kalv Goes West
 
 It's been quiet here on the blog, which means that we're busy, for better or for worse. Regardless, it would be remiss not to take note of a small amount of shuffling on the deck of the Good Ship [Go Free Range](/).
 
-Our colleague and friend <%= l('kalvir-sandhu', 'Kalv') %> is leaving us. In September he'll be emigrating to the fresh, untilled soils of British Columbia.
+Our colleague and friend [Kalv](/kalvir-sandhu) is leaving us. In September he'll be emigrating to the fresh, untilled soils of British Columbia.
 
 Kalv has been a key member of our company right from the start. We're going to miss his business acumen and his drive & determination. His user-driven focus has been invaluable in a company composed entirely of technical people. We've learned a lot from him, and our loss is now Canada's gain.
 

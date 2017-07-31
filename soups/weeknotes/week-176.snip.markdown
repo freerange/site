@@ -19,7 +19,7 @@ Silverback
 
 This week was front-loaded with more meetings and conversations about how to best coordinate development between 'Mainstream' (the citizen-facing side of the single domain project, addressing common needs and questions) and 'Whitehall' (the part that the government departments use to communicate with interested citizens).
 
-<%= l('james-mead', 'James M') %> finished his epic model renaming effort; <%= l('tom-ward', 'Tom') %> has been working on giving the people involved in government their own pages (as opposed to their roles); <%= l('james-adam', 'I') %> have been reworking the admin interface CSS to try and mitigate usability erosion as we engineering-types add new functionality[^worse], and <%= l('chris-roos', 'Chris') %> has been working with our [GDS][] front-end friends to help them get their changes into the codebase without breaking the build.
+[James M](/james-mead) finished his epic model renaming effort; [Tom](/tom-ward) has been working on giving the people involved in government their own pages (as opposed to their roles); [I](/james-adam) have been reworking the admin interface CSS to try and mitigate usability erosion as we engineering-types add new functionality[^worse], and [Chris](/chris-roos) has been working with our [GDS][] front-end friends to help them get their changes into the codebase without breaking the build.
 
 
 Miscellany
@@ -30,7 +30,7 @@ The "[other Freerange](http://www.free-range.org.uk/)" has started, which means 
 <blockquote class="twitter-tweet tw-align-center"><p>An update to my software is available! It stops me from vomiting errors when the server has a hiccup! Get it now! <a href="https://t.co/UGotHkoq" title="https://github.com/freerange/printer/blob/master/printer.ino">github.com/freerange/prin…</a></p>&mdash; Printer (@gfrprinter) <a href="https://twitter.com/gfrprinter/status/208311829259235329" data-datetime="2012-05-31T21:39:45+00:00">May 31, 2012</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I fixed a [Printer bug](https://github.com/freerange/printer/issues/12) that will stop printers spewing error messages (which is in large part due to [another bug](https://github.com/freerange/printer/issues/17) anyway). I shaved more than 2k off the [Printer][] [Arduino sketch](https://github.com/freerange/printer/blob/master/printer.ino). This is far more satisfying than it has any right to be. I also met with comrade <%= l('jason-cale', 'Jason Cale') %> to talk about making a ceramic casing for a printer; I'm really excited about putting the electronics into something handmade and beautiful.
+I fixed a [Printer bug](https://github.com/freerange/printer/issues/12) that will stop printers spewing error messages (which is in large part due to [another bug](https://github.com/freerange/printer/issues/17) anyway). I shaved more than 2k off the [Printer][] [Arduino sketch](https://github.com/freerange/printer/blob/master/printer.ino). This is far more satisfying than it has any right to be. I also met with comrade [Jason Cale](/jason-cale) to talk about making a ceramic casing for a printer; I'm really excited about putting the electronics into something handmade and beautiful.
 
 In other small-electronics news, my [Raspberry Pi](http://raspberrypi.org) arrived on Friday! Now GFR has two (James M has the other one), but nothing planned for them to do yet.
 

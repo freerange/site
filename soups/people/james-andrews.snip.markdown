@@ -1,6 +1,6 @@
 James worked as part of [Go Free Range](/) from its inception until May 2010.
 
-While working with us, he contributed to the <%= l('tellyougov', 'TellYouGov') %> project, and provided development for <%= l('mubi', 'MUBI') %> and <%= l('new-leaders', 'New Leaders') %>.
+While working with us, he contributed to the [TellYouGov](/tellyougov) project, and provided development for [MUBI](/mubi) and [New Leaders](/new-leaders).
 
 James now focuses on his own projects, including [deBallet][], a social network for ballet performers and enthusiasts.
 

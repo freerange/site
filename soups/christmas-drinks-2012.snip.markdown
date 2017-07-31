@@ -4,7 +4,7 @@ Christmas Drinks 2012!
 ### Is there anything that isn't better once it's been mulled?[^1]
 
 
-I don't know about you, but I've been dreaming about that mulled wine <%= l('chris-roos', 'Chris') %> made <%= l('officewarming', 'last year') %>. In fact, it was so good that we're forcing him back into his kitchen to do it all again!
+I don't know about you, but I've been dreaming about that mulled wine [Chris](/chris-roos) made [last year](/officewarming). In fact, it was so good that we're forcing him back into his kitchen to do it all again!
 
 We'd love it if you'd join us [from 6pm on Wednesday 19th of December][lanyrd] for another little shindig in our office at [87 Worship Street, London EC2A 2BE][map].
 

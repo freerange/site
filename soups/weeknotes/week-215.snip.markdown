@@ -23,9 +23,9 @@ I've also been thinking more about what the future is -- if there is any -- for 
 
 I'm still not sure selling kits is the best next-step for the project, or for GFR, and I have a bunch of other ideas (or, really, questions) about other things we could try. I'm keen to make a bit more progress with this, even if that progress is just a clearer understanding about when to stop.
 
-<%= l('tom-ward', 'Tom') %> proposed an interesting idea this week, involving doing a short bit of speculative development for someone we spoke to earlier in the year. I can't say much more about it at the moment, but it's something that we've never tried before, and I'm hoping that Tom keeps exploring the idea, even if we don't pursue it in this specific instance.
+[Tom](/tom-ward) proposed an interesting idea this week, involving doing a short bit of speculative development for someone we spoke to earlier in the year. I can't say much more about it at the moment, but it's something that we've never tried before, and I'm hoping that Tom keeps exploring the idea, even if we don't pursue it in this specific instance.
 
-<%= l('james-mead', 'James M') %> has assembled the components to make a gadget which will remind him when he's forgotten that he started boiling a kettle to make tea. Unfortunately, [it's not quite the same problem as I have][teabags], but I'm sure James will enjoy getting busy with the soldering iron again.
+[James M](/james-mead) has assembled the components to make a gadget which will remind him when he's forgotten that he started boiling a kettle to make tea. Unfortunately, [it's not quite the same problem as I have][teabags], but I'm sure James will enjoy getting busy with the soldering iron again.
 
 Today we hit the end of client work, for a few weeks at least, so I'm hoping that we'll make a good deal of progress with all of this.
 

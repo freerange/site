@@ -4,7 +4,7 @@ Week 140
 So here I am, at the helm of this weeks notes. We're all jumping up at the gates of the weekend, so I'll try and give you the good stuff before you head off into the wilderness, or at least the local pub.
 
 ### Diving into gov.uk
-Our intrepid voyage into the heart of our fair nation's government began this week. <%= l('jason-cale', 'Myself') %>, <%= l('james-adam', 'James A') %>, and <%= l('chris-roos', 'Chris') %> converged upon Lambeth to setup alongside the totally badass [Government Digital Service](http://digital.cabinetoffice.gov.uk/) (GDS) team.
+Our intrepid voyage into the heart of our fair nation's government began this week. [Myself](/jason-cale), [James A](/james-adam), and [Chris](/chris-roos) converged upon Lambeth to setup alongside the totally badass [Government Digital Service](http://digital.cabinetoffice.gov.uk/) (GDS) team.
 
 With lots of familiar faces to greet our arrival on the 6th floor, and many more revered hands to shake, we were itching to get started.
 
@@ -34,12 +34,12 @@ Pete (our PM) discovered that all of our surnames at GFR are four letters long. 
 Alongside certain [smaller discoveries](http://www.bbc.co.uk/news/science-environment-15017484) reported this week, I'm sure you will agree it is indeed a baffling time for human understanding.
 
 ### Getting closer to Clojure.
-<%= l('james-mead', 'James Mead') %> spent Monday and Tuesday kicking the tires of [Clojure](http://clojure.org/) and attending [Top Down TDD in Clojure](http://www.exampler.com/blog/2011/06/08/announcing-top-down-tdd-in-clojure-tour/) with [Brian Marick](https://twitter.com/marick).
+[James Mead](/james-mead) spent Monday and Tuesday kicking the tires of [Clojure](http://clojure.org/) and attending [Top Down TDD in Clojure](http://www.exampler.com/blog/2011/06/08/announcing-top-down-tdd-in-clojure-tour/) with [Brian Marick](https://twitter.com/marick).
 
 Maybe James might be up for writing about his experiences in the future, but in the meantime he has sent me a link to [Robert Chatley's thoughts](http://chatley.com/posts/09-21-2011/marick-clojure-tdd/) for your digestion. If you look closely you can see our main man down on the bottom of the page, with his trademark grin --- Hi James!
 
 ### Frozen Rails
-<%= l('tom-ward', 'Tom') %> shuffled off to Helsinki to attend [Frozen Rails](https://frozenrails.eu/), and his top line editorial today was "Pretty cool. And wet".
+[Tom](/tom-ward) shuffled off to Helsinki to attend [Frozen Rails](https://frozenrails.eu/), and his top line editorial today was "Pretty cool. And wet".
 
 Seems like most of the ingredients for what the conference name suggests, but other than that I'm not had chance to delve into his experience more. So perhaps I'll persuade Tom to write his thoughts somewhere for us to share.
 

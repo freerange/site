@@ -1,7 +1,7 @@
 Extreme Startup Game
 ========
 
-<%= l('week-235', 'Last week') %> the four of us and some friends from [MakieLab](http://www.makieworld.com/) and beyond got together to play the [Extreme Startup Game](http://chatley.com/posts/05-27-2011/extreme-startup/), hosted by [Rob Chatley](http://chatley.com).
+[Last week](/week-235) the four of us and some friends from [MakieLab](http://www.makieworld.com/) and beyond got together to play the [Extreme Startup Game](http://chatley.com/posts/05-27-2011/extreme-startup/), hosted by [Rob Chatley](http://chatley.com).
 
 ![Ben & co from MakieLab](/images/blog/extreme-startup-1.jpg)
 
@@ -15,19 +15,19 @@ For each answer our software got right, our team was awarded some points, and th
 
 ## Strategy
 
-One team chose to use [Sinatra](http://www.sinatrarb.com/) to build their software, two teams chose to build their applications in [Rails](http://rubyonrails.org), and one used Python. But it seems likely that technology choice was an almost insignificant factor, because in any high level language it's a matter of minutes to produce a fairly comprehensive base web application. Instead, more significant was each teams ability to monitor their score and recover from penalisation. As <%= l('james-mead', 'James M') %> says:
+One team chose to use [Sinatra](http://www.sinatrarb.com/) to build their software, two teams chose to build their applications in [Rails](http://rubyonrails.org), and one used Python. But it seems likely that technology choice was an almost insignificant factor, because in any high level language it's a matter of minutes to produce a fairly comprehensive base web application. Instead, more significant was each teams ability to monitor their score and recover from penalisation. As [James M](/james-mead) says:
 
 > Our main problem was that early on we didn't keep an eye on how we were doing so we were penalised quite a bit and never really recovered...
 >
 > ... another useful thing we did was to print out clear details about the failed request, but I wish we'd gone further with this - perhaps automatically retrieving the score from the server for that failed request.
 
-<%= l('tom-ward', 'Tom') %> has similar thoughts:
+[Tom](/tom-ward) has similar thoughts:
 
 > I think one downside of our approach was that it never felt we had time to get any sort of product strategy together - which requests to concentrate on, etc. We also could definitely have made it further if we'd skipped testing some of the simplest answers...
 
 ![Tom Stuart, Tom Ward and Chris Roos](/images/blog/extreme-startup-2.jpg)
 
-Speaking for <%= l('chris-roos', 'Chris') %> and <%= l('james-adam', 'I') %>, we definitely made a conscious effort to keep looking at our score and handling the most significant penalties first, and I think that was probably what largely contributed to our ultimate victory.
+Speaking for [Chris](/chris-roos) and [I](/james-adam), we definitely made a conscious effort to keep looking at our score and handling the most significant penalties first, and I think that was probably what largely contributed to our ultimate victory.
 
 ## Testing
 

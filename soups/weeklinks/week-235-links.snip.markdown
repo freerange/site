@@ -13,7 +13,7 @@ This is basically the motivation that drove me towards [Printer](/printer) -- I'
 
 ### [Low End Box](http://www.lowendbox.com/)
 
-I told <%= l('chris-roos', 'Chris') %> that I'd dig up this link a few weeks ago, and then totally forgot. The hosting provider we use ([Linode](http://www.linode.com/?r=6f2e7f0dbc623e6d0db13dd153f4b2c57eb09ce2)) is excellent and can supply some pretty powerful machines, with up to 40GB of RAM. However, sometimes the application you want to deploy doesn't really need more than a few hundred megabytes of RAM or access to a lot of processing power. Heroku is one option for those cases, but you can also rent a low-spec VPS for less than £2 a month from many different providers; Low End Box provides links to all sorts of options. <%= by('james-adam') %>
+I told [Chris](/chris-roos) that I'd dig up this link a few weeks ago, and then totally forgot. The hosting provider we use ([Linode](http://www.linode.com/?r=6f2e7f0dbc623e6d0db13dd153f4b2c57eb09ce2)) is excellent and can supply some pretty powerful machines, with up to 40GB of RAM. However, sometimes the application you want to deploy doesn't really need more than a few hundred megabytes of RAM or access to a lot of processing power. Heroku is one option for those cases, but you can also rent a low-spec VPS for less than £2 a month from many different providers; Low End Box provides links to all sorts of options. <%= by('james-adam') %>
 
 ### [Why mobile web apps are slow](http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/)
 
