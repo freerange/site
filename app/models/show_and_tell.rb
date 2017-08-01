@@ -1,6 +1,6 @@
 class ShowAndTell < Base
   def self.all
-    soup.all_snips.reject { |s| s.draft }.sort_by { |e| e.created_at }.reverse
+    soup.all_snips.reject { |s| s.draft }.sort_by { |e| e.created_at }
   end
 
   def self.latest_event_number

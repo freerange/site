@@ -20,9 +20,9 @@ RSpec.describe ShowAndTell, type: :model do
       expect(described_class.all).not_to include(draft_snip)
     end
 
-    it 'returns snips in descending chronological order' do
-      snip_1 = described_class.create(name: 'snip-1', created_at: Time.at(1))
-      snip_2 = described_class.create(name: 'snip-2', created_at: Time.at(2))
+    it 'returns snips in ascending chronological order' do
+      snip_1 = described_class.create(name: 'snip-1', created_at: Time.at(2))
+      snip_2 = described_class.create(name: 'snip-2', created_at: Time.at(1))
       expect(described_class.all).to eq([snip_2, snip_1])
     end
   end
