@@ -335,7 +335,7 @@ ul.nav li#link_blog {
   line-height: 2em;
 }
 body.thu {
-  background: #ffffff url(/images/bg/thurs.jpg) top center fixed no-repeat;
+  background: #fff url(/images/bg/thurs.jpg) top center fixed no-repeat;
 }
 body.blog,
 body.wiki {
