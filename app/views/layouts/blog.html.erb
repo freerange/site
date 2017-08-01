@@ -57,7 +57,7 @@
         <div id='article_links'>
           <h3>Recent</h3>
           <ul id='recent_articles'>
-            <ul class='blog_list' reversed>
+            <ul class="blog_list" reversed>
               <% BlogArticle.all.to_a.last(6).to_enum.with_index(1).reverse_each do |snip, index| %>
                 <%= content_tag(:li, link_to(snip.page_title, url_to(snip.name)), value: index) %>
               <% end %>
