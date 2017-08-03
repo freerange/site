@@ -24,7 +24,7 @@ If you have any questions, please [get in touch][email-address].
   Trying to subscribe to this Google Group with an email address doesn't appear to work: the "Join This Group" link in the email you receive is broken and results in a 404. You should be able to join if you're signed in to a Google account. Alternatively, send us an email and we can invite you.
 
   **Note 2.**
-  Subscribing to the Google Group will automatically invite you to a recurring calendar event for the Show & Tell. Please ignore the location of the first calendar event email you receive as it's our old office address. The actual location will be updated closer to the event (i.e. when we've found somewhere to host it!)
+  Subscribing to the Google Group will automatically invite you to a recurring calendar event for the Show & Tell.
 
 * [Slack channel][]
 * [Events on Attending][]
