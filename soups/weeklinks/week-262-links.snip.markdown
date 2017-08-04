@@ -1,5 +1,5 @@
-Wednesday Links - 262
-=====================
+Wednesday Links - Week 262
+==========================
 
 OK. So it's not Wednesday. I know, I know...
 

@@ -1,5 +1,5 @@
-Wednesday Links - 261
-=====================
+Wednesday Links - Week 261
+==========================
 
 We've decided to switch publication of our links to Wednesdays from now on.
 
