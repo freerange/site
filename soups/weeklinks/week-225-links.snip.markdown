@@ -1,4 +1,4 @@
-Monday Links - 225
+Monday Links - Week 225
 ============
 
 ### [Fargo](http://fargo.io/)

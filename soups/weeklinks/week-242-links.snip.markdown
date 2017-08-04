@@ -1,4 +1,4 @@
-Monday Links - 242
+Monday Links - Week 242
 ============
 
 ### [Ruby Rogues Book Club: Understanding Computation with Tom Stuart ](http://rubyrogues.com/120-rr-book-club-understanding-computation-with-tom-stuart/)

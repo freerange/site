@@ -1,4 +1,4 @@
-Monday Links - 234
+Monday Links - Week 234
 ============
 
 ### [Questions I ask myself about working as distributed team](http://joel.is/post/54284926855/questions-i-ask-myself-about-working-as-distributed)

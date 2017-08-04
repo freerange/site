@@ -1,4 +1,4 @@
-Monday Links - 253
+Monday Links - Week 253
 ==================
 
 ### [A Conversation with Kent Beck and Eric Ries](http://www.ustream.tv/recorded/40772384)

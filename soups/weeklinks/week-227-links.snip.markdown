@@ -1,4 +1,4 @@
-Monday Links - 227
+Monday Links - Week 227
 ============
 
 ### [Meetings at Medium](https://medium.com/about-holacracy/93446941a52a)

@@ -1,4 +1,4 @@
-Monday Links - 231
+Monday Links - Week 231
 ============
 
 ### [IndieAuth: Sign in with your domain name](https://indieauth.com/)

@@ -1,4 +1,4 @@
-Monday Links - 232
+Monday Links - Week 232
 ============
 
 ### [Re-appropriating tools for Pair Programming: The keyboard and mouse](http://salfreudenberg.wordpress.com/2013/06/22/re-appropriating-tools-for-pair-programming-the-keyboard-and-mouse/)

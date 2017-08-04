@@ -1,4 +1,4 @@
-Monday Links - 247
+Monday Links - Week 247
 ==================
 
 ### [Remote Debugging on Android](https://developers.google.com/chrome-developer-tools/docs/remote-debugging)
