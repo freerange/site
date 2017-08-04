@@ -1,9 +1,9 @@
 Week 446 - Interesting links
 ============================
 
-### [Title](http://example.com)
+### [Learn Vue 2: Step By Step](https://laracasts.com/series/learn-vue-2-step-by-step/)
 
-Your comments here. <%= by('chris-roos') %>
+I've been working though these tutorials on the JavaScript framework [Vue.js](https://vuejs.org/). Each episode is short, practically focussed and well presented. It's also been very beneficial to see other people attempt the exercises and share them in the comments. It would be great if each episode included the source code but I'm really impressed by the quality of this free resource. <%= by('chris-lowis') %>
 
 :name: week-446-links
 :updated_at: 2017-08-01 10:45:15.545544000 +01:00
