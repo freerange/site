@@ -1,4 +1,4 @@
-Week 203
+Week 203 - Spending more time with our family
 =============================================
 In the last weeknotes I wrote about finishing our work with GDS.  That means this week we've been working exclusively on our own things.  So what have we done with our time?
 
