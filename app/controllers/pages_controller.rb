@@ -23,7 +23,7 @@ class PagesController < ApplicationController
 
   def feed
     @domain = 'gofreerange.com'
-    snips = %w(blog show-and-tell).flat_map { |k| soup[kind: k] }.reject { |s| s.draft }.sort_by { |s| s.updated_at }.reverse.take(10)
+    snips = Bloggable.all.sort_by { |s| s.updated_at }.reverse.take(10)
     xml = Atom::Feed.new do |f|
       f.title = 'Go Free Range Blog'
       f.updated = snips.first.updated_at
