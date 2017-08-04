@@ -11,6 +11,7 @@ class BlogArticle < Base
 
   def self.soup
     @soup ||= Soup.new(Soup::Backends::MultiSoup.new(
+      Site::Application.backend_for('soups/blog'),
       Site::Application.backend_for('soups/weeklinks'),
       Site::Application.backend_for('soups/weeknotes')
     ))
