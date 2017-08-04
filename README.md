@@ -60,7 +60,7 @@ This site uses multiple soups to make it easier to organise the content. Within 
 
 The layout for a snip will default to 'application' unless the `render_as` attribute is set to 'Blog' in which case it will default to 'blog'. You can override the layout by setting the `layout` attribute.
 
-The `kind` attribute is used to filter snips in the `ApplicationHelper#list_of` method. Only snips with `kind` set to 'blog' or 'show-and-tell' are included in the RSS/Atom feed.
+Only snips with `kind` set to 'blog' or 'show-and-tell' are included in the RSS/Atom feed.
 
 Setting the `draft` attribute to `true` will mean the snip is not included in any lists or in the RSS/Atom feed.
 
