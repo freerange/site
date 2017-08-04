@@ -1,4 +1,4 @@
-Who is Harmonia For?
+Who is Harmonia for?
 ===============
 
 There are lots of aspects of [Harmonia][] that we want to explore in more detail, like how to create smart recurring tasks, and what makes a good task, but before that we'd like to spend a bit of time exploring who might find Harmonia useful...
