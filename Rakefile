@@ -12,7 +12,7 @@ namespace :spec do
   namespace 'regression' do
     namespace 'artefacts' do
       desc 'Clear regression test artefacts'
-      task 'clear' do
+      task 'clear' => 'environment' do
         spider = Spider.new
         spider.clear_artefacts
       end

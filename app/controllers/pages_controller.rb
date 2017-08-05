@@ -10,12 +10,8 @@ class PagesController < ApplicationController
 
   def show
     name = params.permit(:path)[:path]
-    @snip = name.present? ? soup[name] : soup[ROOT_SNIP_NAME]
-    if @snip.nil?
-      render plain: "Snip not found: #{name}", status: :not_found
-      return
-    end
-    @author = soup[@snip.author]
+    @snip = name.present? ? Snip.find(name) : Snip.find(ROOT_SNIP_NAME)
+    @author = Snip.find_by_name(@snip.author)
     html = render_snip(@snip)
     layout = layout_for(@snip)
     render html: html.html_safe, layout: layout
@@ -46,7 +42,7 @@ class PagesController < ApplicationController
 
   def sitemap
     @domain = 'gofreerange.com'
-    @snips = soup[:is_page => true].reject { |s| s.draft }
+    @snips = Snip.all(only_pages: true, ordered_chronologically: false)
     @docs = ["recap", "mocha"].inject({}) do |projects, project|
       root = "/#{project}/docs"
       files = Dir["/home/freerange/docs/#{project}/**/*"]
@@ -74,10 +70,6 @@ class PagesController < ApplicationController
   def layout_for(snip)
     default_layout = (snip.render_as == 'Blog') ? 'blog' : 'application'
     snip.layout ? snip.layout.sub(/-layout$/, '') : default_layout
-  end
-
-  def soup
-    Site::Application.soup
   end
 
   def externalise_links(content)

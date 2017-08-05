@@ -46,10 +46,7 @@ module ApplicationHelper
   end
 
   def include_snip(name)
-    snip = Site::Application.soup[name]
-    if snip.nil?
-      raise "Snip included within '#{@snip.name}' not found: '#{name}'"
-    end
+    snip = Snip.find(name)
     snip_renderer = SnipRenderer.new
     html = snip_renderer.render(snip, binding)
     html.html_safe

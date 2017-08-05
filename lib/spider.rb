@@ -29,8 +29,7 @@ class Spider
 
   def initialize
     @artefacts_path = Rails.root.join('artefacts')
-    soup = Site::Application.soup
-    seed_paths = soup.all_snips.map(&:name).map { |name| "/#{name}"}
+    seed_paths = Snip.all(include_drafts: true).map(&:name).map { |name| "/#{name}"}
     seed_paths += EXTRA_PATHS
 
     @server = Server.new(
