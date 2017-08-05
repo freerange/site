@@ -145,11 +145,15 @@ class Spider
       url = URI.join(SITE_URL, path)
       response = nil
       begin
+        tries = 0
         response = Net::HTTP.get_response(url)
         raise HttpRetry unless Net::HTTPSuccess === response
       rescue HttpRetry
-        puts "Retrying request for: #{path}"
-        retry
+        tries += 1
+        if tries < 3
+          puts "Retrying request for: #{path}"
+          retry
+        end
       end
       artefact_path = artefact_path(path)
       FileUtils.mkdir_p(File.dirname(artefact_path))
