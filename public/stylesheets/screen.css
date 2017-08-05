@@ -731,25 +731,25 @@ body.wiki #page .comments {
   body.blog #page #content #article_links #recent_articles {
     padding-left: 0.65em;
   }
-  body.blog #page #content #article_links ul {
+  body.blog #page #content #article_links ol {
     list-style-image: url(/images/list-bullet.png);
     list-style: image;
     padding: 0 0 0 0.65em;
     padding-bottom: 2.1em;
   }
-  body.blog #page #content #article_links ul li {
+  body.blog #page #content #article_links ol li {
     padding: 0;
     line-height: 1.5em;
   }
-  body.blog #page #content #article_links ul a {
+  body.blog #page #content #article_links ol a {
     font-size: 0.8em;
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     color: #333;
     font-weight: normal;
   }
-  body.blog #page #content #article_links ul a:hover,
-  body.blog #page #content #article_links ul a:active {
+  body.blog #page #content #article_links ol a:hover,
+  body.blog #page #content #article_links ol a:active {
     color: #db4a1d;
   }
 }
