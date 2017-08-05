@@ -1,4 +1,4 @@
-require 'recap/recipes/ruby'
+require 'recap/recipes/rails'
 
 set :application_user, 'freerange'
 set :application, 'gofreerange.com'
