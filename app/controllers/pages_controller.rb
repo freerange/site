@@ -42,7 +42,7 @@ class PagesController < ApplicationController
 
   def sitemap
     @domain = 'gofreerange.com'
-    @snips = Snip.all(only_pages: true, ordered_chronologically: false)
+    @snips = Snip.all(only_pages: true)
     @docs = ["recap", "mocha"].inject({}) do |projects, project|
       root = "/#{project}/docs"
       files = Dir["/home/freerange/docs/#{project}/**/*"]

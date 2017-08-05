@@ -10,11 +10,10 @@ class Snip < Base
     'soups/show-and-tell'
   ]
 
-  def self.all(only_pages: false, include_drafts: false, ordered_chronologically: true)
+  def self.all(only_pages: false, include_drafts: false)
     snips = soup.all_snips
     snips.select! { |s| s.is_page } if only_pages
     snips.reject! { |s| s.draft } unless include_drafts
-    snips.sort_by! { |e| e.created_at } if ordered_chronologically
     snips
   end
 

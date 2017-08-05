@@ -50,16 +50,10 @@ RSpec.describe Snip, type: :model do
       expect(described_class.all(only_pages: true)).not_to include(non_page_snip)
     end
 
-    it 'returns snips in ascending chronological order by default' do
+    it 'returns snips in ascending chronological order' do
       snip_1 = described_class.create(name: 'snip-1', created_at: Time.at(2))
       snip_2 = described_class.create(name: 'snip-2', created_at: Time.at(1))
       expect(described_class.all).to eq([snip_2, snip_1])
-    end
-
-    it 'returns snips in creation order if ordered_chronologically is false' do
-      snip_1 = described_class.create(name: 'snip-1', created_at: Time.at(2))
-      snip_2 = described_class.create(name: 'snip-2', created_at: Time.at(1))
-      expect(described_class.all(ordered_chronologically: false)).to eq([snip_1, snip_2])
     end
   end
 
