@@ -34,11 +34,6 @@ module Site
       ))
     end
 
-    # intentionally not included in multi-soup
-    def self.templates
-      @templates ||= Soup.new(backend_for('soups/templates'))
-    end
-
     def self.backend_for(path)
       Soup::Backends::FileBackend.new(Rails.root.join(path))
     end

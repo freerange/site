@@ -29,8 +29,6 @@ end
 
 require "erb"
 
-templates = Site::Application.templates
-
 namespace :week do
   desc <<-DESC
   Displays the GFR week number from the date of incorporation.
@@ -68,7 +66,7 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task create: :environment do
-      template = templates['week-nnn']
+      template = Template.find('week-nnn')
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
@@ -118,7 +116,7 @@ namespace :week do
     environment variable to the GFR week number.
     DESC
     task create: :environment do
-      template = templates['week-nnn-links']
+      template = Template.find('week-nnn-links')
 
       date = Date.parse(ENV['DATE']) rescue Date.today
       week_number = (ENV['WEEK'] || Company::GoFreeRange.week_number_for(date))
@@ -168,7 +166,7 @@ namespace 'show-and-tell' do
   event number in the NUMBER environment variable.
   DESC
   task create: :environment do
-    template = templates['show-and-tell-nn']
+    template = Template.find('show-and-tell-nn')
 
     event_number = (ENV['NUMBER'] || ShowAndTell.latest_event_number + 1).to_i
 
