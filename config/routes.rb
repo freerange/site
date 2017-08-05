@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: 'pages#show'
-  get '/feed.xml', to: 'pages#feed'
+  get '/feed.xml', to: 'pages#feed', format: 'atom'
   get '/sitemap.xml', to: 'pages#sitemap'
 
   get '/hello-printer', to: redirect('https://exciting.io/2012/04/12/hello-printer')

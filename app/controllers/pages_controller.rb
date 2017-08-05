@@ -1,10 +1,9 @@
-require 'atom'
 require 'snip_renderer'
 
 class PagesController < ApplicationController
   include ERB::Util
 
-  helper_method :url_to
+  helper_method :url_to, :render_snip
 
   ROOT_SNIP_NAME = 'start'.freeze
 
@@ -19,25 +18,7 @@ class PagesController < ApplicationController
 
   def feed
     @domain = 'gofreerange.com'
-    snips = Bloggable.all.sort_by { |s| s.updated_at }.reverse.take(10)
-    xml = Atom::Feed.new do |f|
-      f.title = 'Go Free Range Blog'
-      f.updated = snips.first.updated_at
-      f.id = "tag:x,2008-06-01:kind/x"
-      snips.each do |snip|
-        f.entries << Atom::Entry.new do |e|
-          e.published = snip.created_at
-          e.updated = (snip.updated_at || snip.created_at)
-          content = externalise_links(render_snip(snip))
-          e.content = Atom::Content::Html.new(content)
-          e.title = snip.page_title || snip.title || snip.name
-          e.authors = [Atom::Person.new(name: snip.author || @domain)]
-          e.links << Atom::Link.new(href: "http://#{@domain}#{url_to(snip.name)}")
-          e.id = "tag:#{@domain},#{(snip.created_at || Time.now).to_date}:#{url_to(snip.name)}"
-        end
-      end
-    end.to_xml
-    render inline: xml, layout: false
+    @snips = Bloggable.all.sort_by { |s| s.updated_at }.reverse.take(10)
   end
 
   def sitemap
@@ -70,22 +51,5 @@ class PagesController < ApplicationController
   def layout_for(snip)
     default_layout = (snip.render_as == 'Blog') ? 'blog' : 'application'
     snip.layout ? snip.layout.sub(/-layout$/, '') : default_layout
-  end
-
-  def externalise_links(content)
-    content.gsub(/(href|src)="([^"]*)"/) do
-      externalised_link($1, '"', $2)
-    end.gsub(/(href|src)='([^']*)'/) do
-      externalised_link($1, "'", $2)
-    end
-  end
-
-  def externalised_link(type, quote, link)
-    if link =~ /^http/
-      "#{type}=#{quote}#{link}#{quote}"
-    else
-      absolute_link = "http://#{@domain}" + (link =~ /^\// ? "" : "/") + link
-      "#{type}=#{quote}#{absolute_link}#{quote}"
-    end
   end
 end
