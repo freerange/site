@@ -43,7 +43,6 @@ Until next time.
 :created_at: 2017-03-17 15:50:54.011356000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
