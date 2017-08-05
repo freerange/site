@@ -8,6 +8,12 @@ RSpec.describe ShowAndTell, type: :model do
     allow(described_class).to receive(:soup).and_return(soup)
   end
 
+  describe '.soup_directories' do
+    it 'returns soup directories' do
+      expect(described_class.soup_directories).to eq(%w(soups/show-and-tell))
+    end
+  end
+
   describe '.all' do
     it 'returns all snips in show-and-tell soup' do
       snip_1 = described_class.create(name: 'snip-1')

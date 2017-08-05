@@ -1,4 +1,8 @@
 class ShowAndTell < Base
+  self.soup_directories = [
+    'soups/show-and-tell'
+  ]
+
   def self.all
     soup.all_snips.reject { |s| s.draft }.sort_by { |e| e.created_at }
   end

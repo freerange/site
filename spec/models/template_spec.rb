@@ -8,6 +8,12 @@ RSpec.describe Template, type: :model do
     allow(described_class).to receive(:soup).and_return(soup)
   end
 
+  describe '.soup_directories' do
+    it 'returns soup directories' do
+      expect(described_class.soup_directories).to eq(%w(soups/templates))
+    end
+  end
+
   describe '.find' do
     it 'returns snip with specified name' do
       snip = described_class.create(name: 'snip-name')

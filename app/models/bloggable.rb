@@ -1,20 +1,16 @@
 class Bloggable < Base
+  self.soup_directories = [
+    'soups/blog',
+    'soups/weeklinks',
+    'soups/weeknotes',
+    'soups/show-and-tell'
+  ]
+
   def self.all
     soup.all_snips.reject { |s| s.draft }.sort_by { |e| e.created_at }
   end
 
   def self.create(attributes)
     soup << attributes
-  end
-
-  private
-
-  def self.soup
-    @soup ||= Soup.new(Soup::Backends::MultiSoup.new(
-      backend_for('soups/blog'),
-      backend_for('soups/weeklinks'),
-      backend_for('soups/weeknotes'),
-      backend_for('soups/show-and-tell')
-    ))
   end
 end

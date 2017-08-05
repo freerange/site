@@ -8,6 +8,21 @@ RSpec.describe Snip, type: :model do
     allow(described_class).to receive(:soup).and_return(soup)
   end
 
+  describe '.soup_directories' do
+    it 'returns soup directories' do
+      expect(described_class.soup_directories).to eq([
+        'soups',
+        'soups/people',
+        'soups/projects',
+        'soups/blog',
+        'soups/weeklinks',
+        'soups/weeknotes',
+        'soups/wiki',
+        'soups/show-and-tell'
+      ])
+    end
+  end
+
   describe '.all' do
     it 'returns all snips in the soup' do
       snip_1 = described_class.create(name: 'snip-1')

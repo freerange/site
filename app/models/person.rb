@@ -1,4 +1,8 @@
 class Person < Base
+  self.soup_directories = [
+    'soups/people'
+  ]
+
   USERNAMES_VS_PERSON_NAMES = {
     'jamesmead' => 'james-mead',
     'chrisroos' => 'chris-roos',
@@ -19,10 +23,6 @@ class Person < Base
   end
 
   private
-
-  def self.soup
-    @soup ||= Soup.new(backend_for('soups/people'))
-  end
 
   def self.current_username
     `whoami`.chomp

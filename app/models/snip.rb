@@ -1,4 +1,15 @@
 class Snip < Base
+  self.soup_directories = [
+    'soups',
+    'soups/people',
+    'soups/projects',
+    'soups/blog',
+    'soups/weeklinks',
+    'soups/weeknotes',
+    'soups/wiki',
+    'soups/show-and-tell'
+  ]
+
   def self.all(only_pages: false, include_drafts: false, ordered_chronologically: true)
     snips = soup.all_snips
     snips.select! { |s| s.is_page } if only_pages
@@ -17,20 +28,5 @@ class Snip < Base
 
   def self.create(attributes)
     soup << attributes
-  end
-
-  private
-
-  def self.soup
-    @soup ||= Soup.new(Soup::Backends::MultiSoup.new(
-      backend_for('soups'),
-      backend_for('soups/people'),
-      backend_for('soups/projects'),
-      backend_for('soups/blog'),
-      backend_for('soups/weeklinks'),
-      backend_for('soups/weeknotes'),
-      backend_for('soups/wiki'),
-      backend_for('soups/show-and-tell')
-    ))
   end
 end
