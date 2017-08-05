@@ -10,6 +10,6 @@ class Weeklinks < Base
   private
 
   def self.soup
-    @soup ||= Soup.new(Site::Application.backend_for('soups/weeklinks'))
+    @soup ||= Soup.new(backend_for('soups/weeklinks'))
   end
 end

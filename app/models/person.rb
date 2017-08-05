@@ -21,7 +21,7 @@ class Person < Base
   private
 
   def self.soup
-    @soup ||= Soup.new(Site::Application.backend_for('soups/people'))
+    @soup ||= Soup.new(backend_for('soups/people'))
   end
 
   def self.current_username

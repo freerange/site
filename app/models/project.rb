@@ -10,6 +10,6 @@ class Project < Base
   private
 
   def self.soup
-    @soup ||= Soup.new(Site::Application.backend_for('soups/projects'))
+    @soup ||= Soup.new(backend_for('soups/projects'))
   end
 end

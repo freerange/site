@@ -23,14 +23,14 @@ class Snip < Base
 
   def self.soup
     @soup ||= Soup.new(Soup::Backends::MultiSoup.new(
-      Site::Application.backend_for('soups'),
-      Site::Application.backend_for('soups/people'),
-      Site::Application.backend_for('soups/projects'),
-      Site::Application.backend_for('soups/blog'),
-      Site::Application.backend_for('soups/weeklinks'),
-      Site::Application.backend_for('soups/weeknotes'),
-      Site::Application.backend_for('soups/wiki'),
-      Site::Application.backend_for('soups/show-and-tell')
+      backend_for('soups'),
+      backend_for('soups/people'),
+      backend_for('soups/projects'),
+      backend_for('soups/blog'),
+      backend_for('soups/weeklinks'),
+      backend_for('soups/weeknotes'),
+      backend_for('soups/wiki'),
+      backend_for('soups/show-and-tell')
     ))
   end
 end

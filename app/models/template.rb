@@ -10,6 +10,6 @@ class Template < Base
   private
 
   def self.soup
-    @soup ||= Soup.new(Site::Application.backend_for('soups/templates'))
+    @soup ||= Soup.new(backend_for('soups/templates'))
   end
 end

@@ -10,6 +10,6 @@ class Weeknotes < Base
   private
 
   def self.soup
-    @soup ||= Soup.new(Site::Application.backend_for('soups/weeknotes'))
+    @soup ||= Soup.new(backend_for('soups/weeknotes'))
   end
 end

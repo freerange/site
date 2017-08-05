@@ -18,6 +18,6 @@ class ShowAndTell < Base
   private
 
   def self.soup
-    @soup ||= Soup.new(Site::Application.backend_for('soups/show-and-tell'))
+    @soup ||= Soup.new(backend_for('soups/show-and-tell'))
   end
 end
