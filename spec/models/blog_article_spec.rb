@@ -34,12 +34,4 @@ RSpec.describe BlogArticle, type: :model do
       expect(described_class.all).to eq([snip_2, snip_1])
     end
   end
-
-  describe '.create' do
-    it 'returns new snip with specified attribute' do
-      snip = described_class.create(name: 'snip-name', attribute: 'attribute-value')
-      expect(snip.name).to eq('snip-name')
-      expect(snip.attribute).to eq('attribute-value')
-    end
-  end
 end

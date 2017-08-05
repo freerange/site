@@ -18,15 +18,7 @@ class Snip < Base
     snips
   end
 
-  def self.find(name)
-    soup[name] || raise(NotFoundError.new("Snip not found: #{name}"))
-  end
-
   def self.find_by_name(name)
     soup[name]
-  end
-
-  def self.create(attributes)
-    soup << attributes
   end
 end

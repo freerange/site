@@ -11,14 +11,6 @@ class ShowAndTell < Base
     soup.all_snips.map(&:name).map { |n| (/^show-and-tell-(\d+)$/.match(n) || [])[1] }.compact.map(&:to_i).max
   end
 
-  def self.find(name)
-    soup[name] || raise(NotFoundError.new("Show & Tell snip not found: #{name}"))
-  end
-
-  def self.create(attributes)
-    soup << attributes
-  end
-
   private
 
   def self.soup

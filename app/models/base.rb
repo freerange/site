@@ -3,6 +3,14 @@ class Base
 
   class_attribute :soup_directories
 
+  def self.find(name)
+    soup[name] || raise(NotFoundError.new("#{self.class.name} snip not found: #{name}"))
+  end
+
+  def self.create(attributes)
+    soup << attributes
+  end
+
   private
 
   def self.soup

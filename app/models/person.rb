@@ -14,14 +14,6 @@ class Person < Base
     find(person_name).name
   end
 
-  def self.find(name)
-    soup[name] || raise(NotFoundError.new("Person snip not found: #{name}"))
-  end
-
-  def self.create(attributes)
-    soup << attributes
-  end
-
   private
 
   def self.current_username

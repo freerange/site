@@ -63,17 +63,6 @@ RSpec.describe Snip, type: :model do
     end
   end
 
-  describe '.find' do
-    it 'returns snip with specified name' do
-      snip = described_class.create(name: 'snip-name')
-      expect(described_class.find('snip-name')).to eq(snip)
-    end
-
-    it 'raises not found error if no snip exists with the specified name' do
-      expect { described_class.find('snip-name') }.to raise_error(Base::NotFoundError)
-    end
-  end
-
   describe '.find_by_name' do
     it 'returns snip with specified name' do
       snip = described_class.create(name: 'snip-name')
@@ -82,14 +71,6 @@ RSpec.describe Snip, type: :model do
 
     it 'returns nil if no snip exists with the specified name' do
       expect(described_class.find_by_name('snip-name')).to be_nil
-    end
-  end
-
-  describe '.create' do
-    it 'returns new snip with specified attribute' do
-      snip = described_class.create(name: 'snip-name', attribute: 'attribute-value')
-      expect(snip.name).to eq('snip-name')
-      expect(snip.attribute).to eq('attribute-value')
     end
   end
 end
