@@ -12,6 +12,7 @@ gem 'less-rails', git: 'https://github.com/brendon/less-rails', branch: 'fix-spr
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
+gem 'yui-compressor'
 
 group :development do
   gem 'dotenv-rails'
