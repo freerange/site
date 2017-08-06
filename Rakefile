@@ -5,7 +5,6 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
-require 'rspec/core/rake_task'
 require 'spider'
 
 namespace :spec do
