@@ -15,20 +15,27 @@ RSpec.describe Person, type: :model do
   end
 
   describe '.current_name' do
-    it 'returns snip name associated with current unix user' do
-      described_class.create(name: 'james-mead')
-      allow(described_class).to receive(:current_username).and_return('jamesmead')
-      expect(described_class.current_name).to eq('james-mead')
+    let(:current_username) { 'jamesmead' }
+
+    before do
+      allow(described_class).to receive(:current_username).and_return(current_username)
     end
 
-    it 'raises exception if no person name found for current unix user' do
+    it 'returns snip name associated with current unix user' do
       described_class.create(name: 'james-mead')
-      allow(described_class).to receive(:current_username).and_return('unknown')
-      expect { described_class.current_name }.to raise_error(KeyError)
+      expect(described_class.current_name).to eq('james-mead')
     end
 
     it 'raises not found error if no snip exists with the specified name' do
       expect { described_class.current_name }.to raise_error(Base::NotFoundError)
+    end
+
+    context 'when current unix user has no mapping to a person name' do
+      let(:current_username) { 'unknown' }
+
+      it 'raises exception if no person name found for current unix user' do
+        expect { described_class.current_name }.to raise_error(KeyError)
+      end
     end
   end
 end
