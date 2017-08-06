@@ -7,6 +7,14 @@ gem 'soup'
 gem 'kramdown'
 gem 'airbrake', '~> 5'
 
+group :assets, :development do
+  gem 'sass-rails'
+end
+
+group :assets do
+  gem 'uglifier', '>= 1.3.0'
+end
+
 group :development do
   gem 'dotenv-rails'
   gem 'recap'

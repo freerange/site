@@ -68,18 +68,6 @@ The site map is generated on the fly and includes any page with the `is_page` at
 
 If you're not sure, just look at some of the other snips in `soups/blog`.
 
-## Updating CSS
-
-### Install node modules
-
-    $ npm install
-
-### Generate CSS
-
-The `*.css` files are generated from `*.less` files in `public/stylesheets`. You can regenerate a specific file using a command like:
-
-    lessc public/stylesheets/screen.less >public/stylesheets/screen.css
-
 ### Regression test
 
 There are a set of Rake tasks under the 'regression' namespace which allow generation and comparison of a set of normalized HTML/XML artefacts. Note that these Rake tasks depend on HTML Tidy [1] which can be installed via `brew install tidy-html5` on OSX.

@@ -1,9 +1,5 @@
 {
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freerange/site"
-  },
-  "devDependencies": {
-    "less": ""
-  }
+  "name": "site",
+  "private": true,
+  "dependencies": {}
 }

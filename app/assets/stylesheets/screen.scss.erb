@@ -1,18 +1,17 @@
 @import "_reset";
-@import "_grid";
 
 /*
   Master styles for application.
 */
 
 /* Global Variables */
-@font_family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
-@link_hover: #db4a1d;
+$font_family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+$link_hover: #db4a1d;
 /* body style */
 
 body {
   color: #444;
-  font-family: @font_family;
+  font-family: $font_family;
   font-size: 62.5%;
 }
 
@@ -29,7 +28,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  color: @link_hover;
+  color: $link_hover;
 }
 
 
@@ -37,18 +36,18 @@ a:hover, a:active {
 --------------------------------------------- */
 
 body {
-  background: #fdfffb url(/images/bg_w.jpg) top fixed no-repeat;
+  background: #fdfffb url(<%= asset_path 'bg_w.jpg' %>) top fixed no-repeat;
 }
 
 
-@page_width: 60em;
+$page_width: 60em;
 
 #page {
   padding: 2em;
   margin: 0;
   position: relative;
   margin: 0 auto;
-  width: @page_width;
+  width: $page_width;
 }
 
 /* header
@@ -67,7 +66,7 @@ body {
 
     a {
       display: block;
-      background: url(/images/logo.png) no-repeat 0 0;
+      background: url(<%= asset_path 'logo.png' %>) no-repeat 0 0;
       text-indent: -9999px;
       width: 291px;
       height: 229px;
@@ -91,7 +90,7 @@ ul.nav {
   z-index: 100;
   width: 100%;
   top: 0;
-  max-width: @page_width + 15em;
+  max-width: $page_width + 15em;
 
   li {
     p {
@@ -107,7 +106,7 @@ ul.nav {
       }
 
       a:hover {
-        color: @link_hover;
+        color: $link_hover;
       }
     }
   }
@@ -318,7 +317,7 @@ body.wed {
 }
 
 body.thu {
-  background: #fff url(/images/bg/thurs.jpg) top center fixed no-repeat;
+  background: #fff url(<%= asset_path 'bg/thurs.jpg' %>) top center fixed no-repeat;
 }
 
 body.fri {
@@ -337,12 +336,12 @@ body.blog, body.wiki {
   background: #fff;
   padding: 0;
 
-  @max_page_width: 102.5em;
+  $max_page_width: 102.5em;
 
   #page {
     padding: 0;
     margin: 0 auto;
-    max-width: @max_page_width;
+    max-width: $max_page_width;
     min-width: 0;
     width: 100%;
     position: relative;
@@ -356,7 +355,7 @@ body.blog, body.wiki {
         border-bottom: 1px solid #fff;
         position: fixed;
         z-index: 100;
-        max-width: @max_page_width;
+        max-width: $max_page_width;
         width: 100%;
 
         li {
@@ -373,7 +372,7 @@ body.blog, body.wiki {
             }
 
             a:hover {
-              color: @link_hover;
+              color: $link_hover;
             }
           }
         }
@@ -398,7 +397,7 @@ body.blog, body.wiki {
 
         a {
           display: block;
-          background: url(/images/logo_blog.png) no-repeat 0 0;
+          background: url(<%= asset_path 'logo_blog.png' %>) no-repeat 0 0;
           text-indent: -9999px;
           width: 316px;
           height: 217px;
@@ -753,7 +752,7 @@ body.blog, body.wiki {
           }
 
           ol {
-            list-style-image: url(/images/list-bullet.png);
+            list-style-image: url(<%= asset_path 'list-bullet.png' %>);
             list-style: image;
             padding: 0 0 0 0.65em;
             padding-bottom: 2.1em;
@@ -770,7 +769,7 @@ body.blog, body.wiki {
             }
 
             a:hover, a:active {
-              color: @link_hover;
+              color: $link_hover;
             }
           }
 
