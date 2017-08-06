@@ -1,644 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://gofreerange.com/show-and-tell-events</loc>
-    <lastmod>2015-07-31T13:20:00+01:00</lastmod>
-  </url>
-  <url>
     <loc>http://gofreerange.com/</loc>
     <lastmod>2009-12-08T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/automating-some-of-the-freeagent-transaction-explanation-process</loc>
-    <lastmod>2014-03-07T16:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/avoid-vat-issues-with-free-agent-sanity-check</loc>
-    <lastmod>2013-01-28T11:24:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/building-a-git-repository-of-ruby-method-definitions</loc>
-    <lastmod>2014-03-16T00:45:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/building-caffeine-monitor</loc>
-    <lastmod>2010-12-06T17:55:03+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/chriss-notes-from-the-first-international-conference-on-software-archaeology</loc>
-    <lastmod>2014-02-07T12:37:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/chrome-extension-for-explaining-bank-transactions-in-freeagent</loc>
-    <lastmod>2014-07-30T11:14:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/cooperating-with-fairmondo</loc>
-    <lastmod>2017-03-24T11:14:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/delegated-tasks-arent-a-team-anti-pattern</loc>
-    <lastmod>2012-11-21T09:24:01+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/extreme-startup-game</loc>
-    <lastmod>2013-07-31T13:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/hello-you</loc>
     <lastmod>2010-11-17T12:34:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/inside-government</loc>
-    <lastmod>2012-02-29T11:45:00+00:00</lastmod>
+    <loc>http://gofreerange.com/sometimes-success-means-not-building-software</loc>
+    <lastmod>2010-11-18T15:34:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/introducing-harmonia</loc>
-    <lastmod>2011-09-25T13:55:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/kalv-goes-west</loc>
-    <lastmod>2011-08-26T13:55:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/linda-reads-your-numbers</loc>
-    <lastmod>2011-05-03T18:21:54+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/multiple-google-chrome-profiles</loc>
-    <lastmod>2014-10-30T16:46:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/office-furniture-clearance</loc>
-    <lastmod>2014-07-16T12:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/pair-programming-presentation-at-futurelearn</loc>
-    <lastmod>2015-03-04T17:25:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-1</loc>
-    <lastmod>2014-06-25T12:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-10</loc>
-    <lastmod>2014-07-08T11:45:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-11</loc>
-    <lastmod>2014-07-09T18:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-2</loc>
-    <lastmod>2014-06-26T15:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-3</loc>
-    <lastmod>2014-06-27T17:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-4</loc>
-    <lastmod>2014-06-30T11:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-5</loc>
-    <lastmod>2014-07-01T18:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-6</loc>
-    <lastmod>2014-07-02T12:42:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-7</loc>
-    <lastmod>2014-07-03T16:20:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-8</loc>
-    <lastmod>2014-07-04T12:26:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-day-9</loc>
-    <lastmod>2014-07-07T12:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/project-credit-union-update</loc>
-    <lastmod>2014-08-28T15:05:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/recap-1-0</loc>
-    <lastmod>2012-05-04T16:05:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/replacing-account-numbers-with-friendly-names-in-hsbc-uks-business-banking-site</loc>
-    <lastmod>2014-02-07T13:25:00+00:00</lastmod>
+    <loc>http://gofreerange.com/building-caffeine-monitor</loc>
+    <lastmod>2010-12-06T17:55:03+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/say-hello-to-timmy-printface</loc>
     <lastmod>2011-04-08T13:55:00+01:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/sharing-credentials</loc>
-    <lastmod>2014-09-26T12:13:00+01:00</lastmod>
+    <loc>http://gofreerange.com/linda-reads-your-numbers</loc>
+    <lastmod>2011-05-03T18:21:54+01:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/some-exciting-news</loc>
-    <lastmod>2013-11-12T16:24:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/sometimes-success-means-not-building-software</loc>
-    <lastmod>2010-11-18T15:34:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/the-first-london-indieweb-homebrew-website-club</loc>
-    <lastmod>2014-03-20T15:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/tracing-the-git-history-of-a-ruby-method</loc>
-    <lastmod>2014-03-11T11:24:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/twitter-lists-and-scottish-ruby-conf</loc>
-    <lastmod>2012-06-27T10:09:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/two-factor-authentication-with-multiple-devices</loc>
-    <lastmod>2014-10-20T16:54:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/understanding-one-time-passwords</loc>
-    <lastmod>2017-01-06T19:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/what-do-we-use-harmonia-for</loc>
-    <lastmod>2014-11-12T17:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/who-is-harmonia-for</loc>
-    <lastmod>2012-11-21T09:24:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/working-remotely</loc>
-    <lastmod>2012-01-25T00:05:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-218-links</loc>
-    <lastmod>2013-03-18T10:32:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-219-links</loc>
-    <lastmod>2013-03-25T10:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-220-links</loc>
-    <lastmod>2013-04-02T13:06:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-221-links</loc>
-    <lastmod>2013-04-08T11:46:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-222-links</loc>
-    <lastmod>2013-04-16T09:59:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-223-links</loc>
-    <lastmod>2013-04-22T10:31:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-224-links</loc>
-    <lastmod>2013-04-29T10:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-225-links</loc>
-    <lastmod>2013-05-06T14:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-226-links</loc>
-    <lastmod>2013-05-13T10:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-227-links</loc>
-    <lastmod>2013-05-20T10:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-228-links</loc>
-    <lastmod>2013-05-28T14:15:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-229-links</loc>
-    <lastmod>2013-06-03T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-230-links</loc>
-    <lastmod>2013-06-10T10:26:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-231-links</loc>
-    <lastmod>2013-06-17T17:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-232-links</loc>
-    <lastmod>2013-06-24T10:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-233-links</loc>
-    <lastmod>2013-07-01T14:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-234-links</loc>
-    <lastmod>2013-07-08T15:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-235-links</loc>
-    <lastmod>2013-07-15T15:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-236-links</loc>
-    <lastmod>2013-07-22T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-237-links</loc>
-    <lastmod>2013-07-29T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-238-links</loc>
-    <lastmod>2013-08-05T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-239-links</loc>
-    <lastmod>2013-08-12T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-240-links</loc>
-    <lastmod>2013-08-19T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-241-links</loc>
-    <lastmod>2013-08-27T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-242-links</loc>
-    <lastmod>2013-09-02T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-243-links</loc>
-    <lastmod>2013-09-09T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-244-links</loc>
-    <lastmod>2013-09-16T16:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-245-links</loc>
-    <lastmod>2013-09-23T13:05:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-246-links</loc>
-    <lastmod>2013-09-30T15:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-247-links</loc>
-    <lastmod>2013-10-07T14:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-248-links</loc>
-    <lastmod>2013-10-15T10:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-249-links</loc>
-    <lastmod>2013-10-21T19:52:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-250-links</loc>
-    <lastmod>2013-10-28T18:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-251-links</loc>
-    <lastmod>2013-11-05T10:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-252-links</loc>
-    <lastmod>2013-11-11T14:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-253-links</loc>
-    <lastmod>2013-11-18T18:44:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-254-links</loc>
-    <lastmod>2013-11-26T14:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-255-links</loc>
-    <lastmod>2013-12-03T14:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-256-links</loc>
-    <lastmod>2013-12-12T11:43:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-257-links</loc>
-    <lastmod>2013-12-16T15:35:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-261-links</loc>
-    <lastmod>2014-01-15T15:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-262-links</loc>
-    <lastmod>2014-01-22T18:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-263-links</loc>
-    <lastmod>2014-01-31T08:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-264-links</loc>
-    <lastmod>2014-02-06T12:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-265-links</loc>
-    <lastmod>2014-02-13T12:25:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-266-links</loc>
-    <lastmod>2014-02-19T17:41:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-267-links</loc>
-    <lastmod>2014-02-26T16:50:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-268-links</loc>
-    <lastmod>2014-03-06T11:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-269-links</loc>
-    <lastmod>2014-03-13T14:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-270-links</loc>
-    <lastmod>2014-03-21T11:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-272-links</loc>
-    <lastmod>2014-04-03T04:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-273-links</loc>
-    <lastmod>2014-04-11T07:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-274-links</loc>
-    <lastmod>2014-04-16T18:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-275-links</loc>
-    <lastmod>2014-04-24T12:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-277-links</loc>
-    <lastmod>2014-05-08T15:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-278-links</loc>
-    <lastmod>2014-05-16T12:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-279-links</loc>
-    <lastmod>2014-05-24T20:50:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-281-links</loc>
-    <lastmod>2014-06-05T15:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-283-links</loc>
-    <lastmod>2014-06-18T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-284-links</loc>
-    <lastmod>2014-06-26T14:21:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-285-links</loc>
-    <lastmod>2014-07-03T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-286-links</loc>
-    <lastmod>2014-07-10T15:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-287-links</loc>
-    <lastmod>2014-07-17T13:34:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-288-links</loc>
-    <lastmod>2014-07-24T15:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-289-links</loc>
-    <lastmod>2014-07-31T11:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-290-links</loc>
-    <lastmod>2014-08-07T16:27:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-291-links</loc>
-    <lastmod>2014-08-14T12:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-292-links</loc>
-    <lastmod>2014-08-21T16:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-294-links</loc>
-    <lastmod>2014-09-04T15:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-295-links</loc>
-    <lastmod>2014-09-11T15:22:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-296-links</loc>
-    <lastmod>2014-09-19T12:15:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-297-links</loc>
-    <lastmod>2014-09-26T13:34:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-298-links</loc>
-    <lastmod>2014-10-03T10:52:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-300-links</loc>
-    <lastmod>2014-10-15T15:39:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-302-links</loc>
-    <lastmod>2014-10-31T17:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-304-links</loc>
-    <lastmod>2014-11-12T16:52:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-306-links</loc>
-    <lastmod>2014-11-25T15:25:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-310-links</loc>
-    <lastmod>2014-12-22T12:15:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-313-links</loc>
-    <lastmod>2015-01-12T16:20:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-316-links</loc>
-    <lastmod>2015-02-04T14:38:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-318-links</loc>
-    <lastmod>2015-02-19T15:37:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-320-links</loc>
-    <lastmod>2015-03-11T10:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-322-links</loc>
-    <lastmod>2015-03-24T10:42:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-324-links</loc>
-    <lastmod>2015-04-07T17:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-328-links</loc>
-    <lastmod>2015-05-01T15:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-332-links</loc>
-    <lastmod>2015-05-29T16:47:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-334-links</loc>
-    <lastmod>2015-06-12T17:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-338-links</loc>
-    <lastmod>2015-07-10T16:45:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-340-links</loc>
-    <lastmod>2015-07-24T15:20:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-342-links</loc>
-    <lastmod>2015-08-07T13:12:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-344-links</loc>
-    <lastmod>2015-08-21T15:25:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-350-links</loc>
-    <lastmod>2015-10-02T13:58:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-354-links</loc>
-    <lastmod>2015-10-29T16:15:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-356-links</loc>
-    <lastmod>2015-11-10T16:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-367-links</loc>
-    <lastmod>2016-01-27T19:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-368-links</loc>
-    <lastmod>2016-02-04T10:05:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-394-links</loc>
-    <lastmod>2016-08-04T16:56:38+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-400-links</loc>
-    <lastmod>2016-09-22T12:17:42+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-402-links</loc>
-    <lastmod>2016-09-30T10:13:02+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-404-links</loc>
-    <lastmod>2016-10-13T13:20:18+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-406-links</loc>
-    <lastmod>2016-10-31T16:02:58+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-408-links</loc>
-    <lastmod>2016-11-11T11:23:19+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-412-links</loc>
-    <lastmod>2016-12-12T14:27:03+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-414-links</loc>
-    <lastmod>2016-12-21T14:32:02+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-416-links</loc>
-    <lastmod>2017-01-05T17:53:20+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-418-links</loc>
-    <lastmod>2017-01-23T17:31:50+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-424-links</loc>
-    <lastmod>2017-02-27T18:27:26+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-426-links</loc>
-    <lastmod>2017-03-22T18:45:23+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-428-links</loc>
-    <lastmod>2017-03-31T13:57:14+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-432-links</loc>
-    <lastmod>2017-04-28T16:25:18+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-434-links</loc>
-    <lastmod>2017-05-17T09:53:56+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-438-links</loc>
-    <lastmod>2017-06-08T09:54:24+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-440-links</loc>
-    <lastmod>2017-06-20T14:39:21+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-442-links</loc>
-    <lastmod>2017-07-07T15:26:46+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-444-links</loc>
-    <lastmod>2017-07-21T09:57:04+01:00</lastmod>
+    <loc>http://gofreerange.com/kalv-goes-west</loc>
+    <lastmod>2011-08-26T13:55:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-138</loc>
@@ -651,6 +39,10 @@
   <url>
     <loc>http://gofreerange.com/week-140</loc>
     <lastmod>2011-09-23T18:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/introducing-harmonia</loc>
+    <lastmod>2011-09-25T13:55:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-141</loc>
@@ -717,6 +109,10 @@
     <lastmod>2012-01-20T17:45:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/working-remotely</loc>
+    <lastmod>2012-01-25T00:05:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-158</loc>
     <lastmod>2012-01-28T13:37:00+00:00</lastmod>
   </url>
@@ -735,6 +131,10 @@
   <url>
     <loc>http://gofreerange.com/week-162</loc>
     <lastmod>2012-02-26T20:25:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/inside-government</loc>
+    <lastmod>2012-02-29T11:45:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-163</loc>
@@ -777,6 +177,10 @@
     <lastmod>2012-05-03T10:49:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/recap-1-0</loc>
+    <lastmod>2012-05-04T16:05:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-173</loc>
     <lastmod>2012-05-12T22:49:00+01:00</lastmod>
   </url>
@@ -803,6 +207,10 @@
   <url>
     <loc>http://gofreerange.com/week-179</loc>
     <lastmod>2012-06-24T12:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/twitter-lists-and-scottish-ruby-conf</loc>
+    <lastmod>2012-06-27T10:09:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-180</loc>
@@ -889,6 +297,14 @@
     <lastmod>2012-11-18T21:30:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/who-is-harmonia-for</loc>
+    <lastmod>2012-11-21T09:24:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/delegated-tasks-arent-a-team-anti-pattern</loc>
+    <lastmod>2012-11-21T09:24:01+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-201</loc>
     <lastmod>2012-11-26T09:30:00+00:00</lastmod>
   </url>
@@ -921,6 +337,10 @@
     <lastmod>2013-01-25T14:46:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/avoid-vat-issues-with-free-agent-sanity-check</loc>
+    <lastmod>2013-01-28T11:24:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-211</loc>
     <lastmod>2013-02-04T08:46:00+00:00</lastmod>
   </url>
@@ -945,6 +365,10 @@
     <lastmod>2013-03-12T10:32:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-218-links</loc>
+    <lastmod>2013-03-18T10:32:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-217</loc>
     <lastmod>2013-03-18T10:55:00+00:00</lastmod>
   </url>
@@ -953,156 +377,320 @@
     <lastmod>2013-03-22T16:30:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-219-links</loc>
+    <lastmod>2013-03-25T10:30:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-219</loc>
     <lastmod>2013-03-29T17:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-220-links</loc>
+    <lastmod>2013-04-02T13:06:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-220</loc>
     <lastmod>2013-04-05T11:29:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-221-links</loc>
+    <lastmod>2013-04-08T11:46:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-221</loc>
     <lastmod>2013-04-12T17:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-222-links</loc>
+    <lastmod>2013-04-16T09:59:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-222</loc>
     <lastmod>2013-04-18T17:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-223-links</loc>
+    <lastmod>2013-04-22T10:31:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-223</loc>
     <lastmod>2013-04-26T17:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-224-links</loc>
+    <lastmod>2013-04-29T10:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-224</loc>
     <lastmod>2013-05-03T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-225-links</loc>
+    <lastmod>2013-05-06T14:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-225</loc>
     <lastmod>2013-05-10T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-226-links</loc>
+    <lastmod>2013-05-13T10:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-226</loc>
     <lastmod>2013-05-17T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-227-links</loc>
+    <lastmod>2013-05-20T10:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-227</loc>
     <lastmod>2013-05-24T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-228-links</loc>
+    <lastmod>2013-05-28T14:15:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-228</loc>
     <lastmod>2013-05-31T12:50:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-229-links</loc>
+    <lastmod>2013-06-03T13:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-229</loc>
     <lastmod>2013-06-07T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-230-links</loc>
+    <lastmod>2013-06-10T10:26:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-230</loc>
     <lastmod>2013-06-14T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-231-links</loc>
+    <lastmod>2013-06-17T17:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-231</loc>
     <lastmod>2013-06-23T23:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-232-links</loc>
+    <lastmod>2013-06-24T10:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-232</loc>
     <lastmod>2013-06-30T23:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-233-links</loc>
+    <lastmod>2013-07-01T14:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-233</loc>
     <lastmod>2013-07-05T17:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-234-links</loc>
+    <lastmod>2013-07-08T15:30:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-234</loc>
     <lastmod>2013-07-12T17:49:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-235-links</loc>
+    <lastmod>2013-07-15T15:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-235</loc>
     <lastmod>2013-07-18T05:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-236-links</loc>
+    <lastmod>2013-07-22T13:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-236</loc>
     <lastmod>2013-07-25T05:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-237-links</loc>
+    <lastmod>2013-07-29T13:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/extreme-startup-game</loc>
+    <lastmod>2013-07-31T13:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-237</loc>
     <lastmod>2013-08-04T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-238-links</loc>
+    <lastmod>2013-08-05T13:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-238</loc>
     <lastmod>2013-08-09T13:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-239-links</loc>
+    <lastmod>2013-08-12T13:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-239</loc>
     <lastmod>2013-08-16T08:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-240-links</loc>
+    <lastmod>2013-08-19T13:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-240</loc>
     <lastmod>2013-08-25T08:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-241-links</loc>
+    <lastmod>2013-08-27T13:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-241</loc>
     <lastmod>2013-08-30T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-242-links</loc>
+    <lastmod>2013-09-02T13:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-242</loc>
     <lastmod>2013-09-06T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-243-links</loc>
+    <lastmod>2013-09-09T13:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-243</loc>
     <lastmod>2013-09-13T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-244-links</loc>
+    <lastmod>2013-09-16T16:30:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-244</loc>
     <lastmod>2013-09-20T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-245-links</loc>
+    <lastmod>2013-09-23T13:05:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-245</loc>
     <lastmod>2013-09-27T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-246-links</loc>
+    <lastmod>2013-09-30T15:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-246</loc>
     <lastmod>2013-10-04T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-247-links</loc>
+    <lastmod>2013-10-07T14:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-247</loc>
     <lastmod>2013-10-15T00:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-248-links</loc>
+    <lastmod>2013-10-15T10:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-248</loc>
     <lastmod>2013-10-20T13:48:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-249-links</loc>
+    <lastmod>2013-10-21T19:52:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-249</loc>
     <lastmod>2013-10-25T14:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-250-links</loc>
+    <lastmod>2013-10-28T18:30:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-250</loc>
     <lastmod>2013-11-01T18:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-251-links</loc>
+    <lastmod>2013-11-05T10:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-251</loc>
     <lastmod>2013-11-11T13:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-252-links</loc>
+    <lastmod>2013-11-11T14:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/some-exciting-news</loc>
+    <lastmod>2013-11-12T16:24:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-252</loc>
     <lastmod>2013-11-15T15:30:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-253-links</loc>
+    <lastmod>2013-11-18T18:44:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-253</loc>
     <lastmod>2013-11-25T15:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-254-links</loc>
+    <lastmod>2013-11-26T14:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-254</loc>
     <lastmod>2013-12-02T10:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-255-links</loc>
+    <lastmod>2013-12-03T14:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-255</loc>
     <lastmod>2013-12-06T17:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-256-links</loc>
+    <lastmod>2013-12-12T11:43:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-256</loc>
     <lastmod>2013-12-16T10:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-257-links</loc>
+    <lastmod>2013-12-16T15:35:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-257</loc>
@@ -1113,40 +701,104 @@
     <lastmod>2014-01-12T22:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-261-links</loc>
+    <lastmod>2014-01-15T15:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-261</loc>
     <lastmod>2014-01-22T17:55:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-262-links</loc>
+    <lastmod>2014-01-22T18:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-262</loc>
     <lastmod>2014-01-29T08:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-263-links</loc>
+    <lastmod>2014-01-31T08:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-263</loc>
     <lastmod>2014-02-04T16:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-264-links</loc>
+    <lastmod>2014-02-06T12:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/chriss-notes-from-the-first-international-conference-on-software-archaeology</loc>
+    <lastmod>2014-02-07T12:37:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/replacing-account-numbers-with-friendly-names-in-hsbc-uks-business-banking-site</loc>
+    <lastmod>2014-02-07T13:25:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-264</loc>
     <lastmod>2014-02-10T16:30:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-265-links</loc>
+    <lastmod>2014-02-13T12:25:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-265</loc>
     <lastmod>2014-02-18T17:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-266-links</loc>
+    <lastmod>2014-02-19T17:41:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-266</loc>
     <lastmod>2014-02-24T13:30:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-267-links</loc>
+    <lastmod>2014-02-26T16:50:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-267</loc>
     <lastmod>2014-03-03T16:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-268-links</loc>
+    <lastmod>2014-03-06T11:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/automating-some-of-the-freeagent-transaction-explanation-process</loc>
+    <lastmod>2014-03-07T16:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/tracing-the-git-history-of-a-ruby-method</loc>
+    <lastmod>2014-03-11T11:24:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-268</loc>
     <lastmod>2014-03-11T17:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-269-links</loc>
+    <lastmod>2014-03-13T14:30:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-269</loc>
     <lastmod>2014-03-14T18:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/building-a-git-repository-of-ruby-method-definitions</loc>
+    <lastmod>2014-03-16T00:45:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/the-first-london-indieweb-homebrew-website-club</loc>
+    <lastmod>2014-03-20T15:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-270-links</loc>
+    <lastmod>2014-03-21T11:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-270</loc>
@@ -1157,20 +809,40 @@
     <lastmod>2014-04-02T16:42:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-272-links</loc>
+    <lastmod>2014-04-03T04:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-272</loc>
     <lastmod>2014-04-08T15:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-273-links</loc>
+    <lastmod>2014-04-11T07:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-273</loc>
     <lastmod>2014-04-14T13:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-274-links</loc>
+    <lastmod>2014-04-16T18:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-274</loc>
     <lastmod>2014-04-19T14:45:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-275-links</loc>
+    <lastmod>2014-04-24T12:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-275</loc>
     <lastmod>2014-05-02T15:55:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-277-links</loc>
+    <lastmod>2014-05-08T15:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-276</loc>
@@ -1181,12 +853,24 @@
     <lastmod>2014-05-11T14:40:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-278-links</loc>
+    <lastmod>2014-05-16T12:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-278</loc>
     <lastmod>2014-05-21T18:30:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-279-links</loc>
+    <lastmod>2014-05-24T20:50:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-279</loc>
     <lastmod>2014-05-29T13:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-281-links</loc>
+    <lastmod>2014-06-05T15:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-280</loc>
@@ -1201,92 +885,276 @@
     <lastmod>2014-06-17T16:40:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-283-links</loc>
+    <lastmod>2014-06-18T13:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-283</loc>
     <lastmod>2014-06-23T15:40:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-1</loc>
+    <lastmod>2014-06-25T12:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-284-links</loc>
+    <lastmod>2014-06-26T14:21:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-2</loc>
+    <lastmod>2014-06-26T15:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-3</loc>
+    <lastmod>2014-06-27T17:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-4</loc>
+    <lastmod>2014-06-30T11:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-284</loc>
     <lastmod>2014-06-30T16:20:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/project-credit-union-day-5</loc>
+    <lastmod>2014-07-01T18:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-6</loc>
+    <lastmod>2014-07-02T12:42:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-285-links</loc>
+    <lastmod>2014-07-03T13:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-7</loc>
+    <lastmod>2014-07-03T16:20:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-8</loc>
+    <lastmod>2014-07-04T12:26:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-9</loc>
+    <lastmod>2014-07-07T12:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-285</loc>
     <lastmod>2014-07-07T12:55:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-10</loc>
+    <lastmod>2014-07-08T11:45:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/project-credit-union-day-11</loc>
+    <lastmod>2014-07-09T18:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-286-links</loc>
+    <lastmod>2014-07-10T15:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-286</loc>
     <lastmod>2014-07-16T12:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/office-furniture-clearance</loc>
+    <lastmod>2014-07-16T12:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-287-links</loc>
+    <lastmod>2014-07-17T13:34:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-287</loc>
     <lastmod>2014-07-22T16:29:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-288-links</loc>
+    <lastmod>2014-07-24T15:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-288</loc>
     <lastmod>2014-07-28T18:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/chrome-extension-for-explaining-bank-transactions-in-freeagent</loc>
+    <lastmod>2014-07-30T11:14:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-289-links</loc>
+    <lastmod>2014-07-31T11:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-289</loc>
     <lastmod>2014-08-05T12:45:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-290-links</loc>
+    <lastmod>2014-08-07T16:27:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-4</loc>
+    <lastmod>2014-08-07T17:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-290</loc>
     <lastmod>2014-08-11T10:09:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-291-links</loc>
+    <lastmod>2014-08-14T12:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-291</loc>
     <lastmod>2014-08-19T16:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-292-links</loc>
+    <lastmod>2014-08-21T16:30:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-292</loc>
     <lastmod>2014-08-27T15:40:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/project-credit-union-update</loc>
+    <lastmod>2014-08-28T15:05:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-293</loc>
     <lastmod>2014-09-01T13:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-294-links</loc>
+    <lastmod>2014-09-04T15:30:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-294</loc>
     <lastmod>2014-09-08T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-295-links</loc>
+    <lastmod>2014-09-11T15:22:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-5</loc>
+    <lastmod>2014-09-15T17:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-295</loc>
     <lastmod>2014-09-15T18:10:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-296-links</loc>
+    <lastmod>2014-09-19T12:15:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-296</loc>
     <lastmod>2014-09-22T14:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/sharing-credentials</loc>
+    <lastmod>2014-09-26T12:13:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-297-links</loc>
+    <lastmod>2014-09-26T13:34:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-297</loc>
     <lastmod>2014-09-30T17:35:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-298-links</loc>
+    <lastmod>2014-10-03T10:52:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-298</loc>
     <lastmod>2014-10-07T16:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-6</loc>
+    <lastmod>2014-10-13T16:57:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-299</loc>
     <lastmod>2014-10-13T17:00:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-300-links</loc>
+    <lastmod>2014-10-15T15:39:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/two-factor-authentication-with-multiple-devices</loc>
+    <lastmod>2014-10-20T16:54:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-300</loc>
     <lastmod>2014-10-20T16:55:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-events</loc>
+    <lastmod>2015-07-31T13:20:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-301</loc>
     <lastmod>2014-10-27T16:07:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/multiple-google-chrome-profiles</loc>
+    <lastmod>2014-10-30T16:46:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-302-links</loc>
+    <lastmod>2014-10-31T17:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-302</loc>
     <lastmod>2014-11-03T16:18:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/checking-our-annual-accounts</loc>
+    <lastmod>2017-01-15T20:46:54+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-303</loc>
     <lastmod>2014-11-11T14:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/what-do-we-use-harmonia-for</loc>
+    <lastmod>2014-11-12T17:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-304-links</loc>
+    <lastmod>2014-11-12T16:52:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-7</loc>
+    <lastmod>2014-11-17T13:28:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/how-to-submit-annual-return</loc>
+    <lastmod>2017-02-15T16:14:15+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/accountant</loc>
+    <lastmod>2017-01-15T20:45:58+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/company-year</loc>
+    <lastmod>2017-01-15T20:48:02+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-304</loc>
     <lastmod>2014-11-19T14:30:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-306-links</loc>
+    <lastmod>2014-11-25T15:25:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-305</loc>
@@ -1301,8 +1169,16 @@
     <lastmod>2014-12-12T11:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-8</loc>
+    <lastmod>2014-12-17T15:44:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-308</loc>
     <lastmod>2014-12-17T16:08:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-310-links</loc>
+    <lastmod>2014-12-22T12:15:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-309</loc>
@@ -1311,6 +1187,10 @@
   <url>
     <loc>http://gofreerange.com/week-312</loc>
     <lastmod>2015-01-12T15:03:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-313-links</loc>
+    <lastmod>2015-01-12T16:20:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-313</loc>
@@ -1325,12 +1205,24 @@
     <lastmod>2015-02-04T12:30:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-316-links</loc>
+    <lastmod>2015-02-04T14:38:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-316</loc>
     <lastmod>2015-02-13T11:47:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-9</loc>
+    <lastmod>2015-02-16T16:45:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-317</loc>
     <lastmod>2015-02-17T13:10:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-318-links</loc>
+    <lastmod>2015-02-19T15:37:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-318</loc>
@@ -1341,12 +1233,28 @@
     <lastmod>2015-03-04T11:09:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/pair-programming-presentation-at-futurelearn</loc>
+    <lastmod>2015-03-04T17:25:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-320-links</loc>
+    <lastmod>2015-03-11T10:30:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-320</loc>
     <lastmod>2015-03-12T11:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-10</loc>
+    <lastmod>2015-03-13T13:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-321</loc>
     <lastmod>2015-03-19T14:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-322-links</loc>
+    <lastmod>2015-03-24T10:42:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-322</loc>
@@ -1357,8 +1265,16 @@
     <lastmod>2015-04-01T10:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-324-links</loc>
+    <lastmod>2015-04-07T17:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-324</loc>
     <lastmod>2015-04-07T17:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-11</loc>
+    <lastmod>2015-04-17T13:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-325</loc>
@@ -1373,12 +1289,24 @@
     <lastmod>2015-05-01T12:25:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-328-links</loc>
+    <lastmod>2015-05-01T15:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-328</loc>
     <lastmod>2015-05-15T10:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-12</loc>
+    <lastmod>2015-05-15T15:05:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-329</loc>
     <lastmod>2015-05-22T15:58:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-332-links</loc>
+    <lastmod>2015-05-29T16:47:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-330</loc>
@@ -1397,8 +1325,16 @@
     <lastmod>2015-06-12T11:20:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-334-links</loc>
+    <lastmod>2015-06-12T17:30:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-334</loc>
     <lastmod>2015-06-16T10:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-13</loc>
+    <lastmod>2015-06-26T17:20:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-335</loc>
@@ -1407,6 +1343,10 @@
   <url>
     <loc>http://gofreerange.com/week-336</loc>
     <lastmod>2015-07-07T14:25:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-338-links</loc>
+    <lastmod>2015-07-10T16:45:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-337</loc>
@@ -1421,6 +1361,14 @@
     <lastmod>2015-07-17T16:30:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-14</loc>
+    <lastmod>2015-07-20T17:59:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-340-links</loc>
+    <lastmod>2015-07-24T15:20:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-340</loc>
     <lastmod>2015-07-24T16:15:00+01:00</lastmod>
   </url>
@@ -1429,12 +1377,24 @@
     <lastmod>2015-08-07T12:40:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-342-links</loc>
+    <lastmod>2015-08-07T13:12:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-15</loc>
+    <lastmod>2015-08-14T11:10:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-342</loc>
     <lastmod>2015-08-14T16:20:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-343</loc>
     <lastmod>2015-08-21T12:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-344-links</loc>
+    <lastmod>2015-08-21T15:25:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-344</loc>
@@ -1449,12 +1409,20 @@
     <lastmod>2015-09-11T13:00:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-16</loc>
+    <lastmod>2015-09-11T15:48:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-347</loc>
     <lastmod>2015-09-14T16:34:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-348</loc>
     <lastmod>2015-09-25T17:38:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-350-links</loc>
+    <lastmod>2015-10-02T13:58:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-349</loc>
@@ -1469,8 +1437,16 @@
     <lastmod>2015-10-16T14:45:00+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-17</loc>
+    <lastmod>2015-10-16T15:25:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-352</loc>
     <lastmod>2015-10-23T16:01:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-354-links</loc>
+    <lastmod>2015-10-29T16:15:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-353</loc>
@@ -1481,8 +1457,16 @@
     <lastmod>2015-11-05T15:30:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-356-links</loc>
+    <lastmod>2015-11-10T16:30:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-355</loc>
     <lastmod>2015-11-10T17:33:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-18</loc>
+    <lastmod>2015-11-20T14:02:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-356</loc>
@@ -1517,8 +1501,20 @@
     <lastmod>2016-01-25T09:17:00+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-19</loc>
+    <lastmod>2016-01-25T00:30:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-366</loc>
     <lastmod>2016-01-26T23:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-367-links</loc>
+    <lastmod>2016-01-27T19:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-368-links</loc>
+    <lastmod>2016-02-04T10:05:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-367</loc>
@@ -1569,6 +1565,10 @@
     <lastmod>2016-04-28T06:19:31+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-20</loc>
+    <lastmod>2016-07-29T17:09:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-379</loc>
     <lastmod>2016-08-01T16:44:00+01:00</lastmod>
   </url>
@@ -1577,8 +1577,8 @@
     <lastmod>2016-08-01T16:44:38+01:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-381</loc>
-    <lastmod>2016-10-20T12:27:25+01:00</lastmod>
+    <loc>http://gofreerange.com/week-394-links</loc>
+    <lastmod>2016-08-04T16:56:38+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-382</loc>
@@ -1589,28 +1589,136 @@
     <lastmod>2016-08-05T15:09:55+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-21</loc>
+    <lastmod>2016-08-05T16:18:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-393</loc>
+    <lastmod>2016-08-08T09:40:53+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-22</loc>
+    <lastmod>2016-08-16T13:36:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-394</loc>
+    <lastmod>2016-08-15T13:48:43+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-395</loc>
+    <lastmod>2016-08-15T14:15:09+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-23</loc>
+    <lastmod>2016-08-26T11:08:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-396</loc>
+    <lastmod>2016-09-09T15:42:33+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-399</loc>
+    <lastmod>2016-09-12T17:20:48+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-24</loc>
+    <lastmod>2016-09-22T11:12:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-400-links</loc>
+    <lastmod>2016-09-22T12:17:42+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-401</loc>
+    <lastmod>2016-09-26T17:38:17+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-402-links</loc>
+    <lastmod>2016-09-30T10:13:02+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-402</loc>
+    <lastmod>2016-10-13T10:12:53+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-404-links</loc>
+    <lastmod>2016-10-13T13:20:18+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-25</loc>
+    <lastmod>2016-10-14T17:20:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-381</loc>
+    <lastmod>2016-10-20T12:27:25+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-384</loc>
     <lastmod>2016-10-20T15:04:09+01:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-385</loc>
-    <lastmod>2016-10-27T16:37:03+01:00</lastmod>
+    <loc>http://gofreerange.com/week-403</loc>
+    <lastmod>2016-10-24T11:48:57+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-404</loc>
+    <lastmod>2016-10-24T12:10:23+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-386</loc>
     <lastmod>2016-10-26T17:28:35+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-385</loc>
+    <lastmod>2016-10-27T16:37:03+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-406-links</loc>
+    <lastmod>2016-10-31T16:02:58+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-405</loc>
+    <lastmod>2016-11-03T12:16:58+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-406</loc>
+    <lastmod>2016-11-04T10:53:29+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-408-links</loc>
+    <lastmod>2016-11-11T11:23:19+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-409</loc>
+    <lastmod>2016-11-24T18:55:02+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-410</loc>
+    <lastmod>2016-12-07T11:44:15+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-407</loc>
+    <lastmod>2016-12-07T15:03:34+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-411</loc>
+    <lastmod>2016-12-08T10:27:16+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-412-links</loc>
+    <lastmod>2016-12-12T14:27:03+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-26</loc>
+    <lastmod>2016-12-12T17:42:04+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-412</loc>
+    <lastmod>2016-12-14T11:14:14+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-387</loc>
     <lastmod>2016-12-19T13:14:45+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-388</loc>
-    <lastmod>2016-12-20T16:24:42+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-389</loc>
-    <lastmod>2016-12-21T10:52:33+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-390</loc>
@@ -1625,22 +1733,6 @@
     <lastmod>2016-12-19T13:15:03+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-393</loc>
-    <lastmod>2016-08-08T09:40:53+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-394</loc>
-    <lastmod>2016-08-15T13:48:43+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-395</loc>
-    <lastmod>2016-08-15T14:15:09+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-396</loc>
-    <lastmod>2016-09-09T15:42:33+01:00</lastmod>
-  </url>
-  <url>
     <loc>http://gofreerange.com/week-397</loc>
     <lastmod>2016-12-19T13:15:09+00:00</lastmod>
   </url>
@@ -1649,64 +1741,36 @@
     <lastmod>2016-12-19T13:15:17+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-399</loc>
-    <lastmod>2016-09-12T17:20:48+01:00</lastmod>
-  </url>
-  <url>
     <loc>http://gofreerange.com/week-400</loc>
     <lastmod>2016-12-19T13:15:22+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-401</loc>
-    <lastmod>2016-09-26T17:38:17+01:00</lastmod>
+    <loc>http://gofreerange.com/week-388</loc>
+    <lastmod>2016-12-20T16:24:42+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-402</loc>
-    <lastmod>2016-10-13T10:12:53+01:00</lastmod>
+    <loc>http://gofreerange.com/week-389</loc>
+    <lastmod>2016-12-21T10:52:33+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-403</loc>
-    <lastmod>2016-10-24T11:48:57+01:00</lastmod>
+    <loc>http://gofreerange.com/week-414-links</loc>
+    <lastmod>2016-12-21T14:32:02+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-404</loc>
-    <lastmod>2016-10-24T12:10:23+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-405</loc>
-    <lastmod>2016-11-03T12:16:58+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-406</loc>
-    <lastmod>2016-11-04T10:53:29+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-407</loc>
-    <lastmod>2016-12-07T15:03:34+00:00</lastmod>
+    <loc>http://gofreerange.com/show-and-tell-27</loc>
+    <lastmod>2016-12-21T14:35:42+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-408</loc>
     <lastmod>2016-12-21T16:06:15+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-409</loc>
-    <lastmod>2016-11-24T18:55:02+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-410</loc>
-    <lastmod>2016-12-07T11:44:15+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-411</loc>
-    <lastmod>2016-12-08T10:27:16+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-412</loc>
-    <lastmod>2016-12-14T11:14:14+00:00</lastmod>
-  </url>
-  <url>
     <loc>http://gofreerange.com/week-413</loc>
     <lastmod>2017-01-04T17:30:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-416-links</loc>
+    <lastmod>2017-01-05T17:53:20+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-414</loc>
@@ -1717,12 +1781,24 @@
     <lastmod>2017-01-06T15:21:54+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/understanding-one-time-passwords</loc>
+    <lastmod>2017-01-06T19:30:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-416</loc>
     <lastmod>2017-01-11T11:02:36+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-28</loc>
+    <lastmod>2017-01-20T15:28:29+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-417</loc>
     <lastmod>2017-01-23T12:24:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-418-links</loc>
+    <lastmod>2017-01-23T17:31:50+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-418</loc>
@@ -1733,24 +1809,24 @@
     <lastmod>2017-02-09T16:11:18+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-424-links</loc>
+    <lastmod>2017-02-27T18:27:26+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-29</loc>
+    <lastmod>2017-03-02T10:29:52+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-420</loc>
     <lastmod>2017-03-03T15:37:09+00:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-421</loc>
-    <lastmod>2017-06-05T10:15:16+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-422</loc>
-    <lastmod>2017-06-05T11:44:16+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-423</loc>
-    <lastmod>2017-06-05T18:01:18+01:00</lastmod>
-  </url>
-  <url>
     <loc>http://gofreerange.com/week-424</loc>
     <lastmod>2017-03-08T15:33:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-30</loc>
+    <lastmod>2017-03-10T16:08:58+00:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-425</loc>
@@ -1761,8 +1837,20 @@
     <lastmod>2017-03-17T15:50:54+00:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-426-links</loc>
+    <lastmod>2017-03-22T18:45:23+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/cooperating-with-fairmondo</loc>
+    <lastmod>2017-03-24T11:14:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-427</loc>
     <lastmod>2017-03-28T15:32:18+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-428-links</loc>
+    <lastmod>2017-03-31T13:57:14+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-428</loc>
@@ -1781,12 +1869,28 @@
     <lastmod>2017-04-27T11:03:47+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-432-links</loc>
+    <lastmod>2017-04-28T16:25:18+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-432</loc>
     <lastmod>2017-04-28T16:28:40+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-31</loc>
+    <lastmod>2017-04-28T17:21:04+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-433</loc>
     <lastmod>2017-05-05T16:11:09+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/show-and-tell-32</loc>
+    <lastmod>2017-05-16T09:12:42+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-434-links</loc>
+    <lastmod>2017-05-17T09:53:56+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-434</loc>
@@ -1805,6 +1909,22 @@
     <lastmod>2017-06-02T16:34:10+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-421</loc>
+    <lastmod>2017-06-05T10:15:16+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-422</loc>
+    <lastmod>2017-06-05T11:44:16+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-423</loc>
+    <lastmod>2017-06-05T18:01:18+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-438-links</loc>
+    <lastmod>2017-06-08T09:54:24+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-438</loc>
     <lastmod>2017-06-19T15:02:39+01:00</lastmod>
   </url>
@@ -1813,164 +1933,44 @@
     <lastmod>2017-06-19T15:03:31+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/show-and-tell-33</loc>
+    <lastmod>2017-06-20T14:03:58+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://gofreerange.com/week-440-links</loc>
+    <lastmod>2017-06-20T14:39:21+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-440</loc>
     <lastmod>2017-06-23T13:09:38+01:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/week-441</loc>
-    <lastmod>2017-07-11T13:37:33+01:00</lastmod>
+    <loc>http://gofreerange.com/week-442-links</loc>
+    <lastmod>2017-07-07T15:26:46+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/week-442</loc>
     <lastmod>2017-07-10T12:42:19+01:00</lastmod>
   </url>
   <url>
+    <loc>http://gofreerange.com/week-441</loc>
+    <lastmod>2017-07-11T13:37:33+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://gofreerange.com/week-443</loc>
     <lastmod>2017-07-14T14:59:45+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/week-444</loc>
-    <lastmod>2017-07-21T17:20:31+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/accountant</loc>
-    <lastmod>2017-01-15T20:45:58+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/checking-our-annual-accounts</loc>
-    <lastmod>2017-01-15T20:46:54+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/company-year</loc>
-    <lastmod>2017-01-15T20:48:02+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/how-to-submit-annual-return</loc>
-    <lastmod>2017-02-15T16:14:15+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-10</loc>
-    <lastmod>2015-03-13T13:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-11</loc>
-    <lastmod>2015-04-17T13:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-12</loc>
-    <lastmod>2015-05-15T15:05:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-13</loc>
-    <lastmod>2015-06-26T17:20:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-14</loc>
-    <lastmod>2015-07-20T17:59:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-15</loc>
-    <lastmod>2015-08-14T11:10:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-16</loc>
-    <lastmod>2015-09-11T15:48:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-17</loc>
-    <lastmod>2015-10-16T15:25:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-18</loc>
-    <lastmod>2015-11-20T14:02:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-19</loc>
-    <lastmod>2016-01-25T00:30:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-20</loc>
-    <lastmod>2016-07-29T17:09:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-21</loc>
-    <lastmod>2016-08-05T16:18:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-22</loc>
-    <lastmod>2016-08-16T13:36:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-23</loc>
-    <lastmod>2016-08-26T11:08:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-24</loc>
-    <lastmod>2016-09-22T11:12:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-25</loc>
-    <lastmod>2016-10-14T17:20:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-26</loc>
-    <lastmod>2016-12-12T17:42:04+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-27</loc>
-    <lastmod>2016-12-21T14:35:42+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-28</loc>
-    <lastmod>2017-01-20T15:28:29+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-29</loc>
-    <lastmod>2017-03-02T10:29:52+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-30</loc>
-    <lastmod>2017-03-10T16:08:58+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-31</loc>
-    <lastmod>2017-04-28T17:21:04+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-32</loc>
-    <lastmod>2017-05-16T09:12:42+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-33</loc>
-    <lastmod>2017-06-20T14:03:58+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/show-and-tell-34</loc>
     <lastmod>2017-07-19T09:54:27+01:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/show-and-tell-4</loc>
-    <lastmod>2014-08-07T17:00:00+01:00</lastmod>
+    <loc>http://gofreerange.com/week-444-links</loc>
+    <lastmod>2017-07-21T09:57:04+01:00</lastmod>
   </url>
   <url>
-    <loc>http://gofreerange.com/show-and-tell-5</loc>
-    <lastmod>2014-09-15T17:30:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-6</loc>
-    <lastmod>2014-10-13T16:57:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-7</loc>
-    <lastmod>2014-11-17T13:28:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-8</loc>
-    <lastmod>2014-12-17T15:44:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://gofreerange.com/show-and-tell-9</loc>
-    <lastmod>2015-02-16T16:45:00+00:00</lastmod>
+    <loc>http://gofreerange.com/week-444</loc>
+    <lastmod>2017-07-21T17:20:31+01:00</lastmod>
   </url>
   <url>
     <loc>http://gofreerange.com/recap/docs</loc>

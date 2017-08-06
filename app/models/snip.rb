@@ -14,6 +14,7 @@ class Snip < Base
     snips = soup.all_snips
     snips.select! { |s| s.is_page } if only_pages
     snips.reject! { |s| s.draft } unless include_drafts
+    snips.sort_by! { |e| e.created_at }
     snips
   end
 
