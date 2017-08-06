@@ -41,10 +41,6 @@ So that exceptions are reported to our Errbit app. You may need to create a new 
     $ rails secret | pbcopy
     $ cap env:set SECRET_KEY_BASE=`pbpaste`
 
-### Enable serving static files from public directory
-
-    $ cap env:set RAILS_SERVE_STATIC_FILES=true
-
 ### Updating the Apache config file
 
     # Copy the Apache config file (this will trigger Apache to reload)
