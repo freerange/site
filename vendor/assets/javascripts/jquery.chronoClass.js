@@ -1,4 +1,33 @@
-// https://github.com/freerange/jQuery-ChronoClass
+/*
+ * jQuery ChronoClass Plugin
+ * Written by Jase jase@gofreerange.com
+ * License: Who cares etc.
+ *
+ * This silly little ditty basically sits some
+ * classes onto an element depending on the
+ * time of day.
+ *
+ * Basic use ..
+ *
+ * $('body').chronoClass();
+ *
+ * You can enable days of week, and period of day ..
+ *
+ * $('body').chronoClass({
+ *    dayOfWeek:true,
+ *    timeOfDay:false
+ * });
+ *
+ * Read the code if you need more info,
+ * or tell me what you wanna know and
+ * I'll write it here you swine.
+ *
+ * Seen on http://gofreerange.com/blog
+ *
+ * I'd like to thank The Smiths
+ * for musical accompaniment whilst I wrote it, yeah?
+*/
+
 ;(function($) {
 
   Date.hourToPeriod = function (date) {
@@ -28,8 +57,8 @@
       var now = new Date();
 
       if (o.dayOfWeek) {
-        var dayNames = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
-        $this.addClass(dayNames[now.getDay()-1]);
+        var dayNames = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+        $this.addClass(dayNames[now.getDay()]);
       };
 
       if (o.timeOfDay) {
