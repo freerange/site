@@ -8,8 +8,7 @@ gem 'kramdown'
 gem 'airbrake', '~> 5'
 
 group :assets, :development do
-  gem 'less-rails', git: 'https://github.com/brendon/less-rails', branch: 'fix-sprockets-loading'
-  gem 'therubyracer', platforms: :ruby
+  gem 'sass-rails'
 end
 
 group :assets do
