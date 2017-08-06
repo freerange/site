@@ -6,10 +6,15 @@
       <%= @snip.page_title || 'Go Free Range build outstanding software for the web.' %>
     </title>
 
+    <%= csrf_meta_tags %>
+
     <link rel="shortcut icon" href="/favicon.ico" />
 
     <meta name="keywords" content="ruby rails software development london" />
     <meta name='format-detection' content='telephone=no'>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
   </head>
   <body class="<%= body_class(@snip) %>">
     <div id="page">
