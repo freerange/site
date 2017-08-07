@@ -54,13 +54,11 @@ I haven't had a chance to read it yet, but I was pleased to see that [Rob Chatle
 [Show & Tell events]: http://gofreerange.com/show-and-tell-events
 [Rob Chatley]: http://chatley.com/
 
-
 :name: week-446-links
-:updated_at: 2017-08-01 10:45:15.545544000 +01:00
-:created_at: 2017-08-01 10:45:15.545540000 +01:00
+:updated_at: 2017-08-07 12:42:38.086920000 +01:00
+:created_at: 2017-08-07 12:42:38.086906000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
