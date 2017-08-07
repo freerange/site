@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
     <%= render partial: 'shared/head' %>
     <title>
       <%= @snip.page_title || "Show and Tell event" %> &mdash; Go Free Range.
     </title>
   </head>
-  <body class='blog'>
-    <div id='page'>
-      <div class='group' id='header'>
+  <body class="blog">
+    <div id="page">
+      <div class="group" id="header">
         <%= render partial: 'shared/blog_nav' %>
-        <h1 id='logo'>
-          <a href='/show-and-tell-events' title='Go to Show and Tell index'>Show and Tell index</a>
+        <h1 id="logo">
+          <a href="/show-and-tell-events" title="Go to Show and Tell index">Show and Tell index</a>
         </h1>
       </div>
-      <div class='group' id='content'>
-        <div class='blog_entry group'>
-          <p class='article_date'>
+      <div class="group" id="content">
+        <div class="blog_entry group">
+          <p class="article_date">
             <%= article_date(@snip.created_at) %>
           </p>
 
-          <div class='author'>
-            <img src='<%= @author.image %>' alt='<%= @author.name.titleize %>'/>
+          <div class="author">
+            <img src="<%= @author.image %>" alt="<%= @author.name.titleize %>"/>
             <span>
               by <%= @author.name.titleize %>
             </span>
           </div>
 
-          <div class='content'>
+          <div class="content">
             <%= yield %>
           </div>
 
-          <div id='comments' class='comments'>
+          <div id="comments" class="comments">
             <% if Rails.env.production? %>
               <%= render partial: 'shared/disqus_commenting' %>
             <% else %>
@@ -40,7 +40,7 @@
           </div>
         </div>
 
-        <div id='article_links'>
+        <div id="article_links">
           <h3>Recent</h3>
           <div id="recent_articles">
             <ol class="show-and-tell_list" reversed="">
