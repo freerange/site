@@ -58,8 +58,8 @@ class Spider
   end
 
   def normalize_artefacts
-    system(%{find #{@artefacts_path} -type f -name '*.html' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --indent auto {} \\;})
-    system(%{find #{@artefacts_path} -type f -name '*.xml' -depth 1 -exec tidy -m --wrap 0 --sort-attributes alpha --indent auto --input-xml 1 {} \\;})
+    system(%{find #{@artefacts_path} -print -type f -name '*.html' -depth 1 -exec tidy -q -m --wrap 0 --sort-attributes alpha --indent auto {} \\;})
+    system(%{find #{@artefacts_path} -print -type f -name '*.xml' -depth 1 -exec tidy -q -m --wrap 0 --sort-attributes alpha --indent auto --input-xml 1 {} \\;})
   end
 
   def artefact_differences
