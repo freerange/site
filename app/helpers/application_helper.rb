@@ -1,21 +1,6 @@
 require 'snip_renderer'
 
 module ApplicationHelper
-  def article_date(time)
-    suffix = case time.day
-    when 1, 21, 31
-      "st"
-    when 2, 22
-      "nd"
-    when 3, 23
-      "rd"
-    else
-      "th"
-    end
-
-    time.strftime("%A %d#{suffix} %B, %Y")
-  end
-
   def body_class(snip)
     return "" unless snip
     case snip.kind
