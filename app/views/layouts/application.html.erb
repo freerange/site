@@ -8,16 +8,13 @@
   </head>
   <body class="<%= body_class(@snip) %>">
     <div id="page">
-
       <div id="header" class="group">
         <%= render partial: 'shared/top_nav' %>
         <%= render partial: 'shared/logo' %>
       </div>
-
       <div id="content" class="group">
         <%= yield %>
       </div>
-
     </div>
     <%= render partial: 'shared/javascripts' %>
   </body>
