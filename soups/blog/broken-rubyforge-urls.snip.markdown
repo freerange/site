@@ -34,7 +34,6 @@ If anyone from Ruby Central is reading this, please [get in touch][email] - we'd
 :is_page: true
 :written_with: markdown
 :author: james-mead
-:created_at: 2017-08-11 12:22:00 +01:00
-:updated_at: 2017-08-11 12:22:00 +01:00
+:created_at: 2017-08-11 13:01:00 +01:00
+:updated_at: 2017-08-11 13:01:00 +01:00
 :page_title: Broken Rubyforge URLs
-:draft: true
