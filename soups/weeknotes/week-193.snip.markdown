@@ -13,7 +13,7 @@ Right, that's enough faux smugness. It's not all sunglasses and rodeos and brisk
 Inside Government home stretch
 -----------------
 
-The deadline when [GOV.UK](http://www.gov.uk) officially replaces [DirectGov](http://direct.gov.uk) and [BusinessLink]() is rapidly approaching, and so most of the development on Inside Government has been focussed on taking care of features and changes that are required before we can hit that milestone.
+The deadline when [GOV.UK](http://www.gov.uk) officially replaces [DirectGov](http://direct.gov.uk) and [BusinessLink](http://businesslink.gov.uk) is rapidly approaching, and so most of the development on Inside Government has been focussed on taking care of features and changes that are required before we can hit that milestone.
 
 This has mostly involved integrating "specialist" guides with the categorisations from the "mainstream" (i.e. citizen-focussed) part of the site, and moving the search infrastructure over to an ElasticSearch-based implementation. For my own part, I took care of fixing some of the nomenclature in the site -- the target audience of our "specialist" guidance content don't consider themselves to be "specialists", so it has become _detailed_ guidance instead.
 
