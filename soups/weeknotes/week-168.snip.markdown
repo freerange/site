@@ -19,7 +19,7 @@ Sauron
 
 As is evidenced by the stories marked as completed in [Pivotal Tracker][sauron-pivotal], we've spent quite a bit more time working on project [Sauron][sauron-repository]. Given that we're not all always in the office, we decided that we would allow individuals to work on the project and submit Github [pull requests][sauron-pull-requests] from a branch for review by the others. This means we can continue to use the development of the app as a learning exercise, but still make progress when we're not all in the same room. Tom wrote a [handy script][merge-pull-request] that allows you to merge a pull request programatically.
 
-<img src="/images/blog/mock-object-diagram.gif" style="width: 100%" />
+<img alt="Mock object diagram" src="/images/blog/mock-object-diagram.gif" style="width: 100%" />
 
 Now that we have an ActiveRecord-derived class in the project, it's been interesting to discuss how best to test the logic in this class as well as code that makes use of the ActiveRecord API. Chris, James A & I spent a while chatting about whether we should [mock code we don't own][dont-mock-third-party-libraries] and whether the [mock commands, stub queries][mock-commands-stub-queries] heuristic is useful. I found focussing on a concrete bit of code rather than talking in the abstract very helpful. More recently there's been some discussion about things like the [Single Responsibility Principle] and whether its better to return an Enumerator rather than expose a collection. All good stuff.
 
@@ -53,7 +53,7 @@ Chocolate
 
 The short week was nicely rounded off by the appearance of Easter eggs on all our desks courtesy of our very kind visiting [prospective author][computation-book], Tom Stuart.
 
-<img src="/images/blog/easter-eggs.png" style="width: 100%"/>
+<img alt="Easter eggs on desk" src="/images/blog/easter-eggs.png" style="width: 100%"/>
 
 That's all, folks.
 

@@ -15,7 +15,7 @@ Anyway, we're all here now, so let's get on with it shall we?
 Silverback
 -----------
 
-<a href="http://www.flickr.com/photos/markhurrell/7262471928/"><img style="float: right;" src="http://farm8.staticflickr.com/7220/7262471928_a410752c95_q_d.jpg" /></a>This was our second week of working on [Inside Government]'s second deliverable, or GDS005 (codename "Silverback"; ask [Mark](https://twitter.com/markhurrell/status/205696265021947904)) as it's now apparently known.
+<a href="http://www.flickr.com/photos/markhurrell/7262471928/"><img alt="Silverback GDS mission patch" style="float: right;" src="http://farm8.staticflickr.com/7220/7262471928_a410752c95_q_d.jpg" /></a>This was our second week of working on [Inside Government]'s second deliverable, or GDS005 (codename "Silverback"; ask [Mark](https://twitter.com/markhurrell/status/205696265021947904)) as it's now apparently known.
 
 This week was front-loaded with more meetings and conversations about how to best coordinate development between 'Mainstream' (the citizen-facing side of the single domain project, addressing common needs and questions) and 'Whitehall' (the part that the government departments use to communicate with interested citizens).
 

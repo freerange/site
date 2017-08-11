@@ -9,11 +9,11 @@ Thus the script turns the method definition for `Foo::Bar#baz` into the "file" `
 
 I've run the script against the [Mocha repository][] so you can see what I mean. If you click the "Show Diff Stats" button on [this commit page][commit-with-renamed-methods] then you can see which methods have been added, modified & changed. You can even see methods that have been moved and/or renamed!
 
-<img src="/images/blog/github-commit-diff-stat-renamed-methods.png"/>
+<img alt="Renamed methods in GitHub commit file list" src="/images/blog/github-commit-diff-stat-renamed-methods.png"/>
 
 You can also see the [history of an individual method on GitHub][github-method-history] or the patch version using `git log --patch` on your local machine. This is actually the same functionality as `method_log` itself already provides, but it solves the speed problem that I mentioned in my [earlier article][further-work].
 
-<img src="/images/blog/method-signature-git-log-patch.png"/>
+<img alt="Git log showing changes to method implementation" src="/images/blog/method-signature-git-log-patch.png"/>
 
 I think it would be trivial to run the script against a repository and then add an after-commit hook to update the "shadow" repository after each commit to keep it up-to-date. It would also be possible to link the commits in the "shadow" repository to those in the original repository.
 

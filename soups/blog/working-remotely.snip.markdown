@@ -37,7 +37,7 @@ You also miss out on any of the spontaneous conversations that might happen in t
 
 [James M][] already knows all about this; not living in London, he's worked remotely on a reasonably regular basis for years now.
 
-<img width="100%" src="/images/blog/skype.png" title="Keep talking" />
+<img alt="Multi-way Skype video-conference" width="100%" src="/images/blog/skype.png" title="Keep talking" />
 
 I'm sure that pair programming (among other things) helps the remote worker feel a bit more connected to the rest of the company, but it's not a rich conduit for all the other communication that might be going on, from ambient glances[^glancing] to actual in-depth discussions.
 

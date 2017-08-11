@@ -5,11 +5,11 @@ Week 196
 
 This week we've been back at Aviation House continuing work on [Inside Government][] with our [GDS][] colleagues. The big news of the week was [gov.uk][] coming [out of beta](https://github.com/alphagov/static/pull/94) and [replacing DirectGov](http://www.flickr.com/photos/attentiondeficit/8096118843/in/photostream/) and Business Link. The release seemed to go very smoothly and the site is happily handling more than a million hits a day on its new G-Cloud-sourced [Skyscape][] infrastructure.
 
-[<img src="/images/blog/govuk.png" style="width: 100%"/>][gov.uk]
+[<img alt="GOV.UK logo" src="/images/blog/govuk.png" style="width: 100%"/>][gov.uk]
 
 While our GDS colleagues on other teams should take most of the credit, the Inside Government team was responsible for delivering the longer-form [detailed guidance](http://digital.cabinetoffice.gov.uk/2012/10/09/not-so-special-after-all/) pages. So whether you're concerned about exporting stuff that [might be used to build WMD](https://www.gov.uk/weapons-of-mass-destruction-wmd-end-use-control), wondering how to [look after your goats](https://www.gov.uk/sheep-and-goat-welfare), or contemplating [building a high-speed passenger ferry](https://www.gov.uk/high-speed-craft-construction-and-maintenance-standards), we have the answers.
 
-<img src="/images/blog/gov-uk-detailed-guidance-weapons-of-mass-destruction-end-use-control.png" style="width: 100%">
+<img alt="GOV.UK detailed guidance page" src="/images/blog/gov-uk-detailed-guidance-weapons-of-mass-destruction-end-use-control.png" style="width: 100%">
 
 When you've got your head down on a project like Inside Government, it's easy to forget about the bigger picture. So it was good to understand a bit more about *[why this new government website really matters](http://www.guardian.co.uk/technology/2012/oct/17/gov-uk-website-internet)*.
 
