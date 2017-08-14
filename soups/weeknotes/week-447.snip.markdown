@@ -3,7 +3,7 @@ Week 447
 
 ## Unit 4
 
-We spent a couple of days working from [Outlandish][outlandish]'s new co-working space (currently known as Unit 4) this week. [James][james-mead] and [Chris][chris-lowis] were there on Monday and the three of us were there on Wednesday. I like it. It reminds me of our old Worship Street office - even more so as [James A][james-adam] was also there last week :-) We've taken a couple of desks on a trial run to see how it works for us.
+We spent a couple of days working from [Outlandish][outlandish]'s new co-working space (currently known as Unit 4) in Finsbury Park this week. [James][james-mead] and [Chris][chris-lowis] were there on Monday and the three of us were there on Wednesday. I like it. It reminds me of our old Worship Street office - even more so as [James A][james-adam] was also there last week :-) We've taken a couple of desks on a trial run to see how it works for us.
 
 ## GDS Asset Manager
 
