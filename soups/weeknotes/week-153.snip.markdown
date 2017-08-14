@@ -5,7 +5,7 @@ It's our last week before the Christmas break, and I think everyone is looking f
 
 ### Remote Working
 
-I'm writing these notes from the remote hinterlands of Aberdeen, having been summoned to my place of birth for <strike><a href="http://en.wikipedia.org/wiki/Census_of_Quirinius">census</a></strike> festive celebrations. Working remotely has its share of challenges: distractions abound, and it can be hard to feel engaged when your only conduit to the work environment is a Campfire room. Not to mention when you're waiting 5 minutes for someone to notice that you've asked a question.
+I'm writing these notes from the remote hinterlands of Aberdeen, having been summoned to my place of birth for <del><a href="http://en.wikipedia.org/wiki/Census_of_Quirinius">census</a></del> festive celebrations. Working remotely has its share of challenges: distractions abound, and it can be hard to feel engaged when your only conduit to the work environment is a Campfire room. Not to mention when you're waiting 5 minutes for someone to notice that you've asked a question.
 
 I'm going to be in Austin for a couple of weeks after New Year, and so these challenges are only going to increase. Some of it comes down to my own discipline, and clarity of the work that needs to be done. But even with that aside, it feels like there's room for improvement, possibly via some mix of team conventions and a smidge of technology[^availabot].
 

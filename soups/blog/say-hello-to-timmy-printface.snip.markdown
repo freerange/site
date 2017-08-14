@@ -5,13 +5,13 @@ _**Update**: Timmy lived a brief but glorious life in mid-April 2011. Timmy is o
 
 One of the perks of being part of [Go Free Range][fr] is the opportunity to play with fun ideas for the clients we work with, but also for ourselves. This week the whole company has taken a step back from direct client work to explore some of the ideas we've had pinned to the wall for the past couple of months, and the first output of that is [Project Codename: _Timmy Printface_][timmy].
 
-<strike>Here he is, hard at work this very minute:</strike> Here's a video of little Timmy running in April 2011:
+<del>Here he is, hard at work this very minute:</del> Here's a video of little Timmy running in April 2011:
 
 <iframe src="http://player.vimeo.com/video/22439313?color=ffffff" width="640" height="480" frameborder="0"></iframe>
 
-<strike>Go to [Timmy's page][timmy], and that image will update automatically, showing you the messages that he's receiving, live and direct. It's better than most of what's on TV, I'm fairly sure.</strike>
+<del>Go to [Timmy's page][timmy], and that image will update automatically, showing you the messages that he's receiving, live and direct. It's better than most of what's on TV, I'm fairly sure.</del>
 
-<strike>You can play along by texting **+447716354419**.</strike>
+<del>You can play along by texting **+447716354419**.</del>
 
 Timmy is _offline_ for now, but if you're an [O2][] customer, you can sign up to [#blue][] now to free your messages from your handset.
 
@@ -77,7 +77,7 @@ We have even received some _actual_ art:
 
 Beautiful, particularly given the constraints.
 
-<strike>Keep your texts coming; send 'em to **+447716354419**,</strike> _lines are now closed_, but don't forget - if you're an [O2][] customer, you can sign up to [#blue][] now to help give us some more momentum in our quest toward changing how these huge companies treat your data.
+<del>Keep your texts coming; send 'em to **+447716354419**,</del> _lines are now closed_, but don't forget - if you're an [O2][] customer, you can sign up to [#blue][] now to help give us some more momentum in our quest toward changing how these huge companies treat your data.
 
 If we have seen far...
 --------------------
