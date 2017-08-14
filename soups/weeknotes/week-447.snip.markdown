@@ -37,11 +37,10 @@ That's all for now. Until next time.
 [show-and-tell]: /show-and-tell-events
 
 :name: week-447
-:updated_at: 2017-08-11 18:34:48.741523000 +01:00
-:created_at: 2017-08-11 18:34:48.741520000 +01:00
+:updated_at: 2017-08-14 13:00:56.449988000 +01:00
+:created_at: 2017-08-14 13:00:56.449975000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
