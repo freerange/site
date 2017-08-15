@@ -82,11 +82,10 @@ Until next time.
 [R programming language]: https://www.r-project.org/
 
 :name: week-446
-:updated_at: 2017-08-14 10:22:52.343538000 +01:00
-:created_at: 2017-08-14 10:22:52.343536000 +01:00
+:updated_at: 2017-08-15 09:21:52.875858000 +01:00
+:created_at: 2017-08-15 09:21:52.875851000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
