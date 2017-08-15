@@ -36,11 +36,11 @@ If you have any questions, please [get in touch][email-address].
 
 ### Past meetings
 
-<ul class="show-and-tell_list" reversed>
+<ol class="show-and-tell_list" reversed>
   <% ShowAndTell.all.to_enum.with_index(1).reverse_each do |snip, index| %>
     <%= content_tag(:li, link_to(snip.page_title, url_to(snip.name)), value: index) %>
   <% end %>
-</ul>
+</ol>
 
 ### Early meetings (recorded in week notes)
 
