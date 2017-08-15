@@ -9,6 +9,9 @@ require 'spider'
 
 namespace :spec do
   namespace 'regression' do
+    desc 'Generate & normalize regression test artefacts'
+    task 'artefacts' => ['artefacts:generate', 'artefacts:normalize']
+
     namespace 'artefacts' do
       desc 'Clear regression test artefacts'
       task 'clear' => 'environment' do
@@ -20,6 +23,11 @@ namespace :spec do
       task 'generate' => 'clear' do
         spider = Spider.new
         spider.run
+      end
+
+      desc 'Normalize regression test artefacts'
+      task 'normalize' => 'environment' do
+        spider = Spider.new
         spider.normalize_artefacts
       end
     end
