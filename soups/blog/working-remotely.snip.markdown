@@ -11,7 +11,7 @@ Working remotely is a four dimensional problem, so first let's consider the firs
 
 Working from Aberdeen is only marginally different from working from home; it's just a question of geography.
 
-<img width="100%" src="http://distilleryimage3.s3.amazonaws.com/d10380ca2a4611e1a87612313804ec91_7.jpg" title="Warm greetings from Aberdeen" />
+<img width="100%" alt="Snowy aberdeen station platform" src="images/blog/welcome-to-aberdeen.jpg" title="Warm greetings from Aberdeen" />
 
 In case you've never had the pleasure of doing so, allow me to outline the principle benefits of working out of the office:
 
@@ -61,7 +61,7 @@ When I'm in Austin, I start work just as you are wiping the afternoon tea's clot
 
 In many ways this situation is similar to remote working from the same timezone, with each challenge only slightly magnified. Communication is harder because now it's _actually very likely_ that nobody is around. The temptation to slack off is easier to indulge because, similarly, there's nobody even in the group chat to notice that you're not working. The kitchen is even more tempting because the food in Austin is _freaking delicious_!
 
-<img width="100%" src="http://distilleryimage5.s3.amazonaws.com/dd722664399011e19e4a12313813ffc0_7.jpg" title="A January stroll in Summer clothing" />
+<img width="100%" alt="Girl walking along sunny woodland path" src="images/blog/a-january-stroll.jpg" title="A January stroll in Summer clothing" />
 
 And it was 23&deg; in January. At the _start_ of January. Try sitting in front of a laptop while that meteorological paradox plays out on your outside deck.
 
@@ -79,8 +79,6 @@ I have a hypothesis (well, many, but here's one) about one aspect of how our gro
 Because nobody is "in charge", and because we all directly involved in building the software our clients pay for, it's normal that everyone is working away quietly to develop some feature or other. After all, that's what we are being paid to do, and that's more or less where our passion lies. We didn't get into this to manage projects or juggle cash-flows, after all.
 
 But as you pause, having completed a piece of work or other, the perception that others are still working makes _you_ feel like what you ought to do is pick up the next feature and get to work on it. After all, our principle goal is to build this system, and so manifesting that in a text editor is the most appropriate use of time.
-
-<img width="100%" src="http://distillery.s3.amazonaws.com/media/2011/01/06/e4a43e38297641a885d835929a0db26f_7.jpg" title="Working hard." />
 
 I believe there are two assumed principles in operation here:
 
