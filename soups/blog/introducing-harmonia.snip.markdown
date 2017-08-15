@@ -38,7 +38,7 @@ Anything that can be reduced to a clear set of instructions with minimal amount 
 Under the hood
 -----
 
-[Harmonia's implementation][harmonia] is almost trivially simple. It uses cron and emails, via the [whenever][] and [mail][] gems respectively. Mail templates are stored as <tt>ERb</tt> files.
+[Harmonia's implementation][harmonia] is almost trivially simple. It uses cron and emails, via the [whenever][] and [mail][] gems respectively. Mail templates are stored as `ERb` files.
 
 Currently assignments are made at noon on Monday each week, as dictated by the [schedule.rb][] file.
 

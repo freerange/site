@@ -49,7 +49,7 @@ But let's not lose our sense of perspective; it's a fun demonstration of a new w
 The API
 --------
 
-The [#blue api][api] takes these messages, which have previously been trapped in your phone like prehistoric insects in amber, and liberates them. Until you've done it (and unless you're a bit of a geek), you probably can't imagine the strange novelty of being able to run a <tt>curl</tt> command and suddenly be able to <tt>pipe</tt> your SMSes around on your normal computer.
+The [#blue api][api] takes these messages, which have previously been trapped in your phone like prehistoric insects in amber, and liberates them. Until you've done it (and unless you're a bit of a geek), you probably can't imagine the strange novelty of being able to run a `curl` command and suddenly be able to `pipe` your SMSes around on your normal computer.
 
 It's like the first time you realised you could program, making a computer do whatever you can imagine and then describe; suddenly things become *possible*.
 
