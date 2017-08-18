@@ -8,6 +8,6 @@ We've also helped them improve their development process by sharing our architec
   - newleaders2-thumb.png
 :url: http://www.newleaders.com
 
-:created_at: 2011-04-09 10:07:12 +0100
-:created_sha: 0ebcfbfdee4db3890129e8a08b5f24f62102665f
+:created_at: 2009-11-10 16:01:33 +0000
+:created_sha: b86ec2a4add2ff4bf8492391bce30e1d7ea0f62e
 :updated_at: 2017-08-19 10:50:48 +0100
