@@ -18,3 +18,6 @@ Check it out: [http://chromaroma.com][]
   - chroma_2.jpg
   - chroma_3.jpg
 :url: http://www.chromaroma.com
+
+:created_at: 2010-03-24 11:17:41 +0000
+:created_sha: 4c482007959c3d174bd0b84751bba5d4dcc34616

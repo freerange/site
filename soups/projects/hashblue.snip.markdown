@@ -13,3 +13,6 @@ We then worked with O2 to scale and integrate the service directly into O2's dat
   - hashblue_3.jpg
   - hashblue_4.jpg
   - hashblue_5.jpg
+
+:created_at: 2010-07-21 13:12:26 +0100
+:created_sha: 3d10ae1f1a58883519a8bd92a44eb7f454a12ad5

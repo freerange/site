@@ -19,3 +19,6 @@ Got any questions? [Send us an email](mailto:everyone@gofreerange.com?subject=Ch
 [map]: http://maps.google.co.uk/maps?q=87+worship+street+ec2a+2be&qscrl=1&um=1&ie=UTF-8&hq=&hnear=0x48761cae27a01e91:0xb87d0eedf01abce1,87+Worship+St,+London+EC2A+2BE&gl=uk&ei=dwHFTsqMC4axhAe_nMXsDQ&sa=X&oi=geocode_result&ct=title&resnum=1&ved=0CBwQ8gEwAA
 [lanyrd]: http://lanyrd.com/2012/go-free-range-christmas-mullfest/
 [twitter]: http://twitter.com/freerange
+
+:created_at: 2011-11-17 13:07:15 +0000
+:created_sha: c61629bc183e0474261565259a324587b4c0c6bc

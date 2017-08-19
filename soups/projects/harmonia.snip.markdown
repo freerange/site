@@ -11,3 +11,6 @@ Harmonia was originally developed within [Go Free Range][], but it's now owned a
 :kind: project
 :display_name: "Harmonia"
 :url: https://harmonia.io
+
+:created_at: 2013-01-04 09:41:11 -0600
+:created_sha: 7242bdfc380a4dfb671c1191074db7518500c8df

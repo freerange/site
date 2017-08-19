@@ -8,3 +8,6 @@ Members of Free Range are also typically the authors of many open source project
 * [FreeAgent Widget](http://interblah.net/freeagent-widget)
 * [Clickatell](http://clickatell.rubyforge.org)
 * [SimpleConfig](http://github.com/lukeredpath/simpleconfig)
+
+:created_at: 2009-11-10 16:01:33 +0000
+:created_sha: b86ec2a4add2ff4bf8492391bce30e1d7ea0f62e

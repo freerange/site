@@ -26,3 +26,6 @@ If you'd like to learn more about Timmy and [#blue] have a gander at our [blog p
 [blog post]: /say-hello-to-timmy-printface
 
 :layout: project-layout
+
+:created_at: 2017-07-23 12:14:43 +0100
+:created_sha: d4c9e4e8009a73ea24a753856eb30382de3d6076

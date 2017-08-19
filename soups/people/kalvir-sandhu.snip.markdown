@@ -7,3 +7,6 @@ He blogs at [kalv.co.uk](http://kalv.co.uk/), and tweets at [@kalv](http://twitt
 :site: kalv.co.uk
 :image: images/people/kalvir-sandhu.jpg
 :twitter: kalv
+
+:created_at: 2009-11-10 16:01:33 +0000
+:created_sha: b86ec2a4add2ff4bf8492391bce30e1d7ea0f62e

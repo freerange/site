@@ -11,3 +11,6 @@ We [started][] by working on the project full-time for a couple of weeks and sta
 :kind: project
 :display_name: "Credit Union"
 :url: https://github.com/freerange/bank/wiki
+
+:created_at: 2014-07-23 12:12:31 +0100
+:created_sha: 96cc477038d07ac356178cb64ab8f19d5b0fe191

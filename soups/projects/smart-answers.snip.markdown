@@ -8,3 +8,6 @@ We spent a good part of the following year refactoring and incrementally improvi
 
 :kind: project
 :display_name: Smart Answers
+
+:created_at: 2016-10-21 15:21:10 +0100
+:created_sha: e320ae1ef236ac827a1cc4e743f87f485619bb78
