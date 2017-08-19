@@ -10,3 +10,4 @@ Switching from .NET to Ruby in 2004/2005 led to a job at [Reevoo][reevoo] and th
 
 :created_at: 2010-09-14 15:42:36 +0100
 :created_sha: 89101c929e32a32310bca3d5304078bc60cd6c4a
+:updated_at: 2017-08-19 10:50:48 +0100
