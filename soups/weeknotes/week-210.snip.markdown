@@ -11,7 +11,7 @@ Anyway, without further ado, these are the goals for Go Free Range for 2013:
 
 ### Operating profit target
 
-This is mainly so we can keep paying ourselves at the same level without ending up with less money in the bank at the end of the year. We slightly took our eyes of the ball on this last year.
+This is mainly so we can keep paying ourselves at the same level without ending up with less money in the bank at the end of the year. We slightly took our eyes off the ball on this last year.
 
 ### Total revenue target
 
@@ -87,4 +87,3 @@ Until next time,
 :created_at: 2013-01-25 14:46:00 +00:00
 :updated_at: 2013-01-25 14:46:00 +00:00
 :page_title: Week 210
-
