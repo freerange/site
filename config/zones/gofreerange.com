@@ -3,7 +3,7 @@
 ;
 ; gofreerange.com [75717]
 $TTL 86400
-@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2017071419 14400 14400 1209600 86400
+@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2017082225 14400 14400 1209600 86400
 @		NS	ns1.linode.com.
 @		NS	ns2.linode.com.
 @		NS	ns3.linode.com.
@@ -30,6 +30,7 @@ docs			CNAME	ghs.google.com.
 feeds		300	CNAME	1mcuj68.feedproxy.ghs.google.com.
 futurelearn-subtitles		300	CNAME	futurelearn-subtitles.gofreerange.com.s3-website-eu-west-1.amazonaws.com.
 futurelearn-video		300	CNAME	futurelearn-video.gofreerange.com.s3-website-eu-west-1.amazonaws.com.
+gds-asset-manager-spike		300	CNAME	gds-asset-manager-spike.gofreerange.com.s3.amazonaws.com.
 geohash			CNAME	proxy.heroku.com.
 googleffffffffcc1ff19c			CNAME	google.com.
 m55w7dvxq3gzjauiuonyxccptpeqqyrz._domainkey		300	CNAME	m55w7dvxq3gzjauiuonyxccptpeqqyrz.dkim.amazonses.com.
@@ -43,3 +44,4 @@ twilio		300	CNAME	gofreerange.com.
 videos		300	CNAME	ddcxl0amt4k19.cloudfront.net.
 videos-test		300	CNAME	d3fy282lgo2sqj.cloudfront.net.
 www			CNAME	gofreerange.com.
+_f6fd6d54ab8a0d635ddd5db76f998d27.video		7200	CNAME	FB1DD2C00986F044B102E15ED97E0337.3E5530E9B205240E0CCC5BE2D98479A2.comodoca.com.
