@@ -32,11 +32,10 @@ Have a good weekend, folks.
 [the-office-group]: https://www.theofficegroup.co.uk/
 
 :name: week-450
-:updated_at: 2017-09-01 09:51:28.522857000 +01:00
-:created_at: 2017-09-01 09:51:28.522854000 +01:00
+:updated_at: 2017-09-01 10:41:17.097256000 +01:00
+:created_at: 2017-09-01 10:41:17.097227000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
