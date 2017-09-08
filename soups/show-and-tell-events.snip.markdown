@@ -30,7 +30,7 @@ If you have any questions, please [get in touch][email-address].
 * [Events on Attending][]
 * [Event series on Lanyrd (deprecated)][lanyrd-event-series]
 
-### Upcoming meetings
+### Upcoming meeting
 
 * Show and Tell 36<br>
 * Wed 13 Sep 2017<br>
