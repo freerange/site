@@ -34,11 +34,10 @@ Until next time.
 [wortley-hall]: http://www.wortleyhall.org.uk/
 
 :name: week-451
-:updated_at: 2017-09-08 11:08:58.027684000 +01:00
-:created_at: 2017-09-08 11:08:58.027682000 +01:00
+:updated_at: 2017-09-11 11:26:48.212584000 +01:00
+:created_at: 2017-09-11 11:26:48.212569000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
