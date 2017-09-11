@@ -85,13 +85,11 @@ We're hosting our 36th Show & Tell on Wednesday, 13th September. It's open to al
 
 [contact]: /contact
 
-
 :name: show-and-tell-35
-:updated_at: 2017-08-14 11:13:43.701679000 +01:00
-:created_at: 2017-08-14 11:13:43.701678000 +01:00
+:updated_at: 2017-09-11 13:29:20.996425219 +00:00
+:created_at: 2017-09-11 13:29:20.996404642 +00:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
