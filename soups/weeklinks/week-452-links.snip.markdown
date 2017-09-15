@@ -27,13 +27,11 @@ I came across this open-source project management tool recently when Aaron from 
 
 This account of finding the the shortest distance between two houses with the same number and street name made me laugh and is well worth a read. <%= by('james-mead') %>
 
-
 :name: week-452-links
-:updated_at: 2017-09-14 17:12:05.170188000 +01:00
-:created_at: 2017-09-14 17:12:05.170187000 +01:00
+:updated_at: 2017-09-15 11:37:11.647673458 +00:00
+:created_at: 2017-09-15 11:37:11.647646089 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
