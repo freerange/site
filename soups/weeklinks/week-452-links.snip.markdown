@@ -19,6 +19,9 @@ So I'm really pleased to see Monzo being so transparent - they explain the under
 
 Recently we (particularly [Chris L](/chris-lowis)) have been helping Polly from [Outlandish](https://outlandish.com/) put together this simple website for the co-working space. We've been enjoying working there 1-2 days a week and getting to know the other members. I think most of the co-working desks are now taken, but if you're interested in hiring a meeting room or an events room, do [get in touch with Polly](mailto:polly@outlandish.com). <%= by('james-mead') %>
 
+### [Taiga.io](https://taiga.io/)
+
+I came across this open-source project management tool recently when Aaron from [Agile Collective](https://agile.coop/about-us) invited us to use it to collaborate on the planning of the upcoming CoTech retreat at Wortley Hall. We use [Trello](https://trello.com/) for this kind of thing at Go Free Range - but Tagio looks like a very polished and open alternative. I look forward to using it some more. <%= by('chris-lowis') %>
 
 ### [House Address "Twins" Proximity](http://www.paulplowman.com/stuff/house-address-twins-proximity/)
 
