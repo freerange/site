@@ -49,7 +49,7 @@ Chris mentioned his only node package to date that he built as part of this app 
 
 ---
 
-## Machine automation
+## Machine automation
 
 Chris wrapped up by explaining his motivation for creating zz - a machine automation tool he's started building.
 
@@ -65,7 +65,7 @@ This reminds me of Ben's idea of throwing non-library code away, and also of my 
 
 ---
 
-## Docker for app development
+## Docker for app development
 
 On a similar theme to Chris's machine automation.
 
