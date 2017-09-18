@@ -86,11 +86,10 @@ I think that about covers it for week 452. Until next time, folks.
 [wortley-hall]: https://www.wortleyhall.org.uk/
 
 :name: week-452
-:updated_at: 2017-09-15 12:45:35.118532000 +01:00
-:created_at: 2017-09-15 12:45:35.118530000 +01:00
+:updated_at: 2017-09-18 13:48:22.885633000 +01:00
+:created_at: 2017-09-18 13:48:22.885617000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
