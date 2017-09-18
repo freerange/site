@@ -5,27 +5,25 @@ James and I were joined by Ben G, Chris P, Ian DW, Tom S and Rob C for our 36th 
 
 ## Minecraft cartoons
 
-As well as playing lots of Minecraft, his son really enjoys watching cartoons set in Minecraft worlds and wanted to make his own.
+As well as playing lots of Minecraft, Ben's son really enjoys watching cartoons set in Minecraft and was keen to make his own. Ben talked us through the making of the Roadrunner(sp?) style cartoon they came up with.
 
-Ben showed us the Minecraft cartoon he and his son made. Roadrunner style. Try to hit the chicken with an anvil, anvils knocks a post which hammers the character into the ground.
+They built the scene in Minecraft and used Mineways(sp?) to export it to Blender. They added a 3D Minecraft character from an existing library, along with a speeding chicken and an anvil. The 3D character is "rigged"(?) in Blender which allowed them to control its body and eye movements. With everything in place they started the movie rendering.
 
-They built a scene in Minecraft and used Mineways (I think?) to export it to Blender. The 3D character was "rigged" in Blender allowing you to control its movement.
+This first render took 11 hours on Ben's laptop so he went in search of alternatives. He found an online relatively-cheap paid-for service where the rendering took just a couple of hours. Writing this up has made me wonder whether you could use something like EC2 for this expensive rendering operations.
 
-Ben's main takeaway is that it took way longer than expected and wasn't quite as good as hoped.
+Despite looking pretty good to me; Ben's main takeaways were that it didn't turn out quite as good as he'd hoped and that it took way longer than he imagined.
 
-The first render took 11 hours on Ben's laptop. He subsequently found an online paid-for service where the rendering took just a couple of hours. I wonder whether you could this on EC2 or similar?
+He finished up by showing us a cartoon from one of the more established creators which gave a real sense of the amount of effort that must go into these things.
 
-Apparently some of these cartoons are made in-engine by having a multiplayer game and having one character be the "camera".
-
-It continues to amaze me how much people can and are doing with Minecraft.
+I continue to be amazed by the size of the Minecraft ecosystem.
 
 ---
 
 ## Visualising Hingsight-ex
 
-As a nice segue(sp?) from Ben to Chris, Chris showed us a pull request he'd opened on Ben's Hindsight-ex project that he spoke about at LRUG on Monday.
+As a nice segue(sp?) from Ben to Chris, Chris showed us the pull request he'd opened in Ben's Hindsight-ex project that Ben spoke about at LRUG on Monday.
 
-Ben's spoken about Hindsight-ex in Show & Tell XXX. It's an attempt at building an "ideal" git history by using the tests in a project. Chris's PR added functionality to visualise the process of choosing which test to add to the git history in order to minimise the amount of production code required.
+Ben's spoke about Hindsight-ex back in Show & Tell 33, although I don't recall it having a name then. It's an attempt at building an "ideal" version history by using the tests in a project. Chris's PR adds a visualisation to the process of choosing which test to add to the git history in order to minimise the amount of production code required.
 
 I already had an idea about how Ben's software worked but I think the additional graph really helps explain what's happening.
 
@@ -33,11 +31,11 @@ I already had an idea about how Ben's software worked but I think the additional
 
 ## Flags of the world
 
-Chris showed us the first iphone app he built with some friend. It's a game that tests your ability to recognise, and helps you learn, the flags of the world. There are a number of levels that increase in difficulty: from simply choosing the colours in a known layout, to choosing the layout and colours, to something else. Your attempt is scored and you're also shown the answer you got right that most people get wrong, and the one you got wrong that most people got right.
+Chris showed us the first iOS app he built with some friends a while back. It's a game that tests your ability to recognise, and helps you learn, the flags of the world. There are a number of levels that increase in difficulty: from simply choosing the colours in a known layout, to choosing the layout and colours, to SOMETHING ELSE. Your attempt is scored and you're also shown the answer you got right that most people get wrong, and the one you got wrong that most people got right.
 
-Chris is currently thinking about rebuilding the project but wants to avoid using xcode and so is investigating the alternatives. As well as avoiding xcode, another aspect of his motivation is that android devices now outnumber ios devices about 3 or 4 to 1!
+Chris is currently thinking about rebuilding the project but wants to avoid using xcode and wants to be able to target Android as well as iOS: he suggested that Android devices outnumber iOS by about 3 or 4 to 1!
 
-It looked as though AppCache would do what he was after but that's been deprecated in favour of service workers. Unfortunately, while Android supports service workers, ios still supports AppCache which makes it hard/impossible to build a cross-platform app using these technologies.
+It looked as though AppCache would do what he wanted but that's been deprecated in favour of Service Workers. Unfortunately, while Android supports Service Workers, iOS still supports AppCache which makes it hard/impossible to build a cross-platform app using these technologies.
 
 He's also been looking at Cordova. An Apache project similar to PhoneGap. (Is this what Pablo's software uses?) This has overheads of Android Studio and Java which aren't necessarily desirable.
 
@@ -53,7 +51,7 @@ Chris mentioned his only node package to date that he built as part of this app 
 
 Chris wrapped up by explaining his motivation for creating zz - a machine automation tool he's started building.
 
-He'd like something that allows him to easily recreate environments needed for both his developer machines and client projects. He's also feeling out of the loop with devops and is using this project as a way of getting up to speed.
+He'd like something that allows him to easily create environments needed for both his developer machines and client projects. He's also feeling out of the loop with devops and is using this project as a way of getting up to speed.
 
 It's currently a thin wrapper around Chef and doesn't really require anything in order to get it setup (i.e. no git).
 
