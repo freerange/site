@@ -1,15 +1,28 @@
 Show and Tell 36
 ================
 
-James and I were joined by Ben G, Chris P, Ian DW, Tom S and Rob C for our 36th Show & Tell.
+[James][james-mead] and I were joined by [Ben G][ben-griffiths], [Chris P][chris-patuzzo], [Ian D-W][ian-dow-wright], [Tom S][tom-stuart] and [Rob C][rob-chatley] for our 36th Show & Tell.
+
+Thanks go to Tom for the photos and to everyone for sharing the various things they've been working on.
+
+[ben-griffiths]: https://twitter.com/beng
+[chris-patuzzo]: http://chris.patuzzo.co.uk/
+[ian-dow-wright]: http://idw.xyz
+[james-mead]: /james-mead
+[rob-chatley]: https://www.doc.ic.ac.uk/~rbc/
+[tom-stuart]: http://codon.com/
+
+---
 
 ## Minecraft cartoons
 
-As well as playing lots of Minecraft, Ben's son really enjoys watching cartoons set in Minecraft and was keen to make his own. Ben talked us through the making of the Roadrunner(sp?) style cartoon they came up with.
+![Ben G showing us his Minecraft cartoon](/images/blog/2017-09-13-show-and-tell-36-ben-g-minecraft.jpg)
 
-They built the scene in Minecraft and used Mineways(sp?) to export it to Blender. They added a 3D Minecraft character from an existing library, along with a speeding chicken and an anvil. The 3D character is "rigged"(?) in Blender which allowed them to control its body and eye movements. With everything in place they started the movie rendering.
+As well as playing lots of [Minecraft][minecraft], Ben's son really enjoys watching cartoons set in Minecraft and was keen to make his own. Ben talked us through the making of the [Road Runner][road-runner] style cartoon they came up with.
 
-This first render took 11 hours on Ben's laptop so he went in search of alternatives. He found an online relatively-cheap paid-for service where the rendering took just a couple of hours. Writing this up has made me wonder whether you could use something like EC2 for this expensive rendering operations.
+They built the scene in Minecraft and used [Mineways][mineways] to export it to [Blender][blender]. They added a 3D Minecraft character from an existing library, along with a speeding chicken and an anvil. The 3D character is rigged in Blender which allowed them to control its body and eye movements. With everything in place they started the movie rendering.
+
+This first render took 11 hours on Ben's laptop so he went in search of alternatives. He found an online relatively-cheap paid-for service where the rendering took just a couple of hours. Writing this up has made me wonder whether you could use something like [AWS EC2][aws-ec2] for these expensive rendering operations.
 
 Despite looking pretty good to me; Ben's main takeaways were that it didn't turn out quite as good as he'd hoped and that it took way longer than he imagined.
 
@@ -17,134 +30,159 @@ He finished up by showing us a cartoon from one of the more established creators
 
 I continue to be amazed by the size of the Minecraft ecosystem.
 
+[aws-ec2]: https://aws.amazon.com/ec2/
+[blender]: https://www.blender.org/
+[minecraft]: https://minecraft.net/en-us/
+[mineways]: http://www.realtimerendering.com/erich/minecraft/public/mineways/
+[road-runner]: https://en.wikipedia.org/wiki/Wile_E._Coyote_and_the_Road_Runner
+
 ---
 
 ## Visualising Hingsight-ex
 
-As a nice segue(sp?) from Ben to Chris, Chris showed us the pull request he'd opened in Ben's Hindsight-ex project that Ben spoke about at LRUG on Monday.
+![Chris P's visualisation of Ben's Hindsight-Ex project](/images/blog/2017-09-13-show-and-tell-36-chris-p-hindsight-ex.jpg)
 
-Ben's spoke about Hindsight-ex back in Show & Tell 33, although I don't recall it having a name then. It's an attempt at building an "ideal" version history by using the tests in a project. Chris's PR adds a visualisation to the process of choosing which test to add to the git history in order to minimise the amount of production code required.
+As a nice segue from Ben to Chris, Chris showed us the pull request he'd opened in Ben's [hindsight-ex][hindsight-ex] project that [Ben spoke about at LRUG on Monday][lrug-hindsight-ex].
 
-I already had an idea about how Ben's software worked but I think the additional graph really helps explain what's happening.
+Ben spoke about Hindsight-ex back in [Show & Tell 33][show-and-tell-33-hindsight], although I don't recall it having a name then. It's an attempt at building an "ideal" version history by using the tests in a project. Chris's PR adds a visualisation to the process of choosing which test to add to the history that results in the minimum amount of production code required to satisfy it.
+
+I can imagine the addition of this graph really helping when trying to explain what the software is doing.
+
+[hindsight-ex]: https://github.com/techbelly/hindsight-ex
+[lrug-hindsight-ex]: https://skillsmatter.com/skillscasts/10854-hindsight-creating-the-perfect-project-history
+[show-and-tell-33-hindsight]: /show-and-tell-33#writing-an-apps-history
 
 ---
 
 ## Flags of the world
 
-Chris showed us the first iOS app he built with some friends a while back. It's a game that tests your ability to recognise, and helps you learn, the flags of the world. There are a number of levels that increase in difficulty: from simply choosing the colours in a known layout, to choosing the layout and colours, to SOMETHING ELSE. Your attempt is scored and you're also shown the answer you got right that most people get wrong, and the one you got wrong that most people got right.
+![Chris P describes his Flags of the World app](/images/blog/2017-09-13-show-and-tell-36-chris-p-flags.jpg)
 
-Chris is currently thinking about rebuilding the project but wants to avoid using xcode and wants to be able to target Android as well as iOS: he suggested that Android devices outnumber iOS by about 3 or 4 to 1!
+Chris showed us an iOS app he built with some friends a while back. It's a game that tests your ability to recognise, and in doing so aims to help you learn, the flags of the world. There are a number of levels that increase in difficulty: from simply choosing the colours in a known layout to choosing the layout and colours. As well as scoring your attempts you're also shown the answer you got right that most people get wrong, and the answer you got wrong that most people got right.
 
-It looked as though AppCache would do what he wanted but that's been deprecated in favour of Service Workers. Unfortunately, while Android supports Service Workers, iOS still supports AppCache which makes it hard/impossible to build a cross-platform app using these technologies.
+Chris is currently thinking about rebuilding the project and is trying to work out how best to do it. Not only does he want to avoid using [Xcode][xcode] but he also wants to be able to target Android as well as iOS: he suggested that Android devices now outnumber iOS by about 3 or 4 to 1!
 
-He's also been looking at Cordova. An Apache project similar to PhoneGap. (Is this what Pablo's software uses?) This has overheads of Android Studio and Java which aren't necessarily desirable.
+It initially looked as though [AppCache][app-cache] would do what he wanted but that's been deprecated in favour of [Service Workers][service-workers]. Unfortunately, while Android supports Service Workers, iOS still supports AppCache which makes it hard/impossible to build a cross-platform app using these technologies.
 
-Tom S suggested he might use React Native but I don't think Chris has looked at this yet.
+He's also been looking at [Cordova][cordova]: An Apache project similar to [PhoneGap][phone-gap] for building cross platform mobile apps. This has its own overheads of requiring Android Studio and Java which aren't necessarily desirable.
 
-In rebuilding it he can imagine the same idea being applied to a different domain, e.g. football shirts.
+Tom S suggested he might use [React Native][react-native] but I don't think Chris has looked at this yet.
 
-Chris mentioned his only node package to date that he built as part of this app (is that true?) - the n-dimension flood fill node package
+As part of rebuilding it Chris can imagine applying the same idea to different domains e.g. football shirts.
+
+[app-cache]: https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache
+[cordova]: https://cordova.apache.org/
+[phone-gap]: https://phonegap.com/
+[react-native]: https://facebook.github.io/react-native/
+[service-workers]: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+[xcode]: https://developer.apple.com/xcode/
 
 ---
 
 ## Machine automation
 
-Chris wrapped up by explaining his motivation for creating zz - a machine automation tool he's started building.
+Chris wrapped up by talking us through [zz: The tuzz automation tool][zz]. It's designed to be run on a fresh install of a Mac "for automating all aspects of the 'tuzz' life experience." :-)
 
-He'd like something that allows him to easily create environments needed for both his developer machines and client projects. He's also feeling out of the loop with devops and is using this project as a way of getting up to speed.
+It's a relatively small Ruby library that uses [Chef][chef] to set-up various aspects of his Mac. It's apparently somewhat similar to [GitHub's Boxen][github-boxen] although I believe that uses [Puppet][puppet] and may have a few more dependencies in order to run.
 
-It's currently a thin wrapper around Chef and doesn't really require anything in order to get it setup (i.e. no git).
+Part of the motivation for creating his own library is to get back up to speed with what's been going on in the world of [DevOps][devops].
 
-This would be similar to Boxen and another that I don't recall.
+Chris explained that he regularly reinstalls the [Hackintosh][hackintosh] he uses at home. I think he's hoping to use zz to simplify that process.
 
-He has a Hackintosh at home that he regularly re-installs. He uses Clonezilla to backup the data which gives him the confidence to be able to reformat the machine. I think he's hoping to use zz to replace this set-up.
+The idea of regularly throwing stuff away in order to force you to ensure you keep hold of the important things really appeals to me. It reminds me a bit of Ben's idea of throwing non-library code away at the end of each day to force you to build reusable code, and also of my practice of regularly clearing my browser cache in order to ensure I've got all my passwords stored in [1Password][1password].
 
-This reminds me of Ben's idea of throwing non-library code away, and also of my practice of regularly clearing my browser cache in order to ensure I've got all my passwords stored in 1Password.
+[1password]: https://1password.com/
+[chef]: https://www.chef.io/
+[devops]: https://en.wikipedia.org/wiki/DevOps
+[github-boxen]: https://github.com/blog/1345-introducing-boxen
+[hackintosh]: https://hackintosh.com/
+[puppet]: https://puppet.com/
+[zz]: https://github.com/tuzz/zz
 
 ---
 
 ## Docker for app development
 
-On a similar theme to Chris's machine automation.
+![James M explaining his upgrade to Sierra ](/images/blog/2017-09-13-show-and-tell-36-james-m-machine-provisioning.jpg)
 
-James recently upgraded to Sierra(correct?). He's been putting this off for some time as he wanted to reinstall from scratch but was worried about losing information given that he doesn't done it for quite a while. He tries to maintain a gist of instructions for what he needs to install but this is hard to maintain.
+James continued on a similar theme to Chris's machine automation.
 
-In an attempt to avoid similar problems in future he's been using Docker to separate the requirements of the various apps he developers on his laptop. I understand this has become even easier now that the Mac comes with a native hypervisor.
+James recently upgraded his Mac to Sierra. He's been putting this off for some time as he wanted to reinstall from scratch but was worried about losing data. He's [documented his set-up][gist-floehopper-sierra] in the hope that it makes it easier to upgrade again in future.
 
-He described the set-up for his website. He has two containers - one for the app? (I thought he was using a static site) and another for the gems required. Storing the gems in a different container means that he doesn't have to recreate his docker image when the Gemfile changes. This is achieved using a Dockerfile to describe the app(?) and a docker-compose.yml file to describe the relationship between the app and the Gems directory.
+As part of this upgrade, James has started using [Docker][docker] to reduce the number of things he has to install on the Mac itself. I understand that using Docker on a Mac is easier than ever now that macOS comes with a native hypervisor.
 
-Having got so far with his set-up he's wondering whether it might be better to use Vagrant and VirtualBox per project.
+James used [his website][github-jamesmead-org] as an example to demonstrate how this works in practice. He has two containers: one for the website and another for the Gems required. Storing the Gems in a different container means that he doesn't have to recreate the main Docker image when the Gemfile changes.
 
-One of the known(?) problems with Docker for Mac is the time it takes to keep directories in sync between the host and virtual machines.
+He's relatively happy with how this has worked out but it isn't without problems. For example, it sounds as though there's a known issue with sharing the file system between the host machine and container that means it time consuming to keep directories in sync.
 
-It sounds as though the separation is good but that it makes it harder to do otherwise relativly easy things. He doesn't, for example, have Ruby installed on his host machine.
+Having spent time working with the [GDS Developer VM][gds-developer-vm] recently, he's wondering whether a more sensible approach might be to use [Vagrant][vagrant] and [VirtualBox][virtual-box] for each project.
+
+[docker]: https://www.docker.com/
+[gds-developer-vm]: https://github.com/alphagov/govuk-puppet/tree/master/development-vm
+[gist-floehopper-sierra]: https://gist.github.com/floehopper/ca2102d39e0a9a067cdfd836f7bc401b
+[github-jamesmead-org]: https://github.com/floehopper/jamesmead.org
+[vagrant]: https://www.vagrantup.com/
+[virtual-box]: https://www.virtualbox.org/
 
 ---
 
-## Limitations of git --follow
+## Limitations of `git log --follow`
 
-While working on converting our website from Jekyll to Rails, James had a need to be able to follow git file history across renames in the repo. He ran into problems with git log --follow. Its heuristic to determine whether a file has been renamed doesn't always work and James ended up building a command line (gist - find-sha-of-commit-in-which-file-with-same-name-was-added) to do what he wanted.
+![James M's impressive command for interrogating git history ](/images/blog/2017-09-13-show-and-tell-36-james-m-git-log.jpg)
 
-Tom S mentioned the `--find-renames` option which allows you configure the threshold at which git will treat files as the same. It sounds as though this might do just what James was after.
+While working on converting our website from [Jekyll][jekyll-rb] to [Rails][rails], James had a need to be able to follow git file history across renames in the repo. He ran into problems with `git log --follow` as its heuristic to determine whether a file has been renamed doesn't always work. James ended up constructing this [impressive looking command][gist-floehopper-git-history] to do what he wanted.
+
+Tom S mentioned the `--find-renames` option to `git log` which allows you configure the threshold at which git will treat files as the same. It sounds as though this might just do what James was after.
+
+[gist-floehopper-git-history]: https://gist.github.com/floehopper/64fc0a420ef8158e92a28211a57afebb
+[jekyll-rb]: https://jekyllrb.com/
+[rails]: http://rubyonrails.org/
 
 ---
 
 ## Home automation
 
-Ian explained his first-world home-automation woes. He has wifi lightbulbs that he'd like to control using the existing light switches in his house. He doesn't want to simply cut the power to the bulbs as they then disappear from the network and can't be controlled at all without turning them back on at the switch.
+Ian explained his first-world-problem home-automation woes. He has WiFi lightbulbs that he'd like to control using the existing light switches in his house. He doesn't want to use the switch to cut the power to the bulbs as they then disappear from the network and can't be controlled at all without turning them back on at the switch. He's wondering whether he can step the voltage down in the light switch so that he can change the switch to something that sends a wireless command to the lightbulb instead of cutting the power. The reaction in the room suggested that this isn't going to be trivial but it sounds as though Ian's stocked up on enough cheap components to allow him to give it a go.
 
-He mentioned that it always seems that Terry Eden has written about any of these sort of problems/ideas as he comes across them.
+There were suggestions of using batteries instead of stepping the voltage down but Ian said that that seemed a little odd given that he's got electricity available already.
 
-He's wondering whether he can step the voltage down in the light switch so that he can then change the switch so that it sends a wireless command to the lightbulb instead of cutting the power. This seemed to worry people in the room but fortunately I don't understand it enough. There were suggestions of using batteries instead of stepping the voltage down but Ian said that that seemed a little odd given that he's got electricity availeble already.
+Ian mentioned [circuits.io][circuits-io]: an online tool for creating virtual circuits to understand whether they'll work as expected. I've not tried it yet but I can imagine this coming in handy as I plan to do some more work on the electrical installation in the boat.
 
-He mentioned circuit.io as a way of designing circuits to help understand whether something will work. This sounds like the sort of thing I would've benefitted from when trying to do some electrical work on the boat.
-
-It sounds as though there are quite a few competing technologies available at the moment (Home Assistant (open source), Homekit (Apple?), Tradfry?) and that things in this space as harder than they otherwise might be because of that.
+[circuits-io]: https://circuits.io/
 
 ---
 
 ## Serverless computing
 
-Rob wrapped up the evening by giving as overview of a talk he'd recently given at the Foundation of Software Engineering in Germany.
+![Rob giving us an overview of his Serverless Computing talk ](/images/blog/2017-09-13-show-and-tell-36-rob-c-serverless-computing.jpg)
 
-The talk explored the economic and ??? impact of serverless computing.
+Rob wrapped up the evening by giving us a quick run through of a talk about Serverless Computing he'd recently given at the [Foundations of Software Engineering conference in Germany][fse-2017].
 
-Two case studies of companies/apps moving to AWS Lambda.
+He included case studies of [MindMup][mind-mup] and Yubl (since shut down): two companies that switched from [Heroku][heroku] and EC2 respectively, to [AWS Lambda][aws-lambda].
 
-Mindmup - Heroku to Lambda
+It sounds as though they both made respectable cost savings by switching to Lambda and that, at least in one case, it led to them developing better software as they were forced to separate things that were previously bundled together.
 
-YUBL (social network - now out of business) - EC2 to Lambda
-  In EC2 you're paying for the utilisation
-  In Lambda the "idle time is free"
+It sounds as though Lambda's not the answer to everything, though. Depending on what you're doing the startup time can be high and there's also a maximum execution time of 5 minutes per function. You might be better off using something like EC2 if you're hitting these limits.
 
-Mindmup - they had exporters. Economic incentive to bundle them so that they ran on a single EC2 instance. A bug in a single less-frequently-used exported brought the rest of them down. Having an exporter per Lambda allows us to potentially avoid these problems.
+Rob mentioned the [Claudia.js][claudia-js] framework which attempts to simplify the process of deploying [Node.js][node-js] projects to Lambda.
 
-Cost switching
-  Lambda - per for time
-  S3 - Pay per bandwidth
-  Lambda function to issue tokens that allows a client to write direct to S3
+Rob's talk appears to be based on his joint paper with Gojko: "[Serverless Computing: Economic and Architectural Impact][serverless-computing-paper]". I suggest having a read if you'd like to learn more about the subject.
 
-Mindmup - saved 50% costs by switching to Lambda
-
-Yubl - They'd configured auto-scaling at 75% capacity but that was already too late. By the time they'd hit that threshold, provisioning new servers couldn't keep up with demand. They reduced the threshold to 50% which improved performance but meant they were paying for unused capacity.
-
-There's an argument to suggest that developing for Lambda leads to more modular code bases.
-
-Lambda SLA is currently at about 96% which means that it might not be suitable for all applications.
-
-Depending on what you're doing with Lambda, the startup times can be quite slow. A workaround is to keep the process warm (in the same way that you might with Heroku) but this means that you're increasing your costs and that you might be better off with something like EC2.
-
-Another limitation is the 5 minute maximum execution time and that it's hard to test these things locally.
-
-Rob mentioned the Claudia.js framework which is designed to allow you to write code to target Lambda. You deploy and receive a URL that these things exist at.
-
-James mentioned that Tim McKinnon(?) has played with running Smalltalk on Lambda, saving the image on S3 and then downloading it to debug locally.
+[aws-lambda]: https://aws.amazon.com/lambda/
+[claudia-js]: https://claudiajs.com/
+[fse-2017]: http://esec-fse17.uni-paderborn.de/
+[heroku]: https://www.heroku.com/
+[mind-mup]: https://www.mindmup.com/
+[node-js]: https://nodejs.org/en/
+[serverless-computing-paper]: http://www.doc.ic.ac.uk/~rbc/papers/fse-serverless-17.pdf
 
 ---
 
 ## Show & Tell 37
 
-TBC
+We'll be hosting our 37th Show & Tell on Wednesday 11th October. It's open to all so please [get in touch][contact] if you'd like to join us.
+
+[contact]: /contact
 
 :name: show-and-tell-36
 :updated_at: 2017-09-15 08:51:48.968095000 +01:00
