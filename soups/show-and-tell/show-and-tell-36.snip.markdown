@@ -38,7 +38,7 @@ I continue to be amazed by the size of the Minecraft ecosystem.
 
 ---
 
-## Visualising Hingsight-ex
+## Visualising Hindsight-ex
 
 ![Chris P's visualisation of Ben's Hindsight-Ex project](/images/blog/2017-09-13-show-and-tell-36-chris-p-hindsight-ex.jpg)
 
