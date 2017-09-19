@@ -185,11 +185,10 @@ We'll be hosting our 37th Show & Tell on Wednesday 11th October. It's open to al
 [contact]: /contact
 
 :name: show-and-tell-36
-:updated_at: 2017-09-15 08:51:48.968095000 +01:00
-:created_at: 2017-09-15 08:51:48.968093000 +01:00
+:updated_at: 2017-09-19 15:57:26.184864000 +01:00
+:created_at: 2017-09-19 15:57:26.184854000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
