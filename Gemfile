@@ -6,6 +6,7 @@ gem 'rails'
 gem 'soup'
 gem 'kramdown'
 gem 'airbrake', '~> 5'
+gem 'aws-sdk-s3'
 
 group :assets, :development do
   gem 'sass-rails'
