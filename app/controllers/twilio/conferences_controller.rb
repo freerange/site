@@ -1,8 +1,10 @@
 module Twilio
   class ConferencesController < ApplicationController
+    protect_from_forgery with: :null_session
+
     helper_method :pin
 
-    def show
+    def create
       unless params[:Digits].present?
         redirect_to action: :auth
         return

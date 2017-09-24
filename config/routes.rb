@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/sitemap.xml', to: 'pages#sitemap'
 
   namespace :twilio do
-    resource :conference, only: %i(show) do
+    resource :conference, only: %i(create) do
       member do
         get :auth
         get :auth_fail
