@@ -3,5 +3,5 @@
   <Gather action="<%= twilio_conference_path %>" numDigits="<%= pin.length %>">
     <Say>Please enter your PIN.</Say>
   </Gather>
-  <Redirect />
+  <Redirect method="GET" />
 </Response>
