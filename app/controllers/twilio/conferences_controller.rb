@@ -1,5 +1,6 @@
 module Twilio
   class ConferencesController < ActionController::Base
+    layout false
     protect_from_forgery with: :null_session
 
     helper_method :pin
