@@ -69,3 +69,11 @@ If you're not sure, just look at some of the other snips in `soups/blog`.
 There are a set of Rake tasks under the 'regression' namespace which allow generation and comparison of a set of normalized HTML/XML artefacts. Note that these Rake tasks depend on HTML Tidy [1] which can be installed via `brew install tidy-html5` on OSX.
 
 [1]: http://www.html-tidy.org/
+
+
+
+    $ docker run -u 1001 -d -v ssh:/ssh --name=ssh-agent whilp/ssh-agent:latest
+    $ docker run -u 1001 --rm -v ssh:/ssh -v $HOME:$HOME -it whilp/ssh-agent:latest ssh-add $HOME/.ssh/id_rsa
+
+    # Check it's working
+    $ docker run --rm -it -v ssh:/ssh -e SSH_AUTH_SOCK=/ssh/auth/sock ubuntu /bin/bash -c "apt-get update && apt-get install -y openssh-client && ssh-add -l"

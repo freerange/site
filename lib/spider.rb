@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'net/http'
 
 class Spider
-  HOST, PORT = 'localhost', 3000
+  HOST, PORT = '127.0.0.1', 3000
   SITE_URL = "http://#{HOST}:#{PORT}"
   HOME_PAGE_URL = URI.join(SITE_URL, '/')
 
@@ -47,9 +47,9 @@ class Spider
   end
 
   def run
-    @server.run do
+    # @server.run do
       @client.run
-    end
+    # end
     normalize_artefacts
   end
 
@@ -58,8 +58,8 @@ class Spider
   end
 
   def normalize_artefacts
-    system(%{find #{@artefacts_path} -type f -name '*.html' -depth 1 -exec echo {} \\; -exec tidy -q -m --wrap 0 --sort-attributes alpha --indent auto {} \\;})
-    system(%{find #{@artefacts_path} -type f -name '*.xml' -depth 1 -exec echo {} \\; -exec tidy -q -m --wrap 0 --sort-attributes alpha --indent auto --input-xml 1 {} \\;})
+    system(%{find #{@artefacts_path} -type f -name '*.html' -exec echo {} \\; -exec tidy -q -m --wrap 0 --sort-attributes alpha --indent auto {} \\;})
+    system(%{find #{@artefacts_path} -type f -name '*.xml' -exec echo {} \\; -exec tidy -q -m --wrap 0 --sort-attributes alpha --indent auto --input-xml 1 {} \\;})
   end
 
   def artefact_differences

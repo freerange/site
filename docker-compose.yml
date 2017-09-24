@@ -1,0 +1,17 @@
+app:
+  build: .
+  environment:
+    - USER # for recap deployment
+  command: /bin/sh -c "rm -f tmp/pids/server.pid && bundle exec rails s -b 0.0.0.0"
+  ports:
+    - '3000:3000'
+  volumes:
+    - .:/app
+    - ssh:/ssh
+  volumes_from:
+    - bundled_gems
+
+bundled_gems:
+  image: busybox
+  volumes:
+    - /bundled_gems
