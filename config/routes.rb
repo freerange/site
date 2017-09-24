@@ -3,6 +3,15 @@ Rails.application.routes.draw do
   get '/feed.xml', to: 'pages#feed', format: 'atom'
   get '/sitemap.xml', to: 'pages#sitemap'
 
+  namespace :twilio do
+    resource :conference, only: %i(show) do
+      member do
+        get :auth
+        get :auth_fail
+      end
+    end
+  end
+
   get '/hello-printer', to: redirect('https://exciting.io/2012/04/12/hello-printer')
   get '/printer-questions', to: redirect('https://exciting.io/2012/05/01/printer-questions')
   get '/printer-kit', to: redirect('https://exciting.io/printer')
