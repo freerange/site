@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Response>
-  <Gather action="/twilio/conference" method="GET" numDigits="4">
+  <Gather action="<%= twilio_conference_path %>" method="GET" numDigits="<%= pin.length %>">
     <Say>Please enter your PIN.</Say>
   </Gather>
   <Redirect />
