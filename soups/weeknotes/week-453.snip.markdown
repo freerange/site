@@ -80,11 +80,10 @@ Until next time.
 -- Chris
 
 :name: week-453
-:updated_at: 2017-09-25 10:20:15.489094000 +01:00
-:created_at: 2017-09-25 10:20:15.489092000 +01:00
+:updated_at: 2017-09-25 14:17:17.630843000 +01:00
+:created_at: 2017-09-25 14:17:17.630834000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
