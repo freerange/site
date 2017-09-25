@@ -11,7 +11,7 @@ Chris continued his work to switch Asset Manager from [Delayed Job][delayed-job]
 
 I added some validation for the UUID attribute on Assets. I started out trying to make it read-only but ended up adding validation to ensure it's present, unique and conforms to the format stated in [RFC 4122][rfc-4122]. This felt like overkill and I was left questioning how useful it actually was. On balance, I _think_ it was useful given that it's really quite difficult to make a truly read-only attribute in [ActiveRecord-like][active-record] objects.
 
-James, Chris and I met with [Daniel][daniel-roseman] for our regular catch-up on Wednesday. We're nearing the end of the project budget and so spent some time preparing for the meeting by trying to estimate the amount we'd get done before the budget runs out. We're hopeful that we'll be able to get all assets stored on [S3][aws-s3] and for there to be a single Asset Manager application. Unfortunately we don't think we'll get to the point of serving assets directly from S3 which is possibly/probably where the real benefit of this work lies.
+James, Chris and I met with [Daniel][daniel-roseman] for our regular catch-up on Wednesday. We're nearing the end of the project budget and so spent some time preparing for the meeting by trying to estimate the amount we'd get done before the budget runs out. We're hopeful that we'll be able to have all assets stored on [S3][aws-s3] and all asset management functionality aggregated into a single application, but we probably won't get to the point where assets are being served directly from S3. The latter would be a bit disappointing, but at least we'd be leaving the Asset Manager in a state where that change would be a lot more straightforward.
 
 ## Space4
 
