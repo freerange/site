@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get '/signin' => 'sessions#new', as: :signin
+  get '/auth/github/callback' => 'sessions#create'
+  get '/signout' => 'sessions#destroy', as: :signout
+  get '/auth/failure' => 'sessions#failure'
+
+  resource :user, only: %i(show)
+
   root to: 'pages#show'
   get '/feed.xml', to: 'pages#feed', format: 'atom'
   get '/sitemap.xml', to: 'pages#sitemap'

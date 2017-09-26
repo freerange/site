@@ -7,6 +7,7 @@ gem 'soup'
 gem 'kramdown'
 gem 'airbrake', '~> 5'
 gem 'aws-sdk-s3'
+gem 'omniauth-github'
 
 group :assets, :development do
   gem 'sass-rails'
