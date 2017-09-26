@@ -21,7 +21,6 @@ module Twilio
     end
 
     def auth_fail
-      @wait_url = twilio_asset_path(ENV.fetch('TWILIO_CONFERENCE_WAIT_URL_KEY'))
     end
 
     private
