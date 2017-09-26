@@ -14,12 +14,14 @@ module Twilio
         redirect_to action: :auth_fail
         return
       end
+      @wait_url = twilio_asset_path(ENV.fetch('TWILIO_CONFERENCE_WAIT_URL_KEY'))
     end
 
     def auth
     end
 
     def auth_fail
+      @wait_url = twilio_asset_path(ENV.fetch('TWILIO_CONFERENCE_WAIT_URL_KEY'))
     end
 
     private
