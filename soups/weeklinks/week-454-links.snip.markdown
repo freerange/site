@@ -25,6 +25,13 @@ We recently decided it would be good to have a company conference call phone lin
 
 [Chris L](/chris-lowis) has previously enthused about [ledger](http://ledger-cli.org/), a command-line double-entry book-keeping system which stores data in plain text files. `recutils` is a similar idea, but for databases. I really like the general idea, particularly because it would make it possible to store one's data in version control. <%= by('james-mead') %>
 
+### [1.1 Billion Taxi Rides with Spark 2.2 & 3 Raspberry Pi 3 Model Bs](http://tech.marksblogg.com/billion-nyc-taxi-rides-spark-raspberry-pi.html)
+
+Mark Litwintschik is on a mission to try and benchmark many different systems for large scale parallel data processing against a common data set and queries. He's using the New York City "[billion taxi rides](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)" data and running queries such as a grouped count of rides by cab type. I enjoyed this instalment where he built a 3-node cluster of [Raspberry Pi](https://www.raspberrypi.org/)s running [Apache Spark](https://spark.apache.org/).
+
+### [Belonging is a superpower – Patterns for decentralised organising](https://open.coop/2017/09/25/belonging-superpower-patterns-decentralised-organising/)
+
+Oliver Sylvester-Bradley wrote up a summary of the Loomio-hosted workshop that [Chris R](/chris-roos) and I attended last Saturday. I've been reflecting on what we learnt all week - it was a very thought-provoking day. In particular breaking down the challenges of decentralised organising into 8 different patterns seems like a really useful way of structuring our thoughts on how we run GFR and participate in CoTech and other such organisations.
 
 :name: week-454-links
 :updated_at: 2017-09-28 10:14:26.067043000 +01:00
