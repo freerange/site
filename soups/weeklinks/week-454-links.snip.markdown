@@ -33,6 +33,17 @@ Mark Litwintschik is on a mission to try and benchmark many different systems fo
 
 Oliver Sylvester-Bradley wrote up a summary of the Loomio-hosted workshop that [Chris R](/chris-roos) and I attended last Saturday. I've been reflecting on what we learnt all week - it was a very thought-provoking day. In particular breaking down the challenges of decentralised organising into 8 different patterns seems like a really useful way of structuring our thoughts on how we run GFR and participate in CoTech and other such organisations.
 
+### [Abcul halts credit union migration to new core platform](http://www.bankingtech.com/966542/abcul-halts-credit-union-migration-to-new-core-platform/)
+
+> UK-based Association of British Credit Unions (Abcul) has suspended its plans to migrate its member credit unions onto its new tech platform, Banking Technology understands.
+
+It sounds as though things aren't going quite to plan for ABCUL's Credit Union Expansion Project. The article suggests that there are problems with the three credit unions using the platform and they need to try to sort these out before they can migrate anyone else.
+
+We became interested in the [Credit Union Expansion Project][cuep] while investigating the [possibility of starting a credit union][credit-union-project] and continue to keep half an eye on what's happening. It's a real shame to hear that it's not working out and I really hope they manage to get back on track with the project. <%= by('chris-roos') %>
+
+[credit-union-project]: http://gofreerange.com/project-credit-union-day-1
+[cuep]: https://github.com/freerange/bank/wiki/Credit-Union-Expansion-Project
+
 :name: week-454-links
 :updated_at: 2017-09-28 10:14:26.067043000 +01:00
 :created_at: 2017-09-28 10:14:26.067041000 +01:00
