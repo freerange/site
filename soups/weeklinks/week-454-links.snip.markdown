@@ -48,13 +48,11 @@ We became interested in the [Credit Union Expansion Project][cuep] while investi
 [credit-union-project]: http://gofreerange.com/project-credit-union-day-1
 [cuep]: https://github.com/freerange/bank/wiki/Credit-Union-Expansion-Project
 
-
 :name: week-454-links
-:updated_at: 2017-09-28 10:14:26.067043000 +01:00
-:created_at: 2017-09-28 10:14:26.067041000 +01:00
+:updated_at: 2017-09-29 11:46:38.208975000 +01:00
+:created_at: 2017-09-29 11:46:38.208965000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
