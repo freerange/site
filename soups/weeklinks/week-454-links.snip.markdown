@@ -10,11 +10,21 @@ I found it really interesting to read about Outlandish's motivation behind creat
 We've definitely had this experience too - particularly when we had the office at 87 Worship Street. I'm really enjoying the days we spend working at Space4 and hope we find ways to spend more time there in the future. <%= by('james-mead') %>
 
 
+### [1.1 Billion Taxi Rides with Spark 2.2 & 3 Raspberry Pi 3 Model Bs](http://tech.marksblogg.com/billion-nyc-taxi-rides-spark-raspberry-pi.html)
+
+Mark Litwintschik is on a mission to try and benchmark many different systems for large scale parallel data processing against a common data set and queries. He's using the New York City "[billion taxi rides](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)" data and running queries such as a grouped count of rides by cab type. I enjoyed this instalment where he built a 3-node cluster of [Raspberry Pi](https://www.raspberrypi.org/)s running [Apache Spark](https://spark.apache.org/). <%= by('chris-lowis') %>
+
+
 ### [OpenSeaMap](http://www.openseamap.org/?L=1)
 
 When I was working in Antarctica there were a lot of areas marked "unsurveyed" on the Admiralty chart around our research station and I seriously considered doing some amateur surveying in one of our little dinghies. However, with the equipment we had at the time (no GPS!) it would've been very labour intensive.
 
 Anyway, as a result of that experience, I was irrationally excited to come across this marine version of [OpenStreetMap](http://www.openstreetmap.org/). I love the idea of lots of boats around the world [logging their depth and position](http://depth.openseamap.org/) and gradually crowd-sourcing nautical charts. <%= by('james-mead') %>
+
+
+### [Belonging is a superpower – Patterns for decentralised organising](https://open.coop/2017/09/25/belonging-superpower-patterns-decentralised-organising/)
+
+Oliver Sylvester-Bradley wrote up a summary of the Loomio-hosted workshop that [Chris R](/chris-roos) and I attended last Saturday. I've been reflecting on what we learnt all week - it was a very thought-provoking day. In particular breaking down the challenges of decentralised organising into 8 different patterns seems like a really useful way of structuring our thoughts on how we run GFR and participate in CoTech and other such organisations. <%= by('chris-lowis') %>
 
 
 ### [TwiML Voice: Conference](https://www.twilio.com/docs/api/twiml/conference)
@@ -27,16 +37,6 @@ We recently decided it would be good to have a company conference call phone lin
 [Chris L](/chris-lowis) has previously enthused about [ledger](http://ledger-cli.org/), a command-line double-entry book-keeping system which stores data in plain text files. `recutils` is a similar idea, but for databases. I really like the general idea, particularly because it would make it possible to store one's data in version control. <%= by('james-mead') %>
 
 
-### [1.1 Billion Taxi Rides with Spark 2.2 & 3 Raspberry Pi 3 Model Bs](http://tech.marksblogg.com/billion-nyc-taxi-rides-spark-raspberry-pi.html)
-
-Mark Litwintschik is on a mission to try and benchmark many different systems for large scale parallel data processing against a common data set and queries. He's using the New York City "[billion taxi rides](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)" data and running queries such as a grouped count of rides by cab type. I enjoyed this instalment where he built a 3-node cluster of [Raspberry Pi](https://www.raspberrypi.org/)s running [Apache Spark](https://spark.apache.org/). <%= by('chris-lowis') %>
-
-
-### [Belonging is a superpower – Patterns for decentralised organising](https://open.coop/2017/09/25/belonging-superpower-patterns-decentralised-organising/)
-
-Oliver Sylvester-Bradley wrote up a summary of the Loomio-hosted workshop that [Chris R](/chris-roos) and I attended last Saturday. I've been reflecting on what we learnt all week - it was a very thought-provoking day. In particular breaking down the challenges of decentralised organising into 8 different patterns seems like a really useful way of structuring our thoughts on how we run GFR and participate in CoTech and other such organisations. <%= by('chris-lowis') %>
-
-
 ### [ABCUL halts credit union migration to new core platform](http://www.bankingtech.com/966542/abcul-halts-credit-union-migration-to-new-core-platform/)
 
 > UK-based Association of British Credit Unions (ABCUL) has suspended its plans to migrate its member credit unions onto its new tech platform, Banking Technology understands.
@@ -47,6 +47,7 @@ We became interested in the [Credit Union Expansion Project][cuep] while investi
 
 [credit-union-project]: http://gofreerange.com/project-credit-union-day-1
 [cuep]: https://github.com/freerange/bank/wiki/Credit-Union-Expansion-Project
+
 
 :name: week-454-links
 :updated_at: 2017-09-28 10:14:26.067043000 +01:00
