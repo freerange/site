@@ -50,7 +50,7 @@ These projects were part of the system which allowed users of the website to des
 
 The doll's face was a composite of more than 30 different models which each varied one parameter such as the size of the nose, the length of the ears, or the spacing between the eyes. By moving sliders on the web site users could blend between these different models to vary the face.
 
-At the time Ben built the system, the support for Adobe Flash was starting to wane. Ben used [WebGL]() to render the model in supported browsers and also developed a pure-JavaScript rendering engine as a fallback. Ben had unearthed one of the first versions of the code where he had succeeded in rendering a single eye ball.
+At the time Ben built the system, the support for Adobe Flash was starting to wane. Ben used [WebGL](https://www.khronos.org/webgl/) to render the model in supported browsers and also developed a pure-JavaScript rendering engine as a fallback. Ben had unearthed one of the first versions of the code where he had succeeded in rendering a single eye ball.
 
 Ben then talked us through the pipeline that would take the user's parameters and apply them to the manufacturing model that generated the file sent to the 3D printer. Ben used [Blender](https://www.blender.org/) to show us one of these models including the parts not visible to users of the web interface - such as the fixings on the inside of the dolls head that would join it to the neck.
 
