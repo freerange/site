@@ -32,7 +32,7 @@ Chris also drew some parallels between this work and his day job, software devel
 
 Newcomer to Show and Tell [Chris Zetter](chris-zetter) showed us a side-project he's been working on which aims to extract insights from the historical runs of a projects test suite. Continuous Integration systems such as Jenkins allow you to see how long each build has taken but Chris was interested in more granular data - which individual tests have become slower, how many new tests have been added and which are the most likely to fail, for example.
 
-Users of the system install add a ruby gem to the project's Gemfile (Chris has this working with Rspec and Minitest so far) which sends data about the test suite to a central server. A web application then tabulates and graphs this data to allow you to understand it.
+Users of the system install add a Ruby gem to the project's Gemfile (Chris has this working with Rspec and Minitest so far) which sends data about the test suite to a central server. A web application then tabulates and graphs this data to allow you to understand it.
 
 ![Chris demos his application](/images/blog/zetter-demo.jpg)
 
