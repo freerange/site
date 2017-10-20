@@ -51,6 +51,10 @@ Last week we heard that we'd been shortlisted and invited to submit a written pr
 * A small, but intrepid, band braved the rain and met up for drinks at the [Lord Clyde][] on Wednesday evening.
 * I did a bit more work on the [Twilio][] conference call number I setup last week. I added a passcode and changed the hold music. In order to do this I ended up moving the functionality out of the hosted TwiML Bins and [into the Rails app which serves our company website][twilio-controllers].
 
+Until next time!
+
+-- James
+
 [Solid Fund]: http://solidfund.coop/
 [Sociocracy]: https://en.wikipedia.org/wiki/Sociocracy
 [Space4]: http://space4.tech/
