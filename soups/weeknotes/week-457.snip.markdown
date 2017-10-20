@@ -62,11 +62,10 @@ Until next time.
 [wp1455]: https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/5122
 
 :name: week-457
-:updated_at: 2017-10-20 14:51:02.317000000 +01:00
-:created_at: 2017-10-20 14:51:02.316998000 +01:00
+:updated_at: 2017-10-20 16:02:49.843449000 +01:00
+:created_at: 2017-10-20 16:02:49.843425000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
