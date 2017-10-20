@@ -65,11 +65,10 @@ Until next time!
 [Twilio]: https://www.twilio.com/
 
 :name: week-454
-:updated_at: 2017-10-20 09:52:29.692488000 +01:00
-:created_at: 2017-10-20 09:52:29.692486000 +01:00
+:updated_at: 2017-10-20 19:12:55.586629000 +01:00
+:created_at: 2017-10-20 19:12:55.586618000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
