@@ -29,7 +29,7 @@ Chris also drafted some useful initial criteria we can use to quickly rule out u
 
 * Require significant on-site work outside London
 * Insufficient budget for 2-3 senior developers
-* Projects which we'd find ethically challenging, e.g. work for the Ministry of Defence
+* Projects which we'd find ethically challenging
 * Involve expensive proprietary technologies, e.g. Microsoft, Oracle, etc
 * Involve technologies with which we don't have sufficient experience or interest
 
