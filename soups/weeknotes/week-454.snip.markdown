@@ -3,7 +3,7 @@ Week 454
 
 We spent the majority of the week continuing our work on the GOV.UK Asset Management project.
 
-## GOV.UK Asset Manager
+## GOV.UK Asset Management
 
 Chris L completed the work to switch the Asset Manager app to use [Sidekiq][] instead of [DelayedJob][]. Asset Manager was the last GOV.UK app to be using DelayedJob and the logging & monitoring infrastructure for Sidekiq is much better, so this feels like a really valuable piece of work.
 
