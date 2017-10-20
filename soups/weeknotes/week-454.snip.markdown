@@ -17,7 +17,7 @@ We also continued to make changes to the [Asset Manager app][] to support this w
 [Whitehall app]: https://github.com/alphagov/whitehall
 [Asset Manager app]: https://github.com/alphagov/asset-manager
 
-## Company matters
+## GFR
 
 ### Cashflow & business development
 
