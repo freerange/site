@@ -7,7 +7,7 @@ Chris R was away on a well-earned holiday in Italy all week. Since the [Space4 c
 
 ## GOV.UK Asset Management
 
-Chris L finished off [a pull request][pr-3464] which Chris R had started which changed the Whitehall app to save some assets to the Asset Manager app via its API. We decided to hide this functionality behind a feature flag in order to get the changes merged into the `master` branch as early as possible. Even with the feature flag switched on, the Whitehall app will still save assets to the existing NFS mount; but having the app save assets to the Asset Manager app as well means we can incrementally move towards *only* saving assets to the Asset Manager app.
+Chris L finished off [a pull request][pr-3464] started last week by Chris R which changed the Whitehall app to save some assets to the Asset Manager app via its API. We decided to hide this functionality behind a feature flag in order to get the changes merged into the `master` branch as early as possible. Even with the feature flag switched on, the Whitehall app will still save assets to the existing NFS mount; but having the app save assets to the Asset Manager app as well means we can incrementally move towards *only* saving assets to the Asset Manager app.
 
 Chris L then did some sterling work to [make the saving of assets to Asset Manager asynchronous][pr-3480] which unfortunately turned out to be a bit more awkward than we hoped. However, it means that requests to upload an asset to the Whitehall app won't be held up by the numerous network requests that are made to the Asset Manager API (one for each "version" of the asset), and if any of these requests fails, it will automatically be retried.
 
