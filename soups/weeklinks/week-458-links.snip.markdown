@@ -30,13 +30,11 @@ Marine instrumentation has historically been proprietary and overly expensive. S
 
 This project captures AIS messages broadcast by passing ships to obtain identity, position, course & speed, and joins the data up with public data sets that reveal what the ships are carrying. Very cool! <%= by('james-mead') %>
 
-
 :name: week-458-links
-:updated_at: 2017-10-24 17:59:50.805363000 +01:00
-:created_at: 2017-10-24 17:59:50.805361000 +01:00
+:updated_at: 2017-10-26 16:07:31.420663000 +01:00
+:created_at: 2017-10-26 16:07:31.420653000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
