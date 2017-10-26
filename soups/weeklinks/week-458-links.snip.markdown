@@ -18,7 +18,7 @@ I was pleased to read that "plain emails not only save time but work better". Th
 
 ### [Termux](https://termux.com/)
 
-I've been playing with Termux on my phone. "Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required". I've also installed the [Hackers Keyboard](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard&hl=en_GB) to make it easier to type escape characters and use modifier keys. I have no idea what I'm going to do with this, but it's certainly fun to run emacs and an `irb` session on the bus.  <%= by('chris-lowis') %>
+I've been playing with Termux on my phone. "Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required". I've also installed the [Hackers Keyboard](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard&hl=en_GB) to make it easier to type escape characters and use modifier keys. I have no idea what I'm going to do with this, but it's certainly fun to run emacs and an `irb` session on the bus. <%= by('chris-lowis') %>
 
 
 ### [Signal K](http://signalk.org)
