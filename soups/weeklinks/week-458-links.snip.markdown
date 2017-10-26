@@ -28,7 +28,7 @@ Marine instrumentation has historically been proprietary and overly expensive. S
 
 ### [Ambient Shipping](https://github.com/marcdacosta/ambient-shipping)
 
-This project captures AIS messages broadcast by passing ships and joins them with public data sets that reveal what the ships are carrying. Very cool! <%= by('james-mead') %>
+This project captures AIS messages broadcast by passing ships to obtain identity, position, course & speed, and joins the data up with public data sets that reveal what the ships are carrying. Very cool! <%= by('james-mead') %>
 
 
 :name: week-458-links
