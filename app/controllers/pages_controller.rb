@@ -11,9 +11,13 @@ class PagesController < ApplicationController
     name = params.permit(:path)[:path]
     @snip = name.present? ? Snip.find(name) : Snip.find(ROOT_SNIP_NAME)
     @author = Snip.find_by_name(@snip.author)
-    html = render_snip(@snip)
-    layout = layout_for(@snip)
-    render html: html.html_safe, layout: layout
+    respond_to do |format|
+      format.html do
+        html = render_snip(@snip)
+        layout = layout_for(@snip)
+        render html: html.html_safe, layout: layout
+      end
+    end
   end
 
   def feed
