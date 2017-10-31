@@ -13,7 +13,7 @@ We decided to descope the work of serving Whitehall assets from Asset Manager by
 
 Chris and I paired on tracking down a hairy bug in our new [CarrierWave][carrier-wave] File object where, even after removing the file, it was still reported as being present. The fix was simply adding a method to our object but the tangle of code made it very hard to find. I wonder whether it'd be possible for CarrierWave to have some kind of tests that we could use to check whether our object satisfies the interface it's expecting.
 
-Fixing the hairy CarrierWave problem means that we now have Whitehall organisation logos being uploaded to and deleted from Asset Manager. All that remains is upload existing organisation logos and switch the [Nginx][nginx] routing so that they're being served from Asset Manager instead of Whitehall. Chris worked on uploading existing logos and I made the necessary Nginx and Whitehall changes so that we're ready to switch once the existing logos have been uploaded.
+Fixing the hairy CarrierWave problem means that we now have Whitehall organisation logos being uploaded to and deleted from Asset Manager. All that remains is to upload existing organisation logos and switch the [Nginx][nginx] routing so that they're being served from Asset Manager instead of Whitehall. Chris worked on uploading existing logos and I made the necessary Nginx and Whitehall changes so that we're ready to switch once the existing logos have been uploaded.
 
 James enabled [cross-region replication][s3-replication] on our production S3 asset bucket. We're currently using [Duplicity][duplicity] to back-up our production assets from NFS to S3 so switching to AWS native technology will allow us to remove another moving part from the GOV.UK stack.
 
@@ -33,7 +33,7 @@ James continued to read through the new [Articles of Association][articles-of-as
 
 ## Space4 launch
 
-We postponed our regular monthly drinks in favour of the Space4 launch on Thursday. It was really well attended and the handful of lightning talks I heard were all really good. [Tom W][tom-ward] joined us and so we ended up heading off early to a local pub for a bit of a catch-up before heading home.
+We combined our regular monthly drinks with the Space4 launch party on Thursday. It was really well attended and the handful of lightning talks I heard were all really good. [Tom W][tom-ward] joined us and so we ended up heading off early to a local pub for a bit of a catch-up before heading home.
 
 ## CoTech
 
@@ -41,11 +41,11 @@ Chris drafted a proposal to request some money from [Solid Fund][solid-fund] to 
 
 ## Cashflow
 
-James investigated why our simple cashflow calculator started reporting that we had an additional 2 months reserves in the bank from one month to the next. While an additional 2 months sounds positive we were worried that the jump meant that something wasn't quite right in our calculations. We don't completely understand the reason for the jump but we are quite confident that the results are correct. We've agreed to pair on this task in future to try to ensure we're all doing it in the same way.
+James investigated why our simple cashflow calculator started reporting that we had an additional two months reserves in the bank from one month to the next. While an additional two months sounds positive we were worried that the jump meant that something wasn't quite right in our calculations. We don't completely understand the reason for the jump but we're fairly confident that the results are correct. We've agreed to pair on this task in future to try to ensure we're all doing it in the same way.
 
 ## Website
 
-James updated our website to avoid exceptions we were seeing when a certain crawler was requesting our content as `text/plain`. The current fix is to [reject these requests with a 406 Not Acceptance][freerange-site-9abe7ef] response but we wonder whether simply returning HTML in this case would be better.
+James updated our website to avoid exceptions we were seeing when a certain crawler was requesting our content as `text/plain`. The current fix is to [reject these requests with a 406 Not Acceptable][freerange-site-9abe7ef] response but we wonder whether simply returning HTML in this case would be better.
 
 That's all for this week.
 
