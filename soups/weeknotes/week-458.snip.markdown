@@ -73,11 +73,10 @@ That's all for this week.
 [wortley-hall]: https://www.wortleyhall.org.uk/
 
 :name: week-458
-:updated_at: 2017-10-30 10:25:01.259309000 +00:00
-:created_at: 2017-10-30 10:25:01.259306000 +00:00
+:updated_at: 2017-10-31 18:10:56.435343000 +00:00
+:created_at: 2017-10-31 18:10:56.435332000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
