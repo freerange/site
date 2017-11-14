@@ -8,7 +8,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We're fairly booked up until the <em>end of November 2017</em>, but we'd still love to hear from you if you've got an idea you think we can help with.
+* *Timing:* We're fairly booked up until the <em>end of 2017</em>, but we are likely to have some availability in early 2018. We'd love to hear from you if you've got an idea you think we can help with.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
