@@ -5,7 +5,7 @@ Show and Tell 35
 
 [Chris R]: /chris-roos
 [Ben G]: https://twitter.com/beng
-[Chris P]: https://twitter.com/cpatuzzo
+[Chris P]: https://twitter.com/chrispatuzzo
 [James C]: http://jcoglan.com/
 [Ian D-W]: http://idw.xyz
 

@@ -51,7 +51,7 @@ selection of food and jugs of Belgian beer
 at [The Dovetail](http://dovepubs.com/aboutdovetail/) in
 Clerkenwell. We also caught up for lunch with our
 friends [Dan](https://twitter.com/pixelblend)
-and [Chris](https://twitter.com/cpatuzzo).
+and [Chris](https://twitter.com/chrispatuzzo).
 
 ## GDS
 
