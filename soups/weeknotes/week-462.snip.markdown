@@ -16,11 +16,10 @@ Anyway, until next time.
 -- James
 
 :name: week-462
-:updated_at: 2017-11-27 09:58:42.655185000 +00:00
-:created_at: 2017-11-27 09:58:42.655183000 +00:00
+:updated_at: 2017-11-28 16:34:03.279475000 +00:00
+:created_at: 2017-11-28 16:34:03.279468000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
