@@ -1,7 +1,7 @@
 Week 461
 ========
 
-This week we spent time working at [Space4][], TOG Whitechapel, [the GDS office][whitechapel-building], and TOG Bloomsbury. I took a bit of time off to sort out some personal admin and Chris L went for a holiday in the Cotswolds.
+This week we spent time working at [Space4][], TOG Whitechapel, [the GDS office][whitechapel-building], TOG Bloomsbury and from home. I took a bit of time off to sort out some personal admin and Chris L went for a holiday in the Cotswolds.
 
 We continued our work on GOV.UK asset management for [GDS][]. Progress was slower than we hoped, because of the time it took to co-ordinate changes across a number of repositories and get those changes deployed or applied in the relevant environments. Chris R & Chris L visited the 2nd Line Support and Infrastructure teams at GDS on Tuesday to help move things forward.
 
