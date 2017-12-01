@@ -9,6 +9,8 @@ We spent most of Thursday preparing for the company Christmas party, but in the 
 
 We were concerned that the late notice and clash with Thanksgiving would mean not many people could make it to the party. However, as it turned out people flocked from far and wide to taste Chris R's delicious mulled wine. It was great to catch up with some old friends and meet some new ones.
 
+![Chris R in the mullfest kitchen](/images/blog/2017-11-23-chris-roos-in-mullfest-kitchen.jpg)
+
 Although we were all feeling slightly the worse for wear on Friday morning, we had a pretty productive day in the end.
 
 Anyway, until next time.
