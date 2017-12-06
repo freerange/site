@@ -20,11 +20,10 @@ That's all for now. Until next time.
 [wortley-hall-2017]: https://wiki.coops.tech/wiki/Wortley_Hall_2017
 
 :name: week-463
-:updated_at: 2017-12-06 11:18:41.543728000 +00:00
-:created_at: 2017-12-06 11:18:41.543726000 +00:00
+:updated_at: 2017-12-06 12:14:54.530378000 +00:00
+:created_at: 2017-12-06 12:14:54.530364000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
