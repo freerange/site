@@ -50,8 +50,8 @@ Until next time.
 [wortley-hall]: https://www.wortleyhall.org.uk/
 
 :name: week-464
-:updated_at: 2017-12-08 15:56:00.000000000 +00:00
-:created_at: 2017-12-08 15:56:00.000000000 +00:00
+:updated_at: 2017-12-08 16:04:08.387914000 +00:00
+:created_at: 2017-12-08 16:04:08.387904000 +00:00
 :render_as: Blog
 :kind: blog
 :is_page: true
@@ -59,4 +59,3 @@ Until next time.
 :author: chris-roos
 :page_title: Week 464
 :extension: markdown
-:draft: true
