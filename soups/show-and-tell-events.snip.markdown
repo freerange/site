@@ -32,10 +32,10 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming meeting
 
-+* Show and Tell 39
-+* Wed 13 Dec 2017
-+* Forge and Co, 154-158 Shoreditch High St, London E1 6HU
-+* Let us know you are attending on [attending.io](https://attending.io/events/gfr-show-and-tell-39/)
+* Show and Tell 39
+* Wed 13 Dec 2017
+* Forge and Co, 154-158 Shoreditch High St, London E1 6HU
+* Let us know you are attending on [attending.io](https://attending.io/events/gfr-show-and-tell-39/)
 
 ### Past meetings
 
