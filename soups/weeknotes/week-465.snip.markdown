@@ -37,11 +37,10 @@ Until next time.
 [the-office-group]: http://www.theofficegroup.co.uk/
 
 :name: week-465
-:updated_at: 2017-12-15 15:11:00.000000000 +00:00
-:created_at: 2017-12-15 15:11:00.000000000 +00:00
+:updated_at: 2017-12-15 15:16:46.277456000 +00:00
+:created_at: 2017-12-15 15:16:46.277448000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
