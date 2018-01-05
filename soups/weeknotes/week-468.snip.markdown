@@ -58,11 +58,10 @@ Wishing you good health, happiness and prosperity for 2018!
 [Show & Tell 40]: https://attending.io/events/gfr-show-and-tell-40
 
 :name: week-468
-:updated_at: 2018-01-05 15:11:46.689574000 +00:00
-:created_at: 2018-01-05 15:11:46.689572000 +00:00
+:updated_at: 2018-01-05 16:49:36.015921000 +00:00
+:created_at: 2018-01-05 16:49:36.015907000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
