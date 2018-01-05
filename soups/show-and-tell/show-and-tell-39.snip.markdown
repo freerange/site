@@ -32,9 +32,33 @@ Show and Tell 39
 
 * James M mentioned OO-matron by Nat Pryce
 
-
-
 ## Ben G
+
+* Computation Club: 3D Xmas tree
+
+* Explain 3D in a different way
+* 2D/3D transforms
+* 3D = usable approximation of real physical world
+* Want to give people understanding of why we use surfaces - it's a choice
+* Higher level - represent surface in some way
+* Feedback on whether good way to explain things
+* 3D image on flat screen
+* Surface. Lights coming off it.
+* 3 ways to describe surface
+* 3D -> 2D and surface -> lines
+* Vector based vs pixel based
+* Algebraic ways of drawing line
+
+Algebraic         | Pixels             | Sampling
+------------------|--------------------|---------
+programs          | voxels             | mesh
+y=mx+c            |                    |
+Illustrator       | Paint              | Bezier curves
+algebra/maths     | Boolean operations | interpolation
+solving equations | and/or             |
+ray tracing       | Minecraft          | 3D games
+shadertoy/demo/4K | Worms              |
+                  | Lemmings           |
 
 
 :name: show-and-tell-39
