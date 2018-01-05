@@ -5,7 +5,7 @@ This was our last full(ish) working week of 2017!
 
 We worked from [Space4][space4], [TOG][the-office-group] Old Street, TOG Bloomsbury and from home. Chris was off on holiday from Tuesday afternoon and James and I both took Friday off.
 
-We focussed on [Asset Manager][asset-manager] during the week and only really did the minimum required to keep GFR ticking over.
+We focussed on [Asset Manager][asset-manager] during the week and only really did the minimum admin required to keep GFR ticking over.
 
 [Chris][chris-lowis] and I had a video call with a couple of people from GDS during the week. While the conversation was good, the quality wasn't quite up to scratch. We were connected using three computers and were all relying on the built-in microphones which meant we suffered from quite a lot of feedback. Chris, [James][james-mead] and I have agreed that we should get/use headsets for these sort of calls in future.
 
