@@ -17,7 +17,7 @@ I updated Whitehall to [redirect asset requests from gov.uk to the canonical ass
 
 Chris continued to upload existing assets from Whitehall to Asset Manager so that we're ready to switch to serving assets from Asset Manager.
 
-James [extended the state machine for Assets so that we can easily identify those that have been uploaded to S3][asset-manager-pr-364]. A number of unrelated problems (the integration environment not being restarted, Sidekiq workers not being restarted and Sidekiq queue data not being sent to Grafana) meant that this all took longer than we'd hoped. James also worked through a number of [Dependabot][dependabot] pull requests, [removed some redundant nginx config][govuk-puppet-pr-6971] for serving assets from NFS and [allowed the Fake S3 server to be used in non-development environments][asset-manager-pr-361] to help with the end to end testing project.
+James [extended the state machine for Assets so that we can easily identify those that have been uploaded to S3][asset-manager-pr-364]. A number of unrelated problems (the integration environment not being restarted, Sidekiq workers not being restarted and Sidekiq queue data not being sent to Grafana) meant that this all took longer than we'd hoped. James also worked through a number of [Dependabot][dependabot] pull requests, [removed some redundant nginx config][govuk-puppet-pr-6971] for serving assets from NFS and [allowed the Fake S3 server to be used in non-development environments][asset-manager-pr-361] to help with the [publishing end-to-end tests project][publishing-e2e-tests].
 
 I think that about covers this week.
 
@@ -36,6 +36,7 @@ Until next time.
 [space4]: http://space4.tech/
 [the-office-group]: http://www.theofficegroup.co.uk/
 [whitehall-pr-3627]: https://github.com/alphagov/whitehall/pull/3627
+[publishing-e2e-tests]: https://github.com/alphagov/publishing-e2e-tests
 
 :name: week-466
 :updated_at: 2018-01-05 10:56:34.281776000 +00:00
