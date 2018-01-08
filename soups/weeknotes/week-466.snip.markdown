@@ -39,11 +39,10 @@ Until next time.
 [publishing-e2e-tests]: https://github.com/alphagov/publishing-e2e-tests
 
 :name: week-466
-:updated_at: 2018-01-05 10:56:34.281776000 +00:00
-:created_at: 2018-01-05 10:56:34.281774000 +00:00
+:updated_at: 2018-01-08 10:50:22.677199000 +00:00
+:created_at: 2018-01-08 10:50:22.677182000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
