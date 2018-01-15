@@ -76,11 +76,10 @@ I was aware of the [`ffi` gem][ffi-gem], but I didn't realise that Ruby's standa
 [containers-from-scratch project]: https://github.com/floehopper/containers-from-scratch
 
 :name: week-470-links
-:updated_at: 2018-01-11 15:07:36.102371000 +00:00
-:created_at: 2018-01-11 15:07:36.102370000 +00:00
+:updated_at: 2018-01-15 15:50:48.126536000 +00:00
+:created_at: 2018-01-15 15:50:48.126529000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
