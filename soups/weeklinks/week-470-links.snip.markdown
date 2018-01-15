@@ -42,6 +42,9 @@ A short but useful write-up of the [2nd Annual CoTech gathering][cotech-2017] by
 [cotech-2017]: https://wiki.coops.tech/wiki/Wortley_Hall_2017
 [We Are Open]: http://weareopen.coop/
 
+### [Dealing with surprising human emotions: desk moves](http://larahogan.me/blog/desk-moves/)
+
+Lara Hogan discusses something that I've seen happen in every large company I've worked in - the strong emotions brought up by large scale desk moves. Lara uses this as an example of applying the [BICEPS](https://www.palomamedina.com/biceps) model for understanding human needs in the workplace. I found the article particularly thought-provoking in the context of [worker co-operatives](http://coops.tech/). Discussing the emotional impact of decisions is something we need to be constantly mindful of as we don't have the same management practices Lara suggests to catch things. <%= by('chris-lowis') %>
 
 ### [UK's Open Banking to Launch on 13 January 2018](https://www.openbanking.org.uk/about-us/news/uks-open-banking-launch-13-january-2018/)
 
@@ -49,6 +52,19 @@ While I was initially quite excited about this, I've recently discovered that in
 
 While I can understand that restrictions need to be in place for accessing other people's accounts, I can't see why there isn't a way to access your own account without having to jump through all the same hoops. <%= by('james-mead') %>
 
+### [At The Café: Conversations on Anarchism](https://theanarchistlibrary.org/library/errico-malatesta-at-the-cafe)
+
+I've been enjoying Errico Malatesta's collection of (fictional) dialogues on topics such as work, property, crime and government.
+
+A friend recently affectionately described Go Free Range as "a company without a mission" and I've been trying to square that with the very real sense of purpose I feel in the day to day act of working cooperatively. It's something that I'd like to try and write some more about in 2018. In this context this quote from At The Café struck me:
+
+> What we would like is for everybody to live in the best possible way: so that everybody with a minimum amount of effort will obtain maximum satisfaction.
+>
+> I don't know how to give you a theoretical formula which correctly depicts such a slate of affairs; but when we get rid of the social environment of the boss and the police, and people consider each other as family, and think of helping instead of exploiting one another, the practical formula for social life will soon be found.
+>
+> In any case, we will make the most of what we know and what we can do, providing for piece-by-piece modifications as we learn to do things better.
+
+<%= by('chris-lowis') %>
 
 ### [Use any C library from Ruby via Fiddle](http://blog.honeybadger.io/use-any-c-library-from-ruby-via-fiddle-the-ruby-standard-librarys-best-kept-secret/)
 
