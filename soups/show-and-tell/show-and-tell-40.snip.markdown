@@ -103,11 +103,10 @@ We'll be hosting our 41st Show & Tell in February. Please [get in touch][contact
 [contact]: /contact
 
 :name: show-and-tell-40
-:updated_at: 2018-01-12 08:59:57.642221000 +00:00
-:created_at: 2018-01-12 08:59:57.642219000 +00:00
+:updated_at: 2018-01-16 19:37:10.346608000 +00:00
+:created_at: 2018-01-16 19:37:10.346600000 +00:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
