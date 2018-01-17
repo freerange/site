@@ -61,7 +61,7 @@ I thought it looked really polished and so I really hope Rob's able to find some
 
 ![Nicky walking through her talk about CSS Shapes](/images/blog/2018-01-10-show-and-tell-40-nicky-css-shapes.jpg)
 
-Nicky ran through the very early skeleton of a talk she's preparing to give at Frontend London about [CSS Shapes][css-shapes-intro]; covering `shape-outside`, `shape-inside` and `clip-shape`.
+Nicky ran through the very early skeleton of a talk she's preparing to give at Frontend London about [CSS Shapes][css-shapes-intro]; covering [`shape-outside`][mdn-shape-outside], `shape-inside` and [`clip-path`][mdn-clip-path].
 
 These relatively new CSS properties make it easier to generate visually appealing website by giving you more control over the flow of text on a page. They appear to offer some of the functionality that's been present in desktop publishing packages for sometime (e.g. flowing text around an image). Nicky's particularly keen on the use of these techniques as it means that the site remains accessible.
 
@@ -72,6 +72,8 @@ I really appreciate that Nicky felt comfortable presenting such an early version
 I haven't really even used CSS for a year or more, let alone tried to keep up with its development. I was impressed by this new functionality that's been added.
 
 [css-shapes-intro]: https://www.html5rocks.com/en/tutorials/shapes/getting-started/
+[mdn-shape-outside]: https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside
+[mdn-clip-path]: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
 
 ---
 
