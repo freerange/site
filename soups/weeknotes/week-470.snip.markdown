@@ -1,7 +1,7 @@
 Week 470
 ========
 
-We spent the week working variously from Space4, TOG Bloomsbury and home. We've been pressing on with our work on Asset Manager for our GDS, aware that we're coming to the end of the project. But we also found time to do a few other things too!
+We spent the week working variously from Space4, TOG Bloomsbury and home. We've been pressing on with our work on Asset Manager for our client GDS, aware that we're coming to the end of the project. But we also found time to do a few other things too!
 
 ## Asset Manager
 
