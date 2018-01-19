@@ -13,7 +13,7 @@ Chris and James made the most of their time together at Space4 to pair on the la
 
 ## Business Development
 
-We're aware that we will be finishing our work at GDS in early March and are starting to think about what we work on next. This week we were visited by Annie and Cat from [The Dot Project](http://www.thedotproject.co/) one of our fellow [CoTech co-operatives](http://coops.tech/). The Dot Project are helping a group of CoTech co-ops to put together a comprehensive description of the services CoTech can offer so that we can market ourselves more effectively. They interviewed Chris and James and Space4 to help understand how Go Free Range work in particular.
+We're aware that we will be finishing our work at GDS in early March and are starting to think about what we work on next. This week we were visited by Annie and Cat from [The Dot Project](http://www.thedotproject.co/) one of our fellow [CoTech co-operatives](http://coops.tech/). The Dot Project are helping a group of CoTech co-ops to put together a comprehensive description of the services CoTech can offer so that we can market ourselves more effectively. They interviewed Chris and James at Space4 to help understand how Go Free Range work in particular.
 
 We also had some interesting conversations with a couple of potential clients (one in the public sector and one charity) and put in an application through the GOV.UK Digital Marketplace to do some [coaching at the Legal Aid Agency](https://www.digitalmarketplace.service.gov.uk//digital-outcomes-and-specialists/opportunities/6003).
 
