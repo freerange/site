@@ -23,13 +23,11 @@ If you've got an interesting project that you think we might be able to help you
 
 This week we also [published a writeup](http://gofreerange.com/show-and-tell-40) of our most recent Show and Tell event and had a beer on Thursday night with our friends at the [Outlandish](https://outlandish.com/) "Christmas" party. I started some intensive Spanish lessons - I'm hoping to have 10 hours per week of one-on-one lessons between now and the end of February.
 
-
 :name: week-470
-:updated_at: 2018-01-19 08:42:08.396552000 -05:00
-:created_at: 2018-01-19 08:42:08.396548000 -05:00
+:updated_at: 2018-01-19 11:15:58.220550000 -05:00
+:created_at: 2018-01-19 11:15:58.220540000 -05:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
