@@ -32,10 +32,7 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming meeting
 
-* Show & Tell 41
-* Wed 21 Feb 2018
-* Forge and Co, 154-158 Shoreditch High St, London E1 6HU
-* Let us know you are attending on [attending.io](https://attending.io/events/gfr-show-and-tell-41/)
+* TBA
 
 ### Past meetings
 
