@@ -38,11 +38,10 @@ I think that's about all for this week. Until next time.
 [whitehall]: http://github.com/alphagov/whitehall
 
 :name: week-475
-:updated_at: 2018-02-23 11:15:47.832814000 +00:00
-:created_at: 2018-02-23 11:15:47.832812000 +00:00
+:updated_at: 2018-02-23 14:11:24.060079000 +00:00
+:created_at: 2018-02-23 14:11:24.060061000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
