@@ -37,13 +37,11 @@ I have some relatively fond memories of developing software using Delphi back in
 
 [headius-tweet]: https://twitter.com/headius/status/966831073350045698
 
-
 :name: week-476-links
-:updated_at: 2018-02-28 09:40:20.470189000 +00:00
-:created_at: 2018-02-28 09:40:20.470187000 +00:00
+:updated_at: 2018-03-02 17:20:26.982468000 +00:00
+:created_at: 2018-03-02 17:20:26.982456000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
