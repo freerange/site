@@ -32,13 +32,11 @@ I came across `jot` when looking for a way of generating a random number within 
 
 We were recently asked to agree to GDPR-related changes in the contract for the Digital Outcomes and Specialists Framework. I was really happy to see that the changes were clearly displayed using a diff-like output: red and green highlighting to differentiate between removals and additions. We've received numerous contract variations in the past that require fairly significant work to see what's actually changed so it's great to see this approach by [GDS/CSS](https://www.gov.uk/government/publications/digital-outcomes-and-specialists-2-framework-agreement). <%= by('chris-roos') %>
 
-
 :name: week-478-links
-:updated_at: 2018-03-08 10:25:07.903645000 +00:00
-:created_at: 2018-03-08 10:25:07.903644000 +00:00
+:updated_at: 2018-03-14 16:51:56.884191000 +00:00
+:created_at: 2018-03-14 16:51:56.884173000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
