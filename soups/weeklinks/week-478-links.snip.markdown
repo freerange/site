@@ -1,6 +1,17 @@
 Week 478 - Interesting links
 ============================
 
+### [Git trivia](https://twitter.com/tomstuart/status/973667727826149382)
+
+[Tom S][] explains that, when splitting a commit during an interactive rebase, it's possible to see the parts of the original change that are outstanding using the following command. <%= by('james-mead') %>
+
+```
+git diff `cat .git/rebase-merge/stopped-sha`
+```
+
+[Tom S]: http://codon.com/
+
+
 ### [CoTech Community Call #2](https://blog.weareopen.coop/cotech-community-call-2-ce978934fc8f)
 
 I really appreciate [Laura Hilliger][] taking the time to write up these notes. GFR gets a bit of a mention. Thanks to [Chris L][] for being the voice of Go Free Range on the call! <%= by('james-mead') %>
