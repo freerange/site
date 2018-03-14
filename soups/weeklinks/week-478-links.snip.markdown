@@ -19,6 +19,9 @@ I really appreciate [Laura Hilliger][] taking the time to write up these notes. 
 [Chris L]: /chris-lowis
 [Laura Hilliger]: https://www.laurahilliger.com/
 
+### [Lessons learned writing data pipelines](https://medium.com/@victorarias/lessons-learned-writing-data-pipelines-5746deb630a8)
+
+Victor Arias talks about some of the hard-won lessons he learned building the data warehouse infrastructure at [FutureLearn](https://futurelearn.com). I also worked on this system and we often spoke about how we'd love to share what we were doing but never seemed to find the time. Victor has decided to try to post one thing a week with the barrier to publishing being [something helpful that someone around him didn't know about](https://twitter.com/ariassp/status/968623155366555648). I think that's a really good strategy and look forward to reading more. <%= by('chris-lowis') %>
 
 ### [What the jot command can do for you](https://www.networkworld.com/article/3200222/linux/what-the-jot-command-can-do-for-you.html)
 
