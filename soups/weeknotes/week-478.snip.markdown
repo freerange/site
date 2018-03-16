@@ -47,11 +47,10 @@ Until next time.
 [whitehall]: http://github.com/alphagov/whitehall
 
 :name: week-478
-:updated_at: 2018-03-16 07:45:28.698380000 +00:00
-:created_at: 2018-03-16 07:45:28.698378000 +00:00
+:updated_at: 2018-03-16 12:23:42.686121000 +00:00
+:created_at: 2018-03-16 12:23:42.686103000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
