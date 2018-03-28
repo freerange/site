@@ -2,9 +2,8 @@
 ; Paste the zonefile below this line:
 ;
 ; gofreerange.com [75717]
-; gofreerange.com [75717]
 $TTL 86400
-@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2018012540 14400 14400 1209600 86400
+@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2018031269 14400 14400 1209600 86400
 @		NS	ns1.linode.com.
 @		NS	ns2.linode.com.
 @		NS	ns3.linode.com.
@@ -42,7 +41,6 @@ sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
 t4jwxpgubazwy5wbsrytm2ijtbn7wxfz._domainkey		300	CNAME	t4jwxpgubazwy5wbsrytm2ijtbn7wxfz.dkim.amazonses.com.
 test		300	CNAME	d226fr0d6iesx2.cloudfront.net.
-twilio		300	CNAME	gofreerange.com.
 videos		300	CNAME	ddcxl0amt4k19.cloudfront.net.
 videos-test		300	CNAME	d3fy282lgo2sqj.cloudfront.net.
 www			CNAME	gofreerange.com.
