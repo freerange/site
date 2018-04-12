@@ -1,7 +1,7 @@
 Reasons to hire a tech co-op
 =====================
 
-Go Free Range are a software development co-operative and [we're not the only one](coops.tech). Why might you consider working with a co-operative for your next project, instead of a more traditional software development consultancy or a group of independent contractors? Here are some reasons
+Go Free Range are a software development co-operative and [we're not the only one](https://www.coops.tech/). Why might you consider working with a co-operative for your next project, instead of a more traditional software development consultancy or a group of independent contractors? Here are some reasons
 
 ## We're the decision makers
 

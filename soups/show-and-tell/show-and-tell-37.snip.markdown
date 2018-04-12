@@ -24,13 +24,13 @@ Thanks go to Tom for the photos and to everyone for sharing the various things t
 
 Chris and his partner Amy live on a 100 year old former Dutch tulip barge on the Thames. They've been making some fairly extensive changes to the boat including a recent extension to provide them more living space. With the major metal work completed Chris has been working on the inside of the boat including fitting some insulation between the hull and the cabin walls. Chris showed us some photos of the work so far and some curiosities he'd discovered - including some incredibly dense lead ballast material, and a faded number painted on the steel that may provide some clues as to the history of the boat.
 
-Chris also drew some parallels between this work and his day job, software development. In particular Chris noted that given the irregular, curved surfaces of the boat, it wasn't until he'd made a start on the battons and insulation that he was really able to visualise how things would go together. Chris likened this to a [spike](spike) - a way of mitigating future risk in software projects.
+Chris also drew some parallels between this work and his day job, software development. In particular Chris noted that given the irregular, curved surfaces of the boat, it wasn't until he'd made a start on the battons and insulation that he was really able to visualise how things would go together. Chris likened this to a [spike][] - a way of mitigating future risk in software projects.
 
-[spike]: https://en.wikipedia.org/wiki/Spike_(software_development\)
+[spike]: https://en.wikipedia.org/wiki/Spike_(software_development)
 
 ## Insights from your test suite
 
-Newcomer to Show and Tell [Chris Zetter](chris-zetter) showed us a side-project he's been working on which aims to extract insights from the historical runs of a projects test suite. Continuous Integration systems such as Jenkins allow you to see how long each build has taken but Chris was interested in more granular data - which individual tests have become slower, how many new tests have been added and which are the most likely to fail, for example.
+Newcomer to Show and Tell [Chris Zetter][chris-zetter] showed us a side-project he's been working on which aims to extract insights from the historical runs of a projects test suite. Continuous Integration systems such as Jenkins allow you to see how long each build has taken but Chris was interested in more granular data - which individual tests have become slower, how many new tests have been added and which are the most likely to fail, for example.
 
 Users of the system install add a Ruby gem to the project's Gemfile (Chris has this working with RSpec and Minitest so far) which sends data about the test suite to a central server. A web application then tabulates and graphs this data to allow you to understand it.
 
@@ -42,7 +42,7 @@ There was a lot of support for Chris's project in the room - with several of us 
 
 ## Things found on old laptops
 
-Before [Ben](ben-griffiths) sold an old laptop he thought he'd better have a look on the disk to see if there was anything valuable. He found a few old projects that he'd worked on while CTO at [MakieLab](http://mymakie.com/).
+Before [Ben][ben-griffiths] sold an old laptop he thought he'd better have a look on the disk to see if there was anything valuable. He found a few old projects that he'd worked on while CTO at [MakieLab](http://mymakie.com/).
 
 These projects were part of the system which allowed users of the website to design, and then have 3D-printed, their own customised doll.
 
