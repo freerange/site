@@ -143,8 +143,8 @@ class Spider
     def get(path)
       url = URI.join(SITE_URL, path)
       response = nil
+      tries = 0
       begin
-        tries = 0
         response = Net::HTTP.get_response(url)
         raise HttpRetry unless Net::HTTPSuccess === response
       rescue HttpRetry
