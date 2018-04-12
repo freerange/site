@@ -147,11 +147,13 @@ class Spider
       begin
         response = Net::HTTP.get_response(url)
         raise HttpRetry unless Net::HTTPSuccess === response
-      rescue HttpRetry
+      rescue HttpRetry => e
         tries += 1
         if tries < 3
           puts "Retrying request for: #{path}"
           retry
+        else
+          raise e
         end
       end
       artefact_path = artefact_path(path)
