@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ruby rails software development london" name="keywords">
+  <meta content="telephone=no" name="format-detection">
+  <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
+  <script src="http://use.typekit.com/rny4upv.js" type="text/javascript">
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Show and Tell 38 — Go Free Range.</title>
+</head>
+<body class="blog">
+  <div id="page">
+    <div class="group" id="header">
+      <ul class="nav group" id="blog_nav">
+        <li id="link_home">
+          <p>Visit our <a href="/">company website</a></p>
+        </li>
+        <li id="link_rss">
+          <p>Grab the <a href="http://feeds.gofreerange.com/GoFreeRangeBlog" title="RSS Feed from Feedburner">RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id="logo"><a href="/show-and-tell-events" title="Go to Show and Tell index">Show and Tell index</a></h1>
+    </div>
+    <div class="group" id="content">
+      <div class="blog_entry group">
+        <p class="article_date">Friday 5th January, 2018</p>
+        <div class="author">
+          <img alt="Chris Roos" src="images/people/chris-roos.jpg"> <span>by Chris Roos</span>
+        </div>
+        <div class="content">
+          <h1 id="show-and-tell-38">Show and Tell 38</h1>
+          <p><a href="/james-mead">James</a> and I were joined by <a href="http://chris.patuzzo.co.uk/">Chris P</a>, <a href="https://chriszetter.com/">Chris Z</a> and <a href="https://twitter.com/beng">Ben G</a> for our 38th Show & Tell.</p>
+          <hr>
+          <h2 id="wordpress-site-hacked">WordPress site hacked</h2>
+          <p>I kicked off the evening by talking about my attempts at repairing a hacked WordPress site.</p>
+          <p>We discovered the hack when we noticed that the site was redirecting to a porn site. We spoke to the website host and they identified a number of suspect .php files that we promptly removed. We thought this was the end of it until we got some reports of it continuing to redirect to other websites. I couldn’t immediately replicate the problem and so wondered whether the redirects might’ve been cached by certain browsers. Some further investigation revealed this not to be the case: I was able to replicate the problem by manually setting my user agent. I eventually found the culprit hidden in a number of .htaccess files that had been written to the WordPress installation. These .htaccess files contained redirect rules that only applied when certain conditions were met (including based on the user agent). Removing the suspect .htaccess files appears to fix the problem!</p>
+          <p>I also investigated some of the rogue php files that had been uploaded. They were obfuscated so I used Ruby to unobfuscate the code to try to understand what was happening. Ben’s best guess was that it was used as part of a DDOS attack. The php would make a request to another website with some element of randomness.</p>
+          <p>Ben mentioned the <a href="https://security.dxw.com/">DXW Security</a> site as a good resource for these sort of problems.</p>
+          <p>I never got to the bottom of the cause of the hack in the first place.</p>
+          <hr>
+          <h2 id="openstreetmap">OpenStreetMap</h2>
+          <p><img alt="Chris Zetter describing his recent contribution to OpenStreetMap" src="/images/blog/2017-11-08-show-and-tell-38-chris-z-openstreetmap.jpg"></p>
+          <p>Chris Z talked us through a recent contribution he made to OpenStreetMap.</p>
+          <p>He’d noticed a new bridge near King’s Cross - Somers Town Bridge - and thought it was a good opportunity to add it to the map. Adding the bridge itself was relatively straightforward. He ran into problems when he tried to add the various restrictions placed upon access to the bridge (e.g. opening times and the fact that it was privately owned but included public access). He wanted to get this right as he didn’t want someone to attempt to use the bridge when it was closed overnight. Having wrapped his head around the various rules he needed to add he eventually realised that there wasn’t any routing software that made use of them anyway!</p>
+          <hr>
+          <h2 id="kindle-reading-history">Kindle reading history</h2>
+          <p><img alt="Ben demonstrating how to extract data from the Kindle Cloud Reader" src="/images/blog/2017-11-08-show-and-tell-38-ben-g-kindle-library.jpg"></p>
+          <p>Ben’s son has read lots of books on his Kindle and Ben wanted some way of visualising them. He set about investigating how to scrape the Kindle Cloud Reader to get the data about the books in his son’s library. This turned out to be unnecessary because the Kindle Cloud Reader stores its data in a SQL database stored in the browser. This meant that it was as easy as using Safari’s “copy table” functionality to extract this data to a tab-separated file.</p>
+          <p>The next step is to try to find pictures of the spines of books. A number of places have pictures of the front and back covers but none seem to have the spines.</p>
+          <p>Although the database contains details of all books in the library, it only seems to include reading data (e.g. the page you’re up to) for the books you’ve read in the Kindle Cloud reader.</p>
+          <p>This is something I’ve been keen to have in the past.</p>
+          <hr>
+          <h2 id="the-tuzz-automation-tool">The tuzz automation tool</h2>
+          <p><img alt="Chris P updating us on his zz automation tool" src="/images/blog/2017-11-08-show-and-tell-38-chris-p-zz-automation.jpg"></p>
+          <p>Chris P gave us a bit of an update on his <a href="https://github.com/tuzz/zz">tuzz automation tool</a> he <a href="show-and-tell-36#machine-automation">demoed at show and tell 36</a>. He’s continuing to work on the tool and is using it to provision his laptop(s).</p>
+          <p>Chris also highlighted the similarities with his <a href="https://github.com/tuzz/fortress">fortress project</a> that he uses to provision his Raspberry Pi.</p>
+          <hr>
+          <h2 id="magic-eye">Magic eye</h2>
+          <p><img alt="Chris P explaining his magic eye solving software" src="/images/blog/2017-11-08-show-and-tell-38-chris-p-magic-eye.jpg"></p>
+          <p>Chris P showed us some <a href="https://github.com/tuzz/magic_eye">Magic Eye</a> (autosterogram images) solving software that he’d written a few years ago.</p>
+          <p>I understand that Chris is interested in rewriting the software to make use of some newer techniques that he’s learned. This generated some discussion about transforming problems from one domain to another in order to more easily solve them although I’m afraid it all went somewhat over my head.</p>
+          <hr>
+          <h2 id="hough-transform">Hough Transform</h2>
+          <p><img alt="Ben G explaining the Hough transform" src="/images/blog/2017-11-08-show-and-tell-38-ben-g-hough-transform.jpg"></p>
+          <p>Chris’s Magic Eye demo and discussion reminded Ben of his <a href="https://techbelly.github.io/writing/Hough-Transform/">Hough Transform blog post</a> work that <a href="/show-and-tell-27#ben-g---blog-posts-and-distractions">he explained in Show & Tell 27</a>. As above I’m afraid this also went over my head so I suggest reading Ben’s blog post if you’re interested in learning more.</p>
+        </div>
+        <div class="comments" id="comments">
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id="article_links">
+        <h3>Recent</h3>
+        <div id="recent_articles">
+          <ol class="show-and-tell_list" reversed="">
+            <li value="6">
+              <a href="/show-and-tell-42">Show and Tell 42</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-40">Show and Tell 40</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-37">Show and Tell 37</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-36">Show and Tell 36</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-35">Show and Tell 35</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-34">Show and Tell 34</a>
+            </li>
+          </ol>
+          <script async defer src="https://gfr-show-and-tell-slack.herokuapp.com/slackin.js?">
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/application-a06a15e76d88968aa98de5792d639d527018444227ecda8004f3fb4a3e0d1d6f.js">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

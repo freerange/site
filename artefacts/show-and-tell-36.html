@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ruby rails software development london" name="keywords">
+  <meta content="telephone=no" name="format-detection">
+  <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
+  <script src="http://use.typekit.com/rny4upv.js" type="text/javascript">
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Show and Tell 36 — Go Free Range.</title>
+</head>
+<body class="blog">
+  <div id="page">
+    <div class="group" id="header">
+      <ul class="nav group" id="blog_nav">
+        <li id="link_home">
+          <p>Visit our <a href="/">company website</a></p>
+        </li>
+        <li id="link_rss">
+          <p>Grab the <a href="http://feeds.gofreerange.com/GoFreeRangeBlog" title="RSS Feed from Feedburner">RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id="logo"><a href="/show-and-tell-events" title="Go to Show and Tell index">Show and Tell index</a></h1>
+    </div>
+    <div class="group" id="content">
+      <div class="blog_entry group">
+        <p class="article_date">Tuesday 19th September, 2017</p>
+        <div class="author">
+          <img alt="Chris Roos" src="images/people/chris-roos.jpg"> <span>by Chris Roos</span>
+        </div>
+        <div class="content">
+          <h1 id="show-and-tell-36">Show and Tell 36</h1>
+          <p><a href="/james-mead">James</a> and I were joined by <a href="https://twitter.com/beng">Ben G</a>, <a href="http://chris.patuzzo.co.uk/">Chris P</a>, <a href="http://idw.xyz">Ian D-W</a>, <a href="http://codon.com/">Tom S</a> and <a href="https://www.doc.ic.ac.uk/~rbc/">Rob C</a> for our 36th Show & Tell.</p>
+          <p>Thanks go to Tom for the photos and to everyone for sharing the various things they’ve been working on.</p>
+          <hr>
+          <h2 id="minecraft-cartoons">Minecraft cartoons</h2>
+          <p><img alt="Ben G showing us his Minecraft cartoon" src="/images/blog/2017-09-13-show-and-tell-36-ben-g-minecraft.jpg"></p>
+          <p>As well as playing lots of <a href="https://minecraft.net/en-us/">Minecraft</a>, Ben’s son really enjoys watching cartoons set in Minecraft and was keen to make his own. Ben talked us through the making of the <a href="https://en.wikipedia.org/wiki/Wile_E._Coyote_and_the_Road_Runner">Road Runner</a> style cartoon they came up with.</p>
+          <p>They built the scene in Minecraft and used <a href="http://www.realtimerendering.com/erich/minecraft/public/mineways/">Mineways</a> to export it to <a href="https://www.blender.org/">Blender</a>. They added a 3D Minecraft character from an existing library, along with a speeding chicken and an anvil. The 3D character is rigged in Blender which allowed them to control its body and eye movements. With everything in place they started the movie rendering.</p>
+          <p>This first render took 11 hours on Ben’s laptop so he went in search of alternatives. He found an online relatively-cheap paid-for service where the rendering took just a couple of hours. Writing this up has made me wonder whether you could use something like <a href="https://aws.amazon.com/ec2/">AWS EC2</a> for these expensive rendering operations.</p>
+          <p>Despite looking pretty good to me; Ben’s main takeaways were that it didn’t turn out quite as good as he’d hoped and that it took way longer than he imagined.</p>
+          <p>He finished up by showing us a cartoon from one of the more established creators which gave a real sense of the amount of effort that must go into these things.</p>
+          <p>I continue to be amazed by the size of the Minecraft ecosystem.</p>
+          <hr>
+          <h2 id="visualising-hindsight-ex">Visualising Hindsight-ex</h2>
+          <p><img alt="Chris P's visualisation of Ben's Hindsight-Ex project" src="/images/blog/2017-09-13-show-and-tell-36-chris-p-hindsight-ex.jpg"></p>
+          <p>As a nice segue from Ben to Chris, Chris showed us the pull request he’d opened in Ben’s <a href="https://github.com/techbelly/hindsight-ex">hindsight-ex</a> project that <a href="https://skillsmatter.com/skillscasts/10854-hindsight-creating-the-perfect-project-history">Ben spoke about at LRUG on Monday</a>.</p>
+          <p>Ben spoke about Hindsight-ex back in <a href="/show-and-tell-33#writing-an-apps-history">Show & Tell 33</a>, although I don’t recall it having a name then. It’s an attempt at building an “ideal” version history by using the tests in a project. Chris’s PR adds a visualisation to the process of choosing which test to add to the history that results in the minimum amount of production code required to satisfy it.</p>
+          <p>I can imagine the addition of this graph really helping when trying to explain what the software is doing.</p>
+          <hr>
+          <h2 id="flags-of-the-world">Flags of the world</h2>
+          <p><img alt="Chris P describes his Flags of the World app" src="/images/blog/2017-09-13-show-and-tell-36-chris-p-flags.jpg"></p>
+          <p>Chris showed us an iOS app he built with some friends a while back. It’s a game that tests your ability to recognise, and in doing so aims to help you learn, the flags of the world. There are a number of levels that increase in difficulty: from simply choosing the colours in a known layout to choosing the layout and colours. As well as scoring your attempts you’re also shown the answer you got right that most people get wrong, and the answer you got wrong that most people got right.</p>
+          <p>Chris is currently thinking about rebuilding the project and is trying to work out how best to do it. Not only does he want to avoid using <a href="https://developer.apple.com/xcode/">Xcode</a> but he also wants to be able to target Android as well as iOS: he suggested that Android devices now outnumber iOS by about 3 or 4 to 1!</p>
+          <p>It initially looked as though <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache">AppCache</a> would do what he wanted but that’s been deprecated in favour of <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service Workers</a>. Unfortunately, while Android supports Service Workers, iOS still supports AppCache which makes it hard/impossible to build a cross-platform app using these technologies.</p>
+          <p>He’s also been looking at <a href="https://cordova.apache.org/">Cordova</a>: An Apache project similar to <a href="https://phonegap.com/">PhoneGap</a> for building cross platform mobile apps. This has its own overheads of requiring Android Studio and Java which aren’t necessarily desirable.</p>
+          <p>Tom S suggested he might use <a href="https://facebook.github.io/react-native/">React Native</a> but I don’t think Chris has looked at this yet.</p>
+          <p>As part of rebuilding it Chris can imagine applying the same idea to different domains e.g. football shirts.</p>
+          <hr>
+          <h2 id="machine-automation">Machine automation</h2>
+          <p>Chris wrapped up by talking us through <a href="https://github.com/tuzz/zz">zz: The tuzz automation tool</a>. It’s designed to be run on a fresh install of a Mac “for automating all aspects of the ‘tuzz’ life experience.” :-)</p>
+          <p>It’s a relatively small Ruby library that uses <a href="https://www.chef.io/">Chef</a> to set-up various aspects of his Mac. It’s apparently somewhat similar to <a href="https://github.com/blog/1345-introducing-boxen">GitHub’s Boxen</a> although I believe that uses <a href="https://puppet.com/">Puppet</a> and may have a few more dependencies in order to run.</p>
+          <p>Part of the motivation for creating his own library is to get back up to speed with what’s been going on in the world of <a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a>.</p>
+          <p>Chris explained that he regularly reinstalls the <a href="https://hackintosh.com/">Hackintosh</a> he uses at home. I think he’s hoping to use zz to simplify that process.</p>
+          <p>The idea of regularly throwing stuff away in order to force you to ensure you keep hold of the important things really appeals to me. It reminds me a bit of Ben’s idea of throwing non-library code away at the end of each day to force you to build reusable code, and also of my practice of regularly clearing my browser cache in order to ensure I’ve got all my passwords stored in <a href="https://1password.com/">1Password</a>.</p>
+          <hr>
+          <h2 id="docker-for-app-development">Docker for app development</h2>
+          <p><img alt="James M explaining his upgrade to Sierra " src="/images/blog/2017-09-13-show-and-tell-36-james-m-machine-provisioning.jpg"></p>
+          <p>James continued on a similar theme to Chris’s machine automation.</p>
+          <p>James recently upgraded his Mac to Sierra. He’s been putting this off for some time as he wanted to reinstall from scratch but was worried about losing data. He’s <a href="https://gist.github.com/floehopper/ca2102d39e0a9a067cdfd836f7bc401b">documented his set-up</a> in the hope that it makes it easier to upgrade again in future.</p>
+          <p>As part of this upgrade, James has started using <a href="https://www.docker.com/">Docker</a> to reduce the number of things he has to install on the Mac itself. I understand that using Docker on a Mac is easier than ever now that macOS comes with a native hypervisor.</p>
+          <p>James used <a href="https://github.com/floehopper/jamesmead.org">his website</a> as an example to demonstrate how this works in practice. He has two containers: one for the website and another for the Gems required. Storing the Gems in a different container means that he doesn’t have to recreate the main Docker image when the Gemfile changes.</p>
+          <p>He’s relatively happy with how this has worked out but it isn’t without problems. For example, it sounds as though there’s a known issue with sharing the file system between the host machine and container that means it time consuming to keep directories in sync.</p>
+          <p>Having spent time working with the <a href="https://github.com/alphagov/govuk-puppet/tree/master/development-vm">GDS Developer VM</a> recently, he’s wondering whether a more sensible approach might be to use <a href="https://www.vagrantup.com/">Vagrant</a> and <a href="https://www.virtualbox.org/">VirtualBox</a> for each project.</p>
+          <hr>
+          <h2 id="limitations-of-git-log---follow">Limitations of <code>git log --follow</code></h2>
+          <p><img alt="James M's impressive command for interrogating git history " src="/images/blog/2017-09-13-show-and-tell-36-james-m-git-log.jpg"></p>
+          <p>While working on converting our website from <a href="https://jekyllrb.com/">Jekyll</a> to <a href="http://rubyonrails.org/">Rails</a>, James had a need to be able to follow git file history across renames in the repo. He ran into problems with <code>git log --follow</code> as its heuristic to determine whether a file has been renamed doesn’t always work. James ended up constructing this <a href="https://gist.github.com/floehopper/64fc0a420ef8158e92a28211a57afebb">impressive looking command</a> to do what he wanted.</p>
+          <p>Tom S mentioned the <code>--find-renames</code> option to <code>git log</code> which allows you configure the threshold at which git will treat files as the same. It sounds as though this might just do what James was after.</p>
+          <hr>
+          <h2 id="home-automation">Home automation</h2>
+          <p>Ian explained his first-world-problem home-automation woes. He has WiFi lightbulbs that he’d like to control using the existing light switches in his house. He doesn’t want to use the switch to cut the power to the bulbs as they then disappear from the network and can’t be controlled at all without turning them back on at the switch. He’s wondering whether he can step the voltage down in the light switch so that he can change the switch to something that sends a wireless command to the lightbulb instead of cutting the power. The reaction in the room suggested that this isn’t going to be trivial but it sounds as though Ian’s stocked up on enough cheap components to allow him to give it a go.</p>
+          <p>There were suggestions of using batteries instead of stepping the voltage down but Ian said that that seemed a little odd given that he’s got electricity available already.</p>
+          <p>Ian mentioned <a href="https://circuits.io/">circuits.io</a>: an online tool for creating virtual circuits to understand whether they’ll work as expected. I’ve not tried it yet but I can imagine this coming in handy as I plan to do some more work on the electrical installation in the boat.</p>
+          <hr>
+          <h2 id="serverless-computing">Serverless computing</h2>
+          <p><img alt="Rob giving us an overview of his Serverless Computing talk " src="/images/blog/2017-09-13-show-and-tell-36-rob-c-serverless-computing.jpg"></p>
+          <p>Rob wrapped up the evening by giving us a quick run through of a talk about Serverless Computing he’d recently given at the <a href="http://esec-fse17.uni-paderborn.de/">Foundations of Software Engineering conference in Germany</a>.</p>
+          <p>He included case studies of <a href="https://www.mindmup.com/">MindMup</a> and Yubl (since shut down): two companies that switched from <a href="https://www.heroku.com/">Heroku</a> and EC2 respectively, to <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>.</p>
+          <p>It sounds as though they both made respectable cost savings by switching to Lambda and that, at least in one case, it led to them developing better software as they were forced to separate things that were previously bundled together.</p>
+          <p>It sounds as though Lambda’s not the answer to everything, though. Depending on what you’re doing the startup time can be high and there’s also a maximum execution time of 5 minutes per function. You might be better off using something like EC2 if you’re hitting these limits.</p>
+          <p>Rob mentioned the <a href="https://claudiajs.com/">Claudia.js</a> framework which attempts to simplify the process of deploying <a href="https://nodejs.org/en/">Node.js</a> projects to Lambda.</p>
+          <p>Rob’s talk appears to be based on his joint paper with Gojko: “<a href="http://www.doc.ic.ac.uk/~rbc/papers/fse-serverless-17.pdf">Serverless Computing: Economic and Architectural Impact</a>”. I suggest having a read if you’d like to learn more about the subject.</p>
+          <hr>
+          <h2 id="show--tell-37">Show & Tell 37</h2>
+          <p>We’ll be hosting our 37th Show & Tell on Wednesday 11th October. It’s open to all so please <a href="/contact">get in touch</a> if you’d like to join us.</p>
+        </div>
+        <div class="comments" id="comments">
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id="article_links">
+        <h3>Recent</h3>
+        <div id="recent_articles">
+          <ol class="show-and-tell_list" reversed="">
+            <li value="6">
+              <a href="/show-and-tell-42">Show and Tell 42</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-40">Show and Tell 40</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-37">Show and Tell 37</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-36">Show and Tell 36</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-35">Show and Tell 35</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-34">Show and Tell 34</a>
+            </li>
+          </ol>
+          <script async defer src="https://gfr-show-and-tell-slack.herokuapp.com/slackin.js?">
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/application-a06a15e76d88968aa98de5792d639d527018444227ecda8004f3fb4a3e0d1d6f.js">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

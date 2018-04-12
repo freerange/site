@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ruby rails software development london" name="keywords">
+  <meta content="telephone=no" name="format-detection">
+  <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
+  <script src="http://use.typekit.com/rny4upv.js" type="text/javascript">
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 477 — Go Free Range.</title>
+</head>
+<body class="blog">
+  <div id="page">
+    <div class="group" id="header">
+      <ul class="nav group" id="blog_nav">
+        <li id="link_home">
+          <p>Visit our <a href="/">company website</a></p>
+        </li>
+        <li id="link_rss">
+          <p>Grab the <a href="http://feeds.gofreerange.com/GoFreeRangeBlog" title="RSS Feed from Feedburner">RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id="logo"><a href="/blog" title="Go to blog index">Blog index</a></h1>
+    </div>
+    <div class="group" id="content">
+      <div class="blog_entry group">
+        <p class="article_date">Thursday 29th March, 2018</p>
+        <div class="author">
+          <img alt="Chris Lowis" src="images/people/chris-lowis.jpg"> <span>by Chris Lowis</span>
+        </div>
+        <div class="content">
+          <h1 id="week-477">Week 477</h1>
+          <p>I returned from an extended trip to Colombia this week and in my jet-lagged state never got round to writing weeknotes. These come to you, therefore, almost 3 weeks late!</p>
+          <p>Looking back through my notes I see we spent a couple of days in the Bloomsbury Office Group office, held our monthly drinks at The Three Crowns and continued to work on our Asset Manager project for GDS.</p>
+          <h2 id="asset-manager">Asset Manager</h2>
+          <p>We are trying to move the last remaining files (around 500,000 attachments) from the Whitehall publishing application to Asset Manager. In doing so we need to make sure that Whitehall no longer depends on files existing on the file system as once we’ve made the switch the files will leave in Amazon’s cloud storage service S3.</p>
+          <p>One area we’d overlooked was the functionality to preview a CSV which is used to give an overview of data files before a user commits to downloading a potentially large file. For very large files the code was using ruby’s low-level <code>File</code> API to read in a limited number of bytes of the file from disk. <a href="https://github.com/alphagov/whitehall/pull/3826">We changed this to use a HTTP RANGE request instead</a>.</p>
+          <p>We also had to make sure that metadata about each attachment that was previously stored in Whitehall is now stored in Asset Manager. This includes <a href="https://github.com/alphagov/asset-manager/pull/502">support for parent document URLs in HTTP headers</a>. In addition we <a href="https://github.com/alphagov/asset-manager/pull/512">continued to add support</a> for access-limited and draft assets to Asset Manager.</p>
+          <p>Warm greetings from the future!</p><!-- add content here -->
+        </div>
+        <div class="comments" id="comments">
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id="article_links">
+        <h3>Recent</h3>
+        <div id="recent_articles">
+          <ol class="blog_list" reversed="">
+            <li value="6">
+              <a href="/week-481">Week 481</a>
+            </li>
+            <li value="5">
+              <a href="/week-480">Week 480</a>
+            </li>
+            <li value="4">
+              <a href="/week-477">Week 477</a>
+            </li>
+            <li value="3">
+              <a href="/week-479">Week 479</a>
+            </li>
+            <li value="2">
+              <a href="/week-478">Week 478</a>
+            </li>
+            <li value="1">
+              <a href="/week-478-links">Week 478 - Interesting links</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/application-a06a15e76d88968aa98de5792d639d527018444227ecda8004f3fb4a3e0d1d6f.js">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

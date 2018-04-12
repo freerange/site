@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ruby rails software development london" name="keywords">
+  <meta content="telephone=no" name="format-detection">
+  <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
+  <script src="http://use.typekit.com/rny4upv.js" type="text/javascript">
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Show and Tell 39 — Go Free Range.</title>
+</head>
+<body class="blog">
+  <div id="page">
+    <div class="group" id="header">
+      <ul class="nav group" id="blog_nav">
+        <li id="link_home">
+          <p>Visit our <a href="/">company website</a></p>
+        </li>
+        <li id="link_rss">
+          <p>Grab the <a href="http://feeds.gofreerange.com/GoFreeRangeBlog" title="RSS Feed from Feedburner">RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id="logo"><a href="/show-and-tell-events" title="Go to Show and Tell index">Show and Tell index</a></h1>
+    </div>
+    <div class="group" id="content">
+      <div class="blog_entry group">
+        <p class="article_date">Friday 5th January, 2018</p>
+        <div class="author">
+          <img alt="James Mead" src="images/people/james-mead.jpg"> <span>by James Mead</span>
+        </div>
+        <div class="content">
+          <h1 id="show-and-tell-39">Show and Tell 39</h1>
+          <h2 id="tom-s">Tom S</h2>
+          <ul>
+            <li>Upgrade RSpec</li>
+            <li>Diff generated spec helper with existing
+              <ul>
+                <li>Monkey-patching</li>
+              </ul>
+            </li>
+            <li>Use verifying doubles
+              <ul>
+                <li>Tom quite likes it</li>
+              </ul>
+            </li>
+            <li>Why like instance_double(‘Foo’) vs instance_double(Foo)?</li>
+            <li>Unit test shouldn’t care about interface of associated classes/objects but when run as part of Rake it gives an integration test for free</li>
+            <li>Partial double verification
+              <ul>
+                <li>Going to be default in RSpec v4</li>
+                <li>Stub method on existing object</li>
+              </ul>
+            </li>
+            <li>October start - 3 month project
+              <ul>
+                <li>RSpec v3.6: without_partial_double_verification</li>
+                <li>Rails view specs - don’t verify doubles</li>
+                <li>“I don’t write view specs”</li>
+                <li>Disabled in view specs to allow people to not worry about adding them</li>
+                <li>Anonymous controllers in specs
+                  <ul>
+                    <li>Add methods to anonymous controllers that fail fast</li>
+                    <li>Illustrates contract between controller and mixin</li>
+                    <li>Helpers have access to “controller” but you can’t define methods on it</li>
+                    <li>define_attribute_methods</li>
+                  </ul>
+                </li>
+                <li>90% were real mistakes - probably causing real problems</li>
+                <li>Tom’s gone through and fixed them all
+                  <ul>
+                    <li>Chris wondered whether GDS would turn it on and then leave it to others to fix it</li>
+                  </ul>
+                </li>
+                <li>Rename DB column</li>
+                <li>Unit test continued to pass because it’s stubbing find_by_voucher_code</li>
+                <li>Tom rebased branch and discovered a real problem</li>
+              </ul>
+            </li>
+            <li>James M mentioned OO-matron by Nat Pryce</li>
+          </ul>
+          <h2 id="ben-g">Ben G</h2>
+          <ul>
+            <li>
+              <p>Computation Club: 3D Xmas tree</p>
+            </li>
+            <li>Explain 3D in a different way</li>
+            <li>2D/3D transforms</li>
+            <li>3D = usable approximation of real physical world</li>
+            <li>Want to give people understanding of why we use surfaces - it’s a choice</li>
+            <li>Higher level - represent surface in some way</li>
+            <li>Feedback on whether good way to explain things</li>
+            <li>3D image on flat screen</li>
+            <li>Surface. Lights coming off it.</li>
+            <li>3 ways to describe surface</li>
+            <li>3D -&gt; 2D and surface -&gt; lines</li>
+            <li>Vector based vs pixel based</li>
+            <li>Algebraic ways of drawing line</li>
+          </ul>
+          <table>
+            <thead>
+              <tr>
+                <th>Algebraic</th>
+                <th>Pixels</th>
+                <th>Sampling</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>programs</td>
+                <td>voxels</td>
+                <td>mesh</td>
+              </tr>
+              <tr>
+                <td>y=mx+c</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Illustrator</td>
+                <td>Paint</td>
+                <td>Bezier curves</td>
+              </tr>
+              <tr>
+                <td>algebra/maths</td>
+                <td>Boolean operations</td>
+                <td>interpolation</td>
+              </tr>
+              <tr>
+                <td>solving equations</td>
+                <td>and/or</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>ray tracing</td>
+                <td>Minecraft</td>
+                <td>3D games</td>
+              </tr>
+              <tr>
+                <td>shadertoy/demo/4K</td>
+                <td>Worms</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>Lemmings</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="comments" id="comments">
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id="article_links">
+        <h3>Recent</h3>
+        <div id="recent_articles">
+          <ol class="show-and-tell_list" reversed="">
+            <li value="6">
+              <a href="/show-and-tell-42">Show and Tell 42</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-40">Show and Tell 40</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-37">Show and Tell 37</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-36">Show and Tell 36</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-35">Show and Tell 35</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-34">Show and Tell 34</a>
+            </li>
+          </ol>
+          <script async defer src="https://gfr-show-and-tell-slack.herokuapp.com/slackin.js?">
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/application-a06a15e76d88968aa98de5792d639d527018444227ecda8004f3fb4a3e0d1d6f.js">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

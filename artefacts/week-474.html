@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ruby rails software development london" name="keywords">
+  <meta content="telephone=no" name="format-detection">
+  <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
+  <script src="http://use.typekit.com/rny4upv.js" type="text/javascript">
+  </script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <title>Week 474 — Go Free Range.</title>
+</head>
+<body class="blog">
+  <div id="page">
+    <div class="group" id="header">
+      <ul class="nav group" id="blog_nav">
+        <li id="link_home">
+          <p>Visit our <a href="/">company website</a></p>
+        </li>
+        <li id="link_rss">
+          <p>Grab the <a href="http://feeds.gofreerange.com/GoFreeRangeBlog" title="RSS Feed from Feedburner">RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id="logo"><a href="/blog" title="Go to blog index">Blog index</a></h1>
+    </div>
+    <div class="group" id="content">
+      <div class="blog_entry group">
+        <p class="article_date">Thursday 22nd February, 2018</p>
+        <div class="author">
+          <img alt="Chris Lowis" src="images/people/chris-lowis.jpg"> <span>by Chris Lowis</span>
+        </div>
+        <div class="content">
+          <h1 id="week-474">Week 474</h1>
+          <p>With only a couple of weeks remaining on our current project with GDS, we’ve been working hard to get as many things done as we can. I worked remotely again this week, while James and Chris split their time between TOG offices and Space4.</p>
+          <h2 id="asset-manager">Asset Manager</h2>
+          <p>I spent most of the week, on-and-off, gradually <a href="https://github.com/alphagov/asset-manager/issues/441">migrating attachments</a> from Whitehall to Asset Manager. After migrating over 1.4 million files, we noticed that around 4 files were on the Whitehall disk but not in the Asset Manager database. It’s still a bit of a mystery what happened to them - we had an incident where the redis instance that stored the message queue used to queue up the migration ran out of memory. Perhaps at this point a job or two was lost? Regardless, once we knew which ones were missing it was a simple fix to migrate them and all was well. This means that once we’re able to serve the assets from Asset Manager we can finally delete these 500GB of files from the disks.</p>
+          <p>Before we can get there we need to be able to replicate the access control features of Whitehall in Asset Manager. In particular James worked on <a href="https://github.com/alphagov/whitehall/pull/3769">updating the “draft” status of an asset</a> in Asset Manager when it is published in Whitehall while Chris made changes to Asset Manager to <a href="https://github.com/alphagov/asset-manager/pull/471">restrict access to assets to certain groups of users</a>.</p>
+          <h2 id="other-good-things">Other Good Things</h2>
+          <ul>
+            <li>A potential client sent us over some documentation and code to have a look at so that we’re better able to tell them whether we’re the right people to take on their project. It sounds exciting so far.</li>
+            <li>We finally sorted out the bar tab from last year’s CoTech retreat at Wortley Hall.</li>
+            <li>We received some great advice from our <a href="http://www.goddardsolutions.co.uk/">accountant Dawn</a> about categorisation of business expenses, non-EU VAT and company-supported childcare.
+            </li>
+            <li>Chris went to an auction.</li>
+            <li>James and Chris had lunch in <a href="https://the-attendant.com/locations/fitzrovia/">a (former) toilet</a>.
+            </li>
+          </ul>
+          <p>That’s all folks!</p>
+        </div>
+        <div class="comments" id="comments">
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id="article_links">
+        <h3>Recent</h3>
+        <div id="recent_articles">
+          <ol class="blog_list" reversed="">
+            <li value="6">
+              <a href="/week-481">Week 481</a>
+            </li>
+            <li value="5">
+              <a href="/week-480">Week 480</a>
+            </li>
+            <li value="4">
+              <a href="/week-477">Week 477</a>
+            </li>
+            <li value="3">
+              <a href="/week-479">Week 479</a>
+            </li>
+            <li value="2">
+              <a href="/week-478">Week 478</a>
+            </li>
+            <li value="1">
+              <a href="/week-478-links">Week 478 - Interesting links</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/application-a06a15e76d88968aa98de5792d639d527018444227ecda8004f3fb4a3e0d1d6f.js">
+  </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
