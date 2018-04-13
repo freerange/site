@@ -33,10 +33,12 @@ In order to learn a bit more about the technology we decided to build a simple a
 
 Developing an Alexa application, or "skill" involves two phases. Firstly the skill is registered in the Alexa developer console. Here we choose a name, define a series of commands (known as "intents") and provide some sample phrases to trigger those intents. For an example, a conversation with our Go Free Range Helper skill might go like:
 
+<pre>
 > Me: Alexa, ask the Go Free Range Helper to choose someone
 > Alexa: Chris L is the chosen one
 > Me: Choose someone else
 > Alexa: Ben is the chosen one
+</pre>
 
 The command to "choose someone" results in some JSON like
 
