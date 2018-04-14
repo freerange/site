@@ -68,7 +68,7 @@ Airbrake.add_filter do |notice|
 end
 
 Airbrake.add_filter do |notice|
-  if notice[:errors].any? { |error| error[:type] == 'ActionController::BadRequest' && error[:message][/^Invalid query parameters/] }
+  if notice[:errors].any? { |error| error[:type] == 'ActionController::BadRequest' && error[:message][/^Invalid (query|path) parameters/] }
     notice.ignore!
   end
 end
