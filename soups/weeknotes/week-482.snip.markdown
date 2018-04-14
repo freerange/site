@@ -58,11 +58,12 @@ We wrote a [simple nodejs application](https://github.com/freerange/alexa-helper
 
 Chris R also implemented the same application for the Google Assistant platform using [Dialogflow](https://dialogflow.com/) to write and deploy the application. Here's a video of it being tested using the developer tools in Dialogflow:
 
-<video width="600" height="400" controls>
-  <source src="images/blog/gfr-assignomatic.mov" type="video/quicktime">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+<p>
+  <video class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" height="400" width="600" poster="http://videos.gofreerange.com/d4bb42b2/480p-00001.png" data-setup='{}'>
+    <source src="http://videos.gofreerange.com/d4bb42b2/480p.mp4" type="video/mp4" />
+    <source src="http://videos.gofreerange.com/d4bb42b2/480p.webm" type="video/webm" />
+  </video>
+</p>
 
 Towards the end of the week, having got a grasp on the development process and terminology, we started to work on our more sophisticated application idea - porting a text adventure game to Alexa. Ben investigated several implementations of the "z-machine" interpreter that allows popular text adventure games to be run. He settled on [this Ruby implementation](https://github.com/freerange/gruesome) and set about modifying it to work with our proposed architecture. This involved modifying the code to allow the state to be serialised and reloaded, which will allow our Alexa application to keep track of where a player is in the game. He also added a Sinatra-based API to the engine so that it could be played using HTTP.
 
