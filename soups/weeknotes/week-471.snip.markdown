@@ -33,11 +33,10 @@ That's all folks!
 -- James
 
 :name: week-471
-:updated_at: 2018-04-17 10:49:51.024774000 +01:00
-:created_at: 2018-04-17 10:49:51.024772000 +01:00
+:updated_at: 2018-04-17 12:00:48.536053000 +01:00
+:created_at: 2018-04-17 12:00:48.536036000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
