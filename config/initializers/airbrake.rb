@@ -68,7 +68,8 @@ Airbrake.add_filter do |notice|
 end
 
 Airbrake.add_filter do |notice|
-  if notice[:errors].any? { |error| error[:type] == 'ActionController::BadRequest' && error[:message][/^Invalid (query|path) parameters/] }
+  rescue_responses = ActionDispatch::ExceptionWrapper.rescue_responses
+  if notice[:errors].any? { |e| rescue_responses[e[:type]] != :internal_server_error }
     notice.ignore!
   end
 end
