@@ -46,7 +46,7 @@ Chris found the source in the [Guardian's frontend repository on GitHub][github-
 
 He's keen to share the project more widely but's concerned that he might be violating the Guardian's terms of service.
 
-[github-guardian-frontend]: ]https://github.com/guardian/frontend
+[github-guardian-frontend]: https://github.com/guardian/frontend
 
 ---
 
