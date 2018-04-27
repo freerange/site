@@ -34,11 +34,10 @@ Until next time.
 [upcoming-availability]: /upcoming-availability
 
 :name: week-484
-:updated_at: 2018-04-27 14:32:38.958906000 +01:00
-:created_at: 2018-04-27 14:32:38.958905000 +01:00
+:updated_at: 2018-04-27 15:52:41.510409000 +01:00
+:created_at: 2018-04-27 15:52:41.510391000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
