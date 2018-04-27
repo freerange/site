@@ -12,7 +12,7 @@ Our favourite language is Ruby and we're happy to work on Rails projects. We can
 
 If you think we might be able to work together [drop us a line](mailto:lets@gofreerange.com) and we'll arrange to meet you for a cuppa.
 
-:Render_as: Blog
+:render_as: Blog
 :kind: blog
 :is_page: true
 :written_with: markdown
