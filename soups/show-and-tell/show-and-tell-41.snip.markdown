@@ -95,11 +95,10 @@ Bash showed us the React karaoke app he's building. It's similar in style to ear
 Bash is building the app to help him learn React and to, ultimately, help him get to better karaoke parties :-)
 
 :name: show-and-tell-41
-:updated_at: 2018-03-09 15:20:06.679019000 +00:00
-:created_at: 2018-03-09 15:20:06.679017000 +00:00
+:updated_at: 2018-04-27 17:25:35.250780000 +01:00
+:created_at: 2018-04-27 17:25:35.250755000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
