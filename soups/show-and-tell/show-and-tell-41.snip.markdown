@@ -4,7 +4,7 @@ Show and Tell 41
 [James M][james-mead] and I were joined by [Chris P][chris-patuzzo], [Chris Z][chris-zetter], [James A][james-adam], [Tom S][tom-stuart] and first time attendee, [Bash][bash].
 
 [bash]: https://www.howlinbash.com/
-[chris-patuzzo]: http://chris.patuzzo.co.uk/
+[chris-patuzzo]: https://twitter.com/chrispatuzzo
 [chris-zetter]: https://chriszetter.com/
 [james-adam]: http://lazyatom.com/
 [james-mead]: /james-mead
@@ -20,11 +20,11 @@ Tom S showed us his little [Line-us][line-us] drawing robot that he recently rec
 
 He showed us how to use the Line-us drawing app to control the robot before explaining how he's been reverse engineering it to allow him to control it programmatically.
 
-Tom used [DNS Service Discovery][dns-sd] (DNS-SD) to find the device listening on port 1337 and then used Wireshark to inspect the traffic to and from the robot. Inspecting the traffic revealed some kind of heartbeat message being sent once per second as well as other messages more directly connected to movement in the robot. At some point Tom realised these commands were all part of [G-code][g-code], although not before he'd spent a while manually working out what they were doing.
+Tom used [DNS Service Discovery][dns-sd] (DNS-SD) to find the device listening on port 1337 and then used Wireshark to inspect the traffic to and from the robot. Inspecting the traffic revealed some kind of heartbeat message being sent once per second as well as other messages that more obviously control the movement of the robot. At some point Tom realised these commands were all part of [G-code][g-code], although not before he'd spent a while manually working out what they were doing.
 
 Tom's used what he learnt to write a multithreaded Ruby client that allows him to regularly send the heartbeat as well as the other commands he needs to control the arm. He demonstrated this working by instructing the arm to draw a [Hilbert Curve][hilbert-curve].
 
-I'm not sure I can necessarily think of a reason to own a Line-us but I was pretty impressed by Tom's reverse engineering skills that allow him to control is programmatically.
+I'm not sure I can necessarily think of a reason to own a Line-us but I was nevertheless impressed by Tom's reverse engineering skills that allow him to control it programmatically.
 
 [dns-sd]: http://www.dns-sd.org/
 [line-us]: http://line-us.com/
@@ -52,13 +52,19 @@ He's keen to share the project more widely but's concerned that he might be viol
 
 ## Generating random data
 
-I spoke about generating data to help with manual testing during our asset manager work at GDS. I'd often find myself using the admin interface to create objects in the system and wanted a way of generating names for the things I was creating. I started by sequentially numbering the things I was creating (e.g. "thing-1", "thing-2", "thing-n") but it soon becomes hard to remember which number I was up to. I moved on to using timestamps (e.g. "2018-04-24 113700", "2018-04-24 113730") which were a bit better because I didn't have to remember anything but were still a bit problematic because they're hard to distinguish when you have a number of them. In the end, I used a combination of a timestamp and a random word from the words file on my Mac. This naming convention has the advantage of conveying when the thing was created and of having a unique name that makes it easy to recognise in the short term.
+I spoke about using [Automator][automator] to generate data to help with manual testing during our asset manager work at GDS. I'd often find myself using the admin interface to create objects in the system and wanted a way of generating names for the things I was creating.
+
+I started by sequentially numbering the things I was creating (e.g. "thing-1", "thing-2", "thing-n") but it soon becomes hard to remember which number I was up to. I moved on to using timestamps (e.g. "2018-04-24 113700", "2018-04-24 113730") which were a bit better because I didn't have to remember anything but were still a bit problematic because they're hard to distinguish when you have a number of them.
+
+In the end, I used a combination of a timestamp and a random word from the words file on my Mac. This naming convention has the advantage of conveying when the thing was created and of having a unique name that makes it easy to recognise in the short term.
+
+[automator]: https://support.apple.com/en-gb/guide/automator/welcome/mac
 
 ---
 
 ## Parsing emails
 
-James explained the difficulty he's having in trying to reliably parse emails. You might think it's a solved problem but it seems that even hosted services (e.g. [Mailgun][mailgun] and [Mailchimp][mailchimp]) do it slightly differently and therefore it's not completely obvious that you'd use such a service rather than doing it yourself.
+James A explained the difficulty he's having in trying to reliably parse emails for some mailing list software he's been working on. It might sound as though it should be a solved problem but it seems that even hosted services (e.g. [Mailgun][mailgun] and [Mailchimp][mailchimp]) do it slightly differently and therefore it's not completely obvious that you'd use such a service instead of writing something to parse them.
 
 [mailgun]: https://www.mailgun.com/
 [mailchimp]: https://mailchimp.com/
@@ -69,13 +75,11 @@ James explained the difficulty he's having in trying to reliably parse emails. Y
 
 ![James A describing Spacemacs and magit](/images/blog/2018-02-23-show-and-tell-41-james-a-magit.jpg)
 
-James gave us a bit of an intro to [Spacemacs][spacemacs]. It's the first time he's had some enthusiasm for a text editor in a while.
+James A gave us a bit of an intro to [Spacemacs][spacemacs]. He's switched editors a few times over the years and this is the first time in a while that he's had some enthusiasm for one of them.
 
-If you can see the value in Vim but struggle to use it effectively then James suggests that it might be worth trying Spacemacs. The extensive documentation and easily discoverable commands make it very easy to get started with.
+James explained that the extensive documentation and easily discoverable commands make it very easy to get started with. And that if you can see the value in Vim but have struggled to use it effectively then you might want to give Spacemacs a try.
 
-He demonstrated the [magit][magit] git package that provides git integration right in the editor.
-
-He also showed his own testing command/script that allows him to use the `rails test` command from within the editor.
+He demonstrated the [magit][magit] git package that provides git integration in the editor and briefly showed us his custom command/script that allows him to run `rails test` from within the editor.
 
 [spacemacs]: http://spacemacs.org/
 [magit]: https://magit.vc/
@@ -86,11 +90,9 @@ He also showed his own testing command/script that allows him to use the `rails 
 
 ![Bash showing his karaoke app](/images/blog/2018-02-23-show-and-tell-41-bash-karaoke.jpg)
 
-Bash showed us the karaoke app he's building. He was particularly interested in feedback on the user interface but I'm not sure any of the rest of us are karaoke fans so I'm not sure we could really help.
+Bash showed us the React karaoke app he's building. It's similar in style to early versions of iTunes in that it allows you to filter by Era, Genre, Artist and Song to help find the music you're interested in. I'm not really up on the current state of karaoke but if it's still common practice to flick through a book of hundreds of songs then I can imagine this being much easier to use.
 
-Building an app to replace the printed book of songs you might otherwise find. To make it easier to find the song you want to sing.
-
-He's a self-taught beginner developer and is building this app in an attempt to ultimately get to better karaoke parties.
+Bash is building the app to help him learn React and to, ultimately, help him get to better karaoke parties :-)
 
 :name: show-and-tell-41
 :updated_at: 2018-03-09 15:20:06.679019000 +00:00
