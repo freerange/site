@@ -10,12 +10,14 @@
   <meta content="ruby rails software development london" name="keywords">
   <meta content="telephone=no" name="format-detection">
   <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="//vjs.zencdn.net/4.7.2/video-js.css" rel="stylesheet">
   <link href="/favicon.ico" rel="shortcut icon">
   <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
   <script src="http://use.typekit.com/rny4upv.js" type="text/javascript"></script>
   <script>
   try{Typekit.load();}catch(e){}
   </script>
+  <script src="//vjs.zencdn.net/4.7.2/video.js"></script>
   <title>Show and Tell 41 — Go Free Range.</title>
 </head>
 <body class="blog">
@@ -33,35 +35,47 @@
     </div>
     <div class="group" id="content">
       <div class="blog_entry group">
-        <p class="article_date">Friday 9th March, 2018</p>
+        <p class="article_date">Friday 27th April, 2018</p>
         <div class="author">
           <img alt="Chris Roos" src="images/people/chris-roos.jpg"> <span>by Chris Roos</span>
         </div>
         <div class="content">
           <h1 id="show-and-tell-41">Show and Tell 41</h1>
-          <p>JM, Tom S, James A, Chris P, Chris Z, Bash.</p>
+          <p><a href="/james-mead">James M</a> and I were joined by <a href="https://twitter.com/chrispatuzzo">Chris P</a>, <a href="https://chriszetter.com/">Chris Z</a>, <a href="http://lazyatom.com/">James A</a>, <a href="http://codon.com/">Tom S</a> and first time attendee, <a href="https://www.howlinbash.com/">Bash</a>.</p>
+          <hr>
           <h2 id="line-us">Line-us</h2>
-          <p>Tom S showed us his little Line-us drawing robot. He supported the Kickstarter because one of his friends is involved.</p>
-          <p>The control app is available on iPad, iPhone and Mac, although the Mac version is somehow the same version as for the phone/tablet and therefore doesn’t look great.</p>
-          <p>Tom was interested in being able to control it programmatically rather than having to use the supplied software.</p>
-          <p>He used DNS-SD to discover the device. Found it listening on port 1337 :-) Used Wireshark to record traffic to/from the device, having filtered by port 1337.</p>
-          <p>Noticed that the M114 message was being sent about once per second. Appears to be some kind of heartbeat. After some investigation he discovered that the little robot is speaking G-Code - a/the 3d printer/CNC protocol.</p>
-          <p>G01 command is the standard draw command.</p>
-          <p>He’s written a multithreaded Ruby client so that he can continue to send the heartbeat (not sure whether this is important) as well as the other commands he needs to actually control the arm.</p>
-          <p>He demonstrated his software by instructing the robot to draw a Hilbert Curve.</p>
+          <p><img alt="Tom with a Hilbert Curve" src="/images/blog/2018-02-23-show-and-tell-41-tom-s-hilbert-curve.jpg"></p>
+          <p>Tom S showed us his little <a href="http://line-us.com/">Line-us</a> drawing robot that he recently received after backing the <a href="https://www.kickstarter.com/projects/line-us/line-us-the-little-robot-drawing-arm">product Kickstarter</a>.</p>
+          <p>He showed us how to use the Line-us drawing app to control the robot before explaining how he’s been reverse engineering it to allow him to control it programmatically.</p>
+          <p>Tom used <a href="http://www.dns-sd.org/">DNS Service Discovery</a> (DNS-SD) to find the device listening on port 1337 and then used Wireshark to inspect the traffic to and from the robot. Inspecting the traffic revealed some kind of heartbeat message being sent once per second as well as other messages that more obviously control the movement of the robot. At some point Tom realised these commands were all part of <a href="https://en.wikipedia.org/wiki/G-code">G-code</a>, although not before he’d spent a while manually working out what they were doing.</p>
+          <p>Tom’s used what he learnt to write a multithreaded Ruby client that allows him to regularly send the heartbeat as well as the other commands he needs to control the arm. He demonstrated this working by instructing the arm to draw a <a href="https://en.wikipedia.org/wiki/Hilbert_curve">Hilbert Curve</a>.</p>
+          <p>I’m not sure I can necessarily think of a reason to own a Line-us but I was nevertheless impressed by Tom’s reverse engineering skills that allow him to control it programmatically.</p>
+          <hr>
           <h2 id="multiplayer-crosswords">Multiplayer crosswords</h2>
+          <p><img alt="Chris Z demonstrating his multiplayer crossword" src="/images/blog/2018-02-23-show-and-tell-41-chris-z-crossword.jpg"></p>
           <p>Chris Z explained that he’s been doing quite a few crosswords recently. Particularly on the Guardian. He often asks his partner for help with some of the clues and wondered whether it’d be possible to build something to allow them both to play at the same time.</p>
           <p>He discovered that the data for the Guardian crosswords (including the answers!) is stored as JSON in the page. The image is created as an SVG and the whole thing is a React component.</p>
-          <p>Chris found the source in the guardian’s frontend repository on github - https://github.com/guardian/frontend. Although the code is available it’s not really set-up for external use. Chris extracted the JS and deployed it to Heroku. He’s connected the React app to websockets to allow multiple people to use it at the same time. He demonstrated this by having a number of us answering clues at the same time.</p>
-          <p>Chris has found a few problems with the Guardian implementation and is keen to submit fixes.</p>
-          <p>He’s keen to share it more widely but is wary that he might be violating the Guardian’s terms of service.</p>
+          <p>Chris found the source in the <a href="https://github.com/guardian/frontend">Guardian’s frontend repository on GitHub</a> and managed to get it running on Heroku. He’s modified the React app to use websockets to allow multiple people to use it at the same time. He demonstrated this by having a number of us answering clues at the same time.</p>
+          <p>He’s keen to share the project more widely but’s concerned that he might be violating the Guardian’s terms of service.</p>
+          <hr>
           <h2 id="generating-random-data">Generating random data</h2>
-          <p>I spoke about generating data to help with our asset manager work at GDS. Creating lots of things - want to give them unique names. Sequential numbering becomes a pain to remember so I’m using timestamps. I created a shell script and then an automator action to copy a timestamp to the clipboard. I also want to create new files to use as attachments and so have an automator app to do that too.</p>
-          <h2 id="heylist">Heylist</h2>
-          <p>Parsing emails? Using a service (Mailgun / Mailchimp) vs doing it himself? Is it a solved problem? If not/why now</p>
-          <p>TODO: Ask someone what James was talking about - I missed the beginning of the talk.</p>
+          <p>I spoke about using <a href="https://support.apple.com/en-gb/guide/automator/welcome/mac">Automator</a> to generate data to help with manual testing during our asset manager work at GDS. I’d often find myself using the admin interface to create objects in the system and wanted a way of generating names for the things I was creating.</p>
+          <p>I started by sequentially numbering the things I was creating (e.g. “thing-1”, “thing-2”, “thing-n”) but it soon becomes hard to remember which number I was up to. I moved on to using timestamps (e.g. “2018-04-24 113700”, “2018-04-24 113730”) which were a bit better because I didn’t have to remember anything but were still a bit problematic because they’re hard to distinguish when you have a number of them.</p>
+          <p>In the end, I used a combination of a timestamp and a random word from the words file on my Mac. This naming convention has the advantage of conveying when the thing was created and of having a unique name that makes it easy to recognise in the short term.</p>
+          <hr>
+          <h2 id="parsing-emails">Parsing emails</h2>
+          <p>James A explained the difficulty he’s having in trying to reliably parse emails for some mailing list software he’s been working on. It might sound as though it should be a solved problem but it seems that even hosted services (e.g. <a href="https://www.mailgun.com/">Mailgun</a> and <a href="https://mailchimp.com/">Mailchimp</a>) do it slightly differently and therefore it’s not completely obvious that you’d use such a service instead of writing something to parse them.</p>
+          <hr>
           <h2 id="spacemacs">Spacemacs</h2>
+          <p><img alt="James A describing Spacemacs and magit" src="/images/blog/2018-02-23-show-and-tell-41-james-a-magit.jpg"></p>
+          <p>James A gave us a bit of an intro to <a href="http://spacemacs.org/">Spacemacs</a>. He’s switched editors a few times over the years and this is the first time in a while that he’s had some enthusiasm for one of them.</p>
+          <p>James explained that the extensive documentation and easily discoverable commands make it very easy to get started with. And that if you can see the value in Vim but have struggled to use it effectively then you might want to give Spacemacs a try.</p>
+          <p>He demonstrated the <a href="https://magit.vc/">magit</a> git package that provides git integration in the editor and briefly showed us his custom command/script that allows him to run <code>rails test</code> from within the editor.</p>
+          <hr>
           <h2 id="karaoke">Karaoke</h2>
+          <p><img alt="Bash showing his karaoke app" src="/images/blog/2018-02-23-show-and-tell-41-bash-karaoke.jpg"></p>
+          <p>Bash showed us the React karaoke app he’s building. It’s similar in style to early versions of iTunes in that it allows you to filter by Era, Genre, Artist and Song to help find the music you’re interested in. I’m not really up on the current state of karaoke but if it’s still common practice to flick through a book of hundreds of songs then I can imagine this being much easier to use.</p>
+          <p>Bash is building the app to help him learn React and to, ultimately, help him get to better karaoke parties :-)</p>
         </div>
         <div class="comments" id="comments">
           Disqus commenting is only enabled in production.
@@ -72,22 +86,22 @@
         <div id="recent_articles">
           <ol class="show-and-tell_list" reversed="">
             <li value="6">
-              <a href="/show-and-tell-42">Show and Tell 42</a>
+              <a href="/show-and-tell-41">Show and Tell 41</a>
             </li>
             <li value="5">
-              <a href="/show-and-tell-40">Show and Tell 40</a>
+              <a href="/show-and-tell-43">Show and Tell 43</a>
             </li>
             <li value="4">
-              <a href="/show-and-tell-37">Show and Tell 37</a>
+              <a href="/show-and-tell-42">Show and Tell 42</a>
             </li>
             <li value="3">
-              <a href="/show-and-tell-36">Show and Tell 36</a>
+              <a href="/show-and-tell-40">Show and Tell 40</a>
             </li>
             <li value="2">
-              <a href="/show-and-tell-35">Show and Tell 35</a>
+              <a href="/show-and-tell-37">Show and Tell 37</a>
             </li>
             <li value="1">
-              <a href="/show-and-tell-34">Show and Tell 34</a>
+              <a href="/show-and-tell-36">Show and Tell 36</a>
             </li>
           </ol>
           <script async defer src="https://gfr-show-and-tell-slack.herokuapp.com/slackin.js?"></script>

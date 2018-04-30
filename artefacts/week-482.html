@@ -10,12 +10,14 @@
   <meta content="ruby rails software development london" name="keywords">
   <meta content="telephone=no" name="format-detection">
   <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="//vjs.zencdn.net/4.7.2/video-js.css" rel="stylesheet">
   <link href="/favicon.ico" rel="shortcut icon">
   <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
   <script src="http://use.typekit.com/rny4upv.js" type="text/javascript"></script>
   <script>
   try{Typekit.load();}catch(e){}
   </script>
+  <script src="//vjs.zencdn.net/4.7.2/video.js"></script>
   <title>Week 482 — Go Free Range.</title>
 </head>
 <body class="blog">
@@ -75,7 +77,8 @@
 </pre>
           <p>being sent to a application that can be accessed at an end point defined in the skill configuration. The application responds with the text to be spoken which is then read out by Alexa. Amazon suggest to use their “serverless” <a href="https://aws.amazon.com/lambda/">Lambda</a> platform to run the application, but it is also possible to use any application accessible over HTTPS.</p>
           <p>We wrote a <a href="https://github.com/freerange/alexa-helper">simple nodejs application</a> to handle the logic of the application. We also spent some time learning how to deploy Lambda applications using the <a href="https://github.com/serverless/serverless">Serverless Framework</a> and test it using <a href="https://facebook.github.io/jest/">Jest</a>.</p>
-          <p>Chris R also implemented the same application for the Google Assistant platform using <a href="https://dialogflow.com/">Dialogflow</a> to write and deploy the application. Here’s a video of it being tested using the developer tools in Dialogflow:</p><video controls="" height="400" width="600"><source src="images/blog/gfr-assignomatic.mov" type="video/quicktime"> <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.</video>
+          <p>Chris R also implemented the same application for the Google Assistant platform using <a href="https://dialogflow.com/">Dialogflow</a> to write and deploy the application. Here’s a video of it being tested using the developer tools in Dialogflow:</p>
+          <p><video class="video-js vjs-default-skin vjs-big-play-centered" controls="" data-setup="{}" height="400" poster="http://videos.gofreerange.com/d4bb42b2/480p-00001.png" preload="none" width="600"><source src="http://videos.gofreerange.com/d4bb42b2/480p.mp4" type="video/mp4"> <source src="http://videos.gofreerange.com/d4bb42b2/480p.webm" type="video/webm"></video></p>
           <p>Towards the end of the week, having got a grasp on the development process and terminology, we started to work on our more sophisticated application idea - porting a text adventure game to Alexa. Ben investigated several implementations of the “z-machine” interpreter that allows popular text adventure games to be run. He settled on <a href="https://github.com/freerange/gruesome">this Ruby implementation</a> and set about modifying it to work with our proposed architecture. This involved modifying the code to allow the state to be serialised and reloaded, which will allow our Alexa application to keep track of where a player is in the game. He also added a Sinatra-based API to the engine so that it could be played using HTTP.</p>
           <p>As I write, Chris is hooking up this game engine to a new Alexa Skill. If we decide to carry on with this side-project next week, we’ll have more to show you then.</p>
           <p>Until next time!</p><!-- add content here -->
@@ -89,22 +92,22 @@
         <div id="recent_articles">
           <ol class="blog_list" reversed="">
             <li value="6">
-              <a href="/week-482">Week 482</a>
+              <a href="/week-484">Week 484</a>
             </li>
             <li value="5">
-              <a href="/week-481">Week 481</a>
+              <a href="/upcoming-availability">Upcoming availability</a>
             </li>
             <li value="4">
-              <a href="/week-480">Week 480</a>
+              <a href="/week-471">Week 471</a>
             </li>
             <li value="3">
-              <a href="/week-477">Week 477</a>
+              <a href="/week-482">Week 482</a>
             </li>
             <li value="2">
-              <a href="/week-479">Week 479</a>
+              <a href="/week-481">Week 481</a>
             </li>
             <li value="1">
-              <a href="/week-478">Week 478</a>
+              <a href="/week-480">Week 480</a>
             </li>
           </ol>
         </div>
