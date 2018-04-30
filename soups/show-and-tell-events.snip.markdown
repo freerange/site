@@ -1,6 +1,6 @@
 ## Show and Tell Events
 
-We host this event on the third (previously the second) Wednesday of every month, starting at 6.30pm and running for two hours. The idea is for people to demonstrate side projects, open-source projects, etc in an informal setting with the aim of garnering friendly and constructive feedback.
+We host this event on the ~~second~~ third Wednesday of every month, starting at 6.30pm and running for two hours. The idea is for people to demonstrate side projects, open-source projects, etc in an informal setting with the aim of garnering friendly and constructive feedback.
 
 We started running the event back in April 2014 at the suggestion of Tom Stuart. At the time we had our own office with plenty of spare space and so we encouraged friends to come and make use of it. This led to lots of informal demos and chats about what we were all working on. We really enjoyed these sessions and so with Tom's encouragement, the GFR Show & Tell was born.
 
