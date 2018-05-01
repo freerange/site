@@ -84,11 +84,10 @@ Chris's Magic Eye demo and discussion reminded Ben of his [Hough Transform blog 
 [beng-show-and-tell-27]: /show-and-tell-27#ben-g---blog-posts-and-distractions
 
 :name: show-and-tell-38
-:updated_at: 2018-01-05 15:35:48.689803000 +00:00
-:created_at: 2018-01-05 15:35:48.689801000 +00:00
+:updated_at: 2018-05-01 09:07:18.262607000 +01:00
+:created_at: 2018-05-01 09:07:18.262589000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
