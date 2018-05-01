@@ -10,17 +10,15 @@ Show and Tell 38
 
 ---
 
-## WordPress site hacked
+## WordPress site hack
 
 I kicked off the evening by talking about my attempts at repairing a hacked WordPress site.
 
-We discovered the hack when we noticed that the site was redirecting to a porn site. We spoke to the website host and they identified a number of suspect .php files that we promptly removed. We thought this was the end of it until we got some reports of it continuing to redirect to other websites. I couldn't immediately replicate the problem and so wondered whether the redirects might've been cached by certain browsers. Some further investigation revealed this not to be the case: I was able to replicate the problem by manually setting my user agent. I eventually found the culprit hidden in a number of .htaccess files that had been written to the WordPress installation. These .htaccess files contained redirect rules that only applied when certain conditions were met (including based on the user agent). Removing the suspect .htaccess files appears to fix the problem!
+We discovered the hack when we noticed that the site was redirecting to a porn site. We spoke to the website host and they identified a number of suspect .php files that we promptly removed. We thought this was the end of it until we got some reports of it continuing to redirect to other websites. I couldn't immediately replicate the problem and so wondered whether the redirects might've been cached by certain browsers. Further investigation revealed this not to be the case: I was able to replicate the problem by manually setting my user agent. I eventually found the culprit hidden in a number of .htaccess files that had been written to the WordPress installation. These .htaccess files contained redirect rules that only applied when certain conditions were met (including based on the user agent). Removing the suspect .htaccess files appears to fix the problem!
 
 I also investigated some of the rogue php files that had been uploaded. They were obfuscated so I used Ruby to unobfuscate the code to try to understand what was happening. Ben's best guess was that it was used as part of a DDOS attack. The php would make a request to another website with some element of randomness.
 
 Ben mentioned the [DXW Security][dxw-security] site as a good resource for these sort of problems.
-
-I never got to the bottom of the cause of the hack in the first place.
 
 [dxw-security]: https://security.dxw.com/
 
@@ -32,7 +30,7 @@ I never got to the bottom of the cause of the hack in the first place.
 
 Chris Z talked us through a recent contribution he made to OpenStreetMap.
 
-He'd noticed a new bridge near King's Cross - Somers Town Bridge - and thought it was a good opportunity to add it to the map. Adding the bridge itself was relatively straightforward. He ran into problems when he tried to add the various restrictions placed upon access to the bridge (e.g. opening times and the fact that it was privately owned but included public access). He wanted to get this right as he didn't want someone to attempt to use the bridge when it was closed overnight. Having wrapped his head around the various rules he needed to add he eventually realised that there wasn't any routing software that made use of them anyway!
+He'd noticed a new bridge near King's Cross - Somers Town Bridge - and thought it was a good opportunity to add it to the map. Adding the bridge itself was relatively straightforward but he ran into problems when he tried to add the various access restrictions that applied to the bridge (e.g. opening times and the fact that it was privately owned but included public access). He wanted to get this right as he didn't want someone to attempt to use the bridge when it was closed overnight. Having wrapped his head around the various rules he needed to add he eventually realised that there wasn't any routing software that made use of them anyway!
 
 ---
 
@@ -40,13 +38,13 @@ He'd noticed a new bridge near King's Cross - Somers Town Bridge - and thought i
 
 ![Ben demonstrating how to extract data from the Kindle Cloud Reader](/images/blog/2017-11-08-show-and-tell-38-ben-g-kindle-library.jpg)
 
-Ben's son has read lots of books on his Kindle and Ben wanted some way of visualising them. He set about investigating how to scrape the Kindle Cloud Reader to get the data about the books in his son's library. This turned out to be unnecessary because the Kindle Cloud Reader stores its data in a SQL database stored in the browser. This meant that it was as easy as using Safari's "copy table" functionality to extract this data to a tab-separated file.
+Ben's son reads lots of books on his Kindle and Ben wanted some way of visualising them. He set about investigating how to scrape the Kindle Cloud Reader to get the data about the books in his son's library. This turned out to be unnecessary because the Kindle Cloud Reader stores its data in a SQL database stored in the browser. This meant that extracting the data was as easy as using Safari's "copy table" functionality to generate a tab-separated file.
 
 The next step is to try to find pictures of the spines of books. A number of places have pictures of the front and back covers but none seem to have the spines.
 
 Although the database contains details of all books in the library, it only seems to include reading data (e.g. the page you're up to) for the books you've read in the Kindle Cloud reader.
 
-This is something I've been keen to have in the past.
+I've often wanted a way to visualise my reading history so I'm interested to see whether Ben makes any progress with this.
 
 ---
 
