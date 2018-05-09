@@ -37,11 +37,10 @@ The discussion reminded James M of [OO-Matron][oo-matron] by Nat Pryce, although
 Ben spoke about an alternative way of teaching people about 3D modelling. Unfortunately, because the event was 6 months ago and because of my lack of subject knowledge, my notes no longer make any sense to me and so I'm not going to be able to do this any justice. Sorry, Ben!
 
 :name: show-and-tell-39
-:updated_at: 2018-01-05 16:53:45.970409000 +00:00
-:created_at: 2018-01-05 16:53:45.970408000 +00:00
+:updated_at: 2018-05-09 13:11:26.701311000 +01:00
+:created_at: 2018-05-09 13:11:26.701293000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
