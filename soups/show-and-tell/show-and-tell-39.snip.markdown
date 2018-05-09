@@ -1,65 +1,40 @@
 Show and Tell 39
 ================
 
-## Tom S
+[Tom S][tom-stuart] and [Ben G][ben-griffiths] joined [James][james-mead] and I for our 39th Show & Tell in Dec 2017.
 
-* Upgrade RSpec
-* Diff generated spec helper with existing
-  * Monkey-patching
-* Use verifying doubles
-  * Tom quite likes it
-* Why like instance_double('Foo') vs instance_double(Foo)?
-* Unit test shouldn't care about interface of associated classes/objects but when run as part of Rake it gives an integration test for free
-* Partial double verification
-  * Going to be default in RSpec v4
-  * Stub method on existing object
-* October start - 3 month project
-  * RSpec v3.6: without_partial_double_verification
-  * Rails view specs - don't verify doubles
-  * "I don't write view specs"
-  * Disabled in view specs to allow people to not worry about adding them
-  * Anonymous controllers in specs
-    * Add methods to anonymous controllers that fail fast
-    * Illustrates contract between controller and mixin
-    * Helpers have access to "controller" but you can't define methods on it
-    * define_attribute_methods
-  * 90% were real mistakes - probably causing real problems
-  * Tom's gone through and fixed them all
-    * Chris wondered whether GDS would turn it on and then leave it to others to fix it
-  * Rename DB column
-  * Unit test continued to pass because it's stubbing find_by_voucher_code
-  * Tom rebased branch and discovered a real problem
+[ben-griffiths]: https://twitter.com/beng
+[james-mead]: /james-mead
+[tom-stuart]: http://codon.com/
 
-* James M mentioned OO-matron by Nat Pryce
+---
 
-## Ben G
+## RSpec's Verifying Doubles
 
-* Computation Club: 3D Xmas tree
+![Tom talking about Verifying Doubles](/images/blog/2017-12-13-show-and-tell-39-tom-s.jpg)
 
-* Explain 3D in a different way
-* 2D/3D transforms
-* 3D = usable approximation of real physical world
-* Want to give people understanding of why we use surfaces - it's a choice
-* Higher level - represent surface in some way
-* Feedback on whether good way to explain things
-* 3D image on flat screen
-* Surface. Lights coming off it.
-* 3 ways to describe surface
-* 3D -> 2D and surface -> lines
-* Vector based vs pixel based
-* Algebraic ways of drawing line
+Tom explained how he updated the [FutureLearn][futurelearn] tests to use [RSpec's Verifying Doubles][rspec-verifying-doubles] after a recent upgrade to RSpec 3. Verifying Doubles are similar to standard doubles but with the added benefit of verifying that the stubbed methods exist on the object they're being stubbed on.
 
-Algebraic         | Pixels             | Sampling
-------------------|--------------------|---------
-programs          | voxels             | mesh
-y=mx+c            |                    |
-Illustrator       | Paint              | Bezier curves
-algebra/maths     | Boolean operations | interpolation
-solving equations | and/or             |
-ray tracing       | Minecraft          | 3D games
-shadertoy/demo/4K | Worms              |
-                  | Lemmings           |
+Tom's using the `instance_double('Foo')` syntax (as opposed to `instance_double(Foo)`) which toggles verification based on whether the `Foo` constant is defined. This allows the tests to run quickly in isolation but with the added benefit of verification when run in the context of the application (i.e. when all the dependencies are loaded).
 
+Tom's ended up disabling verification in their Rails view specs. There were a number of tests that he couldn't get to work with double verification. He initially disabled verification for those tests (using [`without_partial_double_verification`][rspec-without-partial-verification]) but decided that the cost of having to think about when to disable it didn't justify the benefit of having it enabled.
+
+Shortly after merging the changes to master they caught a problem that would've otherwise probably made it to production. A column was renamed in a migration which broke some code making use of `find_by_<old_column_name>`. This `find_by` method was being stubbed in a test which would've continued to pass had the double verification not complained about the unknown method.
+
+The discussion reminded James M of [OO-Matron][oo-matron] by Nat Pryce, although I'm afraid I no longer recall what the similarities were.
+
+[futurelearn]: https://www.futurelearn.com/
+[oo-matron]: https://blog.magpiebrain.com/2004/07/27/oo-matron/
+[rspec-verifying-doubles]: http://rspec.info/blog/2014/05/notable-changes-in-rspec-3/#verifying-doubles
+[rspec-without-partial-verification]: http://rspec.info/blog/2017/05/rspec-3-6-has-been-released/#mocks-withoutpartialdoubleverification
+
+---
+
+## Teaching 3D
+
+![Ben talking about 3D rendering](/images/blog/2017-12-13-show-and-tell-39-ben-g.jpg)
+
+Ben spoke about an alternative way of teaching people about 3D modelling. Unfortunately, because the event was 6 months ago and because of my lack of subject knowledge, my notes no longer make any sense to me and so I'm not going to be able to do this any justice. Sorry, Ben!
 
 :name: show-and-tell-39
 :updated_at: 2018-01-05 16:53:45.970409000 +00:00
