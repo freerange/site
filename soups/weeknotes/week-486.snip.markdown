@@ -20,11 +20,10 @@ Here's a brief summary of some of the things we got up to:
 <!-- add content here -->
 
 :name: week-486
-:updated_at: 2018-05-14 14:18:18.163949000 +01:00
-:created_at: 2018-05-14 14:18:18.163947000 +01:00
+:updated_at: 2018-05-14 15:59:27.114852000 +01:00
+:created_at: 2018-05-14 15:59:27.114820000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
