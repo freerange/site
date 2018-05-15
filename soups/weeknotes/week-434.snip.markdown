@@ -63,7 +63,7 @@ it turned off next week.
 ## GFR
 
 - We
-  [hosted our monthly show and tell event](http://gofreerange.com/show-and-tell-32) on
+  [hosted our monthly Show and Tell event](http://gofreerange.com/show-and-tell-32) on
   Wednesday evening.
 - We decided to join [SolidFund](http://solidfund.coop/) - the Worker
   Coop Solidarity Fund. SolidFund makes grants available to

@@ -14,7 +14,7 @@ Here's a brief summary of some of the things we got up to:
 - We met a potential client in their offices to discuss some work. The meeting was positive.
 - We had a brief chat with our new office neighbours [Social Value Exchange](https://socialvalueexchange.org/) and suggested some ways they could find suitable developers to work with them.
 - Chris R helped Joaquim sort out an email sending issue with the [CoTech CoBudget installation](https://fund.coops.tech/).
-- We switched to using the recently-resurrected [upcoming.org](https://upcoming.org) for our [show and tell](https://upcoming.org/event/gfr-show-and-tell-44-0o3s38h967) event.
+- We switched to using the recently-resurrected [upcoming.org](https://upcoming.org) for our [Show and Tell](https://upcoming.org/event/gfr-show-and-tell-44-0o3s38h967) event.
 
 
 <!-- add content here -->

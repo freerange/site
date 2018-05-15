@@ -52,7 +52,7 @@ I've often wanted a way to visualise my reading history so I'm interested to see
 
 ![Chris P updating us on his zz automation tool](/images/blog/2017-11-08-show-and-tell-38-chris-p-zz-automation.jpg)
 
-Chris P gave us a bit of an update on his [tuzz automation tool][tuzz-zz] he [demoed at show and tell 36][tuzz-show-and-tell-36]. He's continuing to work on the tool and is using it to provision his laptop(s).
+Chris P gave us a bit of an update on his [tuzz automation tool][tuzz-zz] he [demoed at Show and Tell 36][tuzz-show-and-tell-36]. He's continuing to work on the tool and is using it to provision his laptop(s).
 
 Chris also highlighted the similarities with his [fortress project][tuzz-fortress] that he uses to provision his Raspberry Pi.
 

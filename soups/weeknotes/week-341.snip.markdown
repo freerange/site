@@ -35,7 +35,7 @@ James merged his [attempted fix for the intermittent test failure][pr-1816] we'r
 
 [Tadas][] got the app upgraded to Ruby 2.1.6 and continued his sterling work of handling updates to the existing Smart Answers, including overseas-passports, student-finance-forms and calculate-state-pension.
 
-James and I finished up on Thursday by preparing some notes for the presentation we've agreed to give at the content team show and tell next week.
+James and I finished up on Thursday by preparing some notes for the presentation we've agreed to give at the content team Show and Tell next week.
 
 ## GFR
 

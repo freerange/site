@@ -37,7 +37,7 @@ We spent nearly an hour going through our regular [Harmonia][harmonia] tasks to 
 
 ### Copywriting
 
-I asked a friend of mine, [Lisa][lisa-martin], whether they'd be able to help us with copywriting. We're particularly interested in whether someone can take a set of notes (e.g. about the week or from a show and tell) and turn them into a blog post. Lisa's unable to help but it did give us some hope that it might at least be possible.
+I asked a friend of mine, [Lisa][lisa-martin], whether they'd be able to help us with copywriting. We're particularly interested in whether someone can take a set of notes (e.g. about the week or from a Show and Tell) and turn them into a blog post. Lisa's unable to help but it did give us some hope that it might at least be possible.
 
 ### Smart Answers
 

@@ -17,7 +17,7 @@ Thursday evening saw our very own [Mr Tom Ward](http://tomafro.net/) presenting 
 
 [Jase](http://jasoncale.com/) and I learnt what it means to be a fire warden at a little training session on Friday.  I must admit to wondering what we were going to get out of it (there are only 5 of us and we're not always in the office) but I can definitely see the benefit now.
 
-We finished off the week with a GovUK show and tell and then a lovely team trip to the pub: [Neil](https://twitter.com/#!/neillyneil/) had an evening pass so we celebrated with lots of beer.  It was good.
+We finished off the week with a GovUK Show and Tell and then a lovely team trip to the pub: [Neil](https://twitter.com/#!/neillyneil/) had an evening pass so we celebrated with lots of beer.  It was good.
 
 I'm going to end with another plug for our [office warming](/officewarming) this Thursday (1st December).  Come along: You never know, it might be alright.
 

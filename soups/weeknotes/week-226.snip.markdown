@@ -5,7 +5,7 @@ Good afternoon my friends.
 
 ## FutureLearn
 
-We've had another busy week with FutureLearn and are continuing to make good progress. Today marks the end of the third two week sprint and hopefully the business will be suitably impressed at the show and tell this afternoon.
+We've had another busy week with FutureLearn and are continuing to make good progress. Today marks the end of the third two week sprint and hopefully the business will be suitably impressed at the Show and Tell this afternoon.
 
 ## Project Los Roques
 
