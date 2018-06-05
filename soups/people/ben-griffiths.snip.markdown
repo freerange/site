@@ -8,7 +8,6 @@ for [dxw][dxw]. He joined GFR in April 2018.
 [dxw]: https://dxw.com
 [moo]: https://moo.com
 
-:site: twitter.com/beng
 :image: images/people/ben-griffiths.jpg
 :twitter: beng
 

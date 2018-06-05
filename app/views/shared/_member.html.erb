@@ -1,6 +1,11 @@
 <img src="<%= member.image %>" alt="Photo of <%= member.name.titleize %>"/>
 <div class="info">
   <h3><%= member.name.titleize %></h3>
-  <p class="links"><a href="http://<%= member.site %>">Website</a> / <a href="http://twitter.com/<%= member.twitter %>">Twitter</a></p>
+  <p class="links">
+    <% links = [] %>
+    <% links << link_to('Website', 'http://' + member.site) if member.site %>
+    <% links << link_to('Twitter', 'http://twitter.com/' + member.twitter) if member.twitter %>
+    <%= links.join(' / ').html_safe %>
+  </p>
   <div class="bio"><%= include_snip member.name %></div>
 </div>
