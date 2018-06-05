@@ -22,9 +22,16 @@ Before we get acquainted here is the low-down:
 
 ### Come and see us
 
-We no longer have a physical office, but we're generally based in central London.
+<p>We're based in <a href="https://www.google.co.uk/maps/place/38+Turner+St,+Whitechapel,+London+E1+2AS/@51.5161112,-0.0626319,17z/data=!3m1!4b1!4m5!3m4!1s0x48761ccd3e8dc6d7:0x6a0e2078588a72!8m2!3d51.5161112!4d-0.0604432">Whitechapel</a> &mdash; why not pop in for a cuppa?</p>
 
-Please [send us an email][email-address] and we'll arrange to meet up for a cuppa.
+<div class="vcard">
+  <div class="adr">
+    <p class="post-office-box">Go Free Range Ltd</p>
+    <p class="street-address">38 Turner Street</p>
+    <p class="locality">London</p>
+    <p class="postal-code">E1 2AS</p>
+  </div>
+</div>
 
 <p class="twitter">Follow <a href="http://twitter.com/freerange" title="Follow us on twitter">@freerange</a> on twitter</p>
 
