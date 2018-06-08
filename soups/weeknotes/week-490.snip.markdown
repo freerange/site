@@ -56,11 +56,10 @@ Until next time.
 -- Chris
 
 :name: week-490
-:updated_at: 2018-06-08 15:31:22.096059000 +01:00
-:created_at: 2018-06-08 15:31:22.096056000 +01:00
+:updated_at: 2018-06-08 17:51:51.244129000 +01:00
+:created_at: 2018-06-08 17:51:51.244114000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
