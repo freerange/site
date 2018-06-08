@@ -82,13 +82,11 @@ We'll be hosting our 45th Show & Tell in June. Please [get in touch][contact] if
 [sextant]: https://en.wikipedia.org/wiki/Sextant
 [mapgen]: https://github.com/freerange/we-didnt-mean-to-go-to-sea/blob/d450474e7f5b657fd3dd96c9c6361043eaa6c779/maps/mapgen.rb
 
-
 :name: show-and-tell-44
-:updated_at: 2018-06-07 12:51:53.436339000 +01:00
-:created_at: 2018-06-07 12:51:53.436337000 +01:00
+:updated_at: 2018-06-08 11:32:05.237082000 +01:00
+:created_at: 2018-06-08 11:32:05.237076000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
