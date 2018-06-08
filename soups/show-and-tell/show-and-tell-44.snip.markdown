@@ -48,7 +48,7 @@ I'm sorry the above isn't a very fulsome explanation, but if you're interested i
 
 I had brought along the cheap plastic [sextant][] that I own and showed people how to use it, although it wasn't ideal because we couldn't see either the sun or the horizon! I described a couple of the simpler ways you can determine both your latitude and longitude your using just a sextant, a nautical almanac and an accurate watch.
 
-For example, taking a [noon sight][] where, if you know the approximate time of local noon, you measure the altitude of the lower limb of the sun 15-30 minutes before local noon making a note of the exact time, then leave this altitude set on the sextant, and wait for the lower limb of the sun to drop back down to the same altitude after local noon, recording the exact time at which this happens. You can then average the two times to obtain a very accurate time for local noon which is easily converted into a longitude for your position at local noon.
+For example, taking a [noon sight][] where, if you know the approximate time of local noon, you measure the altitude of the [lower limb][] of the sun 15-30 minutes before local noon making a note of the exact time, then leave this altitude set on the sextant, and wait for the lower limb of the sun to drop back down to the same altitude after local noon, recording the exact time at which this happens. You can then average the two times to obtain a very accurate time for local noon which is easily converted into a longitude for your position at local noon.
 
 ![Ben using sextant](/images/blog/2018-06-07-show-and-tell-44-ben-using-sextant.jpg)
 
@@ -81,6 +81,7 @@ We'll be hosting our 45th Show & Tell in June. Please [get in touch][contact] if
 [mewo2-maps]: https://mewo2.com/notes/terrain/
 [sextant]: https://en.wikipedia.org/wiki/Sextant
 [mapgen]: https://github.com/freerange/we-didnt-mean-to-go-to-sea/blob/d450474e7f5b657fd3dd96c9c6361043eaa6c779/maps/mapgen.rb
+[lower limb]: https://encyclopedia2.thefreedictionary.com/lower+limb
 
 :name: show-and-tell-44
 :updated_at: 2018-06-08 11:32:05.237082000 +01:00
