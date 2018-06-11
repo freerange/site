@@ -1,6 +1,7 @@
-Switching from .NET to Ruby in 2004/2005 led to a job at [Reevoo][reevoo] and the chance to work with [James A][james-adam] and [James M][james-mead]. Chris then spent 18 months at Headshift before joining his pals at GFR in late 2010.
+An early career spent using Visual Basic 6 left him searching for something better. He spent a while using .NET before discovering the joy of Ruby and Ruby on Rails in 2005. This early adoption led to a job at [Reevoo][reevoo] where he enjoyed working with [Ben][ben-griffiths], [James A][james-adam] and [James M][james-mead]. After leaving Reevoo, he spent 18 months working on various Rails projects at Headshift before joining GFR in late 2010.
 
 [reevoo]: https://www.reevoo.com/
+[ben-griffiths]: /ben-griffiths
 [james-adam]: /james-adam
 [james-mead]: /james-mead
 
