@@ -1,11 +1,6 @@
-Chris discovered Ruby as an alternative to a mess of shell scripts and
-Perl that he was using while working as a researcher at
-the [German Aerospace Center][dlr]. Learning Rails distracted him
-during his PhD at the [University of Southampton][isvr] but eventually
-led to a job as a developer and researcher at [BBC Music][bbc-music]
-and later [BBC R&D][bbc-rd]. He spent three and a half years running
-the data science team at [FutureLearn][futurelearn] before joining his
-friends at GFR in early 2017.
+Chris started his career as an acoustical engineer working for the [German Aerospace Center][dlr] and completing a PhD at the [University of Southampton][isvr]. He joined the BBC in 2009 and worked in the Radio and [Music][bbc-music] and [Research and Development][bbc-rd] departments - building things such as the BBC Introducing website, voice-controlled games for children, automated metadata tools for the the World Service archive and a Web Audio-powered recreation of the Radiophonic Workshop. Chris left the BBC in 2014 and joined [FutureLearn][futurelearn] - the Open University-funded MOOC platform. There he founded and managed the Data Science team. He joined GFR in 2017.
+
+Chris is an invited expert on the W3C’s Audio Working Group and an Ambassador for DataKind. He likes Ruby, JavaScript, R and things that go “bloop”.
 
 [dlr]: http://www.dlr.de
 [isvr]: http://www.southampton.ac.uk/engineering/research/centres/isvr.page
