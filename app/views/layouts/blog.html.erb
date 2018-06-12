@@ -43,7 +43,7 @@
           <div id="recent_articles">
             <ol class="blog_list" reversed="">
               <% BlogArticle.all.to_a.last(6).to_enum.with_index(1).reverse_each do |snip, index| %>
-                <%= content_tag(:li, link_to(snip.page_title, url_to(snip.name)), value: index) %>
+                <%= content_tag(:li, link_to_snip(snip), value: index) %>
               <% end %>
             </ol>
           </div>

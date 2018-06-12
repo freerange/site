@@ -69,4 +69,8 @@ module ApplicationHelper
       "#{type}=#{quote}#{absolute_link}#{quote}"
     end
   end
+
+  def link_to_snip(snip)
+    link_to(snip.page_title, url_to(snip.name))
+  end
 end
