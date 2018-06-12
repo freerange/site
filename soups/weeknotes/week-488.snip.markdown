@@ -22,11 +22,10 @@ Anyway, that's all for now. Until next time...
 [Rob D]: https://twitter.com/robd
 
 :name: week-488
-:updated_at: 2018-06-12 17:01:00.985945000 +01:00
-:created_at: 2018-06-12 17:01:00.985943000 +01:00
+:updated_at: 2018-06-12 17:55:30.137131000 +01:00
+:created_at: 2018-06-12 17:55:30.137119000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
