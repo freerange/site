@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="HTML Tidy for HTML5 for Apple macOS version 5.6.0" name="generator">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="A small software development company based in London, UK." name="description">
+  <meta content="GNqgxou6cYLkYq9l47mZM00R93JN49KqRhJebklH7uo" name="google-site-verification">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ruby rails software development london" name="keywords">
+  <meta content="telephone=no" name="format-detection">
+  <link href="/assets/application-1507e54ca8e8109b8f18bb949aa6426ff1f387a59a864a86de4dbd371b20b242.css" media="all" rel="stylesheet">
+  <link href="//vjs.zencdn.net/4.7.2/video-js.css" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon">
+  <link href="http://feeds.gofreerange.com/GoFreeRangeBlog" rel="alternate" title="Go Free Range Blog" type="application/atom+xml">
+  <script src="http://use.typekit.com/rny4upv.js" type="text/javascript"></script>
+  <script>
+  try{Typekit.load();}catch(e){}
+  </script>
+  <script src="//vjs.zencdn.net/4.7.2/video.js"></script>
+  <title>Show and Tell 44 — Go Free Range.</title>
+</head>
+<body class="blog">
+  <div id="page">
+    <div class="group" id="header">
+      <ul class="nav group" id="blog_nav">
+        <li id="link_home">
+          <p>Visit our <a href="/">company website</a></p>
+        </li>
+        <li id="link_rss">
+          <p>Grab the <a href="http://feeds.gofreerange.com/GoFreeRangeBlog" title="RSS Feed from Feedburner">RSS</a> feed</p>
+        </li>
+      </ul>
+      <h1 id="logo"><a href="/show-and-tell-events" title="Go to Show and Tell index">Show and Tell index</a></h1>
+    </div>
+    <div class="group" id="content">
+      <div class="blog_entry group">
+        <p class="article_date">Friday 8th June, 2018</p>
+        <div class="author">
+          <img alt="James Mead" src="images/people/james-mead.jpg"> <span>by James Mead</span>
+        </div>
+        <div class="content">
+          <h1 id="show-and-tell-44">Show and Tell 44</h1>
+          <p>We decided to try holding this month’s event at our office in the Ministry of Startups in Whitechapel. We wondered whether holding the event a bit further away from the centre of London would discourage attendance, but seven people turned up, so perhaps we’ll do it again. We made do with a large monitor rather than the giant screen that we had access to at Forge & Co. This seemed to work OK, but it would be nice to have a bigger screen or a projector.</p>
+          <h2 id="migrating-web-apps-to-dokku">Migrating web apps to Dokku</h2>
+          <p><img alt="James Adam demonstrating Dokku" src="/images/blog/2018-06-07-show-and-tell-44-james-adam-dokku-demo.jpg"></p>
+          <p><a href="http://lazyatom.com/">James A</a> runs a bunch of web apps on his Linode VPS. They’re a pain to maintain, because each of them needs a different version of Ruby and several of them depend on specific packages like fonts & PhantomJS. Some time ago he hacked together a Docker pipeline which worked in a similar way to <a href="https://github.com/tomafro/recap">Tom W’s <code>recap</code></a>. This built a Docker image locally, pushed it to a registry, and then pulled it down onto the VPS. This all worked OK, but was a bit of a pain and obviously relied on custom software to pull it all together.</p>
+          <p>Recently he decided to try moving all the apps to an installation of the open-source <a href="https://www.heroku.com/">Heroku</a>-a-like <a href="http://dokku.viewdocs.io/dokku/">Dokku</a> on his VPS. He was pleasantly surprised how easy it was to do and particularly pleased that he was able to do it with zero downtime. He demonstrated how easy it is to use by creating a new Rails app and deploying it by pushing it to a git remote, just as you would for an app on Heroku. He explained that it uses <a href="https://devcenter.heroku.com/articles/buildpacks">Heroku buildpacks</a> and deploys the app to a <a href="https://github.com/gliderlabs/herokuish">herokuish</a> container.</p>
+          <p>Dokku provides zero-downtime deployments by default by managing an instance of Nginx outside Docker which is used to proxy request to the relevant container. When an app is deployed a new container is started alongside the existing one and once the new one is deemed healthy Dokku starts proxying new requests to the new container. James was able to run the Dokku-managed Nginx instance alongside the existing instance Apache on a different port and then swap over seamlessly once the relevant app was migrated.</p>
+          <h2 id="train-timetable-visualisation">Train timetable visualisation</h2>
+          <p><img alt="Chris Zetter demonstrating his train timetable visualisation tool" src="/images/blog/2018-06-07-show-and-tell-44-chris-zetter-marey-diagram-demo.jpg"></p>
+          <p><a href="https://chriszetter.com/">Chris Z</a> commutes by train between Hitchen and London. The recent <a href="http://www.thameslinkprogramme.co.uk/canal-tunnels-open-new-north-south-london-connections-first-time">completion of the Canal Tunnels</a> meant that trains could run from Finsbury Park to St Pancras for the first time. This resulted in a major change in the timetables from 20 May with his trains now routed through London via St Pancras rather than terminating at Kings Cross.</p>
+          <p>The train companies didn’t do a very good job of communicating the timetable changes (e.g. <a href="https://www.railplan2020.com/-/media/goahead/railplan2020/may-timetables/tl-may-2018-thameslink-in-to--from-great-northern-mondays-to-fridays.pdf?la=en">a giant A3 PDF</a>) and Chris was keen to see whether he could find a helpful way to visualise the changes. Initially he looked at fetching the data from the official <a href="http://www.nationalrail.co.uk/100296.aspx">Darwin Data Feeds</a>, but these are hard-to-use SOAP/XML feeds with strange acronyms. He then discovered he was able to obtain the relevant data from <a href="https://www.transportapi.com/">transportapi</a>’s more friendly JSON API under one of their free plans. He then used this data to generate <a href="https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003zP#bboard_content">Marey-style diagrams</a> with some custom code in conjunction with the <a href="https://d3js.org/">D3.js</a> charting library.</p>
+          <p><img alt="Visualisation of changes to the train timetable from Kings Cross to Hitchen" src="/images/blog/2018-06-07-show-and-tell-44-kings-cross-to-hitchin-marey-diagram.png"></p>
+          <p>Chris has built <a href="https://changes.chriszetter.com/">a general purpose tool</a> which you can use to visualise the direct journeys between any two stations on the UK rail network. He’s also written the whole thing up in more detail <a href="https://chriszetter.com/blog/2018/05/11/visualizing-changes-to-rail-services/">on his blog</a>.</p>
+          <h2 id="programmatically-generated-maps">Programmatically generated maps</h2>
+          <p style="text-align: center"><img alt="Progression of maps for Alexa game" src="/images/blog/2018-06-07-show-and-tell-44-animated-maps.gif"></p>
+          <p>In last month’s Show & Tell, we talked demonstrated the beginnings of a <a href="/show-and-tell-43#writing-a-game-for-the-amazon-alexa">game for Amazon’s Alexa</a>, in which the player starts in an unknown position on a map and has to navigate a ship to port by listening to the sounds around them as if they were lost in fog. This time Ben demonstrated how he had programmatically generated a realistic looking map from a simple ASCII grid.</p>
+          <p>Ben was inspired by <a href="https://mewo2.com/notes/terrain/">Martin O’Leary’s maps</a> which are published via <a href="https://twitter.com/unchartedatlas">@unchartedatlas</a>. The first stage of Ben’s approach was to plot a load of random points and to divide the plane into a polygon per point by finding all the points which are closer to the random point than any other. This division into polygons is called a <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voroni diagram</a> and Ben used the <a href="https://github.com/abscondment/rubyvor">rubyvor</a> library to implement this.</p>
+          <p>The next stage is to annotate various points on each polygon based on data from the underlying ASCII grid used by the game mechanics. For example, calculating a height based on distance from the coast plus/minus some randomness. The idea being to generate a physical representation of a somewhat realistic landscape. The final stage is to colour in the map based on this physical representation and doing some blending and blurring.</p>
+          <p>I’m sorry the above isn’t a very fulsome explanation, but if you’re interested in knowing more, <a href="https://github.com/freerange/we-didnt-mean-to-go-to-sea/blob/d450474e7f5b657fd3dd96c9c6361043eaa6c779/maps/mapgen.rb">the code is publicly accessible on GitHub</a>. I think the end result looks great and I hope we manage to find the time to do some more work on this game.</p>
+          <h2 id="celestial-navigation">Celestial navigation</h2>
+          <p><img alt="James with sextant" src="/images/blog/2018-06-07-show-and-tell-44-james-with-sextant.jpg"></p>
+          <p>I had brought along the cheap plastic <a href="https://en.wikipedia.org/wiki/Sextant">sextant</a> that I own and showed people how to use it, although it wasn’t ideal because we couldn’t see either the sun or the horizon! I described a couple of the simpler ways you can determine both your latitude and longitude your using just a sextant, a nautical almanac and an accurate watch.</p>
+          <p>For example, taking a <a href="https://en.wikipedia.org/wiki/Longitude_by_chronometer#Noon_sight_for_Longitude">noon sight</a> where, if you know the approximate time of local noon, you measure the altitude of the <a href="https://encyclopedia2.thefreedictionary.com/lower+limb">lower limb</a> of the sun 15-30 minutes before local noon making a note of the exact time, then leave this altitude set on the sextant, and wait for the lower limb of the sun to drop back down to the same altitude after local noon, recording the exact time at which this happens. You can then average the two times to obtain a very accurate time for local noon which is easily converted into a longitude for your position at local noon.</p>
+          <p><img alt="Ben using sextant" src="/images/blog/2018-06-07-show-and-tell-44-ben-using-sextant.jpg"></p>
+          <p>Unfortunately I got in a bit of a muddle about how some of the maths worked, but hopefully people got the idea. I finished up by explaining how it’s possible to apply corrections to make the measurements as accurate as possible, e.g. correcting for error in the sextant itself (index error), adjusting for the height of your eye above the horizon, and correcting for refraction of light in the atmosphere, particularly important when celestial objects are low in the sky.</p>
+          <h2 id="show--tell-45">Show & Tell 45</h2>
+          <p>We’ll be hosting our 45th Show & Tell in June. Please <a href="/contact">get in touch</a> if you’d like to join us.</p>
+        </div>
+        <div class="comments" id="comments">
+          Disqus commenting is only enabled in production.
+        </div>
+      </div>
+      <div id="article_links">
+        <h3>Recent</h3>
+        <div id="recent_articles">
+          <ol class="show-and-tell_list" reversed="">
+            <li value="6">
+              <a href="/show-and-tell-44">Show and Tell 44</a>
+            </li>
+            <li value="5">
+              <a href="/show-and-tell-39">Show and Tell 39</a>
+            </li>
+            <li value="4">
+              <a href="/show-and-tell-38">Show and Tell 38</a>
+            </li>
+            <li value="3">
+              <a href="/show-and-tell-41">Show and Tell 41</a>
+            </li>
+            <li value="2">
+              <a href="/show-and-tell-43">Show and Tell 43</a>
+            </li>
+            <li value="1">
+              <a href="/show-and-tell-42">Show and Tell 42</a>
+            </li>
+          </ol>
+          <script async defer src="https://gfr-show-and-tell-slack.herokuapp.com/slackin.js?"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/application-a06a15e76d88968aa98de5792d639d527018444227ecda8004f3fb4a3e0d1d6f.js"></script> 
+  <script>
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45002715-1', 'gofreerange.com');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
