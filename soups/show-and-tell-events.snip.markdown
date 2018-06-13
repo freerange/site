@@ -4,8 +4,6 @@ We host this event on the ~~second~~ third Wednesday of every month, starting at
 
 We started running the event back in April 2014 at the suggestion of Tom Stuart. At the time we had our own office with plenty of spare space and so we encouraged friends to come and make use of it. This led to lots of informal demos and chats about what we were all working on. We really enjoyed these sessions and so with Tom's encouragement, the GFR Show & Tell was born.
 
-Although we no longer have our own office, we've enjoyed these events so much that we've continued to run them at various venues usually in the Shoreditch area.
-
 ### Meeting format
 
 You don't need to have something to demo in order to participate. So if you're interested please do come along - your constructive feedback on other people's projects will always be welcome. Demos don't have to be technical in nature, although they should probably be aimed at a relatively technical audience. Reading the notes on previous meetings (see links below) will give you an indication of the types of projects that people have demoed in the past.
