@@ -45,13 +45,11 @@ I particularly like the way they track changes using git/GitHub! <%= by('james-m
 
 This is a crazy, but fun, project that allows you to make your robot available on the internet for random punters to control using their browser! <%= by('james-mead') %>
 
-
 :name: week-491-links
-:updated_at: 2018-06-13 11:56:01.220707000 +01:00
-:created_at: 2018-06-13 11:56:01.220705000 +01:00
+:updated_at: 2018-06-13 14:02:16.154051000 +01:00
+:created_at: 2018-06-13 14:02:16.154043000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
