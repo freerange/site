@@ -9,7 +9,7 @@ On Tuesday we hosted a planning session with Patricia and Alex from the [Busines
 
 In our planning session on Tuesday we decided together on some priorities for the work. BHRRC are keen to cut their monthly Heroku costs (their database has grown quite large and it's starting to cost a significant amount). They'd also like us to help them import modern slavery statements made under other jurisdictions (California and Australia have similar legislation) and improve their web-scraping tool that looks for newly-published statements.
 
-We spent the rest of the week getting stuck into the project, by adding some supporting tooling such as CI and starting to migrate the site to AWS. The codebase is developed in the open [on Github](https://github.com/bhrrc/modernslaveryregistry.org) so we'll be able to talk a bit more about the details as we get to new feature development.
+We spent the rest of the week getting stuck into the project, by adding some supporting tooling and starting to migrate the site to AWS. The codebase is developed in the open [on Github](https://github.com/bhrrc/modernslaveryregistry.org) so we'll be able to talk a bit more about the details as we get to new feature development.
 
 We're able to spend around 16 developer days on this project so have decided that Ben and Chris will tackle the bulk of the work. In the meantime we're [still on the lookout](/upcoming-availability) for our next project. If that's with you, [get in touch](mailto:lets@gofreerange.com).
 
