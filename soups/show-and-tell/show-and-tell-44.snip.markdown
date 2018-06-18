@@ -35,7 +35,7 @@ Chris has built [a general purpose tool][changes-tool] which you can use to visu
 
 In last month's Show & Tell, we talked demonstrated the beginnings of a [game for Amazon's Alexa][we-didnt-mean-to-go-to-sea], in which the player starts in an unknown position on a map and has to navigate a ship to port by listening to the sounds around them as if they were lost in fog. This time Ben demonstrated how he had programmatically generated a realistic looking map from a simple ASCII grid.
 
-Ben was inspired by [Martin O'Leary's maps][mewo2-maps] which are published via [@unchartedatlas][unchartedatlas]. The first stage of Ben's approach was to plot a load of random points and to divide the plane into a polygon per point by finding all the points which are closer to the random point than any other. This division into polygons is called a [Voroni diagram][] and Ben used the [rubyvor](https://github.com/abscondment/rubyvor) library to implement this.
+Ben was inspired by [Martin O'Leary's maps][mewo2-maps] which are published via [@unchartedatlas][unchartedatlas]. The first stage of Ben's approach was to plot a load of random points and to divide the plane into a polygon per point by finding all the points which are closer to the random point than any other. This division into polygons is called a [Voronoi diagram][] and Ben used the [rubyvor](https://github.com/abscondment/rubyvor) library to implement this.
 
 The next stage is to annotate various points on each polygon based on data from the underlying ASCII grid used by the game mechanics. For example, calculating a height based on distance from the coast plus/minus some randomness. The idea being to generate a physical representation of a somewhat realistic landscape. The final stage is to colour in the map based on this physical representation and doing some blending and blurring.
 
@@ -75,7 +75,7 @@ We'll be hosting our 45th Show & Tell in June. Please [get in touch][contact] if
 [Darwin Data Feeds]: http://www.nationalrail.co.uk/100296.aspx
 [we-didnt-mean-to-go-to-sea]: /show-and-tell-43#writing-a-game-for-the-amazon-alexa
 [unchartedatlas]: https://twitter.com/unchartedatlas
-[Voroni diagram]: https://en.wikipedia.org/wiki/Voronoi_diagram
+[Voronoi diagram]: https://en.wikipedia.org/wiki/Voronoi_diagram
 [noon sight]: https://en.wikipedia.org/wiki/Longitude_by_chronometer#Noon_sight_for_Longitude
 [contact]: /contact
 [mewo2-maps]: https://mewo2.com/notes/terrain/
