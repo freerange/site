@@ -1,9 +1,9 @@
 Week 494 - Interesting links
 ============================
 
-### [Title](http://example.com)
+### [Upstream Podcast](https://www.upstreampodcast.org/workercoops1)
 
-Your comments here. <%= by('chris-roos') %>
+I enjoyed listening to this two part podcast on worker co-operatives. The first part gives an overview of what worker co-ops are and how they run and then interviews some members of various co-ops, mostly in the US, including a bicycle shop and bakery. The second part is a history of the Mondragon co-operative in the Basque region of Spain. <%= by('chris-lowis') %>
 
 :name: week-494-links
 :updated_at: 2018-06-28 07:46:48.756106000 +01:00
