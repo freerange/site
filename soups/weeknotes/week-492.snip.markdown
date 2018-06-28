@@ -9,7 +9,7 @@ We continued our short sprint for the [Business and Human Rights Resource Centre
 
 The statements were being stored as binary blobs in a column in the Postgres database. Unfortunately as the registry has grown this has meant that the database has grown to around 3GB - costing a lot to host on Heroku and making it difficult to migrate to AWS. Chris made a first pass at the problem by [reducing the sizes of some of the larger snapshots](https://github.com/bhrrc/modernslaveryregistry.org/commit/e767727c81210ea6e8fecc6ff9dfabbd03efbc94). He then made some changes to allow the app to be run under Vagrant so that he could start experimenting with how to move the binary blobs in the database to S3.
 
-He also [upgraded the application to Rails 5.2](https://github.com/bhrrc/modernslaveryregistry.org/commit/91d2f7616c6b3a027c58e50215f7d5819bee440d) so that we could take advantage of the new ActiveStorage library to handle file uploads. Meanwhile [Ben](/ben-griffiths) continued to work on the [Cloudformation](https://aws.amazon.com/cloudformation/) code we need to provision the infrastructure on AWS.
+He also [upgraded the application to Rails 5.2](https://github.com/bhrrc/modernslaveryregistry.org/commit/91d2f7616c6b3a027c58e50215f7d5819bee440d) so that we could take advantage of the new ActiveStorage library to handle file uploads. Meanwhile [Ben](/ben-griffiths) continued to work on the [CloudFormation](https://aws.amazon.com/cloudformation/) code we need to provision the infrastructure on AWS.
 
 ## Other good things
 
