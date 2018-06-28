@@ -15,7 +15,7 @@ He also [upgraded the application to Rails 5.2](https://github.com/bhrrc/moderns
 
 - We met with a potential client on Tuesday and it looks positive that we'll be able to do some work for them in July.
 - We spent some more time on our side project adding some features to a simple web-based application we've written in [Elm](http://elm-lang.org/).
-- James went to the Isle of White festival.
+- James went to the Isle of Wight festival.
 - I had a chat with our friends at [pilot.works](http://pilot.works/) about a potential Digital Outcomes and Specialists bid.
 
 
