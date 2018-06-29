@@ -34,9 +34,9 @@ Before we get acquainted here is the low-down:
 </div>
 
 <div class="contact-methods">
-<p class="email"><a href="mailto:lets@gofreerange.com" title="Send us an email">Send us an email</a></p>
-<p class="twitter">Follow <a href="http://twitter.com/freerange" title="Follow us on twitter">@freerange</a> on twitter</p>
-<p class="phone">+44 20 3823 6286</p>
+<p class="phone">Phone: +44 20 3823 6286</p>
+<p class="email">Email: <a href="mailto:lets@gofreerange.com" title="Send us an email">lets@gofreerange.com</a></p>
+<p class="twitter">Twitter: <a href="http://twitter.com/freerange" title="Follow us on twitter">@freerange</a></p>
 </div>
 
 </div>
