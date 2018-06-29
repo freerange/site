@@ -36,6 +36,7 @@ Before we get acquainted here is the low-down:
 <div class="contact-methods">
 <p class="email"><a href="mailto:lets@gofreerange.com" title="Send us an email">Send us an email</a></p>
 <p class="twitter">Follow <a href="http://twitter.com/freerange" title="Follow us on twitter">@freerange</a> on twitter</p>
+<p class="phone">+44 20 3823 6286</p>
 </div>
 
 </div>
