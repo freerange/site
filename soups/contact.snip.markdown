@@ -33,7 +33,10 @@ Before we get acquainted here is the low-down:
   </div>
 </div>
 
+<div class="contact-methods">
+<p class="email"><a href="mailto:lets@gofreerange.com" title="Send us an email">Send us an email</a></p>
 <p class="twitter">Follow <a href="http://twitter.com/freerange" title="Follow us on twitter">@freerange</a> on twitter</p>
+</div>
 
 </div>
 </div>
