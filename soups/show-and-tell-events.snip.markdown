@@ -30,8 +30,8 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming meeting
 
-* Show and Tell 45
-* Wed 27 June 2018
+* Show and Tell 46
+* Wed 18 July 2018
 * [Go Free Range Office](https://goo.gl/maps/gcm6wFDY1yS2), Ministry of Startups, 38 Turner Street, London, E1 2AS.
 
 ### Past meetings
