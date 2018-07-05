@@ -24,11 +24,10 @@ Our very own Chris Lowis features in this Wired article about [CoTech][co-tech].
 [co-tech]: https://www.coops.tech/
 
 :name: week-494-links
-:updated_at: 2018-06-28 07:46:48.756106000 +01:00
-:created_at: 2018-06-28 07:46:48.756104000 +01:00
+:updated_at: 2018-07-05 09:04:17.671404000 +01:00
+:created_at: 2018-07-05 09:04:17.671392000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
