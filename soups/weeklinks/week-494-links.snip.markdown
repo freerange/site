@@ -17,6 +17,12 @@ It incorporates lots of other useful things, e.g. an autopilot, multiplexing of 
 [Moitessier HAT]: https://www.rooco.eu/products/moitessier-hat-marine-navigation-raspberry-pi-openplotter/
 
 
+### [Tech co-operatives are leaving the startup rat race behind](http://www.wired.co.uk/article/cotech-tech-cooperatives-blake-house-outlandish)
+
+Our very own Chris Lowis features in this Wired article about [CoTech][co-tech]. I'm proud to be part of this growing network of organisations that are doing things a bit differently. <%= by('chris-roos') %>
+
+[co-tech]: https://www.coops.tech/
+
 :name: week-494-links
 :updated_at: 2018-06-28 07:46:48.756106000 +01:00
 :created_at: 2018-06-28 07:46:48.756104000 +01:00
