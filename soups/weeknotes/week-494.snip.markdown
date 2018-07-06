@@ -36,11 +36,10 @@ Until next time.
 [vagrant]: https://www.vagrantup.com/
 
 :name: week-494
-:updated_at: 2018-07-06 09:41:12.528352000 +01:00
-:created_at: 2018-07-06 09:41:12.528349000 +01:00
+:updated_at: 2018-07-06 11:08:12.349166000 +01:00
+:created_at: 2018-07-06 11:08:12.349148000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
