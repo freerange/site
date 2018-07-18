@@ -31,7 +31,7 @@ If you have any questions, please [get in touch][email-address].
 ### Upcoming meeting
 
 * Show and Tell 46
-* Wed 18 July 2018
+* Wed 25 July 2018
 * [Go Free Range Office](https://goo.gl/maps/gcm6wFDY1yS2), Ministry of Startups, 38 Turner Street, London, E1 2AS.
 * Let us know you are attending on [upcoming.org](https://upcoming.org/event/gfr-show-and-tell-46-k9ms1m20f5)
 
