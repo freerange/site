@@ -1,4 +1,4 @@
-Week 497 - Interesting links
+Week 498 - Interesting links
 ============================
 
 ### [Digital transformation at Wellcome Collection](https://stacks.wellcomecollection.org/digital-transformation-at-wellcome-collection-639fb177aad6)
@@ -19,15 +19,13 @@ The rapid prototyping environment we [worked on for BBC R&D](https://www.bbc.co.
 
 French game studio Motion Twin talk about their co-operative structure and their discussion of the challenges around flat-pay, consensus-based decision making and maintaining a healthy work-life balance sound very similar to those we face at Go Free Range. But the benefits are clear - the company has been around for 2 decades and everyone who is involved in their successful projects benefits equally. <%= by('chris-lowis') %>
 
-
-:name: week-497-links
-:updated_at: 2018-07-27 10:10:05.092925000 +01:00
-:created_at: 2018-07-27 10:10:05.092924000 +01:00
+:name: week-498-links
+:updated_at: 2018-08-03 10:07:09.243925000 +01:00
+:created_at: 2018-08-03 10:07:09.243911000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
-:page_title: Week 497 - Interesting links
+:page_title: Week 498 - Interesting links
 :extension: markdown
