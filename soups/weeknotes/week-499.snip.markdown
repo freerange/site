@@ -9,8 +9,6 @@ We spent the remaining time doing some refactoring to make the next piece of wor
 
 On Friday we held our team meeting over the phone (using our fancy [Twilio](https://www.twilio.com/)-powered conference/party line). It was great to chat to James and hear a little about his travels. We have a decision or two to make about a future piece of work and it's a bit easier to make a decision over a phone call.
 
-<!-- add content here -->
-
 :name: week-499
 :updated_at: 2018-08-13 10:39:10.004554000 +01:00
 :created_at: 2018-08-13 10:39:10.004542000 +01:00
