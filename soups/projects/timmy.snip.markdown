@@ -3,7 +3,7 @@
 </h2>
 
 <div class="section group">
-  <iframe src="http://player.vimeo.com/video/22439313?color=ffffff" width="640" height="480" frameborder="0"></iframe>
+  <iframe src="//player.vimeo.com/video/22439313?color=ffffff" width="640" height="480" frameborder="0"></iframe>
 </div>
 
 <div class="section group" markdown="1">

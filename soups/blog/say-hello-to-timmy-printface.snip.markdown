@@ -7,7 +7,7 @@ One of the perks of being part of [Go Free Range][fr] is the opportunity to play
 
 <del>Here he is, hard at work this very minute:</del> Here's a video of little Timmy running in April 2011:
 
-<iframe src="http://player.vimeo.com/video/22439313?color=ffffff" width="640" height="480" frameborder="0"></iframe>
+<iframe src="//player.vimeo.com/video/22439313?color=ffffff" width="640" height="480" frameborder="0"></iframe>
 
 <del>Go to [Timmy's page][timmy], and that image will update automatically, showing you the messages that he's receiving, live and direct. It's better than most of what's on TV, I'm fairly sure.</del>
 

@@ -13,7 +13,7 @@ I would gladly own any of the products pictured in this photo set. A great colle
 
 Really simple recording of terminal output, that can be replayed on the web, or embedded in presentations or on your own site. Here's one I prepared earlier, using the brilliant [Qlobe](http://mamememo.blogspot.com/2010/09/qlobe.html) quine. <%= by('james-adam') %>
 
-<iframe src="http://showterm.io/e565136dc1fc973906285" width="640" height="420"></iframe>
+<iframe src="//showterm.io/e565136dc1fc973906285" width="640" height="420"></iframe>
 
 
 ### [Enterprise Wiki](http://public.enterprisewiki.co/)

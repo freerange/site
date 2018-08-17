@@ -26,7 +26,7 @@ A few folk are gathering to read and discuss [Tom's book](http://codon.com/compu
 
 ### [Epic Rap Battles of History](http://www.youtube.com/user/ERB)
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/YtO-6Xg3g2M?list=PLQ-7WiWmOuK-55mfcd_tdcvy-57VMCkOW" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/YtO-6Xg3g2M?list=PLQ-7WiWmOuK-55mfcd_tdcvy-57VMCkOW" frameborder="0" allowfullscreen></iframe>
 
 Off the back of Youtube's recent "Comedy Week", I've been spending a lot of my non-work vegetative time gawping at videos on the internet. This is one series that I've really enjoyed; particular favourites include [Mozart vs. Skrillex](http://www.youtube.com/watch?v=_6Au0xCg3PI), [Tesla vs. Edison](http://www.youtube.com/watch?v=gJ1Mz7kGVf0) and [Einstein vs Hawking](http://www.youtube.com/watch?v=zn7-fVtT16k), but really, they're all good. <%= by('james-adam') %>
 
