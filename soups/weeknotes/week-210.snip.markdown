@@ -3,7 +3,7 @@ Week 210
 
 During the first half of the week we made a concerted effort to distill our combined thoughts into a set of goals for the company for the coming year. As with any task that requires us to reach a consensus, this process has been hard work; not because we all disagree with each other, but more because we're all too nice to take too much of a lead for fear of trampling over the thoughts of others.
 
-<a href="http://www.flickr.com/photos/massimobeltrame/5090189796/" title="Kangchenjunga 8598m by Massimo Beltrame, on Flickr"><img src="http://farm5.staticflickr.com/4151/5090189796_b2bf7a8cf9.jpg" width="100%" alt="Kangchenjunga 8598m"></a>
+<a href="http://www.flickr.com/photos/massimobeltrame/5090189796/" title="Kangchenjunga 8598m by Massimo Beltrame, on Flickr"><img src="//farm5.staticflickr.com/4151/5090189796_b2bf7a8cf9.jpg" width="100%" alt="Kangchenjunga 8598m"></a>
 
 It's easy to be cynical about the ability of a leaderless, self-organising team to achieve great things, but recently I've been reading Peter Boardman's [account](http://www.amazon.co.uk/dp/1898573859) of climbing [Kangchenjunga](http://en.wikipedia.org/wiki/Kangchenjunga) and it's striking how this leaderless team of 4 experienced mountaineers have to continually reach consensus on what to do next; and how much they value critical discussion with their peers, despite very pressing timescales.
 
@@ -34,7 +34,7 @@ I should mention that [Chris](/chris-roos) & [Tom](/tom-ward) did some sterling 
 
 I'm happy that this set of goals will give us a decent [framework](http://interblah.net/a-framework-for-making-decisions) which we can use to guide our smaller decisions and give us a clear sense of direction for the coming year. Along with agreeing these goals, we've also agreed that they should form the working agenda for our weekly company meetings. Last year we didn't do a good job of maintaining focus on our more strategic goals, so the idea is that doing this will keep us on the straight and narrow.
 
-<a href="http://www.flickr.com/photos/januszbc/2679490882/" title="Straight &amp; Narrow by janusz l, on Flickr"><img src="http://farm3.staticflickr.com/2048/2679490882_8bf6c62ed7.jpg" width="100%" alt="Straight &amp; Narrow"></a>
+<a href="http://www.flickr.com/photos/januszbc/2679490882/" title="Straight &amp; Narrow by janusz l, on Flickr"><img src="//farm3.staticflickr.com/2048/2679490882_8bf6c62ed7.jpg" width="100%" alt="Straight &amp; Narrow"></a>
 
 ## Remote working
 
@@ -68,7 +68,7 @@ We've had a steady stream of prospective clients visiting us at GFR HQ. It's gre
 
 On Thursday, Berg [announced](http://bergcloud.com/2013/01/24/developer-roundup/) that they are [open-sourcing](https://github.com/bergcloud) all their [Little Printer](http://bergcloud.com/littleprinter/) "publications". We think this is [great news](https://twitter.com/gfrprinter/status/294748976262045696) and look forward to seeing what other apps people come up with.
 
-<a href="http://www.flickr.com/photos/mva/406418518/" title="walk in the park by mv4, on Flickr"><img src="http://farm1.staticflickr.com/142/406418518_9f24ce69df.jpg" width="100%" alt="walk in the park"></a>
+<a href="http://www.flickr.com/photos/mva/406418518/" title="walk in the park by mv4, on Flickr"><img src="//farm1.staticflickr.com/142/406418518_9f24ce69df.jpg" width="100%" alt="walk in the park"></a>
 
 On Friday, Chris headed off to the Alps for a long weekend of skiing. As far as I can tell, conditions have been pretty good, so I hope he had a good time. I'm sure he'll be back in the office bright-eyed and bushy tailed on Tuesday morning!
 

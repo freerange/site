@@ -27,7 +27,7 @@ There's been continued interest in the [Go Free Range Printer][] with News Inter
 
 > ...could never have been shared without the generosity of our benefactor philanthropist [Mister James Adam][James A] and his marvellous [Go Free Range][] contraptions".
 
-<img src="http://farm9.staticflickr.com/8300/7976683132_77c07193c0_b.jpg" width="400" alt="Dearest Henry">
+<img src="//farm9.staticflickr.com/8300/7976683132_77c07193c0_b.jpg" width="400" alt="Dearest Henry">
 
 ## And finally
 

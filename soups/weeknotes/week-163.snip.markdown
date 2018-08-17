@@ -3,7 +3,7 @@ Week 163
 
 Our week has been dominated by the release of [INSIDE GOVERNMENT][inside-government] which I've already [written about](/inside-government). To give you a flavour of what went on, here's some of the team working at Aviation House around the time of the release with our GDS colleague [Paul][paul-battley] in the foreground about to press the imaginary _big red button_.
 
-<a href="http://www.flickr.com/photos/tomskitomski/6793104894/" title="Paul Battley pressing the big red metaphorical button to release &quot;INSIDE GOVERNMENT&quot; phase of beta by tomski, on Flickr"><img src="http://farm8.staticflickr.com/7045/6793104894_399b243be4.jpg" style="width: 100%" alt="Paul Battley pressing the big red metaphorical button to release &quot;INSIDE GOVERNMENT&quot; phase of beta"></a>
+<a href="http://www.flickr.com/photos/tomskitomski/6793104894/" title="Paul Battley pressing the big red metaphorical button to release &quot;INSIDE GOVERNMENT&quot; phase of beta by tomski, on Flickr"><img src="//farm8.staticflickr.com/7045/6793104894_399b243be4.jpg" style="width: 100%" alt="Paul Battley pressing the big red metaphorical button to release &quot;INSIDE GOVERNMENT&quot; phase of beta"></a>
 
 Pizza, beer, and a splash of [cava][sparkling-wine] were supplied on the evening of the release. [Tom](/tom-ward) ate most of the pizza.
 

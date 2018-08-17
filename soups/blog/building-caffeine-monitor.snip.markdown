@@ -8,7 +8,7 @@ Whilst I was there soaking in collective wisdom, friends old &amp; new, we also 
 [Caffeine Monitor][] was an application built to track and display a _realtime visualisation of caffeine consumption_ during the conference.
 
 <p><a href="http://www.flickr.com/photos/jase_n_tonic/5176210585/" title="View full size">
-  <img style="width: 100%" src="http://farm5.staticflickr.com/4104/5176210585_2cd655f75f_o.png" alt="Caffeine monitor dashboard: Displaying the volume of caffeine consumed over time." />
+  <img style="width: 100%" src="//farm5.staticflickr.com/4104/5176210585_2cd655f75f_o.png" alt="Caffeine monitor dashboard: Displaying the volume of caffeine consumed over time." />
 </a></p>
 
 Sponsored by [Campaign Monitor][], we collaborated with [Nicholas Felton][] who designed an infographic for the application (shown above).
@@ -48,7 +48,7 @@ __NOTE__: In the next section I refer to _unsynced_ items which means drinks rec
 
 <div style="float: right; width: 50%; margin-left: 1.5em">
   <a href="http://farm6.static.flickr.com/5041/5223501591_32b5475f8b_o.png" title="View full size">
-    <img width="100%" src="http://farm6.static.flickr.com/5041/5223501591_ee793ba1c0.jpg" alt="Caffeine Monitor iPhone interface">
+    <img width="100%" src="//farm6.static.flickr.com/5041/5223501591_ee793ba1c0.jpg" alt="Caffeine Monitor iPhone interface">
   </a>
   <p style="font-size: 1.2em; padding-top: 0.5em; color: #aaa; text-align: center">Drink capture screen on an iPhone</p>
 </div>
@@ -102,7 +102,7 @@ Sitting in the [Belfast Malmaison](https://www.malmaison.com/hotels/belfast/belf
 The bar chart to display consumption over time was initially implemented with column widths set as a percentage of the entire page. These percentages turned out as fractions (width: 10.60%).
 
 <a href="http://farm6.static.flickr.com/5287/5229476506_5b85dd4f4e_o.png" title="View full size">
-  <img style="width: 100%" src="http://farm6.static.flickr.com/5287/5229476506_5b85dd4f4e_o.png" alt="Bar Chart showing volume of caffeine consumed over time." />
+  <img style="width: 100%" src="//farm6.static.flickr.com/5287/5229476506_5b85dd4f4e_o.png" alt="Bar Chart showing volume of caffeine consumed over time." />
 </a>
 
 The large layout and browser tendency to round fractions caused cumulative inaccuracy, which manifested visually towards to the end of the bar-graph. Resizing the browser just made it worse &mdash; we _had_ to fix it.

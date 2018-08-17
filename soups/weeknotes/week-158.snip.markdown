@@ -18,7 +18,7 @@ It's been particularly interesting to get the perspective of another developer o
 
 ### Responsive Design
 
-<img alt="GOV.UK design on mobile device" class="left" src="http://alphagov.files.wordpress.com/2012/01/in_phone-1.png?w=159&h=300">One aspect of single domain development we're proud to have been a part of is the introduction of [responsive design][] (which you may also have heard of under the guise of [progressive enhancement][] or [mobile-first][]). In a nutshell, rather than providing separate implementations for devices with different capabilities (such as the small screens on mobile phones), one design can adapt as the capabilities of the display device change. You can read more about this on the [GDS blog][].
+<img alt="GOV.UK design on mobile device" class="left" src="//alphagov.files.wordpress.com/2012/01/in_phone-1.png?w=159&h=300">One aspect of single domain development we're proud to have been a part of is the introduction of [responsive design][] (which you may also have heard of under the guise of [progressive enhancement][] or [mobile-first][]). In a nutshell, rather than providing separate implementations for devices with different capabilities (such as the small screens on mobile phones), one design can adapt as the capabilities of the display device change. You can read more about this on the [GDS blog][].
 
 [Jase](/jason-cale) introduced responsive design to the [Whitehall][whitehall-github] templates very early on, and next week he'll be helping bring other parts of the shared template into line. He'll also be posting on the GDS blog himself in the near future.
 

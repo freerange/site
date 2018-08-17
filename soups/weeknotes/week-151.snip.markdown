@@ -11,7 +11,7 @@ How it will pan out in terms of the whole season remains to be seen, the sceptic
 
 We kicked off this week with an away game at the GovUK ground [Aviation House](https://foursquare.com/v/government-digital-service-gds/4eb2cc5777c814d925d45c4c). Spirits were high but as everyone can sympathise, at this time in the season, tiredness remains in everyones limbs. We dug deep with early pep talk from our coffee supplier and rushed on to get this weeks game underway. The stories were stacked in [Pivotal Tracker](https://www.pivotaltracker.com/projects/367813) and we were ready to hit it hard.
 
-<img src="http://cl.ly/1g3W3I3a200e3h2g2J0Q/1.jpg" style="width:100%; max-width: 400px;" alt="Game 1" />
+<img src="//cl.ly/1g3W3I3a200e3h2g2J0Q/1.jpg" style="width:100%; max-width: 400px;" alt="Game 1" />
 
 As half time approached, we broke play to huddle in the dugout at Aviation House under the watchful gaze of Martha Lane Fox's giant visage that adorns the wall, the crowd wore their ceremonial golden hotdogs.
 
@@ -43,7 +43,7 @@ The day closed out even score, with [Wandering T.A. Ward](http://tomafro.net/) h
 
 Play was held on home turf in [Shoreditch](https://foursquare.com/v/go-free-range-hq-20/4ea6be695c5c6cec791b9148), Cosmic Spiral was playing hard on delivering some FRESH design work for the [Whitehall GovUK app](https://github.com/alphagov/whitehall), the bookies placing considerable value on the league cup match on Thursday which would see all divisions come together for the launch of the Government Digital Service at Aviation House. This design component was deemed pivotal in the pitching ability of our frontline attack, with Neil "Double Hitter" Williams on the mound for most of the days play.
 
-<img src="http://cl.ly/3w060f3e0E372y3O0W0J/2.jpg" style="width:100%; max-width: 400px;" alt="Game 2" />
+<img src="//cl.ly/3w060f3e0E372y3O0W0J/2.jpg" style="width:100%; max-width: 400px;" alt="Game 2" />
 
 However team interest was diverted by the surprise appearance of [CAKE](https://img-s.foursquare.com/pix/T2KCBCY2D0TM5ZUSXEWCP0BI2ID50SAL55LLP0UQS5SB3FL1.jpg) delivered to the team bench by Wandering Ward. It was eaten with gusto to the applause of the spectators who turned out in numbers despite the cold front which had been threatening play for much of the week.
 
@@ -51,7 +51,7 @@ However team interest was diverted by the surprise appearance of [CAKE](https://
 
 Cosmic Spiral and [Bear Catcher Roos](http://chrisroos.co.uk/) remained fixed in outfield positions at Shoreditch, with [Blazing Sails Mead](http://jamesmead.org/) delivering game from his Oxford outpost, Wandering Ward and the Ven. Dokktor took flight to Aviation House to ensure the front line was flanked sufficiently.
 
-<img src="http://cl.ly/1B1D3S113E0F273Y0707/4.jpg" style="width:100%; max-width: 400px;" alt="Game 3" />
+<img src="//cl.ly/1B1D3S113E0F273Y0707/4.jpg" style="width:100%; max-width: 400px;" alt="Game 3" />
 
 Our team has seen an increased inpouring of lucrative sponsorship and league transfer deals this week, more so than usual, the first of which was caught by Bear Catcher staying true to his moniker with a Skype call with a potential playmaker.
 
@@ -64,7 +64,7 @@ Chaos reigned high as the crowds piled into to a [packed out arena](http://www.f
 
 Taking centre stage was [Double Hitter Williams](http://www.flickr.com/photos/paul_clarke/6477795215/in/photostream) with his presentation to the board of trustees. Tensions ran high as he delivered a masterful stroke, sending the ball deep into the outfield; a range of 457 feet was recorded and the crowd erupted with silence.
 
-<img src="http://cl.ly/251C2P030O2L3S1b3l0a/3.jpg" style="width:100%; max-width: 400px;" alt="Game 4" />
+<img src="//cl.ly/251C2P030O2L3S1b3l0a/3.jpg" style="width:100%; max-width: 400px;" alt="Game 4" />
 
 [Goodfellow P. Herlihy](http://www.flickr.com/photos/paul_clarke/6477497585/in/photostream) was on hand fresh from his suspension for suspected foul play at Death At The Well earlier in the season to deliver his rhetoric on the [e-petitions](http://epetitions.direct.gov.uk/) website which he was part of before his transfer to the GovUK league early this season.
 
@@ -89,7 +89,7 @@ This often tricky component of play is difficult to manage, and we are continuin
 
 The true art of this game emerges when we react with agility to the unfolding demands of play, and not resting on yesterdays game plan.
 
-<img src="http://cl.ly/3s2I3S100m1x0g3q0N3i/5.jpg" style="width:100%; max-width: 400px;" alt="Game 5" />
+<img src="//cl.ly/3s2I3S100m1x0g3q0N3i/5.jpg" style="width:100%; max-width: 400px;" alt="Game 5" />
 
 End of play saw the scores tie at 34-45 with the possibility of disciplinary action for a offside foul by Goodfellow earlier in the week.
 

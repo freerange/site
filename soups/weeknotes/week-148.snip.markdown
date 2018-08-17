@@ -43,7 +43,7 @@ All the details are [laid out for your eyes](/officewarming) and it would be roy
 
 Not sure what happened but our intrepid [hairy-code deleting-surf hippy-stalwart of good times-Chris-MotherFlippin-Roos](http://chrisroos.co.uk) came in at like 2pm today. Rumour is going round that now that Chris has entered deep into Old Age (30) that he can no longer handle his drinks.
 
-<img src="http://distilleryimage1.instagram.com/bf27976a11fa11e1a87612313804ec91_7.jpg" style="width:100%;" alt="Chris: HairFACE" />
+<img src="//distilleryimage1.instagram.com/bf27976a11fa11e1a87612313804ec91_7.jpg" style="width:100%;" alt="Chris: HairFACE" />
 
 Better make it a shandy tonight then, Chris.
 
