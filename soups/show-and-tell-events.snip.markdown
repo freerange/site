@@ -4,13 +4,13 @@ We host this event on the third Wednesday of every month, starting at 6.30pm and
 
 We started running the event back in April 2014 at the suggestion of Tom Stuart. At the time we had our own office with plenty of spare space and so we encouraged friends to come and make use of it. This led to lots of informal demos and chats about what we were all working on. We really enjoyed these sessions and so with Tom's encouragement, the GFR Show & Tell was born.
 
-### Meeting format
+### Event format
 
-You don't need to have something to demo in order to participate. So if you're interested please do come along - your constructive feedback on other people's projects will always be welcome. Demos don't have to be technical in nature, although they should probably be aimed at a relatively technical audience. Reading the notes on previous meetings (see links below) will give you an indication of the types of projects that people have demoed in the past.
+You don't need to have something to demo in order to participate. So if you're interested please do come along - your constructive feedback on other people's projects will always be welcome. Demos don't have to be technical in nature, although they should probably be aimed at a relatively technical audience. Reading the notes on previous events (see links below) will give you an indication of the types of projects that people have demoed in the past.
 
-The meeting is always very informal with a typical turnout of 4-10 people. Depending on how many people have things to show, you will typically have up to about 20 mins to demo your thing. We aim to hold meetings in a room with wi-fi and a projector or large screen, usually connected to an Apple TV and/or Chromecast. Let us know in advance if you have specific requirements and we'll do our best to accommodate you.
+The event is always very informal with a typical turnout of 4-10 people. Depending on how many people have things to show, you will typically have up to about 20 mins to demo your thing. We aim to hold events in a room with wi-fi and a projector or large screen, usually connected to an Apple TV and/or Chromecast. Let us know in advance if you have specific requirements and we'll do our best to accommodate you.
 
-The meeting usually lasts about 2 hours, but, for those who can spare the time, we usually decamp to a nearby hostelry for post-meeting refreshment. This is a chance to continue interesting discussions initiated during the meeting.
+The event usually lasts about 2 hours, but, for those who can spare the time, we usually decamp to a nearby hostelry for post-event refreshment. This is a chance to continue interesting discussions initiated during the event.
 
 If you have any questions, please [get in touch][email-address].
 
@@ -28,11 +28,11 @@ If you have any questions, please [get in touch][email-address].
 * [Events on Attending][]
 * [Event series on Lanyrd (deprecated)][lanyrd-event-series]
 
-### Upcoming meeting
+### Upcoming event
 
 * TBA
 
-### Past meetings
+### Past events
 
 <ul class="show-and-tell_list" reversed>
   <% ShowAndTell.all.to_enum.with_index(1).reverse_each do |snip, index| %>
@@ -40,7 +40,7 @@ If you have any questions, please [get in touch][email-address].
   <% end %>
 </ul>
 
-### Early meetings (recorded in week notes)
+### Early events (recorded in week notes)
 
 * [Show and Tell 3][]
 * [Show and Tell 2][]
