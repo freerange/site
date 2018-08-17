@@ -39,7 +39,7 @@ Jase went to Bristol on Wednesday to talk again about [working without leaders][
 
 Here are Jase's beautiful slides, although they only give a flavour of his talk on their own.
 
-<script src="http://speakerdeck.com/embed/4f21419afdd3b70022003bef.js"></script>
+<script src="//speakerdeck.com/embed/4f21419afdd3b70022003bef.js"></script>
 
 Jase was even approached by other people asking how they might transform their own loose networks of colleagues into [Free Range](/)-like groups, which is both very flattering and quite frightening at the same time, since we still feel a bit like explorers mapping uncharted organisational territory[^charted] ourselves.
 
