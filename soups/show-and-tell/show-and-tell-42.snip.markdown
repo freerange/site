@@ -42,8 +42,6 @@ One approach is to perform transactions on a "side chain" and then periodically 
 Ben rounded off the evening for us by giving a quick demo and explanation of [Parsec](https://parsecgaming.com/). Ben's son really wanted to play a game that's only available on Windows. There's no Windows machines in Ben's house so Ben first tried to create a virtual machine on Amazon's AWS service  to run the game. This worked OK, but suffered from some latency that made the game difficult to play. After some research they discovered Parsec which allows virtual gaming machines in the cloud to be efficiently streamed to a local machine. Ben's really impressed with how easy it was to set up and the performance. And his son got his gaming fix!
 
 
-<!-- add content here -->
-
 :name: show-and-tell-42
 :updated_at: 2018-03-28 21:05:41.622011000 +01:00
 :created_at: 2018-03-28 21:05:41.622000000 +01:00

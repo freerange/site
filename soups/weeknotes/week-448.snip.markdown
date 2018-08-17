@@ -14,8 +14,6 @@ We had our regular retrospective and company catchup at the end of the day on Th
 Have a great weekend!
 
 
-<!-- add content here -->
-
 :name: week-448
 :updated_at: 2017-08-18 12:40:43.066050000 +01:00
 :created_at: 2017-08-18 12:40:43.066043000 +01:00

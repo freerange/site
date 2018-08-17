@@ -127,8 +127,6 @@ The prototype we showed involves giving directions to a ship lost at sea using o
 There'll be some more detail about this in our weeknotes.
 
 
-<!-- add content here -->
-
 :name: show-and-tell-43
 :updated_at: 2018-04-20 11:43:26.095018000 +01:00
 :created_at: 2018-04-20 11:43:26.095008000 +01:00

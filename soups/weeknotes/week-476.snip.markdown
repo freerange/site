@@ -17,8 +17,6 @@ In the meantime Chris prepared and delivered a [great, short overview](https://g
 
 On Wednesday Chris and I spoke to [Hazel Sheffield](https://twitter.com/hazelsheffield) who is writing an article about tech co-operatives and [CoTech](https://www.coops.tech/). We ended the week with our usual team meeting and retrospective - this time entirely remotely.
 
-<!-- add content here -->
-
 :name: week-476
 :updated_at: 2018-03-08 21:26:20.317590000 +00:00
 :created_at: 2018-03-08 21:26:20.317579000 +00:00

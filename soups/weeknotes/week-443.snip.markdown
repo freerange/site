@@ -18,8 +18,6 @@ As we mentioned last week, we've also been helping the Smart Answers team to mak
 [^1]: I've been using the [checkboxes feature](http://orgmode.org/manual/Checkboxes.html) in emacs [org mode](http://orgmode.org/) for lightweight todo lists.
 
 
-<!-- add content here -->
-
 :name: week-443
 :updated_at: 2017-07-14 14:59:45.995030000 +01:00
 :created_at: 2017-07-14 14:59:45.995020000 +01:00

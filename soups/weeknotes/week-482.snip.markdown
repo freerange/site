@@ -71,8 +71,6 @@ As I write, Chris is hooking up this game engine to a new Alexa Skill. If we dec
 
 Until next time!
 
-<!-- add content here -->
-
 :name: week-482
 :updated_at: 2018-04-13 14:20:36.354405000 +01:00
 :created_at: 2018-04-13 14:20:36.354396000 +01:00

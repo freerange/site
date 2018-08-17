@@ -13,8 +13,6 @@ Meanwhile having fully migrated all non-attachment assets to Asset Manager and e
 
 We continue to work with our colleagues at [The Dot Project](http://www.thedotproject.co/) who are putting together a cohesive overview of how [CoTech](http://coops.tech/) members can work together and jointly bid for work. Following on from the CoTech community call last week we I started to work with [Luke](http://www.aptivate.org/en/about/team/user_cv/luke_murphy/) from Aptivate and Chris from Web Architects to start working on a monthly newsletter for CoTech. We've been coordinating our work on CoTech's [gitlab instance](https://git.coop/cotech/newsletter/) and I've been enjoying learning how to use it. We finished the week with our customary company retrospective and chat.
 
-<!-- add content here -->
-
 :name: week-472
 :updated_at: 2018-02-05 19:47:19.392154000 -05:00
 :created_at: 2018-02-05 19:47:19.392144000 -05:00

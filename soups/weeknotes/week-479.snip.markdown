@@ -30,8 +30,6 @@ A particularly interesting discussion was around time-tracking and holidays. We 
 
 'Til next time!
 
-<!-- add content here -->
-
 :name: week-479
 :updated_at: 2018-03-29 15:42:39.477142000 +01:00
 :created_at: 2018-03-29 15:42:39.477131000 +01:00

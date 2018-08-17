@@ -27,8 +27,6 @@ We're also writing a blog post with some more detail of our work on this project
 - We put in an application for [another DO&S opportunity](https://www.digitalmarketplace.service.gov.uk//digital-outcomes-and-specialists/opportunities/6967). Although the chances of success seem quite low (there's 20 applicants) and the process is quite time consuming it feels important that we keep writing these applications and hopefully get better/faster at doing them.
 - Chris and I spent some time improving our cash flow forecasting spreadsheet using [some handy tips from FreeAgent](https://www.freeagent.com/guides/cash-flow-forecast/).
 
-<!-- add content here -->
-
 :name: week-491
 :updated_at: 2018-06-18 12:50:33.515542000 +01:00
 :created_at: 2018-06-18 12:50:33.515533000 +01:00

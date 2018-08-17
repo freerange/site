@@ -17,8 +17,6 @@ A couple of weeks ago we [decided to pay for a listing](https://community.coops.
 
 Wishing you a great weekend.
 
-<!-- add content here -->
-
 :name: week-487
 :updated_at: 2018-05-18 15:54:17.789807000 +01:00
 :created_at: 2018-05-18 15:54:17.789799000 +01:00

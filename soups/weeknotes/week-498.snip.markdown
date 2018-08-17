@@ -11,8 +11,6 @@ We had a useful meeting on Wednesday with a potential future client and we're ta
 
 Have a great weekend!
 
-<!-- add content here -->
-
 :name: week-498
 :updated_at: 2018-08-03 11:09:23.954697000 +01:00
 :created_at: 2018-08-03 11:09:23.954686000 +01:00

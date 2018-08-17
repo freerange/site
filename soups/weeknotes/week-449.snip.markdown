@@ -17,8 +17,6 @@ We finished up the week today working remotely - me from the [Roundhouse](http:/
 
 Have a great weekend!
 
-<!-- add content here -->
-
 :name: week-449
 :updated_at: 2017-08-25 16:02:41.584016000 +01:00
 :created_at: 2017-08-25 16:02:41.584008000 +01:00

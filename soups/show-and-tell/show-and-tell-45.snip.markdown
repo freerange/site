@@ -29,8 +29,6 @@ Ben mentioned how they looked for problems they could solve for an audience that
 
 Ben showed the small application he's been working on and how it is built using the language [Elm](http://elm-lang.org/). We saw how an Elm application is architected and talked about some of the ways its type system helps you to avoid making mistakes.
 
-<!-- add content here -->
-
 :name: show-and-tell-45
 :updated_at: 2018-06-28 15:04:18.019798000 +01:00
 :created_at: 2018-06-28 15:04:18.019790000 +01:00

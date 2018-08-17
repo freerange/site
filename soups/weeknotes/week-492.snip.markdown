@@ -20,8 +20,6 @@ He also [upgraded the application to Rails 5.2](https://github.com/bhrrc/moderns
 
 
 
-<!-- add content here -->
-
 :name: week-492
 :updated_at: 2018-06-28 14:32:03.700186000 +01:00
 :created_at: 2018-06-28 14:32:03.700179000 +01:00

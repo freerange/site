@@ -16,8 +16,6 @@ We also had to make sure that metadata about each attachment that was previously
 Warm greetings from the future!
 
 
-<!-- add content here -->
-
 :name: week-477
 :updated_at: 2018-03-29 15:55:35.421081000 +01:00
 :created_at: 2018-03-29 15:55:35.421072000 +01:00

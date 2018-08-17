@@ -77,8 +77,6 @@ different commitments we've made.
 I think we had a very productive, fun day and enjoyed the change of
 pace.
 
-<!-- add content here -->
-
 :name: week-431
 :updated_at: 2017-04-27 11:03:47.837280000 +01:00
 :created_at: 2017-04-27 11:03:47.837274000 +01:00

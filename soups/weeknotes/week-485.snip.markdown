@@ -17,8 +17,6 @@ Here's a brief summary of some of the things we got up to:
 - We switched to using the recently-resurrected [upcoming.org](https://upcoming.org) for our [Show and Tell](https://upcoming.org/event/gfr-show-and-tell-44-0o3s38h967) event.
 
 
-<!-- add content here -->
-
 :name: week-485
 :updated_at: 2018-05-14 15:59:27.114852000 +01:00
 :created_at: 2018-05-14 15:59:27.114820000 +01:00

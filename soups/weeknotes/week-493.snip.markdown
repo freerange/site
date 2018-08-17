@@ -15,8 +15,6 @@ We continued our work on the Business and Human Rights Resource Centre's [Modern
 - Make it easier to create a local [full-text index](https://github.com/bhrrc/modernslaveryregistry.org/commit/2be43ce4ddb987bdde604553f2249ab629ca4bce) of all the PDF statements uploaded. This makes it easier for the team to analyse the content of the statements. We may want to add a feature like this to the site in the future but for now we've decided to add the statements to the team's [OneDrive](https://office.live.com/start/OneDrive.aspx?omkt=en%2DUS) account where the text can be indexed.
 - Create [scripts to provision the production environment on AWS](https://github.com/bhrrc/modernslaveryregistry.org/commit/52ae41f4b1da13e32b56355dce2f1bec65048dfb)
 
-<!-- add content here -->
-
 :name: week-493
 :updated_at: 2018-07-13 11:19:39.638550000 +01:00
 :created_at: 2018-07-13 11:19:39.638542000 +01:00
