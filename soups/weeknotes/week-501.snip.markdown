@@ -19,13 +19,11 @@ Until next time.
 
 [msr-website]: https://www.modernslaveryregistry.org/
 
-
 :name: week-501
-:updated_at: 2018-08-24 16:20:10.821161000 +01:00
-:created_at: 2018-08-24 16:20:10.821160000 +01:00
+:updated_at: 2018-08-24 17:54:00.126354000 +01:00
+:created_at: 2018-08-24 17:54:00.126337000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
