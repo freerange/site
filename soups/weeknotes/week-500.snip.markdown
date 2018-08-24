@@ -30,11 +30,10 @@ Until next time.
 [mixed content warnings]: https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content
 
 :name: week-500
-:updated_at: 2018-08-24 16:08:51.032340000 +01:00
-:created_at: 2018-08-24 16:08:51.032339000 +01:00
+:updated_at: 2018-08-24 17:13:20.538303000 +01:00
+:created_at: 2018-08-24 17:13:20.538295000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
