@@ -3,7 +3,7 @@
 ;
 ; gofreerange.com [75717]
 $TTL 86400
-@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2018041428 14400 14400 1209600 86400
+@	IN	SOA	ns1.linode.com. hostmaster.gofreerange.com. 2018081730 14400 14400 1209600 86400
 @		NS	ns1.linode.com.
 @		NS	ns2.linode.com.
 @		NS	ns3.linode.com.
@@ -18,8 +18,9 @@ $TTL 86400
 @			MX	40	ASPMX5.GOOGLEMAIL.COM.
 @		300	TXT	"v=spf1 include:_spf.google.com include:amazonses.com ~all"
 google._domainkey		300	TXT	(
-        "v=DKIM1\059 k=rsa\059 p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqUyRV1d/QCw+4VjDvvAv61hpLub6U6Txnq97Fj0tuIB34GZl0ymT3BSUomPKeH8juQp/iveCnM9sBLg/lYjLjgKBnixOpiWz9nAZA2lrIa1ffIrES+DGiVsGRrFz9zgC/vqC6sfRfMyJahHGL6AYYQzz0OdrZsSsSQf9WTZKr54fykWmrukvpqV9OW86m7At1"
-        "UCIZXn2mXRx/WG0z1q4CTstcAcwxs28QIbRfOo51AD/NBbgzqmfwTFtFIubBdOTLtWb3OVZJOdcKEW5OOh6+La08hdwd6z12iGLSwBy4h/qC4YfC/xAnvFHXkrsLuknnYfzt44I7E8Tm6DAWWs64QIDAQAB" )
+	"v=DKIM1\059 k=rsa\059 p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqUyRV1d/QCw+4VjDvvAv61hpLub6U6Txnq97Fj0tuIB34GZl0ymT3BSUomPKeH8juQp/iveCnM9sBLg/lYjLjgKBnixOpiWz9nAZA2lrIa1ffIrES+DGiVsGRrFz9zgC/vqC6sfRfMyJahHGL6AYYQzz0OdrZsSsSQf9WTZKr54fykWmrukvpqV9OW86m7At1"
+	"UCIZXn2mXRx/WG0z1q4CTstcAcwxs28QIbRfOo51AD/NBbgzqmfwTFtFIubBdOTLtWb3OVZJOdcKEW5OOh6+La08hdwd6z12iGLSwBy4h/qC4YfC/xAnvFHXkrsLuknnYfzt44I7E8Tm6DAWWs64QIDAQAB" )
+_github-challenge-freerange		300	TXT	"308436e875"
 @			A	85.159.213.6
 badger			A	85.159.213.6
 video		300	A	178.79.133.233
