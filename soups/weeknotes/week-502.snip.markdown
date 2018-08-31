@@ -1,7 +1,9 @@
 Week 502
 ========
 
-This was a short week, given the bank holiday on Monday. Chris L was back from holiday and all three of us worked in the Trainline office on Tuesday. Chris R and I also worked there on Thursday, otherwise we all worked remotely from home. When we're working fairly full-time on a client project like this, the cost of maintaining our own office bothers me slightly. Hopefully when Ben's back from holiday next week, we'll make more use of it again.
+This was a short week, given the bank holiday on Monday. Chris L was back from holiday and all three of us worked in the Trainline office on Tuesday. Chris R and I also worked there on Thursday, otherwise we all worked remotely from home.
+
+When we're working fairly full-time on a client project like this, the cost of maintaining our own office bothers me slightly. Hopefully when Ben's back from holiday next week, we'll make more use of it again.
 
 ## Trainline
 
