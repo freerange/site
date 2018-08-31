@@ -17,7 +17,9 @@ Chris L has been investigating the validation of messages sent to another Trainl
 
 ## Elsewhere
 
-On Friday morning, we had a remote company meeting via a Slack group voice and screen-sharing call which worked pretty well. We've started creating an agenda for our upcoming company away day. We also all did a bit of catching up with company admin and then both Chris R & Chris L moved on to do some more work on the [Modern Slavery Registry][] project. Amongst other things I spent rather too long investigating inconsistencies and possible rule violations in our categorisation of bank transactions in [FreeAgent][] and then moved on to catching up with my writing backlog, including these week notes!
+On Friday morning, we had a remote company meeting via a Slack group voice and screen-sharing call which worked pretty well. We've started creating an agenda for our upcoming company away day. We also all did a bit of catching up with company admin and then both Chris R & Chris L moved on to do some more work on the [Modern Slavery Registry][] project.
+
+Amongst other things I spent rather too long investigating inconsistencies and possible rule violations in our categorisation of bank transactions in [FreeAgent][] and then moved on to catching up with my writing backlog, including these week notes!
 
 Anyway, that's all for now. Have a lovely weekend!
 
