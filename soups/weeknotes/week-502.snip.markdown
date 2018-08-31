@@ -28,11 +28,10 @@ Anyway, that's all for now. Have a lovely weekend!
 [FreeAgent]: https://www.freeagent.com/
 
 :name: week-502
-:updated_at: 2018-08-31 13:52:50.463882000 +01:00
-:created_at: 2018-08-31 13:52:50.463880000 +01:00
+:updated_at: 2018-08-31 14:29:51.195355000 +01:00
+:created_at: 2018-08-31 14:29:51.195344000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
