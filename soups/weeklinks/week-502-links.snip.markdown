@@ -25,13 +25,11 @@ I thoroughly enjoyed this talk by a [Marxian economist](https://en.wikipedia.org
 
 An interesting panel discussion with Mike Bracken, Martha-Lane Fox, Ian Watmore & Daniel Thornton. <%= by('james-mead') %>
 
-
 :name: week-502-links
-:updated_at: 2018-08-31 13:42:13.525118000 +01:00
-:created_at: 2018-08-31 13:42:13.525116000 +01:00
+:updated_at: 2018-08-31 16:40:42.510252000 +01:00
+:created_at: 2018-08-31 16:40:42.510244000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
