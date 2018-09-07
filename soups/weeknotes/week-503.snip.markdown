@@ -17,11 +17,10 @@ We're all together again this Friday in our office in Whitechapel - as well as t
 <!-- add content here -->
 
 :name: week-503
-:updated_at: 2018-09-07 11:47:01.309051000 +01:00
-:created_at: 2018-09-07 11:47:01.309049000 +01:00
+:updated_at: 2018-09-07 12:12:35.269222000 +01:00
+:created_at: 2018-09-07 12:12:35.269213000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
