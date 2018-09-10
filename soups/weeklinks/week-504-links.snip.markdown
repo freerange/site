@@ -1,9 +1,13 @@
 Week 504 - Interesting links
 ============================
 
-### [Title](http://example.com)
+### [AWS CDK Developer Preview](https://aws.amazon.com/blogs/developer/aws-cdk-developer-preview/)
 
-Your comments here. <%= by('chris-roos') %>
+The [AWS CDK][] allows you to define infrastructure as imperative object-oriented code (e.g. JavaScript, TypeScript, Java) and provision it through [AWS CloudFormation][]. The "Abstract the Details" section says the CDK can "automatically synthesize key resources such as IAM policies, security groups, and network configuration" which sounds pretty handy! Via [Tom H][]. <%= by('james-mead') %>
+
+[AWS CDK]: https://awslabs.github.io/aws-cdk/
+[AWS CloudFormation]: https://aws.amazon.com/cloudformation/
+[Tom H]: http://www.thattommyhall.com/
 
 :name: week-504-links
 :updated_at: 2018-09-07 11:22:05.800153000 +01:00
