@@ -46,11 +46,10 @@ I think it's fair to say that we collectively struggle to write weeknotes so I e
 [week-138]: /week-138
 
 :name: week-504-links
-:updated_at: 2018-09-07 11:22:05.800153000 +01:00
-:created_at: 2018-09-07 11:22:05.800151000 +01:00
+:updated_at: 2018-09-12 14:53:47.756203000 +01:00
+:created_at: 2018-09-12 14:53:47.756187000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
