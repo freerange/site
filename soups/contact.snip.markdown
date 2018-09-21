@@ -8,7 +8,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We are looking for interesting projects to work on from September 2018. We'd love to hear from you if you've got an idea you think we can help with.
+* *Timing:* We're fully booked until the end of 2018 but are always happy to make time to discuss ideas that we might be able to help with.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
