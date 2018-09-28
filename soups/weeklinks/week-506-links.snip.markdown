@@ -30,11 +30,10 @@ I do think it's a bad idea to schedule technical tasks, but I'm not totally conv
 [Alistair Cockburn]: https://en.wikipedia.org/wiki/Alistair_Cockburn
 
 :name: week-506-links
-:updated_at: 2018-09-28 12:12:27.110224000 +01:00
-:created_at: 2018-09-28 12:12:27.110222000 +01:00
+:updated_at: 2018-09-28 13:48:12.446536000 +01:00
+:created_at: 2018-09-28 13:48:12.446528000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
