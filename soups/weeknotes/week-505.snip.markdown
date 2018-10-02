@@ -5,7 +5,7 @@ I was away on Monday on the last day of my RYA Day Skipper course, sailing in th
 
 Chris L spent Monday doing some on-site data science consultancy for a client in Shoreditch and I think he had a productive day. Historically we haven't tended to do many short-term consultancy gigs like this one, because of the overheads involved, so it'll be interesting to see how this one pans out.
 
-Chris L was then away at the [Web Audio Conference][] in Berlin for the rest of the week. In case you didn't know, Chris publishes the excellent [Web Audio Weekly newsletter][], so get yourself over there and subscribe!
+Chris L was then away at the [Web Audio Conference][] in Berlin for the rest of the week. In case you didn't know, Chris publishes the excellent [Web Audio Weekly newsletter][], so get yourself over there and [subscribe][waw-subscribe]!
 
 Chris R and Ben met up with a potential collaborator who we know from our time at [FutureLearn][]. It's always good to catch up and discuss the possibility of working together.
 
@@ -17,6 +17,7 @@ That's all, folks!
 
 [Web Audio Conference]: https://webaudioconf.com/
 [Web Audio Weekly newsletter]: https://www.webaudioweekly.com/
+[waw-subscribe]: https://www.webaudioweekly.com/subscribe/
 [FutureLearn]: https://www.futurelearn.com/
 
 :name: week-505
