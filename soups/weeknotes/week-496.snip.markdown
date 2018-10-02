@@ -14,11 +14,10 @@ That's all folks!
 -- James
 
 :name: week-496
-:updated_at: 2018-10-02 13:09:16.506948000 +01:00
-:created_at: 2018-10-02 13:09:16.506946000 +01:00
+:updated_at: 2018-10-02 14:34:54.686249000 +01:00
+:created_at: 2018-10-02 14:34:54.686237000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
