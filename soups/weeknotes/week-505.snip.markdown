@@ -3,6 +3,8 @@ Week 505
 
 I was away on Monday on the last day of my RYA Day Skipper course, sailing in the Solent.
 
+Chris R, Ben and I spent most of the week continuing our work at [Trainline][].
+
 Chris L spent Monday doing some on-site data science consultancy for a client in Shoreditch and I think he had a productive day. Historically we haven't tended to do many short-term consultancy gigs like this one, because of the overheads involved, so it'll be interesting to see how this one pans out.
 
 Chris L was then away at the [Web Audio Conference][] in Berlin for the rest of the week. In case you didn't know, Chris publishes the excellent [Web Audio Weekly newsletter][], so get yourself over there and [subscribe][waw-subscribe]!
@@ -15,6 +17,7 @@ That's all, folks!
 
 -- James
 
+[Trainline]: https://www.thetrainline.com/
 [Web Audio Conference]: https://webaudioconf.com/
 [Web Audio Weekly newsletter]: https://www.webaudioweekly.com/
 [waw-subscribe]: https://www.webaudioweekly.com/subscribe/
