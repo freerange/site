@@ -21,11 +21,10 @@ That's all folks!
 [bhrrc]: https://www.business-humanrights.org/
 
 :name: week-489
-:updated_at: 2018-06-12 18:14:35.102174000 +01:00
-:created_at: 2018-06-12 18:14:35.102173000 +01:00
+:updated_at: 2018-10-02 13:00:24.207727000 +01:00
+:created_at: 2018-10-02 13:00:24.207718000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
