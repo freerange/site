@@ -14,8 +14,6 @@ On Tuesday we spent a few hours at the [West Reservoir Centre](https://hackney.g
 We're all together again this Friday in our office in Whitechapel - as well as tying up some admin loose-ends we should be able to make a bit of progress on our side-project.
 
 
-<!-- add content here -->
-
 :name: week-503
 :updated_at: 2018-09-07 12:12:35.269222000 +01:00
 :created_at: 2018-09-07 12:12:35.269213000 +01:00
