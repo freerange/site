@@ -21,11 +21,10 @@ That's all, folks!
 [FutureLearn]: https://www.futurelearn.com/
 
 :name: week-505
-:updated_at: 2018-10-02 14:59:35.323441000 +01:00
-:created_at: 2018-10-02 14:59:35.323439000 +01:00
+:updated_at: 2018-10-02 15:21:23.993801000 +01:00
+:created_at: 2018-10-02 15:21:23.993792000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
