@@ -1,7 +1,7 @@
 Week 496
 ========
 
-Chris R was on holiday on Monday and James was still away on his extended break.
+Chris R was on holiday on Monday and I was still away on my extended break.
 
 It was our third week at Trainline and we continued work on the project we started last week. The main goal is to make it clearer when QA tests fail due to some external system not being available versus an actual problem with the system under test.
 

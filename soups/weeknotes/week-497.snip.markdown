@@ -1,7 +1,7 @@
 Week 497
 ========
 
-Chris L was on holiday on Tuesday and James was still away on his extended break.
+Chris L was on holiday on Tuesday and I was still away on my extended break.
 
 Most of the week we continued to be busy working on the Trainline project which we started a couple of weeks ago.
 
