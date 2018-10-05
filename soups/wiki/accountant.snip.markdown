@@ -2,10 +2,15 @@
 
 ### Current
 
-* Paul Brannigan at [The Proactive Accountant][]
-* Dates: 12 May 2016 - present
+* Dawn Goddard at [Goddard Accounting and Tax Solutions][]
+* Dates: 17 Oct 2017 - present
 
 ### Previous
+
+#### The Proactive Accountant
+
+* Paul Brannigan at [The Proactive Accountant][]
+* Dates: 12 May 2016 - 2 Oct 2017
 
 #### 3CA
 
@@ -17,6 +22,7 @@
 * Tony Hobbs (?) at [Chapman, Robinson & Moore][]
 * Dates: 13 January 2009 - 08 March 2011
 
+[Goddard Accounting and Tax Solutions]: http://www.goddardsolutions.co.uk/
 [The Proactive Accountant]: http://www.proactive.uk.net/
 [3CA]: http://www.3ca.co.uk/
 [Chapman, Robinson & Moore]: http://crmoxford.co.uk/
