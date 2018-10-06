@@ -33,7 +33,7 @@ Chris has built [a general purpose tool][changes-tool] which you can use to visu
   <img src="/images/blog/2018-06-07-show-and-tell-44-animated-maps.gif" alt="Progression of maps for Alexa game">
 </p>
 
-In last month's Show & Tell, we talked demonstrated the beginnings of a [game for Amazon's Alexa][we-didnt-mean-to-go-to-sea], in which the player starts in an unknown position on a map and has to navigate a ship to port by listening to the sounds around them as if they were lost in fog. This time Ben demonstrated how he had programmatically generated a realistic looking map from a simple ASCII grid.
+In last month's Show & Tell, we demonstrated the beginnings of a [game for Amazon's Alexa][we-didnt-mean-to-go-to-sea], in which the player starts in an unknown position on a map and has to navigate a ship to port by listening to the sounds around them as if they were lost in fog. This time Ben demonstrated how he had programmatically generated a realistic looking map from a simple ASCII grid.
 
 Ben was inspired by [Martin O'Leary's maps][mewo2-maps] which are published via [@unchartedatlas][unchartedatlas]. The first stage of Ben's approach was to plot a load of random points and to divide the plane into a polygon per point by finding all the points which are closer to the random point than any other. This division into polygons is called a [Voronoi diagram][] and Ben used the [rubyvor](https://github.com/abscondment/rubyvor) library to implement this.
 
