@@ -29,7 +29,7 @@ The task we set ourselves at the beginning of the week was to see if we could po
 
 We started by surveying some of the technology that is available. I read through the [documentation and tutorials](https://developer.amazon.com/alexa-skills-kit) for the Alexa system, while Chris spent some time looking at the [Google Assistant](https://developers.google.com/actions/). Meanwhile Ben investigated [Dialogflow](https://dialogflow.com/), an abstraction service that allows applications to be deployed to multiple assistant platforms.
 
-In order to learn a bit more about the technology we decided to build a simple application first. At Go Free Range we often assign card on our trello board to one of us at random. We thought we'd build a voice-controlled application to do this. By Wednesday we had something working on Google Assistant and Alexa.
+In order to learn a bit more about the technology we decided to build a simple application first. At Go Free Range we often assign card on our Trello board to one of us at random. We thought we'd build a voice-controlled application to do this. By Wednesday we had something working on Google Assistant and Alexa.
 
 Developing an Alexa application, or "skill" involves two phases. Firstly the skill is registered in the Alexa developer console. Here we choose a name, define a series of commands (known as "intents") and provide some sample phrases to trigger those intents. For an example, a conversation with our Go Free Range Helper skill might go like:
 
