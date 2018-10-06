@@ -25,11 +25,10 @@ Anyway, that's all for now. Until next time.
 [Forge & Co]: http://forgeandco.co.uk/
 
 :name: week-483
-:updated_at: 2018-10-06 14:16:25.391509000 +01:00
-:created_at: 2018-10-06 14:16:25.391507000 +01:00
+:updated_at: 2018-10-06 17:23:24.226303000 +01:00
+:created_at: 2018-10-06 17:23:24.226292000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
