@@ -38,6 +38,15 @@ Doing some research on [EventMachine][] on our previous client project, I came a
 [falcon]: https://github.com/socketry/falcon
 
 
+### [The Real Story Behind Story Points](https://robots.thoughtbot.com/the-real-story-behind-story-points)
+
+I'm not a fan of story points and think this article does quite a good job of explaining some of the common problems and alternatives you might try to avoid them. I'm enjoying not having to worry about story points on the current project we're working on. <%= by('chris-roos') %>
+
+
+### [Launching 3D Secure!](https://monzo.com/blog/2018/08/22/launching-3d-secure/)
+
+I was very pleasantly surprised when I was prompted to use my fingerprint to confirm a payment to DVLA recently. It's _so_ much better than the Verified by Visa type experience. Good work, Monzo. <%= by('chris-roos') %>
+
 :name: week-508-links
 :updated_at: 2018-10-05 14:07:33.106602000 +01:00
 :created_at: 2018-10-05 14:07:33.106600000 +01:00
