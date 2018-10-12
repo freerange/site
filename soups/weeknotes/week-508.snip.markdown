@@ -50,11 +50,10 @@ Until next time.
 [trello]: https://trello.com/
 
 :name: week-508
-:updated_at: 2018-10-12 14:59:15.783576000 +01:00
-:created_at: 2018-10-12 14:59:15.783574000 +01:00
+:updated_at: 2018-10-12 18:01:27.487831000 +01:00
+:created_at: 2018-10-12 18:01:27.487823000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
