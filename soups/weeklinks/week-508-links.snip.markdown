@@ -48,11 +48,10 @@ I'm not a fan of story points and think this article does quite a good job of ex
 I was very pleasantly surprised when I was prompted to use my fingerprint to confirm a payment to DVLA recently. It's _so_ much better than the Verified by Visa type experience. Good work, Monzo. <%= by('chris-roos') %>
 
 :name: week-508-links
-:updated_at: 2018-10-05 14:07:33.106602000 +01:00
-:created_at: 2018-10-05 14:07:33.106600000 +01:00
+:updated_at: 2018-10-12 14:25:57.425290000 +01:00
+:created_at: 2018-10-12 14:25:57.425270000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
