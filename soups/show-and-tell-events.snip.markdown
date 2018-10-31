@@ -31,10 +31,7 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming event
 
-* Show and Tell 49
-* Wed 17 Oct 2018
-* [Go Free Range Office](https://goo.gl/maps/gcm6wFDY1yS2), Ministry of Startups, 38 Turner Street, London, E1 2AS.
-* Let us know you are attending on [upcoming.org](https://upcoming.org/event/gfr-show-and-tell-49-yj29q6ib8n)
+* TBA
 
 ### Past events
 
