@@ -84,13 +84,11 @@ We'll be hosting our 49th Show & Tell on Wednesday, 17th October. Please [get in
 
 -- James
 
-
 :name: show-and-tell-48
-:updated_at: 2018-10-12 15:32:14.875506000 +01:00
-:created_at: 2018-10-12 15:32:14.875504000 +01:00
+:updated_at: 2018-11-09 15:34:08.097390000 +00:00
+:created_at: 2018-11-09 15:34:08.097383000 +00:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
