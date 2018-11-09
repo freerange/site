@@ -1,19 +1,24 @@
 Show and Tell 48
 ================
 
-One night in September, an intrepid group ([Ben G][], [James A][], [Tom S][] and me) gathered in our office deepest darkest in Whitechapel.
+One night in September, an intrepid group ([Ben G][], [James A][], [Tom S][] and me) gathered in our office in deepest darkest Whitechapel.
+
+[Ben G]: /ben-griffiths
+[James A]: http://lazyatom.com/
+[Tom S]: http://codon.com/
 
 ## Twilio - James M
 
 ### Company voicemail
 
-We managed to do without a company phone number for many years, mainly by using email, Skype, and occasionally giving out individual personal mobile phone numbers. However, the latter is definitely far from ideal and I decided to see whether we could use [Twilio][] to set up a company phone number.
+We managed to do without a company phone number for many years, mainly by using email, Skype, and occasionally giving out individual personal mobile phone numbers. However, the latter was definitely far from ideal and I decided to see whether we could use [Twilio][] to set up a company phone number.
 
-Obtaining a phone number from Twilio is very straightforward and it costs just $1 per month, excluding the cost of making or receiving calls. Having obtained a number, we have to decide how to handle incoming calls. Initially we contemplated randomly putting the call through to one of our mobiles at random, but in the end we decided to handle calls with a simple voicemail service.
+Obtaining a phone number from Twilio is very straightforward and it costs just $1 per month, excluding the cost of making or receiving calls. Having obtained a number, we had to decide how to handle incoming calls. Initially we contemplated putting the call through to one of our mobiles at random à la [Harmonia][], but in the end we decided to handle calls with a simple voicemail service.
 
 To achieve this I constructed a [voicemail Twimlet][] URL and added a web hook handler to our phone number to point at the URL. This way incoming calls are sent straight to voicemail and any messages recorded are emailed to us as an MP3 attachment. The email address we use is one that we *all* monitor and so if an urgent message is received, there's a good chance that one of us will respond.
 
 [Twilio]: https://www.twilio.com
+[Harmonia]: https://harmonia.io
 [voicemail Twimlet]: https://www.twilio.com/labs/twimlets/voicemail
 
 
@@ -21,7 +26,7 @@ To achieve this I constructed a [voicemail Twimlet][] URL and added a web hook h
 
 This was a bit more of an experiment. Over the years we've tried quite a few ways to have mulit-way audio/video conferences when some of us were working remotely, but they've never worked very well. So I thought I'd have a go at setting up an audio conference call number using Twilio to see whether that worked any better.
 
-I obtained a second phone number from Twilio and initially I hosted the necessary [TwiML][] handler in a Twilio "bin", but as I added functionality I ended up moving the code over to our [company website][], which is a Rails app.
+I obtained a second phone number from Twilio and initially I hosted the necessary [TwiML][] handler in a Twilio "bin", but as I added functionality I ended up moving the code over to our [company website][], which is currently a Rails app.
 
 Most of the relevant code is in the [ConferencesController][] and [its associated view templates][templates-dir]. Any incoming call to the conference call line is routed via a web hook and POSTs to the `ConferencesController#create` action. Since the initial request does not have the `Digits` parameter set, the request is redirected to the `#auth` action and [its associated TwiML template][auth-template] which when rendered prompts the caller to enter a PIN.
 
@@ -56,19 +61,21 @@ This gave me exactly what I needed, so I've stopped at that point. However, it i
 
 ## Patchbay - James A
 
-* https://github.com/ssbc/patchbay - An alternative Secure Scuttlebutt client interface that is fully compatible with Patchwork
+[James][James A] showed us [Patchbay][] which is one of a number of clients for [Secure Scuttlebutt][], which in turn is a "database protocol for unforgeable append-only message feeds". [I first came across Scuttlebut over a year ago][week-432-link] when I read about how its creator, Dominic Tarr, lives on a yacht in New Zealand and uses it to communicate with friends even though he's only sporadically online. I'm afraid I can't remember very much about the things James showed us and I didn't take very good notes (sorry!), but if you're interested in learning more, the [Scuttlebut website][] seems like a good place to start.
 
-* https://www.scuttlebutt.nz/
-* https://github.com/dominictarr/scuttlebutt
-* Gossip protocol?
-* SSB
-* Patchwork, Patchbay, Patchfoo
-* https://www.scuttlebutt.nz/faq/basics/patchwork-vs-scuttlebutt.html
-* https://github.com/ssbc/patchwork - A decentralized messaging and sharing app built on top of Secure Scuttlebutt (SSB)
+[Patchbay]: https://github.com/ssbc/patchbay
+[Secure Scuttlebutt]: ttps://ssbc.github.io/secure-scuttlebutt/
+[Scuttlebut website]: https://www.scuttlebutt.nz/
+[week-432-link]: /week-432-links#an-off-grid-social-networkhttpsstaltzcoman-off-grid-social-networkhtml
 
 
 ## Negative numbers - Tom S
 
+[Tom][Tom S] took us through an idea he's had for demonstrating how picking the right representation can make solving a problem much easier. In many ways it reminded me of the [LRUG talk he did on automatic differentiation][automatic-differentiation]. This time, however, the problem was how to do arithmetic with negative numbers when you have no native way to represent negative numbers.
+
+I won't say any more, because Tom's thinking about turning this work into a conference talk or workshop and I don't want to spoil it for people. Suffice it to say the exercise was thoroughly worthwhile and enjoyable - Tom is really good at explaining things!
+
+[automatic-differentiation]: http://codon.com/automatic-differentiation-in-ruby
 
 
 ## Show & Tell 49
@@ -77,10 +84,6 @@ We'll be hosting our 49th Show & Tell on Wednesday, 17th October. Please [get in
 
 -- James
 
-
-[Ben G]: /ben-griffiths
-[James A]: http://lazyatom.com/
-[Tom S]: http://codon.com/
 
 :name: show-and-tell-48
 :updated_at: 2018-10-12 15:32:14.875506000 +01:00
