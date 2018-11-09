@@ -8,11 +8,10 @@ We hope to see you next time!
 -- James
 
 :name: show-and-tell-49
-:updated_at: 2018-11-02 15:14:03.062779000 +00:00
-:created_at: 2018-11-02 15:14:03.062778000 +00:00
+:updated_at: 2018-11-09 15:48:18.004410000 +00:00
+:created_at: 2018-11-09 15:48:18.004402000 +00:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
