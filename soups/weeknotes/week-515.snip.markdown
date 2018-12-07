@@ -20,11 +20,10 @@ Until next time!
 [gitlab-repo]: https://git.coop/cotech/website
 
 :name: week-515
-:updated_at: 2018-12-07 12:22:54.516853000 +00:00
-:created_at: 2018-12-07 12:22:54.516851000 +00:00
+:updated_at: 2018-12-07 12:43:38.436788000 +00:00
+:created_at: 2018-12-07 12:43:38.436781000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
