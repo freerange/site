@@ -20,10 +20,7 @@ On Wednesday Chris R gave [a presentation about GFR](https://github.com/freerang
 He talked about the history of GFR, our company structure, the tools and processes we use to run the company without a boss, and the benefits and challenges of working the way we do. I think Chris did an excellent job, but you can judge for yourself in the video!
 
 <p>
-  <video class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" height="400" width="600" poster="http://videos.gofreerange.com/5872d4c4/480p-00001.png" data-setup='{}'>
-    <source src="http://videos.gofreerange.com/5872d4c4/480p.mp4" type="video/mp4" />
-    <source src="http://videos.gofreerange.com/5872d4c4/480p.webm" type="video/webm" />
-  </video>
+  <iframe src="https://player.vimeo.com/video/305072611" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>
 
 On Friday we held our usual company meeting in a TOG meeting room with Chris L participating remotely via [appear.in](https://appear.in/) on the big screen which seems to work well for us.
