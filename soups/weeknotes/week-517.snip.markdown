@@ -47,11 +47,10 @@ I think that's about it for this week. Have good weekends y'all.
 [the-hive]: https://www.uk.coop/the-hive/
 
 :name: week-517
-:updated_at: 2018-12-14 14:48:17.760987000 +00:00
-:created_at: 2018-12-14 14:48:17.760981000 +00:00
+:updated_at: 2018-12-14 16:01:44.475356000 +00:00
+:created_at: 2018-12-14 16:01:44.475338000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
