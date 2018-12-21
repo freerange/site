@@ -32,11 +32,10 @@ Until next year.
 [AWS Lambda Functions]: https://aws.amazon.com/lambda/
 
 :name: week-518
-:updated_at: 2018-12-21 14:26:40.505362000 +00:00
-:created_at: 2018-12-21 14:26:40.505360000 +00:00
+:updated_at: 2018-12-21 15:10:15.212288000 +00:00
+:created_at: 2018-12-21 15:10:15.212277000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
