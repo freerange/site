@@ -11,7 +11,7 @@ Meanwhile Chris L continued to push forward on the business development front. H
 
 On Wednesday, we had our last company meeting of the year via [appear.in][] since we were all remote. On Thursday, well-deserved holidays beckoned with Chris R heading off to Australia and Chris L to Mexico. Have great trips, both of you!
 
-On Thursday, Ben & I did a bit of admin to get the company shipshape for the Xmas & New Year period and pushed forward with a bit more business development. In the afternoon, Ben played around building an animation using [Elm][] for the internal project mentioned above. And I read up about [AWS Step Functions][] to see whether they would be useful in my conversion of our [Trello][] backup code from a cron job to a couple of [AWS Lambda Functions][].
+On Thursday, Ben & I did a bit of admin to get the company shipshape for the Xmas & New Year period and did a bit more business development. In the afternoon, Ben played around building an animation using [Elm][] for the internal project mentioned above. And I read up about [AWS Step Functions][] to see whether they would be useful in my conversion of our [Trello][] backup code from a cron job to a couple of [AWS Lambda Functions][].
 
 As we come to the end of the year, I want to take the opportunity to say a big thank-you to Ben, Chris L & Chris R for being such great colleagues. Some of the projects we've worked on this year have been pretty challenging at times and they've made me even more appreciative of the supportive environment we've created at GFR. Also amidst it all there's been a lot of good humour and fun times - here's to more of that in 2019!
 
