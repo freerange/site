@@ -31,7 +31,10 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming event
 
-* TBA
+* Show and Tell 51
+* Wed 16 Jan 2019
+* Venue TBC
+* Let us know you are attending on [upcoming.org](https://upcoming.org/event/gfr-show-and-tell-51-pu1x0s4oq4)
 
 ### Past events
 
