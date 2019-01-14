@@ -15,7 +15,7 @@ end
 
 group :assets do
   gem 'uglifier', '>= 1.3.0'
-  gem 'therubyracer'
+  gem 'mini_racer'
 end
 
 group :development do
