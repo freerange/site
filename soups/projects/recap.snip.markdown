@@ -16,7 +16,7 @@
 
 ## Documentation
 
-For more information, the main documentation can be found at [/recap/docs].
+For more information, the main documentation can be found [here](recap-docs).
 
 ## Source
 
@@ -27,7 +27,7 @@ The source code is available [on Github].
 [Recap]: http://github.com/freerange/recap
 [Capistrano]: https://github.com/capistrano/capistrano
 [git]: http://git-scm.com/
-[/recap/docs]: /recap/docs
+[recap-docs]: https://freerange.github.io/recap
 [on github]: https://github.com/freerange/recap
 
 :layout: project-layout

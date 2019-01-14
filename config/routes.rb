@@ -23,5 +23,8 @@ Rails.application.routes.draw do
   get '/heylist', to: redirect('https://exciting.io/heylist')
   get '/say-hello-to-heylist', to: redirect('https://exciting.io/2013/03/25/introducing-heylist')
 
+  get '/recap/docs', to: redirect('https://freerange.github.io/recap')
+  get '/recap/docs/*path', to: redirect('https://freerange.github.io/recap/%{path}')
+
   get '*path', to: 'pages#show'
 end

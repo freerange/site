@@ -13,7 +13,7 @@ In case you don't know, recap is an opinionated set of Capistrano recipes, desig
 
 There's still a lot more to add.  Two things I'd like are running different processes on different machines (i.e. the job queue on one machine, unicorn on another) and support for different staging environments.  Even without these features, we've been using it successfully for several months.  You can seen it in action [on my website](https://github.com/tomafro/tomafro.net/blob/lanyon/Capfile), [in sauron](https://github.com/freerange/sauron/blob/master/Capfile) and even [on this site](https://github.com/freerange/site/blob/master/Capfile).
 
-Please try it out and let us know what you think.  You can find the code [on github](https://github.com/freerange/recap), and the documentation at [gofreerange.com/recap/docs](/recap/docs).
+Please try it out and let us know what you think.  You can find the code [on github](https://github.com/freerange/recap), and the documentation at [gofreerange.com/recap/docs](https://freerange.github.io/recap).
 
 :render_as: Blog
 :kind: blog

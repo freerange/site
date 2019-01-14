@@ -28,7 +28,7 @@ class PagesController < ApplicationController
   def sitemap
     @domain = 'gofreerange.com'
     @snips = Snip.all(only_pages: true)
-    @docs = ["recap", "mocha"].inject({}) do |projects, project|
+    @docs = ["mocha"].inject({}) do |projects, project|
       root = "/#{project}/docs"
       files = Dir["/home/freerange/docs/#{project}/**/*"]
       last_updated = files.map { |f| File.mtime(f) }.sort.last || Time.at(0)
