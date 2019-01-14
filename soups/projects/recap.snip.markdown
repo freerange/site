@@ -16,7 +16,7 @@
 
 ## Documentation
 
-For more information, the main documentation can be found [here](recap-docs).
+For more information, the main documentation can be found [here][recap-docs].
 
 ## Source
 
