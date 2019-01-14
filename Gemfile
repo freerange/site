@@ -7,6 +7,7 @@ gem 'soup'
 gem 'kramdown'
 gem 'airbrake', '~> 5'
 gem 'aws-sdk-s3'
+gem 'bootsnap', '>= 1.1.0', require: false
 
 group :assets, :development do
   gem 'sass-rails'
@@ -21,6 +22,7 @@ group :development do
   gem 'dotenv-rails'
   gem 'recap'
   gem 'timecop'
+  gem 'listen', '>= 3.0.5', '< 3.2'
 end
 
 group :development, :test do
