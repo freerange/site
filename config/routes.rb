@@ -26,5 +26,8 @@ Rails.application.routes.draw do
   get '/recap/docs', to: redirect('https://freerange.github.io/recap')
   get '/recap/docs/*path', to: redirect('https://freerange.github.io/recap/%{path}')
 
+  get '/mocha/docs', to: redirect('https://mocha.jamesmead.org')
+  get '/mocha/docs/*path', to: redirect('https://mocha.jamesmead.org/%{path}')
+
   get '*path', to: 'pages#show'
 end

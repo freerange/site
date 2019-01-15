@@ -10,7 +10,6 @@ class Spider
 
   # Based on RewriteRules in config/apache/gofreerange.com.conf
   IGNORE_PATHS = [
-    %r{^/mocha/docs*},
     %r{^/hello-printer*},
     %r{^/printer-questions*},
     %r{^/printer-kit*},

@@ -8,7 +8,7 @@ Mocha provides a unified, simple and readable syntax for both traditional mockin
 
 ## Documentation
 
-The documentation can be found at [/mocha/docs].
+The documentation can be found at [here][mocha-docs].
 
 ## Source
 
@@ -22,7 +22,7 @@ The sourcecode is available [on Github].
 [Dust]: http://dust.rubyforge.org/
 [MiniTest]: http://rubyforge.org/projects/bfts
 [JtestR]: http://jtestr.codehaus.org/
-[/mocha/docs]: /mocha/docs
+[mocha-docs]: https://mocha.jamesmead.org
 [on Github]: https://github.com/freerange/mocha
 
 :kind: project

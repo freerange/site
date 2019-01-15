@@ -11,7 +11,7 @@ The week didn't end so well - on Thursday I had a nightmare journey back to Oxfo
 
 -- James
 
-[Mocha]: http://gofreerange.com/mocha/docs
+[Mocha]: https://mocha.jamesmead.org
 [FutureLearn]: http://futurelearn.com
 [Tom Stuart]: https://twitter.com/tomstuart
 [Rob Chatley]: http://chatley.com/

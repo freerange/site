@@ -114,7 +114,7 @@ Many thanks to [Chris Roos][], [Tom Stuart][], [Joel Chippindale][], [Chris Lowi
 
 
 [method_log]: https://github.com/freerange/method_log
-[Mocha]: /mocha/docs/
+[Mocha]: https://mocha.jamesmead.org
 [semantic diff]: http://martinfowler.com/bliki/SemanticDiff.html
 [VisualAge for Java]: http://en.wikipedia.org/wiki/IBM_VisualAge
 [ENVY/Developer]: http://c2.com/cgi/wiki?EnvyDeveloper

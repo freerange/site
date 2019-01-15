@@ -72,7 +72,7 @@ Adios compadre,
 
 [Sauron]: https://github.com/freerange/sauron
 [Recap]: https://github.com/freerange/recap
-[Mocha]: http://gofreerange.com/mocha/docs/
+[Mocha]: https://mocha.jamesmead.org
 [Printer]: /printer
 
 

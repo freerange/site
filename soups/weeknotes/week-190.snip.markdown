@@ -32,7 +32,7 @@ Last, but definitely not least, we're still struggling to get some momentum behi
 [Harmonia]: http://github.com/freerange/harmonia
 [Google Webmaster Tools]: https://www.google.com/webmasters/tools
 [Rack::MailExceptions]: https://github.com/rack/rack-contrib/blob/master/lib/rack/contrib/mailexceptions.rb
-[Mocha]: http://gofreerange.com/mocha/docs
+[Mocha]: https://mocha.jamesmead.org
 [Test::Unit]: https://github.com/test-unit/test-unit
 [MiniTest]: https://github.com/seattlerb/minitest
 [Travis-CI]: http://travis-ci.org

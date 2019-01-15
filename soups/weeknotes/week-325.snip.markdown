@@ -49,7 +49,7 @@ That's all folks.
 [Tom S]: http://codon.com
 [rubyforge-redirects]: https://github.com/tomstuart/rubyforge-redirects
 [mocha.rubyforge.org]: http://mocha.rubyforge.org
-[mocha on gofreerange.com]: /mocha/docs/
+[mocha on gofreerange.com]: https://mocha.jamesmead.org
 [Urban Locker]: http://www.urbanlocker.co.uk/
 [show-and-tell-event-11]: /show-and-tell-11
 [Chris]: /chris-roos
