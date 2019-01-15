@@ -12,7 +12,7 @@ Half of the team were out of the office this week. [Tom][] spent a well-deserved
 
 ### Mocha
 
-[James M][] managed to [make a change to mocha](https://github.com/floehopper/mocha/pull/75) that he's been trying to make for a long time, which fixes a number of issues and means the build passes on Ruby 1.9. Having achieved that, he promptly hopped over [La Manche](http://en.wikipedia.org/wiki/English_Channel) to Normandy for the rest of the week to induldge in cheese, wine, garlic, and narrowly avoid an accidental horse bourguignon.
+[James M][] managed to [make a change to mocha](https://github.com/freerange/mocha/pull/75) that he's been trying to make for a long time, which fixes a number of issues and means the build passes on Ruby 1.9. Having achieved that, he promptly hopped over [La Manche](http://en.wikipedia.org/wiki/English_Channel) to Normandy for the rest of the week to induldge in cheese, wine, garlic, and narrowly avoid an accidental horse bourguignon.
 
 That left just [Chris][] and [I][James A] holding the fort in the office. We like to call ourselves _The A-Team_, but don't tell Tom or James M.
 
