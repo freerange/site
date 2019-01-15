@@ -3,7 +3,7 @@ Members of Free Range are also typically the authors of many open source project
 
 * [Rails Engines](http://rails-engines.org)
 * [Vanilla.rb](http://interblah.net/vanilla-rb)
-* [Mocha](http://mocha.rubyforge.org)
+* [Mocha](https://github.com/freerange/mocha)
 * [Gitnode](http://github.com/lazyatom/gitnode)
 * [FreeAgent Widget](http://interblah.net/freeagent-widget)
 * [Clickatell](http://clickatell.rubyforge.org)
