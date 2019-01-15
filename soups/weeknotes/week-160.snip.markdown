@@ -58,7 +58,7 @@ Hasta la vista.
 [Recap repos]: https://github.com/freerange/recap
 [Mocha issue 52]: https://github.com/freerange/mocha/issues/52
 [Mocha issue 65]: https://github.com/freerange/mocha/issues/65
-[Mocha repos]: http://github.com/freerange/mocha
+[Mocha repos]: https://github.com/freerange/mocha
 [Hashblue]: http://hashblue.com
 [My Old Dutch]: http://www.myolddutch.com/
 [3CA]: http://www.3ca.co.uk/
