@@ -59,7 +59,7 @@ Dmitry used test driven development to live-code an implementation of the [binar
 
 This stack definition is then transformed to the YAML files needed by [CloudFormation](https://aws.amazon.com/cloudformation/). James explained the advantages of writing CDK code rather than editing YAML files directly. The TypeScript type-checker comes in really handy because it prevents you from, for example, passing the wrong option objects when configuring a particular service. The CDK language also has some higher-level constructs that help you to do the right thing, for example, when granting a user "write" permission to an S3 bucket in the AWS Console it's easy to forget that they will also need the "list" permission in order to be able to add files. The CDK has helper functions that do both of these things for you and are sensibly named.
 
-James also demo'd the handy "diff" command provided by the CDK command line interface. It shows a concise, tabular representation of what changes will be made to your infrastructure when you run the command, and warns you about changes in permissions.
+James also demoed the handy "diff" command provided by the CDK command line interface. It shows a concise, tabular representation of what changes will be made to your infrastructure when you run the command, and warns you about changes in permissions.
 
 :name: show-and-tell-51
 :updated_at: 2019-01-17 11:09:26.378848000 +00:00
