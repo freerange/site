@@ -5,7 +5,7 @@ On Wednesday we held our Show & Tell event at a new venue, the [Proper Office on
 
 ## Generative Transport Maps
 
-[Chris Zetter](https://chriszetter.com/) was recently browsing Wikipedia and noticed that several pages have transport maps that are generated in a surprising way, such as this one of the [Glasgow subway system](https://en.wikipedia.org/wiki/Glasgow_Subway)
+[Chris Zetter](https://chriszetter.com/) was recently browsing Wikipedia and noticed that several pages have transport maps that are generated in a surprising way, such as this one of the [Glasgow subway system](https://en.wikipedia.org/wiki/Glasgow_Subway).
 
 ![The Glasgow Subway](/images/blog/2019-01-17-glasgow-subway.png)
 
@@ -25,7 +25,7 @@ The initial experiments were promising with a limited set of tiles. One of the c
 
 I spoke about a side project the Go Free Range team have been working on in the last few weeks. We wanted to make something to help teams celebrate their successes. One thing we've noticed a few of the teams do that we've worked with in the past year is create a laptop sticker to give to the people who worked on a particular project. We're not sure where this idea originated but we first saw it at the [Government Digital Service](https://www.flickr.com/photos/mn_francis/13622677615) and we noticed something similar while working at Trainline. These stickers are often based on [NASA's mission patches](https://history.nasa.gov/mission_patches.html).
 
-Large teams with designers might be able to design and print something in-house, but we wanted to make it easier for teams of all sizes and skills to create something similar. We've built [mission-patch.com](https://mission-patch.com/) to make the process easier. The heart of the site is a reactive widget we built in Elm
+Large teams with designers might be able to design and print something in-house, but we wanted to make it easier for teams of all sizes and skills to create something similar. We've built [mission-patch.com](https://mission-patch.com/) to make the process easier. The heart of the site is a reactive widget we built in Elm.
 
 ![A screenshot of the Mission Patch designer](/images/blog/2019-01-17-mission-patch.png)
 
