@@ -54,7 +54,7 @@ Chris sensibly suggested that I try to receive a more well-known/stronger signal
 The audio quality was pretty decent, although the level on this recording is a bit on the low side...
 
 <p>
-  <audio src="/assets/blog/2015-02-27-gqrx-bbc-radio-1.m4a" controls>
+  <audio src="/media/blog/2015-02-27-gqrx-bbc-radio-1.m4a" controls>
     Your browser does not support audio.
   </audio>
 </p>

@@ -59,9 +59,9 @@ We wrote a [simple nodejs application](https://github.com/freerange/alexa-helper
 Chris R also implemented the same application for the Google Assistant platform using [Dialogflow](https://dialogflow.com/) to write and deploy the application. Here's a video of it being tested using the developer tools in Dialogflow:
 
 <p>
-  <video class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" height="400" width="600" poster="/assets/blog/gfr-assignomatic-on-google-assistant-480p-00001.png" data-setup='{}'>
-    <source src="/assets/blog/gfr-assignomatic-on-google-assistant-480p.mp4" type="video/mp4" />
-    <source src="/assets/blog/gfr-assignomatic-on-google-assistant-480p.webm" type="video/webm" />
+  <video class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" height="400" width="600" poster="/media/blog/gfr-assignomatic-on-google-assistant-480p-00001.png" data-setup='{}'>
+    <source src="/media/blog/gfr-assignomatic-on-google-assistant-480p.mp4" type="video/mp4" />
+    <source src="/media/blog/gfr-assignomatic-on-google-assistant-480p.webm" type="video/webm" />
   </video>
 </p>
 
