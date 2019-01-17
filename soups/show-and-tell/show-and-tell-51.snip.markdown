@@ -61,8 +61,6 @@ This stack definition is then transformed to the YAML files needed by [CloudForm
 
 James also demo'd the handy "diff" command provided by the CDK command line interface. It shows a concise, tabular representation of what changes will be made to your infrastructure when you run the command, and warns you if any of those are particularly destructive (such as deleting the contents of an S3 bucket).
 
-<!-- add content here -->
-
 :name: show-and-tell-51
 :updated_at: 2019-01-17 11:09:26.378848000 +00:00
 :created_at: 2019-01-17 11:09:26.378846000 +00:00
