@@ -1,6 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe 'redirects' do
+  it 'permanently redirects www subdomain to naked domain' do
+    get '/', headers: { host: 'www.example.com' }
+    assert_permanently_redirected_to 'http://example.com/'
+  end
+
   it 'permanently redirects /hello-printer to exciting.io' do
     get '/hello-printer'
     assert_permanently_redirected_to 'https://exciting.io/2012/04/12/hello-printer'
