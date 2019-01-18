@@ -41,6 +41,26 @@ RSpec.describe 'redirects' do
     assert_permanently_redirected_to 'https://exciting.io/2013/03/25/introducing-heylist'
   end
 
+  it 'permanently redirects /recap/docs to docs on GitHub Pages' do
+    get '/recap/docs'
+    assert_permanently_redirected_to 'https://freerange.github.io/recap'
+  end
+
+  it 'permanently redirects /recap/docs/recap.html to docs on GitHub Pages' do
+    get '/recap/docs/recap.html'
+    assert_permanently_redirected_to 'https://freerange.github.io/recap/recap.html'
+  end
+
+  it 'permanently redirects /mocha/docs to docs on GitHub Pages' do
+    get '/mocha/docs'
+    assert_permanently_redirected_to 'https://mocha.jamesmead.org'
+  end
+
+  it 'permanently redirects /recap/docs/Mocha.html to docs on GitHub Pages' do
+    get '/mocha/docs/Mocha.html'
+    assert_permanently_redirected_to 'https://mocha.jamesmead.org/Mocha.html'
+  end
+
   private
 
   def assert_permanently_redirected_to(url)
