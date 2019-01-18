@@ -29,19 +29,16 @@ RSpec.describe 'redirects' do
   it 'permanently redirects /harmonia to exciting.io' do
     get '/harmonia'
     assert_permanently_redirected_to 'https://exciting.io/harmonia'
-    assert_response :moved_permanently
   end
 
   it 'permanently redirects /heylist to exciting.io' do
     get '/heylist'
     assert_permanently_redirected_to 'https://exciting.io/heylist'
-    assert_response :moved_permanently
   end
 
   it 'permanently redirects /say-hello-to-heylist to exciting.io' do
     get '/say-hello-to-heylist'
     assert_permanently_redirected_to 'https://exciting.io/2013/03/25/introducing-heylist'
-    assert_response :moved_permanently
   end
 
   private
