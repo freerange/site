@@ -1,6 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe 'redirects' do
+  it 'permanently redirects www subdomain to naked domain' do
+    get '/', headers: { host: 'www.example.com' }
+    assert_permanently_redirected_to 'http://example.com/'
+  end
+
   it 'permanently redirects /hello-printer to exciting.io' do
     get '/hello-printer'
     assert_permanently_redirected_to 'https://exciting.io/2012/04/12/hello-printer'
@@ -24,19 +29,36 @@ RSpec.describe 'redirects' do
   it 'permanently redirects /harmonia to exciting.io' do
     get '/harmonia'
     assert_permanently_redirected_to 'https://exciting.io/harmonia'
-    assert_response :moved_permanently
   end
 
   it 'permanently redirects /heylist to exciting.io' do
     get '/heylist'
     assert_permanently_redirected_to 'https://exciting.io/heylist'
-    assert_response :moved_permanently
   end
 
   it 'permanently redirects /say-hello-to-heylist to exciting.io' do
     get '/say-hello-to-heylist'
     assert_permanently_redirected_to 'https://exciting.io/2013/03/25/introducing-heylist'
-    assert_response :moved_permanently
+  end
+
+  it 'permanently redirects /recap/docs to docs on GitHub Pages' do
+    get '/recap/docs'
+    assert_permanently_redirected_to 'https://freerange.github.io/recap'
+  end
+
+  it 'permanently redirects /recap/docs/recap.html to docs on GitHub Pages' do
+    get '/recap/docs/recap.html'
+    assert_permanently_redirected_to 'https://freerange.github.io/recap/recap.html'
+  end
+
+  it 'permanently redirects /mocha/docs to docs on GitHub Pages' do
+    get '/mocha/docs'
+    assert_permanently_redirected_to 'https://mocha.jamesmead.org'
+  end
+
+  it 'permanently redirects /recap/docs/Mocha.html to docs on GitHub Pages' do
+    get '/mocha/docs/Mocha.html'
+    assert_permanently_redirected_to 'https://mocha.jamesmead.org/Mocha.html'
   end
 
   private

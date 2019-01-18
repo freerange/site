@@ -5,7 +5,7 @@ Tracing the Git history of a Ruby method
 
 Here's a demo of it in action against the [Mocha][] codebase [^1] showing the history of the `Mocha::Expectation#with` method. Note that you should be able to scroll down through the history.
 
-<iframe style="overflow: hidden" src="/assets/blog/2015-04-12-method-log-showterm-replacement.html" width="650" height="480"></iframe>
+<iframe style="overflow: hidden" src="/media/blog/2015-04-12-method-log-showterm-replacement.html" width="650" height="480"></iframe>
 
 ## Introduction
 
