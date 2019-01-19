@@ -61,6 +61,8 @@ class Spider
   end
 
   def artefact_differences
+    return [] unless Dir.exist?('.git')
+    return [] unless Dir.exist?(@artefacts_path)
     `git status --short -- #{@artefacts_path}`.strip
   end
 
