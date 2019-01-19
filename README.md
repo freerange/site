@@ -4,47 +4,24 @@ This is a Rails application, so you can view the site locally by running `rails 
 
 ## Deployment
 
-### Enabling the Apache modules required by our config
+### Heroku
 
-    root$ a2enmod expires
-    root$ a2enmod rewrite
-
-### Using recap to deploy
-
-    $ cap bootstrap
-    $ cap deploy:setup
-    $ cap deploy
-
-### Set the freerange user's shell to bash
-
-So that Passenger can pick up environment vars from ~/.profile.
-
-    root$ chsh -s /bin/bash freerange
-
-### Configure passwordless sudo access for members of the freerange group
-
-So that we don't have to type our password when deploying.
-
-    root$ echo "%freerange ALL=NOPASSWD: ALL" > /etc/sudoers.d/freerange
-    root$ chmod 440 /etc/sudoers.d/freerange
+    $ heroku git:remote --app=gofreerange-site
+    $ git checkout master
+    $ git push heroku master
 
 ### Configuring Airbrake
 
 So that exceptions are reported to our Errbit app. You may need to create a new "app" within the Errbit instance in order to obtain the API key, which is "app"-specific.
 
-    $ cap env:set AIRBRAKE_PROJECT_ID=<id-for-this-app-within-errbit-app>
-    $ cap env:set AIRBRAKE_API_KEY=<api-key-for-this-app-within-errbit-app>
-    $ cap env:set AIRBRAKE_HOST=<errbit-app-host-including-scheme>
+    $ heroku config:set AIRBRAKE_PROJECT_ID=<id-for-this-app-within-errbit-app>
+    $ heroku config:set AIRBRAKE_API_KEY=<api-key-for-this-app-within-errbit-app>
+    $ heroku config:set AIRBRAKE_HOST=<errbit-app-host-including-scheme>
 
 ### Configure secret key
 
     $ rails secret | pbcopy
-    $ cap env:set SECRET_KEY_BASE=`pbpaste`
-
-### Updating the Apache config file
-
-    # Copy the Apache config file (this will trigger Apache to reload)
-    $ cap apache:enable_config
+    $ heroku config:set SECRET_KEY_BASE=`pbpaste`
 
 ## Writing a snip
 
