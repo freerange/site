@@ -2,6 +2,8 @@
 
 This is a Rails application, so you can view the site locally by running `rails server`. Easy.
 
+Note that the app does not require a database; content is stored in snip files under the `soups` directory. See below for details.
+
 ## Deployment
 
 ### Heroku
