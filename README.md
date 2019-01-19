@@ -29,7 +29,7 @@ So that exceptions are reported to our Errbit app. You may need to create a new 
 
 A snip is just a text file within the "soup", like "here-is-my-stuff.snip". You can write whatever you like in the file, and it will be rendered as is when you visit http://yoursite/here-is-my-stuff.
 
-By default snips will be rendered as HTML. Snip files with a `.markdown` extension will be rendered using the `kramdown` gem, while snip files with a `.haml` extension will be rendered using the `haml` gem. You can use ERB tags within any snip. Metadata is stored as YAML at the bottom of a snip.
+By default snips will be rendered as HTML. Snip files with a `.markdown` extension will be rendered using the `kramdown` gem. You can use ERB tags within any snip. Metadata is stored as YAML at the bottom of a snip.
 
 This site uses multiple soups to make it easier to organise the content. Within the `soups` directory there are snips, and also sub-directories; These contain other snips, but don't result in nested URLs. In other words, if a snip called `hello.snip` is in `soups/blog`, it is still served from `http://yoursite/hello`, and not `http://yoursite/blog/hello`. The URL space is flat.
 
