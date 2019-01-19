@@ -8,7 +8,7 @@ Note that the app does not require a database; content is stored in snip files u
 
 ### Heroku
 
-Commits pushed to the `master` branch on the GitHub remote are deployed automatically.
+When commits are pushed to the `master` branch on the GitHub remote, the specs are run on Heroku CI and, if the specs all pass, the app is automatically deployed.
 
 ### Configuring Airbrake
 
