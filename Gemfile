@@ -21,7 +21,6 @@ end
 
 group :development do
   gem 'dotenv-rails'
-  gem 'recap'
   gem 'timecop'
   gem 'listen', '>= 3.0.5', '< 3.2'
 end
