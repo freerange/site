@@ -6,11 +6,7 @@ This is a Rails application, so you can view the site locally by running `rails 
 
 ### Heroku
 
-    $ git clone git@github.com:freerange/site.git
-    $ cd site
-    $ heroku git:remote --app=gofreerange-site
-    $ git checkout master
-    $ git push heroku master
+Commits pushed to the `master` branch on the GitHub remote are deployed automatically.
 
 ### Configuring Airbrake
 
