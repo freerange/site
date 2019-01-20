@@ -16,7 +16,7 @@ In 2018, GFR:
 
 * Had 18 leads during the year. 4 of which became paid work.
 
-* Worked for [GDS][gds], [BBC R&D][bbc-rd], [Business & Human Rights Resource Centre][bhrrc], [Trainline][trainline], [CCS][ccs] and [Raising IT][raising-it].
+* Worked for [GDS][gds] (consolidating multiple asset manager apps), [BBC R&D][bbc-rd] (making it easier to create interactive stories for Amazon Alexa), [Business & Human Rights Resource Centre][bhrrc] (reducing hosting costs by migrating from Heroku to AWS), [Trainline][trainline] (helping merge codebases), [CCS][ccs] (building prototype of the Crown Marketplace) and [Raising IT][raising-it] (training).
 
 * Collaborated with [dxw][dxw] and [Rowe IT][rowe-it] on the CCS project, and with [The Dot Project][the-dot-project] on a [CoTech][cotech] presentation.
 
@@ -52,7 +52,7 @@ In 2018, GFR:
 
 * Register with Coops UK.
 
-* Get people using our software that aims to help teams celebrate success.
+* Get people using our service that helps teams celebrate success.
 
 * Win funding for some self-directed work.
 
