@@ -31,7 +31,10 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming event
 
-* TBC
+* Show and Tell 52
+* Wed 20 Feb 2019
+* [The Foundry Business Centre](https://goo.gl/maps/PBPHUrHLLGQ2), 156 Blackfriars Rd, London SE1 8EN.
+* Let us know you are attending on [upcoming.org](https://upcoming.org/event/gfr-show-and-tell-52-lr0dntrdd5)
 
 ### Past events
 
