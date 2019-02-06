@@ -11,7 +11,7 @@ I've spent the past couple of days catching up on what's been happening in my ab
 
 We built a thing! Well. Ben, Chris and James built a thing while I was busy doing nothing. [Mission Patch][mission-patch] makes it super easy to design and print mission patch stickers to help your team celebrate success. Give it a go and [let us know][contact-mp] what you think.
 
-We've had in the region of 10 to 15 orders so far. There's clearly some way to go before it could be classed as sustainable but it's still incredibly satisfying to earn money from something we've built. Thanks to everyone who have helped by buying patches and by giving us early feedback: it's much appreciated.
+We've had a number of orders although there's still quite a way to go before it could be classed as sustainable. Irrespective, it's still incredibly satisfying to earn money from something we've built. Thanks to everyone who's helped by buying patches and by giving us early feedback: it's much appreciated.
 
 Building products is something we've wanted to do for a long time so I'm really happy to see this live.
 
