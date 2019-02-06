@@ -9,7 +9,7 @@ I've spent the past couple of days catching up on what's been happening in my ab
 
 ## Mission Patch
 
-We built a thing! Well. Ben, Chris and James built a thing while I was busy doing nothing. [Mission Patch][mission-patch] makes it super easy to design and print mission patch stickers to help your team celebrate success. Give it a go and [let us know][contact] what you think.
+We built a thing! Well. Ben, Chris and James built a thing while I was busy doing nothing. [Mission Patch][mission-patch] makes it super easy to design and print mission patch stickers to help your team celebrate success. Give it a go and [let us know][contact-mp] what you think.
 
 We've had in the region of 10 to 15 orders so far. There's clearly some way to go before it could be classed as sustainable but it's still incredibly satisfying to earn money from something we've built. Thanks to everyone who have helped by buying patches and by giving us early feedback: it's much appreciated.
 
@@ -51,6 +51,7 @@ I think that's about it for now. Until next time.
 [calverts]: https://www.calverts.coop/
 [chris-lowis]: /chris-lowis
 [contact]: /contact
+[contact-mp]: mailto:contact@mission-patch.com
 [foundry]: https://lentabusinesscentres.co.uk/serviced-office-space/southwark/
 [github-pages]: https://pages.github.com/
 [heroku]: https://www.heroku.com/
