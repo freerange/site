@@ -29,7 +29,7 @@ We've paid [The Hive][hive] to help us update our governing documents to make th
 
 We hosted a well attended [Show & Tell 51][show-and-tell-51] at [Proper Office][proper-office] in Shoreditch. We'll be hosting [Show & Tell 52 in The Foundry on Wed 20 Feb][show-and-tell-events]. These events are open to everyone so feel free to join us if it sounds like something you might be interested in.
 
-Chris attended the [Outlandish Xmas party][outlandish-xmas]. He _thinks_ he had a good time.
+Chris attended the [Outlandish Xmas party][outlandish-xmas]. As _far as he can remember_ he had a good time.
 
 Chris and James met GFR-alumni [Kalv][kalv] for lunch while he was over in London. Hi Kalv :-)
 
