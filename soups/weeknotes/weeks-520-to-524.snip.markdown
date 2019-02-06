@@ -74,7 +74,6 @@ I think that's about it for now. Until next time.
 :created_at: 2019-02-06 11:58:47.517438000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
