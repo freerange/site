@@ -18,11 +18,10 @@ I think that'll do us for this week. I hope you all have a splendid weekend.
 [sion-whellens]: https://twitter.com/scumboni
 
 :name: week-526
-:updated_at: 2019-02-15 17:26:41.126588000 +00:00
-:created_at: 2019-02-15 17:26:41.126585000 +00:00
+:updated_at: 2019-02-15 17:45:28.043690000 +00:00
+:created_at: 2019-02-15 17:45:28.043662000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
