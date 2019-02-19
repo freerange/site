@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   root to: 'pages#show'
   get '/feed.xml', to: 'pages#feed', format: 'atom'
+  get '/GoFreeRangeBlog', to: 'pages#feed', format: 'atom'
   get '/sitemap.xml', to: 'pages#sitemap'
 
   namespace :twilio do
