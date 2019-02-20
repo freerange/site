@@ -24,7 +24,8 @@ If you have any questions, please [get in touch][email-address].
   **Note 2.**
   Subscribing to the Google Group will automatically invite you to a recurring calendar event for the Show & Tell.
 
-* [Slack channel][] <%= render partial: 'shared/slackin' %>
+* [Slack channel][]
+* <%= link_to 'Request an invitation to the Slack channel', new_slack_invitation_path %>
 * [Events on Upcoming][upcoming-event-series]
 * [Events on Attending (deprecated)][attending-event-series]
 * [Event series on Lanyrd (deprecated)][lanyrd-event-series]
