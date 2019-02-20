@@ -3,7 +3,7 @@
   <head>
     <%= render partial: 'shared/head' %>
     <title>
-      <%= @snip.page_title || 'Wiki' %> &mdash; Go Free Range.
+      <%= (@snip && @snip.page_title) || content_for(:page_title) || 'Wiki' %> &mdash; Go Free Range.
     </title>
   </head>
   <body class="wiki">
