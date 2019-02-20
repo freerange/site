@@ -1,0 +1,24 @@
+<% content_for :page_title do %>
+  Show & Tell Slack Channel
+<% end %>
+
+<div id="show-and-tell-slack-channel" class="section group">
+  <h2>Show & Tell Slack Channel</h2>
+
+  <% if flash[:alert].present? %>
+    <p class="flash-alert"><%= flash[:alert] %></p>
+  <% end %>
+  <% if flash[:notice].present? %>
+    <p class="flash-notice"><%= flash[:notice] %></p>
+  <% end %>
+
+  <ul>
+    <li><%= link_to 'Sign In', 'https://gfr-show-and-tell.slack.com/' %></li>
+    <li>
+      <%= form_tag slack_invitations_path, id: 'slack-invitation' do %>
+        <%= email_field_tag 'email', '', placeholder: 'Email address' %>
+        <%= submit_tag 'Request Invitation' %>
+      <% end %>
+    </li>
+  </ul>
+</div>

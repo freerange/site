@@ -23,6 +23,10 @@ So that exceptions are reported to our Errbit app. You may need to create a new 
     $ rails secret | pbcopy
     $ heroku config:set SECRET_KEY_BASE=`pbpaste`
 
+### Configure Slack API key for Show & Tell
+
+    $ heroku config:set SLACK_API_TOKEN=<value-obtained-from-slack>
+
 ## Writing a snip
 
 A snip is just a text file within the "soup", like "here-is-my-stuff.snip". You can write whatever you like in the file, and it will be rendered as is when you visit http://yoursite/here-is-my-stuff.
