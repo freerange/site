@@ -13,7 +13,7 @@ module Slack
     def create
       @invitation = Invitation.new(params.permit(:email))
 
-      unless @invitation.valid?
+      unless verify_recaptcha(model: @invitation) && @invitation.valid?
         error_message = @invitation.errors.full_messages.to_sentence
         flash.now[:alert] = "Validation error: #{error_message}"
         render :new

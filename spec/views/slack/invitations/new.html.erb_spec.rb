@@ -37,11 +37,6 @@ describe 'slack/invitations/new.html.erb' do
     end
   end
 
-  it 'renders sign-in link for Slack channel' do
-    render
-    expect(rendered).to have_link('Sign In', href: 'https://gfr-show-and-tell.slack.com/')
-  end
-
   it 'renders form with action to create invitation' do
     render
     expect(rendered).to have_css(%{form[action="#{slack_invitations_path}"]})
@@ -54,6 +49,6 @@ describe 'slack/invitations/new.html.erb' do
 
   it 'renders form with submit button' do
     render
-    expect(rendered).to have_css('form input[type="submit"][value="Request Invitation"]')
+    expect(rendered).to have_css('form button[type="submit"]', text: 'Request Invitation')
   end
 end

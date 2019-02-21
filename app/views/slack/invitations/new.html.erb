@@ -12,13 +12,11 @@
     <p class="flash-notice"><%= flash[:notice] %></p>
   <% end %>
 
-  <ul>
-    <li><%= link_to 'Sign In', 'https://gfr-show-and-tell.slack.com/' %></li>
-    <li>
-      <%= form_tag slack_invitations_path, id: 'slack-invitation' do %>
-        <%= email_field_tag 'email', '', placeholder: 'Email address' %>
-        <%= submit_tag 'Request Invitation' %>
-      <% end %>
-    </li>
-  </ul>
+  <%= form_tag slack_invitations_path, id: 'slack-invitation' do %>
+    <%= recaptcha_tags %>
+    <fieldset>
+      <%= email_field_tag 'email', '', placeholder: 'Your email address' %>
+      <%= button_tag 'Request Invitation' %>
+    </fieldset>
+  <% end %>
 </div>

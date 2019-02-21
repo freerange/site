@@ -23,9 +23,13 @@ So that exceptions are reported to our Errbit app. You may need to create a new 
     $ rails secret | pbcopy
     $ heroku config:set SECRET_KEY_BASE=`pbpaste`
 
-### Configure Slack API key for Show & Tell
+### Show & Tell Slack invitation form
 
     $ heroku config:set SLACK_API_TOKEN=<value-obtained-from-slack>
+    $ heroku config:set RECAPTCHA_SECRET_KEY=<secret-key-obtained-from-google>
+    $ heroku config:set RECAPTCHA_SITE_KEY=<site-key-obtained-from-google>
+
+* reCAPTCHA keys can be obtained [here](https://www.google.com/recaptcha/admin)
 
 ## Writing a snip
 
