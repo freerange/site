@@ -51,7 +51,7 @@ James created a new [Slack room for our Show and Tell events][show-and-tell-slac
 [mocha-issue-272]: https://github.com/freerange/mocha/issues/272
 [ruby-bug-12832]: https://bugs.ruby-lang.org/issues/12832
 [show-and-tell-25]: /show-and-tell-25
-[show-and-tell-slack]: https://gfr-show-and-tell-slack.herokuapp.com/
+[show-and-tell-slack]: https://gfr-show-and-tell.slack.com/
 [slackin]: https://github.com/rauchg/slackin
 [uk-postbox]: https://www.ukpostbox.com/
 [vanilla-rb]: https://github.com/lazyatom/vanilla-rb
