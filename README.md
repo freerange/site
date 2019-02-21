@@ -29,6 +29,7 @@ So that exceptions are reported to our Errbit app. You may need to create a new 
     $ heroku config:set RECAPTCHA_SECRET_KEY=<secret-key-obtained-from-google>
     $ heroku config:set RECAPTCHA_SITE_KEY=<site-key-obtained-from-google>
 
+* A Slack API token can be obtained [here](https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens#-legacy-test-tokens).
 * reCAPTCHA keys can be obtained [here](https://www.google.com/recaptcha/admin)
 
 ## Writing a snip
