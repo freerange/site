@@ -73,9 +73,3 @@ Airbrake.add_filter do |notice|
     notice.ignore!
   end
 end
-
-Airbrake.add_filter do |notice|
-  if notice[:errors].any? { |e| e[:type] == 'SignalException' && e[:message] == 'SIGTERM' }
-    notice.ignore!
-  end
-end
