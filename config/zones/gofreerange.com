@@ -2,18 +2,15 @@
 ; Paste the zonefile below this line:
 $ORIGIN gofreerange.com.
 $TTL 1h
-gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827370 86400 7200 604800 300
+gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827374 86400 7200 604800 300
 gofreerange.com. 3600 IN NS ns1.dnsimple.com.
 gofreerange.com. 3600 IN NS ns2.dnsimple.com.
 gofreerange.com. 3600 IN NS ns3.dnsimple.com.
 gofreerange.com. 3600 IN NS ns4.dnsimple.com.
-badger.gofreerange.com. 3600 IN A 85.159.213.6
 www.gofreerange.com. 3600 IN CNAME concentric-spinach-jfm7ycahe4pjnh6qghmp1cxa.herokudns.com.
 calendar.gofreerange.com. 3600 IN CNAME ghs.google.com.
 docs.gofreerange.com. 3600 IN CNAME ghs.google.com.
-feeds.gofreerange.com. 3600 IN CNAME 1mcuj68.feedproxy.ghs.google.com.
-futurelearn-subtitles.gofreerange.com. 3600 IN CNAME futurelearn-subtitles.gofreerange.com.s3-website-eu-west-1.amazonaws.com.
-futurelearn-video.gofreerange.com. 3600 IN CNAME futurelearn-video.gofreerange.com.s3-website-eu-west-1.amazonaws.com.
+feeds.gofreerange.com. 3600 IN CNAME experimental-coconut-jnfe5nycyau5cj377625izju.herokudns.com.
 geohash.gofreerange.com. 3600 IN CNAME proxy.heroku.com.
 googleffffffffcc1ff19c.gofreerange.com. 3600 IN CNAME google.com.
 m55w7dvxq3gzjauiuonyxccptpeqqyrz._domainkey.gofreerange.com. 3600 IN CNAME m55w7dvxq3gzjauiuonyxccptpeqqyrz.dkim.amazonses.com.
