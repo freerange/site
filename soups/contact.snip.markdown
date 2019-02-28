@@ -27,9 +27,10 @@ Before we get acquainted here is the low-down:
 <div class="vcard">
   <div class="adr">
     <p class="post-office-box">Go Free Range Ltd</p>
-    <p class="street-address">38 Turner Street</p>
+    <p class="street-address">The Foundry</p>
+    <p class="street-address">156 Blackfriars Road</p>
     <p class="locality">London</p>
-    <p class="postal-code">E1 2AS</p>
+    <p class="postal-code">SE1 8EN</p>
   </div>
 </div>
 
