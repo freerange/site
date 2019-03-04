@@ -37,11 +37,10 @@ I think that's probably about it for now. Until next time.
 [tweet-apollo-11-mission-patch]: https://twitter.com/chrislowis/status/1101511010278625280
 
 :name: week-528
-:updated_at: 2019-03-04 15:58:08.075322000 +00:00
-:created_at: 2019-03-04 15:58:08.075322000 +00:00
+:updated_at: 2019-03-04 17:00:02.161499000 +00:00
+:created_at: 2019-03-04 17:00:02.161488000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
