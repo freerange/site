@@ -22,7 +22,7 @@ Before we get acquainted here is the low-down:
 
 ### Come and see us
 
-<p>We're based in <a href="https://www.google.co.uk/maps/place/38+Turner+St,+Whitechapel,+London+E1+2AS/@51.5161112,-0.0626319,17z/data=!3m1!4b1!4m5!3m4!1s0x48761ccd3e8dc6d7:0x6a0e2078588a72!8m2!3d51.5161112!4d-0.0604432">Whitechapel</a> &mdash; why not pop in for a cuppa?</p>
+<p>We're based in <a href="https://goo.gl/maps/hZnDkMvWZqR2">Southwark</a> &mdash; why not pop in for a cuppa?</p>
 
 <div class="vcard">
   <div class="adr">
