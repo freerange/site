@@ -49,11 +49,10 @@ Until next time.
 [raising-it]: https://www.raisingit.com/
 
 :name: week-529
-:updated_at: 2019-03-11 10:31:53.730807000 +00:00
-:created_at: 2019-03-11 10:31:53.730806000 +00:00
+:updated_at: 2019-03-11 11:55:55.097365000 +00:00
+:created_at: 2019-03-11 11:55:55.097348000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
