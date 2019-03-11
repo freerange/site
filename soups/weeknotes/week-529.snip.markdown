@@ -1,8 +1,6 @@
 Week 529
 ========
 
-Morning folks,
-
 Both projects we've been working on came to an end this week: [Ben][ben-griffiths] and [James][james-mead] finished their work with [Ctrl Group][ctrl-group] and [Chris][chris-lowis] and I finished our work on the [Modern Slavery Registry][modern-slavery-registry] for the [BHRRC][bhrrc]. Both Ctrl Group and BHHRC seemed pleased with what we managed to do in the relatively short time we had.
 
 We spent the rest of the week on a variety of things:
