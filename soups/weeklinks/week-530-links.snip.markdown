@@ -34,6 +34,24 @@ She references [Dan Manges](https://www.dan-manges.com/)' article from last year
 
 It's good to see new life being breathed into [The Ruby Toolbox](https://www.ruby-toolbox.com/) by Christoph Olszowka's recent work funded by Ruby Together. Although I find graphs like [this one of Mocha downloads](https://www.ruby-toolbox.com/projects/mocha) slightly terrifying! <%= by('james-mead') %>
 
+
+### [Why are .coop domains so expensive?](https://community.coops.tech/t/why-are-coop-domains-so-expensive/1258)
+
+I enjoyed learning a bit of the history of .coop TLDs from some of the [CoTech](https://www.coops.tech/) members that were involved at the time. <%= by('chris-roos') %>
+
+
+### [Remixing my Christmas interview on Radio 4](https://public.digital/2019/01/14/remixing-my-christmas-interview-on-radio-4/)
+
+I appreciate the effort that's gone into transcribing this interview, and into the additional commentary that attempts to give some background behind the answers. <%= by('chris-roos') %>
+
+
+### [Paying tribute to the web with View Source](https://m.signalvnoise.com/paying-tribute-to-the-web-with-view-source/)
+
+> Additional, Rails 6 just committed to shipping source maps by default in production, also thanks to Webpack. You’ll be able to turn that feature off, but I hope you won’t. The web is a better place when we allow others to learn from our work.
+
+This is great! I'm all for making it as easy as possible for people to see how the things we build work under the hood. <%= by('chris-roos') %>
+
+
 :name: week-530-links
 :updated_at: 2019-03-12 15:27:05.097727000 +00:00
 :created_at: 2019-03-12 15:27:05.097725000 +00:00
