@@ -17,6 +17,9 @@ We looked at and tried a few different options, but we've settled on DoubleAgent
 
 [James Coglan](https://blog.jcoglan.com/) has written a book which walks you through building git from scratch in Ruby. I haven't had a chance to look at it yet, but I'm sure it's full of useful explanations of programming concepts. <%= by('james-mead') %>
 
+### [Acoustic metamaterials that cancel sound](https://www.bu.edu/research/articles/researchers-develop-acoustic-metamaterial-noise-cancellation-device/)
+
+Earlier in my career I researched noise cancelling technology for aircraft engines, and I still enjoy reading about recent developments. My Dad sent me this recent article from Boston University (see also the Physics Review  [paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.024302)) which describes a new way of manufacturing materials that can be tuned to remove specific frequencies of sound while still allowing light and air to pass through. It'll be interesting to see if the results hold up when used in aircraft engine models and also whether the technology will make it into things like roadside noise barriers or office sound-proofing. <%= by('chris-lowis') %>
 
 ### [Deconstructing the Monolith](https://engineering.shopify.com/blogs/engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity)
 
