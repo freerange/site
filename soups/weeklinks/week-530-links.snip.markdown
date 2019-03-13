@@ -6,6 +6,13 @@ Week 530 - Interesting links
 [Chris Zetter](https://chriszetter.com/) built this site to help people visualise how Rails responds to HTTP requests. The trace of the execution path of a single HTTP request through all the various libraries is fascinating. Chris has also written [an excellent blog post](https://chriszetter.com/blog/2019/03/06/visualising-how-rails-responds-to-http-requests/) on how he built the visualisation including the discovery of an interesting bug in Ruby. <%= by('james-mead') %>
 
 
+### [DoubleAgent](https://doubleagent.io/)
+
+This is actually something we first mentioned back in [week 470](/week-470-links). For a long time we've been using our own [Chrome extension](https://github.com/freerange/freeagent_transaction_explainer) to help us explain transactions in FreeAgent correctly and consistently. However, since we started making sales from mission-patch.com, we've needed to handle payouts from Stripe which are made up of payments from multiple customers and deductions for processing fees.
+
+We looked at and tried a few different options, but we've settled on DoubleAgent which [does this automatically](https://doubleagent.io/docs/stripe). Andrew was really helpful in making some changes to support our Stripe use case and so far it's all working really well. And as a bonus we've started setting up DoubleAgent rules to replace the functionality provided by our Chrome extension. <%= by('james-mead') %>
+
+
 ### [Building Git](https://shop.jcoglan.com/building-git/)
 
 [James Coglan](https://blog.jcoglan.com/) has written a book which walks you through building git from scratch in Ruby. I haven't had a chance to look at it ye, but I'm sure it's full of useful explanations of programming concepts. <%= by('james-mead') %>
