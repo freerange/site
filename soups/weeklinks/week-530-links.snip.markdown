@@ -51,13 +51,11 @@ I appreciate the effort that's gone into transcribing this interview, and into t
 
 This is great! I'm all for making it as easy as possible for people to see how the things we build work under the hood. <%= by('chris-roos') %>
 
-
 :name: week-530-links
-:updated_at: 2019-03-12 15:27:05.097727000 +00:00
-:created_at: 2019-03-12 15:27:05.097725000 +00:00
+:updated_at: 2019-03-13 14:57:09.802812000 +00:00
+:created_at: 2019-03-13 14:57:09.802795000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
