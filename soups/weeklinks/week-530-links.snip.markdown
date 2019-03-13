@@ -15,7 +15,7 @@ We looked at and tried a few different options, but we've settled on DoubleAgent
 
 ### [Building Git](https://shop.jcoglan.com/building-git/)
 
-[James Coglan](https://blog.jcoglan.com/) has written a book which walks you through building git from scratch in Ruby. I haven't had a chance to look at it ye, but I'm sure it's full of useful explanations of programming concepts. <%= by('james-mead') %>
+[James Coglan](https://blog.jcoglan.com/) has written a book which walks you through building git from scratch in Ruby. I haven't had a chance to look at it yet, but I'm sure it's full of useful explanations of programming concepts. <%= by('james-mead') %>
 
 
 ### [Deconstructing the Monolith](https://engineering.shopify.com/blogs/engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity)
