@@ -8,7 +8,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We're busy on two projects until the end of February 2019 but are looking for interesting opporunities from March. We are always happy to make time to discuss your ideas.
+* *Timing:* We're currently looking for interesting opportunities and we're always happy to make time to discuss your ideas.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
