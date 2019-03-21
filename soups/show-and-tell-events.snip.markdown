@@ -32,11 +32,8 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming event
 
-* Show and Tell 53
-* Wed 20 Mar 2019
-* [Proper Office](https://goo.gl/maps/YLNKDjVARP52), 2 Bath Place, Rivington Street, London EC2A 3DR.
-* Let us know you are attending on [upcoming.org](https://upcoming.org/event/gfr-show-and-tell-53-ff56uejrqv)
-
+* Show and Tell 54
+* To be confirmed - likely 17th April 2019 
 
 ### Past events
 
