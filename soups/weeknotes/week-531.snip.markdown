@@ -27,6 +27,12 @@ We had hoped to host the Show & Tell event in the main meeting room in our new o
 
 Over the week or so I've spent way too long trying to understand the byzantine rules about how to apply VAT to Mission Patch sales to customers in the EU. This has been complicated by the fact that we sell both physical and digital products and that we sell to both businesses and consumers. It feels good to have finally got my head round it all, but potentially all a bit pointless if we end up crashing out of the EU in the coming weeks! 💩
 
+<p style="text-align: center; margin-bottom: -2.5em">
+  <a href="https://mission-patch.com/?utm_source=web&utm_campaign=gfr" title="Buy me!">
+    <img alt="Mission Patch rocket example" style="width: 50%" src="/images/blog/mission-patch-rocket-example.png">
+  </a>
+</p>
+
 ## Mission Patch
 
 Today we chatted about how work on [Mission Patch][] has stalled a bit - particularly non-development related tasks. We've agreed to hold daily stand-up meetings every morning next week to try to get ourselves back on track. I'm extremely proud of what we've accomplished so far - it still gives me a kick to see each notification of a sale and to see the printed patches people have designed - but I'm sure we can take the project a lot further if we put our minds to it! 🚀
