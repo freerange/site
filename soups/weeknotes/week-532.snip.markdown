@@ -59,11 +59,10 @@ Until next time.
 [tom-taylor]: https://www.tomtaylor.co.uk/
 
 :name: week-532
-:updated_at: 2019-03-29 11:35:22.463523000 +00:00
-:created_at: 2019-03-29 11:35:22.463522000 +00:00
+:updated_at: 2019-03-29 14:12:35.543971000 +00:00
+:created_at: 2019-03-29 14:12:35.543959000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
