@@ -15,7 +15,7 @@ module ApplicationHelper
 
   def tagline
     options = [
-     "We are exceptionally talented &amp; experienced software developers.",
+     "Need your game changing?",
      "We are a crack team of kick-ass <em>space engineers</em>.",
      "We hunt <em>web-ninjas</em> and <em>code-rockstars</em> before breakfast, and build software from their bones and stringy bits.",
      "We use computers and our <em>indomitable</em> will to transform <em>pure thought</em> into <em>digital magic</em>.",
