@@ -31,3 +31,5 @@ google._domainkey.gofreerange.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhk
 _github-challenge-freerange.gofreerange.com. 3600 IN TXT "308436e875"
 ; gofreerange.com. 3600 IN ALIAS adjacent-temple-lktfu02di91skw9vz2ff6wzh.herokudns.com.
 gofreerange.com. 3600 IN TXT "ALIAS for adjacent-temple-lktfu02di91skw9vz2ff6wzh.herokudns.com"
+_371083cc9e3b4573f69c7571d1c5d2cb.blackwell.gofreerange.com. 3600 IN CNAME _1ae9f8bd1a8d5875f7208b5e6f7d42fd.hkvuiqjoua.acm-validations.aws.
+blackwell.gofreerange.com. 60 IN CNAME black-Appli-6BPAZ5E7RCB7-1848132714.eu-west-1.elb.amazonaws.com.
