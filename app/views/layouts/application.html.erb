@@ -9,9 +9,6 @@
   <body class="<%= body_class(@snip) %>">
     <div id="page" class="container">
       <%= render partial: 'shared/navigation' %>
-      <div id="header" class="group">
-        <%= render partial: 'shared/logo' %>
-      </div>
       <div id="content" class="group">
         <%= yield %>
       </div>
