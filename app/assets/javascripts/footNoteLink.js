@@ -1,4 +1,4 @@
-//= require jquery.scrollTo-1.4.2.min
+//= require jquery.scrollTo-2.1.2.min
 
 (function($) {
   $.fn.footNoteLink = function (offset) {
@@ -9,7 +9,7 @@
         target = target.split('#')[1];
       };
       var xOffset = offsetPadding + offset;
-      $.scrollTo($('sup[id='+target+']'), 1500, { offset: { top: -xOffset } });
+      $.scrollTo($('sup[id="'+target+'"]'), 1500, { offset: { top: -xOffset } });
       return false;
     });
   }
