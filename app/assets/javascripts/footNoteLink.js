@@ -1,4 +1,3 @@
-//= require jquery-1.4.3
 //= require jquery.scrollTo-1.4.2.min
 
 (function($) {
