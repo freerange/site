@@ -8,9 +8,13 @@
   </head>
   <body class="<%= body_class(@snip) %>">
     <div id="page" class="container">
-      <%= render partial: 'shared/navigation' %>
-      <div id="content" class="group">
-        <%= yield %>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <%= render partial: 'shared/navigation' %>
+          <div id="content" class="group">
+            <%= yield %>
+          </div>
+        </div>
       </div>
     </div>
     <%= render partial: 'shared/javascripts' %>
