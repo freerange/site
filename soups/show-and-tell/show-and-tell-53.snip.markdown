@@ -49,8 +49,6 @@ The emoji search he developed is now integrated as part of the Mission Patch des
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-<!-- add content here -->
-
 :name: show-and-tell-53
 :updated_at: 2019-04-01 14:57:24.453800000 +01:00
 :created_at: 2019-04-01 14:57:24.453793000 +01:00

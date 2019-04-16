@@ -26,8 +26,6 @@ Also this week:
 
 Have a great weekend!
 
-<!-- add content here -->
-
 :name: week-525
 :updated_at: 2019-02-08 21:36:09.707064000 +00:00
 :created_at: 2019-02-08 21:36:09.707025000 +00:00

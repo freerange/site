@@ -13,9 +13,6 @@ We continued work on adding user journeys for schools to procure supply teachers
 - We reduced some [duplication in the views](https://github.com/Crown-Commercial-Service/crown-marketplace/commit/5d3db187ff46a3c9564cc44992271093e683c3a6) to allow us to consistently display error messages in a manner consistent with the [GOV.UK design system](https://design-system.service.gov.uk/).
 
 
-
-<!-- add content here -->
-
 :name: week-510
 :updated_at: 2018-11-16 14:48:18.042942000 +00:00
 :created_at: 2018-11-16 14:48:18.042935000 +00:00

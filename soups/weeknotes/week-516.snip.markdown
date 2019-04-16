@@ -21,8 +21,6 @@ We're also thinking about what we'd like to work on next. At the moment we have 
 
 Have a good weekend!
 
-<!-- add content here -->
-
 :name: week-516
 :updated_at: 2018-12-07 13:15:28.312959000 -05:00
 :created_at: 2018-12-07 13:15:28.312951000 -05:00
