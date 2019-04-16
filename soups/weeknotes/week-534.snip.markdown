@@ -27,7 +27,7 @@ We met someone to chat about [PPC advertising][ppc] for Mission Patch: we're int
 We've arranged leaflets to be printed and distributed at the [Agile Lean Ireland][agile-ireland] conference next week. This is an experiment to see whether it helps us reach the intended audience of Mission Patch.
 
 
-## Becoming a coop
+## Formalising our coop structure
 
 This has been on hold for a while now. Initially because we were busy with client work, and then because we were busy trying to find client work. We unblocked it this week by agreeing that we want to remain a company limited by shares but adopt some coop compatible Articles of Association. We spent a while going through the model articles from Coops UK and sent a giant email of questions to [Sion][sion-whellans]. Sorry, Sion!
 
