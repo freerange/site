@@ -33,7 +33,9 @@ If you have any questions, please [get in touch][email-address].
 ### Upcoming event
 
 * Show and Tell 54
-* To be confirmed - likely 17th April 2019 
+* Wed 17 April 2019
+* [The Foundry, 156 Blackfriars Road, London SE1 8EN](https://goo.gl/maps/cYCfrPNP8cS2)
+* Let us know if you are attending on [upcoming.org](https://upcoming.org/event/gfr-show-and-tell-54-yek5y68k73)
 
 ### Past events
 
