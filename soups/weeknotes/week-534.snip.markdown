@@ -56,11 +56,10 @@ Until next time.
 [tuc-digital]: https://digital.tuc.org.uk/
 
 :name: week-534
-:updated_at: 2019-04-16 11:08:38.313301000 +01:00
-:created_at: 2019-04-16 11:08:38.313299000 +01:00
+:updated_at: 2019-04-16 15:12:38.194452000 +01:00
+:created_at: 2019-04-16 15:12:38.194425000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
