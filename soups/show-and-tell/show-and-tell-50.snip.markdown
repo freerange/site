@@ -1,4 +1,4 @@
-Show and Tell 50
+Show and Tell 50 🍾
 ================
 
 This is a belated and hence somewhat patchy write-up of our 50th Show & Tell event which took place on Wed 21 Nov 2018 at [dxw digital][]'s [The Hide][] in Hoxton Square. Since it was the 50th event, we had some pizza from [Radio Alice][] to celebrate along with the usual assortment of beverages. There was a really good turnout with 11 people attending and I thoroughly enjoyed the evening.
@@ -72,14 +72,13 @@ We'll be hosting our [54th Show & Tell][] in tomorrow (Wed 17 Apr) night. Join o
 
 
 :name: show-and-tell-50
-:updated_at: 2019-04-15 15:03:01.620283000 +01:00
-:created_at: 2019-04-15 15:03:01.620282000 +01:00
+:updated_at: 2019-04-16 15:52:01.620283000 +01:00
+:created_at: 2019-04-16 15:52:01.620282000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
-:page_title: Show and Tell 50
+:page_title: Show and Tell 50 🍾
 :layout: show-and-tell-layout
 :extension: markdown
