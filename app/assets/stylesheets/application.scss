@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
   @extend .mt-4;
 }
 
+h2#tag {
+  @extend .text-center
+}
+
 ol {
   padding-left: 0
 }
