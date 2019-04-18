@@ -77,11 +77,10 @@ Until next time.
 -- Chris
 
 :name: show-and-tell-54
-:updated_at: 2019-04-18 11:34:47.432158000 +01:00
-:created_at: 2019-04-18 11:34:47.432155000 +01:00
+:updated_at: 2019-04-18 15:08:25.668614000 +01:00
+:created_at: 2019-04-18 15:08:25.668604000 +01:00
 :render_as: Blog
 :kind: show-and-tell
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
