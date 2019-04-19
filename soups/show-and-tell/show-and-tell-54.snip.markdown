@@ -65,7 +65,7 @@ There seems to be a bit of buzz about [Platform Coops][platform-coop] at the mom
 [upcoming]: https://upcoming.org/
 
 
-## Show & Tell 48
+## Show & Tell 55
 
 We'll host our next Show & Tell on 15th May. [Email us][email-us] if you'd like to be added to the mailing list so that you're notified of [upcoming events][show-and-tell-events].
 
