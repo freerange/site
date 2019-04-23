@@ -50,11 +50,10 @@ Anyway, that's all for now. Until next time.
 [54th Show & Tell event]: /show-and-tell-54
 
 :name: week-535
-:updated_at: 2019-04-18 12:36:51.779374000 +01:00
-:created_at: 2019-04-18 12:36:51.779373000 +01:00
+:updated_at: 2019-04-23 16:37:40.394535000 +01:00
+:created_at: 2019-04-23 16:37:40.394525000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
