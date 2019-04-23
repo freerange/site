@@ -5,6 +5,8 @@ We had a good attendance at our Show & Tell event this week with [Bash](https://
 
 ## Porting classic text adventure games to Amazon's Alexa
 
+<iframe src="https://player.vimeo.com/video/331953954" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 Ben showed us a project he's been working on during his first week at Go Free Range. We have a client project coming up that will involve working with voice controlled devices. Ben thought he'd learn a bit more about this technology by attempting to implement a classic text adventure game.
 
 Classic text adventure games, such as those from Infocom, were written to run on a virtual machine called the [Z-machine](https://en.wikipedia.org/wiki/Z-machine). Writing the games for this abstract machine made it easier to port them to various computer platforms as the virtual machine only needed to be written once per platform in order to run multiple games.
@@ -119,6 +121,8 @@ Bash also wrote a command to create a new files based on the timestamp and quick
 This idea of hyper-linking from the to-do list to notes also inspired Bash to use a personal Wiki to keep notes. He showed us [Vimwiki](https://github.com/vimwiki/vimwiki), which implements a wiki system inside of Vim, and his [personal "manual"](https://github.com/howlinbash/manual) containing notes on the software he regularly uses and new things he has learnt. I particularly enjoyed the [script `how`](https://github.com/howlinbash/how) he'd written to review items that had recently been added to his wiki. When he's happy he's remembered the particular fact, he removes it from this automatically generated "to learn" list.
 
 ## Writing a game for the Amazon Alexa
+
+<iframe src="https://player.vimeo.com/video/331953351" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 At the end of the meeting James, Ben and I talked briefly about a follow-up project to the one Ben showed us earlier in the evening. We've decided that doing a straight port of a text adventure game to a voice-controlled device isn't optimum in terms of the capabilities of these devices. Instead we're building a simple game from scratch with voice-control in mind.
 
