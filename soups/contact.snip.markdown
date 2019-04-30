@@ -42,7 +42,6 @@ Before we get acquainted here is the low-down:
   <p class="phone">Phone: +44 (0)20 3823 6286</p>
   <p class="email">Email: <a href="mailto:lets@gofreerange.com" title="Send us an email">lets@gofreerange.com</a></p>
   <p class="twitter">Twitter: <a href="http://twitter.com/freerange" title="Follow us on Twitter">@freerange</a></p>
-  <p class="facebook">Facebook: <a href="https://fb.me/gofreerange" title="Follow us on Facebook">@gofreerange</a></p>
 </div>
 
 </div>
@@ -52,4 +51,4 @@ Before we get acquainted here is the low-down:
 
 :created_at: 2017-07-23 17:41:29 +0100
 :created_sha: 898e1d7abebec46315789e45ef1abdff18303ccc
-:updated_at: 2018-07-08 12:54:05 +0100
+:updated_at: 2019-04-30 17:25:00 +0100
