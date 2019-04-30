@@ -64,11 +64,10 @@ That's all, folks!
 [Matt Jukes]: https://digitalbydefault.com/about/
 
 :name: week-536
-:updated_at: 2019-04-29 13:41:52.027091000 +01:00
-:created_at: 2019-04-29 13:41:52.027090000 +01:00
+:updated_at: 2019-04-30 14:43:38.450062000 +01:00
+:created_at: 2019-04-30 14:43:38.450021000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
