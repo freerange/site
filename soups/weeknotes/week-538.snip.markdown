@@ -34,11 +34,10 @@ Until next time.
 [school-cuts]: https://schoolcuts.org.uk/
 
 :name: week-538
-:updated_at: 2019-05-10 14:45:17.550942000 +01:00
-:created_at: 2019-05-10 14:45:17.550940000 +01:00
+:updated_at: 2019-05-10 16:28:28.686010000 +01:00
+:created_at: 2019-05-10 16:28:28.685997000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
