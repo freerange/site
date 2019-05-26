@@ -12,11 +12,10 @@ Have a great bank holiday weekend!
 <!-- add content here -->
 
 :name: week-540
-:updated_at: 2019-05-26 20:15:15.122880000 +01:00
-:created_at: 2019-05-26 20:15:15.122878000 +01:00
+:updated_at: 2019-05-26 21:10:45.673436000 +01:00
+:created_at: 2019-05-26 21:10:45.673428000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
