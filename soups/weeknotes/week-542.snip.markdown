@@ -31,11 +31,10 @@ Until next time.
 [stripe]: https://stripe.com/
 
 :name: week-542
-:updated_at: 2019-06-09 19:16:04.683437000 +01:00
-:created_at: 2019-06-09 19:16:04.683436000 +01:00
+:updated_at: 2019-06-10 10:02:06.082877000 +01:00
+:created_at: 2019-06-10 10:02:06.082856000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
