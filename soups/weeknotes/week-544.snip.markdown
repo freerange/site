@@ -33,11 +33,10 @@ Have great weekends.
 [vmware]: https://www.vmware.com/uk.html
 
 :name: week-544
-:updated_at: 2019-06-21 16:43:02.366502000 +01:00
-:created_at: 2019-06-21 16:43:02.366498000 +01:00
+:updated_at: 2019-06-21 17:28:35.715266000 +01:00
+:created_at: 2019-06-21 17:28:35.715255000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
