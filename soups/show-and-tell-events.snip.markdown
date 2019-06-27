@@ -32,9 +32,7 @@ If you have any questions, please [get in touch][email-address].
 
 ### Upcoming event
 
-* Wednesday 19th June 2019
-* Venue TBC
-* Register on [upcoming](https://upcoming.org/event/go-free-range-show-and-tell-50p5aod19y)
+* TBA
 
 ### Past events
 
