@@ -1,6 +1,6 @@
 $ORIGIN mission-patch.com.
 $TTL 1h
-mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902513 86400 7200 604800 300
+mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902515 86400 7200 604800 300
 mission-patch.com. 3600 IN NS ns1.dnsimple.com.
 mission-patch.com. 3600 IN NS ns2.dnsimple.com.
 mission-patch.com. 3600 IN NS ns3.dnsimple.com.
@@ -14,3 +14,5 @@ kj6owdu3m7opqpaqdthxlsdn7ws6q4lo._domainkey.mission-patch.com. 3600 IN CNAME kj6
 pi4nhn5n745qtvshl3pntd5crochzvam._domainkey.mission-patch.com. 3600 IN CNAME pi4nhn5n745qtvshl3pntd5crochzvam.dkim.amazonses.com.
 z3tjfs5wm7xqgzhp5nn5ayesiy73ydv4._domainkey.mission-patch.com. 3600 IN CNAME z3tjfs5wm7xqgzhp5nn5ayesiy73ydv4.dkim.amazonses.com.
 mission-patch.com. 3600 IN TXT "v=spf1 include:amazonses.com ~all"
+mail.mission-patch.com. 3600 IN MX 10 feedback-smtp.eu-west-1.amazonses.com.
+mail.mission-patch.com. 3600 IN TXT "v=spf1 include:amazonses.com ~all"
