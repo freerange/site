@@ -9,8 +9,6 @@ It's been a bit of a struggle keeping up with some of the regular tasks we need 
 
 Have a great bank holiday weekend!
 
-<!-- add content here -->
-
 :name: week-540
 :updated_at: 2019-05-26 21:10:45.673436000 +01:00
 :created_at: 2019-05-26 21:10:45.673428000 +01:00
