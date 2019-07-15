@@ -112,5 +112,5 @@ Until next time,
 :is_page: true
 :written_with: markdown
 :author: james-mead
-:page_title: Week 547
+:page_title: Weeks 545-7
 :extension: markdown
