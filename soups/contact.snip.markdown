@@ -8,7 +8,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We have a short project on at the moment, but we're still looking for interesting opportunities in the next few months. We're always happy to make time to discuss your ideas.
+* *Timing:* We're currently booked up until the end of October. Don't let this put you off getting in touch, though. We're always happy to make time to discuss your ideas.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
