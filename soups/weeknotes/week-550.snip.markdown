@@ -19,7 +19,7 @@ I ran a "Data Analysis with R" workshop for [The Children's Society](https://www
 
 ## Mission Patch
 
-We continue to make a steady trickle of sales of our [mission patches](https://mission-patch.com/) including some to repeat customers. Ben has been chipping away at getting our Stripe integration ready for the introduction of [Strong Customer Authentication](https://stripe.com/guides/strong-customer-authentication) while James has started looking at making the checkout pages work better on mobile devices.
+We continue to make a steady trickle of sales of our [mission patches](https://mission-patch.com/) including some repeat customers. Ben has been chipping away at getting our Stripe integration ready for the introduction of [Strong Customer Authentication](https://stripe.com/guides/strong-customer-authentication) while James has started looking at making the checkout pages work better on mobile devices.
 
 ## Articles of Association
 
