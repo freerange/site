@@ -1,6 +1,8 @@
 ## Show and Tell Events
 
-We host this event on the third Wednesday of every month, starting at 6.30pm and running for two hours. The idea is for people to demonstrate side projects, open-source projects, etc in an informal setting with the aim of garnering friendly and constructive feedback.
+As of August 2019 we're [no longer hosting these events][show-and-tell-no-more].
+
+We used to host these events on the third Wednesday of every month, starting at 6.30pm and running for two hours. The idea was for people to demonstrate side projects, open-source projects, etc in an informal setting with the aim of garnering friendly and constructive feedback.
 
 We started running the event back in April 2014 at the suggestion of Tom Stuart. At the time we had our own office with plenty of spare space and so we encouraged friends to come and make use of it. This led to lots of informal demos and chats about what we were all working on. We really enjoyed these sessions and so with Tom's encouragement, the GFR Show & Tell was born.
 
@@ -30,10 +32,6 @@ If you have any questions, please [get in touch][email-address].
 * [Events on Attending (deprecated)][attending-event-series]
 * [Event series on Lanyrd (deprecated)][lanyrd-event-series]
 
-### Upcoming event
-
-* TBA
-
 ### Past events
 
 <ul class="show-and-tell_list" reversed>
@@ -57,6 +55,7 @@ If you have any questions, please [get in touch][email-address].
 [Show and Tell 2]: /week-282#show-and-tell
 [Show and Tell 1]: /week-274#show-and-tell
 [email-address]: mailto:lets@gofreerange.com
+[show-and-tell-no-more]: /show-and-tell-no-more
 
 :is_page: true
 :created_at: 2014-10-23 18:02:00 +01:00
