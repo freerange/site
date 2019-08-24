@@ -13,8 +13,6 @@ We took our 100th [Mission Patch](https://mission-patch.com/) order this week wh
 
 We've got a long and hopefully sunny bank holiday weekend here. I hope wherever you are you have a great one.
 
-<!-- add content here -->
-
 :name: week-553
 :updated_at: 2019-08-23 21:41:50.033567000 +01:00
 :created_at: 2019-08-23 21:41:50.033555000 +01:00

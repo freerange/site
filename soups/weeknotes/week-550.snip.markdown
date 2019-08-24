@@ -33,8 +33,6 @@ We're really close to confirming work on a new project, and we'll have more to s
 Have a great weekend!
 
 
-<!-- add content here -->
-
 :name: week-550
 :updated_at: 2019-08-02 16:50:00.713625000 +01:00
 :created_at: 2019-08-02 16:50:00.713617000 +01:00
