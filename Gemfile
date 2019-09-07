@@ -17,7 +17,7 @@ group :assets, :development do
 end
 
 group :assets do
-  gem 'uglifier', '>= 1.3.0'
+  gem 'uglifier', '~> 3'
   gem 'mini_racer'
 end
 
