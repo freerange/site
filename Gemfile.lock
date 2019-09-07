@@ -225,7 +225,7 @@ DEPENDENCIES
   mini_racer
   puma (~> 3)
   rails (~> 5)
-  rails-controller-testing
+  rails-controller-testing (~> 1)
   recaptcha (~> 4)
   rspec-rails
   sass-rails (~> 5)
