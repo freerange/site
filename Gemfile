@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.5.6'
 
 gem 'rails', '~> 5'
-gem 'soup'
+gem 'soup', '~> 1'
 gem 'kramdown', '~> 1'
 gem 'airbrake', '~> 5'
 gem 'aws-sdk-s3'
