@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.5.6'
 
-gem 'rails', '~> 5.2.2'
+gem 'rails', '~> 5'
 gem 'soup'
 gem 'kramdown'
 gem 'airbrake', '~> 5'
