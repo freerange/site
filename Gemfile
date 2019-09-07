@@ -27,7 +27,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'capybara'
+  gem 'capybara', '~> 3'
   gem 'rails-controller-testing'
   gem 'rspec-rails'
   gem 'timecop'
