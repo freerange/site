@@ -4,7 +4,7 @@ ruby '2.5.6'
 
 gem 'rails', '~> 5'
 gem 'soup'
-gem 'kramdown'
+gem 'kramdown', '~> 1'
 gem 'airbrake', '~> 5'
 gem 'aws-sdk-s3'
 gem 'bootsnap', '>= 1.1.0', require: false
