@@ -13,7 +13,7 @@ gem 'recaptcha', '~> 4'
 gem 'jquery-rails', '~> 4'
 
 group :assets, :development do
-  gem 'sass-rails'
+  gem 'sass-rails', '~> 5'
 end
 
 group :assets do
