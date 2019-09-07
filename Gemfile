@@ -29,6 +29,6 @@ end
 group :development, :test do
   gem 'capybara', '~> 3'
   gem 'rails-controller-testing', '~> 1'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 3'
   gem 'timecop'
 end
