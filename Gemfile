@@ -9,7 +9,7 @@ gem 'airbrake', '~> 5'
 gem 'aws-sdk-s3', '~> 1'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'puma', '~> 3'
-gem 'recaptcha'
+gem 'recaptcha', '~> 4'
 gem 'jquery-rails'
 
 group :assets, :development do
