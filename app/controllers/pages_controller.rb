@@ -9,7 +9,7 @@ class PagesController < ApplicationController
 
   def show
     name = params.permit(:path)[:path]
-    @snip = name.present? ? Snip.find(name) : Snip.find(ROOT_SNIP_NAME)
+    @snip = name.present? ? Snip.find(name) : Snip.find(root_snip_name)
     @author = Snip.find_by_name(@snip.author)
     respond_to do |format|
       format.html do
@@ -31,6 +31,13 @@ class PagesController < ApplicationController
   end
 
   private
+
+  def root_snip_name
+    if (Date.today == Date.parse('2019-09-20'))
+      return 'global-climate-strike'
+    end
+    ROOT_SNIP_NAME
+  end
 
   def url_to(snip_name, part=nil)
     return root_path if snip_name == ROOT_SNIP_NAME && part.nil?
