@@ -14,8 +14,6 @@ Before we get acquainted here is the low-down:
 
 * *Public sector clients:* We're a registered supplier under the [Digital Outcomes and Specialists](https://www.digitalmarketplace.service.gov.uk/) framework and have applied as a supplier under G-Cloud 11.
 
-
-
 </div>
 
 :created_at: 2019-09-21 13:22:00 +0100
