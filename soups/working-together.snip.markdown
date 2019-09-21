@@ -12,7 +12,7 @@ Before we get acquainted here is the low-down:
 
 * *Budget:* You pay a fixed cost <em>per iteration</em>. Since we deliver working software of value to your business with each iteration, we give you the flexibility to disengage at any point. We're confident that the quality of our work and the rate at which we deliver it will have you coming back for more.
 
-* *Public sector clients:* We're a registered supplier under the [Digital Outcomes and Specialists](https://www.digitalmarketplace.service.gov.uk/) framework and have applied as a supplier under G-Cloud 11.
+* *Public sector clients:* We're a registered supplier under both the [Digital Outcomes & Specialists](https://www.digitalmarketplace.service.gov.uk/) and [G-Cloud](https://www.digitalmarketplace.service.gov.uk/g-cloud/services/170697659311255) frameworks.
 
 </div>
 
