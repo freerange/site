@@ -42,7 +42,7 @@ We urge you to [talk to us](#contact) about your project. To give you an idea of
 
 * We will challenge you and expect you to challenge us.
 
-* We often write software in [pairs][pair-programming].
+* We often [write software in pairs][pair-programming].
 
 </div>
 
