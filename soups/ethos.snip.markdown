@@ -50,7 +50,7 @@ We urge you to [talk to us](#contact) about your project. To give you an idea of
 
 </div>
 
-[pair-programming]: http://en.wikipedia.org/wiki/Pair_programming "Wikipedia article on Pair Programming"
+[pair-programming]: http://www.extremeprogramming.org/rules/pair.html "Article about Pair Programming"
 
 :created_at: 2010-07-21 13:12:26 +0100
 :created_sha: 3d10ae1f1a58883519a8bd92a44eb7f454a12ad5
