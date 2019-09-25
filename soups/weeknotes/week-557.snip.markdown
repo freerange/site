@@ -20,13 +20,11 @@ Until next time.
 [futurelearn]: https://www.futurelearn.com/
 [taa]: https://www.theaudienceagency.org/
 
-
 :name: week-557
-:updated_at: 2019-09-24 09:45:51.705535000 +01:00
-:created_at: 2019-09-24 09:45:51.705534000 +01:00
+:updated_at: 2019-09-25 14:08:49.179249000 +01:00
+:created_at: 2019-09-25 14:08:49.179237000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos

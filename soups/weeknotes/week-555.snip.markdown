@@ -37,13 +37,11 @@ That's about it for now. Until next time.
 [the-audiencce-agency]: https://www.theaudienceagency.org/
 [true-footprint]: https://www.truefootprint.com/
 
-
 :name: week-555
-:updated_at: 2019-09-03 09:39:07.751476000 +01:00
-:created_at: 2019-09-03 09:39:07.751475000 +01:00
+:updated_at: 2019-09-25 14:09:24.447046000 +01:00
+:created_at: 2019-09-25 14:09:24.447026000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
