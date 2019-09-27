@@ -8,7 +8,7 @@ gem 'kramdown', '~> 1'
 gem 'airbrake', '~> 5'
 gem 'aws-sdk-s3', '~> 1'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'puma', '~> 3'
+gem 'puma', '~> 4'
 gem 'recaptcha', '~> 4'
 gem 'jquery-rails', '~> 4'
 
