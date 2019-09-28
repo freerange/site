@@ -6,7 +6,7 @@ class Spider
   SITE_URL = "http://#{HOST}:#{PORT}"
   HOME_PAGE_URL = URI.join(SITE_URL, '/')
 
-  SERVER_COMMAND = %{TIME_NOW="2017-07-17 00:00:00" TAGLINE_INDEX=0 rails s --binding #{HOST} --port #{PORT}}
+  SERVER_COMMAND = %{TIME_NOW="2017-07-17 00:00:00" rails s --binding #{HOST} --port #{PORT}}
 
   # Based on RewriteRules in config/apache/gofreerange.com.conf
   IGNORE_PATHS = [
