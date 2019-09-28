@@ -19,7 +19,7 @@
           </p>
 
           <div class="author">
-            <img src="<%= @author.image %>" alt="<%= @author.name.titleize %>"/>
+            <img src="<%= image_path(@author.image) %>" alt="<%= @author.name.titleize %>"/>
             <span>
               by <%= @author.name.titleize %>
             </span>

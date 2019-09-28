@@ -3,7 +3,7 @@ Jase worked with FreeRange from February 2009 until February 2012. While at Go F
 Jase has decided to take some time out of software development so he can devote more time to meditation and other creative avenues, but he's still [available](http://jasoncale.com) for occasional software projects.
 
 :site: jasoncale.com
-:image: images/people/jason-cale.jpg
+:image: people/jason-cale.jpg
 :twitter: jasoncale
 
 :created_at: 2009-11-12 10:28:02 +0000

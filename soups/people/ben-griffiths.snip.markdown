@@ -7,7 +7,7 @@ Ben’s been a builder and maker since the early 2000s. Early in his career he w
 [dxw]: https://dxw.com
 [moo]: https://moo.com
 
-:image: images/people/ben-griffiths.jpg
+:image: people/ben-griffiths.jpg
 :twitter: beng
 
 :created_at: 2018-04-22 12:18:10 +0000

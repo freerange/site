@@ -9,7 +9,7 @@ Chris is an invited expert on the W3C’s Audio Working Group and an Ambassador 
 [futurelearn]: https://futurelearn.com
 
 :site: chrislowis.co.uk
-:image: images/people/chris-lowis.jpg
+:image: people/chris-lowis.jpg
 :twitter: chrislowis
 
 :created_at: 2017-02-23 12:18:10 +0000
