@@ -68,7 +68,7 @@ at [ClueQuest](https://cluequest.co.uk/) an
 Cross. We had 1 hour to solve the clues and escape the room which we
 managed, in mission-impossible style, with 1 second to spare!
 
-![Go Free Range celebrate escaping the ClueQuest escape room](/images/blog/2017-06-07-cluequest-team-photo.jpg)
+<%= image_tag('blog/2017-06-07-cluequest-team-photo.jpg', alt: 'Go Free Range celebrate escaping the ClueQuest escape room') %>
 
 In the afternoon we concentrated on some nearer-term objectives and in
 particular how to balance client and company work and manage the

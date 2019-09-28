@@ -7,7 +7,7 @@ The Easter bank holiday meant that this was another short week. Both [Ben][] & [
 
 On Wednesday, we all visited the [Outlandish][] office in Finsbury Park for a project kick-off meeting. It's always great to catch up with the lovely Outlandish folk, but this was extra special, because it's the first time we've collaborated on a commercial project with another co-op in the [CoTech][] network. 🎉
 
-![CoTech Sheffield 2019](/images/blog/cotech-sheffield-2019.gif)
+<%= image_tag('blog/cotech-sheffield-2019.gif', alt: 'CoTech Sheffield 2019') %>
 
 On Thursday Chris L attended the [CoTech Spring Gathering][cotech-spring-gathering-2019] in Sheffield and delivered the introductory keynote talk. Chris hasn't been in the office since then, but from all accounts it went very well - both as an opportunity to catch up with members of other co-ops in the network and as a means of making [some concrete steps forward][cotech-governance] in the evolution of CoTech itself.
 
@@ -28,7 +28,7 @@ At the end of Friday, we heard that we'd narrowly missed out on being selected f
 
 On Thursday, the 2-day [Agile-Lean Ireland conference][] kicked off in Dublin. We did a sponsorship deal with the conference to get [Mission Patch][] promotional flyers included in the delegate packs. So hopefully all the people in the photo above now know about Mission Patch!
 
-![Mission Patch flyer](/images/blog/mission-patch-flyer.png)
+<%= image_tag('blog/mission-patch-flyer.png', alt: 'Mission Patch flyer') %>
 
 We also sent [Matt Jukes][] some promotional flyers and stickers for his upcoming tour of digital government in Canada and the USA.
 

@@ -5,7 +5,7 @@ Show and Tell 46
 
 [Rob McKinnon][] has been on a musical adventure and he brought a bagful of devices, cables and instruments to share with us. 
    
-![Rob and Chris algoraving](/images/blog/2018-07-25-show-and-tell-1.jpg)
+<%= image_tag('blog/2018-07-25-show-and-tell-1.jpg', alt: 'Rob and Chris algoraving') %>
 
 Rob doesn't have any formal musical training, but seeing a demo of [Sonic PI][] running on a raspberry pi and being controlled by a PS4 controller excited him. Sonic PI started as a way to teach kids to code using music. Rob wanted to use it the other way around, he knows how to code, but can he learn how to music?
 

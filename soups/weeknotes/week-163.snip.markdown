@@ -15,7 +15,7 @@ Since for some reason I was awake quite early the day after the release of the W
 
 In the meantime, in his ongoing quest to print graphics on a small printer, [James A](/james-adam) has managed to coax his Arduino into [printing the Go Free Range logo][logo-over-the-wire], although apparently he's [running short of flash memory][not-enough-flash-memory].
 
-<img alt="GFR logo printed on receipt printer" src="images/blog/printing-gfr-logo.png" style="width: 100%" />
+<img alt="GFR logo printed on receipt printer" src="<%= image_path('blog/printing-gfr-logo.png') %>" style="width: 100%" />
 
 On Wednesday night we all got together at [Saf in Shoreditch][saf-shoreditch] to say farewell to [Jase][jaseandtonic]. Jase has decided to cut loose from the world of software development in order to have more time to devote to meditation & yoga and to further explore various creative avenues. Jase has been a brilliant colleague at [Go Free Range](/) and we're going to miss him.
 

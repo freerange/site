@@ -20,7 +20,7 @@ But to what end? There's still quite a bit of thinking to do, but now that we've
 Free Ranging
 -------
 
-Of course, it's not all [pondering and chin-stroking](/images/blog/ponderers.jpg) at GFR HQ this week. One of the other benefits of not being flat-out on a project is that we get to leave our desks and take part in some extra-curricular fun.
+Of course, it's not all [pondering and chin-stroking](<%= image_path('blog/ponderers.jpg') %>) at GFR HQ this week. One of the other benefits of not being flat-out on a project is that we get to leave our desks and take part in some extra-curricular fun.
 
 This week, all of [GFR](/) descended on [Ruby Biz UK](http://lanyrd.com/2012/rubybizuk-march/), which is basically a coffee-morning version of the post-[LRUG](http://lrug.org) pub. I've been to quite a few of these, and I enjoy the slightly different perspective; it's often useful to speak to other people working in or running development companies to remind me why [we](/) work the way we do.
 
@@ -36,7 +36,7 @@ After five months of using the crappy chairs we inherited from the previous tena
 
 Oh, and we also got a conference table, so we are now "110%" more ready to "touch base". That's right.
 
-(Actually, it's so [Tom Stuart](http://experthuman.com) and [Ben](http://techbelly.com) don't need to [work off an ironing board](/images/blog/tom-stuarts-desk.jpg) when it gets busy).
+(Actually, it's so [Tom Stuart](http://experthuman.com) and [Ben](http://techbelly.com) don't need to [work off an ironing board](<%= image_path('blog/tom-stuarts-desk.jpg') %>) when it gets busy).
 
 
 To LLP, or not to LLP

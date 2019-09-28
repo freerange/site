@@ -70,7 +70,7 @@ A few people have asked about using them to print documents, or whether or not w
 
 Maybe it's only when you've actually held some of the diminutive content in your hand, played with it, that you really understand what the point is:
 
-[![This is not a printer](/images/blog/this-is-not-a-printer-small.jpg)](/images/blog/this-is-not-a-printer.jpg)
+[<%= image_tag('blog/this-is-not-a-printer-small.jpg', alt: 'This is not a printer') %>](<%= image_path('blog/this-is-not-a-printer.jpg') %>)
 
 That they are printers is **not** interesting. **It's what they *produce* that is interesting**. Small bits of personalised content that you can easily hold in one hand, or fold into a pocket or wallet or notebook.
 
@@ -85,7 +85,7 @@ It's **all about the format and the content**.
 
 One side effect of the buzz around BERG's announcement -- positive or otherwise -- is that our own project got a bit of a boost. Here's some analytics information reflecting the number of visitors to this site recently:
 
-![Printer traffic](/images/blog/printer-traffic.png)
+<%= image_tag('blog/printer-traffic.png', alt: 'Printer traffic') %>
 
 We haven't really decided what we're going to do with [Printer][gfr-printer] yet[^printer-plans], but for the moment it still makes a great open-source alternative. I have plenty more that I'd like to do with it; it's just a case of finding the time.
 

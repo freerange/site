@@ -46,7 +46,7 @@ We often use group Skype calls to stay in touch, but we've found the audio quali
 
 We have other ideas on how we might improve our remote working, but it feels good to have made a start.
 
-<a href="http://rubymanor.org/4/" title="Ruby Manor 4.0"><img src="/images/blog/ruby-manor-4.0.jpg" width="100%" alt="Ruby Manor 4.0"></a>
+<a href="http://rubymanor.org/4/" title="Ruby Manor 4.0"><img src="<%= image_path('blog/ruby-manor-4.0.jpg') %>" width="100%" alt="Ruby Manor 4.0"></a>
 
 ## Ruby Manor
 

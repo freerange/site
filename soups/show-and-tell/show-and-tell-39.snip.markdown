@@ -11,7 +11,7 @@ Show and Tell 39
 
 ## RSpec's Verifying Doubles
 
-![Tom talking about Verifying Doubles](/images/blog/2017-12-13-show-and-tell-39-tom-s.jpg)
+<%= image_tag('blog/2017-12-13-show-and-tell-39-tom-s.jpg', alt: 'Tom talking about Verifying Doubles') %>
 
 Tom explained how he updated the [FutureLearn][futurelearn] tests to use [RSpec's Verifying Doubles][rspec-verifying-doubles] after a recent upgrade to RSpec 3. Verifying Doubles are similar to standard doubles but with the added benefit of verifying that the stubbed methods exist on the object they're being stubbed on.
 
@@ -32,7 +32,7 @@ The discussion reminded James M of [OO-Matron][oo-matron] by Nat Pryce, although
 
 ## Teaching 3D
 
-![Ben talking about 3D rendering](/images/blog/2017-12-13-show-and-tell-39-ben-g.jpg)
+<%= image_tag('blog/2017-12-13-show-and-tell-39-ben-g.jpg', alt: 'Ben talking about 3D rendering') %>
 
 Ben spoke about an alternative way of teaching people about 3D modelling. Unfortunately, because the event was 6 months ago and because of my lack of subject knowledge, my notes no longer make any sense to me and so I'm not going to be able to do this any justice. Sorry, Ben!
 

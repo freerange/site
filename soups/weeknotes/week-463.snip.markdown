@@ -9,7 +9,7 @@ I enjoyed catching up with people I knew as well as meeting quite a few folks I'
 
 We're hoping to write about the event in a bit more detail so I'll conclude for now with a photo that illustrates just how tiring networking can be :-)
 
-![Networking is tiring](/images/blog/2017-11-30-networking-is-tiring.jpg)
+<%= image_tag('blog/2017-11-30-networking-is-tiring.jpg', alt: 'Networking is tiring') %>
 
 We finished the week working at The Office Group on Old Street. We don't spend much time in the area anymore so I enjoyed the visit. We ate lunch in one of the cafes we used to visit regularly and headed to one of our old locals for a couple of pints after work.
 

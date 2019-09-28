@@ -20,7 +20,7 @@ We were due to start some work with [Outlandish][outlandish] this week but it ha
 
 We celebrated stickering over 1000 laptops by dog-fooding [Mission Patch][mission-patch] and printing our own stickers :-)
 
-![Over 1000 laptops stickered!](/images/blog/1000-laptops-stickered.png)
+<%= image_tag('blog/1000-laptops-stickered.png', alt: 'Over 1000 laptops stickered!') %>
 
 We met someone to chat about [PPC advertising][ppc] for Mission Patch: we're interested in learning how to reach more of the same sort of people that have already made and purchased stickers. He had lots of useful suggestions and we came away with a number of things to try. Interestingly PPC is quite far down that list.
 

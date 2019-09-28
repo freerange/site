@@ -5,7 +5,7 @@ Tom is a software developer passionate about building and improving the web. Tho
 You can see some of the code he's written on [Github](http://github.com/tomafro).
 
 :site: tomafro.net
-:image: images/people/tom-ward.jpg
+:image: people/tom-ward.jpg
 :twitter: tomafro
 
 :created_at: 2009-11-10 16:01:33 +0000

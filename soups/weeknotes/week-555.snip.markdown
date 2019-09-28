@@ -19,7 +19,7 @@ The Audience Agency project has so far involved creating a new Rails 6 app, gett
 
 Ben created us a new Mission Patch sticker to celebrate our 100th order :-)
 
-![Mission Patch celebrating 100th Mission Patch order](/images/blog/2019-09-09-mission-patch-100.png)
+<%= image_tag('blog/2019-09-09-mission-patch-100.png', alt: 'Mission Patch celebrating 100th Mission Patch order') %>
 
 That's about it for now. Until next time.
 

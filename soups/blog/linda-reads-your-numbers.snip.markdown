@@ -28,7 +28,7 @@ Go forth and [set up your contacts][linda] so that you too can get Linda to read
 [previous]: /say-hello-to-timmy-printface
 [SIP]: http://en.wikipedia.org/wiki/Session_Initiation_Protocol
 
-[linda-screenshot]: /images/blog/linda-reads-numbers-screen.png
+[linda-screenshot]: <%= image_path('blog/linda-reads-numbers-screen.png') %>
 
 :render_as: Blog
 :kind: blog

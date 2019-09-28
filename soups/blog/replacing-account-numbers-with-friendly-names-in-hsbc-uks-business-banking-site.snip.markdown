@@ -3,11 +3,11 @@ Replacing account numbers with friendly names in HSBC UK's business banking site
 
 We've recently opened a second HSBC Business Money Manager account in order to maintain separate pots of money for different liabilities that we want to track. Unfortunately, this has left us with two (well, three really) very similar looking accounts in the banking interface.
 
-![Screenshot showing HSBC business banking with account numbers](/images/blog/hsbc-with-unfriendly-account-numbers.png)
+<%= image_tag('blog/hsbc-with-unfriendly-account-numbers.png', alt: 'Screenshot showing HSBC business banking with account numbers') %>
 
 I don't think we had an opportunity to choose the name of the account, and I can't find any functionality to rename it now, so resorted to playing with JavaScript to get what I was after. The result is that we can now display friendly account names making it easy to choose which account to select at a glance.
 
-![Screenshot showing HSBC business banking with friendly account names](/images/blog/hsbc-with-friendly-account-names.png)
+<%= image_tag('blog/hsbc-with-friendly-account-names.png', alt: 'Screenshot showing HSBC business banking with friendly account names') %>
 
 This might seem a bit gimmicky but I think it's good to remember that the web offers us this ability to customise our experience of the sites we interact with.
 

@@ -11,7 +11,7 @@ Working remotely is a four dimensional problem, so first let's consider the firs
 
 Working from Aberdeen is only marginally different from working from home; it's just a question of geography.
 
-<img width="100%" alt="Snowy aberdeen station platform" src="images/blog/welcome-to-aberdeen.jpg" title="Warm greetings from Aberdeen" />
+<img width="100%" alt="Snowy aberdeen station platform" src="<%= image_path('blog/welcome-to-aberdeen.jpg') %>" title="Warm greetings from Aberdeen" />
 
 In case you've never had the pleasure of doing so, allow me to outline the principle benefits of working out of the office:
 
@@ -37,7 +37,7 @@ You also miss out on any of the spontaneous conversations that might happen in t
 
 [James M][] already knows all about this; not living in London, he's worked remotely on a reasonably regular basis for years now.
 
-<img alt="Multi-way Skype video-conference" width="100%" src="/images/blog/skype.png" title="Keep talking" />
+<img alt="Multi-way Skype video-conference" width="100%" src="<%= image_path('blog/skype.png') %>" title="Keep talking" />
 
 I'm sure that pair programming (among other things) helps the remote worker feel a bit more connected to the rest of the company, but it's not a rich conduit for all the other communication that might be going on, from ambient glances[^glancing] to actual in-depth discussions.
 
@@ -61,7 +61,7 @@ When I'm in Austin, I start work just as you are wiping the afternoon tea's clot
 
 In many ways this situation is similar to remote working from the same timezone, with each challenge only slightly magnified. Communication is harder because now it's _actually very likely_ that nobody is around. The temptation to slack off is easier to indulge because, similarly, there's nobody even in the group chat to notice that you're not working. The kitchen is even more tempting because the food in Austin is _freaking delicious_!
 
-<img width="100%" alt="Girl walking along sunny woodland path" src="images/blog/a-january-stroll.jpg" title="A January stroll in Summer clothing" />
+<img width="100%" alt="Girl walking along sunny woodland path" src="<%= image_path('blog/a-january-stroll.jpg') %>" title="A January stroll in Summer clothing" />
 
 And it was 23&deg; in January. At the _start_ of January. Try sitting in front of a laptop while that meteorological paradox plays out on your outside deck.
 

@@ -5,7 +5,7 @@ Show and Tell 25
 
 We hired the same meeting room at [Forge & Co][forge-and-co] given that it seemed to work well last month.
 
-![Show & Tell 25 at Forge & Co](/images/blog/2016-10-12-show-and-tell-25-group.jpg)
+<%= image_tag('blog/2016-10-12-show-and-tell-25-group.jpg', alt: 'Show & Tell 25 at Forge & Co') %>
 
 Credit goes to Tom S for taking some photos during the evening. Thanks, Tom!
 
@@ -20,7 +20,7 @@ Credit goes to Tom S for taking some photos during the evening. Thanks, Tom!
 
 ## Disney Infinity
 
-![Ben at Show & Tell 25](/images/blog/2016-10-12-show-and-tell-25-ben.jpg)
+<%= image_tag('blog/2016-10-12-show-and-tell-25-ben.jpg', alt: 'Ben at Show & Tell 25') %>
 
 Ben G started the evening by talking about reverse engineering the [Disney Infinity portal][disney-infinity]. Having been recently discontinued Ben wondered whether he could repurpose it for other things. Being off work with a bad back (and while high on painkillers) gave him the perfect opportunity to start exploring the device.
 
@@ -41,7 +41,7 @@ Ben's now wondering what else he can do to build on these foundations. Any ideas
 
 ## Mocha and the showstopper Ruby bug
 
-![James at Show & Tell 25](/images/blog/2016-10-12-show-and-tell-25-james.jpg)
+<%= image_tag('blog/2016-10-12-show-and-tell-25-james.jpg', alt: 'James at Show & Tell 25') %>
 
 James M used the whiteboard to explain how a change in the recent [1.2 release of Mocha][mocha-1-2] led to the discovery of a "showstopper" bug in Ruby.
 
@@ -57,7 +57,7 @@ In potentially positive news, while discussing the problem, we realised that it 
 
 ## Houseboat renovation
 
-![Chris at Show & Tell 25](/images/blog/2016-10-12-show-and-tell-25-chris.jpg)
+<%= image_tag('blog/2016-10-12-show-and-tell-25-chris.jpg', alt: 'Chris at Show & Tell 25') %>
 
 I spoke about some of the houseboat renovations I've been doing. We bought a houseboat about 8 weeks ago and have slowly been learning about all the work it needs. It's become somewhat all consuming so I figured I'd share a bit about what I've been up to and what I've learnt along the way.
 
@@ -65,7 +65,7 @@ I spoke about some of the houseboat renovations I've been doing. We bought a hou
 
 ## Improving Wikipedia
 
-![Edward at Show & Tell 25](/images/blog/2016-10-12-show-and-tell-25-edward.jpg)
+<%= image_tag('blog/2016-10-12-show-and-tell-25-edward.jpg', alt: 'Edward at Show & Tell 25') %>
 
 Edward started by demonstrating [Find link][find-link]: a tool he's built to help identify text in Wikipedia articles that should be linked.
 
@@ -100,7 +100,7 @@ Edward has written software that allows him to find matches between OSM places a
 
 ## Managing dotfiles
 
-![Pablo at Show & Tell 25](/images/blog/2016-10-12-show-and-tell-25-pablo.jpg)
+<%= image_tag('blog/2016-10-12-show-and-tell-25-pablo.jpg', alt: 'Pablo at Show & Tell 25') %>
 
 Pablo wanted to do a clean install of OS X on his laptop but didn't want to have to spend ages trying to remember/learn what he needed to install to get it all back up and running.
 

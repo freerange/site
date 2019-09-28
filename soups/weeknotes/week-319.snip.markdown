@@ -49,7 +49,7 @@ I discovered a [few more software options][rtl-sdr-software] and decided to give
 
 Chris sensibly suggested that I try to receive a more well-known/stronger signal to check the hardware & software was working. After a lot of fiddling with the receiver settings, I eventually managed to tune in to [BBC Radio 1][]...
 
-<img src="/images/blog/2015-02-27-gqrx-bbc-radio-1.png" style="width: 100%" alt="Screenshot of GQRX tuned to BBC Radio 1" />
+<img src="<%= image_path('blog/2015-02-27-gqrx-bbc-radio-1.png') %>" style="width: 100%" alt="Screenshot of GQRX tuned to BBC Radio 1" />
 
 The audio quality was pretty decent, although the level on this recording is a bit on the low side...
 

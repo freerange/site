@@ -7,7 +7,7 @@ Show and Tell 28
 
 [Chris R][chris-roos] and I were joined by [Ben G][ben-griffiths], [Chris L][chris-lowis], [Pablo][pablo-manrubia], [Murray][murray-steele], [Matt][matt-wynne], [Rob C][rob-chatley] and [Tom S][tom-stuart] for our 28th Show & Tell.
 
-![Show & Tell 28 Panorama](/images/blog/2017-01-14-show-and-tell-28-panorama.jpg)
+<%= image_tag('blog/2017-01-14-show-and-tell-28-panorama.jpg', alt: 'Show & Tell 28 Panorama') %>
 
 [attending-io-show-and-tell-28]: https://attending.io/events/gfr-show-and-tell-28/
 [chris-roos]: /chris-roos
@@ -22,7 +22,7 @@ Show and Tell 28
 
 ## James M - GFR Video
 
-![James M showing GFR Video](/images/blog/2017-01-14-show-and-tell-28-james-m-gfr-video.jpg)
+<%= image_tag('blog/2017-01-14-show-and-tell-28-james-m-gfr-video.jpg', alt: 'James M showing GFR Video') %>
 
 This is [a project][gfr-video] we built some time ago based on our experiences [helping FutureLearn with their video solution][futurelearn-video]. It's still fully operational, but incurring some ongoing maintenance & hosting costs, so we've been wondering what to do with it.
 
@@ -39,7 +39,7 @@ I then went on to explain some possible next steps for the project (e.g. selling
 
 ## Tom S - Learning React
 
-![Tom S talking about React](/images/blog/2017-01-14-show-and-tell-28-tom-s-learning-react.jpg)
+<%= image_tag('blog/2017-01-14-show-and-tell-28-tom-s-learning-react.jpg', alt: 'Tom S talking about React') %>
 
 Tom talked about his experience of running a "Learning React" workshop at [FutureLearn][]. He thinks that [React][] contains a couple of really great ideas, but also a load of incidental complexity. The aim of the workshop was to explain and demonstrate those great ideas.
 
@@ -61,7 +61,7 @@ At the end of the workshop the idea was to replace the real React with the fake 
 
 ## Matt W - Cucumber Pro
 
-![Matt W talking about Cucumber Pro](/images/blog/2017-01-14-show-and-tell-28-matt-w-talking-about-cucumber-pro.jpg)
+<%= image_tag('blog/2017-01-14-show-and-tell-28-matt-w-talking-about-cucumber-pro.jpg', alt: 'Matt W talking about Cucumber Pro') %>
 
 Matt was an early contributor to the open-source version of [Cucumber][] in collaboration with [Aslak Hellesøy][]. The two of them then co-wrote [The Cucumber Book][] and along with a few others started doing Cucumber-related training & consultancy, forming [Cucumber Ltd][] in 2013.
 
@@ -105,7 +105,7 @@ The conversation also reminded James of an open-source alternative called [Hugin
 
 ### GitHub commit order
 
-![Chris R talking about GitHub commit ordering](/images/blog/2017-01-14-show-and-tell-28-chris-r-talking-about-github-commit-ordering.jpg)
+<%= image_tag('blog/2017-01-14-show-and-tell-28-chris-r-talking-about-github-commit-ordering.jpg', alt: 'Chris R talking about GitHub commit ordering') %>
 
 Chris demonstrated how GitHub sometimes [displays commits in the wrong order][github-wrong-order]. This can be very frustrating for someone reviewing a pull request with a carefully curated series of commits which appear in the wrong order.
 
@@ -118,7 +118,7 @@ Chris tried a few experiments in re-writing git history and force-pushing to Git
 
 ## Chris L - Web Audio Weekly
 
-![Chris L talking about Web Audio Weekly](/images/blog/2017-01-14-show-and-tell-28-chris-l-talking-about-web-audio-weekly.jpg)
+<%= image_tag('blog/2017-01-14-show-and-tell-28-chris-l-talking-about-web-audio-weekly.jpg', alt: 'Chris L talking about Web Audio Weekly') %>
 
 Chris produces this email newsletter for all things associated with the [Web Audio API][]. He's been using [TinyLetter][] to send the newsletter, but he's been hosting the archives on his [personal website][chris-lowis]. He has an impressive 1,500 subscribers and runs a [public Slack channel][web-audio-slack] with nearly 300 members using [Slackin][].
 

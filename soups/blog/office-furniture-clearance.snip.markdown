@@ -21,7 +21,7 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 * Dimensions (mm): 1806h x 914w x 457d
 * They're currently [selling on Amazon for £264][Bisley A722W00 on Amazon]
 
-<img src="/images/blog/office-furniture/lockable-cupboard.jpg" width="100%" alt="Bisley two door cupboard">
+<img src="<%= image_path('blog/office-furniture/lockable-cupboard.jpg') %>" width="100%" alt="Bisley two door cupboard">
 
 
 ## 2 x unbranded lockable filing cabinets
@@ -29,7 +29,7 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 * Dimensions (cm): 132h x 47.5w x 62.5d
 * 4 drawers
 
-<img src="/images/blog/office-furniture/filing-cabinet.jpg" width="100%" alt="Lockable filing cabinets">
+<img src="<%= image_path('blog/office-furniture/filing-cabinet.jpg') %>" width="100%" alt="Lockable filing cabinets">
 
 
 ## 2 x Triumph multi-drawer units
@@ -38,12 +38,12 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 * 12 drawers
 * [Triumph no longer appear to make a 12-drawer version][Triumph multi-drawers]
 
-<img src="/images/blog/office-furniture/lockable-drawers.jpg" width="100%" alt="Triumph multi-drawer units">
+<img src="<%= image_path('blog/office-furniture/lockable-drawers.jpg') %>" width="100%" alt="Triumph multi-drawer units">
 
 
 ## 5 x Office Deluxe letter trays
 
-<img src="/images/blog/office-furniture/letter-trays.jpg" width="100%" alt="Office Deluxe letter trays">
+<img src="<%= image_path('blog/office-furniture/letter-trays.jpg') %>" width="100%" alt="Office Deluxe letter trays">
 
 
 [Bisley A722W00]: http://www.bisley.co.uk/products/1722

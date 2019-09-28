@@ -6,7 +6,7 @@ An early career spent using Visual Basic 6 left him searching for something bett
 [james-mead]: /james-mead
 
 :site: chrisroos.co.uk
-:image: images/people/chris-roos.jpg
+:image: people/chris-roos.jpg
 
 :created_at: 2010-09-14 15:42:36 +0100
 :created_sha: 89101c929e32a32310bca3d5304078bc60cd6c4a

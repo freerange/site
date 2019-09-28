@@ -14,7 +14,7 @@ Show and Tell 41
 
 ## Line-us
 
-![Tom with a Hilbert Curve](/images/blog/2018-02-23-show-and-tell-41-tom-s-hilbert-curve.jpg)
+<%= image_tag('blog/2018-02-23-show-and-tell-41-tom-s-hilbert-curve.jpg', alt: 'Tom with a Hilbert Curve') %>
 
 Tom S showed us his little [Line-us][line-us] drawing robot that he recently received after backing the [product Kickstarter][line-us-kickstarter].
 
@@ -36,7 +36,7 @@ I'm not sure I can necessarily think of a reason to own a Line-us but I was neve
 
 ## Multiplayer crosswords
 
-![Chris Z demonstrating his multiplayer crossword](/images/blog/2018-02-23-show-and-tell-41-chris-z-crossword.jpg)
+<%= image_tag('blog/2018-02-23-show-and-tell-41-chris-z-crossword.jpg', alt: 'Chris Z demonstrating his multiplayer crossword') %>
 
 Chris Z explained that he's been doing quite a few crosswords recently. Particularly on the Guardian. He often asks his partner for help with some of the clues and wondered whether it'd be possible to build something to allow them both to play at the same time.
 
@@ -73,7 +73,7 @@ James A explained the difficulty he's having in trying to reliably parse emails 
 
 ## Spacemacs
 
-![James A describing Spacemacs and magit](/images/blog/2018-02-23-show-and-tell-41-james-a-magit.jpg)
+<%= image_tag('blog/2018-02-23-show-and-tell-41-james-a-magit.jpg', alt: 'James A describing Spacemacs and magit') %>
 
 James A gave us a bit of an intro to [Spacemacs][spacemacs]. He's switched editors a few times over the years and this is the first time in a while that he's had some enthusiasm for one of them.
 
@@ -88,7 +88,7 @@ He demonstrated the [magit][magit] git package that provides git integration in 
 
 ## Karaoke
 
-![Bash showing his karaoke app](/images/blog/2018-02-23-show-and-tell-41-bash-karaoke.jpg)
+<%= image_tag('blog/2018-02-23-show-and-tell-41-bash-karaoke.jpg', alt: 'Bash showing his karaoke app') %>
 
 Bash showed us the React karaoke app he's building. It's similar in style to early versions of iTunes in that it allows you to filter by Era, Genre, Artist and Song to help find the music you're interested in. I'm not really up on the current state of karaoke but if it's still common practice to flick through a book of hundreds of songs then I can imagine this being much easier to use.
 

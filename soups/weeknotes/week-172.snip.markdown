@@ -17,7 +17,7 @@ What does GFR do?
 
 [Chris](/chris-roos) and [I](/james-adam) took a step back from [Recap][] on Thursday morning to roughly map out *what GFR has done*. Like, ever. We roughly categorised the fruit of our labours into five categories: products, apps, libraries, client work, and philosophy.
 
-![What does GFR do?](/images/blog/what-does-gfr-do.jpg)
+<%= image_tag('blog/what-does-gfr-do.jpg', alt: 'What does GFR do?') %>
 
 We weren't entirely sure that this would be interesting while we were actually doing it, but looking afterwards has definitely given us a sense of what things -- like the mechanics we use to run the company -- we might polish and make more available to the world.
 

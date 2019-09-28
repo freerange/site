@@ -3,7 +3,7 @@ Extreme Startup Game
 
 [Last week](/week-235) the four of us and some friends from [MakieLab](http://www.makieworld.com/) and beyond got together to play the [Extreme Startup Game](http://chatley.com/posts/05-27-2011/extreme-startup/), hosted by [Rob Chatley](http://chatley.com).
 
-![Ben & co from MakieLab](/images/blog/extreme-startup-1.jpg)
+<%= image_tag('blog/extreme-startup-1.jpg', alt: 'Ben & co from MakieLab') %>
 
 Split into pairs, we each had to write a bit of software that would respond to requests from Rob's central server in the form of simple but increasingly esoteric questions our software had to answer.
 
@@ -11,7 +11,7 @@ Split into pairs, we each had to write a bit of software that would respond to r
 
 For each answer our software got right, our team was awarded some points, and the more esoteric the question, the more points it was worth. However, for each answer we got wrong, failed to attempt, or returned an error for, we were deducted points. And thus the game goes, with points visible on a leaderboard throughout.
 
-![The leaderboard](/images/blog/extreme-startup-leaderboard.jpg)
+<%= image_tag('blog/extreme-startup-leaderboard.jpg', alt: 'The leaderboard') %>
 
 ## Strategy
 
@@ -25,7 +25,7 @@ One team chose to use [Sinatra](http://www.sinatrarb.com/) to build their softwa
 
 > I think one downside of our approach was that it never felt we had time to get any sort of product strategy together - which requests to concentrate on, etc. We also could definitely have made it further if we'd skipped testing some of the simplest answers...
 
-![Tom Stuart, Tom Ward and Chris Roos](/images/blog/extreme-startup-2.jpg)
+<%= image_tag('blog/extreme-startup-2.jpg', alt: 'Tom Stuart, Tom Ward and Chris Roos') %>
 
 Speaking for [Chris](/chris-roos) and [I](/james-adam), we definitely made a conscious effort to keep looking at our score and handling the most significant penalties first, and I think that was probably what largely contributed to our ultimate victory.
 

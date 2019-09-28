@@ -26,7 +26,7 @@ Ben mentioned the [DXW Security][dxw-security] site as a good resource for these
 
 ## OpenStreetMap
 
-![Chris Zetter describing his recent contribution to OpenStreetMap](/images/blog/2017-11-08-show-and-tell-38-chris-z-openstreetmap.jpg)
+<%= image_tag('blog/2017-11-08-show-and-tell-38-chris-z-openstreetmap.jpg', alt: 'Chris Zetter describing his recent contribution to OpenStreetMap') %>
 
 Chris Z talked us through a recent contribution he made to OpenStreetMap.
 
@@ -36,7 +36,7 @@ He'd noticed a new bridge near King's Cross - Somers Town Bridge - and thought i
 
 ## Kindle reading history
 
-![Ben demonstrating how to extract data from the Kindle Cloud Reader](/images/blog/2017-11-08-show-and-tell-38-ben-g-kindle-library.jpg)
+<%= image_tag('blog/2017-11-08-show-and-tell-38-ben-g-kindle-library.jpg', alt: 'Ben demonstrating how to extract data from the Kindle Cloud Reader') %>
 
 Ben's son reads lots of books on his Kindle and Ben wanted some way of visualising them. He set about investigating how to scrape the Kindle Cloud Reader to get the data about the books in his son's library. This turned out to be unnecessary because the Kindle Cloud Reader stores its data in a SQL database stored in the browser. This meant that extracting the data was as easy as using Safari's "copy table" functionality to generate a tab-separated file.
 
@@ -50,7 +50,7 @@ I've often wanted a way to visualise my reading history so I'm interested to see
 
 ## The tuzz automation tool
 
-![Chris P updating us on his zz automation tool](/images/blog/2017-11-08-show-and-tell-38-chris-p-zz-automation.jpg)
+<%= image_tag('blog/2017-11-08-show-and-tell-38-chris-p-zz-automation.jpg', alt: 'Chris P updating us on his zz automation tool') %>
 
 Chris P gave us a bit of an update on his [tuzz automation tool][tuzz-zz] he [demoed at Show and Tell 36][tuzz-show-and-tell-36]. He's continuing to work on the tool and is using it to provision his laptop(s).
 
@@ -64,7 +64,7 @@ Chris also highlighted the similarities with his [fortress project][tuzz-fortres
 
 ## Magic eye
 
-![Chris P explaining his magic eye solving software](/images/blog/2017-11-08-show-and-tell-38-chris-p-magic-eye.jpg)
+<%= image_tag('blog/2017-11-08-show-and-tell-38-chris-p-magic-eye.jpg', alt: 'Chris P explaining his magic eye solving software') %>
 
 Chris P showed us some [Magic Eye][tuzz-magic-eye] (autosterogram images) solving software that he'd written a few years ago.
 
@@ -76,7 +76,7 @@ I understand that Chris is interested in rewriting the software to make use of s
 
 ## Hough Transform
 
-![Ben G explaining the Hough transform](/images/blog/2017-11-08-show-and-tell-38-ben-g-hough-transform.jpg)
+<%= image_tag('blog/2017-11-08-show-and-tell-38-ben-g-hough-transform.jpg', alt: 'Ben G explaining the Hough transform') %>
 
 Chris's Magic Eye demo and discussion reminded Ben of his [Hough Transform blog post][beng-hough-transform-blog-post] work that [he explained in Show & Tell 27][beng-show-and-tell-27]. As above I'm afraid this also went over my head so I suggest reading Ben's blog post if you're interested in learning more.
 

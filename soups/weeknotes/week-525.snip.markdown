@@ -7,7 +7,7 @@ We started the week in Whitechapel and ended it in Blackfriars - where on Friday
 
 We're still a small enough company that 3 of us plus our entire office furniture can (just about) fit in the back of a black cab. Ben took the train and beat us there though! *shakes fist*.
 
-![James, Chris and Chris in the back of a cab](/images/blog/2019-02-08-black-cab.jpg)
+<%= image_tag('blog/2019-02-08-black-cab.jpg', alt: 'James, Chris and Chris in the back of a cab') %>
 
 We're starting work with 2 clients on Monday. Chris and I are spending the week with the [Business and Human Rights Resource Centre](https://www.business-humanrights.org/). We started working with them back in [week 489](/week-489) and since then we've had an ongoing agreement to work 1 day a month on their [Modern Slavery Registry](https://www.modernslaveryregistry.org/). This working pattern works fine for performing maintenance tasks, software upgrades and the like, but it hasn't been great for development of more significant features. We've decided to use up the remaining days we'd allocated to the project together with a few extra days so that we can spend the next week working with the team on some of their priorities.
 

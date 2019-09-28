@@ -14,7 +14,7 @@ I've been away and off sick for much of this week, but my doughty colleagues hav
 Amongst other things, Ben has made a foray into the world of Youtube using [OBS Studio][] to record himself using Elm to implement the Starship Takeoff game from the Computer Spacegames book [published by Usborne in the 1980s][usborne-computer-books]. I'm so impressed that he's able to write code and explain what he's doing at the same time. Unfortunately he hasn't yet published any of the videos, but watch this space!
 
 <p style="text-align: center">
-  <img alt="Computer Spacegames book" style="width: 50%" src="/images/blog/2019-03-22-computer-spacegames-book.png">
+  <img alt="Computer Spacegames book" style="width: 50%" src="<%= image_path('blog/2019-03-22-computer-spacegames-book.png') %>">
 </p>
 
 It's been great to see [Chris R][] get stuck into [Elm][] development this week ably assisted from time-to-time by Ben. He's been working through some tutorials for a little while, but recently he's started work on a new user interface feature for [Mission Patch][]. Indeed he had got it to the point where he was able to demonstrate it at our [Show & Tell][] event on Wednesday.
@@ -29,7 +29,7 @@ Over the week or so I've spent way too long trying to understand the byzantine r
 
 <p style="text-align: center; margin-bottom: -2.5em">
   <a href="https://mission-patch.com/?utm_source=web&utm_campaign=gfr" title="Buy me!">
-    <img alt="Mission Patch rocket example" style="width: 50%" src="/images/blog/mission-patch-rocket-example.png">
+    <img alt="Mission Patch rocket example" style="width: 50%" src="<%= image_path('blog/mission-patch-rocket-example.png') %>">
   </a>
 </p>
 

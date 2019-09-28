@@ -22,7 +22,7 @@ I explained how I'd used a simple [automated regression test][] to help me conve
 
 ## Sentient programming language
 
-![Chris P talking about his Sentient programming language](/images/blog/2017-08-09-show-and-tell-35-chrisp-sentient-language.jpg)
+<%= image_tag('blog/2017-08-09-show-and-tell-35-chrisp-sentient-language.jpg', alt: 'Chris P talking about his Sentient programming language') %>
 
 Chris P explained a bit about [Sentient][], an experimental declarative programming language which he's been developing. The Sentient website has some really nice examples, like [this one about generating a Magic Square][sentient-magic-square], which execute in the browser. He explained a bit about the following: Microsoft Research's [Z3 Theorem Prover][], [Propositional Logic][], [Klee][], [maze solving][], and finding bugs in programs.
 
@@ -36,7 +36,7 @@ Chris P explained a bit about [Sentient][], an experimental declarative programm
 
 ## Generating proofs programmatically
 
-![James C talking about his adventures with types ](/images/blog/2017-08-09-show-and-tell-35-jamesc-tapl.jpg)
+<%= image_tag('blog/2017-08-09-show-and-tell-35-jamesc-tapl.jpg', alt: 'James C talking about his adventures with types ') %>
 
 James C talked about some work he'd done inspired by [Types and Programming Languages][], the book which the members of the [London Computation Club][] are currently working their way through. In particular, in connection with chapter 9.2 "The Typing Relation", he's been writing [some Ruby code][infer-repo] to work out the type of an expression, but also to generate a proof of how it worked that out.
 
@@ -50,7 +50,7 @@ In his own words, he then realised he'd accidentally written a "crap" (Ruby) imp
 
 ## Chess sound track
 
-![Ben talking about our chess soundtrack project](/images/blog/2017-08-09-show-and-tell-35-ben-chess-soundtrack.jpg)
+<%= image_tag('blog/2017-08-09-show-and-tell-35-ben-chess-soundtrack.jpg', alt: 'Ben talking about our chess soundtrack project') %>
 
 Beng G gave us a quick reprise of the project Chris R, he & I worked on some time ago which [generates a sound track for a game of chess][chess-soundtrack].
 
@@ -59,11 +59,11 @@ Beng G gave us a quick reprise of the project Chris R, he & I worked on some tim
 
 ## Blender
 
-![Ian's rendering of a room using Blender](/images/blog/2017-08-09-show-and-tell-35-blender-room.png)
+<%= image_tag('blog/2017-08-09-show-and-tell-35-blender-room.png', alt: 'Ian's rendering of a room using Blender') %>
 
 Ian is (or was) in the process of buying a house and he showed us some impressive work he'd done with [Blender][] to generate detailed visualisations of how the inside of the property might look with some of his furniture and possessions. The thing I found particularly fascinating was the effort he'd put in to the detail of surfaces like [some net curtains][]!
 
-![Ian demonstrating how to use Blender](/images/blog/2017-08-09-show-and-tell-35-ian-blender-demo.jpg)
+<%= image_tag('blog/2017-08-09-show-and-tell-35-ian-blender-demo.jpg', alt: 'Ian demonstrating how to use Blender') %>
 
 He also revealed that he'd previously lectured on a Graphic Design course and had taught people to use Blender. He then proceeded to give us a quick off-the-cuff demo of how to use Blender to render a room with a window, explaining that Blender's user interface isn't very approachable, but the app is incredibly powerful.
 

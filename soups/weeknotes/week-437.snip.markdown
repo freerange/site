@@ -21,7 +21,7 @@ responsible for making sure it gets
 done. [Harmonia](https://harmonia.io) deals with the task allocation,
 and a page in our internal wiki explains how to complete the task.
 
-![A page from our business wiki](/images/blog/2017-06-02-business-wiki-screenshot.png)
+<%= image_tag('blog/2017-06-02-business-wiki-screenshot.png', alt: 'A page from our business wiki') %>
 
 When we take time off, as Chris did this week, we mark ourselves as
 "un-assignable" in Harmonia so that we can have an uninterrupted

@@ -7,7 +7,7 @@ James now focuses on his own projects, including [deBallet][], a social network 
 [deBallet]: http://deballet.com
 
 :site: jamesandre.ws
-:image: images/people/james-andrews.png
+:image: people/james-andrews.png
 :twitter: jamesandrews
 
 :created_at: 2009-11-10 16:01:33 +0000

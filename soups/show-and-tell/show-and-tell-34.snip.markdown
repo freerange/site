@@ -13,7 +13,7 @@ Show and Tell 34
 
 ## Hookline
 
-![Amy demoing the a Hookline product at Show & Tell 34](/images/blog/2017-07-12-show-and-tell-34-amy.jpg)
+<%= image_tag('blog/2017-07-12-show-and-tell-34-amy.jpg', alt: 'Amy demoing the a Hookline product at Show & Tell 34') %>
 
 Amy started the evening by demoing a new [Hookline][hookline] product they've been working on: an online shop allowing content creators (e.g. YouTubers) to purchase music from the Hookline library to accompany their videos.
 
@@ -32,7 +32,7 @@ They're currently looking for people to help test the service so if you're inter
 
 ## Toilet Occupancy
 
-![Ben G showing the infrared sensors at Show & Tell 34](/images/blog/2017-07-12-show-and-tell-34-ben-g.jpg)
+<%= image_tag('blog/2017-07-12-show-and-tell-34-ben-g.jpg', alt: 'Ben G showing the infrared sensors at Show & Tell 34') %>
 
 Ben's current place of work only has two toilets and they're at opposite ends of the office. The frustration of arriving at an occupied toilet and having to walk to the other end of the office has lead Ben to investigate ways of indicating whether a toilet is vacant.
 
@@ -71,7 +71,7 @@ I spent two minutes demoing the [Relive][relive] service/app. Connect it to your
 
 ## Engine Electronics
 
-![Chris R showing the simple dashboard for his boat](/images/blog/2017-07-12-show-and-tell-34-chris-r.jpg)
+<%= image_tag('blog/2017-07-12-show-and-tell-34-chris-r.jpg', alt: 'Chris R showing the simple dashboard for his boat') %>
 
 I spent a couple of minutes explaining how I'd wired the starter motor and glow plugs of my boat engine to a simple wooden dashboard.
 
@@ -96,7 +96,7 @@ Ben mentioned [AWS CodeStar][aws-codestar] which does everything I did but also 
 
 ## VPN
 
-![James M explaining his VPN set-up at Show & Tell 34](/images/blog/2017-07-12-show-and-tell-34-james-m.jpg)
+<%= image_tag('blog/2017-07-12-show-and-tell-34-james-m.jpg', alt: 'James M explaining his VPN set-up at Show & Tell 34') %>
 
 James explained how relatively cheap and easy it was to get his own VPN set-up. He rents a cheap server from [LiteServer][lite-server] and has installed OpenVPN using [docker-openvpn][docker-openvpn] and the related [tutorial from Digital Ocean][digital-ocean-openvpn-tutorial]. He connects using the open source [Tunnelblick][tunnelblick] client on his Mac.
 
@@ -127,7 +127,7 @@ Ben highlighted [dxwsecurity][dxw-security] as a useful resource for people host
 
 ## Magic Squares
 
-![Chris P explaining Magic Squares at Show & Tell 34](/images/blog/2017-07-12-show-and-tell-34-chris-p.jpg)
+<%= image_tag('blog/2017-07-12-show-and-tell-34-chris-p.jpg', alt: 'Chris P explaining Magic Squares at Show & Tell 34') %>
 
 Chris P introduced us to [Magic Squares][magic-squares]: square grids of numbers where each row, column and diagonal adds up to the same number (the magic sum).
 
@@ -188,7 +188,7 @@ Chris has also been searching for Alphamagic squares in other languages. He's al
 
 ## Geckoboard remote control
 
-![Leo demoing the Geckboard mobile "remote" at Show & Tell 34](/images/blog/2017-07-12-show-and-tell-34-leo.jpg)
+<%= image_tag('blog/2017-07-12-show-and-tell-34-leo.jpg', alt: 'Leo demoing the Geckboard mobile "remote" at Show & Tell 34') %>
 
 Leo demoed a prototype that he and three others built during a recent hack week at Geckoboard.
 

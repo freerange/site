@@ -33,7 +33,7 @@ And Neil Williams eloquently [explained its significance](http://digital.cabinet
 
 Although [Go Free Range](/) hasn't been so involved over the last few months of the project, Pete Herlihey's graph[^3] put the project as a whole into perspective for me. And I'm pleased to see that [James](/james-adam) & I are still up there on the [leaderboard](https://github.com/alphagov/whitehall/graphs/contributors) ;-)
 
-[![The Inside Government story in commits](/images/blog/inside-government-in-commits.jpg)](https://twitter.com/yahoo_pete/status/329633156330303488)
+[<%= image_tag('blog/inside-government-in-commits.jpg', alt: 'The Inside Government story in commits') %>](https://twitter.com/yahoo_pete/status/329633156330303488)
 
 The Inside Government project was definitely a great project to work on and a great team to work with. I think I can speak for the rest of GFR in saying that it's something we're really proud of.
 

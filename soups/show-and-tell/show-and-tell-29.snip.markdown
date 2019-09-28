@@ -17,7 +17,7 @@ Show and Tell 29
 
 ## Rob C - Test-driving performance
 
-![Rob Chatley talking about test-drivign performance of software](/images/blog/2017-02-08-show-and-tell-29-rob-chatley.jpg)
+<%= image_tag('blog/2017-02-08-show-and-tell-29-rob-chatley.jpg', alt: 'Rob Chatley talking about test-drivign performance of software') %>
 
 [Rob talked us through this idea][performance-testing-with-mocks] a couple of months ago. This time he had some code to show us. One of his students had modified jMock to make it possible to describe the performance characteristics of each mocked method, e.g. by chaining `responseTime(uniform(100, 200))` on the end of the expectation one can specify that the mocked method should take a random amount of time between 100ms and 200ms with the response times distributed uniformly within this range.
 
@@ -36,7 +36,7 @@ Ben mentioned that he has a problem with an application which is creating a lot 
 
 ## James - Raspberry Pi monitoring
 
-![James talking about analysing a temperature log](/images/blog/2017-02-08-show-and-tell-29-james-rpi-monitoring.jpg)
+<%= image_tag('blog/2017-02-08-show-and-tell-29-james-rpi-monitoring.jpg', alt: 'James talking about analysing a temperature log') %>
 
 I gave a quick update on the kit [I mentioned a couple of months back][rpi-monitoring] to monitor a vacant property. I've improved the dynamic DNS situation by changing providers - I'm now using changeip.org which seems to be a lot more reliable. I've also re-visited the property and opened up SSH access on the Raspberry Pi so I can now fix things if they go wrong.
 
@@ -52,7 +52,7 @@ I found some CSV data available online for the the local outside temperature and
 
 ## James - 3-port central heating valve
 
-![James talking about the 3-port central heating valve](/images/blog/2017-02-08-show-and-tell-29-james-3-port-valve.jpg)
+<%= image_tag('blog/2017-02-08-show-and-tell-29-james-3-port-valve.jpg', alt: 'James talking about the 3-port central heating valve') %>
 
 I waxed lyrical about [this amazing bit of engineering][midpositionvalve] which is used in many small houses across the country. I really like how the combination of a simple mechanical and electrical design provides some quite sophisticated emergent behaviour. If you're interested in learning more and you can bear the narrator's monotonous voice, [this video][how-3-port-valve-works-video] is quite good.
 
@@ -76,7 +76,7 @@ It was reassuring to hear that people didn't seem to think it was a completely c
 
 ## Amy - micro-licensing music for sync
 
-![Amy talking about micro-licensing music for sync](/images/blog/2017-02-08-show-and-tell-29-amy.jpg)
+<%= image_tag('blog/2017-02-08-show-and-tell-29-amy.jpg', alt: 'Amy talking about micro-licensing music for sync') %>
 
 [Hookline][] have a catalogue of music by independent artists which they license for [Sync][]. They're always looking for new ways to bring in revenue for their artists and they're currently investigating micro-licensing shorter edits of their artists' tracks for use on e.g. Youtube. It would be a bit like a high-quality stock image library, but for music. Part of the thinking is to bring in a steadier revenue stream, because while Sync deals for TV and advertising can be lucrative, they are also more unpredictable.
 
@@ -88,7 +88,7 @@ Amy was interested in feedback on the idea and on the best way to prototype it o
 
 ## Riccardo - Amazon Echo & Alexa
 
-![Riccardo talking about Amazon Echo & Alexa](/images/blog/2017-02-08-show-and-tell-29-riccardo.jpg)
+<%= image_tag('blog/2017-02-08-show-and-tell-29-riccardo.jpg', alt: 'Riccardo talking about Amazon Echo & Alexa') %>
 
 Riccardo explained that the [Echo][amazon-echo] is essentially a big speaker with a microphone, all connected to the internet. It uses the [Alexa Voice Service][] to respond to your questions and commands, e.g. buy an item from Amazon. He went on to explain that this functionality is provided by a set of built-in "skills", but it's possible to [build your own custom skills][alexa-skills-kit] and there's even a [marketplace][alexa-skills-marketplace] where you can buy or sell skills.
 
@@ -116,7 +116,7 @@ Finally, Ben then amused us all by telling us about the [Alexa dolls' house fias
 
 ## Ben - Board games
 
-![Ben talking about card & board games](/images/blog/2017-02-08-show-and-tell-29-ben.jpg)
+<%= image_tag('blog/2017-02-08-show-and-tell-29-ben.jpg', alt: 'Ben talking about card & board games') %>
 
 Ben has been playing lots of card and board games with his kids recently. He's discoverd a couple of things which make this a lot easier:
 

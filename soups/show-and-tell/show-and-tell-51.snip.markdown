@@ -7,7 +7,7 @@ On Wednesday we held our Show & Tell event at a new venue, the [Proper Office on
 
 [Chris Zetter](https://chriszetter.com/) was recently browsing Wikipedia and noticed that several pages have transport maps that are generated in a surprising way, such as this one of the [Glasgow subway system](https://en.wikipedia.org/wiki/Glasgow_Subway).
 
-![The Glasgow Subway](/images/blog/2019-01-17-glasgow-subway.png)
+<%= image_tag('blog/2019-01-17-glasgow-subway.png', alt: 'The Glasgow Subway') %>
 
 Digging into it Chris discovered that Wikipedia uses a system of icons called [BSicon](https://commons.wikimedia.org/wiki/BSicon) (the BS comes from the German for "railway lines" *Bahnstrecken*) to build these maps. There's a huge [catalogue](https://commons.wikimedia.org/wiki/BSicon/Catalogue) of these icons covering transport by rail, road and waterway.
 
@@ -19,7 +19,7 @@ His next approach was based on [Ben's](https://gofreerange.com/ben-griffiths) su
 
 The initial experiments were promising with a limited set of tiles. One of the challenges with applying this algorithm to tiled map generation is that each tile needs to be described in terms of the other tiles it can be adjacent to, which in the case of the full BSicon set is a huge number of possible combinations. Eventually Chris settled on a larger, limited but still interesting set of 20 or so icons. The [Route Map Maker](https://mapmaker.chriszetter.com/) artificially slows down the speed of the algorithm so you can see its progress.
 
-![An animation of Map Maker in action](/images/blog/2019-01-17-map-maker.gif)
+<%= image_tag('blog/2019-01-17-map-maker.gif', alt: 'An animation of Map Maker in action') %>
 
 ## Mission Patches
 
@@ -27,7 +27,7 @@ I spoke about a side project the Go Free Range team have been working on in the 
 
 Large teams with designers might be able to design and print something in-house, but we wanted to make it easier for teams of all sizes and skills to create something similar. We've built [mission-patch.com](https://mission-patch.com/) to make the process easier. The heart of the site is a reactive widget we built in [Elm](https://elm-lang.org/).
 
-![A screenshot of the Mission Patch designer](/images/blog/2019-01-17-mission-patch.png)
+<%= image_tag('blog/2019-01-17-mission-patch.png', alt: 'A screenshot of the Mission Patch designer') %>
 
 This was the first time I've used Elm and after a fairly steep initial learning curve I've started to really enjoy working with it. The constraints it places on how you [architecture an application](https://guide.elm-lang.org/architecture/) reminds me a bit of working with Ruby on Rails - there's a happy path and if you stick to it you can concentrate on your application instead of worrying about tooling and libraries.
 
@@ -41,13 +41,13 @@ We'd love some feedback on Mission Patch so please [give it a try](https://missi
 
 This program generated an initial seed image and then based on random mutations and the user's selections created new images. Ben implemented a version of this that mutated an image using various colour transformation functions from the [tesk9/palette](https://package.elm-lang.org/packages/tesk9/palette/latest/Color) Elm library.
 
-![Variations of colour schemes in Ben's biomorphs application](/images/blog/2019-01-17-mission-patch-biomorphs.png)
+<%= image_tag('blog/2019-01-17-mission-patch-biomorphs.png', alt: 'Variations of colour schemes in Ben's biomorphs application') %>
 
 ## Live-coding binary search in Kotlin
 
 [Dmitry Kandalov](https://github.com/dkandalov) is a developer at Springer Nature and works a lot with the [Kotlin programming language](https://kotlinlang.org/). Last year he gave some well-received [conference talks](https://www.youtube.com/watch?v=U-gdJQeOVAk) where he live-coded an application using Kotlin and the [Intellij editor](https://www.jetbrains.com/idea/). He's been working on some new live-coding videos and wanted to get some feedback.
 
-![Dmitry's screen while live coding](/images/blog/2019-01-17-dmitry-live-coding.jpeg)
+<%= image_tag('blog/2019-01-17-dmitry-live-coding.jpeg', alt: 'Dmitry's screen while live coding') %>
 
 Dmitry used test driven development to live-code an implementation of the [binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm). He's clearly put in a lot of practice as the session was slick, practically error-free and contained a ton of interesting tips and ideas. We talked a bit about who the intended audience are and what they might be looking to learn and then more generally about programming videos we enjoy watching for learning or, often, just entertainment. I'm really excited to see the final versions of these videos!
 
@@ -55,7 +55,7 @@ Dmitry used test driven development to live-code an implementation of the [binar
 
 [James](/james-mead) talked about Amazon's [Cloud Development Kit (AWS CDK)](https://github.com/awslabs/aws-cdk) that he's recently used on a couple of projects to define the [infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code). The CDK tool allows the infrastructure on AWS to be provisioned and configured based on the definition of a "stack" written in TypeScript.
 
-![An example of CDK code](/images/blog/2019-01-17-aws-sdk-code-sample.png)
+<%= image_tag('blog/2019-01-17-aws-sdk-code-sample.png', alt: 'An example of CDK code') %>
 
 This stack definition is then transformed to the YAML files needed by [CloudFormation](https://aws.amazon.com/cloudformation/). James explained the advantages of writing CDK code rather than editing YAML files directly. The [TypeScript](https://www.typescriptlang.org/) type-checker comes in really handy because it prevents you from, for example, passing the wrong option objects when configuring a particular service. The CDK language also has some higher-level constructs that help you to do the right thing, for example, when granting a user "read" permission to an S3 bucket in the AWS Console it's easy to forget that they will also need the "list" permission in order to be able to add files. The CDK has helper functions that do both of these things for you and are sensibly named.
 

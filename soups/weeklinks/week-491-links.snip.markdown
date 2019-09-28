@@ -1,7 +1,7 @@
 Week 491 - Interesting links
 ============================
 
-[![London Tech Week CoTech party](/images/blog/2018-06-13-london-tech-week-party-by-cotech.jpg)](https://attending.io/events/goodnight-disruption)
+[<%= image_tag('blog/2018-06-13-london-tech-week-party-by-cotech.jpg', alt: 'London Tech Week CoTech party') %>](https://attending.io/events/goodnight-disruption)
 
 ### [Goodnight Disruption: a Tech Week party by CoTech](https://londontechweek.com/event/goodnight-disruption-a-tech-week-party-by-cotech-innovation)
 
