@@ -9,7 +9,7 @@ At the beginning of the week, [Tom](/tom-ward) & [James A](/james-adam) were luc
 
 As James A [predicted](/week-199#inside-government-preparing-for-launch), the rest of the week saw an intense phase of data importing & cleanup. But we also had to finish off a number of gnarly features that required an in depth understanding of our deployment stack. Work to finish up essential tasks continued late into the night of Wednesday with help from our colleagues in the Ops team and reinforced by food ordered in by Pete.
 
-<a href="https://www.gov.uk/government"><img width="100%" src="<%= image_path('blog/manywebpages.jpeg') %>" alt="Welcome to Inside Government" title="Welcome to Inside Government" /></a>
+<a href="https://www.gov.uk/government"><img width="100%" src="<%= image_path('blog/manywebpages.jpg') %>" alt="Welcome to Inside Government" title="Welcome to Inside Government" /></a>
 
 After not much sleep, the team arrived in the office bright and (very) early on Thursday morning to be greeted with a tasty breakfast from the [Fleet River Bakery](http://fleetriverbakery.com/). Hawaiian shirts and flower garlands were out in force, but, despite this challenge to his unique pacific island sartorial proclivities, [Pete](https://twitter.com/yahoo_pete) remained unfazed.
 

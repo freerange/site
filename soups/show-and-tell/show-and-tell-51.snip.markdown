@@ -47,7 +47,7 @@ This program generated an initial seed image and then based on random mutations 
 
 [Dmitry Kandalov](https://github.com/dkandalov) is a developer at Springer Nature and works a lot with the [Kotlin programming language](https://kotlinlang.org/). Last year he gave some well-received [conference talks](https://www.youtube.com/watch?v=U-gdJQeOVAk) where he live-coded an application using Kotlin and the [Intellij editor](https://www.jetbrains.com/idea/). He's been working on some new live-coding videos and wanted to get some feedback.
 
-<%= image_tag('blog/2019-01-17-dmitry-live-coding.jpeg', alt: "Dmitry's screen while live coding") %>
+<%= image_tag('blog/2019-01-17-dmitry-live-coding.jpg', alt: "Dmitry's screen while live coding") %>
 
 Dmitry used test driven development to live-code an implementation of the [binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm). He's clearly put in a lot of practice as the session was slick, practically error-free and contained a ton of interesting tips and ideas. We talked a bit about who the intended audience are and what they might be looking to learn and then more generally about programming videos we enjoy watching for learning or, often, just entertainment. I'm really excited to see the final versions of these videos!
 
