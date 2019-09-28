@@ -26,7 +26,7 @@ This was definitely a work-in-progress and not a polished solution, but I was ke
 
 I'm keen to take this work a bit further and, for example, implement an [RSpec formatter][rspec-custom-formatters] to output sequence diagrams for specs.
 
-![James M - Sequence Diagram](/images/blog/2017-05-10-show-and-tell-32-james-m.jpg)
+<%= image_tag('blog/2017-05-10-show-and-tell-32-james-m.jpg', alt: 'James M - Sequence Diagram') %>
 
 [UML]: https://en.wikipedia.org/wiki/Unified_Modeling_Language
 [Sequence Diagram]: https://en.wikipedia.org/wiki/Sequence_diagram
@@ -61,7 +61,7 @@ He had then used an IFTTT applet to [write each Particle event to a Google Sprea
 
 Apparently the temperature sensor was accidentally hidden behind some furniture and was forgotten for some months. Ben discovered that the IFTTT applet had reached the maximum number of rows in a Google spreadsheet and had been forced to create several more spreadsheets!
 
-![Ben G - Temperature Logger](/images/blog/2017-05-10-show-and-tell-32-ben-g-particle.jpg)
+<%= image_tag('blog/2017-05-10-show-and-tell-32-ben-g-particle.jpg', alt: 'Ben G - Temperature Logger') %>
 
 [Particle Photon]: https://www.particle.io/products/hardware/photon-wifi-dev-kit
 [grove-temperature-sensor]: http://wiki.seeed.cc/Grove-Temperature_Sensor/
@@ -77,7 +77,7 @@ Next I asked Ben about a [tweet he'd sent about giving programming advice to his
 
 At one point Ben suggested his son could remove a line of code, but his son (correctly) said that removing it would break the program and followed that by saying "Is this really your job, Dad?"! Ben explained this by saying that his son can keep much more stuff in his head at one time than Ben can. I definitely know this feeling! Anyway, kudos to Ben for sharing this moment!
 
-![Ben G - Tutankhamun Quiz](/images/blog/2017-05-10-show-and-tell-32-ben-g-scratch.jpg)
+<%= image_tag('blog/2017-05-10-show-and-tell-32-ben-g-scratch.jpg', alt: 'Ben G - Tutankhamun Quiz') %>
 
 [beng-tweet-programming-advice]: https://twitter.com/beng/status/861316361657647105
 [Tutankhamun]: https://en.wikipedia.org/wiki/Tutankhamun
@@ -92,13 +92,13 @@ First Tom setup two of the [Trådfri][] wireless bulbs and showed us how to cont
 
 Next he showed us how you can use the gateway in conjunction with a wireless access point to control the bulbs individually from an app on your phone via the wireless network (no internet required). As well as turning the bulbs on/off and controlling their brightness, you can also control their colour temperature.
 
-![Tom S - Ikea Trådfri](/images/blog/2017-05-10-show-and-tell-32-tom-s-tradfri-1.jpg)
+<%= image_tag('blog/2017-05-10-show-and-tell-32-tom-s-tradfri-1.jpg', alt: 'Tom S - Ikea Trådfri') %>
 
 Apparently the gateway, dimmer and bulbs all communicate over a [Zigbee][] wireless network using the HTTP-like [CoAP][] protocol over UDP encrypted using [DTLS][]. Tom has written [a Ruby gem][tradfri-gem] to allow you to control the bulbs from a Ruby application. The gem talks to the gateway by shelling out to the `coap-client` program that comes with [`libcoap`][libcoap]. The gateway advertises itself with [DNS-SD][], so the gem can discover it automatically without you having to specify an IP address. To demonstrate the gem, he ran a script which looped through the bulbs randomly setting their brightness and colour temperature.
 
 Lastly, Tom explained that he had used his gem to integrate his Trådfri lighting system with a [HomeKit][] bridge (maybe [this one][homebridge]?) running on a Raspberry Pi. This allows him to set different lighting configurations triggered things like the time of day, a [geo-fence][], etc.
 
-![Tom S - Ikea Trådfri](/images/blog/2017-05-10-show-and-tell-32-tom-s-tradfri-2.jpg)
+<%= image_tag('blog/2017-05-10-show-and-tell-32-tom-s-tradfri-2.jpg', alt: 'Tom S - Ikea Trådfri') %>
 
 [Trådfri]: http://www.ikea.com/gb/en/products/lighting/smart-lighting/
 [trådfri-gateway]: http://www.ikea.com/gb/en/products/lighting/smart-lighting/tr%C3%A5dfri-gateway-white-art-20337807/

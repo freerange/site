@@ -15,7 +15,7 @@ There's been a fair amount of press coverage as a result of this event and here 
 
 We even made it [onto TechCrunch](http://techcrunch.com/2013/09/18/futurelearn-first-courses/)! And here's the "Hello Mum" shot from Wednesday's [BBC News at Six](http://www.bbc.co.uk/programmes/b03b3ylf)...
 
-<a title="BBC News at Six: Report by Rita Chakrabarti on the launch of FutureLearn." href="http://www.bbc.co.uk/programmes/b03b3ylf"><img width="100%" src="/images/blog/2013-09-19-bbc-news-at-six-futurelearn-press-launch-at-british-library.png" alt="Three-quarters of team GFR in the audience at the FutureLearn press launch at the British Library" /></a>
+<a title="BBC News at Six: Report by Rita Chakrabarti on the launch of FutureLearn." href="http://www.bbc.co.uk/programmes/b03b3ylf"><img width="100%" src="<%= image_path('blog/2013-09-19-bbc-news-at-six-futurelearn-press-launch-at-british-library.png') %>" alt="Three-quarters of team GFR in the audience at the FutureLearn press launch at the British Library" /></a>
 
 ### In other news
 

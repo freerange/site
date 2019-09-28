@@ -18,7 +18,7 @@ Rundown!
 
 What have the rest of the [Mighty Go Free Range](/) been doing?
 
-[<img alt="The view from GDS at Aviation House" width="100%" src="/images/blog/aviation-house.jpg" title="The view from GDS at Aviation House" />](/images/blog/aviation-house.jpg)
+[<%= image_tag('blog/aviation-house.jpg', alt: 'The view from GDS at Aviation House', width: '100%') %>](<%= image_path('blog/aviation-house.jpg') %>)
 
 [Jason][] has spent the week pulling together all the content and associations in [Whitehall][], and trying to bring some design sense to bear. He's also been blazing to yoga every day this week, and begins his personal pilgrimage up to Norfolk today. Oh, [this is his jam](http://thisismyjam.com/jasoncale).
 
@@ -36,7 +36,7 @@ Office Guest!
 
 One of the perks of having [our own space][office] is being able to have friends share it with us, and for the past few weeks we've had the very pleasant company of [Tom Stuart][] in the office.
 
-[<img alt="This one is actually a bit nicer than the real desk" width="100%" src="/images/blog/tom-stuarts-desk.jpg" title="This one is actually a bit nicer than the real desk" />](/images/blog/tom-stuarts-desk.jpg)
+[<%= image_tag('blog/tom-stuarts-desk.jpg', alt: 'This one is actually a bit nicer than the real desk', width: '100%') %>](<%= image_path('blog/tom-stuarts-desk.jpg') %>)
 
 I suspect he's been spending most of his time responding to fan mail and signed headshot requests off the back of his extremely-well-received [Programming With Nothing][] presentation[^lambda] at [Ru3y Manor][], but regardless it's been nice to have a new face around. He even offered to help me with a particularly annoying bug I was seeing one afternoon. What a nice chap.
 
@@ -50,7 +50,7 @@ What's next?
 
 So now you know all about our week, but as well as continuing our work with [GDS][], we've also been starting to think about what next year might hold for our little band of rebels (presuming we avoid [the apocalypse](http://en.wikipedia.org/wiki/2012_phenomenon)).
 
-[<img alt="GFR Christmas 2011 Lunch / Future Summit" width="100%" src="/images/blog/gfr-christmas-2011-lunch.jpg" title="GFR Christmas 2011 Lunch / Future Summit" />](/images/blog/gfr-christmas-2011-lunch.jpg)
+[<%= image_tag('blog/gfr-christmas-2011-lunch.jpg', alt: 'GFR Christmas 2011 Lunch / Future Summit', width: '100%') %>](<%= image_path('blog/gfr-christmas-2011-lunch.jpg') %>)
 
 In 2011 we've have the amazing opportunity to work on some pretty big projects ([#blue][], [gov.uk][]). One challenge that these big projects present is how consuming they can be; it's easy to let them soak up all of our attention. While we _love_ working with great clients on interesting projects, we also have other interests and it's important that we create space to explore and develop them. It's one of the main reasons [our company](/) exists and works the way it does.
 

@@ -47,7 +47,7 @@ This week we replaced a simple `cron` job with a more sophisticated "ticker" whi
 
 We've also been looking at that most thrilling of development chores: _authentication_. While in the past we've used tools like [Devise](https://github.com/plataformatec/devise), those experiences have not exactly been painless, so I took the opportunity to try out a few different approaches -- [Devise](https://github.com/plataformatec/devise), [Sorcery](https://github.com/NoamB/sorcery/wiki), [Rails' `has_secure_password`](http://railscasts.com/episodes/270-authentication-in-rails-3-1) and the new [Mozilla Persona](http://identity.mozilla.com/post/32395255498/announcing-the-first-beta-release-of-persona) -- in parallel branches, to get a more objective comparison[^2].
 
-![Complexity vs time in Rails authentication](/images/blog/devise-vs-custom.jpg)
+<%= image_tag('blog/devise-vs-custom.jpg', alt: 'Complexity vs time in Rails authentication') %>
 
 It turns out that it's *still* really hard to make an objective comparison about which approach is best for the application. In generally, **the more "sophisticated" the framework you use, the harder the _initial_ integration is**, but the question is this:
 

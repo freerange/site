@@ -16,7 +16,7 @@ Thanks go to Tom for the photos and to everyone for sharing the various things t
 
 ## Minecraft cartoons
 
-![Ben G showing us his Minecraft cartoon](/images/blog/2017-09-13-show-and-tell-36-ben-g-minecraft.jpg)
+<%= image_tag('blog/2017-09-13-show-and-tell-36-ben-g-minecraft.jpg', alt: 'Ben G showing us his Minecraft cartoon') %>
 
 As well as playing lots of [Minecraft][minecraft], Ben's son really enjoys watching cartoons set in Minecraft and was keen to make his own. Ben talked us through the making of the [Road Runner][road-runner] style cartoon they came up with.
 
@@ -40,7 +40,7 @@ I continue to be amazed by the size of the Minecraft ecosystem.
 
 ## Visualising Hindsight-ex
 
-![Chris P's visualisation of Ben's Hindsight-Ex project](/images/blog/2017-09-13-show-and-tell-36-chris-p-hindsight-ex.jpg)
+<%= image_tag('blog/2017-09-13-show-and-tell-36-chris-p-hindsight-ex.jpg', alt: 'Chris P's visualisation of Ben's Hindsight-Ex project') %>
 
 As a nice segue from Ben to Chris, Chris showed us the pull request he'd opened in Ben's [hindsight-ex][hindsight-ex] project that [Ben spoke about at LRUG on Monday][lrug-hindsight-ex].
 
@@ -56,7 +56,7 @@ I can imagine the addition of this graph really helping when trying to explain w
 
 ## Flags of the world
 
-![Chris P describes his Flags of the World app](/images/blog/2017-09-13-show-and-tell-36-chris-p-flags.jpg)
+<%= image_tag('blog/2017-09-13-show-and-tell-36-chris-p-flags.jpg', alt: 'Chris P describes his Flags of the World app') %>
 
 Chris showed us an iOS app he built with some friends a while back. It's a game that tests your ability to recognise, and in doing so aims to help you learn, the flags of the world. There are a number of levels that increase in difficulty: from simply choosing the colours in a known layout to choosing the layout and colours. As well as scoring your attempts you're also shown the answer you got right that most people get wrong, and the answer you got wrong that most people got right.
 
@@ -103,7 +103,7 @@ The idea of regularly throwing stuff away in order to force you to ensure you ke
 
 ## Docker for app development
 
-![James M explaining his upgrade to Sierra ](/images/blog/2017-09-13-show-and-tell-36-james-m-machine-provisioning.jpg)
+<%= image_tag('blog/2017-09-13-show-and-tell-36-james-m-machine-provisioning.jpg', alt: 'James M explaining his upgrade to Sierra ') %>
 
 James continued on a similar theme to Chris's machine automation.
 
@@ -128,7 +128,7 @@ Having spent time working with the [GDS Developer VM][gds-developer-vm] recently
 
 ## Limitations of `git log --follow`
 
-![James M's impressive command for interrogating git history ](/images/blog/2017-09-13-show-and-tell-36-james-m-git-log.jpg)
+<%= image_tag('blog/2017-09-13-show-and-tell-36-james-m-git-log.jpg', alt: 'James M's impressive command for interrogating git history ') %>
 
 While working on converting our website from [Jekyll][jekyll-rb] to [Rails][rails], James had a need to be able to follow git file history across renames in the repo. He ran into problems with `git log --follow` as its heuristic to determine whether a file has been renamed doesn't always work. James ended up constructing this [impressive looking command][gist-floehopper-git-history] to do what he wanted.
 
@@ -154,7 +154,7 @@ Ian mentioned [circuits.io][circuits-io]: an online tool for creating virtual ci
 
 ## Serverless computing
 
-![Rob giving us an overview of his Serverless Computing talk ](/images/blog/2017-09-13-show-and-tell-36-rob-c-serverless-computing.jpg)
+<%= image_tag('blog/2017-09-13-show-and-tell-36-rob-c-serverless-computing.jpg', alt: 'Rob giving us an overview of his Serverless Computing talk ') %>
 
 Rob wrapped up the evening by giving us a quick run through of a talk about Serverless Computing he'd recently given at the [Foundations of Software Engineering conference in Germany][fse-2017].
 

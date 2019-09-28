@@ -7,9 +7,9 @@ I logged into our [Linode][] VPS and attempted to follow [these instructions][ce
 
 The main outstanding issue was that `https://www.gofreerange.com` (i.e. the `www` sub-domain over SSL) resulted in an error in Firefox and Safari, although apparently not in Chrome.
 
-![SSL error in Firefox](/images/blog/2018-08-17-www.gofreerange.com-ssl-firefox.png)
+<%= image_tag('blog/2018-08-17-www.gofreerange.com-ssl-firefox.png', alt: 'SSL error in Firefox') %>
 
-![SSL error in Safari](/images/blog/2018-08-17-www.gofreerange.com-ssl-safari.png)
+<%= image_tag('blog/2018-08-17-www.gofreerange.com-ssl-safari.png', alt: 'SSL error in Safari') %>
 
 I belatedly realised that to fix this problem I'd need to generate and install a certificate for the `www` sub-domain. So having generated this new certificate, I setup an Apache virtual host for `www.gofreerange.com` listening on port 443, configured the certificate, and adjusted the redirect rules to give the following behaviour. See [this commit note][commit-b1de1398] for further details.
 
@@ -28,7 +28,7 @@ I also noticed that `certbot` seems to have installed a cron job into `/etc/cron
 
 Finally everything seemed to be working OK, so I updated our monitoring systems to point at the SSL-version of the URLs. And here it is in all its glory!
 
-![SSL certificate on gofreerange.com](/images/blog/2018-08-17-gofreerange.com-ssl.png)
+<%= image_tag('blog/2018-08-17-gofreerange.com-ssl.png', alt: 'SSL certificate on gofreerange.com') %>
 
 I hope that was useful!
 

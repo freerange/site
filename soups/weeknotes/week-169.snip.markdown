@@ -37,7 +37,7 @@ After spending the Easter weekend and most of last week [taking pictures and wri
 
 After a large amount of proof-reading help (thanks [Chris][], [James][James M], [Murray](http://www.h-lame.com) and everyone else), we tweeted about it on Thursday morning, and published the [blog post][hello-printer].
 
-![Some of the feedback via the printer](/images/blog/printer-wow.jpg)
+<%= image_tag('blog/printer-wow.jpg', alt: 'Some of the feedback via the printer') %>
 
 The response has been amazing. I was really concerned that people might not understand the purpose of the project, but all the feedback we've had has been overwhelmingly positive. Thanks to a [post on Hacker News](http://news.ycombinator.com/item?id=3831695), we had around five times as many people read the [project](/printer) and [blog post][hello-printer] pages as have ever visited our humble corner of the internet before:
 

@@ -16,7 +16,7 @@ Thanks to everyone for coming and thanks to Tom for taking the photos.
 
 ## Containers in Ruby
 
-![James explaining how to build a simple container in Ruby](/images/blog/2018-01-10-show-and-tell-40-james-m-containers.jpg)
+<%= image_tag('blog/2018-01-10-show-and-tell-40-james-m-containers.jpg', alt: 'James explaining how to build a simple container in Ruby') %>
 
 James walked us through using Ruby to create a simple [Docker][docker]-like container from scratch. Inspired by [Liz Rice's talk at Dockercon17][liz-rice-dockercon17], he's been working on his own [containers-from-scratch implementation in Ruby][james-mead-containers-from-scratch].
 
@@ -37,7 +37,7 @@ James's explanation really helped demystify "containers" for me. I certainly had
 
 ## House prices and school catchment areas
 
-![Rob explaining his school catchment area and property website](/images/blog/2018-01-10-show-and-tell-40-rob-m-school-catchment-areas.jpg)
+<%= image_tag('blog/2018-01-10-show-and-tell-40-rob-m-school-catchment-areas.jpg', alt: 'Rob explaining his school catchment area and property website') %>
 
 Rob demoed a project he worked on a few years back when he was a Latte Papa (Swedish term for stay-at-home Dad :-)). The arrival of Rob's first child meant he and his partner started thinking about schools and whether they'd need to move to increase the chances of their child getting in!
 
@@ -59,7 +59,7 @@ I thought it looked really polished and so I really hope Rob's able to find some
 
 ## CSS Shapes
 
-![Nicky walking through her talk about CSS Shapes](/images/blog/2018-01-10-show-and-tell-40-nicky-css-shapes.jpg)
+<%= image_tag('blog/2018-01-10-show-and-tell-40-nicky-css-shapes.jpg', alt: 'Nicky walking through her talk about CSS Shapes') %>
 
 Nicky ran through the very early skeleton of a talk she's preparing to give at Frontend London about [CSS Shapes][css-shapes-intro]; covering [`shape-outside`][mdn-shape-outside], `shape-inside` and [`clip-path`][mdn-clip-path].
 
@@ -79,7 +79,7 @@ I haven't really even used CSS for a year or more, let alone tried to keep up wi
 
 ## Machine learning
 
-![Chris describing the k-means clustering algorithm](/images/blog/2018-01-10-show-and-tell-40-chris-p-machine-learning.jpg)
+<%= image_tag('blog/2018-01-10-show-and-tell-40-chris-p-machine-learning.jpg', alt: 'Chris describing the k-means clustering algorithm') %>
 
 Chris P finished up by talking a bit about the [Coursera machine learning][coursera-machine-learning] course he's taking. He's enjoying the course and finds that the mix of videos, text and practical exercises works really well.
 
@@ -87,7 +87,7 @@ He's currently working through the section on "unsupervised learning" which, as 
 
 Chris left us with a teaser of a tool he's built to see whether he can teach a computer to learn the [12 days][tuzz-12-days] of Christmas song. This is, apparently, the only practical use he's come up with for the things he's been learning :-)
 
-![Chris demonstrating his 12 Days of Christmas machine learning tool](/images/blog/2018-01-10-show-and-tell-40-chris-p-12-days.jpg)
+<%= image_tag('blog/2018-01-10-show-and-tell-40-chris-p-12-days.jpg', alt: 'Chris demonstrating his 12 Days of Christmas machine learning tool') %>
 
 I continue to be fascinated and baffled by these things although it feels as though I'm _very_, _very_ slowly understanding some of it.
 

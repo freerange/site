@@ -20,7 +20,7 @@ Thanks go to Tom for the photos and to everyone for sharing the various things t
 
 [Chris][chris-roos] started with a quick demo of [Flight Radar 24](https://www.flightradar24.com/) a website he'd found that lets you track the real-time position of aircraft around the world. In particular Chris was struck by the [Project Loon](https://x.company/loon/) balloons at 60,000 feet above Puerto Rico [providing communication services](https://www.usatoday.com/story/tech/news/2017/10/08/googles-project-loon-gets-ok-use-balloons-revive-puerto-rico-cell-service/744106001/) in the wake of Hurricane Maria.
 
-![Alphabet's Project Loon balloons over Puerto Rico](/images/blog/project-loon-puerto-rico.png)
+<%= image_tag('blog/project-loon-puerto-rico.png', alt: 'Alphabet's Project Loon balloons over Puerto Rico') %>
 
 Chris and his partner Amy live on a 100 year old former Dutch tulip barge on the Thames. They've been making some fairly extensive changes to the boat including a recent extension to provide them more living space. With the major metal work completed Chris has been working on the inside of the boat including fitting some insulation between the hull and the cabin walls. Chris showed us some photos of the work so far and some curiosities he'd discovered - including some incredibly dense lead ballast material, and a faded number painted on the steel that may provide some clues as to the history of the boat.
 
@@ -34,7 +34,7 @@ Newcomer to Show and Tell [Chris Zetter][chris-zetter] showed us a side-project 
 
 Users of the system install add a Ruby gem to the project's Gemfile (Chris has this working with RSpec and Minitest so far) which sends data about the test suite to a central server. A web application then tabulates and graphs this data to allow you to understand it.
 
-![Chris demos his application](/images/blog/zetter-demo.jpg)
+<%= image_tag('blog/zetter-demo.jpg', alt: 'Chris demos his application') %>
 
 Chris talked a bit about what he plans to do next - including trialling the service with some real-world applications. We also had a discussion about one of Chris's key challenges - turning the data he is collecting into actionable insights. He mentioned that seeing those tests that occasionally fail has already been useful - it's a strong indicator of an intermittent test that could be improve or replaced. The working title of the project is URF - short for Useful, Fast, Reliable. Chris said he feels the data he already collects helps to identify slow and unreliable tests - but there's a lot of scope for collecting information that tells the user whether an individual test is useful.
 
@@ -46,7 +46,7 @@ Before [Ben][ben-griffiths] sold an old laptop he thought he'd better have a loo
 
 These projects were part of the system which allowed users of the website to design, and then have 3D-printed, their own customised doll.
 
-![An early Makie prototype doll](/images/blog/makie-doll.jpg)
+<%= image_tag('blog/makie-doll.jpg', alt: 'An early Makie prototype doll') %>
 
 The doll's face was a composite of more than 30 different models which each varied one parameter such as the size of the nose, the length of the ears, or the spacing between the eyes. By moving sliders on the web site users could blend between these different models to vary the face.
 
@@ -54,7 +54,7 @@ At the time Ben built the system, the support for Adobe Flash was starting to wa
 
 Ben then talked us through the pipeline that would take the user's parameters and apply them to the manufacturing model that generated the file sent to the 3D printer. Ben used [Blender](https://www.blender.org/) to show us one of these models including the parts not visible to users of the web interface - such as the fixings on the inside of the dolls head that would join it to the neck.
 
-![A Makie doll's head in 3D modelling program Blender](/images/blog/dolls-head-blender.jpg)
+<%= image_tag('blog/dolls-head-blender.jpg', alt: 'A Makie doll's head in 3D modelling program Blender') %>
 
 We had a brief discussion about the work we put into code for the companies that employee us and how we feel when [the companies are shuttered](https://techcrunch.com/2017/02/22/makielab-may-the-force-be-with-you/) and these projects are no longer available.
 

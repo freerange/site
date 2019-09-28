@@ -40,7 +40,7 @@ Not able to top that, I'll say cheerio for now. I hope y'all have a good weekend
 -- Chris
 
 [Francis]: http://www.francisdavey.co.uk/
-[gfr-sign-at-sw]: /images/blog/2015-04-17-gfr-sign-at-shoreditch-works.jpg
+[gfr-sign-at-sw]: <%= image_path('blog/2015-04-17-gfr-sign-at-shoreditch-works.jpg') %>
 [GFR Video]: https://video.gofreerange.com/about
 [my gist]: https://gist.github.com/chrisroos/8840a1d9c506236b57fb
 [sw-blog-gfr]: http://shoreditchworks.com/new-member-profile-go-free-range/

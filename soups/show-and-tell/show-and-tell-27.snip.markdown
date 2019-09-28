@@ -23,7 +23,7 @@ Notable in his absence was [Tom S][tom-stuart]; meaning that we were deprived of
 
 ## Chris R - OTP
 
-![Chris R at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-chris-r.jpg)
+<%= image_tag('blog/2016-12-14-show-and-tell-27-chris-r.jpg', alt: 'Chris R at Show & Tell 26') %>
 
 I presented my understanding of [one-time passwords][otp] (specifically the [HOTP][hotp] and [TOTP][totp] algorithms). I used a combination of a whiteboard and some Ruby code to demonstrate the simplicity of the algorithms and how they relate to each other. I'm hoping/planning to write about this in more detail soon.
 
@@ -35,7 +35,7 @@ I presented my understanding of [one-time passwords][otp] (specifically the [HOT
 
 ## James M - Raspberry Pi monitoring
 
-![James M at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-james-m.jpg)
+<%= image_tag('blog/2016-12-14-show-and-tell-27-james-m.jpg', alt: 'James M at Show & Tell 26') %>
 
 James described the process of configuring and using a [Raspberry Pi][raspberry-pi], a camera and a [temperature/humidity sensor][dht22] to monitor a vacant property.
 
@@ -69,7 +69,7 @@ James went on to show us the progress he's making on hacking the computer chess 
 
 ## Ben G - Chess
 
-![Ben G talking about chess at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-ben-g-chess.jpg)
+<%= image_tag('blog/2016-12-14-show-and-tell-27-ben-g-chess.jpg', alt: 'Ben G talking about chess at Show & Tell 26') %>
 
 Ben was going to talk about getting side-tracked while trying to write a blog post. But he got side-tracked and talked about chess instead. Well, at least for a minute anyway.
 
@@ -84,7 +84,7 @@ Ben continued the chess theme by showing us this [blog post about surprising mov
 
 ## Ben G - Blog posts and distractions
 
-![Ben G talking about Viewpoints Research Initiative at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-ben-g-nile.jpg)
+<%= image_tag('blog/2016-12-14-show-and-tell-27-ben-g-nile.jpg', alt: 'Ben G talking about Viewpoints Research Initiative at Show & Tell 26') %>
 
 Ben talked about a [blog post he wrote][hough-transform-beng] in order to help him understand the [Hough Transform][hough-transform]: the image recognition technique he's been using to try to recognise pieces on a chess board. He'd mostly finished writing the post when he started to investigate how to animate the illustrations he'd included to help explain the maths. This proved much harder than expected and resulted in a 6 week detour into the work of Alan Kay's [Viewpoints Research Institute][vpri].
 
@@ -105,7 +105,7 @@ I've not been able to find a canonical set of information about the STEPS projec
 
 ## Edward - Indexing books (+ chess)
 
-![Edward at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-edward.jpg)
+<%= image_tag('blog/2016-12-14-show-and-tell-27-edward.jpg', alt: 'Edward at Show & Tell 26') %>
 
 Edward showed us a recent project he's been working on to build a ["Google books for all the books I've read"][monograph].
 
@@ -129,7 +129,7 @@ Edward includes his Amazon affiliate link on the links to the books that appear 
 
 ## Rob C - Performance testing with mocks
 
-![Rob C at Show & Tell 26](/images/blog/2016-12-14-show-and-tell-27-rob-c.jpg)
+<%= image_tag('blog/2016-12-14-show-and-tell-27-rob-c.jpg', alt: 'Rob C at Show & Tell 26') %>
 
 Rob was interested in feedback on an idea he's been exploring about being able to test the performance of a system in a simulated environment.
 

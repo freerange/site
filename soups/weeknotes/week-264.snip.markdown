@@ -17,7 +17,7 @@ Having had a final meeting with FutureLearn on Friday, we ended the week at The 
 
 All that's left is to show you the [double rainbow](http://www.youtube.com/watch?v=OQSNhk5ICTI) that appeared outside while I've been writing these notes. Have great weeks y'all.
 
-![Double rainbow over Canary Wharf](/images/blog/2014-02-10-15-57-32-double rainbow.jpg)
+<%= image_tag('blog/2014-02-10-15-57-32-double rainbow.jpg', alt: 'Double rainbow over Canary Wharf') %>
 
 :render_as: Blog
 :kind: blog

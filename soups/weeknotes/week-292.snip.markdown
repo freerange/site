@@ -35,11 +35,11 @@ Thanks again for lending it to us, [Makie][]!
 
 ### Printing is go
 
-![3D printing](/images/blog/2014-08-21-3d-printing.jpg)
+<%= image_tag('blog/2014-08-21-3d-printing.jpg', alt: '3D printing') %>
 
 ### The finished article
 
-![The 3D printed finished article](/images/blog/2014-08-21-3d-printing-finished.jpg)
+<%= image_tag('blog/2014-08-21-3d-printing-finished.jpg', alt: 'The 3D printed finished article') %>
 
 ## Furniture
 

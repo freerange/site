@@ -22,7 +22,7 @@ Ben kicked things off by talking a bit more about [Snap!][snap]: the drag and dr
 
 Ben showed us some software he and his son had built to help with his son's homework. I seem to recall that the homework involved coming up with a number of sentences in the format of "\<proper noun> \<verb> \<determiner> \<noun>" (e.g. Ben carried that lift). They fed lists of proper nouns, verbs, determiners and nouns into their app and had a cartoon character display a random question and answer.
 
-![Ben shows us his son's homework program](/images/blog/2017-04-12-show-and-tell-31-ben-g.jpg)
+<%= image_tag('blog/2017-04-12-show-and-tell-31-ben-g.jpg', alt: 'Ben shows us his son's homework program') %>
 
 [pete-herlihy]: https://twitter.com/yahoo_pete
 [pete-o-tron]:  https://github.com/tomstuart/pete-o-tron
@@ -35,7 +35,7 @@ Ben showed us some software he and his son had built to help with his son's home
 
 Tom showed us some work he's been doing while reading the [Types and Programming Languages book][tapl] at [London Computation Club][london-computation-club].
 
-![Tom shows us the Types and Programming Languages book](/images/blog/2017-04-12-show-and-tell-31-tom-s.jpg)
+<%= image_tag('blog/2017-04-12-show-and-tell-31-tom-s.jpg', alt: 'Tom shows us the Types and Programming Languages book') %>
 
 Having read the book previously, he's using this second reading as an opportunity to approach it a bit differently. He's developing some [inference rules][tom-s-inference-rules] with the intention of being able to evaluate the languages in chapter 3 of the book. The README in the inference rules repo appears to be a good place to start if you want to learn more. Alternatively, I'm sure you'll be more than welcome at the London Computation Club meetings.
 
@@ -54,7 +54,7 @@ Leo showed us a tool he's been developing on and off since late 2016. He's exper
 
 Leo used his utility to visualise real-time memory access when running `top` and `sqlite`. It was interesting to see that the heap was accessed almost constantly while everything else remained relatively static. It also looked quite a bit like the disk defragmenter utility in Windows :-)
 
-![Leo shows us his tool for monitoring memory access](/images/blog/2017-04-12-show-and-tell-31-leo.jpg)
+<%= image_tag('blog/2017-04-12-show-and-tell-31-leo.jpg', alt: 'Leo shows us his tool for monitoring memory access') %>
 
 The OS doesn't provide the data required to build such a tool so Leo's using [Pintools][pintools] to (as I understand it) rewrite the binaries and inject code to record memory access. This data is then visualised using JavaScript. Leo pointed out that this act of instrumentation results in the binaries being quite a bit slower than their original counterparts.
 
@@ -79,7 +79,7 @@ Diggit analyses the history of a repository in order to provide automated Pull R
 * Highlighting that a method has been growing in size over time.
 * Highlighting that a file has increased in complexity over time.
 
-![Rob shows us Diggit](/images/blog/2017-04-12-show-and-tell-31-rob-c.jpg)
+<%= image_tag('blog/2017-04-12-show-and-tell-31-rob-c.jpg', alt: 'Rob shows us Diggit') %>
 
 I think the idea is for Diggit to be offered as a service so that multiple projects can make use of it. Rob mentioned that it had been optimised to be able to offer feedback on a PR within 10 minutes. I think this is based on some research from Facebook that suggests this is about the longest people are willing to wait before moving on to something else.
 

@@ -5,7 +5,7 @@ Show and Tell 26
 * Where: Forge and Co, 154-158 Shoreditch High St, London E1 6HU
 * Links: [attending.io][attending-io-show-and-tell-26]
 
-![Show & Tell 26 at Forge & Co](/images/blog/2016-11-09-show-and-tell-26-group.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-group.jpg', alt: 'Show & Tell 26 at Forge & Co') %>
 
 We had a full house for Show & Tell 26, including a couple of new faces. [Riccardo][riccardo-cambiassi] was joined by his colleagues from [100 Starlings][100-starlings]: [Alex][alex-stubbs] and Laslow (apologies if I've mis-spelled this!). It was good to see Alex having last seen him about 6 years ago when we worked at Headshift. We were also joined by [Ben G][ben-griffiths], [James A][james-adam], [Murray][murray-steele], [Pablo][pablo-manrubia], [Rob C][rob-chatley], [Tadas][tadas-tamosauskas] and [Tom S][tom-stuart].
 
@@ -24,7 +24,7 @@ We had a full house for Show & Tell 26, including a couple of new faces. [Riccar
 
 ### Tom S - Lambda calculus
 
-![Tom S at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-tom-s.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-tom-s.jpg', alt: 'Tom S at Show & Tell 26') %>
 
 Tom demoed the latest iteration of his tool to help people interact with and understand Lambda Calculus (see [Show & Tell 24][show-and-tell-24-lambda-calculus] for notes about the previous version). Based on feedback about the Ruby version (both from the London Computation Club and elsewhere) Tom has ported it to JavaScript and made an impressive looking web GUI.
 
@@ -41,7 +41,7 @@ I'm really impressed by Tom's perseverence with this particular problem and was 
 
 ### James A - Contagion
 
-![James A at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-james-a-science-museum-lates.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-james-a-science-museum-lates.jpg', alt: 'James A at Show & Tell 26') %>
 
 James A described his involvement in Contagion: a [Science Museum Lates][science-museum-lates] event in October.
 
@@ -59,7 +59,7 @@ James used a free QR code reader app to send information encoded within the QR c
 
 ### James A - Thermostat
 
-![James A at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-james-a-thermostat.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-james-a-thermostat.jpg', alt: 'James A at Show & Tell 26') %>
 
 Frustrated with having to leave his chair to adjust the heating, James has been exploring how to make his life easier by connecting his thermostat to a [Spark Core][spark-core]. The combination of the Wi-Fi enabled Spark Core and the [Particle Cloud API][particle-cloud-api] allowed James to build a simple webapp that allowed him to turn the heating on and off from the comfort of his chair. James was particularly impressed by the ease at which the Spark Core handles HTTP, particularly when contrasting it with the pain of trying to get an Arduino to deal with HTTP.
 
@@ -76,7 +76,7 @@ He finished up by showing us the next version of the app that allows him to set 
 
 ### Alex - Hardware time tracker
 
-![Alex at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-alex-s.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-alex-s.jpg', alt: 'Alex at Show & Tell 26') %>
 
 Alex talked about and showed us his [Espruino Pico][espruino-pico]. It sounds a bit similar to an Arduino or Raspberry Pi but comes with the [Espruino][espruino] JavaScript interpreter and a web based development environment. Alex sounds particularly interested in the soon-to-be-available [Puck.js][puck-js]. If I understood correctly, he's imagining making use of the built-in Magnetometer to build a time tracking app that works by rotating the Puck.js to point at a particular project.
 
@@ -88,9 +88,9 @@ Alex talked about and showed us his [Espruino Pico][espruino-pico]. It sounds a 
 
 ### Ben - Chess fun times
 
-![Ben at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-ben-g-chess-1.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-ben-g-chess-1.jpg', alt: 'Ben at Show & Tell 26') %>
 
-![Ben demoing chess board image recognition at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-ben-g-chess-2.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-ben-g-chess-2.jpg', alt: 'Ben demoing chess board image recognition at Show & Tell 26') %>
 
 Ben demoed the chess project that he, James and I worked on in [weeks 407][week-407-fun-times] and 408.
 
@@ -105,7 +105,7 @@ Ben then went into some detail about the image recognition work he'd been doing 
 
 ### Rob C - Education for Engineers
 
-![Rob C at Show & Tell 26](/images/blog/2016-11-09-show-and-tell-26-rob-c.jpg)
+<%= image_tag('blog/2016-11-09-show-and-tell-26-rob-c.jpg', alt: 'Rob C at Show & Tell 26') %>
 
 Rob went into more detail about his teaching process and systems that he demonstrated in [Show & Tell 24][show-and-tell-24].
 

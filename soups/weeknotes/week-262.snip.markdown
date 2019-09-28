@@ -11,7 +11,7 @@ On the futurelearn front, Seb and I made some performance improvements to one of
 
 Friday was FutureLearn's last day in their Open University home before moving to the British Library. We said farewell to the FutureLearn submarine that's been our home since April 2013, and look forward to spending a few days in the new office before moving on to pastures new.
 
-![Simon struggling to leave the submarine](/images/blog/empty-futurelearn-submarine.jpg)
+<%= image_tag('blog/empty-futurelearn-submarine.jpg', alt: 'Simon struggling to leave the submarine') %>
 
 -- Chris
 

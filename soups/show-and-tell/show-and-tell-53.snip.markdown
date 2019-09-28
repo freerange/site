@@ -7,7 +7,7 @@ A week last Wednesday we held our Show & Tell event at the [Proper Office on Bat
 
 [Chris Zetter](https://chriszetter.com/) is planning a talk on Ethics and how the subject is relevant to developers. Chris said that many of the books he'd looked at about ethics were very philosophical and he found it difficult to relate them to everyday issues. He then passed around a copy of Kirnan's [Everyday Ethics: A case study approach](https://www.amazon.co.uk/Everyday-Ethics-Jean-P-Kirnan/dp/1138052671) which he has found more useful.
 
-![The front cover of the book "Everyday Ethics"](/images/blog/everyday-ethics.png)
+<%= image_tag('blog/everyday-ethics.png', alt: 'The front cover of the book "Everyday Ethics"') %>
 
 Chris showed us a couple of the case studies from the book. One case study concerned an employee who has realised that they have been overpaid and is in a dilemma about reporting it to their manager.
 
@@ -31,7 +31,7 @@ Chris often joins us at Show and Tell and I'm always really impressed by how he 
 
 Ben showed us a small Elm app he's been developing. It speeds up the creation of character sheets for the child-friendly role-playing game [No Thank You, Evil!](http://www.nothankyouevil.com/).
 
-![The "No Thank You, Evil!" game box and contents](/images/blog/no-thank-you-evil.jpg)
+<%= image_tag('blog/no-thank-you-evil.jpg', alt: 'The "No Thank You, Evil!" game box and contents') %>
 
 Ben said that the character generation part of the game was a bit slow and off-putting for his children, and having a quick, clickable character generator was more fun. He's particularly excited that he's managed to collaborate on github with his son for the first time!
 

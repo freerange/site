@@ -50,7 +50,7 @@ After lunch we were locked up in the [JM's Office][], an escape room at [HintHun
 
 I'm pleased to report that we escaped with plenty of time to spare and it was a lot of fun, if a bit hot and humid!
 
-![HintHunt escape room certificate](/images/blog/2019-07-03-hinthunt-certificate.jpg)
+<%= image_tag('blog/2019-07-03-hinthunt-certificate.jpg', alt: 'HintHunt escape room certificate') %>
 
 
 ## Mission Patch
@@ -59,7 +59,7 @@ Over the last week or so we've seen a noticeable uptick in [Mission Patch][] sal
 
 Being so busy with client work, it's been hard to find any time to push development of Mission Patch forward, but the uptick in orders has motivated a few relatively minor improvements.
 
-![Mission Patch samples](/images/blog/mission-patch-samples.png)
+<%= image_tag('blog/mission-patch-samples.png', alt: 'Mission Patch samples') %>
 
 Some time ago, I tried to create an Instagram account for Mission Patch, but ran into a problem where for some unknown reason the account was disabled almost immediately after being created. I initiated the process to reactivate the account, but ran into problems with emails to Instagram support bouncing.
 
@@ -73,11 +73,11 @@ Away from work, the two Chrises have been hard at work on a few practical projec
 
 More recently he took a couple of days off to start work on building a couple of wooden chairs. If the quantity of wood shavings is anything to go by, these chairs are going to be very impressive!
 
-![Wood shavings in chez Chris L](/images/blog/2019-07-12-wood-shavings.jpg)
+<%= image_tag('blog/2019-07-12-wood-shavings.jpg', alt: 'Wood shavings in chez Chris L') %>
 
 Chris R has been digging out a slipway on his riverside plot and recently discovered a set of hidden steps.
 
-![Riverside excavation of steps](/images/blog/2019-07-07-riverside-excavation-of-steps.gif)
+<%= image_tag('blog/2019-07-07-riverside-excavation-of-steps.gif', alt: 'Riverside excavation of steps') %>
 
 Anyway, that's all for now. I hope you're having a lovely summer!
 

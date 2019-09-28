@@ -114,7 +114,7 @@ language. Ben showed us the Batman-themed game his son had built which
 involves Batman flying around a building grabbing things from windows
 and putting them into his Batmobile.
 
-![Ben shows us his son's Batman game written in Scratch](/images/blog/2017-03-08-show-and-tell-30-ben.jpg)
+<%= image_tag('blog/2017-03-08-show-and-tell-30-ben.jpg', alt: 'Ben shows us his son's Batman game written in Scratch') %>
 
 Scratch is a fully visual programming environment that involves
 connecting blocks together to build programs. Ben showed us how
@@ -169,7 +169,7 @@ used to enforce certain types of behaviour if they are not written
 from a common, shared set of experiences and understanding. I'm going
 to think a bit more about where I'd like to take this project next.
 
-![James shows Jase Cale's slides about Go Free Range](/images/blog/2017-03-08-show-and-tell-30-james.jpg)
+<%= image_tag('blog/2017-03-08-show-and-tell-30-james.jpg', alt: 'James shows Jase Cale's slides about Go Free Range') %>
 
 My discussion of how we work reminded James of a slide deck by former
 Go Free Range member [Jase](/jason-cale) on how we work. We went

@@ -11,7 +11,7 @@ This week, our chosen project has been [Sauron](https://github.com/freerange/sau
 
 Although we've been concentrating on Sauron, it's not the only thing we've worked on.  In particular we've had a lot of interest about [printer](/printer), with several people requesting one.  To meet this demand, a small production line was set up in our office.  For most of the week, the smell of solder wafted through the air.
 
-<img alt="GFR Printer production line" src="/images/blog/henry-ford.jpg" width="550" />
+<img alt="GFR Printer production line" src="<%= image_path('blog/henry-ford.jpg') %>" width="550" />
 
 ## Railsberry
 

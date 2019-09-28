@@ -5,7 +5,7 @@ We decided to try holding this month's event at our office in the Ministry of St
 
 ## Migrating web apps to Dokku
 
-![James Adam demonstrating Dokku](/images/blog/2018-06-07-show-and-tell-44-james-adam-dokku-demo.jpg)
+<%= image_tag('blog/2018-06-07-show-and-tell-44-james-adam-dokku-demo.jpg', alt: 'James Adam demonstrating Dokku') %>
 
 [James A][] runs a bunch of web apps on his Linode VPS. They're a pain to maintain, because each of them needs a different version of Ruby and several of them depend on specific packages like fonts & PhantomJS. Some time ago he hacked together a Docker pipeline which worked in a similar way to [Tom W's `recap`][recap-repo]. This built a Docker image locally, pushed it to a registry, and then pulled it down onto the VPS. This all worked OK, but was a bit of a pain and obviously relied on custom software to pull it all together.
 
@@ -16,13 +16,13 @@ Dokku provides zero-downtime deployments by default by managing an instance of N
 
 ## Train timetable visualisation
 
-![Chris Zetter demonstrating his train timetable visualisation tool](/images/blog/2018-06-07-show-and-tell-44-chris-zetter-marey-diagram-demo.jpg)
+<%= image_tag('blog/2018-06-07-show-and-tell-44-chris-zetter-marey-diagram-demo.jpg', alt: 'Chris Zetter demonstrating his train timetable visualisation tool') %>
 
 [Chris Z][] commutes by train between Hitchen and London. The recent [completion of the Canal Tunnels][canal-tunnels] meant that trains could run from Finsbury Park to St Pancras for the first time.  This resulted in a major change in the timetables from 20 May with his trains now routed through London via St Pancras rather than terminating at Kings Cross.
 
 The train companies didn't do a very good job of communicating the timetable changes (e.g. [a giant A3 PDF][thameslink-timetable]) and Chris was keen to see whether he could find a helpful way to visualise the changes. Initially he looked at fetching the data from the official [Darwin Data Feeds][], but these are hard-to-use SOAP/XML feeds with strange acronyms. He then discovered he was able to obtain the relevant data from [transportapi][]'s more friendly JSON API under one of their free plans. He then used this data to generate [Marey-style diagrams][] with some custom code in conjunction with the [D3.js][] charting library.
 
-![Visualisation of changes to the train timetable from Kings Cross to Hitchen](/images/blog/2018-06-07-show-and-tell-44-kings-cross-to-hitchin-marey-diagram.png)
+<%= image_tag('blog/2018-06-07-show-and-tell-44-kings-cross-to-hitchin-marey-diagram.png', alt: 'Visualisation of changes to the train timetable from Kings Cross to Hitchen') %>
 
 Chris has built [a general purpose tool][changes-tool] which you can use to visualise the direct journeys between any two stations on the UK rail network. He's also written the whole thing up in more detail [on his blog][changes-article].
 
@@ -30,7 +30,7 @@ Chris has built [a general purpose tool][changes-tool] which you can use to visu
 ## Programmatically generated maps
 
 <p style="text-align: center">
-  <img src="/images/blog/2018-06-07-show-and-tell-44-animated-maps.gif" alt="Progression of maps for Alexa game">
+  <img src="<%= image_path('blog/2018-06-07-show-and-tell-44-animated-maps.gif') %>" alt="Progression of maps for Alexa game">
 </p>
 
 In last month's Show & Tell, we demonstrated the beginnings of a [game for Amazon's Alexa][we-didnt-mean-to-go-to-sea], in which the player starts in an unknown position on a map and has to navigate a ship to port by listening to the sounds around them as if they were lost in fog. This time Ben demonstrated how he had programmatically generated a realistic looking map from a simple ASCII grid.
@@ -44,13 +44,13 @@ I'm sorry the above isn't a very fulsome explanation, but if you're interested i
 
 ## Celestial navigation
 
-![James with sextant](/images/blog/2018-06-07-show-and-tell-44-james-with-sextant.jpg)
+<%= image_tag('blog/2018-06-07-show-and-tell-44-james-with-sextant.jpg', alt: 'James with sextant') %>
 
 I had brought along the cheap plastic [sextant][] that I own and showed people how to use it, although it wasn't ideal because we couldn't see either the sun or the horizon! I described a couple of the simpler ways you can determine both your latitude and longitude your using just a sextant, a nautical almanac and an accurate watch.
 
 For example, taking a [noon sight][] where, if you know the approximate time of local noon, you measure the altitude of the [lower limb][] of the sun 15-30 minutes before local noon making a note of the exact time, then leave this altitude set on the sextant, and wait for the lower limb of the sun to drop back down to the same altitude after local noon, recording the exact time at which this happens. You can then average the two times to obtain a very accurate time for local noon which is easily converted into a longitude for your position at local noon.
 
-![Ben using sextant](/images/blog/2018-06-07-show-and-tell-44-ben-using-sextant.jpg)
+<%= image_tag('blog/2018-06-07-show-and-tell-44-ben-using-sextant.jpg', alt: 'Ben using sextant') %>
 
 Unfortunately I got in a bit of a muddle about how some of the maths worked, but hopefully people got the idea. I finished up by explaining how it's possible to apply corrections to make the measurements as accurate as possible, e.g. correcting for error in the sextant itself (index error), adjusting for the height of your eye above the horizon, and correcting for refraction of light in the atmosphere, particularly important when celestial objects are low in the sky.
 

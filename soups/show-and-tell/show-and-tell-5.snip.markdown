@@ -30,7 +30,7 @@ If this sounds like the sort of thing you're interested in, then please do [get 
 
 Although not technically part of the Show and Tell, [Murray][] was keen to show quite how neat he can be when eating Pistachio nuts. Good job, Murray :-)
 
-![Tidy Pistachio nut debris](/images/blog/pistachio-nut-shells.jpg)
+<%= image_tag('blog/pistachio-nut-shells.jpg', alt: 'Tidy Pistachio nut debris') %>
 
 [Ben]: https://twitter.com/beng
 [bracelet we'd printed]: /week-292#the-finished-article

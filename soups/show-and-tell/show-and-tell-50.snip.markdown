@@ -6,7 +6,7 @@ This is a belated and hence somewhat patchy write-up of our 50th Show & Tell eve
 
 ## Multi-player Crossword
 
-![Chris Z demonstrating his multi-player crossword](/images/blog/2018-11-21-chris-zetter-multi-player-crossword.jpg)
+<%= image_tag('blog/2018-11-21-chris-zetter-multi-player-crossword.jpg', alt: 'Chris Z demonstrating his multi-player crossword') %>
 
 [Chris Z][] showed us how he's taken the [the crossword from The Guardian's website][guardian-crossword] (which is open-source) and turned it into a multi-player version. He demonstrated a working version, explained how he'd approached building it and some of the technical challenges he'd run into along the way.
 
@@ -15,7 +15,7 @@ Chris has since published [a full write-up on his blog][multiplayer-crosswords] 
 
 ## Petition Map
 
-![Murray demonstrating his petition map](/images/blog/2018-11-21-murray-steele-petition-map.jpg)
+<%= image_tag('blog/2018-11-21-murray-steele-petition-map.jpg', alt: 'Murray demonstrating his petition map') %>
 
 When he was at [Unboxed][], [Murray][] was involved in building the [Petition Map][] which provides a visualisation of people signing petitions on the [UK Government and Parliament Petitions website][e-petitions]. The map colours each electoral constituency according to the percentage of constituents who have signed. One effect of this is that constituencies with a large geographic area are over-emphasised and those with a smaller area are under-emphasised.
 
@@ -24,14 +24,14 @@ Murray talked us through various ways he'd tried to improve on this with his lat
 
 ## Lego Cards
 
-![Lego card](/images/blog/2018-11-21-ben-griffiths-lego-card.jpg)
+<%= image_tag('blog/2018-11-21-ben-griffiths-lego-card.jpg', alt: 'Lego card') %>
 
 [Ben G][]'s children had been collecting Lego cards and he showed us a [Monte Carlo simulation][] he'd written in Ruby to work out the probability of collecting a full set.
 
 
 ## Markers Hub
 
-![Marking Hub](/images/blog/2018-11-21-rob-chatley-marking-hub.jpg)
+<%= image_tag('blog/2018-11-21-rob-chatley-marking-hub.jpg', alt: 'Marking Hub') %>
 
 [Rob Chatley][] talked about how student assignment marking is organised for [his courses at Imperial College][rob-chatley-imperial]. A system had been built organically over time by one member of staff using fairly old-school techniques like CGI scripts.
 
@@ -40,7 +40,7 @@ Rob talked about how they were incrementally moving to a more centralised system
 
 ## Solving a Rubik's Cube
 
-![Paul Battley solving a Rubik's cube](/images/blog/2018-11-21-paul-battley-solving-rubiks-cube.jpg)
+<%= image_tag('blog/2018-11-21-paul-battley-solving-rubiks-cube.jpg', alt: 'Paul Battley solving a Rubik's cube') %>
 
 [Paul B][] explained how he'd taught himself to solve a Rubik's cube. Using a simple notation for each move, he was able to memorise combinations of moves to have particular effects.
 

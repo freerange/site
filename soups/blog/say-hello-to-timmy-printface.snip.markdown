@@ -96,7 +96,7 @@ Incidentally, she collaborated with [Roo][] on the [Shift Run Stop](http://www.s
 [timmy]: /timmy
 [timmy-image]: http://public.lazyatom.com/timmy/snapshot.jpg
 [api]: https://api.hashblue.com
-[timmy-behind-the-scenes]: /images/blog/timmy-behind-the-scenes.jpg
+[timmy-behind-the-scenes]: <%= image_path('blog/timmy-behind-the-scenes.jpg') %>
 [tomt]: http://tomtaylor.co.uk
 [Microprinter]: http://tomtaylor.co.uk/projects/microprinter
 [roo]: http://rooreynolds.com/
@@ -107,12 +107,12 @@ Incidentally, she collaborated with [Roo][] on the [Shift Run Stop](http://www.s
 [O2]: http://www.o2.co.uk
 [#blue]: https://hashblue.com
 
-[selection]: /images/blog/timmy-selection.jpg
-[selection-thumb]: /images/blog/timmy-selection-thumb.jpg
-[rickroll]: /images/blog/timmy-rickroll.jpg
-[rickroll-thumb]: /images/blog/timmy-rickroll-thumb.jpg
-[ascii-art]: /images/blog/timmy-ascii-art.jpg
-[ascii-art-thumb]: /images/blog/timmy-ascii-art-thumb.jpg
+[selection]: <%= image_path('blog/timmy-selection.jpg') %>
+[selection-thumb]: <%= image_path('blog/timmy-selection-thumb.jpg') %>
+[rickroll]: <%= image_path('blog/timmy-rickroll.jpg') %>
+[rickroll-thumb]: <%= image_path('blog/timmy-rickroll-thumb.jpg') %>
+[ascii-art]: <%= image_path('blog/timmy-ascii-art.jpg') %>
+[ascii-art-thumb]: <%= image_path('blog/timmy-ascii-art-thumb.jpg') %>
 
 :render_as: Blog
 :kind: blog
