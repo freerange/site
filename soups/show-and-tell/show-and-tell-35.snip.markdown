@@ -59,7 +59,7 @@ Beng G gave us a quick reprise of the project Chris R, he & I worked on some tim
 
 ## Blender
 
-<%= image_tag('blog/2017-08-09-show-and-tell-35-blender-room.png', alt: 'Ian's rendering of a room using Blender') %>
+<%= image_tag('blog/2017-08-09-show-and-tell-35-blender-room.png', alt: "Ian's rendering of a room using Blender") %>
 
 Ian is (or was) in the process of buying a house and he showed us some impressive work he'd done with [Blender][] to generate detailed visualisations of how the inside of the property might look with some of his furniture and possessions. The thing I found particularly fascinating was the effort he'd put in to the detail of surfaces like [some net curtains][]!
 

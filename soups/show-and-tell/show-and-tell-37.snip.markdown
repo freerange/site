@@ -20,7 +20,7 @@ Thanks go to Tom for the photos and to everyone for sharing the various things t
 
 [Chris][chris-roos] started with a quick demo of [Flight Radar 24](https://www.flightradar24.com/) a website he'd found that lets you track the real-time position of aircraft around the world. In particular Chris was struck by the [Project Loon](https://x.company/loon/) balloons at 60,000 feet above Puerto Rico [providing communication services](https://www.usatoday.com/story/tech/news/2017/10/08/googles-project-loon-gets-ok-use-balloons-revive-puerto-rico-cell-service/744106001/) in the wake of Hurricane Maria.
 
-<%= image_tag('blog/project-loon-puerto-rico.png', alt: 'Alphabet's Project Loon balloons over Puerto Rico') %>
+<%= image_tag('blog/project-loon-puerto-rico.png', alt: "Alphabet's Project Loon balloons over Puerto Rico") %>
 
 Chris and his partner Amy live on a 100 year old former Dutch tulip barge on the Thames. They've been making some fairly extensive changes to the boat including a recent extension to provide them more living space. With the major metal work completed Chris has been working on the inside of the boat including fitting some insulation between the hull and the cabin walls. Chris showed us some photos of the work so far and some curiosities he'd discovered - including some incredibly dense lead ballast material, and a faded number painted on the steel that may provide some clues as to the history of the boat.
 
@@ -54,7 +54,7 @@ At the time Ben built the system, the support for Adobe Flash was starting to wa
 
 Ben then talked us through the pipeline that would take the user's parameters and apply them to the manufacturing model that generated the file sent to the 3D printer. Ben used [Blender](https://www.blender.org/) to show us one of these models including the parts not visible to users of the web interface - such as the fixings on the inside of the dolls head that would join it to the neck.
 
-<%= image_tag('blog/dolls-head-blender.jpg', alt: 'A Makie doll's head in 3D modelling program Blender') %>
+<%= image_tag('blog/dolls-head-blender.jpg', alt: "A Makie doll's head in 3D modelling program Blender") %>
 
 We had a brief discussion about the work we put into code for the companies that employee us and how we feel when [the companies are shuttered](https://techcrunch.com/2017/02/22/makielab-may-the-force-be-with-you/) and these projects are no longer available.
 

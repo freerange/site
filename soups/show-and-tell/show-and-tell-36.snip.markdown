@@ -40,7 +40,7 @@ I continue to be amazed by the size of the Minecraft ecosystem.
 
 ## Visualising Hindsight-ex
 
-<%= image_tag('blog/2017-09-13-show-and-tell-36-chris-p-hindsight-ex.jpg', alt: 'Chris P's visualisation of Ben's Hindsight-Ex project') %>
+<%= image_tag('blog/2017-09-13-show-and-tell-36-chris-p-hindsight-ex.jpg', alt: "Chris P's visualisation of Ben's Hindsight-Ex project") %>
 
 As a nice segue from Ben to Chris, Chris showed us the pull request he'd opened in Ben's [hindsight-ex][hindsight-ex] project that [Ben spoke about at LRUG on Monday][lrug-hindsight-ex].
 
@@ -128,7 +128,7 @@ Having spent time working with the [GDS Developer VM][gds-developer-vm] recently
 
 ## Limitations of `git log --follow`
 
-<%= image_tag('blog/2017-09-13-show-and-tell-36-james-m-git-log.jpg', alt: 'James M's impressive command for interrogating git history ') %>
+<%= image_tag('blog/2017-09-13-show-and-tell-36-james-m-git-log.jpg', alt: "James M's impressive command for interrogating git history") %>
 
 While working on converting our website from [Jekyll][jekyll-rb] to [Rails][rails], James had a need to be able to follow git file history across renames in the repo. He ran into problems with `git log --follow` as its heuristic to determine whether a file has been renamed doesn't always work. James ended up constructing this [impressive looking command][gist-floehopper-git-history] to do what he wanted.
 

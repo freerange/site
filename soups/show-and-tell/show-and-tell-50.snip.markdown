@@ -40,7 +40,7 @@ Rob talked about how they were incrementally moving to a more centralised system
 
 ## Solving a Rubik's Cube
 
-<%= image_tag('blog/2018-11-21-paul-battley-solving-rubiks-cube.jpg', alt: 'Paul Battley solving a Rubik's cube') %>
+<%= image_tag('blog/2018-11-21-paul-battley-solving-rubiks-cube.jpg', alt: "Paul Battley solving a Rubik's cube") %>
 
 [Paul B][] explained how he'd taught himself to solve a Rubik's cube. Using a simple notation for each move, he was able to memorise combinations of moves to have particular effects.
 

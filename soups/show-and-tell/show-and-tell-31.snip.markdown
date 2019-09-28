@@ -22,7 +22,7 @@ Ben kicked things off by talking a bit more about [Snap!][snap]: the drag and dr
 
 Ben showed us some software he and his son had built to help with his son's homework. I seem to recall that the homework involved coming up with a number of sentences in the format of "\<proper noun> \<verb> \<determiner> \<noun>" (e.g. Ben carried that lift). They fed lists of proper nouns, verbs, determiners and nouns into their app and had a cartoon character display a random question and answer.
 
-<%= image_tag('blog/2017-04-12-show-and-tell-31-ben-g.jpg', alt: 'Ben shows us his son's homework program') %>
+<%= image_tag('blog/2017-04-12-show-and-tell-31-ben-g.jpg', alt: "Ben shows us his son's homework program") %>
 
 [pete-herlihy]: https://twitter.com/yahoo_pete
 [pete-o-tron]:  https://github.com/tomstuart/pete-o-tron
