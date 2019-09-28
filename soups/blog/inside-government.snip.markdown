@@ -51,9 +51,6 @@ There's a lot more work to do, but we're confident that [GDS][gds] will [listen 
 [government-hmrc]: https://www.gov.uk/hmrc
 [government-cabinet]: https://www.gov.uk/government/organisations/cabinet-office "The Cabinet Office on INSIDE GOVERNMENT"
 [government-tackling-homelessness]: https://www.gov.uk/government/policies/tackling-homelessness-and-rough-sleeping "Tackling homelessness and rough sleeping"
-[bis-thumbnail]: /images/blog/bis.thumb.png
-[consultations-thumbnail]: /images/blog/consultations.thumb.png
-[tackling-homelessness-thumbnail]: /images/blog/tackling-homelessness-and-rough-sleeping.thumb.png
 [whitehall-contributors]: https://github.com/alphagov/whitehall/contributors
 [pete-herlihy]: https://twitter.com/yahoo_pete
 [james-weiner]: https://twitter.com/jamesweiner
