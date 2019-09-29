@@ -8,10 +8,10 @@
 <meta name="format-detection" content="telephone=no">
 
 <%= stylesheet_link_tag 'application', media: 'all' %>
-<link href="//vjs.zencdn.net/4.7.2/video-js.css" rel="stylesheet" />
+<%= content_for :stylesheets %>
 
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="alternate" href="//feeds.gofreerange.com/GoFreeRangeBlog" title="Go Free Range Blog" type="application/atom+xml" />
 
 <%= render partial: 'shared/typekit' %>
-<script src="//vjs.zencdn.net/4.7.2/video.js"></script>
+<%= content_for :javascripts %>

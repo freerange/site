@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <% if @snip.video_js %>
+      <% content_for :stylesheets do %>
+        <link href="//vjs.zencdn.net/4.7.2/video-js.css" rel="stylesheet" />
+      <% end %>
+      <% content_for :javascripts do %>
+        <script src="//vjs.zencdn.net/4.7.2/video.js"></script>
+      <% end %>
+    <% end %>
     <%= render partial: 'shared/head' %>
     <title>
       <%= @snip.page_title %> &mdash; Go Free Range.

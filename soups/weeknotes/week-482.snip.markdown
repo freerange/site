@@ -81,3 +81,4 @@ Until next time!
 :author: chris-lowis
 :page_title: Week 482
 :extension: markdown
+:video_js: true
