@@ -6,7 +6,7 @@
       <%= (@snip && @snip.page_title) || content_for(:page_title) || 'Wiki' %> &mdash; Go Free Range.
     </title>
   </head>
-  <body class="wiki">
+  <body class="wiki <%= day_of_week %>">
     <div id="page">
       <div id="header" class="group">
         <%= render partial: 'shared/blog_nav' %>

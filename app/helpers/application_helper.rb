@@ -13,6 +13,10 @@ module ApplicationHelper
     end
   end
 
+  def day_of_week
+    Date.today.strftime('%a').downcase
+  end
+
   def include_snip(name)
     snip = Snip.find(name)
     snip_renderer = SnipRenderer.new
