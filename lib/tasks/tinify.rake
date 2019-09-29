@@ -1,3 +1,4 @@
+return unless Rails.env.development?
 require 'tinify'
 
 namespace :assets do
