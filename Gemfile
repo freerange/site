@@ -15,11 +15,6 @@ group :assets, :development do
   gem 'sass-rails', '~> 5'
 end
 
-group :assets do
-  gem 'uglifier', '~> 3'
-  gem 'mini_racer'
-end
-
 group :development do
   gem 'dotenv-rails', '~> 2'
   gem 'listen', '>= 3.0.5', '< 3.2'
