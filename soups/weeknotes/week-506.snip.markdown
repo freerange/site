@@ -19,8 +19,8 @@ Our next contract is working with [DXW][dxw] on a project for [CCS][ccs]. Ben an
 [vagrant]: https://www.vagrantup.com/
 
 :name: week-506
-:updated_at: 2019-09-25 14:10:00.856637000 +01:00
-:created_at: 2019-09-25 14:10:00.856626000 +01:00
+:updated_at: 2018-09-28 12:32:55.558969000 +01:00
+:created_at: 2018-09-28 12:32:55.558967000 +01:00
 :render_as: Blog
 :kind: blog
 :is_page: true
