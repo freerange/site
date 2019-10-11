@@ -1,10 +1,13 @@
-<img src="<%= image_path(member.image) %>" alt="Photo of <%= member.name.titleize %>"/>
+<% if member.image.present? %>
+  <img src="<%= image_path(member.image) %>" alt="Photo of <%= member.name.titleize %>"/>
+<% end %>
 <div class="info">
   <h3><%= member.name.titleize %></h3>
   <p class="links">
     <% links = [] %>
     <% links << link_to('Website', 'http://' + member.site) if member.site %>
     <% links << link_to('Twitter', 'http://twitter.com/' + member.twitter) if member.twitter %>
+    <% links << link_to('LinkedIn', member.linkedin) if member.linkedin %>
     <%= links.join(' / ').html_safe %>
   </p>
   <div class="bio"><%= include_snip member.name %></div>
