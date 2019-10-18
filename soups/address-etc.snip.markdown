@@ -1,5 +1,3 @@
-<div id="address-etc" markdown="1">
-
 ### Come and see us
 
 <p>We're based in <a href="https://goo.gl/maps/hZnDkMvWZqR2">Southwark</a> &mdash; why not pop in for a cuppa?</p>
@@ -18,8 +16,6 @@
   <p class="phone">Phone: +44 (0)20 3823 6286</p>
   <p class="email">Email: <a href="mailto:lets@gofreerange.com" title="Send us an email">lets@gofreerange.com</a></p>
   <p class="twitter">Twitter: <a href="http://twitter.com/freerange" title="Follow us on Twitter">@freerange</a></p>
-</div>
-
 </div>
 
 :created_at: 2019-09-21 13:23:00 +0100
