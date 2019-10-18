@@ -4,7 +4,7 @@
 
 <%= include_snip 'working-together' %>
 
-<div id="address-etc" markdown="1">
+<div id="contact-sidebar" markdown="1">
 <%= include_snip 'address-etc' %>
 </div>
 
