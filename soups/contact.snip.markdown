@@ -3,7 +3,10 @@
 ## Get in touch
 
 <%= include_snip 'working-together' %>
+
+<div id="address-etc" markdown="1">
 <%= include_snip 'address-etc' %>
+</div>
 
 </div>
 
