@@ -6,6 +6,7 @@
 
 <div id="contact-sidebar" markdown="1">
 <%= include_snip 'address-etc' %>
+<%= include_snip 'we-are-a-coop' %>
 </div>
 
 </div>
