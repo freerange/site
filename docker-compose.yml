@@ -1,0 +1,46 @@
+version: '3.4'
+
+x-app: &app
+  build:
+    context: .
+    dockerfile: ./.dockerdev/Dockerfile
+    args:
+      RUBY_VERSION: '2.5.7'
+      BUNDLER_VERSION: '1.17.3'
+  environment: &env
+    RAILS_ENV: ${RAILS_ENV:-development}
+  image: site-dev:1.0.0
+  tmpfs:
+    - /tmp
+
+x-backend: &backend
+  <<: *app
+  stdin_open: true
+  tty: true
+  volumes:
+    - .:/app:cached
+    - rails_cache:/app/tmp/cache
+    - bundle:/bundle
+  environment:
+    <<: *env
+    BOOTSNAP_CACHE_DIR: /bundle/bootsnap
+    WEB_CONCURRENCY: 1
+    HISTFILE: /app/log/.bash_history
+    EDITOR: vi
+
+services:
+  runner:
+    <<: *backend
+    command: /bin/bash
+    ports:
+      - '3000:3000'
+
+  rails:
+    <<: *backend
+    command: bundle exec rails server -b 0.0.0.0
+    ports:
+      - '3000:3000'
+
+volumes:
+  bundle:
+  rails_cache:
