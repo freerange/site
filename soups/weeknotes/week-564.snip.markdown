@@ -27,11 +27,10 @@ Until next time.
 [true-footprint]: https://www.truefootprint.com/
 
 :name: week-564
-:updated_at: 2019-11-11 10:30:00.940555000 +00:00
-:created_at: 2019-11-11 10:30:00.940554000 +00:00
+:updated_at: 2019-11-11 11:38:40.096064000 +00:00
+:created_at: 2019-11-11 11:38:40.096053000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
