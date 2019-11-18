@@ -4,7 +4,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We're currently booked up until the end of October, but we have some availability after that. We'd love to discuss your ideas with you.
+* *Timing:* We're currently booked up until the end of November, but we have some availability after that. We'd love to discuss your ideas with you.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
