@@ -1,6 +1,8 @@
 Tracing the Git history of a Ruby method
 ====
 
+_See also my follow-up article: [Building a Git repository of Ruby method definitions](/building-a-git-repository-of-ruby-method-definitions) (16 Mar 2014)_
+
 *TL;DR* I've built an [experimental tool][method_log] to display the git history of a single Ruby method definition.
 
 Here's a demo of it in action against the [Mocha][] codebase [^1] showing the history of the `Mocha::Expectation#with` method. Note that you should be able to scroll down through the history.

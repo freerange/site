@@ -1,6 +1,8 @@
 Building a Git repository of Ruby method definitions
 ====
 
+_Follows on from my earlier article: [Tracing the Git history of a Ruby method](/tracing-the-git-history-of-a-ruby-method) (11 Mar 2014)_
+
 As [Chris][] mentioned in the [notes from last week][week-269-method-log], I've come up with an idea for a useful way to represent the history of Ruby method definitions.
 
 I've [hacked together a script][hacky-script] to walk through *all* the commits in a repository extracting *all* the method definitions using the Ruby parser code I already had. The script builds a new "shadow" repository with a commit for each commit in the original repository, but constructing a "file" for each method definition.
