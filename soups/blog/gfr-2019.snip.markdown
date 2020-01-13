@@ -6,7 +6,7 @@ One of my more prominent memories of 2019 is the collective stress we felt at th
 
 ## Review of 2019 goals
 
-I finished the 2018 review post with a list of goals for 2019. Ticking off 5 out of the 7 seems pretty good to me!
+I finished the [2018 review post][gfr-2018] with a list of goals for 2019. Ticking off 5 out of the 7 seems pretty good to me!
 
 - ✓ Earn more money than we spend
 - ✓ Move to an office closer to Waterloo
@@ -87,6 +87,7 @@ I finished the 2018 review post with a list of goals for 2019. Ticking off 5 out
 [cotech-spring-2019]: https://wiki.coops.tech/wiki/Sheffield_2019
 [crisis]: https://www.crisis.org.uk/
 [ctrl-group]: https://www.ctrl-group.com/
+[gfr-2018]: /gfr-2018
 [film-fixer]: https://filmfixer.co.uk/
 [futurelearn]: https://www.futurelearn.com/
 [goodnight-disruption]: https://attending.io/events/goodnight-disruption-2-london-tech-week
