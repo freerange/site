@@ -1,0 +1,71 @@
+# GFR's 2019
+
+## Review of 2019 goals
+
+- ✓ Earn more money than we spend
+- ✓ Move to an office closer to Waterloo
+- ✓ Register with Coops UK
+- ✓ Get people using our service that helps teams celebrate success
+- ✓ Rethink our Show & Tell events
+- ✗ Win funding for some self-directed work
+- ✗ Celebrate GFR’s 10th anniversary
+
+## 2019 achievements
+
+- Earned £356,354 and spent £320,662. Although we did nearly run out of money at the beginning of the year! We struggled to find work in the first few months which led to us all feeling quite stressed. On a positive note I think we're now a little better at business development than we were 12 months ago.
+
+- Moved into a new office near Waterloo. And then moved again into a larger office in the same building.
+
+- Became a coop! We adopted some coop-compatible Articles of Association and joined Coops UK. Many thanks to Siôn Whellens for all his help.
+
+- Launched Mission Patch! It's been used to generate over 150 mission patches, which have been printed over 3000 times. Many thanks to Puck Studios for handling our printing, and to everyone that's bought a sticker.
+
+- Stopped hosting our Show & Tell events. We ran a few in early 2019 before agreeing that the dwindling attendance, along with our own external commitments, meant that they were becoming harder than they should be to host.
+
+- Worked with Business and Human Rights Resource Centre (Modern Slavery Registry), Ctrl Group, Outlandish (School Cuts), FutureLearn (SCA, Google Tag Manager, Microcredentials) and The Audience Agency.
+
+- Ran an R Training Course for The Children's Society.
+
+- Enjoyed working with Tom W for week when he stepped in to cover some illness.
+
+- Applied for, but failed to win, a few DO&S opportunities. One of these was as part of a consortium with another supplier; which was a new experience for us.
+
+- Partnered with Film Fixer to apply for funding from Innovate UK. We were sadly unsuccessful.
+
+- Employed our first intern, Greg, for 8 weeks after he completed his degree at university. We enjoyed having him around and hope that the experience will help him in his search for a full time job.
+
+- Held at least 2 away days to discuss the bigger picture of GFR.
+
+- Donated to Shelter, Place 2 Be, Cancer Research UK, Centrepoint, Great Ormond Street, British Heart Foundation, MS Society, Barts charity & No stomach for cancer, Mind, Crisis.
+
+- Attended the CoTech Spring Gathering and sponsored and attended CoTech's Goodnight Disruption event as part of London Tech Week.
+
+- Enjoyed sharing our office with Chris and Edwin of True Footprint.
+
+- Joined the global climate strike in week 557 - https://gofreerange.com/week-557
+
+- Observed James's 10th anniversary of joining GFR.
+
+- Agreed to stop writing regular "Interesting links" and "Week notes" blog posts. We'd slowly drifted out of the habit of writing these and so made the collective decision to remove them from our list of regular GFR tasks.
+
+---
+
+## 2020 Goals
+
+- Celebrate 10 years of GFR
+- Pay more salary and less dividend
+- Bring more people into GFR?
+- Make more than we spend
+- Use Mission Patch as a bit of a playground. Don't worry about doing things specifically to make money/generate customers.
+- Another intern?
+- More involved with CoTech?
+
+:render_as: Blog
+:kind: blog
+:is_page: true
+:draft: true
+:written_with: markdown
+:author: chris-roos
+:created_at: 2020-01-13 12:37:00 +00:00
+:updated_at: 2020-01-13 12:37:00 +00:00
+:page_title: GFR's 2019
