@@ -13,11 +13,13 @@
 ## 2019 achievements
 
 - TODO
-  - Include holiday vs time spent on client work.
-  - Include leads
-  - Include desk sponsorship at Space 4
+  - Motivation for goals?
 
 - Earned £356,354 and spent £320,662. Although we did nearly run out of money at the beginning of the year! We struggled to find work in the first few months which led to us all feeling quite stressed. On a positive note I think we're now a little better at business development than we were 12 months ago.
+
+- Worked an average of 118 days each on paid client work.
+
+- Had 25 leads. 3 of which converted into paid work.
 
 - Moved into a new office near Waterloo. And then moved again into a larger office in the same building.
 
@@ -25,9 +27,9 @@
 
 - Launched Mission Patch! It's been used to generate over 150 mission patches, which have been printed over 3000 times. Many thanks to Puck Studios for handling our printing, and to everyone that's bought a sticker.
 
-- Stopped hosting our Show & Tell events. We ran a few in early 2019 before agreeing that the dwindling attendance, along with our own external commitments, meant that they were becoming harder than they should be to host.
+- Stopped hosting our Show & Tell events. We ran a few in early 2019 before agreeing that the dwindling attendance, along with our own external commitments, meant that it was becoming harder to justify hosting them.
 
-- Worked with Business and Human Rights Resource Centre (Modern Slavery Registry), Ctrl Group, Outlandish (School Cuts), FutureLearn (SCA, Google Tag Manager, Microcredentials) and The Audience Agency.
+- Worked with Business and Human Rights Resource Centre (Modern Slavery Registry), Ctrl Group, Outlandish (School Cuts), FutureLearn (SCA, Google Tag Manager, Microcredentials), The Audience Agency and The University of Oxford.
 
 - Ran an R Training Course for The Children's Society.
 
@@ -43,7 +45,7 @@
 
 - Donated to Shelter, Place 2 Be, Cancer Research UK, Centrepoint, Great Ormond Street, British Heart Foundation, MS Society, Barts charity & No stomach for cancer, Mind, Crisis.
 
-- Attended the CoTech Spring Gathering and sponsored and attended CoTech's Goodnight Disruption event as part of London Tech Week.
+- Attended the CoTech Spring Gathering, sponsored and attended CoTech's Goodnight Disruption event as part of London Tech Week and sponsored a desk in the new Space4 office.
 
 - Enjoyed sharing our office with Chris and Edwin of True Footprint.
 
@@ -52,6 +54,10 @@
 - Celebrated James's 10th anniversary of joining GFR.
 
 - Agreed to stop writing regular "Interesting links" and "Week notes" blog posts. We'd slowly drifted out of the habit of writing these and so made the collective decision to remove them from our list of regular GFR tasks.
+
+- Released 9 updates to Mocha. Excellent work, James, and thanks for all your help, Nitish.
+
+- Enjoyed an average of 34 days holiday each.
 
 ---
 
