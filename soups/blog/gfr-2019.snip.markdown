@@ -1,6 +1,12 @@
 # GFR's 2019
 
+Happy New Year, folks!
+
+One of my more prominent memories of 2019 is the collective stress we felt at the beginning of the year when we were running out of money and struggling to find work. So it's been quite a pleasant experience to write these notes and remember all the good things about the year :-)
+
 ## Review of 2019 goals
+
+I finished the 2018 review post with a list of goals for 2019. Ticking off 5 out of the 7 seems pretty good to me!
 
 - ✓ Earn more money than we spend
 - ✓ Move to an office closer to Waterloo
@@ -23,39 +29,39 @@
 
 - Moved into a new office near Waterloo. And then moved again into a larger office in the same building.
 
-- Officially became a coop! We adopted some coop-compatible Articles of Association and joined Coops UK. Many thanks to Siôn Whellens for all his help.
+- Officially became a coop! We adopted some coop-compatible Articles of Association and joined Coops UK. Many thanks to [Siôn Whellens][sion-whellens] for all his help.
 
-- Launched Mission Patch! It's been used to generate over 150 mission patches, which have been printed over 3000 times. Many thanks to Puck Studios for handling our printing, and to everyone that's bought a sticker.
+- Launched [Mission Patch][mission-patch]! It's been used to generate over 150 mission patches, which have been printed over 3000 times. Many thanks to [Puck Studios][puck-studios] for handling our printing, and to everyone that's bought a sticker.
 
-- Stopped hosting our Show & Tell events. We ran a few in early 2019 before agreeing that the dwindling attendance, along with our own external commitments, meant that it was becoming harder to justify hosting them.
+- Stopped hosting our [Show & Tell events][show-and-tell-events]. We ran a few in early 2019 before agreeing that the dwindling attendance, along with our own external commitments, meant that it was becoming harder to justify hosting them.
 
-- Worked with Business and Human Rights Resource Centre (Modern Slavery Registry), Ctrl Group, Outlandish (School Cuts), FutureLearn (SCA, Google Tag Manager, Microcredentials), The Audience Agency and The University of Oxford.
+- Worked with [Business and Human Rights Resource Centre][bhrrc] ([Modern Slavery Registry][msr]), [Ctrl Group][ctrl-group], [Outlandish][outlandish] ([School Cuts][school-cuts]), [FutureLearn][futurelearn] (SCA, Google Tag Manager, Microcredentials), [The Audience Agency][the-audience-agency] and [The University of Oxford][oxford-uni].
 
-- Ran an R Training Course for The Children's Society.
+- Ran an [R][r] Training Course for [The Children's Society][childrens-society].
 
-- Enjoyed working with Tom W for week when he stepped in to cover some illness.
+- Enjoyed working with [Tom W][tom-ward] for week when he stepped in to cover some illness.
 
 - Applied for, but failed to win, a few DO&S opportunities. One of these was as part of a consortium with another supplier; which was a new experience for us.
 
-- Partnered with Film Fixer to apply for funding from Innovate UK. We were sadly unsuccessful.
+- Partnered with [Film Fixer][film-fixer] to apply for funding from [Innovate UK][innovate-uk]. We were sadly unsuccessful.
 
-- Employed our first intern, Greg, for 8 weeks after he completed his degree at university. We enjoyed having him around and hope that the experience will help him in his search for a full time job.
+- Employed our first intern, [Greg][gregory-bent], for 8 weeks after he completed his degree at university. We enjoyed having him around and hope that the experience will help him in his search for a full time job.
 
 - Held at least 2 away days to discuss the bigger picture of GFR.
 
-- Donated to Shelter, Place 2 Be, Cancer Research UK, Centrepoint, Great Ormond Street, British Heart Foundation, MS Society, Barts charity & No stomach for cancer, Mind, Crisis.
+- Donated to [Shelter][shelter], [Place 2 Be][place-2-be], [Cancer Research UK][cancer-research], [Centrepoint][centrepoint], [Great Ormond Street][gosh], [British Heart Foundation][bhf], [MS Society][ms-society], [Barts charity & No stomach for cancer][seb-marathon], [Mind][mind], [Crisis][crisis].
 
-- Attended the CoTech Spring Gathering, sponsored and attended CoTech's Goodnight Disruption event as part of London Tech Week and sponsored a desk in the new Space4 office.
+- Attended the [CoTech Spring Gathering][cotech-spring-2019], sponsored and attended CoTech's [Goodnight Disruption event][goodnight-disruption] as part of [London Tech Week][london-tech-week] and sponsored a desk in the new [Space4][space4] office.
 
-- Enjoyed sharing our office with Chris and Edwin of True Footprint.
+- Enjoyed sharing our office with [Chris][chris-patuzzo] and Edwin of [True Footprint][true-footprint].
 
-- Joined the global climate strike in week 557 - https://gofreerange.com/week-557
+- Joined the [Global Climate Strike][climate-strike] in September.
 
-- Celebrated James's 10th anniversary of joining GFR.
+- Celebrated [James's 10th anniversary of joining GFR][james-m-gfr-10-years].
 
 - Agreed to stop writing regular "Interesting links" and "Week notes" blog posts. We'd slowly drifted out of the habit of writing these and so made the collective decision to remove them from our list of regular GFR tasks.
 
-- Released 9 updates to Mocha. Excellent work, James, and thanks for all your help, Nitish.
+- Released 9 updates to [Mocha][mocha]. Excellent work, James, and thanks for all your help, [Nitish][nitish].
 
 - Enjoyed an average of 34 days holiday each.
 
@@ -70,6 +76,45 @@
 - Use Mission Patch as a bit of a playground. Don't worry about doing things specifically to make money/generate customers.
 - Another intern?
 - More involved with CoTech?
+
+[bhf]: https://www.bhf.org.uk/
+[bhrrc]: https://www.business-humanrights.org/
+[cancer-research]: https://www.cancerresearchuk.org/
+[centrepoint]: https://centrepoint.org.uk/
+[childrens-society]: https://www.childrenssociety.org.uk/
+[chris-patuzzo]: https://tuzz.tech
+[climate-strike]: https://globalclimatestrike.net/
+[cotech-spring-2019]: https://wiki.coops.tech/wiki/Sheffield_2019
+[crisis]: https://www.crisis.org.uk/
+[ctrl-group]: https://www.ctrl-group.com/
+[film-fixer]: https://filmfixer.co.uk/
+[futurelearn]: https://www.futurelearn.com/
+[goodnight-disruption]: https://attending.io/events/goodnight-disruption-2-london-tech-week
+[gosh]: https://www.gosh.org/
+[gregory-bent]: https://github.com/racingmad
+[innovate-uk]: https://www.gov.uk/government/organisations/innovate-uk
+[james-m-gfr-10-years]: https://twitter.com/freerange/status/1191759396533153793
+[london-tech-week]: https://londontechweek.com/
+[mind]: https://www.mind.org.uk/
+[mission-patch]: https://mission-patch.com/
+[mocha]: https://github.com/freerange/mocha
+[ms-society]: https://www.mssociety.org.uk/
+[msr]: https://www.modernslaveryregistry.org/
+[nitish]: https://github.com/nitishr
+[outlandish]: https://outlandish.com/
+[oxford-uni]: http://www.ox.ac.uk/
+[place-2-be]: https://www.place2be.org.uk/
+[puck-studios]: https://www.puckstudio.co.uk/
+[r]: https://www.r-project.org/
+[school-cuts]: https://schoolcuts.org.uk/
+[seb-marathon]: https://www.justgiving.com/crowdfunding/sebjacobs-berlin-2019
+[shelter]: https://www.shelter.org.uk/
+[show-and-tell-events]: /show-and-tell-events
+[sion-whellens]: https://twitter.com/Scumboni
+[space4]: https://space4.tech/
+[the-audience-agency]: https://www.theaudienceagency.org/
+[tom-ward]: https://twitter.com/tomafro
+[true-footprint]: https://www.truefootprint.com/
 
 :render_as: Blog
 :kind: blog
