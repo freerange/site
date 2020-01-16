@@ -4,7 +4,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We're currently booked up until the beginning of January, but we have some availability after that. We'd love to discuss your ideas with you.
+* *Timing:* We're quite busy until the end of March 2020 but we'd be interested to talk about your project before then. Please get in touch.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
