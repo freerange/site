@@ -18,9 +18,6 @@ I finished the [2018 review post][gfr-2018] with a list of goals for 2019. Ticki
 
 ## 2019 achievements
 
-- TODO
-  - Motivation for goals?
-
 - Earned £356,354 and spent £320,662. Although we did nearly run out of money at the beginning of the year! We struggled to find work in the first few months which led to us all feeling quite stressed. On a positive note I think we're now a little better at business development than we were 12 months ago.
 
 - Worked an average of 118 days each on paid client work.
@@ -69,13 +66,17 @@ I finished the [2018 review post][gfr-2018] with a list of goals for 2019. Ticki
 
 ## 2020 Goals
 
-- Celebrate 10 years of GFR
-- Pay more salary and less dividend
-- Bring more people into GFR?
-- Make more than we spend
-- Use Mission Patch as a bit of a playground. Don't worry about doing things specifically to make money/generate customers.
-- Another intern?
-- More involved with CoTech?
+- Last year Go Free Range turned 10, and we also changed our articles of association to "officially" become a co-op registered with co-ops UK. We'd like to celebrate this with our friends and colleagues.
+
+- For a while we've felt uncomfortable paying ourselves mostly in dividend. Beside the ethical question, it also makes it harder to have different levels of remuneration based on, for example, days worked per week. We're planning to switch to paying ourselves using salary only in 2020.
+
+- While a worker-owned company doesn't need to focus on "growth" to keep investors happy, we are keen to work with different people, and have the capability to work on larger, "full-stack" projects. We're planning to think about ways we could bring more people into GFR, including the idea of taking on another intern (having Greg around was a highlight of 2019).
+
+- After a bumpy patch financially last year we're committed this year to making sure we have enough work to make ends meet.
+
+- We'd like to continue to work on Mission Patch and use it as a bit of a playground for some ideas. Feeling like we have to focus on "marketing" has taken some of the fun out of working on it, so we're going to stop worrying about that for a while and see what happens.
+
+- We'd like to get more involved with CoTech and see where we can help. This may include learning more about [co-operative development](https://www.loomio.org/d/LRPfcChn/barefoot-co-op-development-training-expressions-of-interest-for-6-day-training-programme?utm_source=user_mailer&utm_medium=email&utm_campaign=catch_up) so that we can help other co-ops get off the ground.
 
 [bhf]: https://www.bhf.org.uk/
 [bhrrc]: https://www.business-humanrights.org/
