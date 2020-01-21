@@ -121,9 +121,8 @@ I finished the [2018 review post][gfr-2018] with a list of goals for 2019. Ticki
 :render_as: Blog
 :kind: blog
 :is_page: true
-:draft: true
 :written_with: markdown
 :author: chris-roos
 :created_at: 2020-01-13 12:37:00 +00:00
-:updated_at: 2020-01-13 12:37:00 +00:00
+:updated_at: 2020-01-21 10:11:00 +00:00
 :page_title: GFR's 2019
