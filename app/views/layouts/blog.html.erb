@@ -37,13 +37,7 @@
             <%= yield %>
           </div>
 
-          <div id="comments" class="comments">
-            <% if Rails.env.production? %>
-              <%= render partial: 'shared/disqus_commenting' %>
-            <% else %>
-              Disqus commenting is only enabled in production.
-            <% end %>
-          </div>
+          <%= render partial: 'shared/commenting' %>
         </div>
 
         <div id="article_links">
