@@ -29,7 +29,7 @@ We've been doing our best to respond to everyone, but apologies if we don't get 
 [PRA]: http://www.bankofengland.co.uk/pra/
 [FCA]: http://www.fca.org.uk/
 [GFR Twitter]: https://twitter.com/freerange
-[GFR Disqus]: https://disqus.com/home/forums/gofreerange
+[GFR Disqus]: https://disqus.com/home/forums/gofreerange/
 [day 4 next steps]: /project-credit-union-day-4#next-steps
 [day 5 alternatives to credit unions]: /project-credit-union-day-5#alternatives-to-credit-unions
 [manifesto]: https://github.com/freerange/credit-union/wiki#manifesto
