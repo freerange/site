@@ -1,7 +1,7 @@
 Week 575
 ========
 
-- Chris and I spent about a day working on the project for Oxford University. We're building a tool to help people report on and visualise characteristics of light. I'm enjoying working in/learning about a subject I'm unfamiliar with; and am also enjoying the change offered by developing it all in client side JavaScript. Chris fixed a bug in our JS port of a Matlab function, and I used [chart.js][chart-js] to add a visualisation of the uploaded light spectra.
+- Chris and I spent about a day working on the project for the University of Oxford. We're building a tool to help people report on and visualise characteristics of light. I'm enjoying working in/learning about a subject I'm unfamiliar with; and am also enjoying the change offered by developing it all in client side JavaScript. Chris fixed a bug in our JS port of a Matlab function, and I used [chart.js][chart-js] to add a visualisation of the uploaded light spectra.
 
 - James continued to catch up on some of the great work Nitish and others have been doing on [Mocha][mocha]. I was particularly interested to learn about some of [Nitish's motivations for working on Mocha][nitish-mocha]. James has created a Mocha Slack channel to facilitate more ad hoc conversation about the project.
 
