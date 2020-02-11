@@ -5,7 +5,7 @@ Week commencing 3 Feb 2020.
 
 - Chris was on holiday all week, I was on holiday Thursday and Friday and Ben had a couple of days off sick. Leaving James to hold everything together in our absence. Thanks, James! Normal service should resume next week.
 
-- I spent some time working on The Oxford University project. We're currently using chart.js to plot wavelength vs spectral irradiance of user-supplied spectra. I spiked on normalising the spectral irradiance so that it's easier to visually compare the spectra in a single chart.
+- I spent some time working on The University of Oxford project. We're currently using chart.js to plot wavelength vs spectral irradiance of user-supplied spectra. I spiked on normalising the spectral irradiance so that it's easier to visually compare the spectra in a single chart.
 
 - James continued to improve the scheduled tasks we use to backup our Trello boards and Google Drive. These tasks run in containers in AWS and, by default, are created in a private subnet that uses a NAT gateway to connect to the Internet. These NAT gateways are _relatively_ expensive so James has changed the task to run in a public subnet instead. He's also been removing sensitive configuration baked into the container image by using environment variables, IAM roles and the AWS Secrets Manager instead. This is all with the goal of us being able to open source the projects in future. Oh, and he's also been [contributing back to the CDK project][aws-cdk-6076] along the way.
 
