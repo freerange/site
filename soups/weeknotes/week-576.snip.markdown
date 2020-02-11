@@ -9,7 +9,7 @@ Week 576
 
 - We've been added to [Dovetail][dovetail]: a prototype of a site that aims to help charities find digital agencies. We, along with some of the other [CoTech][cotech] members, requested that a "business type" field be added to each listing so make it easy to differentiate between types of suppliers.
 
-- We think we're finally set-up in the procurement system at [Oxford University][oxford-university] which means we should be able to get paid for the work we've been doing!
+- We think we're finally set-up in the procurement system at [University of Oxford][oxford-university] which means we should be able to get paid for the work we've been doing!
 
 - AF2 work included importing/displaying more survey information on the audience report, using the new catchment area calculation in one of the Insights that helps users take action based on their data and relaxing our postcode parsing to handle more common data-entry errors.
 
