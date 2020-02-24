@@ -46,11 +46,10 @@ Week beginning Mon 17 Feb.
 [taa]: https://www.theaudienceagency.org/
 
 :name: week-579
-:updated_at: 2020-02-24 10:29:15.764418000 +00:00
-:created_at: 2020-02-24 10:29:15.764416000 +00:00
+:updated_at: 2020-02-24 15:26:39.790742000 +00:00
+:created_at: 2020-02-24 15:26:39.790731000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
