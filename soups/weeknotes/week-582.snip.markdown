@@ -17,7 +17,7 @@ Howdi folks. I hope you're all staying physically and mentally healthy during th
 
 ## TAA
 
-- Made some improvements to the was we calculate catchment areas for venues. This is good but we're still struggling to explain what the catchment area is so there's more work to do.
+- Made some improvements to the way we calculate catchment areas for venues. This is good but we're still struggling to explain what the catchment area is so there's more work to do.
 
 - Added the ability to print to PDF. We're using an AWS Lambda and headless Chrome to allow users to print the report using the print stylesheet.
 
