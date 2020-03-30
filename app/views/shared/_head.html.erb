@@ -14,4 +14,8 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="alternate" href="//feeds.gofreerange.com/GoFreeRangeBlog" title="Go Free Range Blog" type="application/atom+xml" />
 
+<% if @snip && (canonical_url = @snip.canonical_url) %>
+  <link rel="canonical" href="<%= canonical_url %>" />
+<% end %>
+
 <%= content_for :javascripts %>
