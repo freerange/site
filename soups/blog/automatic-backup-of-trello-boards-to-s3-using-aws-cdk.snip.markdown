@@ -14,8 +14,6 @@ Previously if a cron job failed on our VPS, it would email us via [Postfix][]. W
 
 If you're interested you can find [the source code on GitHub][trello-backup].
 
-_This article was <%= link_to 'originally published', @snip.canonical_url, rel: 'canonical' %> on James' blog._
-
 [AWS CDK]: https://docs.aws.amazon.com/cdk/latest/guide/home.html
 [Go Free Range]: https://gofreerange.com/
 [Linode]: https://www.linode.com/
