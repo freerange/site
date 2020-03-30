@@ -14,6 +14,8 @@ Previously if a cron job failed on our VPS, it would email us via [Postfix][]. W
 
 If you're interested you can find [the source code on GitHub][trello-backup].
 
+_This article was <a rel="canonical" href="https://jamesmead.org/blog/2020-03-30-automatic-backup-of-trello-boards-to-s3-using-aws-cdk">originally published</a> on James' blog._
+
 [AWS CDK]: https://docs.aws.amazon.com/cdk/latest/guide/home.html
 [Go Free Range]: https://gofreerange.com/
 [Linode]: https://www.linode.com/
