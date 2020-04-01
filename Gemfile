@@ -10,6 +10,7 @@ gem 'aws-sdk-s3', '~> 1'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'puma', '~> 4'
 gem 'recaptcha', '~> 4'
+gem 'rollbar'
 
 group :assets, :development do
   gem 'sass-rails', '~> 5'
