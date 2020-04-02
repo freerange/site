@@ -91,8 +91,8 @@ describe Slack::InvitationsController do
         expect(flash.now[:alert]).to eq(error_message)
       end
 
-      it 'reports error to airbrake' do
-        expect(controller).to receive(:notify_airbrake).with(error_message)
+      it 'reports error to Rollbar' do
+        expect(Rollbar).to receive(:error).with(error_message)
         post :create, params: params
       end
     end
@@ -112,8 +112,8 @@ describe Slack::InvitationsController do
         expect(flash.now[:alert]).to eq(error_message)
       end
 
-      it 'reports error to airbrake' do
-        expect(controller).to receive(:notify_airbrake).with(error_message)
+      it 'reports error to Rollbar' do
+        expect(Rollbar).to receive(:error).with(error_message)
         post :create, params: params
       end
     end

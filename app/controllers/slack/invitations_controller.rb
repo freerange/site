@@ -30,7 +30,7 @@ module Slack
 
       unless response.code == '200'
         error_message = "Slack API error: #{response.code} #{response.message}"
-        notify_airbrake(error_message)
+        Rollbar.error(error_message)
         flash.now[:alert] = error_message
         render :new
         return
@@ -39,7 +39,7 @@ module Slack
       json = JSON.parse(response.body)
       unless json['ok']
         error_message = "Slack API error: #{json['error']}"
-        notify_airbrake(error_message)
+        Rollbar.error(error_message)
         flash.now[:alert] = error_message
         render :new
         return
