@@ -16,13 +16,11 @@ Set `TINIFY_API_KEY` and run `bundle exec rake assets:compress_images`.
 
 When commits are pushed to the `master` branch on the GitHub remote, the specs are run on Heroku CI and, if the specs all pass, the app is automatically deployed.
 
-### Configuring Airbrake
+### Configuring Rollbar
 
-So that exceptions are reported to our Errbit app. You may need to create a new "app" within the Errbit instance in order to obtain the API key, which is "app"-specific.
+So that exceptions are reported to Rollbar. You will need to create a new project within Rollbar in order to obtain the API key, which is project-specific.
 
-    $ heroku config:set AIRBRAKE_PROJECT_ID=<id-for-this-app-within-errbit-app>
-    $ heroku config:set AIRBRAKE_API_KEY=<api-key-for-this-app-within-errbit-app>
-    $ heroku config:set AIRBRAKE_HOST=<errbit-app-host-including-scheme>
+    $ heroku config:add ROLLBAR_ACCESS_TOKEN=<rollbar-access-token>
 
 ### Configure secret key
 
