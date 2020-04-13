@@ -1,5 +1,5 @@
 <% if member.image.present? %>
-  <img src="<%= image_path(member.image) %>" alt="Photo of <%= member.name.titleize %>"/>
+  <img width="148" height="148" src="<%= image_path(member.image) %>" alt="Photo of <%= member.name.titleize %>"/>
 <% end %>
 <div class="info">
   <h3><%= member.name.titleize %></h3>
