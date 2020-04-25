@@ -1,0 +1,13 @@
+$ORIGIN gfr.coop.
+$TTL 1h
+gfr.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1587811370 86400 7200 604800 300
+gfr.coop. 3600 IN NS ns1.dnsimple.com.
+gfr.coop. 3600 IN NS ns2.dnsimple.com.
+gfr.coop. 3600 IN NS ns3.dnsimple.com.
+gfr.coop. 3600 IN NS ns4.dnsimple.com.
+gfr.coop. 3600 IN A 217.70.184.38
+www.gfr.coop. 3600 IN CNAME webredir.vip.gandi.net.
+blog.gfr.coop. 3600 IN CNAME blogs.vip.gandi.net.
+gfr.coop. 3600 IN MX 10 spool.mail.gandi.net.
+gfr.coop. 3600 IN MX 50 fb.mail.gandi.net.
+gfr.coop. 3600 IN TXT "v=spf1 include:_mailcust.gandi.net ?all"
