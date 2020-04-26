@@ -1,8 +1,10 @@
 $ORIGIN gfr.coop.
 $TTL 1h
-gfr.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1587811379 86400 7200 604800 300
+gfr.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1587811387 86400 7200 604800 300
 gfr.coop. 3600 IN NS ns1.dnsimple.com.
 gfr.coop. 3600 IN NS ns2.dnsimple.com.
 gfr.coop. 3600 IN NS ns3.dnsimple.com.
 gfr.coop. 3600 IN NS ns4.dnsimple.com.
 _b0cd9a2f863678823f485aeb85460268.gfr.coop. 3600 IN CNAME _6b38a62591515685e627c9757082be1f.auiqqraehs.acm-validations.aws.
+; gfr.coop. 3600 IN ALIAS d2u3yc3cizdv6s.cloudfront.net.
+gfr.coop. 3600 IN TXT "ALIAS for d2u3yc3cizdv6s.cloudfront.net"
