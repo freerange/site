@@ -1,8 +1,9 @@
-We worked with [James Haycock][] ([Adaptive Lab][]) from January to June 2010, providing the development expertise to bootstrap and build [TellYouGov][], at platform for aggregating and analysing brand sentiment across the web. An archived version of the website can be found [in the Internet Archive](https://web.archive.org/web/20120416035947/http://www.tellyougov.com:80/).
+We worked with [James Haycock][] ([Adaptive Lab][]) from January to June 2010, providing the development expertise to bootstrap and build [TellYouGov][] for [YouGov][], a platform for aggregating and analysing brand sentiment across the web.
 
-[TellYouGov]: http://tellyougov.com
-[Adaptive Lab]: http://www.adaptivelab.co.uk/
-[James Haycock]: http://www.jameshaycock.co.uk/
+[TellYouGov]: https://web.archive.org/web/20120416035947/http://www.tellyougov.com:80/
+[Adaptive Lab]: https://www.adaptivelab.com/
+[James Haycock]: https://www.jameshaycock.com/
+[YouGov]: https://yougov.co.uk/
 
 :kind: project
 :display_name: "TellYouGov"
