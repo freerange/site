@@ -68,4 +68,11 @@ Rollbar.configure do |config|
   # setup for Heroku. See:
   # https://devcenter.heroku.com/articles/deploying-to-a-custom-rails-environment
   config.environment = ENV['ROLLBAR_ENV'].presence || Rails.env
+
+  config.before_process << proc do |options|
+    rescue_responses = ActionDispatch::ExceptionWrapper.rescue_responses
+    if rescue_responses[options[:exception].class.to_s] != :internal_server_error
+      raise Rollbar::Ignore
+    end
+  end
 end
