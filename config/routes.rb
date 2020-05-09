@@ -18,10 +18,6 @@ Rails.application.routes.draw do
     resources :assets, only: %(show)
   end
 
-  namespace :slack do
-    resources :invitations, only: %i(new create)
-  end
-
   get '/hello-printer', to: redirect('https://exciting.io/2012/04/12/hello-printer')
   get '/printer-questions', to: redirect('https://exciting.io/2012/05/01/printer-questions')
   get '/printer-kit', to: redirect('https://exciting.io/printer')

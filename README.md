@@ -27,15 +27,6 @@ So that exceptions are reported to Rollbar. You will need to create a new projec
     $ rails secret | pbcopy
     $ heroku config:set SECRET_KEY_BASE=`pbpaste`
 
-### Show & Tell Slack invitation form
-
-    $ heroku config:set SLACK_API_TOKEN=<value-obtained-from-slack>
-    $ heroku config:set RECAPTCHA_SECRET_KEY=<secret-key-obtained-from-google>
-    $ heroku config:set RECAPTCHA_SITE_KEY=<site-key-obtained-from-google>
-
-* A Slack API token can be obtained [here](https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens#-legacy-test-tokens).
-* reCAPTCHA keys can be obtained [here](https://www.google.com/recaptcha/admin)
-
 ## Writing a snip
 
 A snip is just a text file within the "soup", like "here-is-my-stuff.snip". You can write whatever you like in the file, and it will be rendered as is when you visit http://yoursite/here-is-my-stuff.
