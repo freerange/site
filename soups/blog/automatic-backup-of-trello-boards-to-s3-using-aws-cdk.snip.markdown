@@ -1,3 +1,6 @@
+Automatic backup of Trello boards to S3 using the AWS CDK
+=======
+
 Over the last year or so, I've been using the [AWS CDK][] to setup AWS infrastructure for a number of internal [Go Free Range][] projects and I thought I'd try to write a bit about my experiences.
 
 I started off by converting an existing project which backed up our company [Trello][] boards to an AWS S3 bucket. This was originally a relatively simple Ruby script which ran as a cron job on our [Linode][] VPS. The script used the Trello API (via `Net::HTTP`) to list the company boards and then downloaded a single large JSON blob for each board. It then used the the Ruby version of the [AWS SDK][] to save each JSON blob to a file in a versioned S3 bucket.
