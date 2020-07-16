@@ -17,7 +17,7 @@ From week commencing Mon 6 April to week commencing Mon 13 July.
 
 - Ben contributed to another grant application with Manuel (product owner for Lightbox), did some work with [CAST][cast]/[Catalyst][catalyst] on a project aimed at helping charities, and has now started working with Outlandish on another of their projects.
 
-- Chris is mostly working on the TAA project with me but is also finding time to participate in a Coop Development Training course and work on some fairly gnarly colour calculations in Lightbox. We're making slow but steady progress on Lightbox and really appreciate Manuel's patience while things have been so unsettled.
+- Chris is mostly working on the TAA project with me but is also finding time to participate in a a [Barefoot Co-op Development Training course][barefoot] and work on some fairly gnarly colour calculations in Lightbox. We're making slow but steady progress on Lightbox and really appreciate Manuel's patience while things have been so unsettled.
 
 - Ben, Chris and James collaborated on the application for a [DOS][dos] opportunity to upgrade Ruby and Rails on various [GDS][gds] projects. We were shortlisted but unfortunately ended up just missing out to [Unboxed][unboxed].
 
@@ -70,6 +70,7 @@ Until next time.
 [tuple]:
 [unboxed]:
 [week-585]:
+[barefoot]: https://www.thenews.coop/127746/topic/education/can-co-op-co-op-training-help-drive-worker-co-operative-development/
 
 :name: week-600
 :updated_at: 2020-06-30 10:46:34.615068000 +01:00
