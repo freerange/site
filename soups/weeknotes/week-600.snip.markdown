@@ -9,6 +9,8 @@ From week commencing Mon 6 April to week commencing Mon 13 July.
 
 - I managed to work about 3 days a week by sharing childcare with my partner and working some weekends. Our daughter went back to nursery a couple of weeks ago and so I'm now able to work 4 days a week, and have weekends back. I've spent the last three months working on Lightbox, the [National Business Response Network][nbrn] and with [The Audience Agency][taa].
 
+- We resumed working with TAA in week 591. We've added artform coding to the app (replacing a very manual process), spiked on some potential Insights around Recency, Frequency, Value (using [Blazer][blazer] to prototype), and started working out to provide more timely access to survey responses. I've mostly been pairing with James Trinder. We've been using [Tuple][tuple] for remote pairing which seems to work really well.
+
 - James has been working at least full time (and almost certainly more) over the last 3 months: working at least 4 days a week with FutureLearn and then a day or more on GFR related business. At FutureLearn, James has been involved in delivering COVID-19 related iterations of the [FutureLearn Campus][] and [FutureLearn for Schools][] products. I'm very happy that he's recently taken a week off but am also very conscious that things haven't been equitable. I don't know what we'll do about it but hope we can do something to rebalance things in the near future.
 
 - [Outlandish][outlandish] were good enough to think of us when they needed an extra pair of hands on the National Business Response Network project. I enjoyed the few days I had to work on the project. It's written in [Laravel][laravel] which felt similar enough to Rails to allow me to feel fairly productive despite not having used it before.
@@ -27,7 +29,7 @@ From week commencing Mon 6 April to week commencing Mon 13 July.
 
 - In contrast to the furlough process I found myself quite confused by the terminology/concepts in the [Small Business Grant Scheme][small-business-grant]. We eventually got our application in and have now received the funds, which is a great relief.
 
-I'm sure I've missed lots of what's happened but this should give a bit of a flavour of our activities over the past few months.
+I'm sure I've missed lots of what's happened but this should give a bit of a flavour of our life over the past few months.
 
 Until next time.
 
@@ -35,6 +37,7 @@ Until next time.
 
 [barefoot]: https://www.thenews.coop/127746/topic/education/can-co-op-co-op-training-help-drive-worker-co-operative-development/
 [ben-griffiths]: /ben-griffiths
+[blazer]: https://github.com/ankane/blazer
 [cast]: https://wearecast.org.uk/
 [catalyst]: https://www.thecatalyst.org.uk/
 [chris-lowis]: /chris-lowis
