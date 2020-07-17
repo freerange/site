@@ -9,7 +9,7 @@ From week commencing Mon 6 April to week commencing Mon 13 July.
 
 - I managed to work about 3 days a week by sharing childcare with my partner and working some weekends. Our daughter went back to nursery a couple of weeks ago and so I'm now able to work 4 days a week, and have weekends back. I've spent the last three months working on Lightbox, the [National Business Response Network][nbrn] and with [The Audience Agency][taa].
 
-- James has been working at least full time (and almost certainly more) over the last 3 months: working at least 4 days a week with FutureLearn and then a day or more on GFR related business. I'm very happy that he's taken a week off but am also very conscious that things haven't been equitable. I don't know what we'll do about it but hope we can do something to rebalance things in the near future.
+- James has been working at least full time (and almost certainly more) over the last 3 months: working at least 4 days a week with FutureLearn and then a day or more on GFR related business. At FutureLearn, James has been involved in delivering COVID-19 related iterations of the [FutureLearn Campus][] and [FutureLearn for Schools][] products. I'm very happy that he's recently taken a week off but am also very conscious that things haven't been equitable. I don't know what we'll do about it but hope we can do something to rebalance things in the near future.
 
 - [Outlandish][outlandish] were good enough to think of us when they needed an extra pair of hands on the National Business Response Network project. I enjoyed the few days I had to work on the project. It's written in [Laravel][laravel] which felt similar enough to Rails to allow me to feel fairly productive despite not having used it before.
 
@@ -71,6 +71,8 @@ Until next time.
 [unboxed]:
 [week-585]:
 [barefoot]: https://www.thenews.coop/127746/topic/education/can-co-op-co-op-training-help-drive-worker-co-operative-development/
+[FutureLearn Campus]: https://www.futurelearn.com/info/research-insights/introducing-futurelearn-campus
+[FutureLearn for Schools]: https://www.futurelearn.com/courses/collections/futurelearn-schools
 
 :name: week-600
 :updated_at: 2020-06-30 10:46:34.615068000 +01:00
