@@ -27,50 +27,32 @@ From week commencing Mon 6 April to week commencing Mon 13 July.
 
 - In contrast to the furlough process I found myself quite confused by the terminology/concepts in the [Small Business Grant Scheme][small-business-grant]. We eventually got our application in and have now received the funds, which is a great relief.
 
-- We've been struggling to fit GFR time into our schedules.
-
----
-
-## The Audience Agency
-
-- We resumed working with TAA in week 591.
-
-- We've added artform coding to the app. Something that only happens every quarter and takes a lot of manual effort. This feels like a big win! It automatically splits performances based on certain rules - currently manual - and allows users to choose the artform of the performance, or to exclude it entirely.
-
-- Spiking on potential Insights around Recency, Frequency, Value. We're using Blazer to prototype these in the app before building them for real. This has highlighted some inefficiencies in our database schema that we hope to address soon.
-
-- Investigation into surveys and how best to incorporate them in AF2.
-
-- I've mostly been pairing with James Trinder. We've used [Tuple][tuple] in anger quite a lot. It seems to work really well.
-
----
-
 I'm sure I've missed lots of what's happened but this should give a bit of a flavour of our activities over the past few months.
 
 Until next time.
 
 -- Chris
 
-[ben-griffiths]: /ben-griffiths
-[cast]:
-[catalyst]: https://www.thecatalyst.org.uk/
-[chris-lowis]:
-[dos]:
-[freeagent]:
-[futurelearn]:
-[gds]:
-[james-mead]:
-[laravel]:
-[nbrn]:
-[outlandish]:
-[sendboard]:
-[small-business-grant]:
-[taa]:
-[trello]:
-[tuple]:
-[unboxed]:
-[week-585]:
 [barefoot]: https://www.thenews.coop/127746/topic/education/can-co-op-co-op-training-help-drive-worker-co-operative-development/
+[ben-griffiths]: /ben-griffiths
+[cast]: https://wearecast.org.uk/
+[catalyst]: https://www.thecatalyst.org.uk/
+[chris-lowis]: /chris-lowis
+[dos]: https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities
+[freeagent]: https://www.freeagent.com/
+[futurelearn]: https://www.futurelearn.com/
+[gds]: https://gds.blog.gov.uk/
+[james-mead]: /james-mead
+[laravel]: https://laravel.com/
+[nbrn]: https://businessresponsecovid.org.uk/
+[outlandish]: https://outlandish.com/
+[sendboard]: https://sendboard.com/
+[small-business-grant]: https://www.gov.uk/guidance/check-if-youre-eligible-for-the-coronavirus-small-business-grant-fund
+[taa]: https://www.theaudienceagency.org/
+[trello]: https://trello.com
+[tuple]: https://tuple.app/
+[unboxed]: https://unboxed.co/
+[week-585]: /week-585
 [FutureLearn Campus]: https://www.futurelearn.com/info/research-insights/introducing-futurelearn-campus
 [FutureLearn for Schools]: https://www.futurelearn.com/courses/collections/futurelearn-schools
 
