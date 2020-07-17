@@ -60,11 +60,10 @@ Until next time.
 [FutureLearn for Schools]: https://www.futurelearn.com/courses/collections/futurelearn-schools
 
 :name: week-600
-:updated_at: 2020-06-30 10:46:34.615068000 +01:00
-:created_at: 2020-06-30 10:46:34.615067000 +01:00
+:updated_at: 2020-07-17 18:03:07.653350000 +01:00
+:created_at: 2020-07-17 18:03:07.653341000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
