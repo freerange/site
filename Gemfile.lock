@@ -224,7 +224,7 @@ DEPENDENCIES
   tinify
 
 RUBY VERSION
-   ruby 2.5.7p206
+   ruby 2.5.8p224
 
 BUNDLED WITH
    1.17.3
