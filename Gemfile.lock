@@ -152,7 +152,7 @@ GEM
       json
     regexp_parser (1.6.0)
     rexml (3.2.4)
-    rollbar (2.24.0)
+    rollbar (3.0.0)
     rspec-core (3.8.2)
       rspec-support (~> 3.8.0)
     rspec-expectations (3.8.4)
