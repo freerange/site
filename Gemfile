@@ -7,7 +7,7 @@ gem 'soup', '~> 1'
 gem 'kramdown', '~> 2'
 gem 'aws-sdk-s3', '~> 1'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'puma', '~> 4'
+gem 'puma', '~> 5'
 gem 'recaptcha', '~> 4'
 gem 'rollbar'
 
