@@ -11,7 +11,7 @@ gem 'puma', '~> 5'
 gem 'rollbar'
 
 group :assets, :development do
-  gem 'sass-rails', '~> 5'
+  gem 'sass-rails', '~> 6'
 end
 
 group :development do
