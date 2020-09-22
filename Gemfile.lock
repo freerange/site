@@ -204,19 +204,19 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk-s3 (~> 1)
+  aws-sdk-s3 (~> 1.48)
   bootsnap (>= 1.1.0)
-  capybara (~> 3)
-  dotenv-rails (~> 2)
-  kramdown (~> 2)
+  capybara (~> 3.33)
+  dotenv-rails (~> 2.7)
+  kramdown (~> 2.3)
   listen (>= 3.0.5, < 3.2)
   puma (~> 5)
-  rails (~> 5)
-  rails-controller-testing (~> 1)
+  rails (~> 5.2)
+  rails-controller-testing (~> 1.0)
   rollbar
-  rspec-rails (~> 4)
-  sass-rails (~> 6)
-  soup (~> 1)
+  rspec-rails (~> 4.0)
+  sass-rails (~> 6.0)
+  soup (~> 1.0)
   timecop
   tinify
 
