@@ -2,7 +2,7 @@
 ; Paste the zonefile below this line:
 $ORIGIN gofreerange.com.
 $TTL 1h
-gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827382 86400 7200 604800 300
+gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827388 86400 7200 604800 300
 gofreerange.com. 3600 IN NS ns1.dnsimple.com.
 gofreerange.com. 3600 IN NS ns2.dnsimple.com.
 gofreerange.com. 3600 IN NS ns3.dnsimple.com.
@@ -34,5 +34,7 @@ gofreerange.com. 3600 IN TXT "ALIAS for adjacent-temple-lktfu02di91skw9vz2ff6wzh
 _371083cc9e3b4573f69c7571d1c5d2cb.blackwell.gofreerange.com. 3600 IN CNAME _1ae9f8bd1a8d5875f7208b5e6f7d42fd.hkvuiqjoua.acm-validations.aws.
 blackwell.gofreerange.com. 60 IN CNAME black-Appli-6BPAZ5E7RCB7-1848132714.eu-west-1.elb.amazonaws.com.
 _amazonses.gofreerange.com. 3600 IN TXT "pcErQAJGrjzvZYiaY2FWyG2QmbZ6IACH/kqmnjFQ/0M="
-20200516112239pm._domainkey.gofreerange.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZGW915R2a0aV2aZuXqVg6zavT2VW6Jh4vF9o5gp8paqTLO9NYq6n1LDWQs0dKWWHvFAyQCE9MJfLi7xI0o2PIt0vxo/4kKRF8N+cbXYuaEurH69eym+r5tob9gOhPtu9mpQgVz/CIUArOqiXyhJzmN9auto8FooVaE/89lUxTlQIDAQAB"
 pm-bounces.gofreerange.com. 3600 IN CNAME pm.mtasv.net.
+20200924121540pm._domainkey.gofreerange.com. 60 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDG+uahIGZtqShvzKwuLtwwird8KwGIJSd2mJ4xJP6B1fwn6A1cNkKezXauYmhiKaZwnS4Gt4tvYImFgfEoO7HOENRC0ZxUy0jI+AgasoMGhNvN2hHUvdPZvethvp8bYccedsU3SQTbLH4Nujnhw8Lzh08it/Ri0fyNhpmG9WFDgQIDAQAB"
+freeagent-mailer.gofreerange.com. 3600 IN CNAME pm.mtasv.net.
+20200516112239pm._domainkey.gofreerange.com. 60 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZGW915R2a0aV2aZuXqVg6zavT2VW6Jh4vF9o5gp8paqTLO9NYq6n1LDWQs0dKWWHvFAyQCE9MJfLi7xI0o2PIt0vxo/4kKRF8N+cbXYuaEurH69eym+r5tob9gOhPtu9mpQgVz/CIUArOqiXyhJzmN9auto8FooVaE/89lUxTlQIDAQAB"
