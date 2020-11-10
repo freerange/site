@@ -16,7 +16,7 @@ end
 
 group :development do
   gem 'dotenv-rails', '~> 2.7'
-  gem 'listen', '>= 3.0.5', '< 3.3'
+  gem 'listen', '>= 3.0.5', '< 3.4'
   gem 'tinify'
 end
 

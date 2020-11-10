@@ -102,7 +102,7 @@ GEM
     jmespath (1.4.0)
     kramdown (2.3.0)
       rexml
-    listen (3.2.1)
+    listen (3.3.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.7.0)
@@ -223,7 +223,7 @@ DEPENDENCIES
   capybara (~> 3.33)
   dotenv-rails (~> 2.7)
   kramdown (~> 2.3)
-  listen (>= 3.0.5, < 3.3)
+  listen (>= 3.0.5, < 3.4)
   puma (~> 5)
   rails (~> 6.0)
   rails-controller-testing (~> 1.0)
