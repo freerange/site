@@ -8,4 +8,4 @@
 
 # Change the default HTTP status code to `308` when redirecting non-GET/HEAD
 # requests to HTTPS in `ActionDispatch::SSL` middleware.
-# Rails.application.config.action_dispatch.ssl_default_redirect_status = 308
+Rails.application.config.action_dispatch.ssl_default_redirect_status = 308
