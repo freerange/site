@@ -9,6 +9,3 @@
 # Change the default HTTP status code to `308` when redirecting non-GET/HEAD
 # requests to HTTPS in `ActionDispatch::SSL` middleware.
 # Rails.application.config.action_dispatch.ssl_default_redirect_status = 308
-
-# Make `form_with` generate non-remote forms by default.
-# Rails.application.config.action_view.form_with_generates_remote_forms = false
