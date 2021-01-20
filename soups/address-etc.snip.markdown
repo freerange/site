@@ -1,16 +1,4 @@
-### Come and see us
-
-<p>We're based in <a href="https://goo.gl/maps/hZnDkMvWZqR2">Southwark</a> &mdash; why not pop in for a cuppa?</p>
-
-<div class="vcard">
-  <div class="adr">
-    <p class="post-office-box">Go Free Range Ltd</p>
-    <p class="street-address">The Foundry</p>
-    <p class="street-address">156 Blackfriars Road</p>
-    <p class="locality">London</p>
-    <p class="postal-code">SE1 8EN</p>
-  </div>
-</div>
+### Get in touch
 
 <div class="contact-methods">
   <p class="phone">Phone: +44 (0)20 3823 6286</p>
