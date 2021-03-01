@@ -72,7 +72,7 @@ GEM
     aws-sdk-kms (1.42.0)
       aws-sdk-core (~> 3, >= 3.112.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.88.2)
+    aws-sdk-s3 (1.89.0)
       aws-sdk-core (~> 3, >= 3.112.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.1)
@@ -223,7 +223,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk-s3 (~> 1.88)
+  aws-sdk-s3 (~> 1.89)
   bootsnap (>= 1.1.0)
   capybara (~> 3.35)
   dotenv-rails (~> 2.7)
