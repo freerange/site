@@ -7,9 +7,11 @@
 <meta name="keywords" content="ruby rails software development london" />
 <meta name="format-detection" content="telephone=no">
 
+<% unless css_naked_day? %>
 <%= stylesheet_link_tag 'application' %>
 <%= stylesheet_link_tag 'https://use.typekit.net/rny4upv.css' %>
 <%= content_for :stylesheets %>
+<% end %>
 
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
