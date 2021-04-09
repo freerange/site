@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <%= render partial: 'shared/head' %>
-    <title>
-      Go Free Range build outstanding software for the web.
-    </title>
-  </head>
-  <body class="<%= body_class(@snip) %> <%= day_of_week %>">
-    <div id="page">
-      <div id="header" class="group">
-        <%= render partial: 'shared/top_nav' %>
-        <%= render partial: 'shared/logo' %>
-      </div>
-      <div id="content" class="group">
-        <%= yield %>
-      </div>
-    </div>
-  </body>
-</html>
+<% content_for(:default_title) do %>Go Free Range build outstanding software for the web.<% end %>
+<% content_for(:header) do %>
+  <%= render partial: 'shared/top_nav' %>
+  <%= render partial: 'shared/logo' %>
+<% end %>
+
+<%= render template: 'layouts/application' %>

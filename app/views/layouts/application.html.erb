@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <%= yield :head %>
     <%= render partial: 'shared/head' %>
     <title>
-      <%= @snip.page_title || 'Go Free Range build outstanding software for the web.' %>
+      <% default_title = content_for(:default_title) || 'Go Free Range build outstanding software for the web.' %>
+      <%= (@snip && @snip.page_title) || default_title %><%= content_for(:title_suffix) %>
     </title>
   </head>
-  <body class="<%= body_class(@snip) %> <%= day_of_week %>">
+  <% body_class = content_for(:body_class) || body_class(@snip) %>
+  <%= content_tag(:body, class: [body_class, day_of_week]) do %>
     <div id="page">
       <div id="header" class="group">
-        <%= render partial: 'shared/top_nav' %>
-        <%= render partial: 'shared/logo' %>
+        <% if content_for?(:header) %>
+          <%= content_for(:header) %>
+        <% else %>
+          <%= render partial: 'shared/top_nav' %>
+          <%= render partial: 'shared/logo' %>
+        <% end %>
       </div>
       <div id="content" class="group">
-        <%= yield %>
+        <%= content_for?(:content) ? yield(:content) : yield %>
       </div>
     </div>
-  </body>
+  <% end %>
 </html>

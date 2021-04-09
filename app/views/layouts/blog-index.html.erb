@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <%= render partial: 'shared/head' %>
-    <title>
-      <%= @snip.page_title || 'Assorted Essays' %> &mdash; Go Free Range.
-    </title>
-  </head>
-  <body class="blog <%= day_of_week %>">
-    <div id="page">
-      <div id="header" class="group">
-        <%= render partial: 'shared/blog_nav' %>
-        <%= render partial: 'shared/blog_logo' %>
-      </div>
-      <div id="content" class="group">
-        <%= yield %>
-      </div>
-    </div>
-  </body>
-</html>
+<% content_for(:default_title) do %>Assorted Essays<% end %>
+<% content_for(:title_suffix) do %> &mdash; Go Free Range.<% end %>
+<% content_for(:body_class) do %>blog<% end %>
+<% content_for(:header) do %>
+  <%= render partial: 'shared/blog_nav' %>
+  <%= render partial: 'shared/blog_logo' %>
+<% end %>
+
+<%= render template: 'layouts/application' %>

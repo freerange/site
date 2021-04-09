@@ -1,56 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <% if @snip.video_js %>
-      <% content_for :stylesheets do %>
-        <link href="//vjs.zencdn.net/4.7.2/video-js.css" rel="stylesheet" />
-      <% end %>
-      <% content_for :javascripts do %>
-        <script src="//vjs.zencdn.net/4.7.2/video.js"></script>
-      <% end %>
+<% content_for(:title_suffix) do %> &mdash; Go Free Range.<% end %>
+<% content_for(:body_class) do %>blog<% end %>
+
+<% content_for(:head) do %>
+  <% if @snip.video_js %>
+    <% content_for :stylesheets do %>
+      <link href="//vjs.zencdn.net/4.7.2/video-js.css" rel="stylesheet" />
     <% end %>
-    <%= render partial: 'shared/head' %>
-    <title>
-      <%= @snip.page_title %> &mdash; Go Free Range.
-    </title>
-  </head>
-  <body class="blog <%= day_of_week %>">
-    <div id="page">
-      <div id="header" class="group">
-        <%= render partial: 'shared/blog_nav' %>
-        <%= render partial: 'shared/blog_logo' %>
-      </div>
-      <div id="content" class="group">
-        <div class="blog_entry group">
-          <p class="article_date">
-            <%= @snip.created_at.to_date.to_s(:full_ordinal) %>
-          </p>
+    <% content_for :javascripts do %>
+      <script src="//vjs.zencdn.net/4.7.2/video.js"></script>
+    <% end %>
+  <% end %>
+<% end %>
 
-          <div class="author">
-            <img src="<%= image_path(@author.image) %>" alt="<%= @author.name.titleize %>"/>
-            <span>
-              by <%= @author.name.titleize %>
-            </span>
-          </div>
+<% content_for(:header) do %>
+  <%= render partial: 'shared/blog_nav' %>
+  <%= render partial: 'shared/blog_logo' %>
+<% end %>
 
-          <div class="content">
-            <%= yield %>
-          </div>
+<% content_for(:content) do %>
+  <div class="blog_entry group">
+    <p class="article_date">
+      <%= @snip.created_at.to_date.to_s(:full_ordinal) %>
+    </p>
 
-          <%= render partial: 'shared/commenting' %>
-        </div>
-
-        <div id="article_links">
-          <h3>Recent</h3>
-          <div id="recent_articles">
-            <ol class="blog_list" reversed="">
-              <% BlogArticle.all.to_a.last(6).to_enum.with_index(1).reverse_each do |snip, index| %>
-                <%= content_tag(:li, link_to_snip(snip), value: index) %>
-              <% end %>
-            </ol>
-          </div>
-        </div>
-      </div>
+    <div class="author">
+      <img src="<%= image_path(@author.image) %>" alt="<%= @author.name.titleize %>"/>
+      <span>
+        by <%= @author.name.titleize %>
+      </span>
     </div>
-  </body>
-</html>
+
+    <div class="content">
+      <%= yield %>
+    </div>
+
+    <%= render partial: 'shared/commenting' %>
+  </div>
+
+  <div id="article_links">
+    <h3>Recent</h3>
+    <div id="recent_articles">
+      <ol class="blog_list" reversed="">
+        <% BlogArticle.all.to_a.last(6).to_enum.with_index(1).reverse_each do |snip, index| %>
+          <%= content_tag(:li, link_to_snip(snip), value: index) %>
+        <% end %>
+      </ol>
+    </div>
+  </div>
+<% end %>
+
+<%= render template: 'layouts/application' %>
