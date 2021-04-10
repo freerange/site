@@ -12,5 +12,7 @@
       feed
     </p>
   </li>
-  <li>The website isn't broken, it's <a href="https://css-naked-day.github.io">CSS Naked Day!</a></li>
+  <% if css_naked_day? %>
+    <li>The website isn't broken, it's <a href="https://css-naked-day.github.io">CSS Naked Day!</a></li>
+  <% end %>
 </ul>
