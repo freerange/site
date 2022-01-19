@@ -14,12 +14,9 @@ Founded in 2009 on the basis of mutual respect for each others’ work and chara
     <li class="member group" id="chris-lowis">
       <%= member 'chris-lowis' %>
     </li>
-    <li class="member group" id="ben-griffiths">
-      <%= member 'ben-griffiths' %>
-    </li>
   </ol>
 
-[Alumni](/alumni): [James Adam](/james-adam), [Tom Ward](/tom-ward), [Jason Cale](/jason-cale), [Kalv Sandhu](/kalvir-sandhu), [James Andrews](/james-andrews), [Luke Redpath](/luke-redpath), [Gregory Bent](/gregory-bent)
+[Alumni](/alumni): [Ben Griffiths](/ben-griffiths), [James Adam](/james-adam), [Tom Ward](/tom-ward), [Jason Cale](/jason-cale), [Kalv Sandhu](/kalvir-sandhu), [James Andrews](/james-andrews), [Luke Redpath](/luke-redpath), [Gregory Bent](/gregory-bent)
 
 </div>
 
