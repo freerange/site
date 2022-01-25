@@ -1,6 +1,6 @@
 ### We are a co-op
 
-We're proud to be a worker co&#x2011;operative and a [member of Co&#x2011;operatives UK](https://www.uk.coop/directory/go-free-range).
+We're proud to be a worker <span class="nowrap">co-operative</span> and a [member of <span class="nowrap">Co-operatives</span> UK](https://www.uk.coop/directory/go-free-range).
 
 <a href="https://www.uk.coop/">
   <img width="192" height="104" alt="Member of Co-operatives UK" src="<%= image_path('coops_uk_logo.png') %>" />
