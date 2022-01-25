@@ -201,10 +201,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0z3nfzslpjg2rfmmyk31rywrh7b1fsg5fv018l5bgr8ar90sz9p9";
+      sha256 = "18j6zbw26y9kf4b2ihprg380jzw97mm9h17nhd8jvsmdxhvz4yvv";
       type = "gem";
     };
-    version = "1.10.1";
+    version = "1.10.2";
   };
   builder = {
     groups = ["assets" "default" "development" "test"];
@@ -449,10 +449,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "06iajjyhx0rvpn4yr3h1hc4w4w3k59bdmfhxnjzzh76wsrdxxrc6";
+      sha256 = "0b98w2j7g89ihnc753hh3if68r5qrmdp9n2j6mvqy2yl73sbv739";
       type = "gem";
     };
-    version = "1.4.2";
+    version = "1.4.4";
   };
   nio4r = {
     groups = ["default"];
