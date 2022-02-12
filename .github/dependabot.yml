@@ -7,5 +7,5 @@ updates:
   open-pull-requests-limit: 10
   ignore:
     - dependency-name: "rails"
-      versions: ["version-update:semver-major"]
+      update-types: ["version-update:semver-major"]
 
