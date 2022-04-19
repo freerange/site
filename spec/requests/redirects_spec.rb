@@ -6,6 +6,11 @@ RSpec.describe 'redirects' do
     assert_permanently_redirected_to 'http://example.com/'
   end
 
+  it 'permanently redirects geohash subdomain to geohash-explorer page' do
+    get '/', headers: { host: 'geohash.example.com' }
+    assert_permanently_redirected_to 'http://example.com/geohash-explorer'
+  end
+
   it 'permanently redirects /hello-printer to exciting.io' do
     get '/hello-printer'
     assert_permanently_redirected_to 'https://exciting.io/2012/04/12/hello-printer'

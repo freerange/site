@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   match '(*any)', to: redirect(subdomain: ''), via: :all, constraints: { subdomain: 'www' }
+  get '(*any)', to: redirect(subdomain: '', path: '/geohash-explorer'), constraints: { subdomain: 'geohash' }
 
   root to: 'pages#show'
   get '/feed.xml', to: 'pages#feed', format: 'atom'
