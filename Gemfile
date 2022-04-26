@@ -5,7 +5,7 @@ ruby '2.7.4'
 gem 'rails', '~> 6.1'
 gem 'soup', '~> 1.0'
 gem 'kramdown', '~> 2.3'
-gem 'aws-sdk-s3', '~> 1.103'
+gem 'aws-sdk-s3', '~> 1.113'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'puma', '~> 5'
 gem 'rollbar'
