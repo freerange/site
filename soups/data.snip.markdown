@@ -17,7 +17,7 @@ Here's a few case studies of some of our favourite data projects not-for-profit,
 
 ## Lollipop
 
-[Lollipop](https://www.lollipopai.com/) are an early-stage startup who help their customers to do their weekly shop quickly. We worked with them to aggregate data from their web and mobile applications into a data warehouse. We designed the schema of the warehouse to allow anyone in the business to answer questions such as "How quickly is a customer completing their shop?" and "Which recipes are most popular with our vegetarian customers?". We built a robust and well-tested data pipeline using [dbt](https://www.getdbt.com/) and [BigQuery](https://cloud.google.com/bigquery/) and provided training and support to the team to use [metabase](https://www.metabase.com/) to ask and answer questions.
+[Lollipop](https://www.lollipopai.com/) are an early-stage startup who help their customers to do their weekly shop quickly. We worked with them to aggregate data from their web and mobile applications into a data warehouse. We designed the schema of the warehouse to allow anyone in the business to answer questions such as "How quickly is a customer completing their shop?" and "Which recipes are most popular with our vegetarian customers?". We built a robust and well-tested data pipeline using [dbt](https://www.getdbt.com/) and [BigQuery](https://cloud.google.com/bigquery/) and provided training and support to the team to use [Metabase](https://www.metabase.com/) to ask and answer questions.
 
 ## The Audience Agency
 
@@ -25,7 +25,7 @@ We worked with [The Audience Agency](https://www.theaudienceagency.org/) to help
 
 <img alt="Screenshot of data visualisation in the Audience Agency's Answers application" src="<%= image_path('projects/taa_answers.png') %>" style="width: 100%"/>
 
-We built a custom data pipeline using Ruby and SQL to extract data from ticketing systems, public and propriety datasets and existing databases and present this to customers working in arts and cultural organisations around the UK. They use this data to understand their audiences, work out how to reach under-served communities in their local areas and benchmark themselves with similar sized organisations.
+We built a custom data pipeline using Ruby and SQL to extract data from ticketing systems, public and propriety datasets and existing databases and present this to customers working in arts and cultural organisations around the UK. They use this data to understand their audiences, work out how to reach under-served communities in their local areas and benchmark themselves against similar sized organisations.
 
 ## The Children’s Society
 
