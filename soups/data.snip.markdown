@@ -1,7 +1,7 @@
 Data
 ----
 
-Over the past few years we've worked with clients to help them do more with the data they collect. We like to think we bring our trademark pragmatism and nous to these projects. And we ask "why?" a lot.
+Over the past few years we've worked with clients to help them do more with the data they collect. We like to think we bring our trademark pragmatism and nous to these projects. We want to help you make more effective use of your data - that can mean robust, "just-enough" engineering, but it also means we'll sit with you, ask questions and puzzle things out together.
 
 If you're collecting data in several different places and want your whole organisation to be able to ask and answer questions, or if the product you're building relies on making sense of data and presenting it in interesting ways to your customers, we can help.
 
