@@ -9,7 +9,10 @@ We can **help you to understand your data** by working out how it is collected, 
 
 We can **build useful and automated data pipelines** to clean up and join together your data. Where possible we'll keep the long term cost of ownership down by recommending and using well-proven open source or software-as-a-service tools like [fivetran](https://www.fivetran.com/) and [dbt](https://www.getdbt.com/).
 
-<img src="https://imgs.xkcd.com/comics/data_pipeline.png"  style="width: 100%"/>
+<figure>
+  <img src="https://imgs.xkcd.com/comics/data_pipeline.png" style="width: 100%" alt="xkcd.com: Data Pipeline" />
+  <figcaption><a href="https://xkcd.com/license.html">Licensed by xkcd.com</a></figcaption>
+</figure>
 
 We can **analyse and visualise** your data to make it easier to understand and to present it in a compelling way - either to your colleagues or the wider world. We'll help **train and mentor** your team to use the data and get answers to their own questions.
 
