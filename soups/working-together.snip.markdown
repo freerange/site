@@ -4,7 +4,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We're available for work right now! Please get in touch if you have a project in mind - we'd love to hear from you. However, given the current COVID-19 situation, we can only consider projects which allow for remote working and flexible working hours.
+* *Timing:* We're available for work right now! Please get in touch if you have a project in mind - we'd love to hear from you.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
