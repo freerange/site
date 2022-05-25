@@ -2,7 +2,7 @@
 ; Paste the zonefile below this line:
 $ORIGIN gofreerange.com.
 $TTL 1h
-gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827392 86400 7200 604800 300
+gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827393 86400 7200 604800 300
 gofreerange.com. 3600 IN NS ns1.dnsimple.com.
 gofreerange.com. 3600 IN NS ns2.dnsimple.com.
 gofreerange.com. 3600 IN NS ns3.dnsimple.com.
@@ -38,3 +38,4 @@ pm-bounces.gofreerange.com. 3600 IN CNAME pm.mtasv.net.
 freeagent-mailer.gofreerange.com. 3600 IN CNAME pm.mtasv.net.
 20200516112239pm._domainkey.gofreerange.com. 60 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZGW915R2a0aV2aZuXqVg6zavT2VW6Jh4vF9o5gp8paqTLO9NYq6n1LDWQs0dKWWHvFAyQCE9MJfLi7xI0o2PIt0vxo/4kKRF8N+cbXYuaEurH69eym+r5tob9gOhPtu9mpQgVz/CIUArOqiXyhJzmN9auto8FooVaE/89lUxTlQIDAQAB"
 geohash.gofreerange.com. 3600 IN CNAME defined-horse-xfcnv0flcrgtczow9avvta35.herokudns.com.
+video.gofreerange.com. 3600 IN CNAME theoretical-crane-i3yy0t9vms0qhgm515hgp1gp.herokudns.com.
