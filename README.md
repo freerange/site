@@ -14,7 +14,7 @@ Set `TINIFY_API_KEY` and run `bundle exec rake assets:compress_images`.
 
 ### Heroku
 
-When commits are pushed to the `master` branch on the GitHub remote, the specs are run on Heroku CI and, if the specs all pass, the app is automatically deployed.
+When commits are pushed to the `main` branch on the GitHub remote, the specs are run on Heroku CI and, if the specs all pass, the app is automatically deployed.
 
 ### Configuring Rollbar
 
