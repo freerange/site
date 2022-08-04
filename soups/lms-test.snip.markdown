@@ -18,7 +18,7 @@
 * Course 2 - TBD
 * Course 3 - TBD
 
-:page_title: Go Free Range - Learning Management System
+:page_title: Learning Management System
 :layout: wiki-layout
 :is_page: true
 :updated_at: 2022-08-04 00:00:00 +00:00
