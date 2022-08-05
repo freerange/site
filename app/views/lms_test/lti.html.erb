@@ -1,0 +1,14 @@
+<script>
+  window.onload = function() {
+    document.forms['ltiLaunchForm'].submit();
+  }
+</script>
+
+<form action="<%= @url %>" name="ltiLaunchForm" id="ltiLaunchForm" method="post" enctype="application/x-www-form-urlencoded">
+  <% @fields.each do |name, value| %>
+    <input type="hidden" name="<%= name %>" value="<%= value %>">
+  <% end %>
+  <button style="display: none" type="submit">Launch the tool</button>
+</form>
+
+<p>Launching...</p>

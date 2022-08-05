@@ -20,6 +20,10 @@ Rails.application.routes.draw do
     resources :assets, only: %(show)
   end
 
+  get '/lms-test', to: 'lms_test#index'
+  post '/lms-test/lti', to: 'lms_test#lti'
+  post '/lms-test/signout', to: 'lms_test#signout'
+
   get '/hello-printer', to: redirect('https://exciting.io/2012/04/12/hello-printer')
   get '/printer-questions', to: redirect('https://exciting.io/2012/05/01/printer-questions')
   get '/printer-kit', to: redirect('https://exciting.io/printer')

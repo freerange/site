@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/futurelearn/ims-lti
+  revision: 07cf86ccc59393e1a18f5fd9cc1729a901f52771
+  branch: sj-remove-query-params-from-launch-params
+  specs:
+    ims-lti (1.2.2)
+      builder
+      oauth (>= 0.4.5, < 0.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -126,6 +135,7 @@ GEM
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    oauth (0.5.10)
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -227,8 +237,10 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   capybara (~> 3.37)
   dotenv-rails (~> 2.8)
+  ims-lti!
   kramdown (~> 2.4)
   listen (>= 3.0.5, < 3.8)
+  mail
   puma (~> 5)
   rails (~> 6.1)
   rails-controller-testing (~> 1.0)

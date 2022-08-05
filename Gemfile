@@ -9,6 +9,8 @@ gem 'aws-sdk-s3', '~> 1.103'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'puma', '~> 5'
 gem 'rollbar'
+gem 'ims-lti', git: 'https://github.com/futurelearn/ims-lti', branch: 'sj-remove-query-params-from-launch-params'
+gem 'mail'
 
 group :assets, :development do
   gem 'sass-rails', '~> 6.0'
