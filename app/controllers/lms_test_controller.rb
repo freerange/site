@@ -8,7 +8,7 @@ class LmsTestController < ApplicationController
   before_action :authenticate
 
   def index
-    @snip = OpenStruct.new
+    @snip = OpenStruct.new(page_title: 'LMS Test')
     render layout: 'wiki'
   end
 
