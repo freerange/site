@@ -4,7 +4,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We're available for work right now! Please get in touch if you have a project in mind - we'd love to hear from you.
+* *Timing:* We're currently busy with projects at the moment, but will have availability in the future. Please get in touch if you have a project in mind - we'd love to hear from you.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
