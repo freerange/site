@@ -28,3 +28,6 @@
 
 # Ignore Dotenv configuration file.
 .env
+
+# Ignore Vagrant files
+.vagrant
