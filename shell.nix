@@ -1,4 +1,5 @@
-with (import <nixpkgs> {});
+{ pkgs ? import <nixpkgs> {} }:
+with pkgs;
 let
   env = bundlerEnv {
     name = "site-bundler-env";
