@@ -7,7 +7,7 @@ gem 'soup', '~> 1.0'
 gem 'kramdown', '~> 2.4'
 gem 'aws-sdk-s3', '~> 1.103'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'puma', '~> 5'
+gem 'puma', '~> 6'
 gem 'rollbar'
 gem 'ims-lti', git: 'https://github.com/futurelearn/ims-lti', branch: 'sj-remove-query-params-from-launch-params'
 gem 'mail'
