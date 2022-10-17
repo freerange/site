@@ -137,7 +137,7 @@ GEM
       racc (~> 1.4)
     oauth (0.5.10)
     public_suffix (4.0.7)
-    puma (5.6.5)
+    puma (6.0.0)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
@@ -241,7 +241,7 @@ DEPENDENCIES
   kramdown (~> 2.4)
   listen (>= 3.0.5, < 3.8)
   mail
-  puma (~> 5)
+  puma (~> 6)
   rails (~> 6.1)
   rails-controller-testing (~> 1.0)
   rollbar
