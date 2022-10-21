@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.6'
+ruby '3.0.4'
 
 gem 'rails', '~> 6.1'
 gem 'soup', '~> 1.0'
