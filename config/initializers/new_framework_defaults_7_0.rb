@@ -11,7 +11,7 @@
 
 # `button_to` view helper will render `<button>` element, regardless of whether
 # or not the content is passed as the first argument or as a block.
-# Rails.application.config.action_view.button_to_generates_button_tag = true
+Rails.application.config.action_view.button_to_generates_button_tag = true
 
 # `stylesheet_link_tag` view helper will not render the media attribute by default.
 # Rails.application.config.action_view.apply_stylesheet_media_default = false
@@ -109,7 +109,7 @@
 
 
 # Cookie serializer: 2 options
-# 
+#
 # If you're upgrading and haven't set `cookies_serializer` previously, your cookie serializer
 # is `:marshal`. The default for new apps is `:json`.
 #
@@ -117,10 +117,10 @@
 #
 #
 # To migrate an existing application to the `:json` serializer, use the `:hybrid` option.
-# 
+#
 # Rails transparently deserializes existing (Marshal-serialized) cookies on read and
 # re-writes them in the JSON format.
-# 
+#
 # It is fine to use `:hybrid` long term; you should do that until you're confident *all* your cookies
 # have been converted to JSON. To keep using `:hybrid` long term, move this config to its own
 # initializer or to `config/application.rb`.
@@ -131,5 +131,5 @@
 # If your cookies can't yet be serialized to JSON, keep using `:marshal` for backward-compatibility.
 #
 # If you have configured the serializer elsewhere, you can remove this section of the file.
-# 
+#
 # See https://guides.rubyonrails.org/action_controller_overview.html#cookies for more information.
