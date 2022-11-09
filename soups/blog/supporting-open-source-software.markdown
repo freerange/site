@@ -13,7 +13,7 @@ In the spirit of starting small, we've all decided to join [Ruby Together] as [D
 
 Please get in touch at [@freerange@ruby.social] on Mastodon or [@freerange] on Twitter if you have any suggestions on how else we could support open-source projects.
 
-[@freerange@ruby.social]: https://ruby.social/web/@freerange
+[@freerange@ruby.social]: https://ruby.social/@freerange
 [@freerange]: https://twitter.com/freerange
 [open-source software]: https://en.wikipedia.org/wiki/Open-source_software
 [Ruby]: https://www.ruby-lang.org/
@@ -35,12 +35,11 @@ Please get in touch at [@freerange@ruby.social] on Mastodon or [@freerange] on T
 [StackAid]: https://www.stackaid.us/
 [shopify-engineering]: https://shopify.engineering/
 
-:draft: true
 :render_as: Blog
 :kind: blog
 :is_page: true
 :written_with: markdown
 :author: james-mead
-:created_at: 2022-11-08 10:36:00 +00:00
-:updated_at: 2022-11-08 10:36:00 +00:00
+:created_at: 2022-11-09 12:34:00 +00:00
+:updated_at: 2022-11-09 12:34:00 +00:00
 :page_title: Supporting open-source software
