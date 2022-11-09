@@ -11,6 +11,10 @@ We've been reflecting on the debt we owe to the open-source community and invest
 
 In the spirit of starting small, we've all decided to join [Ruby Together] as [Developer members][rubytogether-plans]. We'll make regular monthly payments to support work on Rubygems, Bundler, and other projects. We see this as the next step in our journey to support and appreciate the world of open-source software.
 
+Please get in touch at [@freerange@ruby.social] on Mastodon or [@freerange] on Twitter if you have any suggestions on how else we could support open-source projects.
+
+[@freerange@ruby.social]: https://ruby.social/web/@freerange
+[@freerange]: https://twitter.com/freerange
 [open-source software]: https://en.wikipedia.org/wiki/Open-source_software
 [Ruby]: https://www.ruby-lang.org/
 [Ruby on Rails]: https://rubyonrails.org/
