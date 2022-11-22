@@ -46,7 +46,7 @@ Vagrant.configure("2") do |config|
     v.memory = 8192
     v.cpus = 6
   end
-  config.vm.box = 'bento/ubuntu-20.04'
+  config.vm.box = 'bento/ubuntu-22.04'
   config.vm.hostname = "gofreerange.test"
   config.vm.network :forwarded_port, guest: 3000, host: 3000
   config.vm.synced_folder ".", "/vagrant", fsnotify: true,
