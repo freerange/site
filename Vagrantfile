@@ -30,7 +30,7 @@ install_ruby = <<-SCRIPT
 
   # Use chruby to install the correct version of bundler
   source /usr/local/share/chruby/chruby.sh
-  chruby ruby-3.0.4
+  chruby ruby-3.1.2
   gem install bundler:2.3.24
 SCRIPT
 
