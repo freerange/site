@@ -26,7 +26,7 @@ install_chruby = <<-SCRIPT
 SCRIPT
 
 install_ruby = <<-SCRIPT
-  ruby-install ruby-3.0.4
+  ruby-install ruby-3.1.2
 
   # Use chruby to install the correct version of bundler
   source /usr/local/share/chruby/chruby.sh
