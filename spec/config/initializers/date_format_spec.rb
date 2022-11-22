@@ -9,7 +9,7 @@ end
 RSpec.describe Date::DATE_FORMATS do
   describe 'full_ordinal formatted date' do
     let(:date) { Date.parse('2017-01-01') }
-    let(:formatted_date) { date.to_s(:full_ordinal) }
+    let(:formatted_date) { date.to_fs(:full_ordinal) }
 
     context 'when date is 31st of month' do
       let(:date) { Date.parse('2017-01-31') }
