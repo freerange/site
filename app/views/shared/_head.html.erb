@@ -37,4 +37,8 @@
   <link rel="canonical" href="<%= canonical_url %>" />
 <% end %>
 
+<% (@snip && @snip.me_urls || []).each do |me_url| %>
+  <link rel="me" href="<%= me_url %>" />
+<% end %>
+
 <%= content_for :javascripts %>
