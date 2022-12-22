@@ -535,10 +535,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1yabmxmqprb2x58awiasidsiwpplscmyar9dzwh5l8jgaw4i3wra";
+      sha256 = "0dy2yw2xp8bv52697y78vzrb4wj0zfa95bc9mxyh0d7l7rn65fmw";
       type = "gem";
     };
-    version = "6.0.0";
+    version = "6.0.1";
   };
   racc = {
     groups = ["assets" "default" "development" "test"];
@@ -682,10 +682,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1xwhz2k2f59pywlmwz9ggnzbv9qi4g5sgdwhsg997qyrjnxsclvc";
+      sha256 = "1cwdq7f2d6zqz574n1s7iqfjnz2nsg82jfmf45w2s5vwl4bkg0bi";
       type = "gem";
     };
-    version = "3.3.2";
+    version = "3.3.3";
   };
   rspec-core = {
     dependencies = ["rspec-support"];
