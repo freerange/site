@@ -228,7 +228,7 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.2.2)
     tilt (2.0.10)
-    timecop (0.9.6)
+    timecop (0.9.7)
     timeout (0.4.0)
     tinify (1.6.0)
       httpclient (~> 2.6)
