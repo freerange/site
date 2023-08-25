@@ -1,0 +1,16 @@
+$ORIGIN jam.coop.
+$TTL 1h
+jam.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1691514191 86400 7200 604800 300
+jam.coop. 3600 IN NS ns1.dnsimple.com.
+jam.coop. 3600 IN NS ns2.dnsimple.com.
+jam.coop. 3600 IN NS ns3.dnsimple.com.
+jam.coop. 3600 IN NS ns4.dnsimple-edge.org.
+www.jam.coop. 3600 IN CNAME musiccoop.onrender.com.
+; jam.coop. 3600 IN ALIAS musiccoop.onrender.com.
+jam.coop. 3600 IN TXT "ALIAS for musiccoop.onrender.com"
+20230808182145pm._domainkey.jam.coop. 3600 IN TXT "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCowbpg+G045V1Bp+8HFtctO9MCwitMvuYoh7Kgq+RNklkS1xIJmvYmXiA+YnQizr1CJFTX1aY0jEt5HRcBG4dO5pYlDEEACAriGsTgjlsy6egpYRzjJ1vnLoPPtLGMQGopL1hP3sL8M8NkcMZ/Mw+U4LPHBwI39/uoYm+AmkDiGQIDAQAB"
+pm-bounces.jam.coop. 3600 IN CNAME pm.mtasv.net.
+krs._domainkey.jam.coop. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxQQujbb2iUSkYmMNPEVPS+8B/5/EcioGXzYqjQGwngKPpaSapS59aQ7z9mPs7KfPbjdRH6O/2vWpzzeDLCel6Z+pWJewNhSNhM53XsWXdJeLace/X8RoOLn45sQAa6b5EXLF1TT/wArqzeK7UuQxZazGm9GyRm0qCDrM6jWgAkQIDAQAB"
+jam.coop. 3600 IN TXT "v=spf1 include:mailgun.org ~all"
+jam.coop. 3600 IN MX 10 mxa.mailgun.org.
+jam.coop. 3600 IN MX 10 mxb.mailgun.org.
