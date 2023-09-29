@@ -62,11 +62,11 @@ Thanks to everyone for coming. Hope to see you next time.
 [Minecraft]: https://en.wikipedia.org/wiki/Minecraft
 [minecraft-tracy-island]: http://www.planetminecraft.com/project/thunderbirds-tracy-island/
 [microsoft-buying-minecraft]: http://arstechnica.com/gaming/2014/09/report-microsoft-to-buy-minecraft-developer-mojang-for-2-billion/
-[minecraft-creative-mode]: http://minecraft.gamepedia.com/Creative
-[minecraft-logic-gates]: http://minecraft.gamepedia.com/Tutorials/Basic_logic_gates
-[minecraft-redstone]: http://minecraft.gamepedia.com/Redstone
+[minecraft-creative-mode]: http://minecraft.wiki/w/Creative
+[minecraft-logic-gates]: http://minecraft.wiki/w/Tutorials/Basic_logic_gates
+[minecraft-redstone]: http://minecraft.wiki/w/Redstone
 [london-computation-club]: http://london.computation.club
-[minecraft-piston]: http://minecraft.gamepedia.com/Piston
+[minecraft-piston]: http://minecraft.wiki/w/Piston
 [minecraft-pianola]: https://www.youtube.com/watch?v=qt1fOED0vC8
 [minecraft-music-sequencer]: https://www.youtube.com/watch?v=bWkgiTvMZKQ
 [nand2tetris-js]: https://github.com/floehopper/nand2tetris.js/tree/master
