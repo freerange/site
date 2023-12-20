@@ -16,5 +16,6 @@ jam.coop. 3600 IN MX 10 mxa.mailgun.org.
 jam.coop. 3600 IN MX 10 mxb.mailgun.org.
 _5e54ae5a45dd7f921835c9906deebb47.cdn-dev.jam.coop. 60 IN CNAME _5422c5a961b017facad2036a4df9eb1b.mhbtsbpdnt.acm-validations.aws.
 cdn-dev.jam.coop. 60 IN CNAME dxo8owtgrxi9b.cloudfront.net.
+dev.jam.coop. 60 IN CNAME 8mbfspptw7htbnnj.ihpcxff2jbdbsd6z.ngrok-cname.com.
 _b9955ce298d73d709ebcfa1eb2e59c89.cdn.jam.coop. 60 IN CNAME _e50eeec0097882b7b94ba20a2da53b8f.mhbtsbpdnt.acm-validations.aws.
 cdn.jam.coop. 60 IN CNAME d3so9c06zn7pq3.cloudfront.net.
