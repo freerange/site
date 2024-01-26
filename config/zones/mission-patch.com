@@ -1,11 +1,10 @@
 $ORIGIN mission-patch.com.
 $TTL 1h
-mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902530 86400 7200 604800 300
+mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902532 86400 7200 604800 300
 mission-patch.com. 3600 IN NS ns1.dnsimple.com.
 mission-patch.com. 3600 IN NS ns2.dnsimple.com.
 mission-patch.com. 3600 IN NS ns3.dnsimple.com.
 mission-patch.com. 3600 IN NS ns4.dnsimple.com.
-autodiscover.mission-patch.com. 3600 IN CNAME autodiscover.mail.eu-west-1.awsapps.com.
 _amazonses.mission-patch.com. 3600 IN TXT "7IOzpzI23l95v4PU2mEB9QawiT+zBz1SQzjO7cPlvQk="
 _dmarc.mission-patch.com. 3600 IN TXT "v=DMARC1;p=quarantine;pct=100;fo=1"
 ; mission-patch.com. 3600 IN ALIAS apex-loadbalancer.netlify.com.
