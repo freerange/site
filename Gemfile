@@ -21,7 +21,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'capybara', '~> 3.39'
+  gem 'capybara', '~> 3.40'
   gem 'rails-controller-testing', '~> 1.0'
   gem 'rspec-rails', '~> 6.0'
   gem 'timecop'
