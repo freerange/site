@@ -15,7 +15,7 @@ group :assets, :development do
 end
 
 group :development do
-  gem 'dotenv-rails', '~> 3.1'
+  gem 'dotenv', '~> 3.1'
   gem 'listen', '>= 3.0.5', '< 3.10'
   gem 'tinify'
 end
