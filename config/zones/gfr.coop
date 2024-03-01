@@ -1,6 +1,6 @@
 $ORIGIN gfr.coop.
 $TTL 1h
-gfr.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1587811394 86400 7200 604800 300
+gfr.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1587811403 86400 7200 604800 300
 gfr.coop. 3600 IN NS ns1.dnsimple.com.
 gfr.coop. 3600 IN NS ns2.dnsimple.com.
 gfr.coop. 3600 IN NS ns3.dnsimple.com.
