@@ -1,6 +1,6 @@
 $ORIGIN mission-patch.com.
 $TTL 1h
-mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902532 86400 7200 604800 300
+mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902553 86400 7200 604800 300
 mission-patch.com. 3600 IN NS ns1.dnsimple.com.
 mission-patch.com. 3600 IN NS ns2.dnsimple.com.
 mission-patch.com. 3600 IN NS ns3.dnsimple.com.
