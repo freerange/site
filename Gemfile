@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '3.1.2'
 
-gem 'rails', '~> 7.0'
+gem 'rails', '~> 7.1'
 gem 'soup', '~> 1.0'
 gem 'kramdown', '~> 2.4'
 gem 'aws-sdk-s3', '~> 1.146'
