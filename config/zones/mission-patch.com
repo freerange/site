@@ -1,6 +1,6 @@
 $ORIGIN mission-patch.com.
 $TTL 1h
-mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902560 86400 7200 604800 300
+mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902562 86400 7200 604800 300
 mission-patch.com. 3600 IN NS ns1.dnsimple.com.
 mission-patch.com. 3600 IN NS ns2.dnsimple.com.
 mission-patch.com. 3600 IN NS ns3.dnsimple.com.
@@ -26,7 +26,7 @@ www.mission-patch.com. 3600 IN CNAME mission-patch-web-l6ws.onrender.com.
 mission-patch.com. 3600 IN MX 10 mxa.mailgun.org.
 mission-patch.com. 3600 IN MX 10 mxb.mailgun.org.
 krs._domainkey.mission-patch.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFmwe3WUqHjEwjEKAlmPgX/+TCNXaT6tDnmi6H0dsS3RDwOSdXh491Tc2tohZ+hKWo/9q2h6PPJ5Ro5YEmsI7VARfbXzOS2hl241gJ1c3ioRDDw/gRYlxak83hG1ov2/I8uWqPfihhlGjKPs8YAJQ6kacQJUXxUJDiOPgj/QE7fwIDAQAB"
-20231219172758pm._domainkey.mission-patch.com. 60 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC97w+JzBZkkH31pwPUu0x8ZklJIdcX58umLU1p4EjZLju4CKXAby4rPzJL+bngeMk6bp5BJwyTo66Qlp3RW837k4OfRIAvUXvGSgn3CQiK5XrsQjqkfGSj8ctlhbwyr/MutT7+lgLJNYAlhOShQJi3lwUYR1Bef4DKKDtYJKryDwIDAQAB"
-pm-bounces.mission-patch.com. 60 IN CNAME pm.mtasv.net.
+20231219172758pm._domainkey.mission-patch.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC97w+JzBZkkH31pwPUu0x8ZklJIdcX58umLU1p4EjZLju4CKXAby4rPzJL+bngeMk6bp5BJwyTo66Qlp3RW837k4OfRIAvUXvGSgn3CQiK5XrsQjqkfGSj8ctlhbwyr/MutT7+lgLJNYAlhOShQJi3lwUYR1Bef4DKKDtYJKryDwIDAQAB"
+pm-bounces.mission-patch.com. 3600 IN CNAME pm.mtasv.net.
 20240401163210pm._domainkey.mission-patch.com. 3600 IN TXT "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCq2tKpxxluWsB2BZcDwUi1683OYOHhWaUzlnJBCb/+jW5wBmZbJIPNyOZVi/SXk31QfqtJaVVmQXMdH2mtfi42Iw0TLSzYod3i19BUamnwiLmcRVZAQkpeifmavz3vGBnMai09jR/TLLAQ8CckLFJWNyZGI2MwQALVSTYqlmyG2wIDAQAB"
 api.mission-patch.com. 3600 IN CNAME mission-patch-api-hlm2.onrender.com.
