@@ -1,0 +1,11 @@
+@ 86400 IN SOA ns1.gandi.net. hostmaster.gandi.net. 1717151757 10800 3600 604800 10800
+@ 10800 IN A 217.70.184.55
+@ 10800 IN MX 10 spool.mail.gandi.net.
+@ 10800 IN MX 50 fb.mail.gandi.net.
+@ 10800 IN NS ns-17-a.gandi.net.
+@ 10800 IN NS ns-32-c.gandi.net.
+@ 10800 IN NS ns-94-b.gandi.net.
+@ 10800 IN TXT "v=spf1 include:_mailcust.gandi.net ?all"
+blog 10800 IN CNAME blogs.vip.gandi.net.
+webmail 10800 IN CNAME webmail.gandi.net.
+www 10800 IN CNAME webredir.vip.gandi.net.
