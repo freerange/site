@@ -10,7 +10,6 @@ Chris is an invited expert on the W3C’s Audio Working Group and an Ambassador 
 
 :site: chrislowis.co.uk
 :image: people/chris-lowis.jpg
-:twitter: chrislowis
 
 :created_at: 2017-02-23 12:18:10 +0000
 :created_sha: 5815a13db48ac7c7685a056b40e016e17b07d8ea
