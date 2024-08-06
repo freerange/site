@@ -6,7 +6,7 @@ We’ve had a busy 2024 so far. We’ve worked on 3 projects with 3 different cl
 
 NESTA brought us in for a couple of short sprints to work on their [Visit a heat pump](https://app.visitaheatpump.com/) service. This service helps people who are considering fitting a heat pump in their own home find other people who have already done so. They can then arrange a visit to find out more.
 
-<%= image_tag('blog/2024-08-06-visit-a-heat-pump', alt: 'A screenshot of the Visit a heat pump site. Showing a list of hosts to visit in Bristol and a map of where they are') %>
+<%= image_tag('blog/2024-08-06-visit-a-heat-pump.png', alt: 'A screenshot of the Visit a heat pump site. Showing a list of hosts to visit in Bristol and a map of where they are') %>
 
 We added a bunch of new features including improved search, email notifications for hosts and visitors and support for new location types such as installer showrooms. We also helped the team get ready for increased traffic by improving application scalability and security.
 
@@ -26,7 +26,7 @@ Signon, like many of the applications that make up the GOV.UK publishing platfor
 
 We joined a team at the Raspberry Pi Foundation to help build a new [Code Editor for Education]([https://editor.raspberrypi.org/en/education](https://editor.raspberrypi.org/en/education)) tool. We worked on a number of new features to make their existing web-based IDE suitable for classroom use.
 
-<%= image_tag('blog/2024-08-06-code-editor-for-education', alt: 'A screenshot of the Code Editor for education landing page. Has the stap-line: "Same great code editor, soon to be in your classroom"') %>
+<%= image_tag('blog/2024-08-06-code-editor-for-education.png', alt: 'A screenshot of the Code Editor for education landing page. Has the stap-line: "Same great code editor, soon to be in your classroom"') %>
 
 The application is built using a React front-end and a Rails backend. We’re at home in both of these technologies so we were able to work on features end-to-end.
 
@@ -34,7 +34,7 @@ The application is built using a React front-end and a Rails backend. We’re at
 
 We started building [jam.coop](https://jam.coop) last summer as a side-project. We wanted to see if it would be possible to create a co-operatively-owned platform for musicians to sell their music directly to their fans, allowing them to keep more of the money they make and have a say in how the platform is run. Some of the alternatives out there can be pretty [hostile](https://en.wikipedia.org/wiki/Criticism\_of\_Spotify) to musicians and the [people who work there](https://jacobin.com/2023/12/bandcamp-music-streaming-sale-tech-workers-union-layoffs-organizing).
 
-<%= image_tag('blog/2024-08-06-jam', alt: 'A screenshot of the jam.coop site. Has the stap-line: "A new music platform. For us" and shows a grid of album artwork for sale on the site.') %>
+<%= image_tag('blog/2024-08-06-jam.png', alt: 'A screenshot of the jam.coop site. Has the stap-line: "A new music platform. For us" and shows a grid of album artwork for sale on the site.') %>
 
 At Go Free Range we always tell potential clients that it’s possible for a small team to deliver working software quickly and regularly by keeping things simple, choosing appropriate technology and having a good, pragmatic process. Sometimes it’s a good idea to put our money where our mouths are and build a real working product to make sure we can still do it!
 
@@ -46,7 +46,7 @@ Client work has kept us too busy to devote significant time to working on jam.co
 
 We built [mission-patch.com](https://mission-patch.com/) to allow teams to design and print NASA-style mission patch laptop stickers to celebrate their successes. Nearly 300 teams have done so so far. This year we integrated with [Diginate](https://diginate.com) so that our stickers can be nicely printed and drop-shipped directly to you. Diginate have been developing an API to make this easier and we were happy to be one of the first to use it and help them iron out some issues.
 
-<%= image_tag('blog/2024-08-06-mission-patch', alt: 'An example mission patch sticker. Circular, with a thick bezel and a rocket image in the middle. Around the bezel are the words "Team. Stickers. Smiles. mission-patch.com 2024".') %>
+<%= image_tag('blog/2024-08-06-mission-patch.png', alt: 'An example mission patch sticker. Circular, with a thick bezel and a rocket image in the middle. Around the bezel are the words "Team. Stickers. Smiles. mission-patch.com 2024".') %>
 
 We also made some changes to the tech stack. We decided to move the backend processing of stickers and order from a “serverless” approach based on AWS CDK to a Rails app. We also shifted from Netlify to Render and took advantage of [Render’s Monorepo support](https://docs.render.com/monorepo-support) to host and deploy the frontend Svelte app and backend Rails app. We’re planning to write a bit more about this later.
 
