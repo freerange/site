@@ -32,7 +32,7 @@ The application is built using a React front-end and a Rails backend. We’re at
 
 ## jam.coop - online music store co-operative
 
-We started building [jam.coop](https://jam.coop) last summer as a side-project. We wanted to see if it would be possible to create a co-operatively-owned platform for musicians to sell their music directly to their fans, allowing them to keep more of the money they make and have a say in how the platform is run. Some of the alternatives out there can be pretty [hostile](https://en.wikipedia.org/wiki/Criticism\_of\_Spotify) to musicians and the [people who work there](https://jacobin.com/2023/12/bandcamp-music-streaming-sale-tech-workers-union-layoffs-organizing).
+We started building [jam.coop](https://jam.coop) last summer as a side-project. We wanted to see if it would be possible to create a co-operatively-owned platform for musicians to sell their music directly to their fans, allowing them to keep more of the money they make and have a say in how the platform is run. Some of the alternatives out there can be pretty [hostile](https://en.wikipedia.org/wiki/Criticism_of_Spotify) to musicians and the [people who work there](https://jacobin.com/2023/12/bandcamp-music-streaming-sale-tech-workers-union-layoffs-organizing).
 
 <%= image_tag('blog/2024-08-06-jam.png', alt: 'A screenshot of the jam.coop site. Has the stap-line: "A new music platform. For us" and shows a grid of album artwork for sale on the site.') %>
 
