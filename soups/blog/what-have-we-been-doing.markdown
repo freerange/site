@@ -24,7 +24,7 @@ Signon, like many of the applications that make up the GOV.UK publishing platfor
 
 ## The Raspberry Pi Foundation - Code Editor for Education
 
-We joined a team at the Raspberry Pi Foundation to help build a new [Code Editor for Education]([https://editor.raspberrypi.org/en/education](https://editor.raspberrypi.org/en/education)) tool. We worked on a number of new features to make their existing web-based IDE suitable for classroom use.
+We joined a team at the Raspberry Pi Foundation to help build a new [Code Editor for Education](https://editor.raspberrypi.org/en/education) tool. We worked on a number of new features to make their existing web-based IDE suitable for classroom use.
 
 <%= image_tag('blog/2024-08-06-code-editor-for-education.png', alt: 'A screenshot of the Code Editor for education landing page. Has the stap-line: "Same great code editor, soon to be in your classroom"') %>
 
