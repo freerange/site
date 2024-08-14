@@ -1,5 +1,3 @@
-; NOTE. Some internal projects use Amazon SES to send email - hence the mention of amazonses.com in the SPF and DKIM records below.
-; Paste the zonefile below this line:
 $ORIGIN gofreerange.com.
 $TTL 1h
 gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827417 86400 7200 604800 300
