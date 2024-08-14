@@ -2,7 +2,7 @@
 ; Paste the zonefile below this line:
 $ORIGIN gofreerange.com.
 $TTL 1h
-gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827415 86400 7200 604800 300
+gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827417 86400 7200 604800 300
 gofreerange.com. 3600 IN NS ns1.dnsimple.com.
 gofreerange.com. 3600 IN NS ns2.dnsimple.com.
 gofreerange.com. 3600 IN NS ns3.dnsimple.com.
@@ -27,8 +27,6 @@ gofreerange.com. 3600 IN TXT "v=spf1 include:_spf.google.com include:amazonses.c
 google._domainkey.gofreerange.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqUyRV1d/QCw+4VjDvvAv61hpLub6U6Txnq97Fj0tuIB34GZl0ymT3BSUomPKeH8juQp/iveCnM9sBLg/lYjLjgKBnixOpiWz9nAZA2lrIa1ffIrES+DGiVsGRrFz9zgC/vqC6sfRfMyJahHGL6AYYQzz0OdrZsSsSQf9WTZKr54fykWmrukvpqV9OW86m7At1,UCIZXn2mXRx/WG0z1q4CTstcAcwxs28QIbRfOo51AD/NBbgzqmfwTFtFIubBdOTLtWb3OVZJOdcKEW5OOh6+La08hdwd6z12iGLSwBy4h/qC4YfC/xAnvFHXkrsLuknnYfzt44I7E8Tm6DAWWs64QIDAQAB"
 _github-challenge-freerange.gofreerange.com. 3600 IN TXT "308436e875"
 ; gofreerange.com. 3600 IN ALIAS adjacent-temple-lktfu02di91skw9vz2ff6wzh.herokudns.com.
-_371083cc9e3b4573f69c7571d1c5d2cb.blackwell.gofreerange.com. 3600 IN CNAME _1ae9f8bd1a8d5875f7208b5e6f7d42fd.hkvuiqjoua.acm-validations.aws.
-blackwell.gofreerange.com. 60 IN CNAME black-Appli-6BPAZ5E7RCB7-1848132714.eu-west-1.elb.amazonaws.com.
 _amazonses.gofreerange.com. 3600 IN TXT "pcErQAJGrjzvZYiaY2FWyG2QmbZ6IACH/kqmnjFQ/0M="
 pm-bounces.gofreerange.com. 3600 IN CNAME pm.mtasv.net.
 20200924121540pm._domainkey.gofreerange.com. 60 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDG+uahIGZtqShvzKwuLtwwird8KwGIJSd2mJ4xJP6B1fwn6A1cNkKezXauYmhiKaZwnS4Gt4tvYImFgfEoO7HOENRC0ZxUy0jI+AgasoMGhNvN2hHUvdPZvethvp8bYccedsU3SQTbLH4Nujnhw8Lzh08it/Ri0fyNhpmG9WFDgQIDAQAB"
