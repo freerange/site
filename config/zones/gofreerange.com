@@ -2,21 +2,19 @@
 ; Paste the zonefile below this line:
 $ORIGIN gofreerange.com.
 $TTL 1h
-gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827408 86400 7200 604800 300
+gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827415 86400 7200 604800 300
 gofreerange.com. 3600 IN NS ns1.dnsimple.com.
 gofreerange.com. 3600 IN NS ns2.dnsimple.com.
 gofreerange.com. 3600 IN NS ns3.dnsimple.com.
 gofreerange.com. 3600 IN NS ns4.dnsimple.com.
 www.gofreerange.com. 3600 IN CNAME concentric-spinach-jfm7ycahe4pjnh6qghmp1cxa.herokudns.com.
-calendar.gofreerange.com. 3600 IN CNAME ghs.google.com.
-docs.gofreerange.com. 3600 IN CNAME ghs.google.com.
+calendar.gofreerange.com. 3600 IN CNAME ghs.googlehosted.com.
+docs.gofreerange.com. 3600 IN CNAME ghs.googlehosted.com.
 feeds.gofreerange.com. 3600 IN CNAME experimental-coconut-jnfe5nycyau5cj377625izju.herokudns.com.
 googleffffffffcc1ff19c.gofreerange.com. 3600 IN CNAME google.com.
 m55w7dvxq3gzjauiuonyxccptpeqqyrz._domainkey.gofreerange.com. 3600 IN CNAME m55w7dvxq3gzjauiuonyxccptpeqqyrz.dkim.amazonses.com.
-mail.gofreerange.com. 3600 IN CNAME ghs.google.com.
+mail.gofreerange.com. 3600 IN CNAME ghs.googlehosted.com.
 qallhze5sbmxakooblcjoxzcnaeaf4gs._domainkey.gofreerange.com. 3600 IN CNAME qallhze5sbmxakooblcjoxzcnaeaf4gs.dkim.amazonses.com.
-sites.gofreerange.com. 3600 IN CNAME ghs.google.com.
-start.gofreerange.com. 3600 IN CNAME ghs.google.com.
 t4jwxpgubazwy5wbsrytm2ijtbn7wxfz._domainkey.gofreerange.com. 3600 IN CNAME t4jwxpgubazwy5wbsrytm2ijtbn7wxfz.dkim.amazonses.com.
 gofreerange.com. 3600 IN MX 5 ALT1.ASPMX.L.GOOGLE.com.
 gofreerange.com. 3600 IN MX 5 ALT2.ASPMX.L.GOOGLE.com.
