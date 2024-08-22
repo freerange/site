@@ -186,7 +186,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.9.0)
-    rexml (3.3.3)
+    rexml (3.3.6)
       strscan
     rollbar (3.5.2)
     rspec-core (3.13.0)
