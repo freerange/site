@@ -1,6 +1,6 @@
 $ORIGIN mission-patch.com.
 $TTL 1h
-mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902570 86400 7200 604800 300
+mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902573 86400 7200 604800 300
 mission-patch.com. 3600 IN NS ns1.dnsimple.com.
 mission-patch.com. 3600 IN NS ns2.dnsimple.com.
 mission-patch.com. 3600 IN NS ns3.dnsimple.com.
@@ -24,3 +24,4 @@ krs._domainkey.mission-patch.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUA
 pm-bounces.mission-patch.com. 3600 IN CNAME pm.mtasv.net.
 20240401163210pm._domainkey.mission-patch.com. 3600 IN TXT "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCq2tKpxxluWsB2BZcDwUi1683OYOHhWaUzlnJBCb/+jW5wBmZbJIPNyOZVi/SXk31QfqtJaVVmQXMdH2mtfi42Iw0TLSzYod3i19BUamnwiLmcRVZAQkpeifmavz3vGBnMai09jR/TLLAQ8CckLFJWNyZGI2MwQALVSTYqlmyG2wIDAQAB"
 api.mission-patch.com. 3600 IN CNAME mission-patch-api-hlm2.onrender.com.
+mission-patch.com. 3600 IN TXT "google-site-verification=q196wR1gvm7V219c9x0IRmQaVm-YONWR0KyKslKDc-s"
