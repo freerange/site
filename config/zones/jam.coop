@@ -1,6 +1,6 @@
 $ORIGIN jam.coop.
 $TTL 1h
-jam.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1691514217 86400 7200 604800 300
+jam.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1691514218 86400 7200 604800 300
 jam.coop. 3600 IN NS ns1.dnsimple.com.
 jam.coop. 3600 IN NS ns2.dnsimple.com.
 jam.coop. 3600 IN NS ns3.dnsimple.com.
@@ -19,3 +19,4 @@ dev.jam.coop. 60 IN CNAME 8mbfspptw7htbnnj.ihpcxff2jbdbsd6z.ngrok-cname.com.
 _b9955ce298d73d709ebcfa1eb2e59c89.cdn.jam.coop. 60 IN CNAME _e50eeec0097882b7b94ba20a2da53b8f.mhbtsbpdnt.acm-validations.aws.
 cdn.jam.coop. 60 IN CNAME d3so9c06zn7pq3.cloudfront.net.
 20231220172448pm._domainkey.jam.coop. 60 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCGKOwjwolTM5eKj2ASUHJz4oA4sORkrpBqALgn4s49/E6sXpg1Nfbpat/Ovbe4L3NPG7gI8U17xMoWG7ysOWHybS4oH7pwNPz2Cl2fp6ug3OKDrI+ZiwP4Kj6L48EIvd9NySZIjXm2SXRVeDMNZRHS8HfBKp1sQQ6D1crUbW2mkwIDAQAB"
+jam.coop. 3600 IN TXT "google-site-verification=UXl3rAvx0K8R76nLD1x4jwbsc0ELA4KSWTjyOSAkJ30"
