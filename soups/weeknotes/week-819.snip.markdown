@@ -24,7 +24,7 @@ We've been speaking to [Ruby Central][ruby-central] about the idea of resurrecti
 
 ## R&D tax credits &#128183;
 
-[Chris][chris-lowis] and James have continued to explore whether we're elligible for [R&D tax relief][r-and-d-tax-relief] for any of our recent projects. I really appreciate their work on this as I find it particularly hard to motivate myself to work on these sorts of things.
+[Chris][chris-lowis] and James have continued to explore whether we're eligible for [R&D tax relief][r-and-d-tax-relief] for some of our previous projects. I really appreciate their work on this as I find it particularly hard to motivate myself to work on these sorts of things.
 
 ## Congratulations! &#127870;
 
