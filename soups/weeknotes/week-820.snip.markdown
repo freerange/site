@@ -7,17 +7,17 @@ Week beginning Monday 30 September, 2024.
 
 [James][james-mead] is continuing to port the [Mission Patch][mission-patch] designer to [Rails][ruby-on-rails]. It's nearly feature complete and doesn't require any JavaScript - that'll come later in the form of enhancements to the core functionality. James took a slight detour to upgrade to [Bootstrap][bootstrap] 5 in the Svelte version of Mission Patch, in order to make it easier to port to Rails.
 
-I'm still seeing a failure when running the tests on my laptop: the generated mission patch image differs (impercetably to my eye) from the fixture file. I've started exploring using [pixelmatch][pixelmatch] to see whether we can get confidence that the images are equal enough without being a pixel perfect match.
+I'm still seeing a failure when running the tests on my laptop: the generated mission patch image differs (impercetibly to my eye) from the fixture file. I've started exploring using [pixelmatch][pixelmatch] to see whether we can get confidence that the images are equal enough without being a pixel perfect match.
 
-James and I spent a while investigating [Content Security Policy][csp] (CSP) errors and warnings we're seeing in the browser and Rollbar. We have CSP in report only mode at the moment but are still seeing exceptions appear in [Rollbar][rollbar]. It transpires that as well as manually sending the CSP violations to Rollbar as warnings from our reporting endpoint, we'd also enabled the `autoInstrument.errorOnContentSecurityPolicy` setting which caused Rollbar to report them as exceptions. We've disabled the latter of these two for now which means we still get the reports logged in Rollbar but only as warnings and not as errors.
+James and I spent a while investigating [Content Security Policy][csp] (CSP) errors and warnings we're seeing in the browser and Rollbar. We have CSP in report-only mode at the moment but we were still seeing errors appear in [Rollbar][rollbar]. It transpires that as well as manually sending the CSP violations to Rollbar as warnings from our reporting endpoint, we'd also enabled the `autoInstrument.errorOnContentSecurityPolicy` setting which caused Rollbar to report them as errors. We've disabled the latter of these two for now which means we still get the reports logged in Rollbar but only as warnings and not as errors.
 
-I fixed a bug that meant it was only possible to type one character at a time in Mission Patch designer text fields. I didn't get to the bottom of what caused it but discovered that disabling [Svelte][sveltekit]'s preloading of the designer fixed it. Given that we're porting the designer to Rails we've agreed that it's not worth investigating further.
+I fixed a bug that meant it was only possible to type one character at a time in Mission Patch designer text fields. I didn't get to the bottom of what caused it but discovered that disabling [SvelteKit][sveltekit]'s preloading of the designer fixed it. Given that we're porting the designer to Rails we've agreed that it's not worth investigating further.
 
 I continued to make progress on implementing the homepage redesign and am currently digging through previous orders to find some good examples to highlight - we're intending to copy the style/image but to change the text as we haven't asked for permission to display any of the previous orders.
 
 ## Jam &#127926;
 
-We received our [first external contribution][jam-pr-222] to [Jam][jam] recently, and [Chris][chris-lowis] spent some time this week tidying it up and getting it merged.
+We received another [external contribution][jam-pr-222] to [Jam][jam] recently, and [Chris][chris-lowis] spent some time this week tidying it up and getting it merged.
 
 ## RubyForge redirects &#128279;
 
