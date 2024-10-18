@@ -7,7 +7,7 @@ Week beginning Monday, 14th October 2024.
 
 ## Mission Patch 🚀
 
-I continued to port the app from [SvelteKit][] to [Rails][] 🚂 concentrating on progressively enhancing the patch designer using [Hotwire Stimulus][] and [Hotwire Turbo Streams][]. So far I've been very impressed with how relatively straightforward it's been to implement the JavaScript enhancements and how well they're working. And it's been a massive help to be able to bounce ideas off [Chris R][] as I've been going along. I'm really looking forward to getting the changes live and writing about the implementation in more detail.
+I continued to port [the app][mission-patch] from [SvelteKit][] to [Rails][] 🚂 concentrating on progressively enhancing the patch designer using [Hotwire Stimulus][] and [Hotwire Turbo Streams][]. So far I've been very impressed with how relatively straightforward it's been to implement the JavaScript enhancements and how well they're working. And it's been a massive help to be able to bounce ideas off [Chris R][] as I've been going along. I'm really looking forward to getting the changes live and writing about the implementation in more detail.
 
 [Guy][guy-moorhouse] gave us some very helpful feedback on our initial implementation of the new home page design via the medium of a [Supercut][] video with him talking us through a number of issues and demonstrating how to fix them in the browser developer tools. 🎉
 
@@ -73,6 +73,7 @@ Anyway, that's all for this week! 👋
 [new Audio Overview feature]: https://blog.google/technology/ai/notebooklm-update-october-2024/
 [gfr-website]: /
 [ruby.social]: https://ruby.social
+[mission-patch]: https://mission-patch.com/
 
 :name: week-822
 :updated_at: 2024-10-18 15:49:00.000000000 +01:00
