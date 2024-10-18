@@ -25,7 +25,8 @@ Anyway, we've wired up our main [email address][gfr-email] with our main Trello 
 
 ## Mastodon 🐘
 
-The Mastodon v4.3 release [includes support][helping-writers] for what [Robb Knight calls "author tags"][author-tags]. I noticed that [James A][] had already upgraded https://ruby.social 🏆 where GFR has [an account][freerange-ruby-social], so I [added the relevant `meta` tag][commit-fce6f547] to our website and configured the settings in our Mastodon account. All being well, you should now see a little "More from Go Free Range Ltd" link whenever we post a link to a page on our website/blog. 🤞
+The Mastodon v4.3 release [includes support][helping-writers] for what [Robb Knight calls "author tags"][author-tags]. I noticed that [James A][] had already upgraded [ruby.social][] 🏆 where GFR has [an account][freerange-ruby-social], so I [added the relevant `meta` tag][commit-fce6f547] to our website and configured the settings in our Mastodon account. All being well, you should now see a little "More from Go Free Range Ltd" link whenever we post a link to a page on our website/blog. 🤞
+
 
 ## Podcast 🎙️🎧
 
@@ -71,6 +72,7 @@ Anyway, that's all for this week! 👋
 [Simon Willison's article]: https://simonwillison.net/2024/Oct/17/notebooklm-pelicans/
 [new Audio Overview feature]: https://blog.google/technology/ai/notebooklm-update-october-2024/
 [gfr-website]: /
+[ruby.social]: https://ruby.social
 
 :name: week-822
 :updated_at: 2024-10-18 15:49:00.000000000 +01:00
