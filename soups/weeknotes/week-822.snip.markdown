@@ -3,19 +3,19 @@ Week 822
 
 Week beginning Monday, 14th October 2024.
 
-[Chris L][] arrived back from his Las Vegas 🎰 trip on Tuesday evening where he'd met up with some friends and attended the 🎶 [Best Friends Forever Fest][] 🎶. The proverbial caveat [^1] notwithstanding, it sounds as if he had a really good break, although he was inevitably suffering from jet lag on Wednesday!
+[Chris L][] arrived back 🛬 from his 🇺🇸 Las Vegas 🎰 trip on Tuesday evening where he'd met up with some friends and attended the 🎶 [Best Friends Forever Fest][] 🎶. The proverbial caveat [^1] notwithstanding, it sounds as if he had a really good break, although he was inevitably suffering from jet lag 😴 on Wednesday!
 
 ## Mission Patch 🚀
 
-I continued to port the app from [SvelteKit][] to [Rails][] concentrating on progressively enhancing the patch designer using [Hotwire Stimulus][] and [Hotwire Turbo Streams][]. So far I've been very impressed with how relatively straightforward it's been to implement the JavaScript enhancements and how well they're working. And it's been a massive help to be able to bounce ideas off [Chris R][] as I've been going along. I'm really looking forward to getting the changes live and writing about the implementation in more detail.
+I continued to port the app from [SvelteKit][] to [Rails][] 🚂 concentrating on progressively enhancing the patch designer using [Hotwire Stimulus][] and [Hotwire Turbo Streams][]. So far I've been very impressed with how relatively straightforward it's been to implement the JavaScript enhancements and how well they're working. And it's been a massive help to be able to bounce ideas off [Chris R][] as I've been going along. I'm really looking forward to getting the changes live and writing about the implementation in more detail.
 
 [Guy][guy-moorhouse] gave us some very helpful feedback on our initial implementation of the new home page design via the medium of a [Supercut][] video with him talking us through a number of issues and demonstrating how to fix them in the browser developer tools. 🎉
 
 ## Jam 🍓
 
-Chris R spent some more time 🥇 working through the explanations on the historical transactions in [FreeAgent][] [^2] checking the way we've handled VAT. He also did some more thinking about how we might make better use FreeAgent, [DoubleAgent][], [Stripe Connect][], etc, to simplify or even automate the work involved.
+Chris R spent some more time 🥇 working through the explanations on the historical transactions in [FreeAgent][] [^2] checking the way we've handled VAT. He also did some more thinking about how we might make better use FreeAgent, [DoubleAgent][], [Stripe Connect][], etc, to simplify or even automate the work involved 🤖.
 
-When Chris L was back, the two of them had a useful conversation about how we should handle the [The Platform Operators regulations][] which might require us to do due diligence on [jam.coop][] sellers and report their income to HMRC.
+When Chris L was back, the two of them had a useful conversation about how we should handle the [The Platform Operators regulations][] which might require us to do due diligence on [jam.coop][] sellers and report their income to HMRC. 💸
 
 ## SendBoard & Trello Butler 📩🤵
 
@@ -25,7 +25,7 @@ Anyway, we've wired up our main [email address][gfr-email] with our main Trello 
 
 ## Mastodon 🐘
 
-The Mastodon v4.3 release [includes support][helping-writers] for what [Robb Knight calls "author tags"][author-tags]. I noticed that [James A][] had already upgraded https://ruby.social where GFR has [an account][freerange-ruby-social], so I [added the relevant meta tag][commit-fce6f547] to our website and configured the settings in our Mastodon account. All being well, you should now see a little "More from Go Free Range Ltd" link whenever we post a link to a page on our website/blog. 🤞
+The Mastodon v4.3 release [includes support][helping-writers] for what [Robb Knight calls "author tags"][author-tags]. I noticed that [James A][] had already upgraded https://ruby.social 🏆 where GFR has [an account][freerange-ruby-social], so I [added the relevant `meta` tag][commit-fce6f547] to our website and configured the settings in our Mastodon account. All being well, you should now see a little "More from Go Free Range Ltd" link whenever we post a link to a page on our website/blog. 🤞
 
 ## Podcast 🎙️🎧
 
