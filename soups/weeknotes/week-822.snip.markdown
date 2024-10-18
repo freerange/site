@@ -82,4 +82,3 @@ Anyway, that's all for this week! 👋
 :author: james-mead
 :page_title: Week 822
 :extension: markdown
-:draft: true
