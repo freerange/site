@@ -1,12 +1,12 @@
 $ORIGIN mission-patch.com.
 $TTL 1h
-mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902573 86400 7200 604800 300
+mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902577 86400 7200 604800 300
 mission-patch.com. 3600 IN NS ns1.dnsimple.com.
 mission-patch.com. 3600 IN NS ns2.dnsimple.com.
 mission-patch.com. 3600 IN NS ns3.dnsimple.com.
 mission-patch.com. 3600 IN NS ns4.dnsimple.com.
 _dmarc.mission-patch.com. 3600 IN TXT "v=DMARC1;p=quarantine;pct=100;rua=mailto:contact@mission-patch.com;fo=1"
-; mission-patch.com. 3600 IN ALIAS mission-patch-web-l6ws.onrender.com.
+; mission-patch.com. 3600 IN ALIAS mission-patch-api-hlm2.onrender.com.
 mission-patch.com. 3600 IN TXT "v=spf1 include:mailgun.org ~all"
 mission-patch.com. 3600 IN TXT "stripe-verification=43d16cbf8a47a2f56a7eb952f29b152e74bd15d4f9d1100b906db6d020d50838"
 zvpfrp7bbnkfesgeoy7jkpv2cpfdmpwv._domainkey.mission-patch.com. 3600 IN CNAME zvpfrp7bbnkfesgeoy7jkpv2cpfdmpwv.dkim.custom-email-domain.stripe.com.
@@ -16,7 +16,7 @@ cpctdj7ebbvpia5fbyzxohn3376nv2x7._domainkey.mission-patch.com. 3600 IN CNAME cpc
 56vh3crhsilak4ggmihytnjjtdc236ew._domainkey.mission-patch.com. 3600 IN CNAME 56vh3crhsilak4ggmihytnjjtdc236ew.dkim.custom-email-domain.stripe.com.
 7qpam5ijettbgprrrbpi5feqnizg3n7i._domainkey.mission-patch.com. 3600 IN CNAME 7qpam5ijettbgprrrbpi5feqnizg3n7i.dkim.custom-email-domain.stripe.com.
 bounce.mission-patch.com. 3600 IN CNAME custom-email-domain.stripe.com.
-www.mission-patch.com. 3600 IN CNAME mission-patch-web-l6ws.onrender.com.
+www.mission-patch.com. 3600 IN CNAME mission-patch-api-hlm2.onrender.com.
 mission-patch.com. 3600 IN MX 10 mxa.mailgun.org.
 mission-patch.com. 3600 IN MX 10 mxb.mailgun.org.
 krs._domainkey.mission-patch.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFmwe3WUqHjEwjEKAlmPgX/+TCNXaT6tDnmi6H0dsS3RDwOSdXh491Tc2tohZ+hKWo/9q2h6PPJ5Ro5YEmsI7VARfbXzOS2hl241gJ1c3ioRDDw/gRYlxak83hG1ov2/I8uWqPfihhlGjKPs8YAJQ6kacQJUXxUJDiOPgj/QE7fwIDAQAB"
