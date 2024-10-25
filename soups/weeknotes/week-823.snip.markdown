@@ -21,7 +21,7 @@ We're all feeling a bit under the weather this afternoon, winter viruses catchin
 
 [Space 4]: https://space4.tech/
 [week 822]: /week-822
-[week 822]: /week-820
+[week 820]: /week-820
 [the LRUG mailing list]: http://lists.lrug.org/pipermail/chat-lrug.org/2024-October/026192.html
 [jam.coop]: https://jam.coop
 [The Faltering Fullback]: https://falteringfullback.com/
@@ -39,5 +39,3 @@ We're all feeling a bit under the weather this afternoon, winter viruses catchin
 :author: chris-lowis
 :page_title: Week 823
 :extension: markdown
-
-[^1]:
