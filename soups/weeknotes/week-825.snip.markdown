@@ -77,4 +77,3 @@ Until next time!
 :author: james-mead
 :page_title: Week 825
 :extension: markdown
-:draft: true
