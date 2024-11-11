@@ -5,7 +5,7 @@ Week beginning Monday, 4th November 2024.
 
 ## Business development
 
-This was the main focus of the week as we continued to contact former clients, people in our network, look for advertised opportunities, etc. We've haven't had any luck yet, though. [Drop us an email][contact-us] if you know about any projects we might be able to help with!
+This was the main focus of the week as we continued to contact former clients, people in our network, look for advertised opportunities, etc. We haven't had any luck yet, though. [Drop us an email][contact-us] if you know about any projects we might be able to help with!
 
 ## Financial forecast
 
@@ -35,7 +35,7 @@ Chris R continued to make good progress. We're really pleased that a couple of t
 
 ## Co-working
 
-Chris L joined his friend Ezo for a couple of hours on Wednesday at [the Hoxton in Holburn][]. Ezo is working on some kind of developer tools start-up involving LLMs. Chris said it was quite eye-opening seeing what was possible in this domain!
+Chris L joined his friend [Ezo][] for a couple of hours on Wednesday at [the Hoxton in Holburn][]. Ezo is working on a stealthy developer-tooling-for-AI-powered-applications startup. Chris said it was quite eye-opening seeing what was possible in this domain!
 
 ## Firefox extension
 
@@ -65,6 +65,7 @@ Until next time!
 [GitHub Copilot]: https://github.com/features/copilot
 [joplin-firefox-extension]: https://github.com/chrisroos/joplin-firefox-extension
 [Joplin]: https://joplinapp.org/
+[Ezo]: https://www.linkedin.com/in/ezosaleh
 
 :name: week-825
 :updated_at: 2024-11-11 15:37:00.000000000 +01:00
