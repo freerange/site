@@ -4,7 +4,7 @@ Week 826
 Week beginning Monday, 11th November 2024.
 
 [Chris][chris-lowis] and I started work on a new client project this week!
-We've been asked to explore whether we can build a primarily-mobile [React][reactjs] app to simplify and improve an existing labour itensive, manual and error-prone process.
+We've been asked to explore whether we can build a primarily-mobile [React][reactjs] app to simplify and improve an existing labour-intensive, manual and error-prone process.
 We've agreed on an initial budget of up to 24 days to come up with something that allows the client to decide whether it's worth them investing in the software.
 If they decide it's worth the investment then it's possible there'll be some work to productionise it in early 2025.
 We started on Tuesday and, after spending the first day meeting the team, have spent a good couple of days building.
