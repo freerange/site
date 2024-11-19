@@ -1,6 +1,6 @@
 $ORIGIN gofreerange.com.
 $TTL 1h
-gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827444 86400 7200 604800 300
+gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827449 86400 7200 604800 300
 gofreerange.com. 3600 IN NS ns1.dnsimple.com.
 gofreerange.com. 3600 IN NS ns2.dnsimple.com.
 gofreerange.com. 3600 IN NS ns3.dnsimple.com.
@@ -30,3 +30,5 @@ geohash.gofreerange.com. 3600 IN CNAME defined-horse-xfcnv0flcrgtczow9avvta35.he
 video.gofreerange.com. 3600 IN CNAME theoretical-crane-i3yy0t9vms0qhgm515hgp1gp.herokudns.com.
 gofreerange.com. 3600 IN TXT "MS=79E755CE19882FCEC2943C5C5888314C9171894F"
 gofreerange.com. 3600 IN TXT "google-site-verification=FU6eNTUKWFsZp-twz4Gn2q2CwlGvdYNuw97OOitjMQA"
+fastly-log-sink.gofreerange.com. 3600 IN A 178.62.124.238
+
