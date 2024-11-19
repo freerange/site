@@ -31,4 +31,4 @@ video.gofreerange.com. 3600 IN CNAME theoretical-crane-i3yy0t9vms0qhgm515hgp1gp.
 gofreerange.com. 3600 IN TXT "MS=79E755CE19882FCEC2943C5C5888314C9171894F"
 gofreerange.com. 3600 IN TXT "google-site-verification=FU6eNTUKWFsZp-twz4Gn2q2CwlGvdYNuw97OOitjMQA"
 fastly-log-sink.gofreerange.com. 3600 IN A 178.62.124.238
-
+twitter.gofreerange.com. 3600 IN CNAME freerange.github.io.
