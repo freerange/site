@@ -1,0 +1,13 @@
+$ORIGIN rubyforgery.org.
+$TTL 1h
+rubyforgery.org. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1730367736 86400 7200 604800 300
+rubyforgery.org. 3600 IN NS ns1.dnsimple.com.
+rubyforgery.org. 3600 IN NS ns2.dnsimple-edge.net.
+rubyforgery.org. 3600 IN NS ns3.dnsimple.com.
+rubyforgery.org. 3600 IN NS ns4.dnsimple-edge.org.
+redirects-origin.rubyforgery.org. 3600 IN CNAME freerange.github.io.
+rubyforgery.org. 3600 IN A 151.101.0.204
+rubyforgery.org. 3600 IN A 151.101.64.204
+rubyforgery.org. 3600 IN A 151.101.128.204
+rubyforgery.org. 3600 IN A 151.101.192.204
+*.rubyforgery.org. 3600 IN CNAME nonssl.global.fastly.net.
