@@ -1,6 +1,6 @@
 $ORIGIN gofreerange.com.
 $TTL 1h
-gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827449 86400 7200 604800 300
+gofreerange.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547827450 86400 7200 604800 300
 gofreerange.com. 3600 IN NS ns1.dnsimple.com.
 gofreerange.com. 3600 IN NS ns2.dnsimple.com.
 gofreerange.com. 3600 IN NS ns3.dnsimple.com.
