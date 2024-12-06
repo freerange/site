@@ -18,6 +18,6 @@ class Person < Base
   private
 
   def self.current_username
-    `whoami`.chomp
+    ENV['USER'].chomp
   end
 end
