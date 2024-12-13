@@ -100,7 +100,7 @@ GEM
     crass (1.0.6)
     date (3.3.4)
     diff-lcs (1.5.1)
-    dotenv (3.1.4)
+    dotenv (3.1.5)
     erubi (1.13.0)
     ffi (1.16.3)
     globalid (1.2.1)
