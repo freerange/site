@@ -8,7 +8,7 @@ As worker-owners we have a vested interest in your project: success for you mean
 
 We work really hard to add value beyond being just units of developer resource. We're a fully fledged team that work well together, and have done for many years. We think we’re most effective when working closely with the client to shape the direction of the product.
 
-Although Ruby and Rails is what brought us together, our many years of experience mean that we’re comfortable turning our hand to most languages. Collectively we have experience of Java, Python, Swift, JavaScript and more although we believe the approach is more important than the language or framework.
+Although Ruby and Rails is what brought us together, our many years of experience mean that we’re comfortable turning our hand to most languages. Collectively we have experience of Java, Python, JavaScript and more although we believe the approach is more important than the language or framework.
 
 We’ve worked on substantial projects for the likes of [O2][o2], the [Government Digital Service][gds] and [FutureLearn][futurelearn], an offshoot of the Open University.
 
