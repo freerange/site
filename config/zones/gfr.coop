@@ -1,9 +1,12 @@
 $ORIGIN gfr.coop.
 $TTL 1h
-gfr.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1587811404 86400 7200 604800 300
+gfr.coop. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1587811412 86400 7200 604800 300
 gfr.coop. 3600 IN NS ns1.dnsimple.com.
 gfr.coop. 3600 IN NS ns2.dnsimple.com.
 gfr.coop. 3600 IN NS ns3.dnsimple.com.
 gfr.coop. 3600 IN NS ns4.dnsimple.com.
 _b0cd9a2f863678823f485aeb85460268.gfr.coop. 3600 IN CNAME _6b38a62591515685e627c9757082be1f.auiqqraehs.acm-validations.aws.
 ; gfr.coop. 3600 IN ALIAS d1h5unqwbywi3v.cloudfront.net.
+www.gedu.demo.gfr.coop. 60 IN CNAME freerange.github.io.
+gedu.demo.gfr.coop. 3600 IN TXT "google-site-verification=D5TBhncpmHcpikY3qmK4xHCWC71_fGcpC1EXW91yYjI"
+gedu.demo.gfr.coop. 3600 IN MX 1 SMTP.GOOGLE.COM.
