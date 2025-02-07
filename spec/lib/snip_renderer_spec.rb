@@ -8,6 +8,12 @@ RSpec.describe SnipRenderer do
         rendered = SnipRenderer.new.render(snip, binding)
         expect(rendered).to eq("<h1 id=\"hello\">Hello</h1>\n")
       end
+
+      it 'uses the GitHub Flavoured Markdown renderer' do
+        snip = double(content: 'content', extension: 'markdown')
+        expect(Kramdown::Document).to receive(:new).with('content', include(input: 'GFM')).and_call_original
+        SnipRenderer.new.render(snip, binding)
+      end
     end
 
     context 'when the snip is not markdown' do

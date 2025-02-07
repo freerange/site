@@ -7,6 +7,7 @@ gem 'benchmark'
 gem 'bigdecimal'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'drb'
+gem 'kramdown-parser-gfm', '~> 1.1'
 gem 'kramdown', '~> 2.5'
 gem 'logger'
 gem 'mutex_m'
