@@ -228,6 +228,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.3.9)
     rollbar (3.6.1)
+    rouge (4.5.1)
     rspec-core (3.13.2)
       rspec-support (~> 3.13.0)
     rspec-expectations (3.13.3)
@@ -308,6 +309,7 @@ DEPENDENCIES
   rails (~> 7.0.0)
   rails-controller-testing (~> 1.0)
   rollbar
+  rouge
   rspec-rails (~> 7.1)
   sass-rails (~> 6.0)
   soup (~> 1.0)

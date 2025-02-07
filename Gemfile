@@ -14,6 +14,7 @@ gem 'mutex_m'
 gem 'puma', '~> 6'
 gem 'rails', '~> 7.0.0'
 gem 'rollbar'
+gem 'rouge'
 gem 'soup', '~> 1.0'
 
 group :assets, :development do

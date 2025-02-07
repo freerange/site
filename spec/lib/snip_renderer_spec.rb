@@ -14,6 +14,12 @@ RSpec.describe SnipRenderer do
         expect(Kramdown::Document).to receive(:new).with('content', include(input: 'GFM')).and_call_original
         SnipRenderer.new.render(snip, binding)
       end
+
+      it 'uses rouge for syntax highlighting in markdown content' do
+        snip = double(content: 'content', extension: 'markdown')
+        expect(Kramdown::Document).to receive(:new).with('content', include(syntax_highlighter: 'rouge')).and_call_original
+        SnipRenderer.new.render(snip, binding)
+      end
     end
 
     context 'when the snip is not markdown' do
