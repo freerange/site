@@ -5,6 +5,7 @@ ruby '3.1.2'
 gem 'rails', '~> 7.0.0'
 gem 'soup', '~> 1.0'
 gem 'kramdown', '~> 2.5'
+gem 'kramdown-parser-gfm', '~> 1.1'
 gem 'aws-sdk-s3', '~> 1.180'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'puma', '~> 6'
