@@ -86,6 +86,7 @@ GEM
     aws-sigv4 (1.11.0)
       aws-eventstream (~> 1, >= 1.0.2)
     base64 (0.2.0)
+    bigdecimal (3.1.9)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
     builder (3.3.0)
@@ -103,6 +104,7 @@ GEM
     date (3.4.1)
     diff-lcs (1.5.1)
     dotenv (3.1.7)
+    drb (2.2.1)
     erubi (1.13.0)
     ffi (1.16.3)
     globalid (1.2.1)
@@ -131,6 +133,7 @@ GEM
     mini_portile2 (2.8.8)
     minitest (5.25.1)
     msgpack (1.7.2)
+    mutex_m (0.3.0)
     net-imap (0.4.19)
       date
       net-protocol
@@ -245,11 +248,14 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk-s3 (~> 1.182)
+  bigdecimal
   bootsnap (>= 1.1.0)
   capybara (~> 3.40)
   dotenv (~> 3.1)
+  drb
   kramdown (~> 2.5)
   listen (>= 3.0.5, < 3.10)
+  mutex_m
   puma (~> 6)
   rails (~> 7.0.0)
   rails-controller-testing (~> 1.0)
@@ -261,7 +267,7 @@ DEPENDENCIES
   tinify
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.4.2p28
 
 BUNDLED WITH
    2.3.24

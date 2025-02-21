@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.1.2'
+ruby '3.4.2'
 
 gem 'rails', '~> 7.0.0'
 gem 'soup', '~> 1.0'
@@ -9,6 +9,9 @@ gem 'aws-sdk-s3', '~> 1.182'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'puma', '~> 6'
 gem 'rollbar'
+gem 'mutex_m'
+gem 'bigdecimal'
+gem 'drb'
 
 group :assets, :development do
   gem 'sass-rails', '~> 6.0'
