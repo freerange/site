@@ -13,6 +13,7 @@ gem 'mutex_m'
 gem 'bigdecimal'
 gem 'drb'
 gem 'logger'
+gem 'benchmark'
 
 group :assets, :development do
   gem 'sass-rails', '~> 6.0'
