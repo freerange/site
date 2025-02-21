@@ -12,6 +12,7 @@ gem 'rollbar'
 gem 'mutex_m'
 gem 'bigdecimal'
 gem 'drb'
+gem 'logger'
 
 group :assets, :development do
   gem 'sass-rails', '~> 6.0'
