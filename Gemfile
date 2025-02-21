@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.4.2'
+ruby file: '.ruby-version'
 
 gem 'rails', '~> 7.0.0'
 gem 'soup', '~> 1.0'
