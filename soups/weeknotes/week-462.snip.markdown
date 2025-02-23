@@ -27,3 +27,4 @@ Anyway, until next time.
 :author: james-mead
 :page_title: Week 462
 :extension: markdown
+:erb: true

@@ -37,3 +37,4 @@ This account of finding the the shortest distance between two houses with the sa
 :author: james-mead
 :page_title: Week 452 - Interesting links
 :extension: markdown
+:erb: true

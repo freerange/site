@@ -29,3 +29,4 @@ I'm sorry that this is a bit dull, but we've been doing a lot of work around vid
 :created_at: 2014-04-16 17:30:00 +00:00
 :updated_at: 2014-04-16 17:30:00 +00:00
 :page_title: Week 274 - Interesting links
+:erb: true

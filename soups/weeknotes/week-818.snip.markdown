@@ -40,3 +40,4 @@ We spent a while discussing whether we could provide Mission Patches as [Open Ba
 :author: chris-roos
 :page_title: Week 818
 :extension: markdown
+:erb: true

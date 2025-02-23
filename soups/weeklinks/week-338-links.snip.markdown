@@ -84,3 +84,4 @@ The other day, [Tom S](http://codon.com/) mentioned the `exec` "command" in the 
 :created_at: 2015-07-10 11:45:00 +00:00
 :updated_at: 2015-07-10 15:45:00 +00:00
 :page_title: Week 338 - Interesting links
+:erb: true

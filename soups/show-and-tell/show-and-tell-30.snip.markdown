@@ -186,3 +186,4 @@ though those slides for a while before heading downstairs for a drink.
 :page_title: Show and Tell 30
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

@@ -33,3 +33,4 @@ I think this is a great description of what makes a good user story and how some
 :created_at: 2013-05-20 10:00:00 +01:00
 :updated_at: 2013-05-20 10:00:00 +01:00
 :page_title: Monday Links - Week 227
+:erb: true

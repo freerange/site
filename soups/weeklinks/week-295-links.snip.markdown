@@ -64,3 +64,4 @@ This looks interesting - I'll have to give it a go if/when we do more work on th
 :created_at: 2014-09-11 14:22:00 +00:00
 :updated_at: 2014-09-11 14:22:00 +00:00
 :page_title: Week 295 - Interesting links
+:erb: true

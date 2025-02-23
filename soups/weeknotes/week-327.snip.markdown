@@ -53,3 +53,4 @@ Not able to top that, I'll say cheerio for now. I hope y'all have a good weekend
 :created_at: 2015-05-01 10:50:00 +01:00
 :updated_at: 2015-05-01 12:25:00 +01:00
 :page_title: Week 327
+:erb: true

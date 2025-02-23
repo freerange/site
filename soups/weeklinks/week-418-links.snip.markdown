@@ -28,3 +28,4 @@ I quite like this site that aggregates public apologies made by various transpor
 :author: chris-roos
 :page_title: Week 418 - Interesting links
 :extension: markdown
+:erb: true

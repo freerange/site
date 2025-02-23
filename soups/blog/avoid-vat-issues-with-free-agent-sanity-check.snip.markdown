@@ -76,3 +76,4 @@ At the moment, the *FreeAgent Sanity Check* is fairly customised to our company 
 :created_at: 2013-01-28 12:24:00 +01:00
 :updated_at: 2013-01-28 12:24:00 +01:00
 :page_title: Avoiding VAT issues with FreeAgent Sanity Check
+:erb: true

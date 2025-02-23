@@ -58,3 +58,4 @@ The GitHub blame view has links in the left hand margin to the last commit where
 :created_at: 2014-03-13 14:30:00 +00:00
 :updated_at: 2014-03-13 14:30:00 +00:00
 :page_title: Week 269 - Interesting links
+:erb: true

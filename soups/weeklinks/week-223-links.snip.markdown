@@ -52,3 +52,4 @@ In my continuing quest to perfect my vim development environment, I'm really imp
 :created_at: 2013-04-22 10:31:00 +01:00
 :updated_at: 2013-04-22 10:31:00 +01:00
 :page_title: Monday Links - Week 223
+:erb: true

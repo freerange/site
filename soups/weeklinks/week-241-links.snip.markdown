@@ -36,3 +36,4 @@ I'm also interested in pub/sub listener techniques for decoupling your business 
 :created_at: 2013-08-27 13:00:00 +01:00
 :updated_at: 2013-08-27 13:00:00 +01:00
 :page_title: Monday Links - Week 241
+:erb: true

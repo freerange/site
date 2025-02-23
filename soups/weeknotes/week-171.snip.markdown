@@ -41,3 +41,4 @@ Anyway, that's it for another week.  These weeknotes were brought to you by the 
 :created_at: 2012-04-30 10:49:00 +01:00
 :updated_at: 2012-04-30 10:49:00 +01:00
 :page_title: Week 171 - Focus Grasshopper
+:erb: true

@@ -90,3 +90,4 @@ Adiós y buena suerte, amigos!
 :created_at: 2012-09-28 17:00:00 +01:00
 :updated_at: 2012-09-28 17:00:00 +01:00
 :page_title: Week 193
+:erb: true

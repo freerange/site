@@ -94,3 +94,4 @@ We'll be hosting our 45th Show & Tell in June. Please [get in touch][contact] if
 :page_title: Show and Tell 44
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

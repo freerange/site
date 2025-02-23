@@ -130,3 +130,4 @@ There were lots of suggestions from the group, particularly around the idea of u
 :page_title: Show and Tell 26
 :extension: markdown
 :layout: show-and-tell-layout
+:erb: true

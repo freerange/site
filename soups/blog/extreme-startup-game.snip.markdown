@@ -74,3 +74,4 @@ If you get the chance to have [Rob](http://chatley.com) run the Extreme Startup 
 :created_at: 2013-07-31 18:00:00 +06:00
 :updated_at: 2013-07-31 18:00:00 +06:00
 :page_title: Extreme Startup Game
+:erb: true

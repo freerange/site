@@ -61,3 +61,4 @@ I'm quite intrigued by Huginn which claims to be a self-hosted mixture of Yahoo!
 :created_at: 2013-03-18 10:32:00 +00:00
 :updated_at: 2013-03-18 10:32:00 +00:00
 :page_title: Monday Links - Week 218
+:erb: true

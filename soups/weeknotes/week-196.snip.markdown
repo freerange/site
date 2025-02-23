@@ -58,3 +58,4 @@ We're back up to full strength next week, so hopefully we'll be able to get a fi
 :created_at: 2012-10-20 10:30:00 +01:00
 :updated_at: 2012-10-20 10:30:00 +01:00
 :page_title: Week 196
+:erb: true

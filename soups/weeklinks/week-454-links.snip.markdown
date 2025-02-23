@@ -58,3 +58,4 @@ We became interested in the [Credit Union Expansion Project][cuep] while investi
 :author: james-mead
 :page_title: Week 454 - Interesting links
 :extension: markdown
+:erb: true

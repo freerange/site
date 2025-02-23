@@ -70,3 +70,4 @@ Chris has taken the lead on business development recently, contacting various pe
 :author: chris-roos
 :page_title: Week 824
 :extension: markdown
+:erb: true

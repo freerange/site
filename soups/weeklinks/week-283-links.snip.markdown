@@ -77,3 +77,4 @@ I noticed that [James A][] has promoted [Harmonia][] on there and it looks like 
 :created_at: 2014-06-18 13:00:00 +01:00
 :updated_at: 2014-06-18 13:00:00 +01:00
 :page_title: Week 283 - Interesting links
+:erb: true
