@@ -37,3 +37,4 @@ Another of the strong themes at LSRC was pair programming, and in particular rem
 :created_at: 2013-07-22 13:00:00 +01:00
 :updated_at: 2013-07-22 13:00:00 +01:00
 :page_title: Monday Links - Week 236
+:erb: true

@@ -61,3 +61,4 @@ It's great to see FutureLearn start to open up some of their course content to p
 :created_at: 2015-05-29 15:47:00 +00:00
 :updated_at: 2015-05-29 15:47:00 +00:00
 :page_title: Week 332 - Interesting links
+:erb: true

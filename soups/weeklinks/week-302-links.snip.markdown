@@ -66,3 +66,4 @@ This made me laugh. It's a browser plugin that automatically clicks on *all* adv
 :created_at: 2014-10-31 17:00:00 +00:00
 :updated_at: 2014-10-31 17:00:00 +00:00
 :page_title: Week 302 - Interesting links
+:erb: true

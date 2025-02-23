@@ -54,3 +54,4 @@ A pretty-long but very comprehesive writeup of one person selling the product th
 :created_at: 2013-09-16 16:30:00 +01:00
 :updated_at: 2013-09-16 16:30:00 +01:00
 :page_title: Monday Links - Week 244
+:erb: true

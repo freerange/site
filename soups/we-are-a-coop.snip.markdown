@@ -8,3 +8,4 @@ We're proud to be a worker <span class="nowrap">co-operative</span> and a [membe
 
 :created_at: 2019-09-21 13:23:00 +0100
 :updated_at: 2019-09-21 13:23:00 +0100
+:erb: true

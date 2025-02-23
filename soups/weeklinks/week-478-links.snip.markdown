@@ -42,3 +42,4 @@ We were recently asked to agree to GDPR-related changes in the contract for the 
 :author: chris-roos
 :page_title: Week 478 - Interesting links
 :extension: markdown
+:erb: true

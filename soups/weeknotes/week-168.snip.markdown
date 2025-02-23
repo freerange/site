@@ -101,3 +101,4 @@ That's all, folks.
 :created_at: 2012-04-05 13:32:00 +01:00
 :updated_at: 2012-04-05 13:32:00 +01:00
 :page_title: Week 168
+:erb: true

@@ -39,3 +39,4 @@ I do think it's a bad idea to schedule technical tasks, but I'm not totally conv
 :author: james-mead
 :page_title: Week 506 - Interesting links
 :extension: markdown
+:erb: true

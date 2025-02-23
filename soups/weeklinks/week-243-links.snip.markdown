@@ -29,3 +29,4 @@ Talking of Kent Beck, I'm attending this talk by him at Facebook, London, tomorr
 :created_at: 2013-09-09 13:00:00 +01:00
 :updated_at: 2013-09-09 13:00:00 +01:00
 :page_title: Monday Links - Week 243
+:erb: true

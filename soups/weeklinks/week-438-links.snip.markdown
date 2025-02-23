@@ -60,3 +60,4 @@ This is a bit of a wacky experiment which borrows some of the ideas from [Scuttl
 :author: chris-roos
 :page_title: Week 438 - Interesting links
 :extension: markdown
+:erb: true

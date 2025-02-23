@@ -87,3 +87,4 @@ pace.
 :author: chris-lowis
 :page_title: Week 431
 :extension: markdown
+:erb: true

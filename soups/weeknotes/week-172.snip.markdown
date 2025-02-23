@@ -84,3 +84,4 @@ Adios compadre,
 :created_at: 2012-05-03 10:49:00 +01:00
 :updated_at: 2012-05-03 10:49:00 +01:00
 :page_title: Week 172
+:erb: true

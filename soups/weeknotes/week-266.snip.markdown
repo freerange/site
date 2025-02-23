@@ -40,3 +40,4 @@ Anyways, I think that'll do us for week 266. Until next time, everybody peeps.
 :created_at: 2014-02-24 13:30:00 +00:00
 :updated_at: 2014-02-24 13:30:00 +00:00
 :page_title: Week 266
+:erb: true

@@ -94,3 +94,4 @@ Chris's Magic Eye demo and discussion reminded Ben of his [Hough Transform blog 
 :page_title: Show and Tell 38
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

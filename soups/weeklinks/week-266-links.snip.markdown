@@ -38,3 +38,4 @@ I'm sure I've wanted to be able to do this in the past; and now I know how! A to
 :created_at: 2014-02-19 17:41:00 +00:00
 :updated_at: 2014-02-19 17:41:00 +00:00
 :page_title: Week 266 - Interesting links
+:erb: true

@@ -66,3 +66,4 @@ There's a lot more work to do, but we're confident that [GDS][gds] will [listen 
 :created_at: 2012-02-29 12:45:00 +01:00
 :updated_at: 2012-02-29 12:45:00 +01:00
 :page_title: Inside Government
+:erb: true

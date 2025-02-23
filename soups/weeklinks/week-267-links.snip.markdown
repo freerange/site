@@ -43,3 +43,4 @@ I really enjoyed the most recent Little Schemer book club meeting. We hooked up 
 :created_at: 2014-02-26 16:50:00 +00:00
 :updated_at: 2014-02-26 16:50:00 +00:00
 :page_title: Week 267 - Interesting links
+:erb: true

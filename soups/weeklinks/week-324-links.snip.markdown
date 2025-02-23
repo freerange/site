@@ -78,3 +78,4 @@ I came across it via a [tweet from Kent Beck][] which suggests this is a good mo
 :created_at: 2015-04-01 10:42:00 +00:00
 :updated_at: 2015-04-07 16:30:00 +00:00
 :page_title: Week 324 - Interesting links
+:erb: true

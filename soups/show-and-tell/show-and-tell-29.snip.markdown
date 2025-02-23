@@ -153,3 +153,4 @@ Please [get in touch][contact] if you're interested in joining us for the next S
 :page_title: Show and Tell 29
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

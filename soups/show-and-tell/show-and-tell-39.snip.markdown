@@ -47,3 +47,4 @@ Ben spoke about an alternative way of teaching people about 3D modelling. Unfort
 :page_title: Show and Tell 39
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

@@ -109,3 +109,4 @@ Until next time,
 :created_at: 2012-08-18 02:01:00 +01:00
 :updated_at: 2012-08-18 02:01:00 +01:00
 :page_title: "Week 187"
+:erb: true

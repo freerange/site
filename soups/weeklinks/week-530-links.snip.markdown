@@ -61,3 +61,4 @@ This is great! I'm all for making it as easy as possible for people to see how t
 :author: james-mead
 :page_title: Week 530 - Interesting links
 :extension: markdown
+:erb: true

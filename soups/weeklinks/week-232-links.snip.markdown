@@ -39,3 +39,4 @@ I bumped into [Matt Wynne](http://mattwynne.net) on a Sleeper from London to Sco
 :created_at: 2013-06-24 10:00:00 +01:00
 :updated_at: 2013-06-24 10:00:00 +01:00
 :page_title: Monday Links - Week 232
+:erb: true

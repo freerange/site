@@ -86,3 +86,4 @@ It's a couple of years old but I've only just come across this video and enjoyed
 :created_at: 2013-05-28 14:15:00 +01:00
 :updated_at: 2013-05-28 14:15:00 +01:00
 :page_title: Monday Links - Week 228
+:erb: true

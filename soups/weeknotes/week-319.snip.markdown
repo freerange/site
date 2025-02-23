@@ -104,3 +104,4 @@ Anyway, until next time.
 :created_at: 2015-03-04 12:09:00 +01:00
 :updated_at: 2015-03-04 12:09:00 +01:00
 :page_title: Week 319
+:erb: true

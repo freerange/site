@@ -72,3 +72,4 @@ James also demoed the handy "diff" command provided by the CDK command line inte
 :page_title: Show and Tell 51
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true
