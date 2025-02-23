@@ -40,3 +40,4 @@ This project captures AIS messages broadcast by passing ships to obtain identity
 :author: james-mead
 :page_title: Week 458 - Interesting links
 :extension: markdown
+:erb: true

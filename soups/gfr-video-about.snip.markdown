@@ -36,3 +36,4 @@ This page contains the content from the now archived "about" page for [the servi
 :created_at: 2022-05-25 12:39:00 +0100
 :updated_at: 2022-05-25 12:39:00 +0100
 :page_title: GFR Video - About
+:erb: true

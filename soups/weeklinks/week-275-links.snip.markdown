@@ -34,3 +34,4 @@ This is a impressive Chrome extension which effectively OCRs images and document
 :created_at: 2014-04-24 11:00:00 +00:00
 :updated_at: 2014-04-24 11:00:00 +00:00
 :page_title: Week 275 - Interesting links
+:erb: true

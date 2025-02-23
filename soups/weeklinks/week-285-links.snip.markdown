@@ -57,3 +57,4 @@ This sounds really interesting: Using Indieweb ideas/software to allow students 
 :created_at: 2014-07-03 13:00:00 +01:00
 :updated_at: 2014-07-03 13:00:00 +01:00
 :page_title: Week 285 - Interesting links
+:erb: true

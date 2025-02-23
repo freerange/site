@@ -31,3 +31,4 @@ I was also fascinated by this video [19 mins] which Ben mentioned. It's amazing 
 :author: james-mead
 :page_title: Week 432 - Interesting links
 :extension: markdown
+:erb: true

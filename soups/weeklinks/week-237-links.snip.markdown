@@ -53,3 +53,4 @@ Striking a balance between polishing features and shipping them fast is a tough 
 :created_at: 2013-07-29 13:00:00 +01:00
 :updated_at: 2013-07-29 13:00:00 +01:00
 :page_title: Monday Links - Week 237
+:erb: true

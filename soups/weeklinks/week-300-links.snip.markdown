@@ -60,3 +60,4 @@ I haven't tried it but really like the look of this app. I collect quite a bit o
 :created_at: 2014-10-15 14:39:00 +00:00
 :updated_at: 2014-10-15 14:39:00 +00:00
 :page_title: Week 300 - Interesting links
+:erb: true

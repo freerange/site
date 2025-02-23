@@ -51,3 +51,4 @@ I came across this tool in the [Ruby Together progress report for December][]. A
 :author: james-mead
 :page_title: Week 412 - Interesting links
 :extension: markdown
+:erb: true

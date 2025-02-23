@@ -35,3 +35,4 @@ At [GFR](/) we've tried to minimise the amount of paper we use, and I like to th
 :created_at: 2013-05-06 10:00:00 +01:00
 :updated_at: 2013-05-06 14:30:00 +01:00
 :page_title: Monday Links - Week 225
+:erb: true

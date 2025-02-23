@@ -114,3 +114,4 @@ Until next time,
 :author: james-mead
 :page_title: Weeks 545-7
 :extension: markdown
+:erb: true

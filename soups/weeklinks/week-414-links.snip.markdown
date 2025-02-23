@@ -39,3 +39,4 @@ Someone has started trying to build a 32-bit CPU out of 74-series logic chips. T
 :author: james-mead
 :page_title: Week 414 - Interesting links
 :extension: markdown
+:erb: true

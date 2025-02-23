@@ -115,3 +115,4 @@ We're hosting our 34th Show & Tell on Wednesday 12th July. Please [get in touch]
 :page_title: Show and Tell 33
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

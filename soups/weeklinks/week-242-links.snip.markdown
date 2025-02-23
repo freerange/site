@@ -51,3 +51,4 @@ I've never quite understood why feed readers (well, the ones I've used at least)
 :created_at: 2013-09-02 13:00:00 +01:00
 :updated_at: 2013-09-02 13:00:00 +01:00
 :page_title: Monday Links - Week 242
+:erb: true

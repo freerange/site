@@ -55,3 +55,4 @@ I think it's fair to say that we collectively struggle to write weeknotes so I e
 :author: chris-roos
 :page_title: Week 504 - Interesting links
 :extension: markdown
+:erb: true

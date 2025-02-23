@@ -57,3 +57,4 @@ I was very pleasantly surprised when I was prompted to use my fingerprint to con
 :author: chris-roos
 :page_title: Week 508 - Interesting links
 :extension: markdown
+:erb: true

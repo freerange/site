@@ -29,3 +29,4 @@ That's all for now. Until next time.
 :author: chris-roos
 :page_title: Week 463
 :extension: markdown
+:erb: true

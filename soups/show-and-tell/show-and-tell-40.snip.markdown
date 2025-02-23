@@ -115,3 +115,4 @@ We'll be hosting our 41st Show & Tell in February. Please [get in touch][contact
 :page_title: Show and Tell 40
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

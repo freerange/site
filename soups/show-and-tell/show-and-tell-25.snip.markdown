@@ -134,3 +134,4 @@ I can imagine adding the Brewfile to my dotfiles repo and potentially switching 
 :updated_at: 2016-10-14 17:20:00 +01:00
 :page_title: Show and Tell 25
 :layout: show-and-tell-layout
+:erb: true

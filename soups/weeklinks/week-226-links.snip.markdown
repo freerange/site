@@ -40,3 +40,4 @@ This is long but I found it an interesting insight into the motivation behind so
 :created_at: 2013-05-13 10:00:00 +01:00
 :updated_at: 2013-05-13 10:00:00 +01:00
 :page_title: Monday Links - Week 226
+:erb: true

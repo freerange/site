@@ -34,3 +34,4 @@ An impressive visualisation of a rock-climbing route up El Capitan in Yosemite N
 :created_at: 2015-01-12 16:20:00 +00:00
 :updated_at: 2015-01-12 16:20:00 +00:00
 :page_title: Week 313 - Interesting links
+:erb: true

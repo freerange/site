@@ -37,3 +37,4 @@ Anyway, that's it for now. Have a great weekend!
 :created_at: 2013-09-20 16:00:00 +01:00
 :updated_at: 2013-09-20 16:00:00 +01:00
 :page_title: Week 244
+:erb: true

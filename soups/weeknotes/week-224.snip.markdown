@@ -54,3 +54,4 @@ Until next time.
 :updated_at: 2013-05-03 16:00:00 +01:00
 :page_title: Week 224
 
+:erb: true

@@ -46,3 +46,4 @@ A neat internet-conected compass-like device built by Tom Armitage which always 
 :created_at: 2014-05-24 19:50:00 +00:00
 :updated_at: 2014-05-24 19:50:00 +00:00
 :page_title: Week 279 - Interesting links
+:erb: true

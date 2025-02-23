@@ -33,3 +33,4 @@ This open-source realtime P2P collaborative editor looks really promising, espec
 :author: chris-lowis
 :page_title: Week 460 - Interesting links
 :extension: markdown
+:erb: true

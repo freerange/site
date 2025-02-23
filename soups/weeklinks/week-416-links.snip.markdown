@@ -43,3 +43,4 @@ This handy looking library allows you to use a text-based syntax to generate dia
 :author: james-mead
 :page_title: Week 416 - Interesting links
 :extension: markdown
+:erb: true

@@ -60,3 +60,4 @@ The emoji search he developed is now integrated as part of the Mission Patch des
 :page_title: Show and Tell 53
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

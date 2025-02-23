@@ -51,3 +51,4 @@ This pair of videos about which way water goes down the plug-hole in different h
 :created_at: 2015-06-12 12:00:00 +00:00
 :updated_at: 2015-06-12 16:30:00 +00:00
 :page_title: Week 334 - Interesting links
+:erb: true

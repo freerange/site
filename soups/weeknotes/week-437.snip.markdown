@@ -94,3 +94,4 @@ Have a great weekend!
 :author: chris-lowis
 :page_title: Week 437
 :extension: markdown
+:erb: true

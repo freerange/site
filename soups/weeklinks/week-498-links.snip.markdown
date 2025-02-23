@@ -29,3 +29,4 @@ French game studio Motion Twin talk about their co-operative structure and their
 :author: chris-lowis
 :page_title: Week 498 - Interesting links
 :extension: markdown
+:erb: true

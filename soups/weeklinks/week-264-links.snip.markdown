@@ -54,3 +54,4 @@ Martin Fowler [recently blogged](http://martinfowler.com/snips/201401291615.html
 :created_at: 2014-02-06 12:00:00 +00:00
 :updated_at: 2014-02-06 12:00:00 +00:00
 :page_title: Week 264 - Interesting links
+:erb: true

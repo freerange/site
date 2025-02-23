@@ -61,3 +61,4 @@ If you have any questions, please [get in touch][email-address].
 :updated_at: 2015-07-31 13:20:00 +01:00
 :layout: wiki-layout
 :page_title: Show and Tell Events
+:erb: true
