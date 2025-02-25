@@ -1,11 +1,11 @@
 $ORIGIN mission-patch.com.
 $TTL 1h
-mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902577 86400 7200 604800 300
+mission-patch.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1547902578 86400 7200 604800 300
 mission-patch.com. 3600 IN NS ns1.dnsimple.com.
 mission-patch.com. 3600 IN NS ns2.dnsimple.com.
 mission-patch.com. 3600 IN NS ns3.dnsimple.com.
 mission-patch.com. 3600 IN NS ns4.dnsimple.com.
-_dmarc.mission-patch.com. 3600 IN TXT "v=DMARC1;p=quarantine;pct=100;rua=mailto:contact@mission-patch.com;fo=1"
+_dmarc.mission-patch.com. 3600 IN TXT "v=DMARC1;p=quarantine;pct=100;rua=mailto:dmarc-reports@gofreerange.com;fo=1"
 ; mission-patch.com. 3600 IN ALIAS mission-patch-api-hlm2.onrender.com.
 mission-patch.com. 3600 IN TXT "v=spf1 include:mailgun.org ~all"
 mission-patch.com. 3600 IN TXT "stripe-verification=43d16cbf8a47a2f56a7eb952f29b152e74bd15d4f9d1100b906db6d020d50838"
