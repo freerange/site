@@ -47,4 +47,3 @@ Until next time.
 :author: james-mead
 :page_title: Week 842
 :extension: markdown
-:draft: true
