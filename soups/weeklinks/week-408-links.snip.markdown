@@ -31,3 +31,4 @@ I really like this idea of visualising software as interactive, navigable 3D cit
 :author: james-mead
 :page_title: Week 408 - Interesting links
 :extension: markdown
+:erb: true

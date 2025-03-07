@@ -48,3 +48,4 @@ Michael works through a simple example using Ruby. <%= by('james-mead') %>
 :created_at: 2013-11-11 14:00:00 +00:00
 :updated_at: 2013-11-11 14:00:00 +00:00
 :page_title: Monday Links - Week 252
+:erb: true

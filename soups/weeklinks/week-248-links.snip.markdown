@@ -29,3 +29,4 @@ A Ruby mocking & stubbing library made in Peru and sharing the [sobriquet](http:
 :created_at: 2013-10-15 10:00:00 +01:00
 :updated_at: 2013-10-15 10:00:00 +01:00
 :page_title: Monday Links - Week 248
+:erb: true

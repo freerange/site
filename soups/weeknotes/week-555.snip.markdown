@@ -48,3 +48,4 @@ That's about it for now. Until next time.
 :author: chris-roos
 :page_title: Weeks 554 and 555
 :extension: markdown
+:erb: true

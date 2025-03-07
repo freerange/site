@@ -58,3 +58,4 @@ We also made some changes to the tech stack. We decided to move the backend proc
 :created_at: 2024-08-06 11:20:00 +00:00
 :updated_at: 2024-08-06 11:20:00 +00:00
 :page_title: What have we been doing recently?
+:erb: true

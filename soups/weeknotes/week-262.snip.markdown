@@ -23,3 +23,4 @@ Friday was FutureLearn's last day in their Open University home before moving to
 :created_at: 2014-01-29 08:00:00 +00:00
 :updated_at: 2014-01-29 08:00:00 +00:00
 :page_title: Week 262
+:erb: true

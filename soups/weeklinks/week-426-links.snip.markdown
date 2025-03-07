@@ -44,3 +44,4 @@ This paid-for service sounds as if it's supposed to offer a better experience th
 :author: chris-lowis
 :page_title: Week 426 - Interesting links
 :extension: markdown
+:erb: true

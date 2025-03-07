@@ -85,3 +85,4 @@ I was aware of the [`ffi` gem][ffi-gem], but I didn't realise that Ruby's standa
 :author: james-mead
 :page_title: Week 470 - Interesting links
 :extension: markdown
+:erb: true

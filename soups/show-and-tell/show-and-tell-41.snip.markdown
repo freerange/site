@@ -105,3 +105,4 @@ Bash is building the app to help him learn React and to, ultimately, help him ge
 :page_title: Show and Tell 41
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

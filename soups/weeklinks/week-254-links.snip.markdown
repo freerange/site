@@ -41,3 +41,4 @@ I've been really interested to hear [Chris Lowis](https://twitter.com/chrislowis
 :created_at: 2013-11-26 14:00:00 +00:00
 :updated_at: 2013-11-26 14:00:00 +00:00
 :page_title: Monday Links - Week 254
+:erb: true

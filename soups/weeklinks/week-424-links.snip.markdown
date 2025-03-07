@@ -38,3 +38,4 @@ I heard about this online & print magazine in one of the sessions at the [Open 2
 :author: chris-lowis
 :page_title: Week 424 - Interesting links
 :extension: markdown
+:erb: true

@@ -39,3 +39,4 @@ You have been warned! <%= by('james-mead') %>
 :created_at: 2013-04-29 10:00:00 +01:00
 :updated_at: 2013-04-29 10:00:00 +01:00
 :page_title: Monday Links - Week 224
+:erb: true

@@ -65,3 +65,4 @@ Until next time.
 :author: chris-roos
 :page_title: Week 534
 :extension: markdown
+:erb: true

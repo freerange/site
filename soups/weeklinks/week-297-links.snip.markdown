@@ -43,3 +43,4 @@ Tantek has done a great job of documenting the achievements of IndieWebCamp UK. 
 :created_at: 2014-09-26 12:34:00 +00:00
 :updated_at: 2014-09-26 12:34:00 +00:00
 :page_title: Week 297 - Interesting links
+:erb: true

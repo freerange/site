@@ -57,3 +57,4 @@ As the article suggests, we shouldn't assume that more automation is always bett
 :created_at: 2014-09-19 11:15:00 +00:00
 :updated_at: 2014-09-19 11:15:00 +00:00
 :page_title: Week 296 - Interesting links
+:erb: true

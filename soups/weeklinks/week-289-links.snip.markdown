@@ -75,3 +75,4 @@ Amy (my partner) and Emily have been collecting research for their [Minimum Viab
 :created_at: 2014-07-31 11:30:00 +01:00
 :updated_at: 2014-07-31 11:30:00 +01:00
 :page_title: Week 289 - Interesting links
+:erb: true

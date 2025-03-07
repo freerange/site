@@ -53,3 +53,4 @@ Ben rounded off the evening for us by giving a quick demo and explanation of [Pa
 :page_title: Show and Tell 42
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

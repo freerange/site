@@ -29,3 +29,4 @@ I enjoyed reading this article by Alan Francis and being reminded of the corresp
 :created_at: 2013-12-03 14:00:00 +00:00
 :updated_at: 2013-12-03 14:00:00 +00:00
 :page_title: Monday Links - Week 255
+:erb: true

@@ -46,3 +46,4 @@ This seems like quite a neat way of prototyping a data driven website. You give 
 :created_at: 2014-07-10 15:00:00 +01:00
 :updated_at: 2014-07-10 15:00:00 +01:00
 :page_title: Week 286 - Interesting links
+:erb: true

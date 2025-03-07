@@ -49,3 +49,4 @@ Auf wiedersehen.
 :created_at: 2012-03-02 11:22:00 +01:00
 :updated_at: 2012-03-02 11:22:00 +01:00
 :page_title: Week 163
+:erb: true

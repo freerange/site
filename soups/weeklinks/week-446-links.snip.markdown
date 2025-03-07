@@ -42,3 +42,4 @@ I haven't had a chance to read it yet, but I was pleased to see that [Rob Chatle
 :author: chris-roos
 :page_title: Week 446 - Interesting links
 :extension: markdown
+:erb: true

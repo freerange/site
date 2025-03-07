@@ -61,3 +61,4 @@ I loved reading this article by a digital nomad, Thomas Buckley-Houston, who's b
 :author: chris-roos
 :page_title: Week 400 - Interesting links
 :extension: markdown
+:erb: true

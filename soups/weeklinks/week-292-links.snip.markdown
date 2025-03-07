@@ -52,3 +52,4 @@ I really enjoyed reading this post shared by [Paul](http://po-ru.com/). The titl
 :created_at: 2014-08-21 15:30:00 +00:00
 :updated_at: 2014-08-21 15:30:00 +00:00
 :page_title: Week 292 - Interesting links
+:erb: true

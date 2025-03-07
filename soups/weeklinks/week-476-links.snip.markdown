@@ -51,3 +51,4 @@ Our friends at Webarchitects are celebrating 20 years in operation as a co-opera
 :author: james-mead
 :page_title: Week 476 - Interesting links
 :extension: markdown
+:erb: true

@@ -39,3 +39,4 @@ _This article was <a rel="canonical" href="https://jamesmead.org/blog/2020-03-30
 :updated_at: 2020-03-30 16:40:00 +00:00
 :page_title: Automatic backup of Trello boards to S3 using the AWS CDK
 :canonical_url: https://jamesmead.org/blog/2020-03-30-automatic-backup-of-trello-boards-to-s3-using-aws-cdk
+:erb: true

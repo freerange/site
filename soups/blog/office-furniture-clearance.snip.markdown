@@ -59,3 +59,4 @@ We've had a bit of a sort-out in our office and we've identified some furniture 
 :created_at: 2014-07-16 12:30:00 +01:00
 :updated_at: 2014-07-16 12:30:00 +01:00
 :page_title: Office Furniture Clearance
+:erb: true

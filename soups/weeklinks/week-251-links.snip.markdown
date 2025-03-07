@@ -40,3 +40,4 @@ I've never been sold on the oocss approach and this post contains some compellin
 :created_at: 2013-11-05 10:00:00 +00:00
 :updated_at: 2013-11-05 10:00:00 +00:00
 :page_title: Monday Links - Week 251
+:erb: true
