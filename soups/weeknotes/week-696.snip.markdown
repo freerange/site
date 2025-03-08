@@ -11,7 +11,7 @@ We asked for some suggestions in one of our co-op network chat groups and receiv
 
 It's not all been introspective though. This week we've done a little bit of work for [Lollipop][lollipop]. We agreed a, new for us, retainer-style agreement to provide a small amount of ongoing support after our full-time engagement ended. It's a bit challenging to context switch to a different project for a few hours a week, but it's also good to keep in touch with the people we met there.
 
-I've continued to do a small amount of consultancy work (this week mostly helping review hiring plans) for [Access Social Care][asc] via the [Disrupt Foundation][disrupt]. James wrote an [excellent blog post](blog-post) off the back of automating one of our manual tasks. And we've spoken to a few potential clients about projects they have coming up. We (and our bank manager) hope to have some work lined up in the not too distant future. But as always, if you have a GFR-shaped hole in your organisation please [get in touch](get-in-touch).
+I've continued to do a small amount of consultancy work (this week mostly helping review hiring plans) for [Access Social Care][asc] via the [Disrupt Foundation][disrupt]. James wrote an [excellent blog post][blog-post] off the back of automating one of our manual tasks. And we've spoken to a few potential clients about projects they have coming up. We (and our bank manager) hope to have some work lined up in the not too distant future. But as always, if you have a GFR-shaped hole in your organisation please [get in touch][get-in-touch].
 
 [asc]: https://www.accesscharity.org.uk/
 [mission-patch]: https://mission-patch.com
