@@ -9,7 +9,7 @@ class SnipRenderer
       when 'erb'
         ERB.new(content).result(context)
       when 'markdown'
-        Kramdown::Document.new(content, input: 'GFM', syntax_highlighter: 'rouge').to_html
+        Kramdown::Document.new(content, input: 'GFM', syntax_highlighter: 'rouge', hard_wrap: false).to_html
       else
         content
       end

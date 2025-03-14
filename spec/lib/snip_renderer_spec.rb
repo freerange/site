@@ -21,6 +21,12 @@ RSpec.describe SnipRenderer do
         SnipRenderer.new.render(snip, binding)
       end
 
+      it 'does not hard wrap markdown content to preserve compatibility with kramdown renderer' do
+        snip = double(content: 'content', extension: 'markdown', erb: false)
+        expect(Kramdown::Document).to receive(:new).with('content', include(hard_wrap: false)).and_call_original
+        SnipRenderer.new.render(snip, binding)
+      end
+
       context 'and ERB is enabled' do
         it 'returns the ERB & markdown rendered as html' do
           snip = double(content: '# <%= "Hello" %>', extension: 'markdown', erb: true)
