@@ -63,3 +63,4 @@ I really appreciate that [Monzo's transparency](https://monzo.com/transparency/)
 :author: james-mead
 :page_title: Week 442 - Interesting links
 :extension: markdown
+:erb: true

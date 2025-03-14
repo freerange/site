@@ -51,3 +51,4 @@ Although it's a bit US-centric, I found this article about the economic benefits
 :created_at: 2014-08-07 16:27:00 +01:00
 :updated_at: 2014-08-07 16:27:00 +01:00
 :page_title: Week 290 - Interesting links
+:erb: true

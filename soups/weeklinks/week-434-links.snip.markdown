@@ -55,3 +55,4 @@ This is a re-imagining of the ZX Spectrum using new hardware, but still fully co
 :author: chris-lowis
 :page_title: Week 434 - Interesting links
 :extension: markdown
+:erb: true

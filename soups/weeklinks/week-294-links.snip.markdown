@@ -39,3 +39,4 @@ Many congratulations to [Tom Hall][] on his successfull kickstarter project: Tom
 :created_at: 2014-09-04 15:30:00 +01:00
 :updated_at: 2014-09-04 15:30:00 +01:00
 :page_title: Week 294 - Interesting links
+:erb: true

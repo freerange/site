@@ -35,3 +35,4 @@ An interesting panel discussion with Mike Bracken, Martha-Lane Fox, Ian Watmore 
 :author: james-mead
 :page_title: Week 502 - Interesting links
 :extension: markdown
+:erb: true

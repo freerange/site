@@ -53,3 +53,4 @@ A platform for deploying and running web crawlers. The [Crawlera](http://scrapin
 :created_at: 2015-02-04 14:38:00 +00:00
 :updated_at: 2015-02-04 14:38:00 +00:00
 :page_title: Week 316 - Interesting links
+:erb: true

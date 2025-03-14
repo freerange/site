@@ -40,3 +40,4 @@ The superb footage in this video was filmed from a [DJI Phantom 2][] drone with 
 :created_at: 2015-05-01 12:30:00 +01:00
 :updated_at: 2015-05-01 15:30:00 +01:00
 :page_title: Week 328 - Interesting links
+:erb: true

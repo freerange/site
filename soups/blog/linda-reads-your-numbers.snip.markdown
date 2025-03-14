@@ -38,3 +38,4 @@ Go forth and [set up your contacts][linda] so that you too can get Linda to read
 :created_at: 2011-04-12 17:10:00 +01:00
 :updated_at: 2011-05-03 18:21:54 +01:00
 :page_title: Linda reads your numbers
+:erb: true

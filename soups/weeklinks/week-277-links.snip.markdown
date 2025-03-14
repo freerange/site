@@ -68,3 +68,4 @@ I've definitely felt the pain of having a long email exchange in order to arrang
 :created_at: 2014-05-08 14:00:00 +00:00
 :updated_at: 2014-05-08 14:00:00 +00:00
 :page_title: Week 277 - Interesting links
+:erb: true

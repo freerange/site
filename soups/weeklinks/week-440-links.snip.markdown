@@ -48,3 +48,4 @@ example in pull requests) self-contained. <%= by('chris-lowis') %>
 :author: james-mead
 :page_title: Week 440 - Interesting links
 :extension: markdown
+:erb: true

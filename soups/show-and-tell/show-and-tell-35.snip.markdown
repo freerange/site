@@ -96,3 +96,4 @@ We're hosting our 36th Show & Tell on Wednesday, 13th September. It's open to al
 :page_title: Show and Tell 35
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

@@ -66,3 +66,4 @@ The entries for this year's [JS1k](http://js1k.com) competition are really outst
 :created_at: 2013-04-02 12:06:00 +00:00
 :updated_at: 2013-04-02 12:06:00 +00:00
 :page_title: Monday Links - Week 220
+:erb: true

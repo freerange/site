@@ -73,3 +73,4 @@ That's all, folks!
 :author: james-mead
 :page_title: Week 536
 :extension: markdown
+:erb: true

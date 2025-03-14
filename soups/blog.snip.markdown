@@ -13,3 +13,4 @@
 :created_sha: e3ec4ca2d47461b081d382aeee899e0622341696
 :updated_at: 2017-08-19 10:50:48 +0100
 :page_title: Assorted Essays
+:erb: true

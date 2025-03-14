@@ -63,3 +63,4 @@ This article makes Twitter's [Flight framework](http://twitter.github.io/flight/
 :created_at: 2014-04-11 16:00:00 +10:00
 :updated_at: 2014-04-11 16:00:00 +10:00
 :page_title: Week 273 - Interesting links
+:erb: true

@@ -56,3 +56,4 @@ We'll be hosting our 47th Show & Tell in August. [Join our mailing list][contact
 :page_title: Show and Tell 46
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

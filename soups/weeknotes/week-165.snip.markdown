@@ -87,3 +87,4 @@ Until next time, blog-friends,
 :created_at: 2012-03-17 12:23:00 +01:00
 :updated_at: 2012-03-17 12:23:00 +01:00
 :page_title: Week 165
+:erb: true

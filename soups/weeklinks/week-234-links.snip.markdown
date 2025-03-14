@@ -54,3 +54,4 @@ I have 83,156 emails in my *personal* email account, spanning from the 1st of Ap
 :created_at: 2013-07-08 15:30:00 +01:00
 :updated_at: 2013-07-08 15:30:00 +01:00
 :page_title: Monday Links - Week 234
+:erb: true

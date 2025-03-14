@@ -34,3 +34,4 @@ While I agree with the problems outlined, I'm far from convinced using a calenda
 :created_at: 2013-09-30 15:00:00 +01:00
 :updated_at: 2013-09-30 15:00:00 +01:00
 :page_title: Monday Links - Week 246
+:erb: true

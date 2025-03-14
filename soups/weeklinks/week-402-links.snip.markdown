@@ -33,3 +33,4 @@ I had no idea that XPath selectors are built-in to Chrome's Developer Tools cons
 :author: james-mead
 :page_title: Week 402 - Interesting links
 :extension: markdown
+:erb: true

@@ -87,3 +87,4 @@ Until next time,
 :created_at: 2013-01-25 14:46:00 +00:00
 :updated_at: 2013-01-25 14:46:00 +00:00
 :page_title: Week 210
+:erb: true

@@ -21,3 +21,4 @@ Some useful thoughts from Harry at [Outlandish](https://outlandish.com) ahead of
 :author: chris-lowis
 :page_title: Week 462 - Interesting links
 :extension: markdown
+:erb: true

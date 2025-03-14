@@ -63,3 +63,4 @@ JASE.
 :created_at: 2011-11-18 15:43:00 +01:00
 :updated_at: 2022-04-22 17:58:00 +01:00
 :page_title: Week 148
+:erb: true

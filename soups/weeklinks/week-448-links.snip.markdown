@@ -48,3 +48,4 @@ A fun article from Rasmus Bååth where he uses probabilistic reasoning, experim
 :author: chris-lowis
 :page_title: Week 448 - Interesting links
 :extension: markdown
+:erb: true

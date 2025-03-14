@@ -47,3 +47,4 @@ This 7" touchscreen looks great and is priced from [a very reasonable £52][rpi-
 :created_at: 2016-02-02 14:33:00 +01:00
 :updated_at: 2016-02-04 11:05:00 +01:00
 :page_title: Week 368 - Interesting links
+:erb: true

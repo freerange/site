@@ -39,3 +39,4 @@ I've seen this problem a few times when playing with XmlHttpRequest, most recent
 :created_at: 2013-07-01 14:00:00 +01:00
 :updated_at: 2013-07-01 14:00:00 +01:00
 :page_title: Monday Links - Week 233
+:erb: true

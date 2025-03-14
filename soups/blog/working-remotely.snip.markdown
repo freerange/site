@@ -127,3 +127,4 @@ Adieu, blogfolk!
 :created_at: 2012-01-25 00:05:00 +00:00
 :updated_at: 2012-01-25 00:05:00 +00:00
 :page_title: Working Remotely
+:erb: true

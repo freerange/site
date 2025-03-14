@@ -36,3 +36,4 @@ Have a great weekend!
 :author: chris-lowis
 :page_title: Week 525
 :extension: markdown
+:erb: true

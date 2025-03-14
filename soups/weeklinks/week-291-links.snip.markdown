@@ -39,3 +39,4 @@ This looks interesting. They appear to have quite a lot of regularly updated con
 :created_at: 2014-08-14 12:00:00 +01:00
 :updated_at: 2014-08-14 12:00:00 +01:00
 :page_title: Week 291 - Interesting links
+:erb: true

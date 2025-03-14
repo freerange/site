@@ -48,3 +48,4 @@ I think [Ben Griffiths](https://twitter.com/beng) made something like this. <%= 
 :created_at: 2014-01-31 08:00:00 +00:00
 :updated_at: 2014-01-31 08:00:00 +00:00
 :page_title: Week 263 - Interesting links
+:erb: true

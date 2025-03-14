@@ -54,3 +54,4 @@ The [Deserter][] has recently become one of my favourite blogs (thanks, [Paul B]
 :created_at: 2014-11-25 15:25:00 +00:00
 :updated_at: 2014-11-25 15:25:00 +00:00
 :page_title: Week 306 - Interesting links
+:erb: true

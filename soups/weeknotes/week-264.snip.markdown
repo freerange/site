@@ -27,3 +27,4 @@ All that's left is to show you the [double rainbow](http://www.youtube.com/watch
 :created_at: 2014-02-10 16:30:00 +00:00
 :updated_at: 2014-02-10 16:30:00 +00:00
 :page_title: Week 264 - Double Rainbow!
+:erb: true

@@ -37,3 +37,4 @@ This is very much a toy project but I can already see some things that we could 
 :created_at: 2014-02-07 13:25:00 +00:00
 :updated_at: 2014-02-07 13:25:00 +00:00
 :page_title: Replacing account numbers with friendly names in HSBC UK's business banking site
+:erb: true

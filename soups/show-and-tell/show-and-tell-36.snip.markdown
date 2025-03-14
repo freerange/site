@@ -195,3 +195,4 @@ We'll be hosting our 37th Show & Tell on Wednesday 11th October. It's open to al
 :page_title: Show and Tell 36
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

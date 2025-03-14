@@ -36,3 +36,4 @@ We ran an [R](https://en.wikipedia.org/wiki/R_(programming_language)) training c
 
 :created_at: 2021-04-28 13:00:00 +0100
 :updated_at: 2021-04-28 13:00:00 +0100
+:erb: true

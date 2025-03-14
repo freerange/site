@@ -59,3 +59,4 @@ This amused me. [Deloitte's Digital Maturity survey](http://www.deloittedigital.
 :created_at: 2015-02-19 15:37:00 +00:00
 :updated_at: 2015-02-19 15:37:00 +00:00
 :page_title: Week 318 - Interesting links
+:erb: true

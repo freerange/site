@@ -27,3 +27,4 @@ I'm not really sure why I find this so amusing. <%= by('chris-roos') %>
 :author: chris-roos
 :page_title: Week 406 - Interesting links
 :extension: markdown
+:erb: true

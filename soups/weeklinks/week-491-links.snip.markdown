@@ -55,3 +55,4 @@ This is a crazy, but fun, project that allows you to make your robot available o
 :author: james-mead
 :page_title: Week 491 - Interesting links
 :extension: markdown
+:erb: true

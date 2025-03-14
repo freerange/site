@@ -73,3 +73,4 @@ As much as it currently pains me, I believe this is something that GFR are going
 :created_at: 2013-03-25 10:30:00 +00:00
 :updated_at: 2013-03-25 10:30:00 +00:00
 :page_title: Monday Links - Week 219
+:erb: true

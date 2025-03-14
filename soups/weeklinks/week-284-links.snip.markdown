@@ -68,3 +68,4 @@ Actually, it's double congratulations because they've just [announced that Makie
 :created_at: 2014-06-26 14:21:00 +01:00
 :updated_at: 2014-06-26 14:21:00 +01:00
 :page_title: Week 284 - Interesting links
+:erb: true

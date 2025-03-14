@@ -68,3 +68,4 @@ This project is part of [Explorable Explanations][], a movement to make learning
 :author: james-mead
 :page_title: Week 428 - Interesting links
 :extension: markdown
+:erb: true

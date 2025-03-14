@@ -88,3 +88,4 @@ An amazing bit of skiing! <%= by('james-mead') %>
 :created_at: 2016-01-28 08:00:00 +13:00
 :updated_at: 2016-01-28 08:00:00 +13:00
 :page_title: Week 367 - Interesting links
+:erb: true

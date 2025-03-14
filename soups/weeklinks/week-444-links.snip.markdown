@@ -23,3 +23,4 @@ David Marland built this site to provide alerts when London's tube network has d
 :author: chris-roos
 :page_title: Week 444 - Interesting links
 :extension: markdown
+:erb: true

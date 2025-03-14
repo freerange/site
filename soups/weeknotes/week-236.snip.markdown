@@ -31,3 +31,4 @@ So that's that. See you next time,
 :created_at: 2013-07-25 10:00:00 +06:00
 :updated_at: 2013-07-25 10:00:00 +06:00
 :page_title: Week 236
+:erb: true

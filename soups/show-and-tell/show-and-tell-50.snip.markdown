@@ -82,3 +82,4 @@ We'll be hosting our [54th Show & Tell][] in tomorrow (Wed 17 Apr) night. Join o
 :page_title: Show and Tell 50 🍾
 :layout: show-and-tell-layout
 :extension: markdown
+:erb: true

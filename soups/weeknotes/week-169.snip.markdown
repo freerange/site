@@ -80,3 +80,4 @@ Anyway, that was the week that was. Onwards to Week 170!
 :created_at: 2012-04-16 11:49:00 +01:00
 :updated_at: 2012-04-16 11:49:00 +01:00
 :page_title: Week 169
+:erb: true

@@ -33,3 +33,4 @@ Our very own Chris Lowis features in this Wired article about [CoTech][co-tech].
 :author: chris-roos
 :page_title: Week 494 - Interesting links
 :extension: markdown
+:erb: true
