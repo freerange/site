@@ -228,7 +228,7 @@ GEM
     reline (0.6.0)
       io-console (~> 0.5)
     rexml (3.3.9)
-    rollbar (3.6.1)
+    rollbar (3.6.2)
     rouge (4.5.1)
     rspec-core (3.13.2)
       rspec-support (~> 3.13.0)
