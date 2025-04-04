@@ -37,11 +37,10 @@ Somehow throughout all this Chris L was navigating his way through the process o
 [Beer + Burger]: https://www.beerandburgerstore.com
 
 :name: week-845
-:updated_at: 2025-04-04 14:05:00.000000000 +01:00
 :created_at: 2025-04-02 08:59:59.366431000 +01:00
+:updated_at: 2025-04-04 14:06:42.841708000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
