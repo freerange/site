@@ -37,11 +37,10 @@ Until next time.
 [Rubyforge redirects]: https://github.com/freerange/rubyforge-redirects
 
 :name: week-846
-:updated_at: 2025-04-04 13:14:06.472583000 +01:00
-:created_at: 2025-04-04 13:14:06.472583000 +01:00
+:updated_at: 2025-04-04 15:05:16.932443000 +01:00
+:created_at: 2025-04-04 15:05:16.932440000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
