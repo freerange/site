@@ -105,7 +105,7 @@ GEM
     crass (1.0.6)
     date (3.4.1)
     diff-lcs (1.5.1)
-    dotenv (3.1.7)
+    dotenv (3.1.8)
     drb (2.2.1)
     erubi (1.13.0)
     ffi (1.16.3)
