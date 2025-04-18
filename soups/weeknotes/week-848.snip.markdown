@@ -78,11 +78,10 @@ Until next time.
 [rails-pr-54765]: https://github.com/rails/rails/pull/54765
 
 :name: week-848
-:updated_at: 2025-04-18 10:54:24.706026000 +01:00
-:created_at: 2025-04-18 10:54:24.706025000 +01:00
+:updated_at: 2025-04-18 14:38:26.400811000 +01:00
+:created_at: 2025-04-18 14:38:26.400804000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
