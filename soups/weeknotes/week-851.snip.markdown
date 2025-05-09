@@ -37,11 +37,10 @@ Until next time...
 [my-rails-pull-requests]: https://github.com/rails/rails/pulls?q=is%3Apr+author%3Afloehopper
 
 :name: week-851
-:updated_at: 2025-05-09 10:30:53.353758000 +01:00
-:created_at: 2025-05-09 10:30:53.353758000 +01:00
+:updated_at: 2025-05-09 11:28:08.227771000 +01:00
+:created_at: 2025-05-09 11:28:08.227768000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
