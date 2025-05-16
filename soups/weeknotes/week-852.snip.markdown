@@ -13,7 +13,9 @@ The bulk of the work this week involved extending the data model behind the [cur
 
 The sample projects linked to from these initial lessons also means that people can now see and try out the custom scratch editor we've been working on for several weeks.
 
-<%= image_tag('blog/2025-05-16-experience-cs-scratch-project.jpg', alt: 'A screenshot of the scratch project page on ExperienceCS showing the scratch editor next to a collapsable instruction panel.') %>
+<p>
+  <img style="border: 1px solid lightgray;" alt="A screenshot of the scratch project page on ExperienceCS showing the scratch editor next to a collapsable instruction panel." src="<%= image_path('blog/2025-05-16-experience-cs-scratch-project.jpg') %>">
+</p>
 
 See if you can solve the [ten block mission], for example! I'm pleased with how well we've made the interface work on small laptops (low-end Chromebooks are particularly popular in some US school districts), but we need to think about what if anything we can do on smaller, mobile devices. Scratch itself does not work particularly well on these devices, so we'd likely have to make quite a lot of changes to our fork of Scratch to support it well, and so far we've been trying to keep our changes to a minimum to help with long-term maintainability.
 
