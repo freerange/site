@@ -7,7 +7,9 @@ It was a fairly intense week of work on the [Experience CS] project with the [Ra
 
 The bulk of the work this week involved extending the data model behind the [curriculum content], exposing that through the [Administrate] interface and creating pages that match [Mariam]'s designs. James used [administrate-field-active_storage] (fixing [an issue] along the way) to allow the content team to easily add illustrations to Lessons and Units. Seeing Mariam's illustrations on the page immediately made the pages seem more "real" to me.
 
-<%= image_tag('blog/2025-05-16-experience-cs-curriculum-page.jpg', alt: 'A screenshot of the curriculum page on ExperienceCS showing the units that make up the curriculum, with the grades and subjects they are designed for.') %>
+<p>
+  <img style="border: 1px solid lightgray;" alt="A screenshot of the curriculum page on ExperienceCS showing the units that make up the curriculum, with the grades and subjects they are designed for." src="<%= image_path('blog/2025-05-16-experience-cs-curriculum-page.jpg') %>">
+</p>
 
 The sample projects linked to from these initial lessons also means that people can now see and try out the custom scratch editor we've been working on for several weeks.
 
