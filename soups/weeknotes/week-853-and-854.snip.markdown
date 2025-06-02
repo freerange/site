@@ -63,14 +63,13 @@ Anyway, that's all for now!
 [Cursor]: https://www.cursor.com/
 
 :name: week-853-and-854
-:updated_at: 2025-05-31 14:46:57.857413000 +01:00
-:created_at: 2025-05-31 14:46:57.857413000 +01:00
+:updated_at: 2025-06-02 09:15:13.857413000 +01:00
+:created_at: 2025-06-02 09:15:13.857413000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
-:page_title: Week 854 & 854
+:page_title: Week 853 & 854
 :extension: markdown
 :erb: true
