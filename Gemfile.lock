@@ -87,7 +87,7 @@ GEM
     aws-sigv4 (1.11.0)
       aws-eventstream (~> 1, >= 1.0.2)
     base64 (0.2.0)
-    benchmark (0.4.0)
+    benchmark (0.4.1)
     bigdecimal (3.2.1)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
