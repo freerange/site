@@ -41,7 +41,7 @@ This year's Congress is special, because it's celebrating the [United Nations In
 
 CoTech is going to have a prominent presence. There will be a stand advertising CoTech; a panel on technology and co-ops; and Natasha from Outlandish and [Richard] from [agile{collective}] will lead an hour-long workshop after the panel, focused on selling CoTech and its agencies to the wider co-op movement in the UK. They're planning to include our work on Experience CS in a showcase - thanks, both! 💪😎
 
-The new kid on the block, [workers.coop], seems to be going from strength to strength. And I was pleased to see [this report][workers-coop-solid-fund-report] on and proposal for [Solid Fund]'s strategic annual grant funding for workers.coop. We've been contributing to Solid Fund since [2017][week-434] and I'll be pleased if the proposal is agreed. 💷
+The new kid on the block, [workers.coop], seems to be going from strength to strength. And I was pleased to see [this report][workers-coop-solid-fund-report] on and proposal for [Solid Fund]'s strategic annual grant funding for workers.coop. We've been contributing to Solid Fund [since 2017][joined-solid-fund] and I'll be pleased if the proposal is agreed. 💷
 
 A while ago, we moved most of our domains from Gandi to [domains.coop] and we recently received a newsletter from the DotCooperation LLC who run domains.coop. They're building a [World Map of Co-ops] - it was quite fun to discover that we've been included! 🌍
 
@@ -96,7 +96,7 @@ Until next time!
 [Baltic Ruby]: https://balticruby.org/
 [workers.coop]: https://www.workers.coop/
 [Solid Fund]: https://solidfund.coop/
-[week-434]: /week-434
+[joined-solid-fund]: /week-434#gfr
 [workers-coop-solid-fund-report]: https://www.loomio.com/d/V8Y6DRLm/annual-strategic-grant-to-workers-coop-2024-2025-report-proposal-
 [Runway 25]: https://runbelievablechallenges.co.uk/the-runway-1
 [Digital Outcomes and Specialists framework]: https://www.crowncommercial.gov.uk/agreements/RM1043.9
