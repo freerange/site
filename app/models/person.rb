@@ -6,8 +6,7 @@ class Person < Base
   USERNAMES_VS_PERSON_NAMES = {
     'jamesmead' => 'james-mead',
     'chrisroos' => 'chris-roos',
-    'chrislowis' => 'chris-lowis',
-    'bengriffiths' => 'ben-griffiths'
+    'chris' => 'chris-lowis',
   }
 
   def self.current_name
