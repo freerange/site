@@ -16,7 +16,6 @@ Have a good weekend!
 :created_at: 2025-08-01 15:43:04.607934000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
