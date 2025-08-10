@@ -62,11 +62,10 @@ I sorted out some admin relating to the renewal of our Group Income Protection i
 [AI industry horrified to face largest copyright class action ever certified]: https://arstechnica.com/tech-policy/2025/08/ai-industry-horrified-to-face-largest-copyright-class-action-ever-certified/
 
 :name: week-864
-:updated_at: 2025-08-10 10:33:13.689196000 +01:00
-:created_at: 2025-08-10 10:33:13.689195000 +01:00
+:updated_at: 2025-08-10 13:05:21.256708000 +01:00
+:created_at: 2025-08-10 13:05:21.256704000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
