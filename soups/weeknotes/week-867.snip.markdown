@@ -38,11 +38,10 @@ Until next time.
 [our accountants]: https://www.goddardsolutions.co.uk/
 
 :name: week-867
-:updated_at: 2025-08-29 10:14:39.737174000 +01:00
-:created_at: 2025-08-29 10:14:39.737174000 +01:00
+:updated_at: 2025-08-29 11:32:45.517676000 +01:00
+:created_at: 2025-08-29 11:32:45.517669000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
