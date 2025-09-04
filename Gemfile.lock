@@ -182,7 +182,7 @@ GEM
       date
       stringio
     public_suffix (5.0.4)
-    puma (6.6.1)
+    puma (7.0.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (2.2.14)
@@ -308,7 +308,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.10)
   logger
   mutex_m
-  puma (~> 6)
+  puma (~> 7)
   rails (~> 7.0.0)
   rails-controller-testing (~> 1.0)
   rollbar
