@@ -272,7 +272,7 @@ GEM
     tilt (2.0.10)
     timecop (0.9.10)
     timeout (0.4.3)
-    tinify (1.7.0)
+    tinify (1.7.1)
       httpclient (>= 2.9, < 3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
