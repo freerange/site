@@ -52,4 +52,3 @@ Greg (who we've had the pleasure of working with at RPF) [shares his beautiful p
 :page_title: Weeks 872 to 874
 :extension: markdown
 :erb: true
-:draft: true
