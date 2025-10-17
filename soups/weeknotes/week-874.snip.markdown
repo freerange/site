@@ -9,7 +9,7 @@ We welcomed [James](/james-mead) back from his epic hiking adventure in the Pico
 
 [Chris](/chris-lowis) and I were among twenty or so like-minded co-operators that attended the [CoTech gathering in Oxford](https://www.linkedin.com/posts/agile-collective_thanks-to-all-those-who-participated-in-the-activity-7381623709901570048-whPY). We spent the day breaking into small groups to discuss how we could get more work into the CoTech network. I came away feeling tired but inspired and energised by all the friendly collaboration.
 
-<img src="<%= image_path('blog/2025-10-03-cotech-gathering-oxford') %>" style="width: 100%" alt="Attendees at the CoTech Gathering in Oxford">
+<img src="<%= image_path('blog/2025-10-03-cotech-gathering-oxford.jpg') %>" style="width: 100%" alt="Attendees at the CoTech Gathering in Oxford">
 
 ## Experience CS
 
