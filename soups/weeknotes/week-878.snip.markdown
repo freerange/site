@@ -64,11 +64,10 @@ Until next time.
 [Zapier]: https://zapier.com/
 
 :name: week-878
-:updated_at: 2025-11-14 15:23:02.390633000 +00:00
-:created_at: 2025-11-14 15:23:02.390632000 +00:00
+:updated_at: 2025-11-14 17:00:05.249558000 +00:00
+:created_at: 2025-11-14 17:00:05.249555000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
