@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby file: '.ruby-version'
 
-gem 'aws-sdk-s3', '~> 1.204'
+gem 'aws-sdk-s3', '~> 1.205'
 gem 'benchmark'
 gem 'bigdecimal'
 gem 'bootsnap', '>= 1.1.0', require: false
