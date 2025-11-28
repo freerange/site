@@ -15,6 +15,8 @@ We've also been working on adding support for record labels, and doing a small r
 
 ## In other news
 
+Chris spent some time on our [project to redirect broken rubyforge.org URLs](https://github.com/rubycentral/rubyforge-redirects). He looked at the log data we've gathered so far and updated some Fastly VCL rules based on this analysis and some pull requests we received.
+
 We enjoyed catching up with [Polly](https://www.linkedin.com/in/polly-robbins) for a very useful conversation about business plans and grant funding. We also sat down with our friend [Graham](https://github.com/gma) to compare notes on finding work, pricing work and doing work.
 
 We're currently on the look out for projects large or small so do [drop us a line](mailto:lets@gofreerange.com) if you'd like a chat.
