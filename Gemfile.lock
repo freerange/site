@@ -116,7 +116,7 @@ GEM
     crass (1.0.6)
     date (3.5.0)
     diff-lcs (1.6.2)
-    dotenv (3.1.8)
+    dotenv (3.2.0)
     drb (2.2.3)
     erb (6.0.0)
     erubi (1.13.1)
@@ -324,7 +324,7 @@ DEPENDENCIES
   bigdecimal
   bootsnap (>= 1.1.0)
   capybara (~> 3.40)
-  dotenv (~> 3.1)
+  dotenv (~> 3.2)
   drb
   irb
   kramdown (~> 2.5)
