@@ -22,7 +22,7 @@ group :assets, :development do
 end
 
 group :development do
-  gem 'dotenv', '~> 3.1'
+  gem 'dotenv', '~> 3.2'
   gem 'irb'
   gem 'listen', '>= 3.0.5', '< 3.10'
   gem 'tinify'
