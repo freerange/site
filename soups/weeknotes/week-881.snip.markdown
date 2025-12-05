@@ -60,11 +60,10 @@ That's all for now!
 [Dependabot]: https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide
 
 :name: week-881
-:updated_at: 2025-12-05 14:04:37.290282000 +00:00
-:created_at: 2025-12-05 14:04:37.290281000 +00:00
+:updated_at: 2025-12-05 16:48:17.106100000 +00:00
+:created_at: 2025-12-05 16:48:17.106093000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
