@@ -9,7 +9,7 @@ This week has been pretty hectic especially given that we've not been working on
 
 We've agreed to take on a project at the Government Digital Service ([GDS]) in collaboration with [dxw] working on the [GOV.UK] publishing system. So we spent a chunk of the week sorting out contracts and completing various on-boarding checks. We had a kick-off meeting with dxw and GDS folks on Thursday morning with the aim of hitting the ground running in the week after the New Year.
 
-We also had another quick catch-up with Stu at [Good Machine] and ongoing conversations with Tom at [Goodbase]. We're hoping we might get to work with one/both of them later this year.
+We also had another quick catch-up with Stu at [Good Machine] and ongoing conversations with Tom at [Goodbase]. We're hoping we might get to work with one/both of them next year.
 
 ## [Jam] 🍓
 
