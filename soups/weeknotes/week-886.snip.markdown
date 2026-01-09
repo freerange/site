@@ -1,6 +1,8 @@
 Week 886
 ========
 
+Week beginning Monday, 5th January 2026.
+
 Happy New Year!
 
 ## Back at GDS
