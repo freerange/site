@@ -21,6 +21,18 @@ I'm restricted on the number of children I can have in a single session so have 
 
 We've agreed to pay for a consultation with a lawyer from [Sprintlaw](https://sprintlaw.co.uk/) to see whether we can get to the bottom of our [regulatory responsibilities when it comes to PSD2](https://sprintlaw.co.uk/articles/psd2-explained-what-uk-businesses-need-to-know-about-the-payment-services-directive-and-compliance/) and more.
 
+## Mocha
+
+Mocha's test suite helped [James](/james-mead) [discover](https://ruby.social/@floehopper/115825812420451595) and [report a regression in JRuby](https://github.com/jruby/jruby/issues/8976).
+
+The [release of Ruby 4.0](https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/) allowed James to [upgrade from the release candidate in Mocha's test matrix](https://github.com/freerange/mocha/commit/6ced202561b8cb7a44aa1d9e771a08b76758ecd4) and then [temporarily fix a warning which it introduced](https://github.com/freerange/mocha/commit/a0fc7798e4ec74d1af9719e7d28399daa967af3d) while also opening a [PR to fix the problem in the upstream yard project](https://github.com/lsegal/yard/pull/1638).
+
+James applied for some funding from the [gem fellowship](https://gem.coop/fellowship/) to help maintain Mocha.
+
+## AWS CDK stacks
+
+James updated some of our internal projects that use the [AWS CDK](https://en.wikipedia.org/wiki/AWS_Cloud_Development_Kit) (e.g. [Google Drive Backup](https://github.com/freerange/google-drive-backup)) to [run `cdk diff` when a PR is opened](https://github.com/freerange/google-drive-backup/pull/188) and to post the results as a comment on that PR. If the PR is merged to main then a separate GitHub workflow runs `cdk deploy` to apply any changes in production. Although generally useful this change also gives us confidence to [enable Dependabot updates](https://github.com/freerange/google-drive-backup/pull/189) in these repos. Thanks, James!
+
 Until next time.
 
 -- Chris
