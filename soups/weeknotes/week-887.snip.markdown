@@ -43,11 +43,10 @@ Until next time.
 [Jam]: https://jam.coop/
 
 :name: week-887
-:updated_at: 2026-01-16 13:37:17.927775000 +00:00
-:created_at: 2026-01-16 13:37:17.927774000 +00:00
+:updated_at: 2026-01-16 16:02:30.175669000 +00:00
+:created_at: 2026-01-16 16:02:30.175666000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
