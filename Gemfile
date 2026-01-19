@@ -24,7 +24,7 @@ end
 group :development do
   gem 'dotenv', '~> 3.2'
   gem 'irb'
-  gem 'listen', '>= 3.0.5', '< 3.10'
+  gem 'listen', '>= 3.0.5', '< 3.11'
   gem 'tinify'
 end
 
