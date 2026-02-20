@@ -4,7 +4,7 @@
 
 Before we get acquainted here is the low-down:
 
-* *Timing:* We're on the lookout for new projects. Please get in touch if you have a project in mind - we'd love to hear from you.
+* *Timing:* We're on the lookout for new projects in 2026. Please get in touch if you have a project in mind - we'd love to hear from you.
 
 * *Organisation:* We prefer to work as a whole team (we don't offer individual contractors), and we require <em>direct communication</em> with the actual project decision makers.
 
