@@ -17,7 +17,7 @@ I've written a scrappy Python script which takes a leaf taxon with approx 1,000 
 
 I've only tweaked a couple of things so far. Firstly, I've configured the Count Vectorizer to ignore English stop words to avoid them ending up as suggested keywords for a cluster. Secondly, I've configured a Represenation Model which uses OpenAI's `gpt-4o-mini` model to suggest human-friendly topic names using the keywords and a number of example documents from the cluster. The script outputs a CSV file suitable for uploading to Google Sheets which includes links to all the documents alongside the suggested topic name.
 
-The results so far look promising, but I'm sure there's a lot more work to do build a genuinely useful prototype. Anyway, it feels good to be using problem-specific machine learning techniques rather than just chucking everything into an LLM and hoping for some half-sensible output.
+The results so far look promising, but I'm sure there's a lot more work to do to build a genuinely useful prototype. Anyway, it feels good to be using problem-specific machine learning techniques rather than just chucking everything into an LLM and hoping for some half-sensible output.
 
 ## Code Club 🤖
 
