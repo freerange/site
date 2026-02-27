@@ -53,11 +53,10 @@ Until next time.
 [Raspberry Pi Foundation]: https://www.raspberrypi.org/
 
 :name: week-893
-:updated_at: 2026-02-27 09:50:48.068339000 +00:00
-:created_at: 2026-02-27 09:50:48.068337000 +00:00
+:updated_at: 2026-02-27 16:06:48.594095000 +00:00
+:created_at: 2026-02-27 16:06:48.594093000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
