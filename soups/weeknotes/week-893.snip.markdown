@@ -3,7 +3,7 @@ Week 893
 
 Week beginning 23rd February, 2026.
 
-The week was a bit disrupted: I was travelling back from the Isle of Wight on Monday and off sick on Thursday morning, [Chris L] was off sick on Tuesday, and [Chris R] quite properly took Wednesday off for his birthday - belated happy birthday, Chris! 🎂
+The week was a bit disrupted: I was travelling back from the Isle of Wight on Monday and off sick on Thursday morning, [Chris L] was off sick on Tuesday, and [Chris R] quite properly took Thursday off for his birthday - belated happy birthday, Chris! 🎂
 
 ## Government Digital Service 🏷️
 
@@ -21,7 +21,7 @@ The results so far look promising, but I'm sure there's a lot more work to do bu
 
 ## Code Club 🤖
 
-Chris R ran his Code Club again on Tuesday - apparently he wrote this program on Code Club World, printed it out, and  got some of the children to recreate it. It reminds me of typing in programs from magazines on a ZX-Spectrum in the 1980s!
+Chris R ran his Code Club again on Tuesday - he wrote this program on [Code Club World], printed it out, and  got some of the children to recreate it. It reminds me of typing in programs from magazines on a ZX-Spectrum in the 1980s! Also it's great that he's using an app which we built for the [Raspberry Pi Foundation] back in the days of COVID-19.
 
 [<img src="<%= image_path('blog/code-club-world-6-7.png') %>" width="100%" alt="6-7 T-shirt design from Code Club World">](https://codeclubworld.org/activities/art/6acdfd16-0fc9-48bc-a9f3-e8f48b906c0d)
 
@@ -49,6 +49,8 @@ Until next time.
 [fact table]: https://en.wikipedia.org/wiki/Fact_table
 [BERTopic package]: https://maartengr.github.io/BERTopic/index.html
 [Jam]: https://jam.coop
+[Code Club World]: https://codeclubworld.org/
+[Raspberry Pi Foundation]: https://www.raspberrypi.org/
 
 :name: week-893
 :updated_at: 2026-02-27 09:50:48.068339000 +00:00
