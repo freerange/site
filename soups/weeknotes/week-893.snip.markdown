@@ -21,7 +21,7 @@ The results so far look promising, but I'm sure there's a lot more work to do to
 
 ## Code Club 🤖
 
-Chris R ran his Code Club again on Tuesday - he wrote this program on [Code Club World], printed it out, and  got some of the children to recreate it. It reminds me of typing in programs from magazines on a ZX-Spectrum in the 1980s! Also it's great that he's using an app which we built for the [Raspberry Pi Foundation] back in the days of COVID-19.
+Chris R ran his Code Club again on Tuesday - he wrote this program on [Code Club World], printed it out, and  got some of the children to recreate it. It reminds me of typing in programs from magazines on a ZX-Spectrum in the 1980s! Also it's great that he's using an app which we built for the [Raspberry Pi Foundation] back in the days of the COVID-19 pandemic.
 
 [<img src="<%= image_path('blog/code-club-world-6-7.png') %>" width="100%" alt="6-7 T-shirt design from Code Club World">](https://codeclubworld.org/activities/art/6acdfd16-0fc9-48bc-a9f3-e8f48b906c0d)
 
