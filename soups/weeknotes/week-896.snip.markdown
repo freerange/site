@@ -49,11 +49,10 @@ Anyway, that's all for now. Until next time.
 [Longitude prize on dementia]: https://dementia.longitudeprize.org/
 
 :name: week-896
-:updated_at: 2026-03-20 10:29:12.355935000 +00:00
-:created_at: 2026-03-20 10:29:12.355932000 +00:00
+:updated_at: 2026-03-20 14:39:12.712480000 +00:00
+:created_at: 2026-03-20 14:39:12.712477000 +00:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
