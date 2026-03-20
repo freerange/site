@@ -23,7 +23,7 @@ On Thursday, all three of us all attended [the CoTech Gathering] at [Space4]. Th
 
 Earlier in the week Chris L chatted to Ben from [Caution Your Blast] to learn a bit about them and see whether there might be things we could collaborate on in the future.
 
-On Wednesday we were delighted to see that Szczepan and our friends at [Animorph] (now [CrossSense]) had been [awarded] the [Longitude prize on dementia] - so richly deserved! 🎉
+On Wednesday we were delighted to see that Szczepan and our other friends at [Animorph] (now [CrossSense]) had been [awarded] the [Longitude prize on dementia] - so richly deserved! 🎉
 
 Anyway, that's all for now. Until next time.
 
