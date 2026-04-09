@@ -13,6 +13,8 @@ For the rest of the week we've been getting the development environment set up o
 
 I switched to developing on Ubuntu earlier this year and it's mostly been a pretty smooth experience. This project is [set up](https://github.com/NHSDigital/manage-vaccinations-in-schools/blob/main/.tool-versions#L6) to use [mise](https://mise.jdx.dev/) and its postgres plugin to install the correct version of postgres on developers machines. I couldn't seem to get postgres 17.2 to compile using the default GCC toolchain on Ubuntu so instead decided to run the appropriate version of postgres in a docker container using docker compose. We've done something similar with [the jam.coop code](https://github.com/freerange/jam-coop/blob/main/docker-compose.yml) and so far the combination of dockerised database but with ruby, rails, gems and other dependencies managed by mise on the host machine works well. mise has a handy [`disable_tools`](https://mise.jdx.dev/configuration/settings.html#disable_tools) option that I've added to my `mise.local.toml` to disable the `postgres` plugin - this way I can continue to easily keep up to date with any upstream changes to the development setup.
 
+As is customary ([and somewhat automated](https://github.com/freerange/site/blob/ddc3803adae61f5392c020c6e6968703aa7eaba2/app/helpers/application_helper.rb#L64)) We celebrated [CSS Naked Day](https://css-naked-day.org/) on Thursday!
+
 <!-- add content here -->
 
 :name: week-899
