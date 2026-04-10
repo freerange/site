@@ -1,0 +1,18 @@
+{
+  "version": "0.1.1",
+  "url": "https://gofreerange.com",
+  "vouches": [
+    {
+      "url": "https://jamesmead.org",
+      "vouched_at": "2026-05-10"
+    },
+    {
+      "url": "https://www.chrisroos.co.uk",
+      "vouched_at": "2026-05-10"
+    },
+    {
+      "url": "https://chrislowis.co.uk",
+      "vouched_at": "2026-05-10"
+    }
+  ]
+}
