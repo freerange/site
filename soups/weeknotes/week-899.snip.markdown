@@ -5,7 +5,7 @@ Week beginning Monday 6th April.
 
 We started a new project this week. We've teamed up with our friends at [Good Machine](https://www.goodmachine.team/) to help them continue to deliver the [Manage vaccinations in schools (Mavis)](https://www.manage-vaccinations-in-schools.nhs.uk) project for [NHS Digital](https://digital.nhs.uk/).
 
-Mavis is a tool used by school age immunisation service (SAIS) teams to administer vaccinations to children in schools and other settings.
+Mavis is a tool used by School Age Immunisation Service teams to administer vaccinations to children in schools and other settings.
 
 On Tuesday we spent the day with the Good Machine team in their office in Borough getting to know everyone and having a tour of [the code](https://github.com/NHSDigital/manage-vaccinations-in-schools).
 
