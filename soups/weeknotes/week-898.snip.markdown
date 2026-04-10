@@ -50,11 +50,10 @@ Until next time.
 [The Quad]: https://quadworkspace.co.uk/quad-cambridge/
 
 :name: week-898
-:updated_at: 2026-04-10 10:31:38.311869000 +01:00
-:created_at: 2026-04-10 10:31:38.311869000 +01:00
+:updated_at: 2026-04-10 15:06:08.309467000 +01:00
+:created_at: 2026-04-10 15:06:08.309464000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
