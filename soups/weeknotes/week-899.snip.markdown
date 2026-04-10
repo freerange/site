@@ -24,11 +24,10 @@ Until next time.
 -- Chris
 
 :name: week-899
-:updated_at: 2026-04-09 21:35:42.447995000 +01:00
-:created_at: 2026-04-09 21:35:42.447994000 +01:00
+:updated_at: 2026-04-10 15:07:05.455729000 +01:00
+:created_at: 2026-04-10 15:07:05.455726000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
