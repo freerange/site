@@ -8,7 +8,7 @@ That's a nice round number isn't it.
 It also appears to be the number of weeks that Nirvana's awesome [MTV Unplugged album](https://en.wikipedia.org/wiki/MTV_Unplugged_in_New_York) has spent in the top 40 of the [Official Rock & Metal Albums Chart](https://www.officialcharts.com/charts/rock-and-metal-albums-chart/) (via [Forbes](https://www.forbes.com/sites/hughmcintyre/2026/04/15/nirvanas-only-grammy-winning-album-hits-a-chart-landmark/)).
 We're in good company.
 
-## Good Machine
+## NHS Vaccinations
 
 We've been busy getting up to speed with the new [Good Machine](https://www.goodmachine.team/) / [Mavis](https://github.com/NHSDigital/manage-vaccinations-in-schools/) project this week, including:
 
@@ -49,13 +49,13 @@ It's scheduled to be a day of collaboration and networking focussed around build
 
 ## Jam
 
-[James](/james-mead) has continued making progress on the [Stripe Connect integration](https://github.com/freerange/jam-coop/pull/472) that we hope goes some/all of the way to reducing our potential risk when running such an online marketplace.
+[James](/james-mead) has continued making progress on the [Stripe Connect integration](https://github.com/freerange/jam-coop/pull/472) that we hope goes some/all of the way to reducing our potential risk when running such an online marketplace, and means that payments to artists are automatic and more frequent than our current manual monthly process.
 
 Chris is continuing to work on [improvements to the album creation page](https://github.com/freerange/jam-coop/pull/455).
 
 ## Human powered
 
-James has added [/ai](/ai) and [/human.json](/human.json) to state that this website doesn't use generative AI and to assert our authorship of the content.
+James has added [/ai](/ai) and [/human.json](/human.json) to state that we don't use generative AI to author content for this website and to assert our authorship of the content.
 See [James's post about adding these pages on his own site](https://jamesmead.org/blog/2026-04-04-adding-human-json-to-my-website) for further information.
 
 ## DataKind support
