@@ -48,7 +48,6 @@ Until next time.
 :created_at: 2026-05-01 12:05:09.058015514 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-roos
