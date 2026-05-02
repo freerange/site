@@ -1,0 +1,11 @@
+<%= form_with url: shortener_session_path do |form| %>
+  <div>
+    <%= form.email_field :email, placeholder: 'Email' %>
+  </div>
+
+  <div>
+    <%= form.password_field :password, placeholder: 'Password' %>
+  </div>
+
+  <%= form.submit 'Sign in' %>
+<% end %>

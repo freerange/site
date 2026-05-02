@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '(*any)', to: redirect(subdomain: '', path: '/gfr-video-about'), constraints: { subdomain: 'video' }
 
   scope module: :shortener, as: 'shortener', constraints: { host: Shortener.host } do
+    resource :session, only: %i[new create destroy]
     resources :mappings, only: %i[index new create show], path: ''
     resources :redirects, only: %i[show], path: 'u'
   end
