@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      URL Shortener - Go Free Range
+    </title>
+  </head>
+  <body>
+    <% if flash[:notice].present? %>
+      <p><%= flash[:notice] %></p>
+    <% end %>
+
+    <% if flash[:alert].present? %>
+      <p><%= flash[:alert] %></p>
+    <% end %>
+
+    <%= yield %>
+  </body>
+</html>

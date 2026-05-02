@@ -1,0 +1,11 @@
+<%= form_with(model: @mapping) do |form| %>
+  <div>
+    <%= form.text_field :url, placeholder: label_text(:url) %>
+  </div>
+  <div>
+    <%= form.text_field :friendly_key, placeholder: "#{label_text(:friendly_key)} (optional)" %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

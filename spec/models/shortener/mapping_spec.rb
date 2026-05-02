@@ -1,6 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Shortener::Mapping, type: :model do
+  include Rails.application.routes.url_helpers
+
   describe 'validations' do
     it 'is valid with key and URL' do
       mapping = described_class.new(key: 'key', url: 'http://target.example.com')
@@ -66,12 +68,29 @@ RSpec.describe Shortener::Mapping, type: :model do
       name = described_class.human_attribute_name('friendly_key')
       expect(name).to eq('Key')
     end
+
+    it "it returns 'Short URL' for :short_url" do
+      name = described_class.human_attribute_name(:short_url)
+      expect(name).to eq('Short URL')
+    end
+
+    it "it returns 'Short URL' for 'short_url'" do
+      name = described_class.human_attribute_name('short_url')
+      expect(name).to eq('Short URL')
+    end
   end
 
   describe '#to_param' do
     it 'returns key' do
       mapping = described_class.new(key: 'key')
       expect(mapping.to_param).to eq('key')
+    end
+  end
+
+  describe '#short_url' do
+    it 'returns redirection URL' do
+      mapping = described_class.new(key: 'key')
+      expect(mapping.short_url).to eq(shortener_redirect_url('key'))
     end
   end
 end

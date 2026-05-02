@@ -1,10 +1,13 @@
 module Shortener
   class Mapping < ApplicationRecord
+    include Rails.application.routes.url_helpers
+
     self.table_name = 'shortener_mappings'
 
     ATTRIBUTE_KEYS_VS_NAMES = {
       url: 'URL',
       friendly_key: 'Key',
+      short_url: 'Short URL'
     }
 
     attr_accessor :friendly_key
@@ -29,6 +32,10 @@ module Shortener
 
     def to_param
       key
+    end
+
+    def short_url
+      shortener_redirect_url(self, host: Shortener.origin)
     end
   end
 end

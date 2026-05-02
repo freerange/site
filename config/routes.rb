@@ -3,6 +3,11 @@ Rails.application.routes.draw do
   get '(*any)', to: redirect(subdomain: '', path: '/geohash-explorer'), constraints: { subdomain: 'geohash' }
   get '(*any)', to: redirect(subdomain: '', path: '/gfr-video-about'), constraints: { subdomain: 'video' }
 
+  scope module: :shortener, as: 'shortener', constraints: { host: Shortener.host } do
+    resources :mappings, only: %i[index new create show], path: ''
+    resources :redirects, only: %i[show], path: 'u'
+  end
+
   root to: 'pages#show'
   get '/feed.xml', to: 'pages#feed', format: 'atom'
   get '/GoFreeRangeBlog', to: 'pages#feed', format: 'atom'
