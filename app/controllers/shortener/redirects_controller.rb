@@ -1,5 +1,5 @@
 module Shortener
-  class RedirectsController < ApplicationController
+  class RedirectsController < BaseController
     layout false
 
     def show

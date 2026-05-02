@@ -1,6 +1,5 @@
 module Shortener
-  class MappingsController < ApplicationController
-    layout 'shortener'
+  class MappingsController < BaseController
 
     def index
       @mappings = Shortener::Mapping.all
