@@ -14,6 +14,10 @@
       <p><%= flash[:alert] %></p>
     <% end %>
 
+    <% if signed_in? %>
+      <p><%= button_to 'Sign out', shortener_session_path, method: :delete %></p>
+    <% end %>
+
     <%= yield %>
   </body>
 </html>
