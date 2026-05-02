@@ -1,5 +1,6 @@
 module Shortener
   class MappingsController < BaseController
+    before_action :require_authentication
 
     def index
       @mappings = Shortener::Mapping.all

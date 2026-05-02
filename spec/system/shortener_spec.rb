@@ -1,7 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe 'shortener', type: :system do
+  let(:email) { 'test@example.com' }
+  let(:password) { 'password' }
+
   before do
+    Shortener::User.create!(email:, password:)
     driven_by(:rack_test)
   end
 
@@ -15,6 +19,11 @@ RSpec.describe 'shortener', type: :system do
 
   it 'shortens URLs' do
     visit shortener_mappings_path
+
+    fill_in :email, with: email
+    fill_in :password, with: password
+    click_on 'Sign in'
+    expect(page).to have_content('Success!')
 
     click_on 'New Mapping'
     fill_in 'URL', with: 'http://target.example.com/foo'
