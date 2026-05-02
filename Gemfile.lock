@@ -95,6 +95,7 @@ GEM
       aws-sigv4 (~> 1.5)
     aws-sigv4 (1.12.1)
       aws-eventstream (~> 1, >= 1.0.2)
+    base62 (1.0.0)
     base64 (0.3.0)
     benchmark (0.5.0)
     bigdecimal (4.1.2)
@@ -340,6 +341,7 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk-s3 (~> 1.219)
+  base62
   benchmark
   bigdecimal
   bootsnap (>= 1.1.0)

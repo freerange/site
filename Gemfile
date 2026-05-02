@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby file: '.ruby-version'
 
 gem 'aws-sdk-s3', '~> 1.219'
+gem 'base62'
 gem 'benchmark'
 gem 'bigdecimal'
 gem 'bootsnap', '>= 1.1.0', require: false
