@@ -97,6 +97,7 @@ GEM
       aws-eventstream (~> 1, >= 1.0.2)
     base62 (1.0.0)
     base64 (0.3.0)
+    bcrypt (3.1.22)
     benchmark (0.5.0)
     bigdecimal (4.1.2)
     bootsnap (1.23.0)
@@ -342,6 +343,7 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk-s3 (~> 1.219)
   base62
+  bcrypt
   benchmark
   bigdecimal
   bootsnap (>= 1.1.0)
