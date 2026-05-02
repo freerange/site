@@ -6,6 +6,7 @@ gem 'aws-sdk-s3', '~> 1.219'
 gem 'benchmark'
 gem 'bigdecimal'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'digest-crc'
 gem 'drb'
 gem 'kramdown-parser-gfm', '~> 1.1'
 gem 'kramdown', '~> 2.5'
