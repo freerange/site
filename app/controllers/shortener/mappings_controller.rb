@@ -3,11 +3,8 @@ module Shortener
     before_action :require_authentication
 
     def index
-      @mappings = Shortener::Mapping.order(:key)
-    end
-
-    def new
       @mapping = Shortener::Mapping.new
+      @mappings = Shortener::Mapping.order(:key)
     end
 
     def create
