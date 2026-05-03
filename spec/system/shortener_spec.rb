@@ -25,19 +25,19 @@ RSpec.describe 'shortener', type: :system do
     click_on 'Sign in'
     expect(page).to have_content('Success!')
 
-    click_on 'New Mapping'
+    click_on 'Shorten URL'
     fill_in 'URL', with: 'http://target.example.com/foo'
     fill_in 'Key (optional)', with: 'foo'
-    click_on 'Create Mapping'
+    click_on 'Shorten URL'
     expect(page).to have_content('Success!')
 
     expect(page).to have_content('URL: http://target.example.com/foo')
     expect(page).to have_content('Key: foo')
     click_on 'Mappings'
 
-    click_on 'New Mapping'
+    click_on 'Shorten URL'
     fill_in 'URL', with: 'http://target.example.com/bar'
-    click_on 'Create Mapping'
+    click_on 'Shorten URL'
     expect(page).to have_content('Success!')
 
     expect(page).to have_content('URL: http://target.example.com/bar')
