@@ -9,6 +9,7 @@ namespace :shortener do
       puts
 
       Shortener::User.create!(email: args[:email], password:)
+      puts 'Success!'
     end
 
     desc 'List users for the URL Shortener app'
