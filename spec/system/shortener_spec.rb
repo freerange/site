@@ -47,23 +47,23 @@ RSpec.describe 'shortener', type: :system do
 
     rows = parse_table('table')
     expect(rows[0]).to include(
-      'Key' => 'foo',
-      'URL' => 'http://target.example.com/foo',
-      'Short URL' => shortener_redirect_url('foo')
-    )
-    expect(rows[1]).to include(
       'Key' => '2zYFqT',
       'URL' => 'http://target.example.com/bar',
       'Short URL' => shortener_redirect_url('2zYFqT')
     )
-
-    click_on shortener_redirect_url('foo')
-    expect(current_url).to eq('http://target.example.com/foo')
-
-    visit shortener_mappings_path
+    expect(rows[1]).to include(
+      'Key' => 'foo',
+      'URL' => 'http://target.example.com/foo',
+      'Short URL' => shortener_redirect_url('foo')
+    )
 
     click_on shortener_redirect_url('2zYFqT')
     expect(current_url).to eq('http://target.example.com/bar')
+
+    visit shortener_mappings_path
+
+    click_on shortener_redirect_url('foo')
+    expect(current_url).to eq('http://target.example.com/foo')
   end
 
   def parse_table(selector)
