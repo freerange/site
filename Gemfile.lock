@@ -76,6 +76,8 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    autoprefixer-rails (10.4.21.0)
+      execjs (~> 2)
     aws-eventstream (1.4.0)
     aws-partitions (1.1240.0)
     aws-sdk-core (3.245.0)
@@ -95,11 +97,16 @@ GEM
       aws-sigv4 (~> 1.5)
     aws-sigv4 (1.12.1)
       aws-eventstream (~> 1, >= 1.0.2)
+    base62 (1.0.0)
     base64 (0.3.0)
+    bcrypt (3.1.22)
     benchmark (0.5.0)
     bigdecimal (4.1.2)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
+    bootstrap (4.6.2.1)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 1.16.1, < 2)
     builder (3.3.0)
     capybara (3.40.0)
       addressable
@@ -116,10 +123,13 @@ GEM
     crass (1.0.6)
     date (3.5.1)
     diff-lcs (1.6.2)
+    digest-crc (0.7.0)
+      rake (>= 12.0.0, < 14.0.0)
     dotenv (3.2.0)
     drb (2.2.3)
     erb (6.0.2)
     erubi (1.13.1)
+    execjs (2.10.1)
     ffi (1.17.3)
     ffi (1.17.3-aarch64-linux-gnu)
     ffi (1.17.3-aarch64-linux-musl)
@@ -195,6 +205,14 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.2-x86_64-linux-musl)
       racc (~> 1.4)
+    pg (1.6.3)
+    pg (1.6.3-aarch64-linux)
+    pg (1.6.3-aarch64-linux-musl)
+    pg (1.6.3-arm64-darwin)
+    pg (1.6.3-x86_64-darwin)
+    pg (1.6.3-x86_64-linux)
+    pg (1.6.3-x86_64-linux-musl)
+    popper_js (1.16.1)
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
@@ -331,10 +349,14 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk-s3 (~> 1.219)
+  base62
+  bcrypt
   benchmark
   bigdecimal
   bootsnap (>= 1.1.0)
+  bootstrap (~> 4.6)
   capybara (~> 3.40)
+  digest-crc
   dotenv (~> 3.2)
   drb
   irb
@@ -343,6 +365,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.11)
   logger
   mutex_m
+  pg (~> 1.1)
   puma (~> 7)
   rails (~> 7.2.0)
   rails-controller-testing (~> 1.0)

@@ -1,0 +1,17 @@
+<% content_for :heading do %>
+  Please sign in
+<% end %>
+
+<% content_for :top do %>
+  <%= form_with url: shortener_session_path do |form| %>
+    <div>
+      <%= form.email_field :email, placeholder: 'Email', class: 'form-control' %>
+    </div>
+
+    <div>
+      <%= form.password_field :password, placeholder: 'Password', class: 'form-control' %>
+    </div>
+
+    <%= form.submit 'Sign in', class: 'btn btn-lg btn-primary btn-block' %>
+  <% end %>
+<% end %>

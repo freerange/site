@@ -4,12 +4,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      PGHOST: localhost
+      PGUSER: postgres
+      PGPASSWORD: password
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: password
+        ports:
+          - 5432:5432
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
       - name: Setup Ruby & install bundled gems
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+
+      - name: Setup database
+        run: bin/rails db:setup
+
       - name: Run tests
-        run: bundle exec rake
+        run: bin/rake

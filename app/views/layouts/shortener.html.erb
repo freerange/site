@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      URL Shortener - Go Free Range
+    </title>
+
+    <%= stylesheet_link_tag 'shortener' %>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content text-center">
+        <%= image_tag 'logo.png', class: 'mb-4', height: 72, alt: 'GFR logo' %>
+        <h1 class="h3 mb-3 font-weight-normal">
+          <%= content_for?(:heading) ? yield(:heading) : 'Go Free Range' %>
+        </h1>
+
+        <% if flash[:notice].present? %>
+          <div class="alert alert-warning" role="alert">
+            <%= flash[:notice] %>
+          </div>
+        <% end %>
+
+        <% if flash[:alert].present? %>
+          <div class="alert alert-danger" role="alert">
+            <%= flash[:alert] %>
+          </div>
+        <% end %>
+
+        <%= yield :top %>
+      </div>
+
+      <div class="mx-5 mt-5">
+        <%= yield %>
+      </div>
+
+      <div class="content text-center">
+        <%= yield :bottom %>
+
+        <% if signed_in? %>
+          <%= button_to 'Sign out', shortener_session_path, method: :delete, class: 'btn btn-link my-3' %>
+        <% end %>
+      </div>
+    </div>
+  </body>
+</html>

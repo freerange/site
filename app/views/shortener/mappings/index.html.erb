@@ -1,0 +1,32 @@
+<% content_for :top do %>
+  <%= form_with(model: @mapping) do |form| %>
+    <div>
+      <%= form.text_field :url, placeholder: label_text(:url), class: 'form-control' %>
+    </div>
+    <div>
+      <%= form.text_field :friendly_key, placeholder: "#{label_text(:friendly_key)} (optional)", class: 'form-control' %>
+    </div>
+    <div>
+      <%= form.submit 'Shorten URL', class: 'btn btn-lg btn-primary btn-block' %>
+    </div>
+  <% end %>
+<% end %>
+
+<table class="table table-sm table-bordered">
+  <thead>
+    <tr>
+      <th><%= label_text(:key) %></th>
+      <th><%= label_text(:url) %></th>
+      <th><%= label_text(:short_url) %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @mappings.each do |mapping| %>
+      <tr>
+        <td><%= mapping.key %></td>
+        <td><%= link_to mapping.url, mapping.url %></td>
+        <td><%= link_to mapping.short_url, mapping.short_url %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
