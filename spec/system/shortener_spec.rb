@@ -31,19 +31,10 @@ RSpec.describe 'shortener', type: :system do
     click_on 'Shorten URL'
     expect(page).to have_content('Success!')
 
-    expect(page).to have_content('URL: http://target.example.com/foo')
-    expect(page).to have_content('Key: foo')
-    click_on 'Mappings'
-
     click_on 'Shorten URL'
     fill_in 'URL', with: 'http://target.example.com/bar'
     click_on 'Shorten URL'
     expect(page).to have_content('Success!')
-
-    expect(page).to have_content('URL: http://target.example.com/bar')
-    labelled_key = find('p', text: /^Key: /).text
-    expect(labelled_key).to eq('Key: 2zYFqT')
-    click_on 'Mappings'
 
     rows = parse_table('table')
     expect(rows[0]).to include(

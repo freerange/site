@@ -13,15 +13,11 @@ module Shortener
     def create
       @mapping = Shortener::Mapping.new(mapping_params)
       if @mapping.save
-        redirect_to shortener_mapping_path(@mapping), notice: 'Success!'
+        redirect_to shortener_mappings_path, notice: 'Success!'
       else
         flash.now[:alert] = @mapping.errors.full_messages.to_sentence
         render :new, status: :unprocessable_entity
       end
-    end
-
-    def show
-      @mapping = Shortener::Mapping.find_by!(key: params[:id])
     end
 
     private

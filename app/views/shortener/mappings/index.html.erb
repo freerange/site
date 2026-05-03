@@ -13,7 +13,7 @@
   <tbody>
     <% @mappings.each do |mapping| %>
       <tr>
-        <td><%= link_to mapping.key, shortener_mapping_path(mapping) %></td>
+        <td><%= mapping.key %></td>
         <td><%= link_to mapping.url, mapping.url %></td>
         <td><%= link_to mapping.short_url, mapping.short_url %></td>
       </tr>
