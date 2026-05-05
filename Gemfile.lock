@@ -76,6 +76,8 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    autoprefixer-rails (10.4.21.0)
+      execjs (~> 2)
     aws-eventstream (1.4.0)
     aws-partitions (1.1244.0)
     aws-sdk-core (3.246.0)
@@ -102,8 +104,9 @@ GEM
     bigdecimal (4.1.2)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
-    bootstrap (5.3.8)
-      popper_js (>= 2.11.8, < 3)
+    bootstrap (4.6.2.1)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 1.16.1, < 2)
     builder (3.3.0)
     capybara (3.40.0)
       addressable
@@ -126,6 +129,7 @@ GEM
     drb (2.2.3)
     erb (6.0.2)
     erubi (1.13.1)
+    execjs (2.10.1)
     ffi (1.17.3)
     ffi (1.17.3-aarch64-linux-gnu)
     ffi (1.17.3-aarch64-linux-musl)
@@ -208,7 +212,7 @@ GEM
     pg (1.6.3-x86_64-darwin)
     pg (1.6.3-x86_64-linux)
     pg (1.6.3-x86_64-linux-musl)
-    popper_js (2.11.8)
+    popper_js (1.16.1)
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
@@ -350,7 +354,7 @@ DEPENDENCIES
   benchmark
   bigdecimal
   bootsnap (>= 1.1.0)
-  bootstrap (~> 5.3)
+  bootstrap (~> 4.6)
   capybara (~> 3.40)
   digest-crc
   dotenv (~> 3.2)
