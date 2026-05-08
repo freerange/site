@@ -5,9 +5,9 @@ A slightly shorter working week this week as we took Monday off for the early Ma
 
 ## NHS Vaccinations
 
-We continued our work with [Good Machine](https://www.goodmachine.team/) on the [Vaccinations in Schools project](https://github.com/NHSDigital/manage-vaccinations-in-schools/). We met up at the Good Machine office for the day on Wednesday and enjoyed pairing in person.
+We continued our work with [Good Machine](https://www.goodmachine.team/) on the [Manage Vaccinations in Schools project](https://github.com/NHSDigital/manage-vaccinations-in-schools/) (Mavis). We met up at the Good Machine office for the day on Wednesday and enjoyed pairing in person.
 
-The scope of our work to improve the performance of MAVIS and getting it ready to handle national-scale volumes of data and traffic is becoming clearer. We had some good planning and brainstorming sessions this week. James and I continued to add some observability (logging to Grafana via Cloudwatch) of key data import journeys while Chris was refactoring some of the import code with the view to making horizontal scaling easier.
+The scope of our work to improve the performance of Mavis and getting it ready to handle national-scale volumes of data and traffic is becoming clearer. We had some good planning and brainstorming sessions this week. James and I continued to add some observability (logging to Grafana via Cloudwatch) of key data import journeys while Chris was refactoring some of the import code with the view to making horizontal scaling easier.
 
 We were disappointed to [learn about the move to close the source code of many NHS repos](https://www.theregister.com/software/2026/05/05/nhs-to-close-source-github-repos-over-ai-security-concerns/5224392) including those we are working on.
 
@@ -28,7 +28,6 @@ We spent today catching up on (life and work) admin and doing a little bit of wo
 :created_at: 2026-05-08 11:48:19.320586137 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: chris-lowis
