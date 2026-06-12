@@ -48,11 +48,10 @@ Until next time!
 [Mirlo]: https://mirlo.space/
 
 :name: week-908
-:updated_at: 2026-06-12 11:16:07.271469000 +01:00
-:created_at: 2026-06-12 11:16:07.271468000 +01:00
+:updated_at: 2026-06-12 13:40:12.923394000 +01:00
+:created_at: 2026-06-12 13:40:12.923391000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
