@@ -17,7 +17,7 @@ On Tuesday Chris R ran the [Code Club] at his daughter's school as usual - it ma
 
 That day there was also a problem with a [Mission Patch] order. Someone had paid using [RevolutPay], but the code was expecting payment by credit card. Fortunately this wasn't too difficult to diagnose and fix.
 
-Chris L spent Thursday at the "Scaling cooperation: Working together for a fairer, more productive digital platform ecosystem in the new music economy" event at [Goldsmiths] which he'd co-organised.
+Chris L spent Thursday at the "Scaling cooperation: Working together for a fairer, more productive digital platform ecosystem in the new music economy" event funded by  [Goldsmiths] and hosted at the worker-run [Piehouse Coop] in Deptford. Chris had the chance to meet some local musicians, two representatives from fellow music platform co-op [Mirlo] and other folks working on co-operative or community-based music projects in London.  
 
 Over the course of this week I've spent way too long trying to resolve an annoying "Catch-22" situation with updating our VAT registration details. Today I've upgraded the Heroku stack for [this website](/) from [heroku-22] to [heroku-26] which fortunately went off without a hitch.
 
@@ -44,6 +44,8 @@ Until next time!
 [Code Club]: https://codeclub.org/en
 [RevolutPay]: https://www.revolut.com/revolut-pay/
 [Jam]: https://jam.coop
+[Piehouse Coop]: https://piehouse.coop/
+[Mirlo]: https://mirlo.space/
 
 :name: week-908
 :updated_at: 2026-06-12 11:16:07.271469000 +01:00
