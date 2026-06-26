@@ -43,11 +43,10 @@ Until next time!
 [application fees]: https://docs.stripe.com/api/application_fees
 
 :name: week-910
-:updated_at: 2026-06-26 08:31:19.048626000 +01:00
-:created_at: 2026-06-26 08:31:19.048624000 +01:00
+:updated_at: 2026-06-26 15:41:45.330621000 +01:00
+:created_at: 2026-06-26 15:41:45.330616000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
