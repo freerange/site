@@ -9,7 +9,7 @@ My week has again been plagued by tooth pain and interspersed with trips to the 
 
 Chris L has been focussing on reducing the scope of the locking we when importing vaccination records from a CSV file with the ambition to reduce the average time a nurse has to wait for an import to finish. Chris R has continued pairing on making parts of a couple of other CSV imports run in parallel which should mean we'll be able to improve performance by horizontal scaling of the background worker processes.
 
-I've been looking at using [Sidekiq Pro's batch functionality] to parallelize one of the last steps in the vaccination import for similar reasons. The trickiest bit has been working out how best to test this functionality and keep all the existing tests working, but I think I'm gradually homing in on a sensible approach.
+I've been looking at using [Sidekiq Pro's batch functionality] to parallelize one of the last steps in the vaccinations import for similar reasons. The trickiest bit has been working out how best to test this functionality and keep all the existing tests working, but I think I'm gradually homing in on a sensible approach.
 
 A while ago the structure of our contract for this project changed and we've found ourselves needing a bunch of extra insurance cover. Chris R has been sorting this out with our insurance broker which I really appreciate.
 
