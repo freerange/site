@@ -43,11 +43,10 @@ Until next time!
 [Stripe Connect]: https://stripe.com/gb/connect
 
 :name: week-911
-:updated_at: 2026-07-03 10:54:56.978348000 +01:00
-:created_at: 2026-07-03 10:54:56.978345000 +01:00
+:updated_at: 2026-07-03 14:15:33.117124000 +01:00
+:created_at: 2026-07-03 14:15:33.117120000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
