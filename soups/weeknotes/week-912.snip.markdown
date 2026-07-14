@@ -7,7 +7,7 @@ We welcomed [James] back on Tuesday after he found some (hopefully long-lasting)
 
 ## NHS Vaccinations (Mavis)
 
-I finished up some changes to the way we process uploads of immunisation records. Previous performance issues and worries about race conditions mean we were relying on [sidekiq-throttled] to ensure we only processed one of this type of job at a time. By performance testing and code reading I've convinced myself that we should be OK to process more of these jobs concurrently so I used the [dynamic throttling] options to create a per-team concurrency lock instead. [Craig Norford]'s Brighton Ruby talk inspired me to think about sidekiq and queuing in different ways so it was satisfying to put that into practice very quickly.
+I finished up some changes to the way we process uploads of immunisation records. Previous performance issues and worries about race conditions mean we were relying on [sidekiq-throttled] to ensure we only processed one of this type of job at a time. By performance testing and code reading I've convinced myself that we should be OK to process more of these jobs concurrently so I used the [dynamic throttling] options to create a per-team concurrency lock instead. [Craig Norford]'s [Brighton Ruby talk] inspired me to think about sidekiq and queuing in different ways so it was satisfying to put that into practice very quickly.
 
 The team have been working on some changes to the process for how we decide what to work on. They're really positive, pragmatic changes and it meant that James and I were able to pick up and start working on our first user-facing (rather than backed or performance) change to Mavis - allowing [SAIS] teams to reschedule appointment bookings.
 
@@ -38,7 +38,7 @@ Have a good weekend!
 [principles for preventing platform decay]: https://en.wikipedia.org/wiki/Enshittification
 [Stripe Connect]: https://stripe.com/gb/connect
 [jam]: https://jam.coop
-
+[Brighton Ruby talk]: https://www.youtube.com/watch?v=xQ2334zPzug&list=PLG4Kzg-MIgJw&index=3
 
 :name: week-912
 :updated_at: 2026-07-10 16:11:32.088031468 +01:00
