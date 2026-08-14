@@ -19,7 +19,7 @@ I paired with Chris R earlier in the week while investigating and fixing a somew
 
 I've spent a chunk of time today trying to fill in a form to renew some of our company insurance policies. It's been pretty hard-going, not least because the form is a Word Document with funky formatting that I can't seem to edit in Google Docs or Pages. 😔
 
-In between times over the last couple of weeks, I've done a bunch of work on Jam - mostly adding protection against malicious file uploads. However, I also managed to [address][jam-pr-615] some user [feedback][jam-issue-614] on uploading FLAC files with metadata. 🍓
+In between times over the last couple of weeks, I've done a bunch of work on Jam 🍓. This has mostly been adding protection against malicious file uploads. However, I also managed to [address][jam-pr-615] some user [feedback][jam-issue-614] on uploading FLAC files with metadata. Chris L also made [a first attempt][jam-ecddf381] at reducing the volume of traffic Jam receives from the AI bots!🤖
 
 Anyway, that's all I can think of for now. I hope you're all managing to stay cool in the latest UK heatwave! 🫠
 
@@ -34,6 +34,7 @@ Until next time
 [React]: https://react.dev/
 [jam-pr-615]: https://github.com/freerange/jam-coop/pull/615
 [jam-issue-614]: https://github.com/freerange/jam-coop/issues/614
+[jam-ecddf381]: https://github.com/freerange/jam-coop/commit/ecddf38172458bd69ee6a708ac50f444a6ce12c3
 
 :name: week-917
 :updated_at: 2026-08-14 16:23:17.652049000 +01:00
