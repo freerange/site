@@ -36,11 +36,10 @@ Until next time
 [jam-issue-614]: https://github.com/freerange/jam-coop/issues/614
 
 :name: week-917
-:updated_at: 2026-08-14 15:34:36.927161000 +01:00
-:created_at: 2026-08-14 15:34:36.927160000 +01:00
+:updated_at: 2026-08-14 16:23:17.652049000 +01:00
+:created_at: 2026-08-14 16:23:17.652046000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
