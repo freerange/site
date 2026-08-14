@@ -3,7 +3,7 @@ Week 917
 
 Week beginning Monday, 10th August 2026.
 
-Chris L has been away all week and Chris R was off on Thursday & Friday.🌴
+[Chris L] has been away all week and [Chris R] was off on Thursday & Friday.🌴
 
 I feel very guilty, because I failed to write notes for weeks 914 & 916 - sorry!😱
 
@@ -13,7 +13,7 @@ I've had a recurrence of a tooth problem which has meant it's been hard to conce
 
 Our focus has continued to be on the NHS Vaccinations project ([Mavis](https://www.manage-vaccinations-in-schools.nhs.uk)). Over the last few weeks, Chris L & I have mostly been working on functionality to allow nurses to manage appointments in clinics as opposed to the sessions that the [School Age Immunisation Service](https://www.sais.uk.com/) teams run in schools. 💉
 
-We're using step-by-step wizards which make use of [Wicked] and a session-backed [ActiveModel] class. I'm a bit nervous about the incresing complexity of one of the wizards - it feels all too easy to add extra state to the model. It reminds me a bit of how [React] components can quickly get out of hand complexity-wise for similar reasons. 🧙
+We're using step-by-step wizards which make use of [Wicked] and a session-backed [ActiveModel] class. I'm a bit nervous about the increasing complexity of one of the wizards - it feels all too easy to add extra state to the model. It reminds me a bit of how [React] components can quickly get out of hand complexity-wise for similar reasons. 🧙
 
 I paired with Chris R earlier in the week while investigating and fixing a somewhat gnarly bug in the aforementioned wizard 🍐. Chris R has otherwise been doing a lot of thorough pull request reviews as well as pairing with one of the other developers on a large-scale refactoring to increase parallelization in processing CSV uploads.
 
@@ -27,6 +27,8 @@ Until next time
 
 -- James
 
+[Chris L]: /chris-lowis
+[Chris R]: /chris-roos
 [Wicked]: https://github.com/zombocom/wicked
 [ActiveModel]: https://guides.rubyonrails.org/active_model_basics.html
 [React]: https://react.dev/
