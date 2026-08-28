@@ -52,11 +52,10 @@ Until next time
 [dotfiles-readme]: https://github.com/floehopper/dotfiles/blob/136e13b77d2f8af07433b47a0f380245f703ba53/README.md
 
 :name: week-918-and-919
-:updated_at: 2026-08-28 13:15:43.680125000 +01:00
-:created_at: 2026-08-28 13:15:43.680124000 +01:00
+:updated_at: 2026-08-28 15:54:07.073008000 +01:00
+:created_at: 2026-08-28 15:54:07.073006000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
