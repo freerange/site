@@ -17,7 +17,7 @@ We're very happy to [welcome][welcome-toot] Kordel Records, a sub-label of the m
 
 Both Chris L and I have been doing bits and bobs of work on Jam, although it's been difficult to find sustained chunks of time to work on the project. Chris [added][avo-commit] a bunch of admin pages using [Avo]. Having configured a bank feed in [FreeAgent][] [^1] for our Jam Stripe account, I wrote up some detailed intructions on how to explain the transactions. I then [added][jam-pr-661] an admin purchases page to Jam and [enhanced][jam-pr-662] it to help supply some of the required figures.
 
-## Developer Environment
+## Developer Environment 💻
 
 I've been fiddling with my development environment. I've ditched [oh-my-zsh], because I was hardly using any of it or its plugins and my shell was taking a long time to load. I've hand-crafted a `.zshrc` to reproduce all the behaviour I wanted. I briefly flirted with the [starship prompt] before settling on the [pure prompt] which is pretty minimalistic and makes any calls to `git` asynchronously. I've also switched from MacOS Terminal.app to [ghostty].
 
