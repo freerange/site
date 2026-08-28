@@ -1,7 +1,7 @@
 Week 918 & 919
 ========
 
-Weeks beginning Monday, 17th and 24th August 2026.
+Weeks beginning Monday, 17th and Monday, 24th August 2026.
 
 The last few weeks have been a bit of a blur for me. We've been thin on the ground at times due to the school holiday effect with both [Chris L] and [Chris R] being variously away on holiday or having child-care commitments. I've had intermittent dental pain and lots of disruption from building work, culminating in a new water supply connection where the contractors managed to split the 80+ year-old cast iron-water main outside my house! 
 
@@ -9,7 +9,9 @@ The last few weeks have been a bit of a blur for me. We've been thin on the grou
 
 We've continue our work on the project modulo interruptions due to the events mentioned above.
 
-Last Wednesday, [Good Machine] hosted a product showcase at [The Ministry] in Borough for functionality built over the last year. Chris L did a demo of the clinic booking functionality he and I have been working on. And then on Thursday, Chris L & Chris R attended the annual (?) Good Machine away day also at The Ministry. In these days of extensive remote working, it's always nice to meet up with colleagues in person, so I was sorry I wasn't able to attend.
+Last Wednesday, [Good Machine] hosted a product showcase at [The Ministry] in Borough for functionality built over the last year. Chris L did a demo of the clinic booking functionality he and I have been working on.
+
+And then on Thursday, Chris L & Chris R attended an in-person Mavis strategy session, also at The Ministry. In these days of extensive remote working, it's always nice to meet up with colleagues in person, so I was sorry I wasn't able to attend.
 
 ## Jam 🍓
 
