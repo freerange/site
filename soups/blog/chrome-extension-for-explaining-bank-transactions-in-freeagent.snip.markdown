@@ -5,13 +5,13 @@ As regular readers of this blog will know, we're very keen on automating away as
 
 ## Evolving the bookmarklet
 
-As we added more and more rules to the bookmarklet it became more and more useful. We got to the point where we thought it might be useful to other people and so we decided to make it a bit more generic. We also wanted to make it easy for people to install and configure. To this end, we decided to have a go at converting the bookmarklet into a [Chrome extension][].
+As we added more and more rules to the bookmarklet it became more and more useful. We got to the point where we thought it might be useful to other people and so we decided to make it a bit more generic. We also wanted to make it easy for people to install and configure. To this end, we decided to have a go at converting the bookmarklet into a [Chrome extension][] [^1].
 
 We have a few [bookmarklets][] and [userscripts][] which we use internally and we thought it would be useful to know more about how to create Chrome extensions. Also we want to get _better at building things and writing about them_, and this seemed like a good candidate.
 
 ## How to use the extension
 
-You'll find the latest installation and usage instructions in the [project README][], but essentially you just need to [install the Chrome extension][] from the Chrome Web Store and use the extension's _Options_ page to point it at a publicly hosted [JSON][] file containing the rules you want to use. An easy way to do this is to use a [GitHub Gist][] and point the extension at the _raw_ version of the Gist file.
+You'll find the latest installation and usage instructions in the [project README][] [^2], but essentially you just need to [install the Chrome extension][] from the Chrome Web Store and use the extension's _Options_ page to point it at a publicly hosted [JSON][] file containing the rules you want to use. An easy way to do this is to use a [GitHub Gist][] and point the extension at the _raw_ version of the Gist file.
 
 Then when you're on an _unexplained_ bank transaction in FreeAgent, you can trigger the extension using the icon in the Omnibox (or a keyboard shortcut) to suggest an explanation for the transaction. The extension tries to find a rule matching the bank transaction description and if it finds one, it'll make the appropriate changes to the explanation form, but you still need to manually check the changes and submit the form.
 
@@ -35,6 +35,9 @@ You'll be able to see that we've captured a few of our ideas for further work as
 * [Support transaction where money has been paid to a user](https://github.com/freerange/freeagent_transaction_explainer/issues/15) e.g. salary, dividends, etc.
 
 Anyway, let us know what you think.
+
+[^1]: Removed from the Chrome Web Store on 31 Aug 2026 due to deprecation of Manifest V2
+[^2]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
 
 [Chris]: /chris-roos
 [created a bookmarklet]: /automating-some-of-the-freeagent-transaction-explanation-process
@@ -60,4 +63,3 @@ Anyway, let us know what you think.
 :created_at: 2014-07-30 10:14:00 +00:00
 :updated_at: 2014-07-30 10:14:00 +00:00
 :page_title: Chrome extension for explaining bank transactions in FreeAgent
-

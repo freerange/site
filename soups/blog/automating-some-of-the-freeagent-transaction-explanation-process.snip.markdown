@@ -9,10 +9,11 @@ Trying to remember how to explain recurring payments (e.g. for our monthly GitHu
 
 The video shows me explaining the monthly payment for [Campfire][]. You can see that clicking on the bookmarklet automatically sets the VAT, category and description and additionally prompts me to upload the invoice.
 
-The code is in the [freeagent_transaction_explainer][] project on GitHub should you wish to make use of this little time saving tool. The rules used to explain transactions are currently stored in the bookmarklet itself, so you'll almost certainly want to fork and customise the project to get the most out of it.
+The code is in the [freeagent_transaction_explainer][] [^1] project on GitHub should you wish to make use of this little time saving tool. The rules used to explain transactions are currently stored in the bookmarklet itself, so you'll almost certainly want to fork and customise the project to get the most out of it.
 
 Let us know if you find it useful!
 
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
 [Campfire]: https://campfirenow.com/
 [FreeAgent]: http://www.freeagent.com/
 [freeagent_transaction_explainer]: https://github.com/freerange/freeagent_transaction_explainer

@@ -8,7 +8,7 @@ Week 530 - Interesting links
 
 ### [DoubleAgent](https://doubleagent.io/)
 
-This is actually something we first mentioned back in [week 470](/week-470-links). For a long time we've been using our own [Chrome extension](https://github.com/freerange/freeagent_transaction_explainer) to help us explain transactions in FreeAgent correctly and consistently. However, since we started making sales from mission-patch.com, we've needed to handle payouts from Stripe which are made up of payments from multiple customers and deductions for processing fees.
+This is actually something we first mentioned back in [week 470](/week-470-links). For a long time we've been using our own [Chrome extension](https://github.com/freerange/freeagent_transaction_explainer) [^1] to help us explain transactions in FreeAgent correctly and consistently. However, since we started making sales from mission-patch.com, we've needed to handle payouts from Stripe which are made up of payments from multiple customers and deductions for processing fees.
 
 We looked at and tried a few different options, but we've settled on DoubleAgent which [does this automatically](https://doubleagent.io/docs/stripe). Andrew was really helpful in making some changes to support our Stripe use case and so far it's all working really well. And as a bonus we've started setting up DoubleAgent rules to replace the functionality provided by our Chrome extension. <%= by('james-mead') %>
 
@@ -50,6 +50,8 @@ I appreciate the effort that's gone into transcribing this interview, and into t
 > Additional, Rails 6 just committed to shipping source maps by default in production, also thanks to Webpack. You’ll be able to turn that feature off, but I hope you won’t. The web is a better place when we allow others to learn from our work.
 
 This is great! I'm all for making it as easy as possible for people to see how the things we build work under the hood. <%= by('chris-roos') %>
+
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
 
 :name: week-530-links
 :updated_at: 2019-03-13 14:57:09.802812000 +00:00

@@ -17,13 +17,15 @@ We ended Wednesday chatting over a couple of beers about some company things tha
 
 [James][] investigated why our RSS feed had stopped working (I think it was 404'ing). As best we can tell, we'd somehow lost our Feedburner account but James managed to reclaim and reconfigure it. The fact that our RSS feed had silently stopped working reminded me of some of the [criticism about feeds on the indieweb wiki][IWC feed criticism].
 
-I managed to do a little more work on the [Free Agent Transaction Explainer utility][FA trans explainer], so that it can help us explain our Google Apps for Business invoices. This was after James and I spent some time trying to understand the reverse VAT charge requirements of these invoices. While I still find this utility useful, I am starting to get a bit wary of the amount of information we have in it. One particular area of concern is that there's no visible difference between it not being able to find a matching rule, and it simply not working.
+I managed to do a little more work on the [Free Agent Transaction Explainer utility][FA trans explainer] [^1], so that it can help us explain our Google Apps for Business invoices. This was after James and I spent some time trying to understand the reverse VAT charge requirements of these invoices. While I still find this utility useful, I am starting to get a bit wary of the amount of information we have in it. One particular area of concern is that there's no visible difference between it not being able to find a matching rule, and it simply not working.
 
 James managed to get a pull request merged into [Mocha][] and tidied up a few things ready for a 1.1.0 release.
 
 Finally, both [Tom W][] and [Chris L][] were in the office on Friday so a few of us finished the week having a few beers in the sun outside the Old King's Head. Which is always a good way to end the week.
 
 -- Chris.
+
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
 
 [Chris Lowis]: http://blog.chrislowis.co.uk/
 [Chris L]: http://blog.chrislowis.co.uk/

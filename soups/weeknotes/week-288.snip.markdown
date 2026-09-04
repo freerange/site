@@ -21,7 +21,7 @@ On the study group front, we've had our application accepted and have made the p
 
 ## FreeAgent Transaction Explainer
 
-We continued to work on our [FreeAgent Transaction Explainer][] Chrome Extension. We've got it to a state that allows James and I to use it, and are planning to finish a few other things before hopefully getting it published in the Chrome Web Store. We're not entirely sure how useful this'll be to anyone else but we've enjoyed working on, and learning about, something slightly different.
+We continued to work on our [FreeAgent Transaction Explainer][] [^1] Chrome Extension. We've got it to a state that allows James and I to use it, and are planning to finish a few other things before hopefully getting it published in the Chrome Web Store. We're not entirely sure how useful this'll be to anyone else but we've enjoyed working on, and learning about, something slightly different.
 
 ## Turning down work
 
@@ -38,6 +38,8 @@ We finished up on Friday by visiting our chums at [FutureLearn][]. They had plan
 Until next time.
 
 -- Chris
+
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
 
 [ABCUL]: http://www.abcul.org/home
 [Andy]: https://twitter.com/andycroll

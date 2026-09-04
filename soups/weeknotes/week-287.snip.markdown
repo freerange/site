@@ -21,11 +21,14 @@ Some time ago, we were finding that it was rather too easy to add things to our 
 
 Last Wednesday we had a visit from a prospective client who wants to do some on-demand patterned fabric printing which sounds really interesting. We also made a start at advertising our [surplus office furniture][].
 
-Towards the end of the week, we decided to treat ourselves to writing a bit of code! We thought it would be nice to turn our [FreeAgent Transaction Explainer][] bookmarklet into a fully-fledged [Chrome Extension][]. Our plan is to make the extension configurable with different rules, so it can be used by other people. We made some good progress and we hope to finish it off in the next day or so.
+Towards the end of the week, we decided to treat ourselves to writing a bit of code! We thought it would be nice to turn our [FreeAgent Transaction Explainer][] [^1] bookmarklet into a fully-fledged [Chrome Extension][] [^2]. Our plan is to make the extension configurable with different rules, so it can be used by other people. We made some good progress and we hope to finish it off in the next day or so.
 
 As you might've gathered, we've lost a bit of momentum on [Project Credit Union][]. However, never fear, we _do_ plan to come back to it in the near future. Watch this space!
 
 -- James.
+
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
+[^2]: Removed from the Chrome Web Store on 31 Aug 2026 due to deprecation of Manifest V2
 
 [Chris]: /chris-roos
 [Brighton Ruby Conference]: http://brightonruby.com/

@@ -53,8 +53,9 @@ I was quite surprised to see the amount of information they were displaying abou
 
 ### [Chrome Apps & Extensions Developer Tool - Chrome Web Store](https://chrome.google.com/webstore/detail/chrome-apps-extensions-de/ohmmkhmmmpcnpikjeljgnaoabkaalbgc?hl=en-US)
 
-This looks interesting - I'll have to give it a go if/when we do more work on the [FreeAgent Transaction Explainer](https://github.com/freerange/freeagent_transaction_explainer). <%= by('chris-roos') %>
+This looks interesting - I'll have to give it a go if/when we do more work on the [FreeAgent Transaction Explainer](https://github.com/freerange/freeagent_transaction_explainer) [^1]. <%= by('chris-roos') %>
 
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
 
 :render_as: Blog
 :kind: blog

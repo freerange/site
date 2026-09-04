@@ -11,9 +11,11 @@ Week 294
 
 * I did a little work on the video project, although not as much as I was hoping to do. I fixed a couple of problems with uploading larger files and started to investigate how much it might cost to run a service like this.
 
-* I submitted our VAT return. In doing so I noticed a [problem with our Free Agent Transaction Explainer not classifying Google Apps payments as EC Services][fate-issue-36].
+* I submitted our VAT return. In doing so I noticed a [problem with our Free Agent Transaction Explainer not classifying Google Apps payments as EC Services][fate-issue-36] [^1].
 
 * I was away on Friday, travelling to North Wales for the [Man versus Mountain][mvm] event on Saturday. It was a great event and I'd definitely recommend it to anyone interested in a bit of outdoor running fun.
+
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
 
 [fate-issue-36]: https://github.com/freerange/freeagent_transaction_explainer/issues/36
 [little-schemer-book-club]: http://lanyrd.com/series/little-schemer-book-club/

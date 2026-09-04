@@ -9,7 +9,7 @@ Over the last few weeks we've been making a concerted effort to improve our team
 
 ### Planning
 
-On Monday we tried to sketch out a rough plan for the week. We decided to start by trying to publish the [FreeAgent Transaction Explainer][] Chrome Extension, then move on to having a fresh look at [Project Credit Union][], and finally have a crack at automating the handling of some of our more mundane recurring incoming emails.
+On Monday we tried to sketch out a rough plan for the week. We decided to start by trying to publish the [FreeAgent Transaction Explainer][] [^1] Chrome Extension, then move on to having a fresh look at [Project Credit Union][], and finally have a crack at automating the handling of some of our more mundane recurring incoming emails.
 
 We're hoping that by repeating this process every week, and ideally looking a little further ahead, we can gradually get better at being a bit more strategic in what we choose to work on.
 
@@ -39,7 +39,7 @@ I'd like to keep this distinction in mind when I'm writing things up in an email
 
 ## FreeAgent automation
 
-We managed to [publish the Chrome Extension in the Chrome Web Store][] by first thing Wednesday morning. Chris noticed that FreeAgent have plans to revamp the transaction explanation process, so this extension may become redundant.
+We managed to [publish the Chrome Extension in the Chrome Web Store][] [^2] by first thing Wednesday morning. Chris noticed that FreeAgent have plans to revamp the transaction explanation process, so this extension may become redundant.
 
 Even if this does happen, it's been a useful exercise in [codify-ing the rules][] we use to explain our bank transaction, learning about [Chrome Extensions][], building a (small) product of our own, and [writing about it][].
 
@@ -88,6 +88,9 @@ It was good to catch up with Tom and hear how he's been getting on working remot
 Anyway, that's it for now.
 
 -- James
+
+[^1]: GitHub repo archived on 03 Jul 2020, because we were no longer using it
+[^2]: Removed from the Chrome Web Store on 31 Aug 2026 due to deprecation of Manifest V2
 
 [Harmonia]: https://harmonia.io
 [triaging Trello cards]: /week-287#trello
