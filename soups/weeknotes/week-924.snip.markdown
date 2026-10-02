@@ -17,6 +17,8 @@ On Wednesday, Chris L participated in the regular monthly CoTech call. I really 
 
 I'm also very encouraged to see that [Solid Fund], a worker co-operative solidarity fund which we contribute to, has started to be a bit more proactive having already paid out £73,000 this year in support of a number of worker co-ops that have fallen on hard times.
 
+<img src="<%= image_path('blog/2016-wortley-hall-group-photo.png') %>" style="width: 100%" alt="Attendees at the CoTech founding event at Wortley Hall">
+
 ## Mission Patch 🚀
 
 This week we received the first multi-item [Mission Patch] (custom laptop stickers) order since I added some shopping basket functionality in the giant pull request that Chris L mentioned [a few weeks ago]. I was pleased that it all went through without any drama.
@@ -63,3 +65,4 @@ Until next time
 :author: james-mead
 :page_title: Week 924
 :extension: markdown
+:erb: true
