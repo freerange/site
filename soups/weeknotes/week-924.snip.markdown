@@ -54,11 +54,10 @@ Until next time
 [ActiveModel]: https://guides.rubyonrails.org/active_model_basics.html
 
 :name: week-924
-:updated_at: 2026-10-02 15:42:58.656818000 +01:00
-:created_at: 2026-10-02 15:42:58.656816000 +01:00
+:updated_at: 2026-10-02 17:06:32.111159000 +01:00
+:created_at: 2026-10-02 17:06:32.111156000 +01:00
 :render_as: Blog
 :kind: blog
-:draft: true
 :is_page: true
 :written_with: markdown
 :author: james-mead
