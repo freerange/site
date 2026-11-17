@@ -36,6 +36,6 @@ end
 group :development, :test do
   gem 'capybara', '~> 3.40'
   gem 'rails-controller-testing', '~> 1.0'
-  gem 'rspec-rails', '~> 8.0'
+  gem 'rspec-rails', '~> 8.1'
   gem 'timecop'
 end
