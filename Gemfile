@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby file: '.ruby-version'
 
-gem 'aws-sdk-s3', '~> 1.237'
+gem 'aws-sdk-s3', '~> 1.240'
 gem 'base62'
 gem 'bcrypt'
 gem 'benchmark'
