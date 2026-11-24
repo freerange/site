@@ -149,7 +149,7 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jmespath (1.6.2)
-    kramdown (2.5.2)
+    kramdown (2.6.1)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -370,7 +370,7 @@ DEPENDENCIES
   dotenv (~> 3.2)
   drb
   irb
-  kramdown (~> 2.5)
+  kramdown (~> 2.6)
   kramdown-parser-gfm (~> 1.1)
   listen (>= 3.0.5, < 3.11)
   logger
