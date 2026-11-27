@@ -26,7 +26,7 @@ If you have any questions, please [get in touch][email-address].
   **Note 2.**
   Subscribing to the Google Group will automatically invite you to a recurring calendar event for the Show & Tell.
 
-* [Slack channel][]
+* ~~Slack channel~~ (closed)
 * [Events on Upcoming][upcoming-event-series]
 * [Events on Attending (deprecated)][attending-event-series]
 * [Event series on Lanyrd (deprecated)][lanyrd-event-series]
@@ -46,7 +46,6 @@ If you have any questions, please [get in touch][email-address].
 * [Show and Tell 1][]
 
 [Announcement mailing list]: https://groups.google.com/a/gofreerange.com/d/forum/show-and-tell
-[Slack channel]: https://gfr-show-and-tell.slack.com/
 [upcoming-event-series]: https://upcoming.org/@freerange?when=past
 [attending-event-series]: https://attending.io/freerange
 [lanyrd-event-series]: http://lanyrd.com/series/gfr-show-and-tell/
