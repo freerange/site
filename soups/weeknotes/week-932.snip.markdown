@@ -3,7 +3,7 @@ Week 932
 
 Greetings! 
 
-It's really cold, isn't it? I've been considering buying a heated blanket. I'm currently making-do with a scarf and an unusually-timed (it's 445pm!!) cup-a-soup. 
+It's really cold, isn't it? I've been considering buying a heated blanket. I'm currently making-do with a scarf and an unusually-timed (it's 4:45pm!!) cup-a-soup. 
 
 But you didn't come here for weather tips did you? No. You came here for insight. 
 
